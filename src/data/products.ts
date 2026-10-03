@@ -6145,7 +6145,7 @@ export const PRODUCTS: Product[] = [
     "price": 137800,
     "wholesalePrice": 124020,
     "stock": 25,
-    "image": "/productos/catalogo/hik-turbo-ds-2ce16k0t-lpfs-2-8mm.webp",
+    "image": "/productos/catalogo/hik-turbo-ds-2ce16d0t-lpfs-2-8mm--o-std.webp",
     "tags": [
       "Exterior IP66/IP67"
     ],
@@ -6172,7 +6172,7 @@ export const PRODUCTS: Product[] = [
     "price": 146700,
     "wholesalePrice": 132030,
     "stock": 25,
-    "image": "/productos/catalogo/hik-turbo-ds-2ce16k0t-lfs-2-8mm.webp",
+    "image": "/productos/catalogo/Hikvision DS-2CE16K0T-LFS(2.8mm).webp",
     "tags": [
       "Exterior IP66/IP67"
     ],
@@ -6199,7 +6199,7 @@ export const PRODUCTS: Product[] = [
     "price": 155700,
     "wholesalePrice": 140130,
     "stock": 25,
-    "image": "/productos/catalogo/hik-turbo-ds-2ce17k0t-lfs-2-8mm.webp",
+    "image": "/productos/catalogo/hik-turbo-ds-2ce16d0t-lpfs-2-8mm--o-std.webp",
     "tags": [
       "Exterior IP66/IP67"
     ],
