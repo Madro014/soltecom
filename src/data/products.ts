@@ -6172,7 +6172,7 @@ export const PRODUCTS: Product[] = [
     "price": 146700,
     "wholesalePrice": 132030,
     "stock": 25,
-    "image": "/productos/catalogo/Hikvision DS-2CE16K0T-LFS(2.8mm).webp",
+    "image": "/productos/catalogo/hik-turbo-ds-2ce16d0t-lpfs-2-8mm--o-std.webp",
     "tags": [
       "Exterior IP66/IP67"
     ],
@@ -7387,7 +7387,7 @@ export const PRODUCTS: Product[] = [
     "price": 468700,
     "wholesalePrice": 421830,
     "stock": 25,
-    "image": "/productos/catalogo/hik-cit-ds-k1t320mfwx-b.webp",
+    "image": "/productos/catalogo/DS-K1T320MFWX-B.webp",
     "tags": [
       "Biométrico"
     ],
@@ -7414,7 +7414,7 @@ export const PRODUCTS: Product[] = [
     "price": 587800,
     "wholesalePrice": 529020,
     "stock": 25,
-    "image": "/productos/catalogo/hik-cit-ds-k1t321mfwx-b.webp",
+    "image": "/productos/catalogo/DS-K1T321MFWX-B.webp",
     "tags": [
       "Biométrico"
     ],
@@ -7441,7 +7441,7 @@ export const PRODUCTS: Product[] = [
     "price": 564300,
     "wholesalePrice": 507870,
     "stock": 25,
-    "image": "/productos/catalogo/hik-cit-ds-k1t323mbfwx-e1.webp",
+    "image": "/productos/catalogo/DS-K1T323MBFWX-E1.webp",
     "tags": [
       "Biométrico"
     ],
@@ -7468,7 +7468,7 @@ export const PRODUCTS: Product[] = [
     "price": 564300,
     "wholesalePrice": 507870,
     "stock": 25,
-    "image": "/productos/catalogo/hik-cit-ds-k1t323mbwx-qre1.webp",
+    "image": "/productos/catalogo/DS-K1T323MBWX-QRE1.webp",
     "tags": [
       "Biométrico",
       "PoE"
@@ -7496,7 +7496,7 @@ export const PRODUCTS: Product[] = [
     "price": 667800,
     "wholesalePrice": 601020,
     "stock": 25,
-    "image": "/productos/catalogo/hik-cit-ds-k1t343mfwx-b.webp",
+    "image": "/productos/catalogo/DS-K1T343MFWX-B.webp",
     "tags": [
       "Biométrico"
     ],
@@ -7523,7 +7523,7 @@ export const PRODUCTS: Product[] = [
     "price": 667800,
     "wholesalePrice": 601020,
     "stock": 25,
-    "image": "/productos/catalogo/hik-cit-ds-k1t343mfwx-b-o-std.webp",
+    "image": "/productos/catalogo/DS-K1T343MFWX-B_O-STD_.webp",
     "tags": [
       "Biométrico"
     ],
@@ -7550,7 +7550,7 @@ export const PRODUCTS: Product[] = [
     "price": 603400,
     "wholesalePrice": 543060,
     "stock": 25,
-    "image": "/productos/catalogo/hik-cit-ds-k1t805mbfwx.webp",
+    "image": "/productos/catalogo/DS-K1T805MBFWX.webp",
     "tags": [
       "Biométrico"
     ],
@@ -7577,7 +7577,7 @@ export const PRODUCTS: Product[] = [
     "price": 444700,
     "wholesalePrice": 400230,
     "stock": 25,
-    "image": "/productos/catalogo/hik-cit-ds-k1t320mfx.webp",
+    "image": "/productos/catalogo/DS-K1T320MFX.webp",
     "tags": [
       "WiFi",
       "Biométrico"
@@ -7605,7 +7605,7 @@ export const PRODUCTS: Product[] = [
     "price": 510600,
     "wholesalePrice": 459540,
     "stock": 25,
-    "image": "/productos/catalogo/hik-cit-ds-k1t321mfwx.webp",
+    "image": "/productos/catalogo/DS-K1T321MFWX.webp",
     "tags": [
       "Biométrico",
       "Full HD 1080p"
@@ -7631,7 +7631,7 @@ export const PRODUCTS: Product[] = [
     "price": 514500,
     "wholesalePrice": 463050,
     "stock": 25,
-    "image": "/productos/catalogo/hik-cit-ds-k1a340wx.webp",
+    "image": "/productos/catalogo/DS-K1A340WX.webp",
     "tags": [
       "WiFi",
       "Biométrico"
@@ -7659,7 +7659,7 @@ export const PRODUCTS: Product[] = [
     "price": 571400,
     "wholesalePrice": 514260,
     "stock": 25,
-    "image": "/productos/catalogo/hik-cit-ds-k1t320mfx-16.webp",
+    "image": "/productos/catalogo/DS-K1T320MFX.webp",
     "tags": [
       "WiFi",
       "Biométrico"
@@ -7687,7 +7687,7 @@ export const PRODUCTS: Product[] = [
     "price": 658400,
     "wholesalePrice": 592560,
     "stock": 25,
-    "image": "/productos/catalogo/hik-cit-ds-k1t342mwx.webp",
+    "image": "/productos/catalogo/DS-K1T342MWX.webp",
     "tags": [
       "WiFi",
       "Biométrico"
@@ -7715,7 +7715,7 @@ export const PRODUCTS: Product[] = [
     "price": 779800,
     "wholesalePrice": 701820,
     "stock": 25,
-    "image": "/productos/catalogo/hik-cit-ds-k1t342mfwx-e1.webp",
+    "image": "/productos/catalogo/DS-K1T342MFWX-E1.webp",
     "tags": [
       "Biométrico",
       "PoE"
@@ -7743,7 +7743,7 @@ export const PRODUCTS: Product[] = [
     "price": 847200,
     "wholesalePrice": 762480,
     "stock": 25,
-    "image": "/productos/catalogo/hik-cit-ds-k1t344mbwx-qre1.webp",
+    "image": "/productos/catalogo/DS-K1T344MBWX-QRE1.webp",
     "tags": [
       "WiFi",
       "Biométrico"
@@ -7769,7 +7769,7 @@ export const PRODUCTS: Product[] = [
     "price": 862800,
     "wholesalePrice": 776520,
     "stock": 25,
-    "image": "/productos/catalogo/hik-cit-ds-k1t342mwx-22.webp",
+    "image": "/productos/catalogo/DS-K1T342MWX.webp",
     "tags": [
       "Exterior IP66/IP67",
       "WiFi",
@@ -7796,7 +7796,7 @@ export const PRODUCTS: Product[] = [
     "price": 137100,
     "wholesalePrice": 123390,
     "stock": 25,
-    "image": "/productos/catalogo/hik-cit-ds-kis103-o-std--us.webp",
+    "image": "/productos/catalogo/DS-KIS103_O-STD_-US.webp",
     "tags": [
       "Profesional"
     ],
@@ -7821,7 +7821,7 @@ export const PRODUCTS: Product[] = [
     "price": 447000,
     "wholesalePrice": 402300,
     "stock": 25,
-    "image": "/productos/catalogo/hik-cit-ds-k1t320mfx-26.webp",
+    "image": "/productos/catalogo/DS-K1T320MFX.webp",
     "tags": [
       "Profesional"
     ],
@@ -7846,7 +7846,7 @@ export const PRODUCTS: Product[] = [
     "price": 492000,
     "wholesalePrice": 442800,
     "stock": 25,
-    "image": "/productos/catalogo/hik-cit-ds-kis213.webp",
+    "image": "/productos/catalogo/DS-KIS213.webp",
     "tags": [
       "Profesional"
     ],
@@ -7871,7 +7871,7 @@ export const PRODUCTS: Product[] = [
     "price": 455900,
     "wholesalePrice": 410310,
     "stock": 25,
-    "image": "/productos/catalogo/hik-cit-ds-kis203t.webp",
+    "image": "/productos/catalogo/DS-KIS203T.webp",
     "tags": [
       "Profesional"
     ],
@@ -7896,7 +7896,7 @@ export const PRODUCTS: Product[] = [
     "price": 611800,
     "wholesalePrice": 550620,
     "stock": 25,
-    "image": "/productos/catalogo/hik-cit-ds-kis302-p.webp",
+    "image": "/productos/catalogo/DS-KIS302-P.webp",
     "tags": [
       "Profesional"
     ],
@@ -7921,7 +7921,7 @@ export const PRODUCTS: Product[] = [
     "price": 625100,
     "wholesalePrice": 562590,
     "stock": 25,
-    "image": "/productos/catalogo/hik-cit-ds-k1t342mwx-30.webp",
+    "image": "/productos/catalogo/DS-K1T342MWX.webp",
     "tags": [
       "Full HD 1080p"
     ],
@@ -7946,7 +7946,7 @@ export const PRODUCTS: Product[] = [
     "price": 604400,
     "wholesalePrice": 543960,
     "stock": 25,
-    "image": "/productos/catalogo/hik-cit-ds-kis312-p-o-std.webp",
+    "image": "/productos/catalogo/DS-KIS312-P(O-STD).webp",
     "tags": [
       "Profesional"
     ],
@@ -7971,7 +7971,7 @@ export const PRODUCTS: Product[] = [
     "price": 723100,
     "wholesalePrice": 650790,
     "stock": 25,
-    "image": "/productos/catalogo/hik-cit-ds-kis606-p.webp",
+    "image": "/productos/catalogo/DS-KIS606-P.webp",
     "tags": [
       "Exterior IP66/IP67",
       "PoE"
@@ -7999,7 +7999,7 @@ export const PRODUCTS: Product[] = [
     "price": 720700,
     "wholesalePrice": 648630,
     "stock": 25,
-    "image": "/productos/catalogo/hik-cit-ds-kis605-p.webp",
+    "image": "/productos/catalogo/DS-KIS605-P(C).webp",
     "tags": [
       "PoE"
     ],
@@ -8024,7 +8024,7 @@ export const PRODUCTS: Product[] = [
     "price": 839400,
     "wholesalePrice": 755460,
     "stock": 25,
-    "image": "/productos/catalogo/hik-cit-ds-kis603-p.webp",
+    "image": "/productos/catalogo/DS-KIS603-P.webp",
     "tags": [
       "Profesional"
     ],
@@ -8049,7 +8049,7 @@ export const PRODUCTS: Product[] = [
     "price": 364400,
     "wholesalePrice": 327960,
     "stock": 25,
-    "image": "/productos/catalogo/hik-cit-ds-kv6113-wpe1.webp",
+    "image": "/productos/catalogo/DS-KV6113-WPE1.webp",
     "tags": [
       "WiFi",
       "PoE"
@@ -8075,7 +8075,7 @@ export const PRODUCTS: Product[] = [
     "price": 400900,
     "wholesalePrice": 360810,
     "stock": 25,
-    "image": "/productos/catalogo/hik-cit-ds-kv6113-wpe1-40.webp",
+    "image": "/productos/catalogo/DS-KV6113-WPE1(C).webp",
     "tags": [
       "WiFi",
       "Full HD 1080p",
@@ -8102,7 +8102,7 @@ export const PRODUCTS: Product[] = [
     "price": 475600,
     "wholesalePrice": 428040,
     "stock": 25,
-    "image": "/productos/catalogo/hik-cit-ds-kd8003-ime1-b.webp",
+    "image": "/productos/catalogo/DS-KD8003-IME1(B).webp",
     "tags": [
       "Full HD 1080p",
       "PoE"
@@ -8130,7 +8130,7 @@ export const PRODUCTS: Product[] = [
     "price": 453000,
     "wholesalePrice": 407700,
     "stock": 25,
-    "image": "/productos/catalogo/hik-cit-ds-kd8003-ime1.webp",
+    "image": "/productos/catalogo/DS-KD8003-IME1.webp",
     "tags": [
       "Full HD 1080p",
       "PoE"
@@ -8158,7 +8158,7 @@ export const PRODUCTS: Product[] = [
     "price": 741300,
     "wholesalePrice": 667170,
     "stock": 25,
-    "image": "/productos/catalogo/hik-cit-ds-kv8413-wme1.webp",
+    "image": "/productos/catalogo/DS-KV8413-WME1(C).webp",
     "tags": [
       "Full HD 1080p",
       "PoE"
