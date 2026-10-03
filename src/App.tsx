@@ -1,5 +1,6 @@
 import React, { Suspense, lazy } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { LazyMotion, domAnimation } from 'framer-motion';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import CartDrawer from './components/CartDrawer';
@@ -27,25 +28,27 @@ function PageLoader() {
 
 export default function App() {
   return (
-    <BrowserRouter>
-      <div className="min-h-screen flex flex-col bg-surface">
-        <Navbar />
-        <main className="flex-grow pt-0">
-          <Suspense fallback={<PageLoader />}>
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/nosotros" element={<Nosotros />} />
-              <Route path="/servicios" element={<Servicios />} />
-              <Route path="/productos" element={<Productos />} />
-              <Route path="/productos/:id" element={<DetalleProducto />} />
-              <Route path="/contacto" element={<Contacto />} />
-              <Route path="*" element={<Navigate to="/" replace />} />
-            </Routes>
-          </Suspense>
-        </main>
-        <Footer />
-        <CartDrawer />
-      </div>
-    </BrowserRouter>
+    <LazyMotion features={domAnimation}>
+      <BrowserRouter>
+        <div className="min-h-screen flex flex-col bg-surface">
+          <Navbar />
+          <main className="flex-grow pt-0">
+            <Suspense fallback={<PageLoader />}>
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/nosotros" element={<Nosotros />} />
+                <Route path="/servicios" element={<Servicios />} />
+                <Route path="/productos" element={<Productos />} />
+                <Route path="/productos/:id" element={<DetalleProducto />} />
+                <Route path="/contacto" element={<Contacto />} />
+                <Route path="*" element={<Navigate to="/" replace />} />
+              </Routes>
+            </Suspense>
+          </main>
+          <Footer />
+          <CartDrawer />
+        </div>
+      </BrowserRouter>
+    </LazyMotion>
   );
 }

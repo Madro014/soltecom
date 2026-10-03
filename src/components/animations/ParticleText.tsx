@@ -94,6 +94,7 @@ interface Particle {
   delay: number;
 }
 
+// react-doctor-disable-next-line react-doctor/no-giant-component
 const ParticleText: React.FC<ParticleTextProps> = ({
   text = 'React Bits',
   particleSize = 2,

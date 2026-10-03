@@ -1631,7 +1631,7 @@ export const PRODUCTS: Product[] = [
     "price": 241200,
     "wholesalePrice": 217080,
     "stock": 25,
-    "image": "/productos/catalogo/zk-lic-zkbcva-ac-p15-5w.webp",
+    "image": "/productos/catalogo/ZKBio CVSecurity.webp",
     "tags": [
       "Profesional"
     ],
@@ -1656,7 +1656,7 @@ export const PRODUCTS: Product[] = [
     "price": 706000,
     "wholesalePrice": 635400,
     "stock": 25,
-    "image": "/productos/catalogo/zk-lic-zkbcva-acp15-10w.webp",
+    "image": "/productos/catalogo/ZKBio CVSecurity.webp",
     "tags": [
       "Profesional"
     ],
@@ -1681,7 +1681,7 @@ export const PRODUCTS: Product[] = [
     "price": 1320000,
     "wholesalePrice": 1188000,
     "stock": 25,
-    "image": "/productos/catalogo/zk-lic-zkbcva-acp20.webp",
+    "image": "/productos/catalogo/ZKBio CVSecurity.webp",
     "tags": [
       "Profesional"
     ],
@@ -1706,7 +1706,7 @@ export const PRODUCTS: Product[] = [
     "price": 1628000,
     "wholesalePrice": 1465200,
     "stock": 25,
-    "image": "/productos/catalogo/zk-lic-zkbcva-acp25.webp",
+    "image": "/productos/catalogo/ZKBio CVSecurity.webp",
     "tags": [
       "Profesional"
     ],
@@ -1731,7 +1731,7 @@ export const PRODUCTS: Product[] = [
     "price": 1804000,
     "wholesalePrice": 1623600,
     "stock": 25,
-    "image": "/productos/catalogo/zk-lic-zkbcva-tap10.webp",
+    "image": "/productos/catalogo/ZKBio CVSecurity.webp",
     "tags": [
       "Profesional"
     ],
@@ -1756,7 +1756,7 @@ export const PRODUCTS: Product[] = [
     "price": 301200,
     "wholesalePrice": 271080,
     "stock": 25,
-    "image": "/productos/catalogo/zk-lic-zkbs-acp5.webp",
+    "image": "/productos/catalogo/ZKBio CVSecurity.webp",
     "tags": [
       "Profesional"
     ],
@@ -1781,7 +1781,7 @@ export const PRODUCTS: Product[] = [
     "price": 874200,
     "wholesalePrice": 786780,
     "stock": 25,
-    "image": "/productos/catalogo/zk-lic-zkbs-acp10.webp",
+    "image": "/productos/catalogo/ZKBio CVSecurity.webp",
     "tags": [
       "Profesional"
     ],
@@ -1806,7 +1806,7 @@ export const PRODUCTS: Product[] = [
     "price": 1886000,
     "wholesalePrice": 1697400,
     "stock": 25,
-    "image": "/productos/catalogo/zk-lic-zkbs-acp25.webp",
+    "image": "/productos/catalogo/ZKBio CVSecurity.webp",
     "tags": [
       "Profesional"
     ],
@@ -1831,7 +1831,7 @@ export const PRODUCTS: Product[] = [
     "price": 3543000,
     "wholesalePrice": 3188700,
     "stock": 25,
-    "image": "/productos/catalogo/zk-lic-zkbs-acp50.webp",
+    "image": "/productos/catalogo/ZKBio CVSecurity.webp",
     "tags": [
       "Profesional"
     ],
@@ -1856,7 +1856,7 @@ export const PRODUCTS: Product[] = [
     "price": 6072000,
     "wholesalePrice": 5464800,
     "stock": 25,
-    "image": "/productos/catalogo/zk-lic-zkbs-acp75.webp",
+    "image": "/productos/catalogo/ZKBio CVSecurity.webp",
     "tags": [
       "Profesional"
     ],
@@ -1881,7 +1881,7 @@ export const PRODUCTS: Product[] = [
     "price": 7590000,
     "wholesalePrice": 6831000,
     "stock": 25,
-    "image": "/productos/catalogo/zk-lic-zkbs-acp100.webp",
+    "image": "/productos/catalogo/ZKBio CVSecurity.webp",
     "tags": [
       "Profesional"
     ],
@@ -1906,7 +1906,7 @@ export const PRODUCTS: Product[] = [
     "price": 1656500,
     "wholesalePrice": 1490850,
     "stock": 25,
-    "image": "/productos/catalogo/zk-lic-zkbsvis-p1.webp",
+    "image": "/productos/catalogo/ZKBio CVSecurity.webp",
     "tags": [
       "Profesional"
     ],
@@ -1931,7 +1931,7 @@ export const PRODUCTS: Product[] = [
     "price": 3035300,
     "wholesalePrice": 2731770,
     "stock": 25,
-    "image": "/productos/catalogo/zk-lic-zkbsvis-p3-1w.webp",
+    "image": "/productos/catalogo/ZKBio CVSecurity.webp",
     "tags": [
       "Profesional"
     ],
@@ -1956,7 +1956,7 @@ export const PRODUCTS: Product[] = [
     "price": 3543000,
     "wholesalePrice": 3188700,
     "stock": 25,
-    "image": "/productos/catalogo/zk-lic-zkbsvis-p3-2w.webp",
+    "image": "/productos/catalogo/ZKBio CVSecurity.webp",
     "tags": [
       "Profesional"
     ],
@@ -1981,7 +1981,7 @@ export const PRODUCTS: Product[] = [
     "price": 4555000,
     "wholesalePrice": 4099500,
     "stock": 25,
-    "image": "/productos/catalogo/zk-lic-zkbsvis-p5-1w.webp",
+    "image": "/productos/catalogo/ZKBio CVSecurity.webp",
     "tags": [
       "Profesional"
     ],

@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import { motion } from 'framer-motion';
+import { m as motion } from 'framer-motion';
 
 export default function Magnet({ children, padding = 100, disabled = false }: { children: React.ReactNode, padding?: number, disabled?: boolean }) {
   const [isActive, setIsActive] = useState(false);

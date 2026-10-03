@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
+import { m as motion } from 'framer-motion';
 import { COMPANY_INFO } from '../data/company';
 
 export default function Hero() {

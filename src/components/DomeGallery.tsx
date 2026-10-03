@@ -124,6 +124,7 @@ function computeItemBaseRotation(offsetX: number, offsetY: number, sizeX: number
   return { rotateX, rotateY };
 }
 
+// react-doctor-disable-next-line react-doctor/no-giant-component
 export default function DomeGallery({
   images = DEFAULT_IMAGES,
   fit = 0.5,
