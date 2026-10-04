@@ -1,11 +1,24 @@
 import React, { useState } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useNavigate, useLocation } from 'react-router-dom';
 import { PRODUCTS } from '../data/products';
 import { useCartStore } from '../store/useCartStore';
 
 export default function DetalleProducto() {
   const { id } = useParams<{ id: string }>();
   const product = PRODUCTS.find((p) => p.id === id) || PRODUCTS[0];
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const handleBackToCatalog = (e?: React.MouseEvent) => {
+    if (e) e.preventDefault();
+    if (location.state?.from) {
+      navigate(location.state.from);
+    } else if (window.history.length > 1) {
+      navigate(-1);
+    } else {
+      navigate('/productos');
+    }
+  };
 
   const [toastMessage, setToastMessage] = useState<string | null>(null);
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
@@ -34,22 +47,27 @@ export default function DetalleProducto() {
               <span>Inicio</span>
             </Link>
             <span>/</span>
-            <Link to="/productos" className="hover:text-primary transition-colors">
+            <button 
+              type="button" 
+              onClick={handleBackToCatalog} 
+              className="hover:text-primary transition-colors cursor-pointer text-xs text-gray-500 font-medium"
+            >
               Catálogo B2B
-            </Link>
+            </button>
             <span>/</span>
             <span className="text-gray-800 font-semibold truncate max-w-xs sm:max-w-none">
               {product.sku}
             </span>
           </nav>
 
-          <Link
-            to="/productos"
-            className="inline-flex items-center gap-1 text-xs font-semibold text-secondary hover:text-secondary-dark transition-colors"
+          <button
+            type="button"
+            onClick={handleBackToCatalog}
+            className="inline-flex items-center gap-1 text-xs font-semibold text-secondary hover:text-secondary-dark transition-colors cursor-pointer"
           >
             <span className="material-symbols-outlined text-sm">arrow_back</span>
             <span>Volver al Catálogo</span>
-          </Link>
+          </button>
         </div>
       </section>
 

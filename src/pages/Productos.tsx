@@ -1,4 +1,5 @@
 import React, { useState, useMemo, useEffect } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import ProductCard from '../components/ProductCard';
 import { PRODUCTS } from '../data/products';
 import { Product } from '../types';
@@ -32,12 +33,112 @@ const BRANDS = [
 ];
 
 export default function Productos() {
-  const [selectedCategory, setSelectedCategory] = useState<CategoryFilter>('all');
-  const [selectedBrand, setSelectedBrand] = useState('all');
-  const [searchQuery, setSearchQuery] = useState('');
-  const [sortBy, setSortBy] = useState<'featured' | 'price-asc' | 'price-desc'>('featured');
-  const [currentPage, setCurrentPage] = useState(1);
+  const [searchParams, setSearchParams] = useSearchParams();
+
+  // Read URL search params
+  const paramBrand = searchParams.get('marca') || searchParams.get('brand') || 'all';
+  const validBrand = useMemo(() => {
+    const match = BRANDS.find((b) => b.id.toLowerCase() === paramBrand.toLowerCase());
+    return match ? match.id : 'all';
+  }, [paramBrand]);
+
+  const paramCategory = (searchParams.get('categoria') || searchParams.get('category') || 'all') as CategoryFilter;
+  const validCategory = useMemo(() => {
+    return CATEGORIES.some((c) => c.id === paramCategory) ? paramCategory : 'all';
+  }, [paramCategory]);
+
+  const paramQuery = searchParams.get('q') || searchParams.get('buscar') || '';
+  const paramSort = (searchParams.get('orden') || searchParams.get('sort') || 'featured') as 'featured' | 'price-asc' | 'price-desc';
+  const validSort = (paramSort === 'price-asc' || paramSort === 'price-desc') ? paramSort : 'featured';
+  const paramPage = parseInt(searchParams.get('pagina') || searchParams.get('page') || '1', 10);
+  const validPage = isNaN(paramPage) || paramPage < 1 ? 1 : paramPage;
+
+  const [selectedCategory, setSelectedCategory] = useState<CategoryFilter>(validCategory);
+  const [selectedBrand, setSelectedBrand] = useState(validBrand);
+  const [searchQuery, setSearchQuery] = useState(paramQuery);
+  const [sortBy, setSortBy] = useState<'featured' | 'price-asc' | 'price-desc'>(validSort);
+  const [currentPage, setCurrentPage] = useState(validPage);
   const itemsPerPage = 16;
+
+  // Keep state in sync with URL changes (browser back/forward)
+  useEffect(() => {
+    setSelectedBrand(validBrand);
+    setSelectedCategory(validCategory);
+    setSearchQuery(paramQuery);
+    setSortBy(validSort);
+    setCurrentPage(validPage);
+  }, [validBrand, validCategory, paramQuery, validSort, validPage]);
+
+  // Restore scroll position after returning from product detail
+  useEffect(() => {
+    const savedScrollY = sessionStorage.getItem('soltecom_catalog_scroll_y');
+    if (savedScrollY) {
+      const y = parseInt(savedScrollY, 10);
+      if (!isNaN(y) && y > 0) {
+        const timeout = setTimeout(() => {
+          window.scrollTo({ top: y, behavior: 'instant' });
+        }, 30);
+        return () => clearTimeout(timeout);
+      }
+    }
+  }, []);
+
+  const updateURLParams = (updates: {
+    brand?: string;
+    category?: CategoryFilter;
+    q?: string;
+    sort?: 'featured' | 'price-asc' | 'price-desc';
+    page?: number;
+  }) => {
+    const nextBrand = updates.brand !== undefined ? updates.brand : selectedBrand;
+    const nextCategory = updates.category !== undefined ? updates.category : selectedCategory;
+    const nextQ = updates.q !== undefined ? updates.q : searchQuery;
+    const nextSort = updates.sort !== undefined ? updates.sort : sortBy;
+    const nextPage = updates.page !== undefined ? updates.page : currentPage;
+
+    const params = new URLSearchParams();
+    if (nextBrand !== 'all') params.set('marca', nextBrand);
+    if (nextCategory !== 'all') params.set('categoria', nextCategory);
+    if (nextQ.trim()) params.set('q', nextQ.trim());
+    if (nextSort !== 'featured') params.set('orden', nextSort);
+    if (nextPage > 1) params.set('pagina', String(nextPage));
+
+    setSearchParams(params, { replace: true });
+  };
+
+  const handleBrandChange = (brandId: string) => {
+    setSelectedBrand(brandId);
+    setCurrentPage(1);
+    updateURLParams({ brand: brandId, page: 1 });
+  };
+
+  const handleCategoryChange = (catId: CategoryFilter) => {
+    setSelectedCategory(catId);
+    setCurrentPage(1);
+    updateURLParams({ category: catId, page: 1 });
+  };
+
+  const handleSearchChange = (query: string) => {
+    setSearchQuery(query);
+    setCurrentPage(1);
+    updateURLParams({ q: query, page: 1 });
+  };
+
+  const handleSortChange = (newSort: 'featured' | 'price-asc' | 'price-desc') => {
+    setSortBy(newSort);
+    setCurrentPage(1);
+    updateURLParams({ sort: newSort, page: 1 });
+  };
+
+  const handleResetFilters = () => {
+    setSelectedBrand('all');
+    setSelectedCategory('all');
+    setSearchQuery('');
+    setSortBy('featured');
+    setCurrentPage(1);
+    setSearchParams(new URLSearchParams(), { replace: true });
+    sessionStorage.removeItem('soltecom_catalog_scroll_y');
+  };
 
   // Filter and sort products
   const filteredProducts = useMemo(() => {
@@ -67,11 +168,6 @@ export default function Productos() {
     });
   }, [selectedCategory, selectedBrand, searchQuery, sortBy]);
 
-  // Reset to first page when filters change
-  useEffect(() => {
-    setCurrentPage(1);
-  }, [selectedCategory, selectedBrand, searchQuery, sortBy]);
-
   // Pagination calculations
   const totalPages = Math.ceil(filteredProducts.length / itemsPerPage) || 1;
   const startIndex = (currentPage - 1) * itemsPerPage;
@@ -81,6 +177,7 @@ export default function Productos() {
 
   const handlePageChange = (page: number) => {
     setCurrentPage(page);
+    updateURLParams({ page });
     const gridEl = document.getElementById('products-grid-anchor');
     if (gridEl) {
       gridEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -136,13 +233,13 @@ export default function Productos() {
                 aria-label="Buscar productos por modelo, marca o SKU"
                 placeholder="Buscar por modelo, marca o referencia..."
                 value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
+                onChange={(e) => handleSearchChange(e.target.value)}
                 className="w-full pl-10 pr-4 py-2.5 rounded-xl bg-surface-low border border-gray-200 text-sm text-surface-dark focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-[border-color,box-shadow] duration-200"
               />
               {searchQuery && (
                 <button
                   type="button"
-                  onClick={() => setSearchQuery('')}
+                  onClick={() => handleSearchChange('')}
                   aria-label="Limpiar búsqueda"
                   className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600"
                 >
@@ -164,7 +261,7 @@ export default function Productos() {
                 <select
                   id="sort-select"
                   value={sortBy}
-                  onChange={(e) => setSortBy(e.target.value as any)}
+                  onChange={(e) => handleSortChange(e.target.value as any)}
                   className="py-2 px-3 rounded-xl bg-surface-low border border-gray-200 text-xs font-medium text-surface-dark focus:outline-none focus:ring-2 focus:ring-primary"
                 >
                   <option value="featured">Destacados</option>
@@ -178,9 +275,9 @@ export default function Productos() {
           {/* Brand & Category Filters */}
           <ProductFilterControls
             selectedBrand={selectedBrand}
-            setSelectedBrand={setSelectedBrand}
+            setSelectedBrand={handleBrandChange}
             selectedCategory={selectedCategory}
-            setSelectedCategory={setSelectedCategory}
+            setSelectedCategory={handleCategoryChange}
           />
 
           {/* Active Filters Clear Bar if filtered */}
@@ -190,27 +287,23 @@ export default function Productos() {
               {selectedBrand !== 'all' && (
                 <span className="bg-white px-2 py-0.5 rounded-md border border-gray-200 flex items-center gap-1 font-medium">
                   Marca: {selectedBrand}
-                  <button type="button" aria-label="Quitar filtro de marca" onClick={() => setSelectedBrand('all')} className="hover:text-red-500 font-bold ml-1">×</button>
+                  <button type="button" aria-label="Quitar filtro de marca" onClick={() => handleBrandChange('all')} className="hover:text-red-500 font-bold ml-1">×</button>
                 </span>
               )}
               {selectedCategory !== 'all' && (
                 <span className="bg-white px-2 py-0.5 rounded-md border border-gray-200 flex items-center gap-1 font-medium">
                   Categoría: {CATEGORIES.find(c => c.id === selectedCategory)?.name}
-                  <button type="button" aria-label="Quitar filtro de categoría" onClick={() => setSelectedCategory('all')} className="hover:text-red-500 font-bold ml-1">×</button>
+                  <button type="button" aria-label="Quitar filtro de categoría" onClick={() => handleCategoryChange('all')} className="hover:text-red-500 font-bold ml-1">×</button>
                 </span>
               )}
               {searchQuery && (
                 <span className="bg-white px-2 py-0.5 rounded-md border border-gray-200 flex items-center gap-1 font-medium">
                   "{searchQuery}"
-                  <button type="button" aria-label="Limpiar búsqueda" onClick={() => setSearchQuery('')} className="hover:text-red-500 font-bold ml-1">×</button>
+                  <button type="button" aria-label="Limpiar búsqueda" onClick={() => handleSearchChange('')} className="hover:text-red-500 font-bold ml-1">×</button>
                 </span>
               )}
               <button
-                onClick={() => {
-                  setSelectedCategory('all');
-                  setSelectedBrand('all');
-                  setSearchQuery('');
-                }}
+                onClick={handleResetFilters}
                 className="ml-auto text-primary font-bold hover:underline"
               >
                 Limpiar todo
@@ -229,11 +322,7 @@ export default function Productos() {
                 No hay coincidencias para los filtros seleccionados. Intente con otra marca o categoría.
               </p>
               <button
-                onClick={() => {
-                  setSearchQuery('');
-                  setSelectedCategory('all');
-                  setSelectedBrand('all');
-                }}
+                onClick={handleResetFilters}
                 className="mt-4 px-4 py-2 bg-primary text-white text-xs font-semibold rounded-xl hover:bg-primary-dark transition-colors"
               >
                 Restablecer filtros
