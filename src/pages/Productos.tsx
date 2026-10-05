@@ -20,16 +20,16 @@ const CATEGORIES: { id: CategoryFilter; name: string }[] = [
   { id: 'incendio', name: 'Detección & Alarma de Incendio' },
 ];
 
-const BRANDS = [
+const BRANDS: { id: string; name: string; logo?: string }[] = [
   { id: 'all', name: 'Todas las Marcas' },
-  { id: 'Hikvision', name: 'Hikvision' },
-  { id: 'ZKTeco', name: 'ZKTeco' },
-  { id: 'Tiandy', name: 'Tiandy' },
-  { id: 'IMOU', name: 'IMOU' },
-  { id: 'Intelbras', name: 'Intelbras' },
-  { id: 'GAREN', name: 'GAREN' },
-  { id: 'PPA', name: 'PPA' },
-  { id: 'HAGROY', name: 'HAGROY' },
+  { id: 'Hikvision', name: 'Hikvision', logo: '/logo/hikvision-logo.webp' },
+  { id: 'ZKTeco', name: 'ZKTeco', logo: '/logo/ZKTeco.webp' },
+  { id: 'Tiandy', name: 'Tiandy', logo: '/logo/Tiandy.webp' },
+  { id: 'IMOU', name: 'IMOU', logo: '/logo/Imou.webp' },
+  { id: 'Intelbras', name: 'Intelbras', logo: '/logo/intelbras.webp' },
+  { id: 'GAREN', name: 'GAREN', logo: '/logo/Garen.webp' },
+  { id: 'PPA', name: 'PPA', logo: '/logo/PPA.webp' },
+  { id: 'HAGROY', name: 'HAGROY', logo: '/logo/Hagroy.webp' },
 ];
 
 export default function Productos() {
@@ -407,20 +407,51 @@ function ProductFilterControls({
               ? PRODUCTS.length
               : PRODUCTS.filter((p) => p.brand.toLowerCase() === b.id.toLowerCase()).length;
 
+            if (b.id === 'all' || !b.logo) {
+              return (
+                <button
+                  key={b.id}
+                  onClick={() => setSelectedBrand(b.id)}
+                  className={`inline-flex items-center gap-1.5 h-10 px-3.5 py-1.5 rounded-xl font-montserrat text-xs font-semibold whitespace-nowrap transition-all shrink-0 cursor-pointer ${
+                    isSelected
+                      ? 'bg-secondary text-white shadow-md shadow-secondary/20 scale-[1.02] border border-secondary'
+                      : 'bg-white text-gray-700 hover:bg-gray-50 hover:text-secondary border border-gray-200/80 shadow-sm'
+                  }`}
+                >
+                  <span className="material-symbols-outlined text-sm">apps</span>
+                  <span>{b.name}</span>
+                  <span
+                    className={`px-1.5 py-0.5 rounded-full text-[10px] font-bold ${
+                      isSelected ? 'bg-white/25 text-white' : 'bg-gray-100 text-gray-600'
+                    }`}
+                  >
+                    {count}
+                  </span>
+                </button>
+              );
+            }
+
             return (
               <button
                 key={b.id}
                 onClick={() => setSelectedBrand(b.id)}
-                className={`inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl font-montserrat text-xs font-semibold whitespace-nowrap transition-all shrink-0 cursor-pointer ${
+                title={b.name}
+                aria-label={`Filtrar por marca ${b.name}`}
+                className={`group inline-flex items-center gap-2 h-10 px-3 py-1 rounded-xl font-montserrat text-xs font-semibold whitespace-nowrap transition-all shrink-0 cursor-pointer bg-white ${
                   isSelected
-                    ? 'bg-secondary text-white shadow-md shadow-secondary/20 scale-[1.02]'
-                    : 'bg-white text-gray-700 hover:bg-gray-50 hover:text-secondary border border-gray-200/80 shadow-sm'
+                    ? 'border-2 border-secondary shadow-md ring-2 ring-secondary/15 scale-[1.03]'
+                    : 'border border-gray-200/80 shadow-sm hover:border-gray-300 hover:shadow'
                 }`}
               >
-                <span>{b.name}</span>
+                <img
+                  src={b.logo}
+                  alt={b.name}
+                  loading="lazy"
+                  className="h-5 sm:h-5.5 w-auto max-w-[85px] sm:max-w-[100px] object-contain transition-transform group-hover:scale-105"
+                />
                 <span
-                  className={`px-1.5 py-0.2 rounded-full text-[10px] font-bold ${
-                    isSelected ? 'bg-white/25 text-white' : 'bg-gray-100 text-gray-600'
+                  className={`px-1.5 py-0.5 rounded-full text-[10px] font-bold transition-colors ${
+                    isSelected ? 'bg-secondary text-white' : 'bg-gray-100 text-gray-600'
                   }`}
                 >
                   {count}
