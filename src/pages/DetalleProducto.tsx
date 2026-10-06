@@ -245,7 +245,7 @@ function ProductPurchaseCard({
 
   // Dynamic pricing calculation based on B2B volume
   const getUnitPrice = (qty: number) => {
-    const base = product.wholesalePrice || product.price;
+    const base = product.price;
     if (qty >= 10) return Math.round(base * 0.85); // 15% adicional para obra
     if (qty >= 3) return Math.round(base * 0.92); // 8% adicional para 3+
     return base;
@@ -308,7 +308,7 @@ function ProductPurchaseCard({
             >
               <span className="text-[11px] block font-medium">1 a 2 unid.</span>
               <span className="font-montserrat font-bold text-sm block">
-                {formatCOP(product.wholesalePrice || product.price)}
+                {formatCOP(product.price)}
               </span>
               <span className="text-[10px] text-gray-500">Precio Base</span>
             </button>
@@ -322,7 +322,7 @@ function ProductPurchaseCard({
             >
               <span className="text-[11px] block font-bold text-secondary">3 a 9 unid. (-8%)</span>
               <span className="font-montserrat font-bold text-sm block">
-                {formatCOP(Math.round((product.wholesalePrice || product.price) * 0.92))}
+                {formatCOP(Math.round(product.price * 0.92))}
               </span>
               <span className="text-[10px] text-secondary font-medium">Mayorista</span>
             </button>
@@ -336,7 +336,7 @@ function ProductPurchaseCard({
             >
               <span className="text-[11px] block font-bold text-primary">10+ unid. (-15%)</span>
               <span className="font-montserrat font-bold text-sm block">
-                {formatCOP(Math.round((product.wholesalePrice || product.price) * 0.85))}
+                {formatCOP(Math.round(product.price * 0.85))}
               </span>
               <span className="text-[10px] text-primary font-bold">Obra / Integrador</span>
             </button>

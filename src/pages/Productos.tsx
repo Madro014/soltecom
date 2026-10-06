@@ -154,8 +154,8 @@ export default function Productos() {
         item.shortDesc.toLowerCase().includes(q);
       return matchesCategory && matchesBrand && matchesSearch;
     }).sort((a, b) => {
-      const priceA = a.wholesalePrice || a.price;
-      const priceB = b.wholesalePrice || b.price;
+      const priceA = a.price;
+      const priceB = b.price;
       if (sortBy === 'price-asc') return priceA - priceB;
       if (sortBy === 'price-desc') return priceB - priceA;
       

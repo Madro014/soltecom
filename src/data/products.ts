@@ -10,7 +10,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CONTROL  de acceso autónomo, uso exterior, hasta 2000 usuarios . wiegand 26 bits, Tarjeta RFID ( em02) o contraseña ( únicamente de 6 dígito...",
     "description": "CONTROL  de acceso autónomo, uso exterior, hasta 2000 usuarios . wiegand 26 bits, Tarjeta RFID ( em02) o contraseña ( únicamente de 6 dígitos ).  12vdc, conexión para electroimán, lectoras esclavas de tarjeta o Botón de salida, timbre de puerta. Teclado retro iluminado. Dimensiones: 118*57*21mm, Garantía 1 año",
     "price": 165000,
-    "wholesalePrice": 148500,
+    "wholesalePrice": 151800,
     "stock": 25,
     "image": "/productos/catalogo/acc-aut-s6---id.webp",
     "tags": [
@@ -37,7 +37,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CONTROL de acceso autónomo, IP66. uso interior y exterior, teclado retro iluminado, hasta 5000 usuarios, recibe lectora esclava de tarjeta W...",
     "description": "CONTROL de acceso autónomo, IP66. uso interior y exterior, teclado retro iluminado, hasta 5000 usuarios, recibe lectora esclava de tarjeta Wiegand 26 y 34 bits. autenticación por Tarjeta RFID ( 125 kHz EM ) o contraseña ( únicamente de 6 dígitos ). Distancia: 5-10 cm,12vdc, timbre de puerta. dimensiones: 126,5*54*21mm.  peso: 500g.",
     "price": 267000,
-    "wholesalePrice": 240300,
+    "wholesalePrice": 245640,
     "stock": 25,
     "image": "/productos/catalogo/acc-aut-s7-id-pro.webp",
     "tags": [
@@ -64,7 +64,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CONTROL de acceso autónomo, IP66. uso interior y exterior, teclado retro iluminado, hasta 4000 usuarios, recibe lectora esclava: Wiegand 26 ...",
     "description": "CONTROL de acceso autónomo, IP66. uso interior y exterior, teclado retro iluminado, hasta 4000 usuarios, recibe lectora esclava: Wiegand 26 y 34 bits. autenticación por Tarjeta RFID ( 125 kHz EM ) o contraseña ( únicamente de 6 dígitos ). Distancia: 5-10 cm,12vdc. conexión para electroimán, lectoras esclavas de tarjeta. botón de salida tipo no touch o tipo pulsador. timbre de puerta. dimensiones: 126,5*54*21mm.  peso: 500g. Garantía 1 año",
     "price": 118000,
-    "wholesalePrice": 106200,
+    "wholesalePrice": 108560,
     "stock": 25,
     "image": "/productos/catalogo/acc-aut-s7---id.webp",
     "tags": [
@@ -91,7 +91,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CONTROL de acceso autónomo, IP66. uso interior y exterior, teclado retro iluminado, hasta 4000 usuarios, recibe lectora esclava: Wiegand 26 ...",
     "description": "CONTROL de acceso autónomo, IP66. uso interior y exterior, teclado retro iluminado, hasta 4000 usuarios, recibe lectora esclava: Wiegand 26 y 34 bits. autenticación por Tarjeta MIFARE ( 13,56 MHz MF ) o contraseña ( únicamente de 6 dígitos ). Distancia: 5-10 cm,12vdc. conexión para electroimán, lectoras esclavas kr100m-kr503mf. proid40bm, entre otras. botón de salida vz-80n , /vz-82n/, vz-80h, / vz-k1-1 , / vz- k2-1. timbre de puerta. dimensiones: 126,5*54*21mm.  peso: 500g. Garantía 1 año",
     "price": 195000,
-    "wholesalePrice": 175500,
+    "wholesalePrice": 179400,
     "stock": 25,
     "image": "/productos/catalogo/acc-aut-s7---mf.webp",
     "tags": [
@@ -118,7 +118,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CONTROL de acceso biométrico autónomo para una puerta. permite hasta 500 usuarios, método de autenticación: tarjeta RFID ( em02) o huella; t...",
     "description": "CONTROL de acceso biométrico autónomo para una puerta. permite hasta 500 usuarios, método de autenticación: tarjeta RFID ( em02) o huella; tarjeta RFID o contraseña. permite utilizar electroimán o cantonera.  botón de salida vz-80n / vz-k1-1. vz-k2-1. sensor puerta abierta, salida de alarma, timbre de puerta. garantía 1 año",
     "price": 140000,
-    "wholesalePrice": 126000,
+    "wholesalePrice": 128800,
     "stock": 25,
     "image": "/productos/catalogo/acc-aut-x7-id.webp",
     "tags": [
@@ -145,7 +145,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CONTROL  de acceso autónomo, permite hasta 2000 usuarios. wiegand 26 bits, autenticación por tarjeta RFID ( em02) o contraseña ( únicamente ...",
     "description": "CONTROL  de acceso autónomo, permite hasta 2000 usuarios. wiegand 26 bits, autenticación por tarjeta RFID ( em02) o contraseña ( únicamente de 6 dígitos ), conexión para electroimán, lectoras esclavas kr100e- kr503e, botón de salida vz-80n / vz-k1-1. vz-k2-1. timbre de puerta. Garantía 1 año",
     "price": 70000,
-    "wholesalePrice": 63000,
+    "wholesalePrice": 64400,
     "stock": 25,
     "image": "/productos/catalogo/acc-aut-289-id.webp",
     "tags": [
@@ -172,7 +172,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CONTROL de acceso autónomo para una puerta. nivel protección ip65. permite  hasta 1000 usuarios identificados con tarjeta de proximidad (em0...",
     "description": "CONTROL de acceso autónomo para una puerta. nivel protección ip65. permite  hasta 1000 usuarios identificados con tarjeta de proximidad (em02).  wiegand 26 bits.  método de autenticación: tarjeta RFID ( em02) y / o contraseña ( únicamente de 6 dígitos ).  permite utilizar electroimán, lectoras esclavas kr501e- kr503e, proid40, proid30,proid10. botón de salida. voltaje: 12v dc. dimensiones: 117  x 75  x 20 mm. Garantía 1 año",
     "price": 106000,
-    "wholesalePrice": 95400,
+    "wholesalePrice": 97520,
     "stock": 25,
     "image": "/productos/catalogo/acc-aut-290-id.webp",
     "tags": [
@@ -199,7 +199,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Lector de largo alcance RFID- Rango de Lectura de 80cm a 100 cms, Tiempo de Lectura: menos de 200ms Voltaje:12Vdc /3000mA Color Negro, Mater...",
     "description": "Lector de largo alcance RFID- Rango de Lectura de 80cm a 100 cms, Tiempo de Lectura: menos de 200ms Voltaje:12Vdc /3000mA Color Negro, Material: Plástico ABS Dimensiones: 240mm x 235mm x 35mm Indice de Protección IP65",
     "price": 326000,
-    "wholesalePrice": 293400,
+    "wholesalePrice": 299920,
     "stock": 25,
     "image": "/productos/catalogo/acc-aut-kr1000e.webp",
     "tags": [
@@ -226,7 +226,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "TARJETA de proximidad largo alcance  peatonal o vehicular. tipo EM gruesa numerada ( 125 kHz ). compatible con lectora kr1000e. distancia má...",
     "description": "TARJETA de proximidad largo alcance  peatonal o vehicular. tipo EM gruesa numerada ( 125 kHz ). compatible con lectora kr1000e. distancia máxima de lectura hasta 1 metro,  tamaño: 86x54x0.8 mm; color: blanco. PVC.",
     "price": 3000,
-    "wholesalePrice": 2700,
+    "wholesalePrice": 2760,
     "stock": 25,
     "image": "/productos/catalogo/acc-aut-em02-vh.webp",
     "tags": [
@@ -253,7 +253,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "LECTOR  y enrolador USB para tarjetas y sticker UHF. soporte: Iso18000-6c (epc c1g2) , iso18000-6b.  distancia de lectura: hasta 10 cm. Gara...",
     "description": "LECTOR  y enrolador USB para tarjetas y sticker UHF. soporte: Iso18000-6c (epc c1g2) , iso18000-6b.  distancia de lectura: hasta 10 cm. Garantía de 1 año",
     "price": 406000,
-    "wholesalePrice": 365400,
+    "wholesalePrice": 373520,
     "stock": 25,
     "image": "/productos/catalogo/acc-aut-uhf-lector-usb.webp",
     "tags": [
@@ -280,7 +280,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "ANTENA UHF vehicular para uso interior o exterior con protección ip66. de lectura máxima de hasta 6 metros de alcance. frecuencia de trabajo...",
     "description": "ANTENA UHF vehicular para uso interior o exterior con protección ip66. de lectura máxima de hasta 6 metros de alcance. frecuencia de trabajo de 865 - 928 MHz. lectura y escritura de chip uhf configurable. memoria de 16 kb. para tag. 32 kb para antena. conexión rj45 10 / 100 ethernet.. wiegand 26 y 34 bits de salida, relevo com/ NO / NC. incluye soporte y fuente de alimentación   9- 15 VDC / 4amp. dimensiones: 28 x 28 x 7 cm. Garantía de 1 año",
     "price": 1443000,
-    "wholesalePrice": 1298700,
+    "wholesalePrice": 1327560,
     "stock": 25,
     "image": "/productos/catalogo/acc-aut-uhf6m.webp",
     "tags": [
@@ -307,7 +307,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "ANTENA UHF vehicular para uso interior o exterior con protección IP66. de lectura máxima de hasta 12 metros de alcance. frecuencia de trabaj...",
     "description": "ANTENA UHF vehicular para uso interior o exterior con protección IP66. de lectura máxima de hasta 12 metros de alcance. frecuencia de trabajo de 865 - 928 MHz. lectura y escritura de chip uhf configurable. memoria de 16 kb. para tag. 32 kb para antena. conexión rj45 10 / 100 ethernet.. wiegand 26 y 34 bits de salida. relevo com/ NO / NC. incluye soporte y fuente de alimentación 9- 15 VDC / 4amp. dimensiones: 45 x 45 x 8 cm. Garantía de 1 año",
     "price": 1665000,
-    "wholesalePrice": 1498500,
+    "wholesalePrice": 1531800,
     "stock": 25,
     "image": "/productos/catalogo/acc-aut-uhf12m.webp",
     "tags": [
@@ -334,7 +334,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "STICKER UHF a prueba de agua vehicular programable.   ventaja: el numero impreso en el sticker corresponde al numero RFID.  memoria: 96 bits...",
     "description": "STICKER UHF a prueba de agua vehicular programable.   ventaja: el numero impreso en el sticker corresponde al numero RFID.  memoria: 96 bits tid, 96 bits epc number, 512 bits user memory. frecuencia 860 - 960 MHz. rango de lectura de 1 -15 metros. ( según el rango de la antena uhf )dimensiones: 110 x 40 mm. (CARRO)",
     "price": 6000,
-    "wholesalePrice": 5400,
+    "wholesalePrice": 5520,
     "stock": 25,
     "image": "/productos/catalogo/acc-aut-uhf-sticker-awp.webp",
     "tags": [
@@ -361,7 +361,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "STICKER UHF a prueba de agua vehicular programable.   ventaja: el numero impreso en el sticker corresponde al numero RFID.  memoria: 96 bits...",
     "description": "STICKER UHF a prueba de agua vehicular programable.   ventaja: el numero impreso en el sticker corresponde al numero RFID.  memoria: 96 bits tid, 96 bits epc number, 512 bits user memory. frecuencia 860 - 960 MHz. rango de lectura de 1 -15 metros. ( según el rango de la antena uhf )dimensiones: 110 x 40 mm. (MOTO)",
     "price": 6000,
-    "wholesalePrice": 5400,
+    "wholesalePrice": 5520,
     "stock": 25,
     "image": "/productos/catalogo/acc-aut-sticker-uhf-moto.webp",
     "tags": [
@@ -388,7 +388,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "ENROLADOR de tarjetas MIFARE 13,56 kHz por USB. Dimensiones: 68*18*115mm. garantía  1 año",
     "description": "ENROLADOR de tarjetas MIFARE 13,56 kHz por USB. Dimensiones: 68*18*115mm. garantía  1 año",
     "price": 92000,
-    "wholesalePrice": 82800,
+    "wholesalePrice": 84640,
     "stock": 25,
     "image": "/productos/catalogo/acc-aut-cr20m.webp",
     "tags": [
@@ -415,7 +415,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "ENROLADOR de tarjetas EM 125 kHz por USB. Dimensiones: 68*18*115mm. garantía  1 año",
     "description": "ENROLADOR de tarjetas EM 125 kHz por USB. Dimensiones: 68*18*115mm. garantía  1 año",
     "price": 59000,
-    "wholesalePrice": 53100,
+    "wholesalePrice": 54280,
     "stock": 25,
     "image": "/productos/catalogo/acc-aut-cr20e.webp",
     "tags": [
@@ -442,7 +442,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "TARJETA de proximidad tipo EM delgada numerada ( 125 kHz ) ideal para impresión de carnet de identificación laboral, distancia de lectura de...",
     "description": "TARJETA de proximidad tipo EM delgada numerada ( 125 kHz ) ideal para impresión de carnet de identificación laboral, distancia de lectura de 5 a 15cm tamaño: 86x54x0.8 mm; color: blanco. PVC.",
     "price": 1300,
-    "wholesalePrice": 1170,
+    "wholesalePrice": 1196,
     "stock": 25,
     "image": "/productos/catalogo/acc-aut-em02.webp",
     "tags": [
@@ -469,7 +469,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "TARJETA de proximidad inteligente tipo MIFARE S50: 1kb:   13,56 MHz, distancia de 3 a 5 cm. color blanco. tiempo de lectura de 1 a 2 ms.( mi...",
     "description": "TARJETA de proximidad inteligente tipo MIFARE S50: 1kb:   13,56 MHz, distancia de 3 a 5 cm. color blanco. tiempo de lectura de 1 a 2 ms.( milisegundos ). PVC. dimensiones 54x86x1.1 mm.",
     "price": 1800,
-    "wholesalePrice": 1620,
+    "wholesalePrice": 1656,
     "stock": 25,
     "image": "/productos/catalogo/acc-aut-mf1k.webp",
     "tags": [
@@ -496,7 +496,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "TARJETA maestra de proximidad inteligente tipo MIFARE, 13,56 MHz.  nxp s70: 4kb: eeprom ( chip original ) distancia de 3 a 5 cm. color blanc...",
     "description": "TARJETA maestra de proximidad inteligente tipo MIFARE, 13,56 MHz.  nxp s70: 4kb: eeprom ( chip original ) distancia de 3 a 5 cm. color blanco. tiempo de lectura de 1 a 2 ms.( milisegundos ). PVC.",
     "price": 6500,
-    "wholesalePrice": 5850,
+    "wholesalePrice": 5980,
     "stock": 25,
     "image": "/productos/catalogo/acc-aut-mf4k-nxps70.webp",
     "tags": [
@@ -523,7 +523,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "BRAZALETE de proximidad tipo RFID:  125Khz  especial para niños, adultos mayores. color azul. distancia de lectura 3 cm.",
     "description": "BRAZALETE de proximidad tipo RFID:  125Khz  especial para niños, adultos mayores. color azul. distancia de lectura 3 cm.",
     "price": 6500,
-    "wholesalePrice": 5850,
+    "wholesalePrice": 5980,
     "stock": 25,
     "image": "/productos/catalogo/acc-aut-w-em.webp",
     "tags": [
@@ -550,7 +550,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "LLAVERO de proximidad tipo EM con serial numerado ( 125 kHz ) PVC,  color azul, distancia lectura: 3 cm. diámetro 32 mm, grosor 4.3 mm.",
     "description": "LLAVERO de proximidad tipo EM con serial numerado ( 125 kHz ) PVC,  color azul, distancia lectura: 3 cm. diámetro 32 mm, grosor 4.3 mm.",
     "price": 1300,
-    "wholesalePrice": 1170,
+    "wholesalePrice": 1196,
     "stock": 25,
     "image": "/productos/catalogo/acc-aut-em03-blue.webp",
     "tags": [
@@ -577,7 +577,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "LLAVERO de proximidad tipo MIFARE 1k:  13.56mhz, en plástico ABS. color azul . nivel de protección: ip65. distancia lectura: 3 cm, dimension...",
     "description": "LLAVERO de proximidad tipo MIFARE 1k:  13.56mhz, en plástico ABS. color azul . nivel de protección: ip65. distancia lectura: 3 cm, dimensiones: 37 x 30 x 6  mm.",
     "price": 1900,
-    "wholesalePrice": 1710,
+    "wholesalePrice": 1748,
     "stock": 25,
     "image": "/productos/catalogo/acc-aut-mftag-blue.webp",
     "tags": [
@@ -604,7 +604,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CAJA metálica  de 28,5 x 30 cm. con accesorios incluidos ( prensa stopa pg11, chapa, platina y tornillos)",
     "description": "CAJA metálica  de 28,5 x 30 cm. con accesorios incluidos ( prensa stopa pg11, chapa, platina y tornillos)",
     "price": 96500,
-    "wholesalePrice": 86850,
+    "wholesalePrice": 88780,
     "stock": 25,
     "image": "/productos/catalogo/acc-aut-caja-kit-fuente.webp",
     "tags": [
@@ -631,7 +631,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CAJA metálica pequeña para  alarma y control de acceso. dimensiones: 20 x 23 x 8 cm",
     "description": "CAJA metálica pequeña para  alarma y control de acceso. dimensiones: 20 x 23 x 8 cm",
     "price": 40000,
-    "wholesalePrice": 36000,
+    "wholesalePrice": 36800,
     "stock": 25,
     "image": "/productos/catalogo/acc-aut-caja-de-alarma-20x20.webp",
     "tags": [
@@ -656,7 +656,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CAJA metálica grande para  alarma y control de acceso. dimensiones: 30,5 x 28,5 x 8 cm",
     "description": "CAJA metálica grande para  alarma y control de acceso. dimensiones: 30,5 x 28,5 x 8 cm",
     "price": 52000,
-    "wholesalePrice": 46800,
+    "wholesalePrice": 47840,
     "stock": 25,
     "image": "/productos/catalogo/acc-aut-sa-grand.webp",
     "tags": [
@@ -683,7 +683,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "FUENTE de poder para control de acceso, con anti remanente de tiempo, alimentación directa a electroimán y conexión con botones NO Touch y B...",
     "description": "FUENTE de poder para control de acceso, con anti remanente de tiempo, alimentación directa a electroimán y conexión con botones NO Touch y Botón tipo pulsador voltaje de entrada: ac110/220v 50/60hz ; voltaje de salida: 12 vdc,5a ,70w . soporta batería de respaldo 12v 7amp. dimensiones 75x40x130 mm. Garantía de 1 año",
     "price": 105000,
-    "wholesalePrice": 94500,
+    "wholesalePrice": 96600,
     "stock": 25,
     "image": "/productos/catalogo/acc-aut-h-516.webp",
     "tags": [
@@ -710,7 +710,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "BATERÍA 12 voltios 7 amperios/ 20hr. 100% plomo.",
     "description": "BATERÍA 12 voltios 7 amperios/ 20hr. 100% plomo.",
     "price": 56000,
-    "wholesalePrice": 50400,
+    "wholesalePrice": 51520,
     "stock": 25,
     "image": "/productos/catalogo/acc-aut-6fm7.webp",
     "tags": [
@@ -735,7 +735,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Sirena de 12V 30W y 2 tonos ideal para cercas eléctricas, central de incendio y sistemas de alarmas y otras aplicaciones de seguridad electr...",
     "description": "Sirena de 12V 30W y 2 tonos ideal para cercas eléctricas, central de incendio y sistemas de alarmas y otras aplicaciones de seguridad electrónica.Esta sirena de 12V 30W de doble tono es Ideal para conectarla a salidas de alarma PGM y auxiliares. Sumamente potente, emite hasta 122 decibelios Fabricada de Material plástico altamente resistente 122DB Corriente de 12V 30W Color Blanca 3 terminales de conexión 1.1 Amperio Resistente a la lluvia y rayos del sol Diseño cónico",
     "price": 53000,
-    "wholesalePrice": 47700,
+    "wholesalePrice": 48760,
     "stock": 25,
     "image": "/productos/catalogo/acc-aut-s-58.webp",
     "tags": [
@@ -762,7 +762,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Luz Estrobo Tipo Licuadora roja. uso interior. plástica. luz intermitente. 12vdc. corriente: 60 m a. 144 pulsaciones por minuto. peso: 100 g...",
     "description": "Luz Estrobo Tipo Licuadora roja. uso interior. plástica. luz intermitente. 12vdc. corriente: 60 m a. 144 pulsaciones por minuto. peso: 100 gramos. dimensiones:47 mm*72mm(alto*ancho). Garantía de 1 año",
     "price": 70500,
-    "wholesalePrice": 63450,
+    "wholesalePrice": 64860,
     "stock": 25,
     "image": "/productos/catalogo/acc-aut-sl-red-g.webp",
     "tags": [
@@ -789,7 +789,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Dispositivo de señalización mediante los cuales se regula la circulación de vehículos, bicicletas y peatones en vías, asignando el derecho d...",
     "description": "Dispositivo de señalización mediante los cuales se regula la circulación de vehículos, bicicletas y peatones en vías, asignando el derecho de paso o prelación de vehículos y peatones secuencialmente, por las indicaciones de luces de color rojo y verde, operadas por sistema electrónico de control autonomo programable o modulo de control.",
     "price": 489000,
-    "wholesalePrice": 440100,
+    "wholesalePrice": 449880,
     "stock": 25,
     "image": "/productos/catalogo/acc-aut-semaforo-in-out.webp",
     "tags": [
@@ -816,7 +816,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CONTROL  de acceso IP, Standalone, lectura de 60,000 tarjetas almacena 600,000 eventos, interfaces TCP/IP, RS232/RS485, Wiegand Entrada / Sa...",
     "description": "CONTROL  de acceso IP, Standalone, lectura de 60,000 tarjetas almacena 600,000 eventos, interfaces TCP/IP, RS232/RS485, Wiegand Entrada / Salida de relé de cerradura, Salida de alarma, Entrada auxiliar, Botón de salida / Sensor de puerta, Salida de timbre, Software ZKBio CVSECURITY",
     "price": 652000,
-    "wholesalePrice": 586800,
+    "wholesalePrice": 599840,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-prorf.webp",
     "tags": [
@@ -843,7 +843,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Control de Acceso Biométrico con Índice de Protección IP66 (Uso Exterior) capacidad para 100 huellas, lectura de 1.000 tarjetas Frecuencia D...",
     "description": "Control de Acceso Biométrico con Índice de Protección IP66 (Uso Exterior) capacidad para 100 huellas, lectura de 1.000 tarjetas Frecuencia Dual RFID 125KHz y Mifare 13,56Mhz, Almacena1,000 eventos, Interfaces TCP/IP Wiegand de entrada y salida, App Wifi ZSmart",
     "price": 367000,
-    "wholesalePrice": 330300,
+    "wholesalePrice": 337640,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-mk-v1.webp",
     "tags": [
@@ -872,7 +872,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CONTROL de acceso para 1 puerta,  IP65, Standalone, capacidad para 1500 huellas, lectura de 10,000 tarjetas, Almacena 100,000 eventos, Inter...",
     "description": "CONTROL de acceso para 1 puerta,  IP65, Standalone, capacidad para 1500 huellas, lectura de 10,000 tarjetas, Almacena 100,000 eventos, InterfacesTCP/IP, Wiegand, recibe lectora esclava de huella o tarjetas de proximidad, Antipassback, Salida de Alarma, Software BioCVAcces",
     "price": 703600,
-    "wholesalePrice": 633240,
+    "wholesalePrice": 647312,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-ma300-id.webp",
     "tags": [
@@ -899,7 +899,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CONTROL de acceso, tiempo y asistencia IP, pantalla táctil, a color 2,8 pulgadas, capacidad para 1500 huellas, almacena 80,000 registros, co...",
     "description": "CONTROL de acceso, tiempo y asistencia IP, pantalla táctil, a color 2,8 pulgadas, capacidad para 1500 huellas, almacena 80,000 registros, comunicación TCP/IP,Software ZKACCESS 3,5",
     "price": 224000,
-    "wholesalePrice": 201600,
+    "wholesalePrice": 206080,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-sf-300.webp",
     "tags": [
@@ -926,7 +926,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "ZKTECO SpeedFace V4L - Control de Acceso y Asistencia Visible Light con Autenticación Facial (800 Rostros), Autenticación de palma (800 palm...",
     "description": "ZKTECO SpeedFace V4L - Control de Acceso y Asistencia Visible Light con Autenticación Facial (800 Rostros), Autenticación de palma (800 palmas) Tarjeta ID 125 KHz (1000), Registro de 150,000 Eventos y Conectividad TCP/IP - Wifi Software ZKBioCVAcces",
     "price": 970600,
-    "wholesalePrice": 873540,
+    "wholesalePrice": 892952,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-speed---face-v4l.webp",
     "tags": [
@@ -954,7 +954,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "TERMINAL de acceso de reconocimiento facial de alta precisión, tecnología Visible Light, Algoritmo anti-spoofing, pantalla táctil de 4,3 pul...",
     "description": "TERMINAL de acceso de reconocimiento facial de alta precisión, tecnología Visible Light, Algoritmo anti-spoofing, pantalla táctil de 4,3 pulgadas, capacidad 1000 Tarjetas EM02 (RFID 125KHz), 500 rostros, almacena 150,000, comunicación TCP/IP, USB Host, 12v 1.5A. Software BIOTIME Colombia",
     "price": 417700,
-    "wholesalePrice": 375930,
+    "wholesalePrice": 384284,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-eface-10.webp",
     "tags": [
@@ -981,7 +981,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "TERMINAL de acceso, tiempo y asistencia, visible light, Ip65, reconocimiento facial, codificación QR, capacidad  hasta 500 rostros/ almacena...",
     "description": "TERMINAL de acceso, tiempo y asistencia, visible light, Ip65, reconocimiento facial, codificación QR, capacidad  hasta 500 rostros/ almacena 200,000 registros, comunicación TCP/IP, Entrada / Salida Wiegand, RS485, Software ZKBio CVSecurity - ZKBioCVAcces",
     "price": 759000,
-    "wholesalePrice": 683100,
+    "wholesalePrice": 698280,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-speed-face-v3l-qr.webp",
     "tags": [
@@ -1008,7 +1008,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "TERMINAL de acceso, tiempo y asistencia, visible light, Ip65, reconocimiento facial, capacidad  hasta 500 rostros, 3,000 huellas/ almacena 2...",
     "description": "TERMINAL de acceso, tiempo y asistencia, visible light, Ip65, reconocimiento facial, capacidad  hasta 500 rostros, 3,000 huellas/ almacena 200,000 registros, comunicación TCP/IP, Entrada / Salida Wiegand, RS485, Software ZKBio CVSecurity - ZKBioCVAcces",
     "price": 736000,
-    "wholesalePrice": 662400,
+    "wholesalePrice": 677120,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-speed-face-v3l.webp",
     "tags": [
@@ -1035,7 +1035,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "TERMINAL de acceso, tiempo y asistencia, visible light, Ip65, reconocimiento facial, capacidad  hasta 500 rostros, 3,000 huellas, 10,000 tar...",
     "description": "TERMINAL de acceso, tiempo y asistencia, visible light, Ip65, reconocimiento facial, capacidad  hasta 500 rostros, 3,000 huellas, 10,000 tarjetas/ almacena 200,000 registros, comunicación TCP/IP, Entrada / Salida Wiegand, RS485, Software ZKBio CVSecurity - ZKBioCVAcces",
     "price": 800000,
-    "wholesalePrice": 720000,
+    "wholesalePrice": 736000,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-speed-face-v3l-rfid.webp",
     "tags": [
@@ -1062,7 +1062,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "TERMINAL de acceso, tiempo y asistencia, visible light, pantalla táctil 5 pulgadas, capacidad para 6000 rostros / 3,000 palmas / 10,000 tarj...",
     "description": "TERMINAL de acceso, tiempo y asistencia, visible light, pantalla táctil 5 pulgadas, capacidad para 6000 rostros / 3,000 palmas / 10,000 tarjetas RFID, almacena 200,000 registros, comunicación TCP/IP- y Wifi, Entrada / Salida Wiegand, RS485, Software ZKBioCVAccess - ZKBioCVSecurity",
     "price": 1517700,
-    "wholesalePrice": 1365930,
+    "wholesalePrice": 1396284,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-speed--face-m4wifi.webp",
     "tags": [
@@ -1089,7 +1089,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "TERMINAL de acceso multibiometrico, visible light, Algoritmo anti-spoofing, pantalla táctil 5 pulgadas, capacidad para 6000 rostros, Capacid...",
     "description": "TERMINAL de acceso multibiometrico, visible light, Algoritmo anti-spoofing, pantalla táctil 5 pulgadas, capacidad para 6000 rostros, Capacidad para 3000 palmas, Codificacion QR, almacena 200,000 registros, comunicaciónTCP/IP entrada/salida Wiegand, RS485 .Software ZKBioAccess ZKBioCVSecurity",
     "price": 1483000,
-    "wholesalePrice": 1334700,
+    "wholesalePrice": 1364360,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-speedfacev5l-qr.webp",
     "tags": [
@@ -1116,7 +1116,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "TERMINAL de acceso multibiometrico, visible light, Algoritmo anti-spoofing, pantalla táctil 5 pulgadas, capacidad para 6000 rostros, Capacid...",
     "description": "TERMINAL de acceso multibiometrico, visible light, Algoritmo anti-spoofing, pantalla táctil 5 pulgadas, capacidad para 6000 rostros, Capacidad para 3000 palmas, Capacidad para 10,000 tarjetas, Código QR, almacena 200,000 registros, comunicaciónTCP/IP entrada/salida Wiegand, RS485 .Software ZKBioAccess ZKBioCVSecurity",
     "price": 1305000,
-    "wholesalePrice": 1174500,
+    "wholesalePrice": 1200600,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-speed-face-v5l-rfid.webp",
     "tags": [
@@ -1143,7 +1143,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "ZKTECO SenseFace 7A - Control de acceso (Conexión con electroiman o cantonera y boton de salida ) y asistencia facial para 10, 000 rostros /...",
     "description": "ZKTECO SenseFace 7A - Control de acceso (Conexión con electroiman o cantonera y boton de salida ) y asistencia facial para 10, 000 rostros / TCP/IP / 50,000 tarjetas de proximidad de 125kHz / 10,000 huellas / Compatible /  con ZKBio Zlink #NEW #ZKTOCT #Nuevo",
     "price": 1471000,
-    "wholesalePrice": 1323900,
+    "wholesalePrice": 1353320,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-sense-face-7a.webp",
     "tags": [
@@ -1170,7 +1170,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "ZKTECO SenseFace 4A - Control de acceso (Conexión con electroiman o cantonera y boton de salida ) y asistencia facial para 6,000 rostros / 8...",
     "description": "ZKTECO SenseFace 4A - Control de acceso (Conexión con electroiman o cantonera y boton de salida ) y asistencia facial para 6,000 rostros / 8,000 huellas / 8,000 tarjetas ID 125kHz / TCP/IP / Compatible con ZKBio Zlink #NEW #Nuevo",
     "price": 1153000,
-    "wholesalePrice": 1037700,
+    "wholesalePrice": 1060760,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-sense-face-4a.webp",
     "tags": [
@@ -1197,7 +1197,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "ZKTECO SenseFace2A - Control de Acceso (Conexión con electroiman o cantonera y boton de salida ) y Asistencia Visible Light con Autenticació...",
     "description": "ZKTECO SenseFace2A - Control de Acceso (Conexión con electroiman o cantonera y boton de salida ) y Asistencia Visible Light con Autenticación Facial (1500 Rostros), Huella Digital BioID (3000), Tarjeta ID 125 KHz (3000), Registro de 150,000 Eventos, Conectividad TCP/IP y WiFi #ZKTSEP #Nuevo / ZKBio Zlink",
     "price": 538000,
-    "wholesalePrice": 484200,
+    "wholesalePrice": 494960,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-sense-face-2a.webp",
     "tags": [
@@ -1225,7 +1225,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "ZKTECO M2F PRO-LR - Control de Asistencia y Acceso (Conexión con electroiman o cantonera y boton de salida ) con Autenticación Facial (500 R...",
     "description": "ZKTECO M2F PRO-LR - Control de Asistencia y Acceso (Conexión con electroiman o cantonera y boton de salida ) con Autenticación Facial (500 Rostros), Huella Digital BioID+ (1,000), Tarjeta ID 125 kHz (1,000), 150,000 Eventos y Conexión TCP/IP y conexión Wifi (Compatible con BioTime Cloud para calculos de prenomina y asistencia) #NEW #SerieM #Nuevo Incluye Bateria con autonomia de 4 horas Uso continuo Uso con Software Gratuito BioZlink",
     "price": 488300,
-    "wholesalePrice": 439470,
+    "wholesalePrice": 449236,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-m2f-pro-lr.webp",
     "tags": [
@@ -1253,7 +1253,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "ZKTECO M1 - Control de Asistencia con Huella Digital BioID+ (500), Tarjeta de Proximidad 125 kHz (500), Contraseña (500), 100,000 Eventos y ...",
     "description": "ZKTECO M1 - Control de Asistencia con Huella Digital BioID+ (500), Tarjeta de Proximidad 125 kHz (500), Contraseña (500), 100,000 Eventos y Conexión Wi-Fi (Compatible con BioTime Cloud para calculos de prenomina y asistencia) #NEW #SerieM #Nuevo Uso con Software Gratuito BioZlink",
     "price": 279000,
-    "wholesalePrice": 251100,
+    "wholesalePrice": 256680,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-m1.webp",
     "tags": [
@@ -1280,7 +1280,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CONTROLADORA de acceso compacta para 2 puertas escalable a 10  (utilizando 8 expansor DM10 no incluido), recibe lectores de tarjetas por RS4...",
     "description": "CONTROLADORA de acceso compacta para 2 puertas escalable a 10  (utilizando 8 expansor DM10 no incluido), recibe lectores de tarjetas por RS485 y Wiegand (utilizando WR485 no incluido), capacidad para 30,000 tarjetas, amacena 200,000, comunicación TCP/IP, RS485. Software ZKBioCVAccess",
     "price": 278600,
-    "wholesalePrice": 250740,
+    "wholesalePrice": 256312,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-c2-260.webp",
     "tags": [
@@ -1307,7 +1307,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CONVERTIDOR de Conexión RS485 a Wiegand para controladora C2-260",
     "description": "CONVERTIDOR de Conexión RS485 a Wiegand para controladora C2-260",
     "price": 43600,
-    "wholesalePrice": 39240,
+    "wholesalePrice": 40112,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-wr-485.webp",
     "tags": [
@@ -1332,7 +1332,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "EXPANSOR para 1 puerta, Comunicación RS485, 1 AUX de salida, 1 AUX de entrada, controladora C2-260",
     "description": "EXPANSOR para 1 puerta, Comunicación RS485, 1 AUX de salida, 1 AUX de entrada, controladora C2-260",
     "price": 99000,
-    "wholesalePrice": 89100,
+    "wholesalePrice": 91080,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-dm10.webp",
     "tags": [
@@ -1359,7 +1359,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "KIT CONTROLADORA de acceso para 2 puertas. Incluye gabinete y fuente de alimentación (no soporta batería de respaldo) hasta 4 lectoras wiega...",
     "description": "KIT CONTROLADORA de acceso para 2 puertas. Incluye gabinete y fuente de alimentación (no soporta batería de respaldo) hasta 4 lectoras wiegand o rs485 y 2 botón de salida. capacidad para 100,000 tarjetas, capacidad de registros: 200,000. Software ZKACCESS 3,5",
     "price": 764800,
-    "wholesalePrice": 688320,
+    "wholesalePrice": 703616,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-c5s120-package-a.webp",
     "tags": [
@@ -1386,7 +1386,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CONTROLADORA de acceso para 2 puertas, hasta 4 lectoras wiegand o rs485 y 2 botón de salida. capacidad para 100,000 tarjetas, almacena 200,0...",
     "description": "CONTROLADORA de acceso para 2 puertas, hasta 4 lectoras wiegand o rs485 y 2 botón de salida. capacidad para 100,000 tarjetas, almacena 200,000. Software ZKACCESS 3,5",
     "price": 500000,
-    "wholesalePrice": 450000,
+    "wholesalePrice": 460000,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-c5-s120.webp",
     "tags": [
@@ -1413,7 +1413,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CONTROLADORA de acceso para 2 puertas, hasta 4 lectoras Wiegand  26-bit, 4 botones de salida, capacidad para 30.000 tarjetas, almacena 100,0...",
     "description": "CONTROLADORA de acceso para 2 puertas, hasta 4 lectoras Wiegand  26-bit, 4 botones de salida, capacidad para 30.000 tarjetas, almacena 100,000 registros, comunicaciónTCP/IP. software ZK BioCVAcces",
     "price": 553000,
-    "wholesalePrice": 497700,
+    "wholesalePrice": 508760,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-c3-200.webp",
     "tags": [
@@ -1440,7 +1440,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "KIT CONTROLADORA de acceso para 2 puertas, hasta 4 lectoras Wiegand  26-bit, capacidad para 30.000 tarjetas, almacena 100,000 registros, com...",
     "description": "KIT CONTROLADORA de acceso para 2 puertas, hasta 4 lectoras Wiegand  26-bit, capacidad para 30.000 tarjetas, almacena 100,000 registros, comunicaciónTCP/IP. Incluye Caja metálica y fuente 12V@5a. Software ZK BioCVAcces",
     "price": 800000,
-    "wholesalePrice": 720000,
+    "wholesalePrice": 736000,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-c3-200-package-b.webp",
     "tags": [
@@ -1467,7 +1467,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CONTROLADORA de acceso para 4 puertas, hasta 4 lectoras Wiegand  26-bit, 4 botones de salida, capacidad para 30.000 tarjetas,almacena 100,00...",
     "description": "CONTROLADORA de acceso para 4 puertas, hasta 4 lectoras Wiegand  26-bit, 4 botones de salida, capacidad para 30.000 tarjetas,almacena 100,000 registros, comunicaciónTCP/IP, software ZK BioCVAcces",
     "price": 706000,
-    "wholesalePrice": 635400,
+    "wholesalePrice": 649520,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-c3-400.webp",
     "tags": [
@@ -1494,7 +1494,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "KIT CONTROLADORA de acceso para 4 puertas, hasta 4 lectoras Wiegand  26-bit, capacidad para 30.000 tarjetas, almacena 100,000 registros, com...",
     "description": "KIT CONTROLADORA de acceso para 4 puertas, hasta 4 lectoras Wiegand  26-bit, capacidad para 30.000 tarjetas, almacena 100,000 registros, comunicaciónTCP/IP. Incluye Caja metálica y fuente 12V@5a. Software ZK BioCVAcces",
     "price": 894200,
-    "wholesalePrice": 804780,
+    "wholesalePrice": 822664,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-c3-400-package-b.webp",
     "tags": [
@@ -1521,7 +1521,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CONTROLADORA de acceso para 2 puertas, hasta 4 lectoras RS485 (serie FR, huella dactilar) y 4 Wiegand (serie KR, proID) capacidad para 3,000...",
     "description": "CONTROLADORA de acceso para 2 puertas, hasta 4 lectoras RS485 (serie FR, huella dactilar) y 4 Wiegand (serie KR, proID) capacidad para 3,000 huellas, 30,000 tarjeta de proximidad, almacena 100,000 registros, comunicación TCP/IP. Software ZKBio CVSecurity",
     "price": 983000,
-    "wholesalePrice": 884700,
+    "wholesalePrice": 904360,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-inbio260-pro.webp",
     "tags": [
@@ -1548,7 +1548,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "KIT CONTROLADORA de acceso para 2 puertas, incluye gabinete y fuente de alimentación, hasta 4 lectoras RS485 (serie FR, huella dactilar) y 4...",
     "description": "KIT CONTROLADORA de acceso para 2 puertas, incluye gabinete y fuente de alimentación, hasta 4 lectoras RS485 (serie FR, huella dactilar) y 4 Wiegand (serie KR, proID) capacidad para 3,000 huellas, 30,000 tarjeta de proximidad, almacena 100,000 registros, comunicación TCP/IP. Software ZKBio CVSecurity",
     "price": 1288300,
-    "wholesalePrice": 1159470,
+    "wholesalePrice": 1185236,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-inbio260-pro-box.webp",
     "tags": [
@@ -1575,7 +1575,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Controlador de Acceso / 4 PUERTAS / Conexión con lectores wiegand y serie FR1500S - FR1200 ZKTECO / Hasta 20,000 Huellas / 30,000 Tarjetas S...",
     "description": "Controlador de Acceso / 4 PUERTAS / Conexión con lectores wiegand y serie FR1500S - FR1200 ZKTECO / Hasta 20,000 Huellas / 30,000 Tarjetas Software ZKBioCVAcces",
     "price": 1411800,
-    "wholesalePrice": 1270620,
+    "wholesalePrice": 1298856,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-inbio460-standard.webp",
     "tags": [
@@ -1602,7 +1602,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Controlador de Acceso / 4 PUERTAS / Conexión con lectores wiegand y serie FR1500S - FR1200 ZKTECO / Hasta 20,000 Huellas / 30,000 Tarjetas /...",
     "description": "Controlador de Acceso / 4 PUERTAS / Conexión con lectores wiegand y serie FR1500S - FR1200 ZKTECO / Hasta 20,000 Huellas / 30,000 Tarjetas / Incluye gabinete y fuente SoftwareZKBioCVAcces",
     "price": 1640000,
-    "wholesalePrice": 1476000,
+    "wholesalePrice": 1508800,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-inbio-460-package-b.webp",
     "tags": [
@@ -1629,7 +1629,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "LICENCIA módulo de acceso hasta 15 puertas, 5,000 usuarios",
     "description": "LICENCIA módulo de acceso hasta 15 puertas, 5,000 usuarios",
     "price": 241200,
-    "wholesalePrice": 217080,
+    "wholesalePrice": 221904,
     "stock": 25,
     "image": "/productos/catalogo/ZKBio CVSecurity.webp",
     "tags": [
@@ -1654,7 +1654,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "LICENCIA módulo de acceso hasta 15 puertas, 10,000 usuarios",
     "description": "LICENCIA módulo de acceso hasta 15 puertas, 10,000 usuarios",
     "price": 706000,
-    "wholesalePrice": 635400,
+    "wholesalePrice": 649520,
     "stock": 25,
     "image": "/productos/catalogo/ZKBio CVSecurity.webp",
     "tags": [
@@ -1679,7 +1679,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "LICENCIA módulo de acceso hasta 20 puertas, 2,000 usuarios",
     "description": "LICENCIA módulo de acceso hasta 20 puertas, 2,000 usuarios",
     "price": 1320000,
-    "wholesalePrice": 1188000,
+    "wholesalePrice": 1214400,
     "stock": 25,
     "image": "/productos/catalogo/ZKBio CVSecurity.webp",
     "tags": [
@@ -1704,7 +1704,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "LICENCIA módulo de acceso hasta 25 puertas, 5,000 usuarios,",
     "description": "LICENCIA módulo de acceso hasta 25 puertas, 5,000 usuarios,",
     "price": 1628000,
-    "wholesalePrice": 1465200,
+    "wholesalePrice": 1497760,
     "stock": 25,
     "image": "/productos/catalogo/ZKBio CVSecurity.webp",
     "tags": [
@@ -1729,7 +1729,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "LICENCIA módulo de tiempo y asistencia hasta 10 puntos, 2,000 usuarios",
     "description": "LICENCIA módulo de tiempo y asistencia hasta 10 puntos, 2,000 usuarios",
     "price": 1804000,
-    "wholesalePrice": 1623600,
+    "wholesalePrice": 1659680,
     "stock": 25,
     "image": "/productos/catalogo/ZKBio CVSecurity.webp",
     "tags": [
@@ -1754,7 +1754,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "LICENCIA modulo de acceso para 5 Puertas / Hasta 2000 Usuarios / 200 Departamentos / 200 áreas",
     "description": "LICENCIA modulo de acceso para 5 Puertas / Hasta 2000 Usuarios / 200 Departamentos / 200 áreas",
     "price": 301200,
-    "wholesalePrice": 271080,
+    "wholesalePrice": 277104,
     "stock": 25,
     "image": "/productos/catalogo/ZKBio CVSecurity.webp",
     "tags": [
@@ -1779,7 +1779,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "LICENCIA modulo de acceso para 10 Puertas / Hasta 10,000 Usuarios / 200 Departamentos / 200 áreas",
     "description": "LICENCIA modulo de acceso para 10 Puertas / Hasta 10,000 Usuarios / 200 Departamentos / 200 áreas",
     "price": 874200,
-    "wholesalePrice": 786780,
+    "wholesalePrice": 804264,
     "stock": 25,
     "image": "/productos/catalogo/ZKBio CVSecurity.webp",
     "tags": [
@@ -1804,7 +1804,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "LICENCIA modulo de acceso para 25 Puertas / Hasta 15,000 Usuarios / 500 Departamentos / 500 áreas",
     "description": "LICENCIA modulo de acceso para 25 Puertas / Hasta 15,000 Usuarios / 500 Departamentos / 500 áreas",
     "price": 1886000,
-    "wholesalePrice": 1697400,
+    "wholesalePrice": 1735120,
     "stock": 25,
     "image": "/productos/catalogo/ZKBio CVSecurity.webp",
     "tags": [
@@ -1829,7 +1829,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "LICENCIA modulo de acceso para 50 Puertas / Hasta 20,000 Usuarios / 1000 Departamentos / 1000 áreas",
     "description": "LICENCIA modulo de acceso para 50 Puertas / Hasta 20,000 Usuarios / 1000 Departamentos / 1000 áreas",
     "price": 3543000,
-    "wholesalePrice": 3188700,
+    "wholesalePrice": 3259560,
     "stock": 25,
     "image": "/productos/catalogo/ZKBio CVSecurity.webp",
     "tags": [
@@ -1854,7 +1854,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "LICENCIA modulo de acceso para 75 Puertas / Hasta 30,000 Usuarios / 1000 Departamentos / 1000 áreas",
     "description": "LICENCIA modulo de acceso para 75 Puertas / Hasta 30,000 Usuarios / 1000 Departamentos / 1000 áreas",
     "price": 6072000,
-    "wholesalePrice": 5464800,
+    "wholesalePrice": 5586240,
     "stock": 25,
     "image": "/productos/catalogo/ZKBio CVSecurity.webp",
     "tags": [
@@ -1879,7 +1879,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "LICENCIA modulo de acceso para 100 Puertas / Hasta 50,000 Usuarios / 1000 Departamentos / 1000 áreas",
     "description": "LICENCIA modulo de acceso para 100 Puertas / Hasta 50,000 Usuarios / 1000 Departamentos / 1000 áreas",
     "price": 7590000,
-    "wholesalePrice": 6831000,
+    "wholesalePrice": 6982800,
     "stock": 25,
     "image": "/productos/catalogo/ZKBio CVSecurity.webp",
     "tags": [
@@ -1904,7 +1904,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "LICENCIA para gestión de visitantes / 1 Sitio de Registro / 5000 Visitas por Mes",
     "description": "LICENCIA para gestión de visitantes / 1 Sitio de Registro / 5000 Visitas por Mes",
     "price": 1656500,
-    "wholesalePrice": 1490850,
+    "wholesalePrice": 1523980,
     "stock": 25,
     "image": "/productos/catalogo/ZKBio CVSecurity.webp",
     "tags": [
@@ -1929,7 +1929,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "LICENCIA para gestión de visitantes / 3 Sitio de Registro / 10,000 Visitas por Mes",
     "description": "LICENCIA para gestión de visitantes / 3 Sitio de Registro / 10,000 Visitas por Mes",
     "price": 3035300,
-    "wholesalePrice": 2731770,
+    "wholesalePrice": 2792476,
     "stock": 25,
     "image": "/productos/catalogo/ZKBio CVSecurity.webp",
     "tags": [
@@ -1954,7 +1954,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "LICENCIA para gestión de visitantes / 3 Sitio de Registro / 20,000 Visitas por Mes",
     "description": "LICENCIA para gestión de visitantes / 3 Sitio de Registro / 20,000 Visitas por Mes",
     "price": 3543000,
-    "wholesalePrice": 3188700,
+    "wholesalePrice": 3259560,
     "stock": 25,
     "image": "/productos/catalogo/ZKBio CVSecurity.webp",
     "tags": [
@@ -1979,7 +1979,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "LICENCIA para gestión de visitantes / 5 Sitio de Registro / 10,000 Visitas por Mes",
     "description": "LICENCIA para gestión de visitantes / 5 Sitio de Registro / 10,000 Visitas por Mes",
     "price": 4555000,
-    "wholesalePrice": 4099500,
+    "wholesalePrice": 4190600,
     "stock": 25,
     "image": "/productos/catalogo/ZKBio CVSecurity.webp",
     "tags": [
@@ -2004,7 +2004,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Motor para puerta corrediza de hasta 400KG de Peso, Velocidad de Apertura 10,5 Segundos, Entrada de voltaje DUAL AC 127VAC  -220VAC, 15 Cicl...",
     "description": "Motor para puerta corrediza de hasta 400KG de Peso, Velocidad de Apertura 10,5 Segundos, Entrada de voltaje DUAL AC 127VAC  -220VAC, 15 Ciclos por hora Tecnologia Mono Incluye 4,5 metros de cremallera para desplazamiento y dos controles remoto",
     "price": 660000,
-    "wholesalePrice": 594000,
+    "wholesalePrice": 607200,
     "stock": 25,
     "image": "/productos/catalogo/gar-dz-casa-fit-ramp.webp",
     "tags": [
@@ -2031,7 +2031,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Motor para puerta corrediza de hasta 700KG de Peso, Velocidad de Apertura 10 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, 40 Ciclos...",
     "description": "Motor para puerta corrediza de hasta 700KG de Peso, Velocidad de Apertura 10 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, 40 Ciclos por hora Tecnologia Mono Incluye 4,5 metros de cremallera para desplazamiento y dos controles remoto",
     "price": 1025000,
-    "wholesalePrice": 922500,
+    "wholesalePrice": 943000,
     "stock": 25,
     "image": "/productos/catalogo/gar-dz-max-connect.webp",
     "tags": [
@@ -2058,7 +2058,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Motor para puerta corrediza de hasta 700KG de Peso, Velocidad de Apertura 5 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, 45 Ciclos ...",
     "description": "Motor para puerta corrediza de hasta 700KG de Peso, Velocidad de Apertura 5 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, 45 Ciclos por hora Tecnologia Mono Incluye 4,5 metros de cremallera para desplazamiento y dos controles remoto",
     "price": 1576000,
-    "wholesalePrice": 1418400,
+    "wholesalePrice": 1449920,
     "stock": 25,
     "image": "/productos/catalogo/gar-dz-max-tsi.webp",
     "tags": [
@@ -2085,7 +2085,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Motor para puerta corrediza de hasta 900KG de Peso, Velocidad de Apertura 5 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, 70 Ciclos ...",
     "description": "Motor para puerta corrediza de hasta 900KG de Peso, Velocidad de Apertura 5 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, 70 Ciclos por hora Tecnologia Mono Incluye 4,5 metros de cremallera para desplazamiento y dos controles remoto",
     "price": 1591000,
-    "wholesalePrice": 1431900,
+    "wholesalePrice": 1463720,
     "stock": 25,
     "image": "/productos/catalogo/gar-kdz-tsi-pro.webp",
     "tags": [
@@ -2112,7 +2112,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Motor para puerta corrediza de hasta 1000KG de Peso, Velocidad de Apertura 5,5 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, 70 Cicl...",
     "description": "Motor para puerta corrediza de hasta 1000KG de Peso, Velocidad de Apertura 5,5 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, 70 Ciclos por hora Tecnologia Mono Incluye 4,5 metros de cremallera para desplazamiento y dos controles remoto",
     "price": 2124000,
-    "wholesalePrice": 1911600,
+    "wholesalePrice": 1954080,
     "stock": 25,
     "image": "/productos/catalogo/gar-gran-kdz-tsi-1000pro.webp",
     "tags": [
@@ -2139,7 +2139,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Motor para puerta corrediza de hasta 2000KG de Peso, Velocidad de Apertura 6 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, Uso contí...",
     "description": "Motor para puerta corrediza de hasta 2000KG de Peso, Velocidad de Apertura 6 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, Uso contínuoTecnologia Mono Incluye 4,5 metros de cremallera para desplazamiento y dos controles remoto",
     "price": 3200000,
-    "wholesalePrice": 2880000,
+    "wholesalePrice": 2944000,
     "stock": 25,
     "image": "/productos/catalogo/gar-durata-industrial-tsi.webp",
     "tags": [
@@ -2166,7 +2166,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Motor para puerta batiente de hasta 2 metros de ancho y hasta 150KG de Peso, Velocidad de Apertura 4,5 Segundos, Entrada de voltaje DUAL AC ...",
     "description": "Motor para puerta batiente de hasta 2 metros de ancho y hasta 150KG de Peso, Velocidad de Apertura 4,5 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, 40 Ciclos por hora Tamaño Estándar Motor para hoja de apertura derecha Incluye 2 controles remoto",
     "price": 1603000,
-    "wholesalePrice": 1442700,
+    "wholesalePrice": 1474760,
     "stock": 25,
     "image": "/productos/catalogo/gar-pivo-duo-tsi-simp-pro-estandar-derecha.webp",
     "tags": [
@@ -2193,7 +2193,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Motor para puerta batiente de hasta 2 metros de ancho y hasta 150KG de Peso, Velocidad de Apertura 4,5 Segundos, Entrada de voltaje DUAL AC ...",
     "description": "Motor para puerta batiente de hasta 2 metros de ancho y hasta 150KG de Peso, Velocidad de Apertura 4,5 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, 40 Ciclos por hora Tamaño Estándar Motor para hoja de apertura izquierda Incluye 2 controles remoto",
     "price": 1603000,
-    "wholesalePrice": 1442700,
+    "wholesalePrice": 1474760,
     "stock": 25,
     "image": "/productos/catalogo/gar-pivo-duo-tsi-simp-pro-estandar-izquierda.webp",
     "tags": [
@@ -2220,7 +2220,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Motor para puerta batiente de hasta 3,5 metros de ancho y hasta 350KG de Peso, Velocidad de Apertura 6 Segundos, Entrada de voltaje DUAL AC ...",
     "description": "Motor para puerta batiente de hasta 3,5 metros de ancho y hasta 350KG de Peso, Velocidad de Apertura 6 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, 40 Ciclos por hora Tamaño Estándar Motor para hoja de apertura derecha Incluye 2 controles remoto",
     "price": 1710000,
-    "wholesalePrice": 1539000,
+    "wholesalePrice": 1573200,
     "stock": 25,
     "image": "/productos/catalogo/gar-pivo-duo-black-tsi-pro-super-derecha.webp",
     "tags": [
@@ -2247,7 +2247,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Motor para puerta batiente de hasta 3,5 metros de ancho y hasta 350KG de Peso, Velocidad de Apertura 6 Segundos, Entrada de voltaje DUAL AC ...",
     "description": "Motor para puerta batiente de hasta 3,5 metros de ancho y hasta 350KG de Peso, Velocidad de Apertura 6 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, 40 Ciclos por hora Tamaño Estándar Motor para hoja de apertura izquierda Incluye 2 controles remoto",
     "price": 1710000,
-    "wholesalePrice": 1539000,
+    "wholesalePrice": 1573200,
     "stock": 25,
     "image": "/productos/catalogo/gar-pivo-duo-black-tsi-pro-super-izquierda.webp",
     "tags": [
@@ -2274,7 +2274,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Motor para puerta batiente de hasta 2 metros de ancho y hasta 450KG de Peso, Velocidad de Apertura 8 Segundos, Entrada de voltaje DUAL AC 12...",
     "description": "Motor para puerta batiente de hasta 2 metros de ancho y hasta 450KG de Peso, Velocidad de Apertura 8 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, Uso contínuo Tamaño Estándar Motor para hoja de apertura derecha Incluye 2 controles remoto",
     "price": 2095000,
-    "wholesalePrice": 1885500,
+    "wholesalePrice": 1927400,
     "stock": 25,
     "image": "/productos/catalogo/gar-grand-pivo-duo-tsi-pro-estandar-derecha.webp",
     "tags": [
@@ -2301,7 +2301,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Motor para puerta batiente para de hasta 2 metros de ancho y hasta 450KG de Peso, Velocidad de Apertura 8 Segundos, Entrada de voltaje DUAL ...",
     "description": "Motor para puerta batiente para de hasta 2 metros de ancho y hasta 450KG de Peso, Velocidad de Apertura 8 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, Uso contínuo Tamaño Estándar Motor para hoja de apertura izquierda Incluye 2 controles remoto",
     "price": 2095000,
-    "wholesalePrice": 1885500,
+    "wholesalePrice": 1927400,
     "stock": 25,
     "image": "/productos/catalogo/gar-grand-pivo-duo--estandar-izquierda.webp",
     "tags": [
@@ -2328,7 +2328,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Motor para puerta batiente de hasta 4 metros de ancho y hasta 450KG de Peso, Velocidad de Apertura 10 Segundos, Entrada de voltaje DUAL AC 1...",
     "description": "Motor para puerta batiente de hasta 4 metros de ancho y hasta 450KG de Peso, Velocidad de Apertura 10 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, Uso contínuo Tamaño Estándar Motor para hoja de apertura derecha Incluye 2 controles remoto",
     "price": 2227000,
-    "wholesalePrice": 2004300,
+    "wholesalePrice": 2048840,
     "stock": 25,
     "image": "/productos/catalogo/gar-grand-pivo-duo-tsi-pro-super-derecha.webp",
     "tags": [
@@ -2355,7 +2355,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Motor para puerta batiente de hasta 4 metros de ancho y hasta 450KG de Peso, Velocidad de Apertura 10 Segundos, Entrada de voltaje DUAL AC 1...",
     "description": "Motor para puerta batiente de hasta 4 metros de ancho y hasta 450KG de Peso, Velocidad de Apertura 10 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, Uso contínuo Tamaño Estándar Motor para hoja de apertura izquierda Incluye 2 controles remoto",
     "price": 2227000,
-    "wholesalePrice": 2004300,
+    "wholesalePrice": 2048840,
     "stock": 25,
     "image": "/productos/catalogo/gar-grand-pivo-duo-tsi-pro-super-izquierda.webp",
     "tags": [
@@ -2382,7 +2382,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Motor para puerta batiente de hasta 5 metros de ancho y hasta 450KG de Peso, Velocidad de Apertura 12 Segundos, Entrada de voltaje DUAL AC 1...",
     "description": "Motor para puerta batiente de hasta 5 metros de ancho y hasta 450KG de Peso, Velocidad de Apertura 12 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, Uso contínuo Tamaño Estándar Motor para hoja de apertura derecha Incluye 2 controles remoto",
     "price": 2417000,
-    "wholesalePrice": 2175300,
+    "wholesalePrice": 2223640,
     "stock": 25,
     "image": "/productos/catalogo/gar-grand-pivo-duo-tsi-pro-mega-pro-derecha.webp",
     "tags": [
@@ -2408,8 +2408,8 @@ export const PRODUCTS: Product[] = [
     "category": "apertura-garen",
     "shortDesc": "Motor para puerta batiente de hasta 5 metros de ancho y hasta 450KG de Peso, Velocidad de Apertura 12 Segundos, Entrada de voltaje DUAL AC 1...",
     "description": "Motor para puerta batiente de hasta 5 metros de ancho y hasta 450KG de Peso, Velocidad de Apertura 12 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, Uso contínuo Tamaño Estándar Motor para hoja de apertura izquierda Incluye 2 controles remoto",
-    "price": 2417000,
-    "wholesalePrice": 2175300,
+    "price": 2227000,
+    "wholesalePrice": 2048840,
     "stock": 25,
     "image": "/productos/catalogo/gar-grand-pivo-duo-tsi-pro-super-izquierda-23.webp",
     "tags": [
@@ -2436,7 +2436,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Motores para doble puerta batiente de hasta 2,5 metros de ancho por puerta y hasta 250KG de Peso, Velocidad de Apertura 6,5 Segundos, Entrad...",
     "description": "Motores para doble puerta batiente de hasta 2,5 metros de ancho por puerta y hasta 250KG de Peso, Velocidad de Apertura 6,5 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, 60 ciclos por hora  Incluye 2 controles remoto",
     "price": 2450000,
-    "wholesalePrice": 2205000,
+    "wholesalePrice": 2254000,
     "stock": 25,
     "image": "/productos/catalogo/gar-cj-pvd-black-dup-tsi-pro-estandar.webp",
     "tags": [
@@ -2462,8 +2462,8 @@ export const PRODUCTS: Product[] = [
     "category": "apertura-garen",
     "shortDesc": "Motores para doble puerta batiente de hasta 3 metros de ancho por puerta y hasta 250KG de Peso, Velocidad de Apertura 6,5 Segundos, Entrada ...",
     "description": "Motores para doble puerta batiente de hasta 3 metros de ancho por puerta y hasta 250KG de Peso, Velocidad de Apertura 6,5 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, 60 ciclos por hora  Incluye 2 controles remoto",
-    "price": 2544000,
-    "wholesalePrice": 2289600,
+    "price": 2450000,
+    "wholesalePrice": 2254000,
     "stock": 25,
     "image": "/productos/catalogo/gar-cj-pvd-black-dup-tsi-pro-estandar-25.webp",
     "tags": [
@@ -2490,7 +2490,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Barrera Vehicular tipo talanquera para parqueadero, velocidad de apertura 3,6 segundos, 300 ciclos por hora Incluye asta de 3,10 metros sin ...",
     "description": "Barrera Vehicular tipo talanquera para parqueadero, velocidad de apertura 3,6 segundos, 300 ciclos por hora Incluye asta de 3,10 metros sin iluminación P06338, voltaje AC 127 VAC",
     "price": 3634000,
-    "wholesalePrice": 3270600,
+    "wholesalePrice": 3343280,
     "stock": 25,
     "image": "/productos/catalogo/gar-barrera-compacta-f02064.webp",
     "tags": [
@@ -2517,7 +2517,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Barrera Vehicular tipo talanquera para parqueadero, velocidad de apertura 4 segundos, Uso contínuo Incluye asta de 3,30 metros sin iluminaci...",
     "description": "Barrera Vehicular tipo talanquera para parqueadero, velocidad de apertura 4 segundos, Uso contínuo Incluye asta de 3,30 metros sin iluminación P01941, voltaje AC 127 VAC",
     "price": 6167000,
-    "wholesalePrice": 5550300,
+    "wholesalePrice": 5673640,
     "stock": 25,
     "image": "/productos/catalogo/gar-barrera-intense--f02064.webp",
     "tags": [
@@ -2544,7 +2544,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Barrera Vehicular tipo talanquera para parqueadero, velocidad de apertura 6 segundos, Uso contínuo Incluye asta de 4,30 metros sin iluminaci...",
     "description": "Barrera Vehicular tipo talanquera para parqueadero, velocidad de apertura 6 segundos, Uso contínuo Incluye asta de 4,30 metros sin iluminación P01942, voltaje AC 127 VAC",
     "price": 6696000,
-    "wholesalePrice": 6026400,
+    "wholesalePrice": 6160320,
     "stock": 25,
     "image": "/productos/catalogo/gar-barrera-intense--f01431.webp",
     "tags": [
@@ -2571,7 +2571,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Control inalambrico para accionamiento de portones, frecuencia de 433.92 MHZ Voltaje 3V Bateria CR2032, 2 Botones",
     "description": "Control inalambrico para accionamiento de portones, frecuencia de 433.92 MHZ Voltaje 3V Bateria CR2032, 2 Botones",
     "price": 44000,
-    "wholesalePrice": 39600,
+    "wholesalePrice": 40480,
     "stock": 25,
     "image": "/productos/catalogo/gar-tx-max-negro.webp",
     "tags": [
@@ -2598,7 +2598,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Control inalambrico para accionamiento de portones, frecuencia de 433.92 MHZ Voltaje 3V Bateria CR2032, 2 Botones",
     "description": "Control inalambrico para accionamiento de portones, frecuencia de 433.92 MHZ Voltaje 3V Bateria CR2032, 2 Botones",
     "price": 44000,
-    "wholesalePrice": 39600,
+    "wholesalePrice": 40480,
     "stock": 25,
     "image": "/productos/catalogo/gar-tx-max-azul.webp",
     "tags": [
@@ -2625,7 +2625,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Control inalambrico para accionamiento de portones, frecuencia de 433.92 MHZ Voltaje 12V Bateria A23, 3 Botones",
     "description": "Control inalambrico para accionamiento de portones, frecuencia de 433.92 MHZ Voltaje 12V Bateria A23, 3 Botones",
     "price": 44000,
-    "wholesalePrice": 39600,
+    "wholesalePrice": 40480,
     "stock": 25,
     "image": "/productos/catalogo/gar-tx-st-smd.webp",
     "tags": [
@@ -2652,7 +2652,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Control inalambrico para accionamiento de portones, frecuencia de 433.92 MHZ Voltaje 3V Bateria de Litio, 4 Botones",
     "description": "Control inalambrico para accionamiento de portones, frecuencia de 433.92 MHZ Voltaje 3V Bateria de Litio, 4 Botones",
     "price": 50000,
-    "wholesalePrice": 45000,
+    "wholesalePrice": 46000,
     "stock": 25,
     "image": "/productos/catalogo/gar-tx-play-blanco.webp",
     "tags": [
@@ -2679,7 +2679,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Control inalambrico para accionamiento de portones, frecuencia de 433.92 MHZ Voltaje 3V Bateria de Litio, 4 Botones",
     "description": "Control inalambrico para accionamiento de portones, frecuencia de 433.92 MHZ Voltaje 3V Bateria de Litio, 4 Botones",
     "price": 50000,
-    "wholesalePrice": 45000,
+    "wholesalePrice": 46000,
     "stock": 25,
     "image": "/productos/catalogo/gar-tx-play-negro.webp",
     "tags": [
@@ -2706,7 +2706,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Control inalambrico para accionamiento de portones, frecuencia de 433.92 MHZ Voltaje 3V Bateria de Litio, 4 Botones",
     "description": "Control inalambrico para accionamiento de portones, frecuencia de 433.92 MHZ Voltaje 3V Bateria de Litio, 4 Botones",
     "price": 50000,
-    "wholesalePrice": 45000,
+    "wholesalePrice": 46000,
     "stock": 25,
     "image": "/productos/catalogo/gar-tx-play-azul.webp",
     "tags": [
@@ -2733,7 +2733,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Radar de movimiento con microondas, ajuste de sensibilidad y detección, unidireccional o bidireccional",
     "description": "Radar de movimiento con microondas, ajuste de sensibilidad y detección, unidireccional o bidireccional",
     "price": 484000,
-    "wholesalePrice": 435600,
+    "wholesalePrice": 445280,
     "stock": 25,
     "image": "/productos/catalogo/gar-radar-c09940.webp",
     "tags": [
@@ -2760,7 +2760,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Sensor de movimiento por Microondas y presencia por Infrarrojos, altura máxima 2,5 metros 12 - 30V AC/DC ideal para puertas automáticas",
     "description": "Sensor de movimiento por Microondas y presencia por Infrarrojos, altura máxima 2,5 metros 12 - 30V AC/DC ideal para puertas automáticas",
     "price": 550000,
-    "wholesalePrice": 495000,
+    "wholesalePrice": 506000,
     "stock": 25,
     "image": "/productos/catalogo/gar-radar-a01830.webp",
     "tags": [
@@ -2787,7 +2787,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Radar de detección a distancia con precisión 0,04m Ancho de rayo horizontal 100° Ancho de rayo vertical 30° Voltaje de funcionamiento de 9 a...",
     "description": "Radar de detección a distancia con precisión 0,04m Ancho de rayo horizontal 100° Ancho de rayo vertical 30° Voltaje de funcionamiento de 9 a 24 voltios, corriente de funcionamiento de 30mA Protección IP67",
     "price": 557000,
-    "wholesalePrice": 501300,
+    "wholesalePrice": 512440,
     "stock": 25,
     "image": "/productos/catalogo/gar-radar-ga-sc01.webp",
     "tags": [
@@ -2813,8 +2813,8 @@ export const PRODUCTS: Product[] = [
     "category": "apertura-ppa",
     "shortDesc": "Motor para puerta corrediza de hasta 400KG de Peso, Velocidad de Apertura 14 Segundos, Entrada de voltaje AC 127V, 20 Ciclos por hora Tecnol...",
     "description": "Motor para puerta corrediza de hasta 400KG de Peso, Velocidad de Apertura 14 Segundos, Entrada de voltaje AC 127V, 20 Ciclos por hora Tecnologia Mono Incluye 4 Secciones de Cremallera de 1 metro y dos controles remoto",
-    "price": 866200,
-    "wholesalePrice": 779580,
+    "price": 866250,
+    "wholesalePrice": 796950,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e02243104.webp",
     "tags": [
@@ -2841,7 +2841,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Motor para puerta corrediza de hasta 450KG de Peso, Velocidad de Apertura 4 Segundos, Entrada de voltaje DUAL AC 127VAC  220VAC, 20 Ciclos p...",
     "description": "Motor para puerta corrediza de hasta 450KG de Peso, Velocidad de Apertura 4 Segundos, Entrada de voltaje DUAL AC 127VAC  220VAC, 20 Ciclos por hora Tecnologia Jetflex Incluye 4 Secciones de Cremallera de 1 metro y dos controles remoto",
     "price": 1500000,
-    "wholesalePrice": 1350000,
+    "wholesalePrice": 1380000,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e02252400.webp",
     "tags": [
@@ -2868,7 +2868,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Motor para puerta corrediza de hasta 450KG de Peso, Velocidad de Apertura 13,5 Segundos, Entrada de voltaje AC 127V, 30 Ciclos por hora Tecn...",
     "description": "Motor para puerta corrediza de hasta 450KG de Peso, Velocidad de Apertura 13,5 Segundos, Entrada de voltaje AC 127V, 30 Ciclos por hora Tecnologia Mono Incluye 4 Secciones de Cremallera de 1 metro y dos controles remoto",
     "price": 937500,
-    "wholesalePrice": 843750,
+    "wholesalePrice": 862500,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e02130103.webp",
     "tags": [
@@ -2895,7 +2895,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Motor para puerta corrediza de hasta 500KG de Peso, Velocidad de Apertura 6,5 Segundos, Entrada de voltaje DUAL AC 127V - 220VAC, 30 Ciclos ...",
     "description": "Motor para puerta corrediza de hasta 500KG de Peso, Velocidad de Apertura 6,5 Segundos, Entrada de voltaje DUAL AC 127V - 220VAC, 30 Ciclos por hora Tecnologia LEGERO Incluye 4 Secciones de Cremallera de 1 metro y dos controles remoto",
     "price": 1000000,
-    "wholesalePrice": 900000,
+    "wholesalePrice": 920000,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e02213101.webp",
     "tags": [
@@ -2922,7 +2922,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Motor para puerta corrediza de hasta 600KG de Peso, Velocidad de Apertura 13,5 Segundos, Entrada de voltaje AC 127V, 20 Ciclos por hora Tecn...",
     "description": "Motor para puerta corrediza de hasta 600KG de Peso, Velocidad de Apertura 13,5 Segundos, Entrada de voltaje AC 127V, 20 Ciclos por hora Tecnologia Mono Incluye 4 Secciones de Cremallera de 1 metro y dos controles remoto",
     "price": 1052500,
-    "wholesalePrice": 947250,
+    "wholesalePrice": 968300,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e02244102.webp",
     "tags": [
@@ -2949,7 +2949,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Motor para puerta corrediza de hasta 500KG de Peso, Velocidad de Apertura 8,5 Segundos, Entrada de voltaje 127VAC, 20 Ciclos por hora Tecnol...",
     "description": "Motor para puerta corrediza de hasta 500KG de Peso, Velocidad de Apertura 8,5 Segundos, Entrada de voltaje 127VAC, 20 Ciclos por hora Tecnologia LEGERO Incluye 4 secciones de Cremallera de 1 metro y 2 controles remoto",
     "price": 1152500,
-    "wholesalePrice": 1037250,
+    "wholesalePrice": 1060300,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e02249102.webp",
     "tags": [
@@ -2976,7 +2976,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Motor para puerta corrediza de hasta 650KG de Peso, Velocidad de Apertura 5,5 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, 25 Ciclo...",
     "description": "Motor para puerta corrediza de hasta 650KG de Peso, Velocidad de Apertura 5,5 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, 25 Ciclos por hora Tecnologia JETFLEX Incluye 4 Secciones de Cremallera de 1 metro y 2 controles remoto",
     "price": 1752500,
-    "wholesalePrice": 1577250,
+    "wholesalePrice": 1612300,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e02253400.webp",
     "tags": [
@@ -3003,7 +3003,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Motor para puerta corrediza de hasta 800KG de Peso, Velocidad de Apertura 13,5 Segundos, Entrada de voltaje AC 127V, 40 Ciclos por hora Tecn...",
     "description": "Motor para puerta corrediza de hasta 800KG de Peso, Velocidad de Apertura 13,5 Segundos, Entrada de voltaje AC 127V, 40 Ciclos por hora Tecnologia Mono Incluye 4 Secciones de Cremallera de 1 metro y 2 controles remoto",
     "price": 1350000,
-    "wholesalePrice": 1215000,
+    "wholesalePrice": 1242000,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e02147104.webp",
     "tags": [
@@ -3030,7 +3030,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Motor para puerta corrediza de hasta 850KG de Peso, Velocidad de Apertura 4,5 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, 60 Ciclo...",
     "description": "Motor para puerta corrediza de hasta 850KG de Peso, Velocidad de Apertura 4,5 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, 60 Ciclos por hora Tecnologia JETFLEX BRUSHLESS Incluye 4 Secciones de 1 metro y 2 controles remoto",
     "price": 2075000,
-    "wholesalePrice": 1867500,
+    "wholesalePrice": 1909000,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e02128403.webp",
     "tags": [
@@ -3056,8 +3056,8 @@ export const PRODUCTS: Product[] = [
     "category": "apertura-ppa",
     "shortDesc": "Motor para puerta corrediza de hasta 500KG de Peso, Velocidad de Apertura 5,5 Segundos, Entrada de voltaje DUAL AC 127V - 220VAC, 60 Ciclos ...",
     "description": "Motor para puerta corrediza de hasta 500KG de Peso, Velocidad de Apertura 5,5 Segundos, Entrada de voltaje DUAL AC 127V - 220VAC, 60 Ciclos por hora Tecnologia JETFLEX 24V",
-    "price": 2406200,
-    "wholesalePrice": 2165580,
+    "price": 2406250,
+    "wholesalePrice": 2213750,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e02271400.webp",
     "tags": [
@@ -3084,7 +3084,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Motor para puerta corrediza de hasta 650KG de Peso, Velocidad de Apertura 4 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, 50 Ciclos ...",
     "description": "Motor para puerta corrediza de hasta 650KG de Peso, Velocidad de Apertura 4 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, 50 Ciclos por hora Tecnologia JETFLEX",
     "price": 1850000,
-    "wholesalePrice": 1665000,
+    "wholesalePrice": 1702000,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e02127403.webp",
     "tags": [
@@ -3111,7 +3111,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Motor para puerta corrediza de hasta 800KG de Peso, Velocidad de Apertura 13,5 Segundos, Entrada de voltaje 127VAC, 40 Ciclos por hora Tecno...",
     "description": "Motor para puerta corrediza de hasta 800KG de Peso, Velocidad de Apertura 13,5 Segundos, Entrada de voltaje 127VAC, 40 Ciclos por hora Tecnologia MONO Incluye 4 secciones de Cremallera de 1 metro y 2 controles remoto",
     "price": 1345000,
-    "wholesalePrice": 1210500,
+    "wholesalePrice": 1237400,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e02147103.webp",
     "tags": [
@@ -3138,7 +3138,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Motor para puerta corrediza de hasta 850KG de Peso, Velocidad de Apertura 5,5 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, 60 Ciclo...",
     "description": "Motor para puerta corrediza de hasta 850KG de Peso, Velocidad de Apertura 5,5 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, 60 Ciclos por hora Tecnologia JETFLEX BRUSHLESS Incluye 4 secciones de Cremallera de 1 metro y 2 controles remoto",
     "price": 2112500,
-    "wholesalePrice": 1901250,
+    "wholesalePrice": 1943500,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e02128401.webp",
     "tags": [
@@ -3165,7 +3165,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Motor para puerta corrediza de hasta 700KG de Peso, Velocidad de Apertura 13,5 Segundos, Entrada de voltaje 127VAC, 60 Ciclos por hora Tecno...",
     "description": "Motor para puerta corrediza de hasta 700KG de Peso, Velocidad de Apertura 13,5 Segundos, Entrada de voltaje 127VAC, 60 Ciclos por hora Tecnologia MONO  Incluye 4 secciones de Cremallera de 1 metro y 2 controles remoto",
     "price": 1352500,
-    "wholesalePrice": 1217250,
+    "wholesalePrice": 1244300,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e02481007.webp",
     "tags": [
@@ -3192,7 +3192,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Motor para puerta corrediza de hasta 700KG de Peso, Velocidad de Apertura 13,5 Segundos, Entrada de voltaje 127VAC, 60 Ciclos por hora Tecno...",
     "description": "Motor para puerta corrediza de hasta 700KG de Peso, Velocidad de Apertura 13,5 Segundos, Entrada de voltaje 127VAC, 60 Ciclos por hora Tecnologia MONO Incluye 4 Secciones de 1 metro y 2 controles remoto",
     "price": 1345000,
-    "wholesalePrice": 1210500,
+    "wholesalePrice": 1237400,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e02481005.webp",
     "tags": [
@@ -3218,8 +3218,8 @@ export const PRODUCTS: Product[] = [
     "category": "apertura-ppa",
     "shortDesc": "Motor para puerta corrediza de hasta 800KG de Peso, Velocidad de Apertura 4,5 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, 70 Ciclo...",
     "description": "Motor para puerta corrediza de hasta 800KG de Peso, Velocidad de Apertura 4,5 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, 70 Ciclos por hora Tecnologia Incluye 4 Secciones de 1 metro y 2 controles remoto",
-    "price": 2068800,
-    "wholesalePrice": 1861920,
+    "price": 2068750,
+    "wholesalePrice": 1903250,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e02514006.webp",
     "tags": [
@@ -3245,8 +3245,8 @@ export const PRODUCTS: Product[] = [
     "category": "apertura-ppa",
     "shortDesc": "Motor para puerta corrediza de hasta 800KG de Peso, Velocidad de Apertura 5,5 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, 80 Ciclo...",
     "description": "Motor para puerta corrediza de hasta 800KG de Peso, Velocidad de Apertura 5,5 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, 80 Ciclos por hora Tecnologia JETFLEX BRUSHLESS Incluye 4 Secciones de 1 metro y 2 controles remoto",
-    "price": 2068800,
-    "wholesalePrice": 1861920,
+    "price": 2068750,
+    "wholesalePrice": 1903250,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e02111504.webp",
     "tags": [
@@ -3273,7 +3273,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Motor para puerta corrediza de hasta 1000KG de Peso, Velocidad de Apertura 18,5 Segundos, Entrada de voltaje AC 127VAC, 50 Ciclos por hora T...",
     "description": "Motor para puerta corrediza de hasta 1000KG de Peso, Velocidad de Apertura 18,5 Segundos, Entrada de voltaje AC 127VAC, 50 Ciclos por hora Tecnologia MONO  Incluye 4 secciones de Cremallera de 1 metro y 2 controles remoto",
     "price": 2115000,
-    "wholesalePrice": 1903500,
+    "wholesalePrice": 1945800,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e06281002.webp",
     "tags": [
@@ -3300,7 +3300,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Motor para puerta corrediza de hasta 1500KG de Peso, Velocidad de Apertura 5,5 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, 60 Cicl...",
     "description": "Motor para puerta corrediza de hasta 1500KG de Peso, Velocidad de Apertura 5,5 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, 60 Ciclos por hora Tecnologia JETFLEX Incluye 4 secciones de Cremallera de 1 metro y 2 controles remoto",
     "price": 3270000,
-    "wholesalePrice": 2943000,
+    "wholesalePrice": 3008400,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e06264002.webp",
     "tags": [
@@ -3327,7 +3327,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Motor para puerta corrediza de hasta 2000KG de Peso, Velocidad de Apertura 18,5 Segundos, Entrada de voltaje 220VAC, 40 Ciclos por hora Tecn...",
     "description": "Motor para puerta corrediza de hasta 2000KG de Peso, Velocidad de Apertura 18,5 Segundos, Entrada de voltaje 220VAC, 40 Ciclos por hora Tecnologia MONO Incluye 4 secciones de Cremallera de 1 metro y 2 controles remoto",
     "price": 2307500,
-    "wholesalePrice": 2076750,
+    "wholesalePrice": 2122900,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e06272002.webp",
     "tags": [
@@ -3354,7 +3354,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Motor para puerta corrediza de hasta 1000KG de Peso, Velocidad de Apertura 13 Segundos, Entrada de voltaje AC 127VAC, 60 Ciclos por hora Tec...",
     "description": "Motor para puerta corrediza de hasta 1000KG de Peso, Velocidad de Apertura 13 Segundos, Entrada de voltaje AC 127VAC, 60 Ciclos por hora Tecnologia MONO Incluye 4 Secciones de 1 metro y 2 controles remoto",
     "price": 2115000,
-    "wholesalePrice": 1903500,
+    "wholesalePrice": 1945800,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e06281000.webp",
     "tags": [
@@ -3381,7 +3381,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Motor para puerta corrediza de hasta 1000KG de Peso, Velocidad de Apertura 5,5 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, 80 Cicl...",
     "description": "Motor para puerta corrediza de hasta 1000KG de Peso, Velocidad de Apertura 5,5 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, 80 Ciclos por hora Tecnologia JETFLEX Incluye 4 Secciones de 1 metro y 2 controles remoto",
     "price": 2787500,
-    "wholesalePrice": 2508750,
+    "wholesalePrice": 2564500,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e06184003.webp",
     "tags": [
@@ -3408,7 +3408,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Motor para puerta corrediza de hasta 1300KG de Peso, Velocidad de Apertura 4,5 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, 80 Cicl...",
     "description": "Motor para puerta corrediza de hasta 1300KG de Peso, Velocidad de Apertura 4,5 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, 80 Ciclos por hora Tecnologia JETFLEX  Incluye 4 Secciones de 1 metro y 2 controles remoto",
     "price": 2980000,
-    "wholesalePrice": 2682000,
+    "wholesalePrice": 2741600,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e06684000.webp",
     "tags": [
@@ -3435,7 +3435,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Motor para puerta corrediza de hasta 1500KG de Peso, Velocidad de Apertura 4 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, 100 Ciclo...",
     "description": "Motor para puerta corrediza de hasta 1500KG de Peso, Velocidad de Apertura 4 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, 100 Ciclos por hora Tecnologia JETFLEX   Incluye 4 secciones de Cremallera de 1 metro y 2 controles remoto",
     "price": 3270000,
-    "wholesalePrice": 2943000,
+    "wholesalePrice": 3008400,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e06264001.webp",
     "tags": [
@@ -3462,7 +3462,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Motor para puerta corrediza de hasta 2000KG de Peso, Velocidad de Apertura 13 Segundos, Entrada de voltaje 220VAC, 80 Ciclos por hora Tecnol...",
     "description": "Motor para puerta corrediza de hasta 2000KG de Peso, Velocidad de Apertura 13 Segundos, Entrada de voltaje 220VAC, 80 Ciclos por hora Tecnologia MONO Incluye 4 secciones de Cremallera de 1 metro y 2 controles remoto",
     "price": 2307500,
-    "wholesalePrice": 2076750,
+    "wholesalePrice": 2122900,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e06272000.webp",
     "tags": [
@@ -3489,7 +3489,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Motor para puerta corrediza de hasta 2200KG de Peso, Velocidad de Apertura 5 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, 120 Ciclo...",
     "description": "Motor para puerta corrediza de hasta 2200KG de Peso, Velocidad de Apertura 5 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, 120 Ciclos por hora Uso Intensivo Tecnologia JETFLEX BRUSHLESS Incluye 4 secciones de Cremallera de 1 metro y 2 controles remoto",
     "price": 3365000,
-    "wholesalePrice": 3028500,
+    "wholesalePrice": 3095800,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e06614002.webp",
     "tags": [
@@ -3516,7 +3516,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Motor para puerta corrediza de hasta 3000KG de Peso, Velocidad de Apertura 7 Segundos, Entrada de voltaje DUAL AC 127VAC -  220VAC, 150 Cicl...",
     "description": "Motor para puerta corrediza de hasta 3000KG de Peso, Velocidad de Apertura 7 Segundos, Entrada de voltaje DUAL AC 127VAC -  220VAC, 150 Ciclos por hora Uso Intensivo Tecnologia JETFLEX Incluye 4 Secciones de 1 metro y 2 controles remoto",
     "price": 5562500,
-    "wholesalePrice": 5006250,
+    "wholesalePrice": 5117500,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e06704002.webp",
     "tags": [
@@ -3542,8 +3542,8 @@ export const PRODUCTS: Product[] = [
     "category": "apertura-ppa",
     "shortDesc": "Motor para puerta batiente para puertas de hasta 2 metros de ancho y hasta 125KG de Peso, Velocidad de Apertura 9,5 Segundos, Entrada de vol...",
     "description": "Motor para puerta batiente para puertas de hasta 2 metros de ancho y hasta 125KG de Peso, Velocidad de Apertura 9,5 Segundos, Entrada de voltaje 127VAC, 20 Ciclos por hora Tecnologia MONO Tamaño Estándar",
-    "price": 1441200,
-    "wholesalePrice": 1297080,
+    "price": 1441250,
+    "wholesalePrice": 1325950,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e03481004.webp",
     "tags": [
@@ -3570,7 +3570,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Motor para puerta batiente para puertas de hasta 3 metros de ancho y hasta 125KG de Peso, Velocidad de Apertura 16,5 Segundos, Entrada de vo...",
     "description": "Motor para puerta batiente para puertas de hasta 3 metros de ancho y hasta 125KG de Peso, Velocidad de Apertura 16,5 Segundos, Entrada de voltaje 127VAC, 20 Ciclos por hora Tecnologia MONO Tamaño Super",
     "price": 1520000,
-    "wholesalePrice": 1368000,
+    "wholesalePrice": 1398400,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e03481005.webp",
     "tags": [
@@ -3596,8 +3596,8 @@ export const PRODUCTS: Product[] = [
     "category": "apertura-ppa",
     "shortDesc": "Motor para puerta batiente para puertas de hasta 2 metros de ancho y hasta 125KG de Peso, Velocidad de Apertura 2,5 Segundos, Entrada de vol...",
     "description": "Motor para puerta batiente para puertas de hasta 2 metros de ancho y hasta 125KG de Peso, Velocidad de Apertura 2,5 Segundos, Entrada de voltaje DUAL 127VAC - 220VAC, 40 Ciclos por hora Tecnologia JETFLEX Tamaño Estándar",
-    "price": 2078800,
-    "wholesalePrice": 1870920,
+    "price": 2078750,
+    "wholesalePrice": 1912450,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e03414004---a17818.webp",
     "tags": [
@@ -3623,8 +3623,8 @@ export const PRODUCTS: Product[] = [
     "category": "cctv",
     "shortDesc": "Cámara IP bala infrarroja fija Carcasa de metal y plástico Hasta 1920×1080 2MPX a 30 fps S+265/H.265/H.264 Iluminación mínima de color: 0,04...",
     "description": "Cámara IP bala infrarroja fija Carcasa de metal y plástico Hasta 1920×1080 2MPX a 30 fps S+265/H.265/H.264 Iluminación mínima de color: 0,04 Lux a F2,2 IR inteligente, alcance IR: 30 m Micrófono incorporado POE",
-    "price": 87000,
-    "wholesalePrice": 78300,
+    "price": 86973,
+    "wholesalePrice": 80015,
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-c321n-spec-i3-e-y-2-8mm.webp",
     "tags": [
@@ -3651,8 +3651,8 @@ export const PRODUCTS: Product[] = [
     "category": "cctv",
     "shortDesc": "Cámara IP domo a color Carcasa de plástico Hasta 2 MP, 1920 × 1080 a 30 fpsS265/H.265/H.264B/H.264M/H.264 Color: 0,02 Lux a (F1.6, AGC activ...",
     "description": "Cámara IP domo a color Carcasa de plástico Hasta 2 MP, 1920 × 1080 a 30 fpsS265/H.265/H.264B/H.264M/H.264 Color: 0,02 Lux a (F1.6, AGC activado), B/N: 0 Lux con IR Alcance IR de hasta 30 m Micrófono incorporado  PoE: IEEE 802.3af, máx. 3 W",
-    "price": 84900,
-    "wholesalePrice": 76410,
+    "price": 84927,
+    "wholesalePrice": 78133,
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-c320n-1anb-28.webp",
     "tags": [
@@ -3679,7 +3679,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Cámara IP bala infrarroja fija Carcasa de plástico Hasta 1920×1080 a 30 fps S+265/H.265/H.264 Iluminación mínima de color: 0,04 Lux a F2,2 I...",
     "description": "Cámara IP bala infrarroja fija Carcasa de plástico Hasta 1920×1080 a 30 fps S+265/H.265/H.264 Iluminación mínima de color: 0,04 Lux a F2,2 IR inteligente, alcance IR: 30 m Micrófono incorporado POE",
     "price": 79300,
-    "wholesalePrice": 71370,
+    "wholesalePrice": 72956,
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-c321n-spec-i3-e-y-2-8mm-v2-0.webp",
     "tags": [
@@ -3705,8 +3705,8 @@ export const PRODUCTS: Product[] = [
     "category": "cctv",
     "shortDesc": "Cámara IP domo infrarroja fija Carcasa de plástico+metal Hasta 1920×1080  2MPX a 30 fps S+265/H.265/H.264 Iluminación mínima de color: 0,04 ...",
     "description": "Cámara IP domo infrarroja fija Carcasa de plástico+metal Hasta 1920×1080  2MPX a 30 fps S+265/H.265/H.264 Iluminación mínima de color: 0,04 Lux a F2,2 IR inteligente, alcance IR: 30 m Micrófono incorporado POE",
-    "price": 83900,
-    "wholesalePrice": 75510,
+    "price": 83925,
+    "wholesalePrice": 77211,
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-c320n-spec-i3-e-y-2-8mm-v2-0.webp",
     "tags": [
@@ -3733,8 +3733,8 @@ export const PRODUCTS: Product[] = [
     "category": "cctv",
     "shortDesc": "Mini cámara bala a color Carcasa de plástico hasta 2 MP, 1920 × 1080 a 30 fpsS265/H.265/H.264B/H.264M/H.264H Color: 0,02 Lux a (F1.6, AGC ac...",
     "description": "Mini cámara bala a color Carcasa de plástico hasta 2 MP, 1920 × 1080 a 30 fpsS265/H.265/H.264B/H.264M/H.264H Color: 0,02 Lux a (F1.6, AGC activado), B/N: 0 Lux con IR Alcance IR de hasta 30 m Micrófono incorporado  PoE: IEEE 802.3af, máx. 3 W IP67",
-    "price": 94000,
-    "wholesalePrice": 84600,
+    "price": 94044,
+    "wholesalePrice": 86520,
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-c321n-spec-ak-i3w-e-y-2-8mm-v2-0.webp",
     "tags": [
@@ -3761,8 +3761,8 @@ export const PRODUCTS: Product[] = [
     "category": "cctv",
     "shortDesc": "Cámara de domo Lente dual 2MPX, sensor dual, una IP, dos canales Carcasa de plástico Hasta 1920×1080 a 30 fpsS 265/H.265/H.264 Iluminación m...",
     "description": "Cámara de domo Lente dual 2MPX, sensor dual, una IP, dos canales Carcasa de plástico Hasta 1920×1080 a 30 fpsS 265/H.265/H.264 Iluminación mínima de color: 0,02 Lux a F1,6 IR inteligente, alcance IR: 50 m Micrófono incorporado POE (802.3af) IP67",
-    "price": 282900,
-    "wholesalePrice": 254610,
+    "price": 282925,
+    "wholesalePrice": 260291,
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-c32rn-spec-i5-e-y-qx-2-8mm-v4-2.webp",
     "tags": [
@@ -3790,8 +3790,8 @@ export const PRODUCTS: Product[] = [
     "category": "cctv",
     "shortDesc": "Camara Bala 4MPX Carcasa de metal y plástico Hasta 4 MP, 2560×1440 a 20 fpsS265/H.265/H.264B/H.264M/H.264H Color: 0,02 lux (F1.6, AGC activa...",
     "description": "Camara Bala 4MPX Carcasa de metal y plástico Hasta 4 MP, 2560×1440 a 20 fpsS265/H.265/H.264B/H.264M/H.264H Color: 0,02 lux (F1.6, AGC activado), B/N: 0 lux con infrarrojos Alcance infrarrojo de hasta 30m Micrófono integrado PoE: IEEE 802.3af, máx.6W IP67",
-    "price": 178100,
-    "wholesalePrice": 160290,
+    "price": 178139,
+    "wholesalePrice": 163888,
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-c34qn-spec-i3-e-y-2-8mm-v5-0.webp",
     "tags": [
@@ -3818,8 +3818,8 @@ export const PRODUCTS: Product[] = [
     "category": "cctv",
     "shortDesc": "Cámara domo color dia/noche 4 MPX Carcasa de metal y plástico Hasta 2560x1440 a 20 fps S+265/H.265/H.264 Iluminación mínima en color: 0,02 l...",
     "description": "Cámara domo color dia/noche 4 MPX Carcasa de metal y plástico Hasta 2560x1440 a 20 fps S+265/H.265/H.264 Iluminación mínima en color: 0,02 lux a f/1,6 Infrarrojos inteligentes, alcance IR: 30 m Micrófono integrado HR PoE",
-    "price": 177400,
-    "wholesalePrice": 159660,
+    "price": 177350,
+    "wholesalePrice": 163162,
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-c34xn-spec-i3-e-y-2-8mm-v5-0.webp",
     "tags": [
@@ -3845,8 +3845,8 @@ export const PRODUCTS: Product[] = [
     "category": "cctv",
     "shortDesc": "Cámara de seguridad IP tipo PT (Pan/Tilt) con tecnología ColorMaker y doble lente (resolución total de 6MP), conectividad inalámbrica WiFi, ...",
     "description": "Cámara de seguridad IP tipo PT (Pan/Tilt) con tecnología ColorMaker y doble lente (resolución total de 6MP), conectividad inalámbrica WiFi, lente fijo de 4mm e iluminación infrarroja de hasta 50 metros",
-    "price": 199100,
-    "wholesalePrice": 179190,
+    "price": 199096,
+    "wholesalePrice": 183168,
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-h363n-spec-i5w-wifi-am-4mm-v4-0.webp",
     "tags": [
@@ -3872,8 +3872,8 @@ export const PRODUCTS: Product[] = [
     "category": "cctv",
     "shortDesc": "Acceso a cámaras IP de hasta 4 canales Ancho de banda de entrada/salida: 60 Mbps/40 Mbps Formatos de vídeo S+265, H.265, S+264, H.264 Capaci...",
     "description": "Acceso a cámaras IP de hasta 4 canales Ancho de banda de entrada/salida: 60 Mbps/40 Mbps Formatos de vídeo S+265, H.265, S+264, H.264 Capacidad máxima de decodificación: 6 MP (30 fps) × 1 o 1080P (30 fps) × 4 Reproducción sincronizada de 4 canales Hasta 6 TB de capacidad por disco duro Salidas HDMI y VGA simultáneas Salida HDMI con una resolución de hasta 1080P 1 puerto Ethernet autoadaptativo RJ-45 de 10/100 MbpsInterfaz PoE, 4 puertos Ethernet autoadaptativos RJ-45 de 10/100 Mbps La compresión S+265 reduce eficazmente el espacio de almacenamiento hasta en un 75 % Compatible con la nube",
-    "price": 213700,
-    "wholesalePrice": 192330,
+    "price": 213664,
+    "wholesalePrice": 196571,
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-r3104-spec-i-b-p4-c-am-l-s-v2-0.webp",
     "tags": [
@@ -3900,8 +3900,8 @@ export const PRODUCTS: Product[] = [
     "category": "cctv",
     "shortDesc": "Acceso a cámaras IP de hasta 8 canales Ancho de banda de entrada/salida: 60 Mbps/40 Mbps Formatos de vídeo S+265, H.265, S+264, H.264 Capaci...",
     "description": "Acceso a cámaras IP de hasta 8 canales Ancho de banda de entrada/salida: 60 Mbps/40 Mbps Formatos de vídeo S+265, H.265, S+264, H.264 Capacidad máxima de decodificación: 6 MP (30 fps) × 1 o 1080P (30 fps) × 4 Reproducción sincronizada de 4 canales Hasta 6 TB de capacidad por disco duro Salidas HDMI y VGA simultáneas Salida HDMI con una resolución de hasta 1080P 1 puerto Ethernet autoadaptativo RJ-45 de 10/100 Mbps Interfaz PoE, 8 puertos Ethernet autoadaptativos RJ-45 de 10/100 Mbps La compresión S+265 reduce eficazmente el espacio de almacenamiento hasta en un 75 % Compatible con la nube",
-    "price": 241000,
-    "wholesalePrice": 216900,
+    "price": 241011,
+    "wholesalePrice": 221730,
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-r3108-spec-i-b-p8-c-am-l-s-v2-0.webp",
     "tags": [
@@ -3928,8 +3928,8 @@ export const PRODUCTS: Product[] = [
     "category": "cctv",
     "shortDesc": "Camara Bala 2 MPX Motorizada Lente 2,8 -12 MM Carcasa de metal y plástico Hasta2MP,1920 × 1080 a 30 fpsS265/H.265/H.264B/H.264M/H.264H Color...",
     "description": "Camara Bala 2 MPX Motorizada Lente 2,8 -12 MM Carcasa de metal y plástico Hasta2MP,1920 × 1080 a 30 fpsS265/H.265/H.264B/H.264M/H.264H Color: 0,02 lux a (F1.6, AGC activado), B/N: 0 lux con infrarrojos Alcance infrarrojo: hasta 80 m Micrófono integrado Compatible con tarjetas microSD/microSDHC/microSDXC de hasta 512 GB 6,5 W; PoE: IEEE 802.3af, máx. 7 W IP67",
-    "price": 324800,
-    "wholesalePrice": 292320,
+    "price": 324840,
+    "wholesalePrice": 298853,
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-c32un-spec-i8-a-e-y-2-8-12mm-v4-2.webp",
     "tags": [
@@ -3957,8 +3957,8 @@ export const PRODUCTS: Product[] = [
     "category": "cctv",
     "shortDesc": "Cámara Bala 2 MPX Carcasa de metal y plástico Lente Fijo 2,8mm Resolución máxima:S265/H.265/H.264B/H.264M/H.264H Color: 0,02 lux a (F1.6, AG...",
     "description": "Cámara Bala 2 MPX Carcasa de metal y plástico Lente Fijo 2,8mm Resolución máxima:S265/H.265/H.264B/H.264M/H.264H Color: 0,02 lux a (F1.6, AGC activado), B/N: 0 lux con infrarrojos Alcance infrarrojo: 50 m Micrófono integrado Compatible con vigilancia inteligente máx. 6,5 W, POE 802.3af, máx. 7 W IP67",
-    "price": 191500,
-    "wholesalePrice": 172350,
+    "price": 191529,
+    "wholesalePrice": 176207,
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-c32qn-spec-i5w-e-y-2-8mm-v4-2.webp",
     "tags": [
@@ -3985,8 +3985,8 @@ export const PRODUCTS: Product[] = [
     "category": "cctv",
     "shortDesc": "Cámara domo 2 MPX Lente fijo 2,8 mm Carcasa de metal y plástico Hasta 1920x1080 a 25 fps S+265/H.265/H.264 Iluminación mínima en color: 0,02...",
     "description": "Cámara domo 2 MPX Lente fijo 2,8 mm Carcasa de metal y plástico Hasta 1920x1080 a 25 fps S+265/H.265/H.264 Iluminación mínima en color: 0,02 lux a f/1,6 2 luces cálidas, 15 m Infrarrojos inteligentes, alcance IR: 30 m Micrófono integrado Condiciones de funcionamiento: -30°~60°, 0~95 % HR PoE",
-    "price": 167700,
-    "wholesalePrice": 150930,
+    "price": 167683,
+    "wholesalePrice": 154268,
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-c32xn-spec-i3w-e-y-2-8mm-v4-2.webp",
     "tags": [
@@ -4012,8 +4012,8 @@ export const PRODUCTS: Product[] = [
     "category": "cctv",
     "shortDesc": "Cámara bala full Color 4MPX Lente fijo de 2.8mm Carcasa de metal y plástico Hasta 4 MP, 2592 × 1520 a 25 fps S 265/H.265/H.264B/H.264M/H.264...",
     "description": "Cámara bala full Color 4MPX Lente fijo de 2.8mm Carcasa de metal y plástico Hasta 4 MP, 2592 × 1520 a 25 fps S 265/H.265/H.264B/H.264M/H.264H Color: 0,0004 lux a (F1.0, AGC activado), B/N: 0 lux con infrarrojos Micrófono integrado Compatible con tarjetasmicroSD/microSDHC/microSDXC de hasta 512 GB máx. 6 W; PoE: IEEE 802.3af, máx. 7 WIP67",
-    "price": 369000,
-    "wholesalePrice": 332100,
+    "price": 369040,
+    "wholesalePrice": 339517,
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-c34wp-spec-w-e-y-2-8mm-v4-0.webp",
     "tags": [
@@ -4040,8 +4040,8 @@ export const PRODUCTS: Product[] = [
     "category": "cctv",
     "shortDesc": "Carcasa de metal Hasta máx. Resolución S+265/H.265/H.264B/H.264M/H.264H/JPEG en movimiento Color: 0.0001 Lux@(F1.0, AGC ON), B/N: 0 Lux con ...",
     "description": "Carcasa de metal Hasta máx. Resolución S+265/H.265/H.264B/H.264M/H.264H/JPEG en movimiento Color: 0.0001 Lux@(F1.0, AGC ON), B/N: 0 Lux con IR Micrófono incorporado Admite tarjeta microSD/microSDHC/microSDXC, hasta 512\nGB Admite vigilancia inteligente Clasificación de personas/Clasificación de vehículos Condiciones de funcionamiento -40 °C ~ 65 °C (Sin IR), humedad 95% o menos (sin condensación) DC12V ± 25%, MÁXIMO 8W, POE 802.3af, MÁXIMO 9W IP67",
-    "price": 610300,
-    "wholesalePrice": 549270,
+    "price": 610256,
+    "wholesalePrice": 561436,
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-c34uv-spec-w-e-y-m-s-4mm.webp",
     "tags": [
@@ -4068,8 +4068,8 @@ export const PRODUCTS: Product[] = [
     "category": "redes",
     "shortDesc": "Cámara bala 4 MPX Carcasa de metal y plástico Lente motorizada de 2,8-12 mm Hasta 2688 x 1520 a 25 fps S+265/H.265/H.264 Iluminación mínima ...",
     "description": "Cámara bala 4 MPX Carcasa de metal y plástico Lente motorizada de 2,8-12 mm Hasta 2688 x 1520 a 25 fps S+265/H.265/H.264 Iluminación mínima en color: 0,02 lux a f/1,6 Infrarrojos inteligentes, alcance IR: 80 m Compatible con cable trampa y perímetro Micrófono integrado, compatible con tarjeta Micro SD de 512 GB como máximo 12 VCC",
-    "price": 371100,
-    "wholesalePrice": 333990,
+    "price": 371102,
+    "wholesalePrice": 341414,
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-c34un-spec-i8-a-e-y-2-8-12mm-v4-2.webp",
     "tags": [
@@ -4095,8 +4095,8 @@ export const PRODUCTS: Product[] = [
     "category": "cctv",
     "shortDesc": "Cámara Bala 8 MPX Lente fijo de 2,8 mm Carcasa metálica Resolución máxima de 3840 x2160 S265/H.265/H.264B/H.264M/H.264H/Motion JPEG Color: 0...",
     "description": "Cámara Bala 8 MPX Lente fijo de 2,8 mm Carcasa metálica Resolución máxima de 3840 x2160 S265/H.265/H.264B/H.264M/H.264H/Motion JPEG Color: 0,002 Lux a (F1.6, AGC activado), Blanco y negro: 0 Lux con IR IR inteligente, alcance IR de 50 m Compatible contarjetasmicroSD/microSDHC/microSDXC de hasta 512 GB Compatible con vigilancia inteligente Compatible con clasificación de personas/vehículos  12 V CC ±25 %, máx. 6,5 W, POE 802.3af, máx. 8 W IP67",
-    "price": 481500,
-    "wholesalePrice": 433350,
+    "price": 481473,
+    "wholesalePrice": 442955,
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-c38ws-spec-i5-e-m-2-8mm.webp",
     "tags": [
@@ -4123,8 +4123,8 @@ export const PRODUCTS: Product[] = [
     "category": "redes",
     "shortDesc": "Cámara Domo 8 MPX Lente Fijo 2,8 mm Carcasa de metal y plástico Hasta 3840x2160 a 20 fps S+265/H.265/H.264 Iluminación mínima en color: 0,00...",
     "description": "Cámara Domo 8 MPX Lente Fijo 2,8 mm Carcasa de metal y plástico Hasta 3840x2160 a 20 fps S+265/H.265/H.264 Iluminación mínima en color: 0,003 lux a F1.6 WDR de 120 dB Infrarrojos inteligentes, alcance IR: 30 m Compatible con cable trampa y perímetro Micrófono integrado, ranura para tarjeta SD, botón de reinicio HR PoE, IP67, IK10",
-    "price": 448300,
-    "wholesalePrice": 403470,
+    "price": 448251,
+    "wholesalePrice": 412391,
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-c38ks-spec--i3-e-y-2-8mm-v4-0.webp",
     "tags": [
@@ -4151,8 +4151,8 @@ export const PRODUCTS: Product[] = [
     "category": "cctv",
     "shortDesc": "Domo lente fijo 2,8 mm Carcasa de plástico Hasta 2MP,1920×1080@30fps S+265/H.265/H.264B/H.264M/H.264H Color:0.02Lux@(F2.0,AGC ON),B/N:0Lux c...",
     "description": "Domo lente fijo 2,8 mm Carcasa de plástico Hasta 2MP,1920×1080@30fps S+265/H.265/H.264B/H.264M/H.264H Color:0.02Lux@(F2.0,AGC ON),B/N:0Lux con IR Alcance IR hasta 30m Micrófono incorporado Max. 4,5W, PoE:IEEE 802.3af,Máx. 5W IP66",
-    "price": 157200,
-    "wholesalePrice": 141480,
+    "price": 157181,
+    "wholesalePrice": 144607,
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-c32kn-spec-i3-e-y-c-2-8mm-v4-3.webp",
     "tags": [
@@ -4180,8 +4180,8 @@ export const PRODUCTS: Product[] = [
     "category": "cctv",
     "shortDesc": "Cámara domo Varifocal 2MPX Lente Motorizado de 2,8 - 12 mm Carcasa de plástico S265/H.265/H.264B/H.264M/H.264H Color: 0,02 lux a (F1.6, AGC ...",
     "description": "Cámara domo Varifocal 2MPX Lente Motorizado de 2,8 - 12 mm Carcasa de plástico S265/H.265/H.264B/H.264M/H.264H Color: 0,02 lux a (F1.6, AGC activado), B/N: 0 lux con infrarrojos Alcance infrarrojo: 30 m Micrófono integrado Compatible con tarjetas microSD/microSDHC/microSDXC de hasta 512 GB Compatible con vigilancia inteligente 12 V CC ±25 %, máx. 6,5 W, POE 802.3af, máx. 7 W IP66",
-    "price": 345800,
-    "wholesalePrice": 311220,
+    "price": 345798,
+    "wholesalePrice": 318134,
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-c32kn-spec-i3-a-e-y-2-8-12mm-v4-2.webp",
     "tags": [
@@ -4209,8 +4209,8 @@ export const PRODUCTS: Product[] = [
     "category": "redes",
     "shortDesc": "Cámara Domo 2 MPX Lente fijo de 2,8 mm Carcasa de metal y plástico Hasta 1920x1080 a 30 fps S+265/H.265/H.264 Iluminación mínima en color: 0...",
     "description": "Cámara Domo 2 MPX Lente fijo de 2,8 mm Carcasa de metal y plástico Hasta 1920x1080 a 30 fps S+265/H.265/H.264 Iluminación mínima en color: 0,002 lux a F1.6 Infrarrojos inteligentes, alcance IR: 30 m Compatible con cable trampa y perímetro Micrófono integrado, ranura para tarjeta SD  PoE, IP66, IK10",
-    "price": 256300,
-    "wholesalePrice": 230670,
+    "price": 256335,
+    "wholesalePrice": 235828,
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-c32ks-spec-i3-e-y-c-sd-2-8mm-v4-2.webp",
     "tags": [
@@ -4237,8 +4237,8 @@ export const PRODUCTS: Product[] = [
     "category": "cctv",
     "shortDesc": "Cámara domo 4MPX Lente fijo de 2,8 mmCarcasa de plástico Hasta 4MP,2688 ×1520 a 25fps S265/H.265/H.264B/H.264M/H.264H Color: 0,02 Lux a (F1....",
     "description": "Cámara domo 4MPX Lente fijo de 2,8 mmCarcasa de plástico Hasta 4MP,2688 ×1520 a 25fps S265/H.265/H.264B/H.264M/H.264H Color: 0,02 Lux a (F1.6,  AGC activado),  Blanco y negro: 0  Lux con IR Alcance IR: hasta 30 m Micrófono integrado HR CC 12 V ± 25 %, máx. 5 W, PoE: IEEE 802.3af, máx. 5,5 W\nIP66",
-    "price": 206900,
-    "wholesalePrice": 186210,
+    "price": 206855,
+    "wholesalePrice": 190307,
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-c34kn-spec-i3-e-y-c-2-8mm-v4-3.webp",
     "tags": [
@@ -4265,8 +4265,8 @@ export const PRODUCTS: Product[] = [
     "category": "redes",
     "shortDesc": "Domo 5 MPX Lente fijo de 2,8 mm Carcasa de metal y plástico Hasta 2592 x 1944 a 20 fps S 265/H.265/H.264 Iluminación mínima en color: 0,002 ...",
     "description": "Domo 5 MPX Lente fijo de 2,8 mm Carcasa de metal y plástico Hasta 2592 x 1944 a 20 fps S 265/H.265/H.264 Iluminación mínima en color: 0,002 lux a F1.6 WDR de 120 dB Infrarrojos inteligentes, alcance IR: 30 m Compatible con cable trampa y perímetro Micrófono integrado, compatible con tarjeta Micro SD de 512 GB como máximo  12 V CC, PoE IP66, IK10",
-    "price": 393800,
-    "wholesalePrice": 354420,
+    "price": 393780,
+    "wholesalePrice": 362278,
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-c35ks-spec-i3-e-y-2-8mm-v4-0.webp",
     "tags": [
@@ -4293,8 +4293,8 @@ export const PRODUCTS: Product[] = [
     "category": "cctv",
     "shortDesc": "Cámara Bala 4MPX Lente fijo de 2,8 mm Carcasa de metal y plástico Resolución máxima: S 265/H.265/H.264B/H.264M/H.264H Color: 0,02 lux a (F1....",
     "description": "Cámara Bala 4MPX Lente fijo de 2,8 mm Carcasa de metal y plástico Resolución máxima: S 265/H.265/H.264B/H.264M/H.264H Color: 0,02 lux a (F1.6, AGC activado), B/N: 0 lux con infrarrojos Alcance infrarrojo: 50 m Micrófono integrado Compatible con vigilancia inteligente  12 V CC ±25 %, máx. 6,5 W, POE 802.3af, máx. 7 W IP67",
-    "price": 177400,
-    "wholesalePrice": 159660,
+    "price": 177350,
+    "wholesalePrice": 163162,
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-c34qn-spec-i5w-e-y-2-8mm-v4-2.webp",
     "tags": [
@@ -4321,8 +4321,8 @@ export const PRODUCTS: Product[] = [
     "category": "cctv",
     "shortDesc": "Cámara tipo domo 2 MPX Lente fijo 2,8mm Carcasa metálica Hasta 2 MP, 1920 × 1080 a 30 fps S 265/H.265/H.264B/H.264M/H.264H/Motion JPEG Color...",
     "description": "Cámara tipo domo 2 MPX Lente fijo 2,8mm Carcasa metálica Hasta 2 MP, 1920 × 1080 a 30 fps S 265/H.265/H.264B/H.264M/H.264H/Motion JPEG Color: 0,002 Lux a (F1.6, AGC activado), B/N: 0 Lux con IR Alcance IR: hasta 30 m Micrófono integrado Compatible con tarjetas microSD/microSDHC/microSDXC de hasta 512 GB Compatible con vigilancia inteligente y captura facial Compatible con clasificación de personas/vehículos máx. 6,5 W; PoE: IEEE 802.3af, máx. 8 W IP66, IK08",
-    "price": 402500,
-    "wholesalePrice": 362250,
+    "price": 402451,
+    "wholesalePrice": 370255,
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-c32ps-spec-i3-e-y-m-h-2-8mm-v4-2.webp",
     "tags": [
@@ -4350,8 +4350,8 @@ export const PRODUCTS: Product[] = [
     "category": "cctv",
     "shortDesc": "Cámara tipo bala 8MPX Doble Lente, panorámmica de 180° Carcasa de metal y plástico Resolución máxima: S+265/H.265/H.264B/H.264M/H.264H/Motio...",
     "description": "Cámara tipo bala 8MPX Doble Lente, panorámmica de 180° Carcasa de metal y plástico Resolución máxima: S+265/H.265/H.264B/H.264M/H.264H/Motion JPEG Color: 0,0001 lux a (F1.0, AGC activado), B/N: 0 lux con infrarrojos Micrófono y altavoz integrados Compatible con tarjetas microSD/microSDHC/microSDXC de hasta 512 GB Compatible con vigilancia inteligente Compatible con clasificación de personas/vehículos12 V CC ±25 %, máx. 11,0 W, POE 802.3at, máx. 12 W IP67",
-    "price": 766400,
-    "wholesalePrice": 689760,
+    "price": 766424,
+    "wholesalePrice": 705110,
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-c382v-spec-w-e-y-s-h-2-8mm.webp",
     "tags": [
@@ -4378,8 +4378,8 @@ export const PRODUCTS: Product[] = [
     "category": "cctv",
     "shortDesc": "Domp PTZ Hasta 2 MPM 23X, 1920 × 1080 a 30 fps Color: 0,001 lux a (F1.5, AGC activado), B/N: 0 lux con IR S 265/H.265/H.264B/H.264M/H.264H/M...",
     "description": "Domp PTZ Hasta 2 MPM 23X, 1920 × 1080 a 30 fps Color: 0,001 lux a (F1.5, AGC activado), B/N: 0 lux con IR S 265/H.265/H.264B/H.264M/H.264H/Motion JPEG Zoom óptico de 23x Alcance IR de hasta 150 m Ranura para tarjeta Micro SD integrada de hasta 512 GB Compatible con vigilancia inteligente Compatible con clasificación de personas/vehículos PoE: IEEE 802.3at\nIP66",
-    "price": 1372700,
-    "wholesalePrice": 1235430,
+    "price": 1372717,
+    "wholesalePrice": 1262900,
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-h324s-spec-23x-i-e-c-v3-0.webp",
     "tags": [
@@ -4406,8 +4406,8 @@ export const PRODUCTS: Product[] = [
     "category": "cctv",
     "shortDesc": "Domo PTZ Hasta 2MPX 25 X Hasta 1920x1080 a 30 fps Iluminación mínima en color: 0,001 lux a F1.5 Zoom óptico: 25X, zoom digital: 16× Clasific...",
     "description": "Domo PTZ Hasta 2MPX 25 X Hasta 1920x1080 a 30 fps Iluminación mínima en color: 0,001 lux a F1.5 Zoom óptico: 25X, zoom digital: 16× Clasificación de personas/vehículos Infrarrojos inteligentes, alcance IR: 150 m S+265/H.265/H.264/M-JPEG Sin necesidad de complementos IP66",
-    "price": 1917600,
-    "wholesalePrice": 1725840,
+    "price": 1917612,
+    "wholesalePrice": 1764203,
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-h324s-spec--25x-i-e-v3-0.webp",
     "tags": [
@@ -4435,7 +4435,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Domo PTZ Hasta 4MPX 25 X Hasta 2560x1440 a 30 fps Iluminación mínima en color: 0,001 lux a F1.6,AGC ON, B/W:0LUX con IR Zoom óptico: 25X, zo...",
     "description": "Domo PTZ Hasta 4MPX 25 X Hasta 2560x1440 a 30 fps Iluminación mínima en color: 0,001 lux a F1.6,AGC ON, B/W:0LUX con IR Zoom óptico: 25X, zoom digital: 16× Clasificación de personas/vehículos Infrarrojos inteligentes, alcance IR: 150 m S+265/H.265/H.264/M-JPEG Sin necesidad de complementos IP66, Soporta SDCARD hasta 512GB Soporta hasta 32 rostros en la misma escena",
     "price": 2368200,
-    "wholesalePrice": 2131380,
+    "wholesalePrice": 2178744,
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-h344s-spec-25x-i-e--a-am-v3-0.webp",
     "tags": [
@@ -4462,7 +4462,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "MIRILLA INTELIGENTE IP 5MP QHD, PANTALLA COLOR 4.3”, VIDEO SIEMPRE ACTIVO (AOV), DETECCIÓN HUMANA IA COMPATIBLE CON PERFORACIONES DE 14 A 26...",
     "description": "MIRILLA INTELIGENTE IP 5MP QHD, PANTALLA COLOR 4.3”, VIDEO SIEMPRE ACTIVO (AOV), DETECCIÓN HUMANA IA COMPATIBLE CON PERFORACIONES DE 14 A 26 MM DE DIÁMETRO. APTO PARA PUERTAS CON UN ESPESOR DE 35 A 102 MM. WI-FI Dual Band 2.4/5GHZ, BATERÍA RECARGABLE 4800MAH, MICROSD HASTA 512GB.",
     "price": 278000,
-    "wholesalePrice": 250200,
+    "wholesalePrice": 255760,
     "stock": 25,
     "image": "/productos/catalogo/imou-vd1-5m0s.webp",
     "tags": [
@@ -4489,7 +4489,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Cerradura Digital Inteligente, Wifi 2.4GHz, admite ingreso por, LLave,  Huella (Hasta 50 huellas), Tarjeta (Mifare) o Clave (Hasta 50 claves...",
     "description": "Cerradura Digital Inteligente, Wifi 2.4GHz, admite ingreso por, LLave,  Huella (Hasta 50 huellas), Tarjeta (Mifare) o Clave (Hasta 50 claves), IP52, Conector tipo C. Sesibilidad de distacia:<10mm, Tiempo de Sensibillidad:<0.5 seconds. Incluye 4 baterías AA,  2 llaves física",
     "price": 316000,
-    "wholesalePrice": 284400,
+    "wholesalePrice": 290720,
     "stock": 25,
     "image": "/productos/catalogo/imou-asl-cubo1-k-d.webp",
     "tags": [
@@ -4517,7 +4517,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CÁMARA RANGER 2 IP/PT WIFI 3MP (2048x1536), LENTE 3.6MM, IR LED 10M, H.265, MODO PRESET, MODO AOR, BLUETOOTH, SLOT MICRO SD, AUDIO DOBLE VIA...",
     "description": "CÁMARA RANGER 2 IP/PT WIFI 3MP (2048x1536), LENTE 3.6MM, IR LED 10M, H.265, MODO PRESET, MODO AOR, BLUETOOTH, SLOT MICRO SD, AUDIO DOBLE VIA, PLASTICA",
     "price": 106000,
-    "wholesalePrice": 95400,
+    "wholesalePrice": 97520,
     "stock": 25,
     "image": "/productos/catalogo/imou-ipc-k2en-3r1w.webp",
     "tags": [
@@ -4544,7 +4544,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CÁMARA RANGER 2 IP/PT WIFI 5MP (2595x1944), LENTE 3.6MM, IR LED 10M, H.265, MODO PRESET, MODO AOR, BLUETOOTH, SLOT MICRO SD, AUDIO DOBLE VIA...",
     "description": "CÁMARA RANGER 2 IP/PT WIFI 5MP (2595x1944), LENTE 3.6MM, IR LED 10M, H.265, MODO PRESET, MODO AOR, BLUETOOTH, SLOT MICRO SD, AUDIO DOBLE VIA, PLASTICA",
     "price": 127000,
-    "wholesalePrice": 114300,
+    "wholesalePrice": 116840,
     "stock": 25,
     "image": "/productos/catalogo/imou-ipc-k2en-5r1w.webp",
     "tags": [
@@ -4571,7 +4571,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CAMARA IP/PT RANGER MINI WIFI 3MP, FULL COLOR, IR LED 10M, LENTE 3.6MM, H.265, SLOT MICRO SD, 2 WAY AUDIO, INC. SOPORTE, DETECCIÓN HUMANA Y ...",
     "description": "CAMARA IP/PT RANGER MINI WIFI 3MP, FULL COLOR, IR LED 10M, LENTE 3.6MM, H.265, SLOT MICRO SD, 2 WAY AUDIO, INC. SOPORTE, DETECCIÓN HUMANA Y MASCOTAS.",
     "price": 113000,
-    "wholesalePrice": 101700,
+    "wholesalePrice": 103960,
     "stock": 25,
     "image": "/productos/catalogo/imou-ipc-k2mn-3r1w.webp",
     "tags": [
@@ -4598,7 +4598,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CAMARA IP/PT RANGER MINI WIFI 5MP, FULL COLOR, IR LED 10M, LENTE 3.6MM, H.265, SLOT MICRO SD, 2 WAY AUDIO, INC. SOPORTE, DETECCIÓN HUMANA Y ...",
     "description": "CAMARA IP/PT RANGER MINI WIFI 5MP, FULL COLOR, IR LED 10M, LENTE 3.6MM, H.265, SLOT MICRO SD, 2 WAY AUDIO, INC. SOPORTE, DETECCIÓN HUMANA Y MASCOTAS.",
     "price": 134000,
-    "wholesalePrice": 120600,
+    "wholesalePrice": 123280,
     "stock": 25,
     "image": "/productos/catalogo/imou-ipc-k2mn-5r1w.webp",
     "tags": [
@@ -4625,7 +4625,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Cámara IP  Ranger 2 PRO, PT, 3MP, CMOS 1/3\", Dia/Noche Real, lente 3,6mm, IR Led 10m, Zoom Digital 8X,  microfono y altavoz incluidos, slot ...",
     "description": "Cámara IP  Ranger 2 PRO, PT, 3MP, CMOS 1/3\", Dia/Noche Real, lente 3,6mm, IR Led 10m, Zoom Digital 8X,  microfono y altavoz incluidos, slot para memoria Micro SD (Max.512Gb), WiFi (50m), H.265 , Pan: 0°~355°; Tilt: -5°~80°, IMOU para visualización a través de Smart Phone, 5VDC-1A. (Incluye adaptador).",
     "price": 116000,
-    "wholesalePrice": 104400,
+    "wholesalePrice": 106720,
     "stock": 25,
     "image": "/productos/catalogo/imou-ipc-s2en-3r1s.webp",
     "tags": [
@@ -4652,7 +4652,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Cámara IP  Ranger 2 PRO, PT, 5MP, CMOS 1/3\", Dia/Noche Real, lente 3,6mm, IR Led 10m, Zoom Digital 8X,  microfono y altavoz incluidos, slot ...",
     "description": "Cámara IP  Ranger 2 PRO, PT, 5MP, CMOS 1/3\", Dia/Noche Real, lente 3,6mm, IR Led 10m, Zoom Digital 8X,  microfono y altavoz incluidos, slot para memoria Micro SD (Max.512Gb), WiFi (50m), H.265 , Pan: 0°~355°; Tilt: -5°~80°, IMOU para visualización a través de Smart Phone, 5VDC-1A. (Incluye adaptador).",
     "price": 148000,
-    "wholesalePrice": 133200,
+    "wholesalePrice": 136160,
     "stock": 25,
     "image": "/productos/catalogo/imou-ipc-s2en-5r1s.webp",
     "tags": [
@@ -4679,7 +4679,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Cámara IP  Ranger 2 PRO, PT, 8MP, CMOS 1/3\", Dia/Noche Real, lente 3,6mm, IR Led 10m, Zoom Digital 8X,  microfono y altavoz incluidos, slot ...",
     "description": "Cámara IP  Ranger 2 PRO, PT, 8MP, CMOS 1/3\", Dia/Noche Real, lente 3,6mm, IR Led 10m, Zoom Digital 8X,  microfono y altavoz incluidos, slot para memoria Micro SD (Max.512Gb), WiFi (50m), H.265 , Pan: 0°~355°; Tilt: -5°~80°, IMOU para visualización a través de Smart Phone, 5VDC-1A. (Incluye adaptador).",
     "price": 176000,
-    "wholesalePrice": 158400,
+    "wholesalePrice": 161920,
     "stock": 25,
     "image": "/productos/catalogo/imou-ipc-s2en-8x0s.webp",
     "tags": [
@@ -4706,7 +4706,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Cámara IP tipo Ranger PT, 6MP, WIFI FULL COLOR, LENTE DUAL (3MP Lente fijo/3MP PT)CMOS 1/2.8\", Dia/Noche Real, lente fijo 3,6mm, IR Led 15m,...",
     "description": "Cámara IP tipo Ranger PT, 6MP, WIFI FULL COLOR, LENTE DUAL (3MP Lente fijo/3MP PT)CMOS 1/2.8\", Dia/Noche Real, lente fijo 3,6mm, IR Led 15m, audio en doble vía, slot para memoria Micro SD (Max.256Gb), WiFi, H.265 , Pan: 0°~355°; Tilt: -5°~80°, IMOU para visualización a través de Smart Phone, 5VDC-1A. (Incluye adaptador).",
     "price": 211000,
-    "wholesalePrice": 189900,
+    "wholesalePrice": 194120,
     "stock": 25,
     "image": "/productos/catalogo/imou-ipc-s20en-6m0s.webp",
     "tags": [
@@ -4733,7 +4733,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Cámara IP tipo Ranger PT, 10MP, WIFI FULL COLOR, LENTE DUAL (4MP Lente fijo/4MP PT)CMOS 1/2.8\", Dia/Noche Real, lente fijo 3,6mm, IR Led 15m...",
     "description": "Cámara IP tipo Ranger PT, 10MP, WIFI FULL COLOR, LENTE DUAL (4MP Lente fijo/4MP PT)CMOS 1/2.8\", Dia/Noche Real, lente fijo 3,6mm, IR Led 15m, audio en doble vía, slot para memoria Micro SD (Max.256Gb), WiFi, H.265 , Pan: 0°~355°; Tilt: -5°~80°, IMOU para visualización a través de Smart Phone, 5VDC-1A. (Incluye adaptador).",
     "price": 239000,
-    "wholesalePrice": 215100,
+    "wholesalePrice": 219880,
     "stock": 25,
     "image": "/productos/catalogo/imou-ipc-s20en-10m0s.webp",
     "tags": [
@@ -4760,7 +4760,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Cámara IP-PT/WIFI TITAN PRO, FULL COLOR 6MP, IR Led 30m, lente 3.6mm, IMOU para visualización a través de Smart Phone, microfono y altavoz i...",
     "description": "Cámara IP-PT/WIFI TITAN PRO, FULL COLOR 6MP, IR Led 30m, lente 3.6mm, IMOU para visualización a través de Smart Phone, microfono y altavoz incluidos, slot para memoria Micro SD (Max.256Gb), PoE, IP66, (Incluye adaptador).",
     "price": 260000,
-    "wholesalePrice": 234000,
+    "wholesalePrice": 239200,
     "stock": 25,
     "image": "/productos/catalogo/imou-ipc-u7ln-6v0ne.webp",
     "tags": [
@@ -4789,7 +4789,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CÁMARA CRUISER SC, IP-PT WIFI DE 3MP (2304X1296), LENTE 3.6MM, DISUASIÓN ACTIVA, IR LED 30M, H.265, SLOT MICRO SD HASTA 512GB, AUDIO BIDIREC...",
     "description": "CÁMARA CRUISER SC, IP-PT WIFI DE 3MP (2304X1296), LENTE 3.6MM, DISUASIÓN ACTIVA, IR LED 30M, H.265, SLOT MICRO SD HASTA 512GB, AUDIO BIDIRECCIONAL, WIFI 6, DETECCIÓN IA HUMANO/VEHÍCULO, SMART TRACKING",
     "price": 190000,
-    "wholesalePrice": 171000,
+    "wholesalePrice": 174800,
     "stock": 25,
     "image": "/productos/catalogo/imou-ipc-k7fn-3v0w.webp",
     "tags": [
@@ -4816,7 +4816,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CÁMARA CRUISER SC, IP-PT WIFI DE 5MP (2880X1620), LENTE 3.6MM, DISUASIÓN ACTIVA, IR LED 30M, H.265, SLOT MICRO SD HASTA 512GB, AUDIO BIDIREC...",
     "description": "CÁMARA CRUISER SC, IP-PT WIFI DE 5MP (2880X1620), LENTE 3.6MM, DISUASIÓN ACTIVA, IR LED 30M, H.265, SLOT MICRO SD HASTA 512GB, AUDIO BIDIRECCIONAL, WIFI 6, DETECCIÓN IA HUMANO/VEHÍCULO, SMART TRACKING",
     "price": 211000,
-    "wholesalePrice": 189900,
+    "wholesalePrice": 194120,
     "stock": 25,
     "image": "/productos/catalogo/imou-ipc-k7fn-5v0w.webp",
     "tags": [
@@ -4843,7 +4843,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Cámara IP tipo CRUSIER SC, Wifi FULL COLOR PT 8MP, IR Led 30m, lente 3.6mm, IMOU para visualización a través de Smart Phone, microfono y alt...",
     "description": "Cámara IP tipo CRUSIER SC, Wifi FULL COLOR PT 8MP, IR Led 30m, lente 3.6mm, IMOU para visualización a través de Smart Phone, microfono y altavoz incluidos, slot para memoria Micro SD (Max.256Gb), PoE, IP66. Incluye adaptador",
     "price": 232000,
-    "wholesalePrice": 208800,
+    "wholesalePrice": 213440,
     "stock": 25,
     "image": "/productos/catalogo/imou-ipc-k7fn-8v0n.webp",
     "tags": [
@@ -4872,7 +4872,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Cámara IP tipo CRUSIER DUAL, Wifi FULL COLOR PT 3 MP+ 5MP, IR Led 30m, lente 3.6mm, Zoom Digital 8X,  Disuasión Activa, IMOU para visualizac...",
     "description": "Cámara IP tipo CRUSIER DUAL, Wifi FULL COLOR PT 3 MP+ 5MP, IR Led 30m, lente 3.6mm, Zoom Digital 8X,  Disuasión Activa, IMOU para visualización a través de Smart Phone, microfono y altavoz incluidos, slot para memoria Micro SD (Max.512Gb), IP66. Incluye adaptador",
     "price": 281000,
-    "wholesalePrice": 252900,
+    "wholesalePrice": 258520,
     "stock": 25,
     "image": "/productos/catalogo/imou-ipc-s7xen-8m0wed.webp",
     "tags": [
@@ -4900,7 +4900,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Cámara IP tipo CRUSIER DUAL, Wifi FULL COLOR PT 5MP + 5MP, IR Led 30m, lente 3.6mm, Zoom Digital 8X, Disuasión Activa, IMOU para visualizaci...",
     "description": "Cámara IP tipo CRUSIER DUAL, Wifi FULL COLOR PT 5MP + 5MP, IR Led 30m, lente 3.6mm, Zoom Digital 8X, Disuasión Activa, IMOU para visualización a través de Smart Phone, microfono y altavoz incluidos, slot para memoria Micro SD (Max. 512Gb), IP66. Incluye adaptador",
     "price": 309000,
-    "wholesalePrice": 278100,
+    "wholesalePrice": 284280,
     "stock": 25,
     "image": "/productos/catalogo/imou-ipc-s7xen-10m0wed.webp",
     "tags": [
@@ -4928,7 +4928,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CAMARA WIFI AOV Cell PT 4G de 5MP(2880x1620) CON PANEL SOLAR, CONEXION 4G LTE O WIFI, AUDIO DOBLE VIA, ZOOM DIGITAL 8X,GRABACION CONTINUA, M...",
     "description": "CAMARA WIFI AOV Cell PT 4G de 5MP(2880x1620) CON PANEL SOLAR, CONEXION 4G LTE O WIFI, AUDIO DOBLE VIA, ZOOM DIGITAL 8X,GRABACION CONTINUA, MICROSD SLOT HASTA 512GB, DETECCION HUMANA Y VEHICULOS, BATERIA 10.000MHA",
     "price": 527000,
-    "wholesalePrice": 474300,
+    "wholesalePrice": 484840,
     "stock": 25,
     "image": "/productos/catalogo/imou-ipc-b7ed-5m0tea-am-fsp14.webp",
     "tags": [
@@ -4955,7 +4955,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "GRABADOR WIFI 6 DOBLE BANDA (2.4/5 GHz) 10CH, 4 ANTENAS, HASTA 4CH @ 8MP, SALIDAS HDMI/VGA. Built-in Mic & Speaker, TWO WAY AUDIO. SOPORTA H...",
     "description": "GRABADOR WIFI 6 DOBLE BANDA (2.4/5 GHz) 10CH, 4 ANTENAS, HASTA 4CH @ 8MP, SALIDAS HDMI/VGA. Built-in Mic & Speaker, TWO WAY AUDIO. SOPORTA HDD HASTA 16TB (NO INCLUIDO). EMPAREJAMIENTO AUTOMATICO CON CAMARAS IMOU. H265, ONVIF.",
     "price": 267000,
-    "wholesalePrice": 240300,
+    "wholesalePrice": 245640,
     "stock": 25,
     "image": "/productos/catalogo/imou-nvr-n110w-8a0e-n.webp",
     "tags": [
@@ -4982,7 +4982,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "GRABADOR WIFI 6 DOBLE BANDA (2.4/5 GHz) 18CH, 4 ANTENAS, HASTA 4CH @ 8MP, SALIDAS HDMI/VGA. Built-in Mic & Speaker, TWO WAY AUDIO. SOPORTA H...",
     "description": "GRABADOR WIFI 6 DOBLE BANDA (2.4/5 GHz) 18CH, 4 ANTENAS, HASTA 4CH @ 8MP, SALIDAS HDMI/VGA. Built-in Mic & Speaker, TWO WAY AUDIO. SOPORTA HDD HASTA 16TB (NO INCLUIDO). EMPAREJAMIENTO AUTOMATICO CON CAMARAS IMOU. H265, ONVIF.",
     "price": 288000,
-    "wholesalePrice": 259200,
+    "wholesalePrice": 264960,
     "stock": 25,
     "image": "/productos/catalogo/imou-nvr-n118w-8a0e-n.webp",
     "tags": [
@@ -5009,7 +5009,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "KIT PANEL de alarma no monitoreado, 4 zonas cableadas, 20 zonas inalámbricas, puerto RJ45 para conexión a internet, Aplicación AMT Remoto Mo...",
     "description": "KIT PANEL de alarma no monitoreado, 4 zonas cableadas, 20 zonas inalámbricas, puerto RJ45 para conexión a internet, Aplicación AMT Remoto Mobile,  AMT Mobile V3, El kit incluye, 1 Sirena SIR 1000, 2 Controles remotos XAC 4000 SMART,1 Sensor de movimiento IVP 4000 SMART, 2 Sensores magnéticos XAS 4010 SMART",
     "price": 449000,
-    "wholesalePrice": 404100,
+    "wholesalePrice": 413080,
     "stock": 25,
     "image": "/productos/catalogo/itb-anm-24-net.webp",
     "tags": [
@@ -5036,7 +5036,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "PANEL de alarma monitoreada, Capacidad para conectar hasta 4 teclados, 4 receptores, 4 expansores PGM y 6 expansores de Zona, Programación r...",
     "description": "PANEL de alarma monitoreada, Capacidad para conectar hasta 4 teclados, 4 receptores, 4 expansores PGM y 6 expansores de Zona, Programación remota vía fax/módem y tarjeta USB",
     "price": 295300,
-    "wholesalePrice": 265770,
+    "wholesalePrice": 271676,
     "stock": 25,
     "image": "/productos/catalogo/itb-amt-4010-rf.webp",
     "tags": [
@@ -5063,7 +5063,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "MODULO EXPANSOR de 8 zonas",
     "description": "MODULO EXPANSOR de 8 zonas",
     "price": 75300,
-    "wholesalePrice": 67770,
+    "wholesalePrice": 69276,
     "stock": 25,
     "image": "/productos/catalogo/itb-xez-4008-smart.webp",
     "tags": [
@@ -5088,7 +5088,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "RECEPTOR panel de alarma de las series 2000 y 4000, 433,92 MHz , 100 metros de la señal de RF en campo abierto,",
     "description": "RECEPTOR panel de alarma de las series 2000 y 4000, 433,92 MHz , 100 metros de la señal de RF en campo abierto,",
     "price": 83600,
-    "wholesalePrice": 75240,
+    "wholesalePrice": 76912,
     "stock": 25,
     "image": "/productos/catalogo/itb-xar-4000-smart.webp",
     "tags": [
@@ -5115,7 +5115,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "TECLADO para centrales XAT 4000,  instalación de hasta 1km* (del teclado hasta la central)",
     "description": "TECLADO para centrales XAT 4000,  instalación de hasta 1km* (del teclado hasta la central)",
     "price": 160000,
-    "wholesalePrice": 144000,
+    "wholesalePrice": 147200,
     "stock": 25,
     "image": "/productos/catalogo/itb-xat-4000-lcd.webp",
     "tags": [
@@ -5139,8 +5139,8 @@ export const PRODUCTS: Product[] = [
     "category": "alarmas",
     "shortDesc": "MÓDULO de comunicación Ethernet, compatible con el panel AMT 4010",
     "description": "MÓDULO de comunicación Ethernet, compatible con el panel AMT 4010",
-    "price": 178000,
-    "wholesalePrice": 160200,
+    "price": 75300,
+    "wholesalePrice": 69276,
     "stock": 25,
     "image": "/productos/catalogo/itb-xez-4008-smart-11.webp",
     "tags": [
@@ -5164,8 +5164,8 @@ export const PRODUCTS: Product[] = [
     "category": "alarmas",
     "shortDesc": "Módulo de comunicación Ethernet y 3G. Compatible con panel AMT-4010. Incluye antena.",
     "description": "Módulo de comunicación Ethernet y 3G. Compatible con panel AMT-4010. Incluye antena.",
-    "price": 570400,
-    "wholesalePrice": 513360,
+    "price": 570375,
+    "wholesalePrice": 524745,
     "stock": 25,
     "image": "/productos/catalogo/itb-xeg-4010-3g-exp.webp",
     "tags": [
@@ -5192,7 +5192,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Contacto magnético inalámbrico. Compatible con ANM 24 NET, AMT 1000, AMT 2018, AMT-4010",
     "description": "Contacto magnético inalámbrico. Compatible con ANM 24 NET, AMT 1000, AMT 2018, AMT-4010",
     "price": 46000,
-    "wholesalePrice": 41400,
+    "wholesalePrice": 42320,
     "stock": 25,
     "image": "/productos/catalogo/itb-xas-smart.webp",
     "tags": [
@@ -5219,7 +5219,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Sensor de movimiento infrarrojo pasivo inalámbrico anti mascota de hasta 20KG, uso interior. Compatible con ANM 24 NET, AMT 1000, AMT 2018, ...",
     "description": "Sensor de movimiento infrarrojo pasivo inalámbrico anti mascota de hasta 20KG, uso interior. Compatible con ANM 24 NET, AMT 1000, AMT 2018, AMT-4010",
     "price": 82600,
-    "wholesalePrice": 74340,
+    "wholesalePrice": 75992,
     "stock": 25,
     "image": "/productos/catalogo/itb-ivp-1000-pet-smart.webp",
     "tags": [
@@ -5246,7 +5246,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Sensor de movimiento infrarrojo pasivo cableado anti mascota de hasta 20KG, uso interior. Compatible con paneles cableados Intelbras y otras...",
     "description": "Sensor de movimiento infrarrojo pasivo cableado anti mascota de hasta 20KG, uso interior. Compatible con paneles cableados Intelbras y otras marcas.",
     "price": 35300,
-    "wholesalePrice": 31770,
+    "wholesalePrice": 32476,
     "stock": 25,
     "image": "/productos/catalogo/itb-ivp-1000-pet.webp",
     "tags": [
@@ -5273,7 +5273,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "SENSOR de movimiento infrarrojo pasivo cableado con triple tecnología, Triple tecnología (piro sensor, microondas y PET IMMUNITY)",
     "description": "SENSOR de movimiento infrarrojo pasivo cableado con triple tecnología, Triple tecnología (piro sensor, microondas y PET IMMUNITY)",
     "price": 120000,
-    "wholesalePrice": 108000,
+    "wholesalePrice": 110400,
     "stock": 25,
     "image": "/productos/catalogo/itb-ivp-5311-mw-pet.webp",
     "tags": [
@@ -5300,7 +5300,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Sensor magnetico cableado para puerta y ventana XAS 4010 Smart",
     "description": "Sensor magnetico cableado para puerta y ventana XAS 4010 Smart",
     "price": 24700,
-    "wholesalePrice": 22230,
+    "wholesalePrice": 22724,
     "stock": 25,
     "image": "/productos/catalogo/itb-xas-4010-smart.webp",
     "tags": [
@@ -5325,7 +5325,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "BARRERA fotoeléctrica de 2 haces, 30m exterior, grado de protección IP65, Alimentación  12 ~ 24 Vcc, consumo ≤50 mA @ 12 Vcc",
     "description": "BARRERA fotoeléctrica de 2 haces, 30m exterior, grado de protección IP65, Alimentación  12 ~ 24 Vcc, consumo ≤50 mA @ 12 Vcc",
     "price": 81200,
-    "wholesalePrice": 73080,
+    "wholesalePrice": 74704,
     "stock": 25,
     "image": "/productos/catalogo/itb-iva-5015-digital.webp",
     "tags": [
@@ -5352,7 +5352,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "BARRERA fotoeléctrica de 2 haces, 70m exterior, 190m interior, grado de protección IP54, Consumo ≤ 55 mA @ 12 Vdc",
     "description": "BARRERA fotoeléctrica de 2 haces, 70m exterior, 190m interior, grado de protección IP54, Consumo ≤ 55 mA @ 12 Vdc",
     "price": 198700,
-    "wholesalePrice": 178830,
+    "wholesalePrice": 182804,
     "stock": 25,
     "image": "/productos/catalogo/itb-iva-3070-x.webp",
     "tags": [
@@ -5379,7 +5379,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "BARRERA fotoeléctrica de 2 haces, 110m exterior, 310m interior, grado de protección IP54, Consumo ≤ 55 mA @ 12 Vdc",
     "description": "BARRERA fotoeléctrica de 2 haces, 110m exterior, 310m interior, grado de protección IP54, Consumo ≤ 55 mA @ 12 Vdc",
     "price": 204700,
-    "wholesalePrice": 184230,
+    "wholesalePrice": 188324,
     "stock": 25,
     "image": "/productos/catalogo/itb-iva-3110x.webp",
     "tags": [
@@ -5406,7 +5406,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "BARRERA fotoeléctrica de 4 haces, 100m exterior, grado de protección IP65, Alimentación  12 ~ 24 Vcc, consumo ≤50 mA @ 12 Vcc",
     "description": "BARRERA fotoeléctrica de 4 haces, 100m exterior, grado de protección IP65, Alimentación  12 ~ 24 Vcc, consumo ≤50 mA @ 12 Vcc",
     "price": 323200,
-    "wholesalePrice": 290880,
+    "wholesalePrice": 297344,
     "stock": 25,
     "image": "/productos/catalogo/itb-iva-7100-quad.webp",
     "tags": [
@@ -5433,7 +5433,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "BARRERA fotoeléctrica de 6 haces, 100m exterior, grado de protección IP65, Alimentación  12 ~ 24 Vcc, consumo ≤50 mA @ 12 Vcc",
     "description": "BARRERA fotoeléctrica de 6 haces, 100m exterior, grado de protección IP65, Alimentación  12 ~ 24 Vcc, consumo ≤50 mA @ 12 Vcc",
     "price": 431900,
-    "wholesalePrice": 388710,
+    "wholesalePrice": 397348,
     "stock": 25,
     "image": "/productos/catalogo/itb-iva-7100-hexa.webp",
     "tags": [
@@ -5460,7 +5460,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "BARRERA fotoeléctrica de 8 haces, 100m exterior, grado de protección IP55,  alimentación 12 ~ 24 Vcc, consumo ≤100 mA @ 12 Vdc",
     "description": "BARRERA fotoeléctrica de 8 haces, 100m exterior, grado de protección IP55,  alimentación 12 ~ 24 Vcc, consumo ≤100 mA @ 12 Vdc",
     "price": 500000,
-    "wholesalePrice": 450000,
+    "wholesalePrice": 460000,
     "stock": 25,
     "image": "/productos/catalogo/itb-iva-7100-octa.webp",
     "tags": [
@@ -5487,7 +5487,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Panel de cerca eléctrica con módulo Wi‑Fi integrado para monitoreo y control remoto vía app. Ideal para protección de perímetros amplios con...",
     "description": "Panel de cerca eléctrica con módulo Wi‑Fi integrado para monitoreo y control remoto vía app. Ideal para protección de perímetros amplios con hasta 7 zonas inalámbricas y una cableada. Características principales: Control remoto por app (Wi‑Fi Connect)Cobertura hasta 7.000 m lineales de cerca 8 zonas: 7 inalámbricas + 1 cableada Voltaje ajustable: 8.000–12.000 V Salida de sirena y PGM (12 V DC) Supervisión de alta tensión y batería Protección IPX4 y certificación Inmetro Alimentación bivolt 100–240 V AC",
     "price": 295600,
-    "wholesalePrice": 266040,
+    "wholesalePrice": 271952,
     "stock": 25,
     "image": "/productos/catalogo/itb-elc6012.webp",
     "tags": [
@@ -5514,7 +5514,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Central de alarma de incendio direccionable de 1 lazo, 60 dispositivos. Alimentación 120-240VAC. Incluye 2 baterías 12VDC-2.3Ah. Configuraci...",
     "description": "Central de alarma de incendio direccionable de 1 lazo, 60 dispositivos. Alimentación 120-240VAC. Incluye 2 baterías 12VDC-2.3Ah. Configuración y notificación a través de aplicativo móvil gratuito. Configuración vía wifi",
     "price": 729600,
-    "wholesalePrice": 656640,
+    "wholesalePrice": 671232,
     "stock": 25,
     "image": "/productos/catalogo/itb-cie1060.webp",
     "tags": [
@@ -5541,7 +5541,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Central de Alarma de Incendio direccionable de 1 Lazo, 125 dispositivos. Permite la agrupación de sensores hasta 250 zonas y creación de has...",
     "description": "Central de Alarma de Incendio direccionable de 1 Lazo, 125 dispositivos. Permite la agrupación de sensores hasta 250 zonas y creación de hasta 100 reglas de accionamiento, soporta conexión con hasta 4 repetidores, alimentación 100 - 240 Vac, interconexión con hasta 16 paneles de la línea CIE, Incluye 2 baterías 12Vdc - 2.3Ah.",
     "price": 1213000,
-    "wholesalePrice": 1091700,
+    "wholesalePrice": 1115960,
     "stock": 25,
     "image": "/productos/catalogo/itb-cie1125.webp",
     "tags": [
@@ -5568,7 +5568,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "DETECTOR de humo direccionable, base incluida, led indicador de alarma/supervisión",
     "description": "DETECTOR de humo direccionable, base incluida, led indicador de alarma/supervisión",
     "price": 69000,
-    "wholesalePrice": 62100,
+    "wholesalePrice": 63480,
     "stock": 25,
     "image": "/productos/catalogo/itb-dfe-521.webp",
     "tags": [
@@ -5595,7 +5595,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "DETECTOR de temperatura direccionable, base incluida,  led indicador de alarma/supervisión",
     "description": "DETECTOR de temperatura direccionable, base incluida,  led indicador de alarma/supervisión",
     "price": 115400,
-    "wholesalePrice": 103860,
+    "wholesalePrice": 106168,
     "stock": 25,
     "image": "/productos/catalogo/itb-dte-521.webp",
     "tags": [
@@ -5622,7 +5622,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Sirena Estroboscópica de pared direccionable",
     "description": "Sirena Estroboscópica de pared direccionable",
     "price": 122800,
-    "wholesalePrice": 110520,
+    "wholesalePrice": 112976,
     "stock": 25,
     "image": "/productos/catalogo/itb-sav-521e.webp",
     "tags": [
@@ -5647,7 +5647,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "ESTACIÓN Manual Direccionable sin sirena",
     "description": "ESTACIÓN Manual Direccionable sin sirena",
     "price": 68600,
-    "wholesalePrice": 61740,
+    "wholesalePrice": 63112,
     "stock": 25,
     "image": "/productos/catalogo/itb-ame-521.webp",
     "tags": [
@@ -5672,7 +5672,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Módulo Aislador de Lazo direccionable compatible con las centrales direccionables: CIE 1125/1250/2500",
     "description": "Módulo Aislador de Lazo direccionable compatible con las centrales direccionables: CIE 1125/1250/2500",
     "price": 132500,
-    "wholesalePrice": 119250,
+    "wholesalePrice": 121900,
     "stock": 25,
     "image": "/productos/catalogo/itb-idl-521.webp",
     "tags": [
@@ -5697,7 +5697,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Módulo de Entrada Direccionable (entrada de contacto seco)",
     "description": "Módulo de Entrada Direccionable (entrada de contacto seco)",
     "price": 93100,
-    "wholesalePrice": 83790,
+    "wholesalePrice": 85652,
     "stock": 25,
     "image": "/productos/catalogo/itb-mdi-521.webp",
     "tags": [
@@ -5722,7 +5722,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "MÓDULO Direccionable de Entrada o Salida",
     "description": "MÓDULO Direccionable de Entrada o Salida",
     "price": 141600,
-    "wholesalePrice": 127440,
+    "wholesalePrice": 130272,
     "stock": 25,
     "image": "/productos/catalogo/itb-mio-521.webp",
     "tags": [
@@ -5747,7 +5747,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "PANEL de alarma contra incendios convencional con batería, 6 lazos, hasta 20 dispositivos por lazo, 2 salidas de relé, protección sobre tens...",
     "description": "PANEL de alarma contra incendios convencional con batería, 6 lazos, hasta 20 dispositivos por lazo, 2 salidas de relé, protección sobre tensiones, alimentación 100 - 240 Vac, corriente por dispositivo 10 mA - 50 mA @ 24 V",
     "price": 437800,
-    "wholesalePrice": 394020,
+    "wholesalePrice": 402776,
     "stock": 25,
     "image": "/productos/catalogo/itb-cic-06l.webp",
     "tags": [
@@ -5774,7 +5774,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Detector de Humo convencional",
     "description": "Detector de Humo convencional",
     "price": 60000,
-    "wholesalePrice": 54000,
+    "wholesalePrice": 55200,
     "stock": 25,
     "image": "/productos/catalogo/itb-dfc-421.webp",
     "tags": [
@@ -5799,7 +5799,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CAMARA TURBO 1080P TURRET AUDIO COAXIAL  0.01 Lux/ F1.6  DNR EXIR 2.0  Smart IR 20m IR PLASTICO HIKVISION",
     "description": "CAMARA TURBO 1080P TURRET AUDIO COAXIAL  0.01 Lux/ F1.6  DNR EXIR 2.0  Smart IR 20m IR PLASTICO HIKVISION",
     "price": 90000,
-    "wholesalePrice": 81000,
+    "wholesalePrice": 82800,
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce76d0t-lpfs-2-8mm.webp",
     "tags": [
@@ -5826,7 +5826,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CAMARA TURBO 1080P TURRET AUDIO COAXIAL  0.01 Lux/ F1.6  DNR EXIR 2.0  Smart IR 30m IR METAL HIKVISION",
     "description": "CAMARA TURBO 1080P TURRET AUDIO COAXIAL  0.01 Lux/ F1.6  DNR EXIR 2.0  Smart IR 30m IR METAL HIKVISION",
     "price": 105000,
-    "wholesalePrice": 94500,
+    "wholesalePrice": 96600,
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce76d0t-lmfs-2-8mm.webp",
     "tags": [
@@ -5853,7 +5853,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CAMARA MINI TURBO 1080P BALA EXIR 0.01LUX 3.6 IR25m IP67 PLASTICO HIKVISION",
     "description": "CAMARA MINI TURBO 1080P BALA EXIR 0.01LUX 3.6 IR25m IP67 PLASTICO HIKVISION",
     "price": 95000,
-    "wholesalePrice": 85500,
+    "wholesalePrice": 87400,
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce16d0t-lpfs-2-8mm--o-std.webp",
     "tags": [
@@ -5881,7 +5881,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CAMARA TURBO 1080 BALA FIJA CON AUDIO LIGERO HIBRIDO EXIR 0.01LUX  IR40m IP67 SEMIMETAL HIKVISION",
     "description": "CAMARA TURBO 1080 BALA FIJA CON AUDIO LIGERO HIBRIDO EXIR 0.01LUX  IR40m IP67 SEMIMETAL HIKVISION",
     "price": 127500,
-    "wholesalePrice": 114750,
+    "wholesalePrice": 117300,
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce17d0t-lfs-2-8mm--o-std.webp",
     "tags": [
@@ -5906,7 +5906,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "TURRET 2 MP COLORVU SMART HYBRID / LENTE FIJO 2.8 MM / IR‑BLANCO 20 M / MICRÓFONO / IP67",
     "description": "TURRET 2 MP COLORVU SMART HYBRID / LENTE FIJO 2.8 MM / IR‑BLANCO 20 M / MICRÓFONO / IP67",
     "price": 120800,
-    "wholesalePrice": 108720,
+    "wholesalePrice": 111136,
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce70df0t-lmfs.webp",
     "tags": [
@@ -5931,7 +5931,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "DOMO 2 MP COLORVU SMART HYBRID / LENTE FIJO 2.8 MM / IR‑BLANCO 40 M / MICRÓFONO / IP67",
     "description": "DOMO 2 MP COLORVU SMART HYBRID / LENTE FIJO 2.8 MM / IR‑BLANCO 40 M / MICRÓFONO / IP67",
     "price": 135000,
-    "wholesalePrice": 121500,
+    "wholesalePrice": 124200,
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce72df0t-lfs.webp",
     "tags": [
@@ -5956,7 +5956,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CAMARA TURBO 1080P MINIDOMO  0.001LUX F1.0   HIBRIDA B/N - 24/7 COLORVU  20M 3D DNR  DWDR IP67 LUZ BLANCA PLASTICO HIKVISION AUDIO COAXIAL",
     "description": "CAMARA TURBO 1080P MINIDOMO  0.001LUX F1.0   HIBRIDA B/N - 24/7 COLORVU  20M 3D DNR  DWDR IP67 LUZ BLANCA PLASTICO HIKVISION AUDIO COAXIAL",
     "price": 106700,
-    "wholesalePrice": 96030,
+    "wholesalePrice": 98164,
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce70df0t-lpfs-2-8mm--o-std.webp",
     "tags": [
@@ -5984,7 +5984,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CAMARA TURBO 1080P MINIBALA  0.001LUX F1.0   HIBRIDA B/N - 24/7 COLORVU  20M 3D DNR  DWDR IP67 LUZ BLANCA PLASTICO HIKVISION AUDIO COAXIAL",
     "description": "CAMARA TURBO 1080P MINIBALA  0.001LUX F1.0   HIBRIDA B/N - 24/7 COLORVU  20M 3D DNR  DWDR IP67 LUZ BLANCA PLASTICO HIKVISION AUDIO COAXIAL",
     "price": 125000,
-    "wholesalePrice": 112500,
+    "wholesalePrice": 115000,
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce10df0t-lpfs-2-8mm.webp",
     "tags": [
@@ -6011,8 +6011,8 @@ export const PRODUCTS: Product[] = [
     "category": "cctv",
     "shortDesc": "CAMARA TURBO 1080P MINIBALA  0.001LUX F1.0   HIBRIDA B/N - Color VU 24/7 COLORVU  20M 3D DNR  DWDR IP67 LUZ BLANCA METALICA HIKVISION AUDIO ...",
     "description": "CAMARA TURBO 1080P MINIBALA  0.001LUX F1.0   HIBRIDA B/N - Color VU 24/7 COLORVU  20M 3D DNR  DWDR IP67 LUZ BLANCA METALICA HIKVISION AUDIO COAXIAL",
-    "price": 130000,
-    "wholesalePrice": 117000,
+    "price": 135000,
+    "wholesalePrice": 124200,
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce72df0t-lfs-14.webp",
     "tags": [
@@ -6040,7 +6040,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CAMARA TURBO 1080P BALA  0.001LUX F1.0   HIBRIDA B/N - Color VU 24/7 COLORVU  20M 3D DNR  DWDR IP67 LUZ BLANCA METALICA HIKVISION AUDIO COAX...",
     "description": "CAMARA TURBO 1080P BALA  0.001LUX F1.0   HIBRIDA B/N - Color VU 24/7 COLORVU  20M 3D DNR  DWDR IP67 LUZ BLANCA METALICA HIKVISION AUDIO COAXIAL",
     "price": 143900,
-    "wholesalePrice": 129510,
+    "wholesalePrice": 132388,
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce12df0t-lfs-2-8mm.webp",
     "tags": [
@@ -6068,7 +6068,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CAMARA TURBO TURRET 3K HIBRIDA B/N - Color VU 20M 0.01LUX  IR 20M PLASTICO HIKVISION AUDIO COAXIAL",
     "description": "CAMARA TURBO TURRET 3K HIBRIDA B/N - Color VU 20M 0.01LUX  IR 20M PLASTICO HIKVISION AUDIO COAXIAL",
     "price": 128200,
-    "wholesalePrice": 115380,
+    "wholesalePrice": 117944,
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce76k0t-lpfs-2-8mm.webp",
     "tags": [
@@ -6093,7 +6093,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CAMARA TURBO TURRET 3K HIBRIDA B/N - Color VU 20M 0.01LUX  IP67 METAL HIKVISION AUDIO COAXIAL",
     "description": "CAMARA TURBO TURRET 3K HIBRIDA B/N - Color VU 20M 0.01LUX  IP67 METAL HIKVISION AUDIO COAXIAL",
     "price": 141000,
-    "wholesalePrice": 126900,
+    "wholesalePrice": 129720,
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce76k0t-lmfs-2-8mm.webp",
     "tags": [
@@ -6118,7 +6118,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CAMARA TURBO TURRET 3K HIBRIDA B/N - Color VU  20M 0.01LUX  IR40M IP67 METALICO RECINTO PLASTICO AUDIO COAXIAL",
     "description": "CAMARA TURBO TURRET 3K HIBRIDA B/N - Color VU  20M 0.01LUX  IR40M IP67 METALICO RECINTO PLASTICO AUDIO COAXIAL",
     "price": 155200,
-    "wholesalePrice": 139680,
+    "wholesalePrice": 142784,
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce78k0t-lfs-2-8mm.webp",
     "tags": [
@@ -6143,7 +6143,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CAMARA MINI BALA CON 2.8 IR 25M  3K HIBRIDA B/N - Color VU 20M IP67 0.01LUX PLASTICO AUDIO COAXIAL",
     "description": "CAMARA MINI BALA CON 2.8 IR 25M  3K HIBRIDA B/N - Color VU 20M IP67 0.01LUX PLASTICO AUDIO COAXIAL",
     "price": 137800,
-    "wholesalePrice": 124020,
+    "wholesalePrice": 126776,
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce16d0t-lpfs-2-8mm--o-std.webp",
     "tags": [
@@ -6170,7 +6170,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CAMARA MINI BALA CON 2.8 IR 30M  3K HIBRIDA B/N - Color VU 20M IP67 0.01LUX METAL AUDIO COAXIAL",
     "description": "CAMARA MINI BALA CON 2.8 IR 30M  3K HIBRIDA B/N - Color VU 20M IP67 0.01LUX METAL AUDIO COAXIAL",
     "price": 146700,
-    "wholesalePrice": 132030,
+    "wholesalePrice": 134964,
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce16d0t-lpfs-2-8mm--o-std.webp",
     "tags": [
@@ -6197,7 +6197,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CAMARA TURBO BALA 2,8  3K HIBRIDA B/N - Color VU 40M EXTERIOR IP67 HIKVISION AUDIO COAXIAL",
     "description": "CAMARA TURBO BALA 2,8  3K HIBRIDA B/N - Color VU 40M EXTERIOR IP67 HIKVISION AUDIO COAXIAL",
     "price": 155700,
-    "wholesalePrice": 140130,
+    "wholesalePrice": 143244,
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce16d0t-lpfs-2-8mm--o-std.webp",
     "tags": [
@@ -6222,7 +6222,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CÁMARA BALA 3 K COLORVU SMART HYBRID / LENTE FIJA 2.8/3.6 MM / IR+BLANCO 20 M / MICRÓFONO / IP67",
     "description": "CÁMARA BALA 3 K COLORVU SMART HYBRID / LENTE FIJA 2.8/3.6 MM / IR+BLANCO 20 M / MICRÓFONO / IP67",
     "price": 216800,
-    "wholesalePrice": 195120,
+    "wholesalePrice": 199456,
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce10kf0t-lfs.webp",
     "tags": [
@@ -6247,7 +6247,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CÁMARA BALA 3 K COLORVU SMART HYBRID / LENTE FIJA 2.8/3.6 MM / IR+BLANCO 20 M / MICRÓFONO / IP67",
     "description": "CÁMARA BALA 3 K COLORVU SMART HYBRID / LENTE FIJA 2.8/3.6 MM / IR+BLANCO 20 M / MICRÓFONO / IP67",
     "price": 212000,
-    "wholesalePrice": 190800,
+    "wholesalePrice": 195040,
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce10kf0t-lpfs.webp",
     "tags": [
@@ -6272,7 +6272,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CÁMARA TURRET 3 K COLORVU SMART HYBRID / LENTE 2.8/3.6 MM / IR+BLANCO 20 M / MICRÓFONO / IP67",
     "description": "CÁMARA TURRET 3 K COLORVU SMART HYBRID / LENTE 2.8/3.6 MM / IR+BLANCO 20 M / MICRÓFONO / IP67",
     "price": 195200,
-    "wholesalePrice": 175680,
+    "wholesalePrice": 179584,
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce70kf0t-lpfs.webp",
     "tags": [
@@ -6297,7 +6297,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CÁMARA DOMO 3 K COLORVU SMART HYBRID / LENTE 2.8/3.6 MM / IR+BLANCO 40 M / MICRÓFONO / IP67",
     "description": "CÁMARA DOMO 3 K COLORVU SMART HYBRID / LENTE 2.8/3.6 MM / IR+BLANCO 40 M / MICRÓFONO / IP67",
     "price": 230000,
-    "wholesalePrice": 207000,
+    "wholesalePrice": 211600,
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce72kf0t-lfs.webp",
     "tags": [
@@ -6322,7 +6322,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CAMARA TURBO 1080P TURRET 0.01LUX  IR20m INT PLASTICA HIKVISION",
     "description": "CAMARA TURBO 1080P TURRET 0.01LUX  IR20m INT PLASTICA HIKVISION",
     "price": 65400,
-    "wholesalePrice": 58860,
+    "wholesalePrice": 60168,
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce56d0t-irpf-2-8mm.webp",
     "tags": [
@@ -6346,8 +6346,8 @@ export const PRODUCTS: Product[] = [
     "category": "cctv",
     "shortDesc": "CAMARA TURBO 1080P TURRET 0.01LUX  IR20m IP66 SEMIMETAL HIKVISION",
     "description": "CAMARA TURBO 1080P TURRET 0.01LUX  IR20m IP66 SEMIMETAL HIKVISION",
-    "price": 84400,
-    "wholesalePrice": 75960,
+    "price": 141000,
+    "wholesalePrice": 129720,
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce76k0t-lmfs-2-8mm-33.webp",
     "tags": [
@@ -6373,7 +6373,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CAMARA  TURBO 1080P TURRET 0.01LUX  EXIR IP66 METAL HIKVISION",
     "description": "CAMARA  TURBO 1080P TURRET 0.01LUX  EXIR IP66 METAL HIKVISION",
     "price": 87800,
-    "wholesalePrice": 79020,
+    "wholesalePrice": 80776,
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce56d0t-irmf-2-8mm.webp",
     "tags": [
@@ -6399,7 +6399,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CAMARA TURBO 1080P TURRET   0.001LUX F1.0   24/7 COLORVU LUZ BLANCA 20M 3D DNR  DWDR IP67 PLASTICA HIKVISION",
     "description": "CAMARA TURBO 1080P TURRET   0.001LUX F1.0   24/7 COLORVU LUZ BLANCA 20M 3D DNR  DWDR IP67 PLASTICA HIKVISION",
     "price": 88900,
-    "wholesalePrice": 80010,
+    "wholesalePrice": 81788,
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce70df0t-pf-2-8mm.webp",
     "tags": [
@@ -6427,7 +6427,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CAMARA TUBO 2MP TURRET  0.01LUX F1.0 24/7 COLORVU LUZ BLANCA 20MTS 3D DNR DWDR UP67 PLASTICA HIKVISION AUDIO COAXIAL",
     "description": "CAMARA TUBO 2MP TURRET  0.01LUX F1.0 24/7 COLORVU LUZ BLANCA 20MTS 3D DNR DWDR UP67 PLASTICA HIKVISION AUDIO COAXIAL",
     "price": 99600,
-    "wholesalePrice": 89640,
+    "wholesalePrice": 91632,
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce70df0t-pfs-2-8mm.webp",
     "tags": [
@@ -6454,7 +6454,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CÁMARA TIPO TURRET / LENTE 2 MP / VISIÓN NOCTURNA EXIR 30 m / SALIDA DE VIDEO TVI/AHD/CVI/CVBS / IP67 / FUNCIONES: DNR, SMART IR, OSD POR CO...",
     "description": "CÁMARA TIPO TURRET / LENTE 2 MP / VISIÓN NOCTURNA EXIR 30 m / SALIDA DE VIDEO TVI/AHD/CVI/CVBS / IP67 / FUNCIONES: DNR, SMART IR, OSD POR COAXIAL / ALIMENTACIÓN 12 VDC / LENTE FIJA 2.8 mm / USO EXTERIOR / SENSOR CMOS / SENSIBILIDAD 0.01 Lux @ F1.2",
     "price": 120900,
-    "wholesalePrice": 108810,
+    "wholesalePrice": 111228,
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce76d0t-itmf-2-8mm.webp",
     "tags": [
@@ -6481,7 +6481,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CAMARA TURBO 1080P TURRET  3.6   0.01 Lux/ F1.2  DNR EXIR 2.0  Smart IR 30m IR IP67 METALICA HIKVISION",
     "description": "CAMARA TURBO 1080P TURRET  3.6   0.01 Lux/ F1.2  DNR EXIR 2.0  Smart IR 30m IR IP67 METALICA HIKVISION",
     "price": 108600,
-    "wholesalePrice": 97740,
+    "wholesalePrice": 99912,
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce76d0t-itmf-3-6mm.webp",
     "tags": [
@@ -6509,7 +6509,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CAMARA TURBO 1080P TURRET EXIR 0.01LUX  IR20m IP66 PLASTICA HIKVISION",
     "description": "CAMARA TURBO 1080P TURRET EXIR 0.01LUX  IR20m IP66 PLASTICA HIKVISION",
     "price": 110700,
-    "wholesalePrice": 99630,
+    "wholesalePrice": 101844,
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce56d0t-it1f-2-8mm.webp",
     "tags": [
@@ -6535,7 +6535,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CAMARA TURBO 1080P TURRET EXIR 0.01LUX  IR20m IP66 PLASTICA HIKVISION",
     "description": "CAMARA TURBO 1080P TURRET EXIR 0.01LUX  IR20m IP66 PLASTICA HIKVISION",
     "price": 108600,
-    "wholesalePrice": 97740,
+    "wholesalePrice": 99912,
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce56d0t-it1f-3-6mm.webp",
     "tags": [
@@ -6561,7 +6561,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CAMARA TURBO 1080P TURRET   0.001LUX F1.0   24/7 COLORVU LUZ BLANCA 20M 3D DNR  DWDR IP67 LUZ BLANCA METALICA HIKVISION",
     "description": "CAMARA TURBO 1080P TURRET   0.001LUX F1.0   24/7 COLORVU LUZ BLANCA 20M 3D DNR  DWDR IP67 LUZ BLANCA METALICA HIKVISION",
     "price": 114400,
-    "wholesalePrice": 102960,
+    "wholesalePrice": 105248,
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce70df0t-mf-2-8mm.webp",
     "tags": [
@@ -6589,7 +6589,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CÁMARA BULLET IP / COLORVU 3.0 CON LUZ HÍBRIDA / LENTE 2 MP / CLASIFICACIÓN DE PERSONAS Y VEHÍCULOS / RANGO IR O LUZ BLANCA HASTA 30 m / MIC...",
     "description": "CÁMARA BULLET IP / COLORVU 3.0 CON LUZ HÍBRIDA / LENTE 2 MP / CLASIFICACIÓN DE PERSONAS Y VEHÍCULOS / RANGO IR O LUZ BLANCA HASTA 30 m / MICRÓFONO INTEGRADO / COMPRESIÓN H.265+ / PROTECCIÓN IP67 / ALIMENTACIÓN 12 VDC y PoE / MONITOREO MÓVIL VÍA HIK-CONNECT",
     "price": 253300,
-    "wholesalePrice": 227970,
+    "wholesalePrice": 233036,
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1027g3-liu-2-8mm--latam-acusense.webp",
     "tags": [
@@ -6617,7 +6617,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CÁMARA BULLET IP / COLORVU 3.0 CON LUZ HÍBRIDA / LENTE 4 MP / CLASIFICACIÓN DE PERSONAS Y VEHÍCULOS / RANGO IR O LUZ BLANCA HASTA 30 m /  MI...",
     "description": "CÁMARA BULLET IP / COLORVU 3.0 CON LUZ HÍBRIDA / LENTE 4 MP / CLASIFICACIÓN DE PERSONAS Y VEHÍCULOS / RANGO IR O LUZ BLANCA HASTA 30 m /  MICRÓFONO INTEGRADO / COMPRESIÓN H.265+ /  PROTECCIÓN IP67 / ALIMENTACIÓN 12 VDC y PoE /  MONITOREO MÓVIL VÍA HIK-CONNECT",
     "price": 368900,
-    "wholesalePrice": 332010,
+    "wholesalePrice": 339388,
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1047g3-liu-2-8mm--latam-acusense.webp",
     "tags": [
@@ -6645,7 +6645,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CÁMARA TURRET IP / COLORVU 3.0 CON LUZ HÍBRIDA /  LENTE 2 MP / CLASIFICACIÓN DE PERSONAS Y VEHÍCULOS / RANGO IR O LUZ BLANCA HASTA 30 m /  M...",
     "description": "CÁMARA TURRET IP / COLORVU 3.0 CON LUZ HÍBRIDA /  LENTE 2 MP / CLASIFICACIÓN DE PERSONAS Y VEHÍCULOS / RANGO IR O LUZ BLANCA HASTA 30 m /  MICRÓFONO INTEGRADO / COMPRESIÓN H.265+ /  PROTECCIÓN IP67 / ALIMENTACIÓN 12 VDC y PoE /  MONITOREO MÓVIL VÍA HIK-CONNECT",
     "price": 253300,
-    "wholesalePrice": 227970,
+    "wholesalePrice": 233036,
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1327g3-liu-2-8mm--latam-acusense.webp",
     "tags": [
@@ -6673,7 +6673,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CÁMARA TURRET IP / COLORVU 3.0 CON LUZ HÍBRIDA /  LENTE 4 MP / CLASIFICACIÓN DE PERSONAS Y VEHÍCULOS / RANGO IR O LUZ BLANCA HASTA 30 m /  M...",
     "description": "CÁMARA TURRET IP / COLORVU 3.0 CON LUZ HÍBRIDA /  LENTE 4 MP / CLASIFICACIÓN DE PERSONAS Y VEHÍCULOS / RANGO IR O LUZ BLANCA HASTA 30 m /  MICRÓFONO INTEGRADO / COMPRESIÓN H.265+ /  PROTECCIÓN IP67 / ALIMENTACIÓN 12 VDC y PoE /  MONITOREO MÓVIL VÍA HIK-CONNECT",
     "price": 368900,
-    "wholesalePrice": 332010,
+    "wholesalePrice": 339388,
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1347g3-liu-2-8mm--latam-acusense.webp",
     "tags": [
@@ -6701,7 +6701,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CÁMARA BULLET IP / COLORVU CON LUZ HÍBRIDA / LENTE 2 MP / DETECCIÓN DE PERSONAS Y VEHÍCULOS / RANGO IR O LUZ BLANCA HASTA 30 m / MICRÓFONO I...",
     "description": "CÁMARA BULLET IP / COLORVU CON LUZ HÍBRIDA / LENTE 2 MP / DETECCIÓN DE PERSONAS Y VEHÍCULOS / RANGO IR O LUZ BLANCA HASTA 30 m / MICRÓFONO INTEGRADO / COMPRESIÓN H.265+ / RANURA SD HASTA 512 GB (OPCIONAL) / PROTECCIÓN IP67 / ALIMENTACIÓN 12 VDC Y PoE / MONITOREO MÓVIL VÍA HIK-CONNECT",
     "price": 230200,
-    "wholesalePrice": 207180,
+    "wholesalePrice": 211784,
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1027g2h-liu-f.webp",
     "tags": [
@@ -6727,7 +6727,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CÁMARA BULLET IP / LENTE VARIFOCAL MOTORIZADO 2.8–12 mm / LENTE 2 MP / DETECCIÓN DE PERSONAS Y VEHÍCULOS / TECNOLOGÍA DUAL LIGHT CON ALCANCE...",
     "description": "CÁMARA BULLET IP / LENTE VARIFOCAL MOTORIZADO 2.8–12 mm / LENTE 2 MP / DETECCIÓN DE PERSONAS Y VEHÍCULOS / TECNOLOGÍA DUAL LIGHT CON ALCANCE DE 50 m / MICRÓFONO INTEGRADO / COMPRESIÓN H.265+ / RANURA SD HASTA 512 GB / PROTECCIÓN IP67 / ALIMENTACIÓN 12 VDC Y PoE / MONITOREO MÓVIL VÍA HIK-CONNECT",
     "price": 416400,
-    "wholesalePrice": 374760,
+    "wholesalePrice": 383088,
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1623g2-liz-s-u.webp",
     "tags": [
@@ -6755,7 +6755,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CÁMARA BULLET IP / LENTE FIJO 4 mm / LENTE 4 MP / DETECCIÓN DE PERSONAS Y VEHÍCULOS / TECNOLOGÍA EXIR 2.0 CON ALCANCE DE 50 m / MICRÓFONO IN...",
     "description": "CÁMARA BULLET IP / LENTE FIJO 4 mm / LENTE 4 MP / DETECCIÓN DE PERSONAS Y VEHÍCULOS / TECNOLOGÍA EXIR 2.0 CON ALCANCE DE 50 m / MICRÓFONO INTEGRADO (OPCIONAL) / COMPRESIÓN H.265+ / RANURA SD HASTA 256 GB (OPCIONAL) / PROTECCIÓN IP67 / WDR 120 dB / ALIMENTACIÓN 12 VDC Y PoE / MONITOREO MÓVIL VÍA HIK-CONNECT",
     "price": 340000,
-    "wholesalePrice": 306000,
+    "wholesalePrice": 312800,
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1t43g2-i-4mm--o-std.webp",
     "tags": [
@@ -6783,7 +6783,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CÁMARA BULLET IP / LENTE VARIFOCAL MOTORIZADO 2.8–12 mm / LENTE 2 MP / WDR REAL 120 dB / INTERFAZ DE AUDIO Y ALARMA / COMPRESIÓN H.265+ / RA...",
     "description": "CÁMARA BULLET IP / LENTE VARIFOCAL MOTORIZADO 2.8–12 mm / LENTE 2 MP / WDR REAL 120 dB / INTERFAZ DE AUDIO Y ALARMA / COMPRESIÓN H.265+ / RANURA SD (NO INCLUIDA) / VISIÓN NOCTURNA IR HASTA 30 m / PROTECCIÓN IP67 / ESTRUCTURA METÁLICA / ALIMENTACIÓN 12 VDC Y PoE / MONITOREO VÍA HIK-CONNECT",
     "price": 647300,
-    "wholesalePrice": 582570,
+    "wholesalePrice": 595516,
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd2621g0-izs-2-8-12mm--c--o-std.webp",
     "tags": [
@@ -6811,7 +6811,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CAMARA IP 2MP BALA  H265+ DWDR D/N F2.8 IR30m IP67  SEMIMETAL HIKVISION",
     "description": "CAMARA IP 2MP BALA  H265+ DWDR D/N F2.8 IR30m IP67  SEMIMETAL HIKVISION",
     "price": 193900,
-    "wholesalePrice": 174510,
+    "wholesalePrice": 178388,
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1023g0e-i--2-8mm.webp",
     "tags": [
@@ -6837,7 +6837,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CAMARA IP 2MP BALA H265+ DWDR F2.8 MD 2.0 30M IP67 METAL Y PLASTICO HIKVISION",
     "description": "CAMARA IP 2MP BALA H265+ DWDR F2.8 MD 2.0 30M IP67 METAL Y PLASTICO HIKVISION",
     "price": 201700,
-    "wholesalePrice": 181530,
+    "wholesalePrice": 185564,
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1023g2-i-2-8mm.webp",
     "tags": [
@@ -6865,7 +6865,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CAMARA IP BALA HIBRIDA B/N - Color VU 2MP MICROFONO INCORPORADO 0,005 Lux DETECCION DE PERSONAS Y VEHÍCULOS H.265 +, 120dB WDR IR: 30 m, Luz...",
     "description": "CAMARA IP BALA HIBRIDA B/N - Color VU 2MP MICROFONO INCORPORADO 0,005 Lux DETECCION DE PERSONAS Y VEHÍCULOS H.265 +, 120dB WDR IR: 30 m, Luz blanca: 20 m IP67",
     "price": 205700,
-    "wholesalePrice": 185130,
+    "wholesalePrice": 189244,
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1023g2-liu-2-8mm.webp",
     "tags": [
@@ -6892,8 +6892,8 @@ export const PRODUCTS: Product[] = [
     "category": "cctv",
     "shortDesc": "CAMARA IP 2 MP COLORVU BALA H265+ IP67  DWDR 2.8mm IR 30m METAL HIKVISION",
     "description": "CAMARA IP 2 MP COLORVU BALA H265+ IP67  DWDR 2.8mm IR 30m METAL HIKVISION",
-    "price": 221200,
-    "wholesalePrice": 199080,
+    "price": 230200,
+    "wholesalePrice": 211784,
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1027g2h-liu-f-17.webp",
     "tags": [
@@ -6918,7 +6918,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CAMARA IP 2MP BALA H265+  120DB IR50m IP67 MD 2.0 SEMIMETAL HIKVISION",
     "description": "CAMARA IP 2MP BALA H265+  120DB IR50m IP67 MD 2.0 SEMIMETAL HIKVISION",
     "price": 242800,
-    "wholesalePrice": 218520,
+    "wholesalePrice": 223376,
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1t23g2-i-4mm.webp",
     "tags": [
@@ -6944,7 +6944,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CAMARA EXT BALA 2MP D/N F2.8MM DWDR H265+ IR30m METAL/PLASTICO HIKVISION",
     "description": "CAMARA EXT BALA 2MP D/N F2.8MM DWDR H265+ IR30m METAL/PLASTICO HIKVISION",
     "price": 319000,
-    "wholesalePrice": 287100,
+    "wholesalePrice": 293480,
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd2021g1-i--2-8mm.webp",
     "tags": [
@@ -6969,7 +6969,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CAMARA EXT BALA 2MP D/N F4MM DWDR H265+ IR30m SEMIMETAL HIKVISION",
     "description": "CAMARA EXT BALA 2MP D/N F4MM DWDR H265+ IR30m SEMIMETAL HIKVISION",
     "price": 319000,
-    "wholesalePrice": 287100,
+    "wholesalePrice": 293480,
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd2021g1-i--4mm.webp",
     "tags": [
@@ -6994,7 +6994,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CÁMARA BALA 4 MP COLORVU SMART HYBRID LIGHT / H.265+ / DETECCIÓN HUM‑VEH / MICRÓFONO / ALMACENAMIENTO SD 512 GB / IP67",
     "description": "CÁMARA BALA 4 MP COLORVU SMART HYBRID LIGHT / H.265+ / DETECCIÓN HUM‑VEH / MICRÓFONO / ALMACENAMIENTO SD 512 GB / IP67",
     "price": 351400,
-    "wholesalePrice": 316260,
+    "wholesalePrice": 323288,
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1047g2h-liu-f.webp",
     "tags": [
@@ -7019,7 +7019,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CAMARA IP 4MP BALA H265+ DWDR D/NF2.8mm IR30m IP67 SEMIMETAL HIKVISION",
     "description": "CAMARA IP 4MP BALA H265+ DWDR D/NF2.8mm IR30m IP67 SEMIMETAL HIKVISION",
     "price": 292400,
-    "wholesalePrice": 263160,
+    "wholesalePrice": 269008,
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1043g0-i--2-8mm.webp",
     "tags": [
@@ -7044,7 +7044,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CAMARA EXT MINI BALA 4MP D/N LENTE 4MMIR 30M 120DB METAL H265+ IP67 HIKVISION",
     "description": "CAMARA EXT MINI BALA 4MP D/N LENTE 4MMIR 30M 120DB METAL H265+ IP67 HIKVISION",
     "price": 454400,
-    "wholesalePrice": 408960,
+    "wholesalePrice": 418048,
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd2043g0-i-2-8mm.webp",
     "tags": [
@@ -7069,7 +7069,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CAMARA EXT MINI BALA 4MP 2.8MM 40M120DB MD 2.0  H265+ IP67 HIKVISION AcuSense",
     "description": "CAMARA EXT MINI BALA 4MP 2.8MM 40M120DB MD 2.0  H265+ IP67 HIKVISION AcuSense",
     "price": 477000,
-    "wholesalePrice": 429300,
+    "wholesalePrice": 438840,
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd2043g2-i-2-8mm.webp",
     "tags": [
@@ -7096,7 +7096,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CAMARA IP 4MP BALA H265+VARIFOCAL MOTOF2.8-12 120DB IR30m IP67 METAL HIKVISION",
     "description": "CAMARA IP 4MP BALA H265+VARIFOCAL MOTOF2.8-12 120DB IR30m IP67 METAL HIKVISION",
     "price": 503200,
-    "wholesalePrice": 452880,
+    "wholesalePrice": 462944,
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1643g0-iz--2-8-12mm.webp",
     "tags": [
@@ -7121,7 +7121,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CAMARA IP 4 MP COLORVU BALA H265+ IP67  DWDR 2.8mm IR 30m SEMIMETALICA HIKVISION",
     "description": "CAMARA IP 4 MP COLORVU BALA H265+ IP67  DWDR 2.8mm IR 30m SEMIMETALICA HIKVISION",
     "price": 337700,
-    "wholesalePrice": 303930,
+    "wholesalePrice": 310684,
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1047g0-l--2-8mm.webp",
     "tags": [
@@ -7146,7 +7146,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CAMARA IP BALA HIBRIDA B/N - Color VU 4MP MICROFONO INCORPORADO 0,005 Lux DETECCION DE PERSONAS Y VEHÍCULOS H.265 +, 120dB WDR IR: 30 m, Luz...",
     "description": "CAMARA IP BALA HIBRIDA B/N - Color VU 4MP MICROFONO INCORPORADO 0,005 Lux DETECCION DE PERSONAS Y VEHÍCULOS H.265 +, 120dB WDR IR: 30 m, Luz blanca: 20 m IP67",
     "price": 310300,
-    "wholesalePrice": 279270,
+    "wholesalePrice": 285476,
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1043g2-liu-2-8mm.webp",
     "tags": [
@@ -7173,7 +7173,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CÁMARA BALA 4 MP VARIFOCAL 2.8‑12 MM / SMART HYBRID LIGHT / DETECCIÓN HUM‑VEH / H.265+ / MICRÓFONO / SD‑512 GB / IP67",
     "description": "CÁMARA BALA 4 MP VARIFOCAL 2.8‑12 MM / SMART HYBRID LIGHT / DETECCIÓN HUM‑VEH / H.265+ / MICRÓFONO / SD‑512 GB / IP67",
     "price": 523400,
-    "wholesalePrice": 471060,
+    "wholesalePrice": 481528,
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1643g2-liz-s-u.webp",
     "tags": [
@@ -7200,7 +7200,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CAMARA IP4MP MOTORIZADA F1.6 EXIR 60M WDR 120DB H265+ IP67 ENTRADA DE AUDIO Y ALARMA HIKVISION AcuSense",
     "description": "CAMARA IP4MP MOTORIZADA F1.6 EXIR 60M WDR 120DB H265+ IP67 ENTRADA DE AUDIO Y ALARMA HIKVISION AcuSense",
     "price": 1023200,
-    "wholesalePrice": 920880,
+    "wholesalePrice": 941344,
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd2643g2-izs-2-8-12mm.webp",
     "tags": [
@@ -7225,7 +7225,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CÁMARA DOMO 2 MP COLORVU SMART HYBRID LIGHT / LENTE FIJO 2.8/4 MM / IR‑BLANCO 30 M / DETECCIÓN HUM‑VEH / H.265+ / MICRÓFONO / SD 512 GB / IP...",
     "description": "CÁMARA DOMO 2 MP COLORVU SMART HYBRID LIGHT / LENTE FIJO 2.8/4 MM / IR‑BLANCO 30 M / DETECCIÓN HUM‑VEH / H.265+ / MICRÓFONO / SD 512 GB / IP67",
     "price": 258200,
-    "wholesalePrice": 232380,
+    "wholesalePrice": 237544,
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1327g2h-liu-f.webp",
     "tags": [
@@ -7252,7 +7252,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CÁMARA DOMO 2 MP SMART HYBRID LIGHT / LENTE FIJO 2.8/4 MM / IR‑BLANCO 30 M / DETECCIÓN HUM‑VEH / H.265+ / MICRÓFONO / SD 512 GB / IP67",
     "description": "CÁMARA DOMO 2 MP SMART HYBRID LIGHT / LENTE FIJO 2.8/4 MM / IR‑BLANCO 30 M / DETECCIÓN HUM‑VEH / H.265+ / MICRÓFONO / SD 512 GB / IP67",
     "price": 203000,
-    "wholesalePrice": 182700,
+    "wholesalePrice": 186760,
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1323g2-liu-f---ab.webp",
     "tags": [
@@ -7279,7 +7279,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CAMARA IP 2MP DOMO  H265+ DWDR D/NF 2.8 o IR30m IP67  SEMIMETAL HIKVISION",
     "description": "CAMARA IP 2MP DOMO  H265+ DWDR D/NF 2.8 o IR30m IP67  SEMIMETAL HIKVISION",
     "price": 180600,
-    "wholesalePrice": 162540,
+    "wholesalePrice": 166152,
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1323g0e-i--2-8mm.webp",
     "tags": [
@@ -7305,7 +7305,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CAMARA IP 2MP DOMO H265+ WDR MD 2.0 2.8MM 40M IP67  IK10 HIKVISION",
     "description": "CAMARA IP 2MP DOMO H265+ WDR MD 2.0 2.8MM 40M IP67  IK10 HIKVISION",
     "price": 184200,
-    "wholesalePrice": 165780,
+    "wholesalePrice": 169464,
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1323g2-i-2-8mm.webp",
     "tags": [
@@ -7331,7 +7331,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CAMARA IP 2MP DOMO H265+ DWDR D/NF2.8 IR30m IP67 IK10 SEMIMETAL HIKVISION",
     "description": "CAMARA IP 2MP DOMO H265+ DWDR D/NF2.8 IR30m IP67 IK10 SEMIMETAL HIKVISION",
     "price": 217000,
-    "wholesalePrice": 195300,
+    "wholesalePrice": 199640,
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1123g0e-i--2-8mm.webp",
     "tags": [
@@ -7357,7 +7357,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "CAMARA IP 2MP DOMO MD 2.0 H265+ WDR 2.8MM 30M IP67 IK10 METAL Y PLASTICO HIKVISION",
     "description": "CAMARA IP 2MP DOMO MD 2.0 H265+ WDR 2.8MM 30M IP67 IK10 METAL Y PLASTICO HIKVISION",
     "price": 225700,
-    "wholesalePrice": 203130,
+    "wholesalePrice": 207644,
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1123g2-i-2-8mm.webp",
     "tags": [
@@ -7385,7 +7385,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "TERMINAL DE RECONOCIMIENTO FACIAL / PANTALLA LCD 2.4″ / LENTE 2 MP / AUTENTICACIÓN POR ROSTRO, HUELLA, TARJETA M1 Y PIN / CAPACIDAD: 500 ROS...",
     "description": "TERMINAL DE RECONOCIMIENTO FACIAL / PANTALLA LCD 2.4″ / LENTE 2 MP / AUTENTICACIÓN POR ROSTRO, HUELLA, TARJETA M1 Y PIN / CAPACIDAD: 500 ROSTROS, 1 000 TARJETAS, 1 000 HUELLAS, 100 000 EVENTOS",
     "price": 468700,
-    "wholesalePrice": 421830,
+    "wholesalePrice": 431204,
     "stock": 25,
     "image": "/productos/catalogo/DS-K1T320MFWX-B.webp",
     "tags": [
@@ -7412,7 +7412,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "IGUAL AL MODELO 320, PERO CON CAPACIDAD AMPLIADA: 500 ROSTROS, 3 000 TARJETAS, 3 000 HUELLAS, 150 000 EVENTOS / SOPORTA Wi‑Fi Y RS‑485",
     "description": "IGUAL AL MODELO 320, PERO CON CAPACIDAD AMPLIADA: 500 ROSTROS, 3 000 TARJETAS, 3 000 HUELLAS, 150 000 EVENTOS / SOPORTA Wi‑Fi Y RS‑485",
     "price": 587800,
-    "wholesalePrice": 529020,
+    "wholesalePrice": 540776,
     "stock": 25,
     "image": "/productos/catalogo/DS-K1T321MFWX-B.webp",
     "tags": [
@@ -7439,7 +7439,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "TERMINAL DE RECONOCIMIENTO FACIAL / PANTALLA LCD 2.4″ / LENTE 2 MP / AUTENTICACIÓN POR ROSTRO, HUELLA, TARJETA M1 Y PIN / CAPACIDAD: 500 ROS...",
     "description": "TERMINAL DE RECONOCIMIENTO FACIAL / PANTALLA LCD 2.4″ / LENTE 2 MP / AUTENTICACIÓN POR ROSTRO, HUELLA, TARJETA M1 Y PIN / CAPACIDAD: 500 ROSTROS, 1 000 TARJETAS, 1 000 HUELLAS, 100 000 EVENTOS",
     "price": 564300,
-    "wholesalePrice": 507870,
+    "wholesalePrice": 519156,
     "stock": 25,
     "image": "/productos/catalogo/DS-K1T323MBFWX-E1.webp",
     "tags": [
@@ -7466,7 +7466,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "TERMINAL DE RECONOCIMIENTO FACIAL / PANTALLA LCD 2.4″ / LENTE 2 MP / AUTENTICACIÓN POR ROSTRO, TARJETA M1 Y CÓDIGO QR / CAPACIDAD: 1 000 ROS...",
     "description": "TERMINAL DE RECONOCIMIENTO FACIAL / PANTALLA LCD 2.4″ / LENTE 2 MP / AUTENTICACIÓN POR ROSTRO, TARJETA M1 Y CÓDIGO QR / CAPACIDAD: 1 000 ROSTROS, 3 000 TARJETAS / TIEMPO DE RECONOCIMIENTO < 0.2 s / AUDIO BIDIRECCIONAL / CONFIGURACIÓN POR WEB MÓVIL Y PC / ALIMENTACIÓN POE + SALIDA PARA CERRADURA",
     "price": 564300,
-    "wholesalePrice": 507870,
+    "wholesalePrice": 519156,
     "stock": 25,
     "image": "/productos/catalogo/DS-K1T323MBWX-QRE1.webp",
     "tags": [
@@ -7494,7 +7494,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "TERMINAL VALUE SERIES / PANTALLA TÁCTIL LCD 4.3″ / LENTE 2 MP / CAPACIDAD: 1 500 ROSTROS, 3 000 HUELLAS, 3 000 TARJETAS / AUDIO BIDIRECCIONA...",
     "description": "TERMINAL VALUE SERIES / PANTALLA TÁCTIL LCD 4.3″ / LENTE 2 MP / CAPACIDAD: 1 500 ROSTROS, 3 000 HUELLAS, 3 000 TARJETAS / AUDIO BIDIRECCIONAL / Wi‑Fi / PRECISIÓN ≥ 99%",
     "price": 667800,
-    "wholesalePrice": 601020,
+    "wholesalePrice": 614376,
     "stock": 25,
     "image": "/productos/catalogo/DS-K1T343MFWX-B.webp",
     "tags": [
@@ -7521,7 +7521,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "TERMINAL VALUE SERIES / PANTALLA TÁCTIL LCD 4.3″ / LENTE 2 MP / CAPACIDAD: 1 500 ROSTROS, 3 000 HUELLAS, 3 000 TARJETAS / AUDIO BIDIRECCIONA...",
     "description": "TERMINAL VALUE SERIES / PANTALLA TÁCTIL LCD 4.3″ / LENTE 2 MP / CAPACIDAD: 1 500 ROSTROS, 3 000 HUELLAS, 3 000 TARJETAS / AUDIO BIDIRECCIONAL / Wi‑Fi / PRECISIÓN ≥ 99%",
     "price": 667800,
-    "wholesalePrice": 601020,
+    "wholesalePrice": 614376,
     "stock": 25,
     "image": "/productos/catalogo/DS-K1T343MFWX-B_O-STD_.webp",
     "tags": [
@@ -7548,7 +7548,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "TERMINAL VALUE SERIES HUELLA Y TARJETA / PROTECCIÓN IP65 IK08 / CAPACIDAD: 3 000 HUELLAS, 10 000 TARJETAS, 100 000 EVENTOS / LECTOR TARJETA ...",
     "description": "TERMINAL VALUE SERIES HUELLA Y TARJETA / PROTECCIÓN IP65 IK08 / CAPACIDAD: 3 000 HUELLAS, 10 000 TARJETAS, 100 000 EVENTOS / LECTOR TARJETA M1 / BLUETOOTH Y AP MODE / CONFIGURACIÓN VÍA HIK‑CONNECT",
     "price": 603400,
-    "wholesalePrice": 543060,
+    "wholesalePrice": 555128,
     "stock": 25,
     "image": "/productos/catalogo/DS-K1T805MBFWX.webp",
     "tags": [
@@ -7575,7 +7575,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "TERMINAL DE RECONOCIMIENTO FACIAL ULTRA RÁPIDO HASTA A 1.5 MTS, ANTI-SPOOFING, PIN, 1,000 HUELLAS 500 ROSTROS 1000 TARJETAS M1, 100,000 EVEN...",
     "description": "TERMINAL DE RECONOCIMIENTO FACIAL ULTRA RÁPIDO HASTA A 1.5 MTS, ANTI-SPOOFING, PIN, 1,000 HUELLAS 500 ROSTROS 1000 TARJETAS M1, 100,000 EVENTOS, WIFI, CONTROL ACCESO Y TIEMPO ASISTENCIA, HIKCONNECT,",
     "price": 444700,
-    "wholesalePrice": 400230,
+    "wholesalePrice": 409124,
     "stock": 25,
     "image": "/productos/catalogo/DS-K1T320MFX.webp",
     "tags": [
@@ -7603,7 +7603,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "TERMINAL DE RECONOCIMIENTO FACIAL CON DETECCION DE TEMPERATURA Y MASCARA PANTALLA TACTIL LCD CAMARA 2MP 500 ROSTROS 3000 TARJETAS",
     "description": "TERMINAL DE RECONOCIMIENTO FACIAL CON DETECCION DE TEMPERATURA Y MASCARA PANTALLA TACTIL LCD CAMARA 2MP 500 ROSTROS 3000 TARJETAS",
     "price": 510600,
-    "wholesalePrice": 459540,
+    "wholesalePrice": 469752,
     "stock": 25,
     "image": "/productos/catalogo/DS-K1T321MFWX.webp",
     "tags": [
@@ -7629,7 +7629,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "WIFI, TERMINAL DE RECONOCIMIENTO FACIAL ULTRA RÁPIDO  HASTA 1.5 MTS EN LECTURA SOLO PARA ASISTENCIA WIFI CAPACIDAD 1500 ROSTROS / REPORTES E...",
     "description": "WIFI, TERMINAL DE RECONOCIMIENTO FACIAL ULTRA RÁPIDO  HASTA 1.5 MTS EN LECTURA SOLO PARA ASISTENCIA WIFI CAPACIDAD 1500 ROSTROS / REPORTES EN EXCEL",
     "price": 514500,
-    "wholesalePrice": 463050,
+    "wholesalePrice": 473340,
     "stock": 25,
     "image": "/productos/catalogo/DS-K1A340WX.webp",
     "tags": [
@@ -7656,8 +7656,8 @@ export const PRODUCTS: Product[] = [
     "category": "citofonia",
     "shortDesc": "TERMINAL DE RECONOCIMIENTO FACIAL ULTRA RÁPIDO HASTA A 1.5 MTS, ANTI-SPOOFING, WIFI, 1500 ROSTROS, 3,000 TARJETAS M1, 150,000 EVENTOS, CONTR...",
     "description": "TERMINAL DE RECONOCIMIENTO FACIAL ULTRA RÁPIDO HASTA A 1.5 MTS, ANTI-SPOOFING, WIFI, 1500 ROSTROS, 3,000 TARJETAS M1, 150,000 EVENTOS, CONTROL ACCESO Y TIEMPO ASISTENCIA, HIKCONNECT, VIDEO PORTERO",
-    "price": 571400,
-    "wholesalePrice": 514260,
+    "price": 444700,
+    "wholesalePrice": 409124,
     "stock": 25,
     "image": "/productos/catalogo/DS-K1T320MFX.webp",
     "tags": [
@@ -7685,7 +7685,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "TERMINAL DE RECONOCIMIENTO FACIAL ULTRA RÁPIDO HASTA A 1.5 MTS, ANTI-SPOOFING, WIFI, 1,500 ROSTROS, 3,000 TARJETAS,3,000 QR, 150,000 EVENTOS...",
     "description": "TERMINAL DE RECONOCIMIENTO FACIAL ULTRA RÁPIDO HASTA A 1.5 MTS, ANTI-SPOOFING, WIFI, 1,500 ROSTROS, 3,000 TARJETAS,3,000 QR, 150,000 EVENTOS, CONTROL ACCESO Y TIEMPO ASISTENCIA, VIDEO PORTERO",
     "price": 658400,
-    "wholesalePrice": 592560,
+    "wholesalePrice": 605728,
     "stock": 25,
     "image": "/productos/catalogo/DS-K1T342MWX.webp",
     "tags": [
@@ -7713,7 +7713,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "TERMINAL DE RECONOCIMIENTO FACIAL / PANTALLA TÁCTIL LCD 4.3″ / LENTE GRAN ANGULAR 2 MP / AUTENTICACIÓN POR ROSTRO, TARJETA M1, HUELLA Y PIN ...",
     "description": "TERMINAL DE RECONOCIMIENTO FACIAL / PANTALLA TÁCTIL LCD 4.3″ / LENTE GRAN ANGULAR 2 MP / AUTENTICACIÓN POR ROSTRO, TARJETA M1, HUELLA Y PIN / CAPACIDAD: 1 500 ROSTROS, 3 000 HUELLAS, 3 000 TARJETAS / TIEMPO DE RECONOCIMIENTO < 0.2 s / AUDIO BIDIRECCIONAL / CONFIGURACIÓN POR WEB / ALIMENTACIÓN PoE + SALIDA PARA CERRADURA (12 VDC/1 A) / PROTOCOLOS ISAPI E ISUP5.0 / PROTECCIÓN IP65 / RECONOCIMIENTO CON MASCARILLA / SOPORTE MULTILENGUAJE / ADAPTADO PARA CONTROL DE ASISTENCIA",
     "price": 779800,
-    "wholesalePrice": 701820,
+    "wholesalePrice": 717416,
     "stock": 25,
     "image": "/productos/catalogo/DS-K1T342MFWX-E1.webp",
     "tags": [
@@ -7741,7 +7741,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Terminal Facial Min Moe WiFi / Lector de QRs Físico de Alta Velocidad / 3000 Rostros / Pantalla 4.3\"",
     "description": "Terminal Facial Min Moe WiFi / Lector de QRs Físico de Alta Velocidad / 3000 Rostros / Pantalla 4.3\"",
     "price": 847200,
-    "wholesalePrice": 762480,
+    "wholesalePrice": 779424,
     "stock": 25,
     "image": "/productos/catalogo/DS-K1T344MBWX-QRE1.webp",
     "tags": [
@@ -7766,8 +7766,8 @@ export const PRODUCTS: Product[] = [
     "category": "citofonia",
     "shortDesc": "Terminal Min Moe WiFi de Reconocimiento Facial (Exterior IP65) / Hasta 1.5 mts en lecturaL",
     "description": "Terminal Min Moe WiFi de Reconocimiento Facial (Exterior IP65) / Hasta 1.5 mts en lecturaL",
-    "price": 862800,
-    "wholesalePrice": 776520,
+    "price": 658400,
+    "wholesalePrice": 605728,
     "stock": 25,
     "image": "/productos/catalogo/DS-K1T342MWX.webp",
     "tags": [
@@ -7794,7 +7794,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "KIT DE INTERCOMUNICADOR / LLAMADA CON UN SOLO BOTÓN / AJUSTE DE VOLUMEN Y TONO / DESBLOQUEO REMOTO",
     "description": "KIT DE INTERCOMUNICADOR / LLAMADA CON UN SOLO BOTÓN / AJUSTE DE VOLUMEN Y TONO / DESBLOQUEO REMOTO",
     "price": 137100,
-    "wholesalePrice": 123390,
+    "wholesalePrice": 126132,
     "stock": 25,
     "image": "/productos/catalogo/DS-KIS103_O-STD_-US.webp",
     "tags": [
@@ -7818,8 +7818,8 @@ export const PRODUCTS: Product[] = [
     "category": "citofonia",
     "shortDesc": "KIT INTERFÓNICO HD 4‑WIRE VALUE / CALIDAD DE VIDEO HD TVI / PANTALLA INTERIOR 7″ TFT 1024×600 / GOP DE LLAMADA Y DESBLOQUEO / ADMITE HASTA 2...",
     "description": "KIT INTERFÓNICO HD 4‑WIRE VALUE / CALIDAD DE VIDEO HD TVI / PANTALLA INTERIOR 7″ TFT 1024×600 / GOP DE LLAMADA Y DESBLOQUEO / ADMITE HASTA 2 ESTACIONES DE PUERTA Y 3 INTERIORES / ALIMENTACIÓN 12 VDC",
-    "price": 447000,
-    "wholesalePrice": 402300,
+    "price": 444700,
+    "wholesalePrice": 409124,
     "stock": 25,
     "image": "/productos/catalogo/DS-K1T320MFX.webp",
     "tags": [
@@ -7844,7 +7844,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "KIT INTERFÓNICO HD 4‑WIRE PRO / PANTALLA INTERIOR 7″ TFT / IP65 IK08 (ESTACIÓN PUERTA) / CALIDAD HD TVI / ALIMENTACIÓN 12 VDC",
     "description": "KIT INTERFÓNICO HD 4‑WIRE PRO / PANTALLA INTERIOR 7″ TFT / IP65 IK08 (ESTACIÓN PUERTA) / CALIDAD HD TVI / ALIMENTACIÓN 12 VDC",
     "price": 492000,
-    "wholesalePrice": 442800,
+    "wholesalePrice": 452640,
     "stock": 25,
     "image": "/productos/catalogo/DS-KIS213.webp",
     "tags": [
@@ -7869,7 +7869,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "KIT ANALOGO A PRUEBA DE AGUA VIDEOPORTERO INCLUYE ESTACION",
     "description": "KIT ANALOGO A PRUEBA DE AGUA VIDEOPORTERO INCLUYE ESTACION",
     "price": 455900,
-    "wholesalePrice": 410310,
+    "wholesalePrice": 419428,
     "stock": 25,
     "image": "/productos/catalogo/DS-KIS203T.webp",
     "tags": [
@@ -7894,7 +7894,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "KIT ANALOGO CON FUNCION DE LLAMADA A APP HIK-CONNECT / EXPANDIBLE A MAS EQUIPOS",
     "description": "KIT ANALOGO CON FUNCION DE LLAMADA A APP HIK-CONNECT / EXPANDIBLE A MAS EQUIPOS",
     "price": 611800,
-    "wholesalePrice": 550620,
+    "wholesalePrice": 562856,
     "stock": 25,
     "image": "/productos/catalogo/DS-KIS302-P.webp",
     "tags": [
@@ -7918,8 +7918,8 @@ export const PRODUCTS: Product[] = [
     "category": "citofonia",
     "shortDesc": "KIT DE VIDEOPORTERO HÍBRIDO HD 4 HILOS / MONITOR INTERIOR TÁCTIL 7″ 1024×600 / CÁMARA INTERIOR HD TVI 2MP CON MICRÓFONO, ALTAVOZ Y RELÉ / SO...",
     "description": "KIT DE VIDEOPORTERO HÍBRIDO HD 4 HILOS / MONITOR INTERIOR TÁCTIL 7″ 1024×600 / CÁMARA INTERIOR HD TVI 2MP CON MICRÓFONO, ALTAVOZ Y RELÉ / SOPORTA HASTA 3 MONITORES Y 1 SUBESTACIÓN / ALIMENTACIÓN 12 VCD / CONTROL MÓVIL VÍA HIK-CONNECT / PROTECCIÓN IP65 E IK08 / INCLUYE CABLE DE 5 METROS Y ADAPTADOR EUROPEO",
-    "price": 625100,
-    "wholesalePrice": 562590,
+    "price": 658400,
+    "wholesalePrice": 605728,
     "stock": 25,
     "image": "/productos/catalogo/DS-K1T342MWX.webp",
     "tags": [
@@ -7944,7 +7944,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "KIT DE VIDEOPORTERO HÍBRIDO HD 4 HILOS / MONITOR INTERIOR TÁCTIL 7″ 1024×600 / CÁMARA INTERIOR HD TVI CON MICRÓFONO, ALTAVOZ Y RELÉ / SOPORT...",
     "description": "KIT DE VIDEOPORTERO HÍBRIDO HD 4 HILOS / MONITOR INTERIOR TÁCTIL 7″ 1024×600 / CÁMARA INTERIOR HD TVI CON MICRÓFONO, ALTAVOZ Y RELÉ / SOPORTA HASTA 3 MONITORES Y 1 SUBESTACIÓN / ALIMENTACIÓN 12 VCD",
     "price": 604400,
-    "wholesalePrice": 543960,
+    "wholesalePrice": 556048,
     "stock": 25,
     "image": "/productos/catalogo/DS-KIS312-P(O-STD).webp",
     "tags": [
@@ -7969,7 +7969,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "KIT DE VIDEOPORTERO IP VILLA / CÁMARA EXTERIOR HD 2 MP + MONITOR INTERIOR TÁCTIL 4.3″ / RECONOCIMIENTO DE VOZ BIDIRECCIONAL / ADMITEN HASTA ...",
     "description": "KIT DE VIDEOPORTERO IP VILLA / CÁMARA EXTERIOR HD 2 MP + MONITOR INTERIOR TÁCTIL 4.3″ / RECONOCIMIENTO DE VOZ BIDIRECCIONAL / ADMITEN HASTA 16 MONITORES ENLACE / ALARMAS, RS‑485, RELÉ DE CIERRE / PROTECCIÓN EXTERIOR IP65 / POE IEEE802.3af O 12 V D.C.",
     "price": 723100,
-    "wholesalePrice": 650790,
+    "wholesalePrice": 665252,
     "stock": 25,
     "image": "/productos/catalogo/DS-KIS606-P.webp",
     "tags": [
@@ -7997,7 +7997,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "KIT IP VIDEOPORTERO LITE /FRENTE DE CALLE IP65 SOPORTE POE ESTANDAR",
     "description": "KIT IP VIDEOPORTERO LITE /FRENTE DE CALLE IP65 SOPORTE POE ESTANDAR",
     "price": 720700,
-    "wholesalePrice": 648630,
+    "wholesalePrice": 663044,
     "stock": 25,
     "image": "/productos/catalogo/DS-KIS605-P(C).webp",
     "tags": [
@@ -8022,7 +8022,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "KIT IP VIDEOPORTERO INCLUYE ESTACION",
     "description": "KIT IP VIDEOPORTERO INCLUYE ESTACION",
     "price": 839400,
-    "wholesalePrice": 755460,
+    "wholesalePrice": 772248,
     "stock": 25,
     "image": "/productos/catalogo/DS-KIS603-P.webp",
     "tags": [
@@ -8047,7 +8047,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "VIDEOPORTERO WIFI IP 2 MP  POE ESTANDAR  IP65 SOPORTA 1 DEPARTAMENTO Y HASTA 6 MONITORES TARJETAS MIFARE  1 SALIDA RELAY",
     "description": "VIDEOPORTERO WIFI IP 2 MP  POE ESTANDAR  IP65 SOPORTA 1 DEPARTAMENTO Y HASTA 6 MONITORES TARJETAS MIFARE  1 SALIDA RELAY",
     "price": 364400,
-    "wholesalePrice": 327960,
+    "wholesalePrice": 335248,
     "stock": 25,
     "image": "/productos/catalogo/DS-KV6113-WPE1.webp",
     "tags": [
@@ -8072,8 +8072,8 @@ export const PRODUCTS: Product[] = [
     "category": "citofonia",
     "shortDesc": "VIDEOPORTERO WIFI 2MP POE ESTANDAR IP65 SOPORTA 1 DEPARTAMENTO Y HASTA 6 MONITORES SOPORTA TARJETA MIFARE 1 SALIDA RELAY",
     "description": "VIDEOPORTERO WIFI 2MP POE ESTANDAR IP65 SOPORTA 1 DEPARTAMENTO Y HASTA 6 MONITORES SOPORTA TARJETA MIFARE 1 SALIDA RELAY",
-    "price": 400900,
-    "wholesalePrice": 360810,
+    "price": 364400,
+    "wholesalePrice": 335248,
     "stock": 25,
     "image": "/productos/catalogo/DS-KV6113-WPE1(C).webp",
     "tags": [
@@ -8100,7 +8100,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "VIDEOPORTERO 2MP, 1 BOTÓN ,IR  ETHERNET RS-485, 4 CANALES, IP65, 12 VDC O POE",
     "description": "VIDEOPORTERO 2MP, 1 BOTÓN ,IR  ETHERNET RS-485, 4 CANALES, IP65, 12 VDC O POE",
     "price": 475600,
-    "wholesalePrice": 428040,
+    "wholesalePrice": 437552,
     "stock": 25,
     "image": "/productos/catalogo/DS-KD8003-IME1(B).webp",
     "tags": [
@@ -8128,7 +8128,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "VIDEOPORTERO 2MP, 1 BOTÓN ,IR  ETHERNET RS-485, 4 CANALES, IP65, 12 VDC O POE",
     "description": "VIDEOPORTERO 2MP, 1 BOTÓN ,IR  ETHERNET RS-485, 4 CANALES, IP65, 12 VDC O POE",
     "price": 453000,
-    "wholesalePrice": 407700,
+    "wholesalePrice": 416760,
     "stock": 25,
     "image": "/productos/catalogo/DS-KD8003-IME1.webp",
     "tags": [
@@ -8156,7 +8156,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "VIDEOPORTERO 2MP, 4 BOTONES, IR ETHERNET 10/100 MBPS, IP65, POE ESTANDAR",
     "description": "VIDEOPORTERO 2MP, 4 BOTONES, IR ETHERNET 10/100 MBPS, IP65, POE ESTANDAR",
     "price": 741300,
-    "wholesalePrice": 667170,
+    "wholesalePrice": 681996,
     "stock": 25,
     "image": "/productos/catalogo/DS-KV8413-WME1(C).webp",
     "tags": [
@@ -8184,7 +8184,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "UPS DE 1000 VA 600 W  PROTECCIÓN CONTRA SOBRECARGA Y DESCARGA  ENTRADA Y SALIDA 120 VCA 6 TOMAS NEMA 5-15R",
     "description": "UPS DE 1000 VA 600 W  PROTECCIÓN CONTRA SOBRECARGA Y DESCARGA  ENTRADA Y SALIDA 120 VCA 6 TOMAS NEMA 5-15R",
     "price": 211100,
-    "wholesalePrice": 189990,
+    "wholesalePrice": 194212,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-ups1000-x.webp",
     "tags": [
@@ -8209,7 +8209,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "UPS DE 2000 VA 1200 W PROTECCIÓN CONTRA CORTOCIRCUITOS PROTECCIÓN CONTRA SOBRETENSIONES PUERTO USB PARA CONTROL REMOTO PANTALLA LCD",
     "description": "UPS DE 2000 VA 1200 W PROTECCIÓN CONTRA CORTOCIRCUITOS PROTECCIÓN CONTRA SOBRETENSIONES PUERTO USB PARA CONTROL REMOTO PANTALLA LCD",
     "price": 560000,
-    "wholesalePrice": 504000,
+    "wholesalePrice": 515200,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-ups2000-x.webp",
     "tags": [
@@ -8234,7 +8234,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "UPS DE 3000 VA  1800 W PANTALLA LCD  PROTECCIÓN CONTRA SOBRECARGA Y DESCARGA  ENTRADA Y SALIDA 120 VCA 6 TOMAS NEMA 5-15R",
     "description": "UPS DE 3000 VA  1800 W PANTALLA LCD  PROTECCIÓN CONTRA SOBRECARGA Y DESCARGA  ENTRADA Y SALIDA 120 VCA 6 TOMAS NEMA 5-15R",
     "price": 899600,
-    "wholesalePrice": 809640,
+    "wholesalePrice": 827632,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-ups3000-x.webp",
     "tags": [
@@ -8259,7 +8259,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "UPS DE 600 VA 360W PROTECCIÓN CONTRA SOBRECARGA Y DESCARGA / ENTRADA Y SALIDA 120 VCA  6 TOMAS NEMA 5-15R",
     "description": "UPS DE 600 VA 360W PROTECCIÓN CONTRA SOBRECARGA Y DESCARGA / ENTRADA Y SALIDA 120 VCA  6 TOMAS NEMA 5-15R",
     "price": 165300,
-    "wholesalePrice": 148770,
+    "wholesalePrice": 152076,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-ups600-x.webp",
     "tags": [
@@ -8284,7 +8284,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Monitor LED Full HD (1920 X 1080) de 21.5",
     "description": "Monitor LED Full HD (1920 X 1080) de 21.5",
     "price": 420300,
-    "wholesalePrice": 378270,
+    "wholesalePrice": 386676,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-d5022f2-1v2.webp",
     "tags": [
@@ -8309,7 +8309,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "MONITOR SOHO / FHD 23.8” / REFRESCO 100Hz / DISEÑO ULTRA-DELGADO / INTERFACES MÚLTIPLES",
     "description": "MONITOR SOHO / FHD 23.8” / REFRESCO 100Hz / DISEÑO ULTRA-DELGADO / INTERFACES MÚLTIPLES",
     "price": 561900,
-    "wholesalePrice": 505710,
+    "wholesalePrice": 516948,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-d5024f2-ap2-o-std--us.webp",
     "tags": [
@@ -8334,7 +8334,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "MONITOR 43” FHD 60Hz VA / ÁNGULO DE VISIÓN 178° / PESO 6.85 KG / SERIE PROFESSIONAL",
     "description": "MONITOR 43” FHD 60Hz VA / ÁNGULO DE VISIÓN 178° / PESO 6.85 KG / SERIE PROFESSIONAL",
     "price": 1940200,
-    "wholesalePrice": 1746180,
+    "wholesalePrice": 1784984,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-d5043f3-1v0s-o-std--eu.webp",
     "tags": [
@@ -8359,7 +8359,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "MONITOR 27″ FHD / IPS / 100 Hz máx. (60 Hz típico) / 300 cd/m² / 1300:1 / 178° / 14 ms (typ), 5 ms OD / HDMI + VGA / E‑LED / Bajo azul / 3D ...",
     "description": "MONITOR 27″ FHD / IPS / 100 Hz máx. (60 Hz típico) / 300 cd/m² / 1300:1 / 178° / 14 ms (typ), 5 ms OD / HDMI + VGA / E‑LED / Bajo azul / 3D NR / VESA 100×100 / 12 V DC / ≤ 30 W",
     "price": 779000,
-    "wholesalePrice": 701100,
+    "wholesalePrice": 716680,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-d5027f2-1p2.webp",
     "tags": [
@@ -8386,7 +8386,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "MONITOR 32″ FHD / VA / 75 Hz / 300 cd/m² / 4000:1 / 178° / 8 ms / HDMI + VGA / D‑LED / Altavoz / Bajo azul / 3D NR / VESA 100×100",
     "description": "MONITOR 32″ FHD / VA / 75 Hz / 300 cd/m² / 4000:1 / 178° / 8 ms / HDMI + VGA / D‑LED / Altavoz / Bajo azul / 3D NR / VESA 100×100",
     "price": 1013200,
-    "wholesalePrice": 911880,
+    "wholesalePrice": 932144,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-d5032f3-1v0s.webp",
     "tags": [
@@ -8411,7 +8411,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "43″ UHD / VA / 60 Hz / 300 cd/m² / 4000:1 / 178° / 6.5 ms / HDMI + USB 2.0 / D‑LED / Altavoz 10 W×2 / Bajo azul / 3D NR / VESA / 7×24 h",
     "description": "43″ UHD / VA / 60 Hz / 300 cd/m² / 4000:1 / 178° / 6.5 ms / HDMI + USB 2.0 / D‑LED / Altavoz 10 W×2 / Bajo azul / 3D NR / VESA / 7×24 h",
     "price": 2497900,
-    "wholesalePrice": 2248110,
+    "wholesalePrice": 2298068,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-d5043u3-1v0s.webp",
     "tags": [
@@ -8438,7 +8438,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "MONITOR 50″ UHD / VA / 60 HZ / 300 CD/M² / 4000:1 / 178° / 6.5 MS / HDMI×3 + USB + LINE OUT + RS‑232 / D‑LED / REDUCCIÓN 3D / BAJO AZUL / UL...",
     "description": "MONITOR 50″ UHD / VA / 60 HZ / 300 CD/M² / 4000:1 / 178° / 6.5 MS / HDMI×3 + USB + LINE OUT + RS‑232 / D‑LED / REDUCCIÓN 3D / BAJO AZUL / ULTRADELGADO / VESA 200×200 / 7×24 H",
     "price": 3311400,
-    "wholesalePrice": 2980260,
+    "wholesalePrice": 3046488,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-d5050u3-1v0s.webp",
     "tags": [
@@ -8463,7 +8463,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "MONITOR 55″ UHD / VA / 60 HZ / 300 CD/M² / 4000:1 / 178° / 6.5 MS / HDMI×3 + USB + LINE OUT + RS‑232 + SPEAKER OUT 10 W×2 / D‑LED / BAJO AZU...",
     "description": "MONITOR 55″ UHD / VA / 60 HZ / 300 CD/M² / 4000:1 / 178° / 6.5 MS / HDMI×3 + USB + LINE OUT + RS‑232 + SPEAKER OUT 10 W×2 / D‑LED / BAJO AZUL / 3D NR / ULTRADELGADO / VESA 200×200 / 7×24 H",
     "price": 3951400,
-    "wholesalePrice": 3556260,
+    "wholesalePrice": 3635288,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-d5055u3-1v0s.webp",
     "tags": [
@@ -8488,7 +8488,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "MONITOR  LED de 65\" HDMI/VGA 1920 X 1080",
     "description": "MONITOR  LED de 65\" HDMI/VGA 1920 X 1080",
     "price": 5242500,
-    "wholesalePrice": 4718250,
+    "wholesalePrice": 4823100,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-d5065uc-c.webp",
     "tags": [
@@ -8513,7 +8513,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Repetidor PoE GIGABIT 5 PUERTOS / 1 × PoE IN (af/at/bt) + 4 × PoE OUT (af/at) / Presupuesto PoE total: 60 W / Protección contra sobretensión...",
     "description": "Repetidor PoE GIGABIT 5 PUERTOS / 1 × PoE IN (af/at/bt) + 4 × PoE OUT (af/at) / Presupuesto PoE total: 60 W / Protección contra sobretensión 6 kV / Carcasa metálica robusta, diseño sin ventilador / Transmisión estable y confiable",
     "price": 127700,
-    "wholesalePrice": 114930,
+    "wholesalePrice": 117484,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-3e0505p-e-r-o-std.webp",
     "tags": [
@@ -8538,7 +8538,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "SWITCH PoE 4 PUERTOS NO ADMINISTRADO / GESTIÓN INTELIGENTE PoE / TRANSMISIÓN DE LARGO ALCANCE / PROTECCIÓN INDUSTRIAL",
     "description": "SWITCH PoE 4 PUERTOS NO ADMINISTRADO / GESTIÓN INTELIGENTE PoE / TRANSMISIÓN DE LARGO ALCANCE / PROTECCIÓN INDUSTRIAL",
     "price": 125000,
-    "wholesalePrice": 112500,
+    "wholesalePrice": 115000,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-3e0105p-e-m-c--o-std.webp",
     "tags": [
@@ -8563,7 +8563,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "SWITCH PoE 4 PUERTOS NO ADMINISTRADO / GESTIÓN INTELIGENTE PoE / TRANSMISIÓN DE LARGO ALCANCE / PUERTO VIP PARA VIDEO / PROTECCIÓN INDUSTRIA...",
     "description": "SWITCH PoE 4 PUERTOS NO ADMINISTRADO / GESTIÓN INTELIGENTE PoE / TRANSMISIÓN DE LARGO ALCANCE / PUERTO VIP PARA VIDEO / PROTECCIÓN INDUSTRIAL 6KV",
     "price": 245000,
-    "wholesalePrice": 220500,
+    "wholesalePrice": 225400,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-3e0106hp-e-o-std.webp",
     "tags": [
@@ -8588,7 +8588,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "SWITCH GIGABIT PLÁSTICO NO ADMINISTRABLE / 5 PUERTOS RJ45 10/100/1000 Mbps / SOPORTE MDI/MDIX / CONMUTACIÓN STORE-AND-FORWARD / APRENDIZAJE ...",
     "description": "SWITCH GIGABIT PLÁSTICO NO ADMINISTRABLE / 5 PUERTOS RJ45 10/100/1000 Mbps / SOPORTE MDI/MDIX / CONMUTACIÓN STORE-AND-FORWARD / APRENDIZAJE Y ENVEJECIMIENTO AUTOMÁTICO DE MAC / DISEÑO COMPACTO PARA ESCRITORIO O MONTAJE EN PARED / FUNCIONAMIENTO PLUG & PLAY / NIVEL 2",
     "price": 52600,
-    "wholesalePrice": 47340,
+    "wholesalePrice": 48392,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-3e0505d-o.webp",
     "tags": [
@@ -8613,7 +8613,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "SWITCH GIGABIT METÁLICO NO ADMINISTRABLE / 5 PUERTOS RJ45 10/100/1000 Mbps / ACCESO DE RED 1000M / CONMUTACIÓN STORE-AND-FORWARD / DISEÑO DE...",
     "description": "SWITCH GIGABIT METÁLICO NO ADMINISTRABLE / 5 PUERTOS RJ45 10/100/1000 Mbps / ACCESO DE RED 1000M / CONMUTACIÓN STORE-AND-FORWARD / DISEÑO DE ALTO RENDIMIENTO CON FORWARDING A VELOCIDAD DE LÍNEA / CARCASA METÁLICA DE ALTA RESISTENCIA / DISEÑO SIN VENTILADOR PARA MAYOR FIABILIDAD / MONTAJE EN ESCRITORIO / NIVEL 2",
     "price": 66700,
-    "wholesalePrice": 60030,
+    "wholesalePrice": 61364,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-3e0505-o.webp",
     "tags": [
@@ -8638,7 +8638,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "SWITCH GIGABIT PLÁSTICO NO ADMINISTRABLE / 8 PUERTOS RJ45 10/100/1000 Mbps / SOPORTE MDI/MDIX / CONMUTACIÓN STORE-AND-FORWARD / APRENDIZAJE ...",
     "description": "SWITCH GIGABIT PLÁSTICO NO ADMINISTRABLE / 8 PUERTOS RJ45 10/100/1000 Mbps / SOPORTE MDI/MDIX / CONMUTACIÓN STORE-AND-FORWARD / APRENDIZAJE Y ENVEJECIMIENTO AUTOMÁTICO DE MAC / DISEÑO COMPACTO PARA ESCRITORIO O MONTAJE EN PARED / FUNCIONAMIENTO PLUG & PLAY / NIVEL 2",
     "price": 91000,
-    "wholesalePrice": 81900,
+    "wholesalePrice": 83720,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-3e0508d-o-o-std.webp",
     "tags": [
@@ -8663,7 +8663,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "SWITCH GIGABIT METÁLICO NO ADMINISTRABLE / 8 PUERTOS RJ45 10/100/1000 Mbps / ACCESO DE RED 1000M / CONMUTACIÓN STORE-AND-FORWARD / DISEÑO DE...",
     "description": "SWITCH GIGABIT METÁLICO NO ADMINISTRABLE / 8 PUERTOS RJ45 10/100/1000 Mbps / ACCESO DE RED 1000M / CONMUTACIÓN STORE-AND-FORWARD / DISEÑO DE ALTO RENDIMIENTO CON FORWARDING A VELOCIDAD DE LÍNEA / CARCASA METÁLICa DE ALTA RESISTENCIA / DISEÑO SIN VENTILADOR PARA MAYOR FIABILIDAD / MONTAJE EN ESCRITORIO / NIVEL 2",
     "price": 101200,
-    "wholesalePrice": 91080,
+    "wholesalePrice": 93104,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-3e0508-o.webp",
     "tags": [
@@ -8688,7 +8688,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "L2 5 PUERTOS 4/ 100 Mbps POE y 1/100 Mbps Ethernet POE 35W METALICO",
     "description": "L2 5 PUERTOS 4/ 100 Mbps POE y 1/100 Mbps Ethernet POE 35W METALICO",
     "price": 125000,
-    "wholesalePrice": 112500,
+    "wholesalePrice": 115000,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-3e0105p-e-m.webp",
     "tags": [
@@ -8713,7 +8713,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "SWITCH FAST ETHERNET PLÁSTICO NO ADMINISTRABLE / 8 PUERTOS RJ45 10/100 Mbps / SOPORTE MDI/MDIX / CONMUTACIÓN STORE-AND-FORWARD / APRENDIZAJE...",
     "description": "SWITCH FAST ETHERNET PLÁSTICO NO ADMINISTRABLE / 8 PUERTOS RJ45 10/100 Mbps / SOPORTE MDI/MDIX / CONMUTACIÓN STORE-AND-FORWARD / APRENDIZAJE Y ENVEJECIMIENTO AUTOMÁTICO DE MAC / DISEÑO COMPACTO PARA ESCRITORIO O MONTAJE EN PARED / FUNCIONAMIENTO PLUG & PLAY / NIVEL 2",
     "price": 41000,
-    "wholesalePrice": 36900,
+    "wholesalePrice": 37720,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-3e0108d-o-o-std.webp",
     "tags": [
@@ -8738,7 +8738,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "4 PUERTOS 4/ 100 Mbps POE y 2/100 Mbps Ethernet POE 45 W METALICO",
     "description": "4 PUERTOS 4/ 100 Mbps POE y 2/100 Mbps Ethernet POE 45 W METALICO",
     "price": 205400,
-    "wholesalePrice": 184860,
+    "wholesalePrice": 188968,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-3e1505p-ei-m.webp",
     "tags": [
@@ -8763,7 +8763,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "SWITCH SMART MANAGED / 8 PUERTOS GIGABIT PoE + 2 RJ45 / POE 60 W / LONG REACH 300 M / VLAN/STP/RSTP / POE WATCHDOG / PROTECCIÓN 6 kV / CAPAC...",
     "description": "SWITCH SMART MANAGED / 8 PUERTOS GIGABIT PoE + 2 RJ45 / POE 60 W / LONG REACH 300 M / VLAN/STP/RSTP / POE WATCHDOG / PROTECCIÓN 6 kV / CAPACIDAD 20 Gbps / METAL",
     "price": 310000,
-    "wholesalePrice": 279000,
+    "wholesalePrice": 285200,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-3e1510p-ei-m--b.webp",
     "tags": [
@@ -8788,7 +8788,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "SWITCH SMART MANAGED / 8 PUERTOS GIGABIT PoE + 2 SFP / POE 110 W / LONG REACH 300 M / VLAN/STP/RSTP / POE WATCHDOG / PROTECCIÓN 6 kV / CAPAC...",
     "description": "SWITCH SMART MANAGED / 8 PUERTOS GIGABIT PoE + 2 SFP / POE 110 W / LONG REACH 300 M / VLAN/STP/RSTP / POE WATCHDOG / PROTECCIÓN 6 kV / CAPACIDAD 20 Gbps / METAL",
     "price": 735700,
-    "wholesalePrice": 662130,
+    "wholesalePrice": 676844,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-3e1510p-si.webp",
     "tags": [
@@ -8813,7 +8813,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "SWITCH GIGABIT INTELIGENTE POE / 16 PUERTOS RJ45 GIGABIT POE + 1 RJ45 GIGABIT + 1 PUERTO ÓPTICO SFP / PRESUPUESTO POE TOTAL: 230 W / GESTIÓN...",
     "description": "SWITCH GIGABIT INTELIGENTE POE / 16 PUERTOS RJ45 GIGABIT POE + 1 RJ45 GIGABIT + 1 PUERTO ÓPTICO SFP / PRESUPUESTO POE TOTAL: 230 W / GESTIÓN UNIFICADA EN LA NUBE PARA SISTEMAS DE SEGURIDAD / TOPOLOGÍA VISUALIZADA Y RESOLUCIÓN REMOTA DE FALLAS / TRANSMISIÓN POE DE LARGO ALCANCE HASTA 300 m / PROTECCIÓN CONTRA SOBRETENSIÓN DE 6 kV / FUNCIONES L2: VLAN, STP/RSTP, POE WATCHDOG / MONTAJE EN RACK",
     "price": 998000,
-    "wholesalePrice": 898200,
+    "wholesalePrice": 918160,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-3e1518p-ei-o-std-v2.webp",
     "tags": [
@@ -8840,7 +8840,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "SWITCH GIGABIT INTELIGENTE POE / 18 PUERTOS RJ45 GIGABIT POE + 2 RJ45 GIGABIT + 2 PUERTOS ÓPTICOS SFP / PRESUPUESTO POE TOTAL: 230 W / GESTI...",
     "description": "SWITCH GIGABIT INTELIGENTE POE / 18 PUERTOS RJ45 GIGABIT POE + 2 RJ45 GIGABIT + 2 PUERTOS ÓPTICOS SFP / PRESUPUESTO POE TOTAL: 230 W / GESTIÓN UNIFICADA EN LA NUBE PARA SISTEMAS DE SEGURIDAD / TOPOLOGÍA VISUALIZADA Y RESOLUCIÓN REMOTA DE FALLAS / TRANSMISIÓN POE DE LARGO ALCANCE HASTA 300 m / PROTECCIÓN CONTRA SOBRETENSIÓN DE 6 kV / FUNCIONES L2: VLAN, STP/RSTP, POE WATCHDOG / MONTAJE EN RACK",
     "price": 965600,
-    "wholesalePrice": 869040,
+    "wholesalePrice": 888352,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-3e1518p-ei-m-o-std.webp",
     "tags": [
@@ -8867,7 +8867,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "SWITCH GIGABIT INTELIGENTE POE / 24 PUERTOS RJ45 GIGABIT POE + 1 RJ45 GIGABIT + 1 PUERTO ÓPTICO SFP / PRESUPUESTO POE TOTAL: 230 W / GESTIÓN...",
     "description": "SWITCH GIGABIT INTELIGENTE POE / 24 PUERTOS RJ45 GIGABIT POE + 1 RJ45 GIGABIT + 1 PUERTO ÓPTICO SFP / PRESUPUESTO POE TOTAL: 230 W / GESTIÓN UNIFICADA EN LA NUBE PARA SISTEMAS DE SEGURIDAD / TOPOLOGÍA VISUALIZADA Y RESOLUCIÓN REMOTA DE FALLAS / TRANSMISIÓN POE DE LARGO ALCANCE HASTA 300 m / PROTECCIÓN CONTRA SOBRETENSIÓN DE 6 kV / FUNCIONES L2: VLAN, STP/RSTP, POE WATCHDOG / MONTAJE EN RACK",
     "price": 1304100,
-    "wholesalePrice": 1173690,
+    "wholesalePrice": 1199772,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-3e1526p-ei-m-o-std.webp",
     "tags": [
@@ -8894,7 +8894,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "4 PUERTOS PoE 10/100 + 2 RJ45 10/100 / PoE 35 W / ALCANCE 300 M EXTENDIDO / CAPACIDAD 1.2 Gbps / PROTECCIÓN 6 KV / METAL FAN‑FREE",
     "description": "4 PUERTOS PoE 10/100 + 2 RJ45 10/100 / PoE 35 W / ALCANCE 300 M EXTENDIDO / CAPACIDAD 1.2 Gbps / PROTECCIÓN 6 KV / METAL FAN‑FREE",
     "price": 147200,
-    "wholesalePrice": 132480,
+    "wholesalePrice": 135424,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-3e0106p-e-m-b.webp",
     "tags": [
@@ -8919,7 +8919,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "8 PUERTOS 8/ 100 Mbps POE y 1/100 Mbps Ethernet   POE 60W METALICO",
     "description": "8 PUERTOS 8/ 100 Mbps POE y 1/100 Mbps Ethernet   POE 60W METALICO",
     "price": 262300,
-    "wholesalePrice": 236070,
+    "wholesalePrice": 241316,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-3e1309p-ei-m-e1.webp",
     "tags": [
@@ -8944,7 +8944,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "ELECTRIFICADOR YANEX 1600M Electrificación de hasta 1600m. Armado inalámbrico Ideal para residenciales",
     "description": "ELECTRIFICADOR YANEX 1600M Electrificación de hasta 1600m. Armado inalámbrico Ideal para residenciales",
     "price": 229000,
-    "wholesalePrice": 206100,
+    "wholesalePrice": 210680,
     "stock": 25,
     "image": "/productos/catalogo/hagroy-hg-yanex1600.webp",
     "tags": [
@@ -8969,7 +8969,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "ELECTRIFICADOR ZOE WIFI Alcance 3500m Potencia: 1.0 Joule.Salida 12V. 2,5A. (DC) Capacidad: 32 sensores inalámbricos 1 zonas de alarma cable...",
     "description": "ELECTRIFICADOR ZOE WIFI Alcance 3500m Potencia: 1.0 Joule.Salida 12V. 2,5A. (DC) Capacidad: 32 sensores inalámbricos 1 zonas de alarma cableado. Incluye $250.000 Pulsador inalámbrico de 200m Capacitad de 16 usuarios por APP Ihagroy.",
     "price": 358000,
-    "wholesalePrice": 322200,
+    "wholesalePrice": 329360,
     "stock": 25,
     "image": "/productos/catalogo/hagroy-hg-zoe-wifi.webp",
     "tags": [
@@ -8996,7 +8996,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "ELECTRIFICADOR X-POWER i8 Electrificación de hasta 1500m. Combina cerco y alarma. Armado inalámbrico y por contraseña. Ideal para residencia...",
     "description": "ELECTRIFICADOR X-POWER i8 Electrificación de hasta 1500m. Combina cerco y alarma. Armado inalámbrico y por contraseña. Ideal para residenciales",
     "price": 286000,
-    "wholesalePrice": 257400,
+    "wholesalePrice": 263120,
     "stock": 25,
     "image": "/productos/catalogo/hagroy-hg-xpoweri8-220.webp",
     "tags": [
@@ -9023,7 +9023,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "ELECTRIFICADOR XPOWERi12 01 zona - Alcance 3500m Supervisión de retorno a tierra Potencia: 1.0 Joule.Salida 12V. 2,5A. (DC) Capacidad: 64 se...",
     "description": "ELECTRIFICADOR XPOWERi12 01 zona - Alcance 3500m Supervisión de retorno a tierra Potencia: 1.0 Joule.Salida 12V. 2,5A. (DC) Capacidad: 64 sensores inalámbricos 2 zonas de alarma cableado. (Opción a retardo)Salida PGM Incluye Pulsador inalámbrico de 100m",
     "price": 543000,
-    "wholesalePrice": 488700,
+    "wholesalePrice": 499560,
     "stock": 25,
     "image": "/productos/catalogo/hagroy-hg-xpoweri12-110.webp",
     "tags": [
@@ -9050,7 +9050,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "ECTRIFICADOR inteligente HR8000 PLUS (Anti-planta y Antilluvia) 02 zonas de alarma Alcance 10 000m Salida Aux. 12V. (DC) Supervisión de reto...",
     "description": "ECTRIFICADOR inteligente HR8000 PLUS (Anti-planta y Antilluvia) 02 zonas de alarma Alcance 10 000m Salida Aux. 12V. (DC) Supervisión de retorno a tierra Potencia: 1,2 joule Capacidad: 96 pulsadores /\nsensores inalámbricos Salida PGM",
     "price": 1000000,
-    "wholesalePrice": 900000,
+    "wholesalePrice": 920000,
     "stock": 25,
     "image": "/productos/catalogo/hagroy-hg-hr-8000plus110.webp",
     "tags": [
@@ -9077,7 +9077,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "ELECTRIFICADOR inteligente HR 15.000  (Anti-planta y Antilluvia)01 zona de alarma Alcance 10000m Salida Aux. 12V. (DC) Supervisión de alambr...",
     "description": "ELECTRIFICADOR inteligente HR 15.000  (Anti-planta y Antilluvia)01 zona de alarma Alcance 10000m Salida Aux. 12V. (DC) Supervisión de alambre Salida PGM",
     "price": 572000,
-    "wholesalePrice": 514800,
+    "wholesalePrice": 526240,
     "stock": 25,
     "image": "/productos/catalogo/hagroy-hg-hr8000plus110-v2.webp",
     "tags": [
@@ -9104,7 +9104,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "ALCOM MAX LTE Capacidad de 2000 usuarios 03 zonas cableadas para sensores de movimiento\n03 Salidas programables para luces estrobo o reflect...",
     "description": "ALCOM MAX LTE Capacidad de 2000 usuarios 03 zonas cableadas para sensores de movimiento\n03 Salidas programables para luces estrobo o reflectores LED App (Alerta alcom) Trabaja mediante un\nmodulo GSM 4G LTE Módulo de perifoneo Trabaja con punto de red Activación por pulsadores inalámbricos RF Plataforma de monitoreo web (opcional)",
     "price": 1429000,
-    "wholesalePrice": 1286100,
+    "wholesalePrice": 1314680,
     "stock": 25,
     "image": "/productos/catalogo/hagroy-hg-ac-almx4g.webp",
     "tags": [
@@ -9129,7 +9129,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "ALCOM VOZ 4G LTE Capacidad de 500 usuarios y 500 pulsadores 01 Zona cableada 01 Salida programable App (Alerta alcom) Módulo de perifoneo Mo...",
     "description": "ALCOM VOZ 4G LTE Capacidad de 500 usuarios y 500 pulsadores 01 Zona cableada 01 Salida programable App (Alerta alcom) Módulo de perifoneo Modulo de chip integrado (GSM 4G)\nMódulo de perifoneo Compatible a plataforma Web de Monitoreo (opcional)",
     "price": 1215000,
-    "wholesalePrice": 1093500,
+    "wholesalePrice": 1117800,
     "stock": 25,
     "image": "/productos/catalogo/hagroy-hg-ac-almvz4g.webp",
     "tags": [
@@ -9154,7 +9154,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "ALARMA COMUNITARIA MPR3 Cantidad de Usuario 100 usuarios Tipos de usuario Estándar\nCantidad de equipos una Red 16 equipos Salidas de Sirena ...",
     "description": "ALARMA COMUNITARIA MPR3 Cantidad de Usuario 100 usuarios Tipos de usuario Estándar\nCantidad de equipos una Red 16 equipos Salidas de Sirena 12V 7Amp Capacidad de Batería\nBat. 4AH y Bat. 7AH Frecuencia de trasmisión 433Mhz Frecuencia de recepción 433Mhz",
     "price": 230000,
-    "wholesalePrice": 207000,
+    "wholesalePrice": 211600,
     "stock": 25,
     "image": "/productos/catalogo/hagroy-hg-mpr3.webp",
     "tags": [
@@ -9181,7 +9181,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Wi‐Fi integrado para acceso remoto. Configuración por Bluetooth 5.0. Monitoreo profesional compatible con SIA IP. App iHAGROY para Android y...",
     "description": "Wi‐Fi integrado para acceso remoto. Configuración por Bluetooth 5.0. Monitoreo profesional compatible con SIA IP. App iHAGROY para Android y iOS. 16 zonas: 4 cableadas y 12 inalámbricas. Expandible hasta 32 zonas. Notificaciones Push en tiempo real.",
     "price": 358000,
-    "wholesalePrice": 322200,
+    "wholesalePrice": 329360,
     "stock": 25,
     "image": "/productos/catalogo/hagroy-hg-p4-ward.webp",
     "tags": [
@@ -9208,7 +9208,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Wi-Fi 2.4 GHz y Bluetooth 5.0. 16 zonas (8 cableadas + 8 inalámbricas). Hasta 64 zonas y 4 particiones.\nApp iHAGROY y monitoreo SIA IP. Noti...",
     "description": "Wi-Fi 2.4 GHz y Bluetooth 5.0. 16 zonas (8 cableadas + 8 inalámbricas). Hasta 64 zonas y 4 particiones.\nApp iHAGROY y monitoreo SIA IP. Notificaciones Push e integración con cámaras IP. Hasta 16 salidas\nPGM con expansoras.",
     "price": 429000,
-    "wholesalePrice": 386100,
+    "wholesalePrice": 394680,
     "stock": 25,
     "image": "/productos/catalogo/hagroy-hg-ward.webp",
     "tags": [
@@ -9235,7 +9235,7 @@ export const PRODUCTS: Product[] = [
     "shortDesc": "Wi-Fi, Bluetooth y RF 433 MHz. GSM 4G LTE multibanda integrado. 32 zonas (8 cableadas+ 24 inalámbricas).\nHasta 128 zonas y 8 particiones. Ap...",
     "description": "Wi-Fi, Bluetooth y RF 433 MHz. GSM 4G LTE multibanda integrado. 32 zonas (8 cableadas+ 24 inalámbricas).\nHasta 128 zonas y 8 particiones. App iHAGROY y administración web. Notificaciones en tiempo real y cámaras IP. Hasta 16 salidas PGM con expansoras.",
     "price": 643000,
-    "wholesalePrice": 578700,
+    "wholesalePrice": 591560,
     "stock": 25,
     "image": "/productos/catalogo/hagroy-hg-ward-pro.webp",
     "tags": [

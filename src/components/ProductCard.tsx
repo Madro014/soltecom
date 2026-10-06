@@ -94,7 +94,7 @@ export default function ProductCard({ product }: ProductCardProps) {
         <div className="flex items-baseline justify-between">
           <span className="text-[11px] text-gray-400 font-medium">Precio B2B</span>
           <span className="font-montserrat font-bold text-base text-surface-dark">
-            {formatCOP(product.wholesalePrice || product.price)}
+            {formatCOP(product.price)}
           </span>
         </div>
 

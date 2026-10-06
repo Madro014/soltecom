@@ -61,7 +61,7 @@ export default function CartDrawer() {
               </div>
             ) : (
               items.map((item) => {
-                const price = item.product.wholesalePrice || item.product.price;
+                const price = item.product.price;
                 return (
                   <div key={item.product.id} className="p-3 bg-surface-low rounded-xl border border-gray-100 flex flex-col gap-2">
                     <div className="flex items-start justify-between">

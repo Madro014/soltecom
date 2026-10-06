@@ -310,7 +310,7 @@ for s_name in wb.sheetnames:
             'shortDesc': short_desc,
             'description': item['desc'],
             'price': item['price'],
-            'wholesalePrice': int(round(item['price'] * 0.9)),
+            'wholesalePrice': int(round(item['price'] * 0.92)),
             'stock': 25,
             'image': img_web_path,
             'tags': tags,
