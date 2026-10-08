@@ -1,9 +1,10 @@
 import React, { Suspense, lazy } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-import { LazyMotion, domAnimation } from 'framer-motion';
+import { LazyMotion, domMax } from 'framer-motion';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import CartDrawer from './components/CartDrawer';
+import MagnificationDock from './components/MagnificationDock';
 
 // Lazy loading route components for faster initial page loads and performance
 const Home = lazy(() => import('./pages/Home'));
@@ -28,7 +29,7 @@ function PageLoader() {
 
 export default function App() {
   return (
-    <LazyMotion features={domAnimation}>
+    <LazyMotion features={domMax}>
       <BrowserRouter>
         <div className="min-h-screen flex flex-col bg-surface">
           <Navbar />
@@ -47,6 +48,7 @@ export default function App() {
           </main>
           <Footer />
           <CartDrawer />
+          <MagnificationDock />
         </div>
       </BrowserRouter>
     </LazyMotion>

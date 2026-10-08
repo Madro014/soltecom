@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { m as motion } from 'framer-motion';
 import { COMPANY_INFO } from '../data/company';
 
 export default function Hero() {
+  const [hoveredMetric, setHoveredMetric] = useState<number | null>(null);
+
   return (
     <section className="relative w-full min-h-screen flex flex-col bg-[#030914] overflow-hidden text-white">
       {/* Background Image */}
@@ -17,7 +19,7 @@ export default function Hero() {
         <div className="absolute top-0 inset-x-0 h-24 bg-gradient-to-b from-black/60 to-transparent" />
       </div>
 
-      <div className="relative z-10 flex-1 flex flex-col justify-between max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-6 lg:pt-28 lg:pb-8 w-full">
+      <div className="relative z-10 flex-1 flex flex-col justify-between max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-28 sm:pb-32 lg:pt-28 lg:pb-36 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
           
           {/* Text Column */}
@@ -161,53 +163,80 @@ export default function Hero() {
           </motion.div>
         </div>
 
-        {/* Hero Metrics Bar - pushed to bottom by flex justify-between */}
-        <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-          
-          {/* Metric 1 */}
-          <div className="flex items-center gap-3.5 p-4 rounded-2xl bg-[#0a1829]/80 border border-cyan-500/30 backdrop-blur-xl shadow-[0_0_15px_rgba(6,182,212,0.1)] hover:border-emerald-400/50 transition-colors duration-200">
-            <div className="w-12 h-12 rounded-xl bg-emerald-500/10 border border-emerald-400/40 flex items-center justify-center shrink-0 text-emerald-400 shadow-[0_0_10px_rgba(16,185,129,0.2)]">
-              <span className="material-symbols-outlined text-2xl">verified_user</span>
-            </div>
-            <div className="flex flex-col">
-              <span className="font-montserrat font-bold text-xl text-white">100%</span>
-              <span className="text-xs text-gray-300 font-medium">Garantía Certificada de Fábrica</span>
-            </div>
-          </div>
+        {/* Hero Metrics Bar with Magnification & Sibling Blur */}
+        <div 
+          onMouseLeave={() => setHoveredMetric(null)}
+          className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4"
+        >
+          {[
+            {
+              icon: 'verified_user',
+              value: '100%',
+              label: 'Garantía Certificada de Fábrica',
+              textColor: 'text-white',
+            },
+            {
+              icon: 'support_agent',
+              value: '24/7',
+              label: 'Supervisión & Monitoreo Remoto',
+              textColor: 'text-white',
+            },
+            {
+              icon: 'hub',
+              value: '+8 Líneas',
+              label: 'Especialidades Integradas en un Proveedor',
+              textColor: 'text-emerald-400',
+            },
+            {
+              icon: 'public',
+              value: 'Nacional',
+              label: 'Cobertura e Instalación en Colombia',
+              textColor: 'text-emerald-400',
+            },
+          ].map((metric, idx) => {
+            const isHovered = hoveredMetric === idx;
+            const isOtherHovered = hoveredMetric !== null && !isHovered;
 
-          {/* Metric 2 */}
-          <div className="flex items-center gap-3.5 p-4 rounded-2xl bg-[#0a1829]/80 border border-cyan-500/30 backdrop-blur-xl shadow-[0_0_15px_rgba(6,182,212,0.1)] hover:border-emerald-400/50 transition-colors duration-200">
-            <div className="w-12 h-12 rounded-xl bg-emerald-500/10 border border-emerald-400/40 flex items-center justify-center shrink-0 text-emerald-400 shadow-[0_0_10px_rgba(16,185,129,0.2)]">
-              <span className="material-symbols-outlined text-2xl">support_agent</span>
-            </div>
-            <div className="flex flex-col">
-              <span className="font-montserrat font-bold text-xl text-white">24/7</span>
-              <span className="text-xs text-gray-300 font-medium">Supervisión & Monitoreo Remoto</span>
-            </div>
-          </div>
-
-          {/* Metric 3 */}
-          <div className="flex items-center gap-3.5 p-4 rounded-2xl bg-[#0a1829]/80 border border-cyan-500/30 backdrop-blur-xl shadow-[0_0_15px_rgba(6,182,212,0.1)] hover:border-emerald-400/50 transition-colors duration-200">
-            <div className="w-12 h-12 rounded-xl bg-emerald-500/10 border border-emerald-400/40 flex items-center justify-center shrink-0 text-emerald-400 shadow-[0_0_10px_rgba(16,185,129,0.2)]">
-              <span className="material-symbols-outlined text-2xl">hub</span>
-            </div>
-            <div className="flex flex-col">
-              <span className="font-montserrat font-bold text-xl text-emerald-400">+8 Líneas</span>
-              <span className="text-xs text-gray-300 font-medium">Especialidades Integradas en un Proveedor</span>
-            </div>
-          </div>
-
-          {/* Metric 4 */}
-          <div className="flex items-center gap-3.5 p-4 rounded-2xl bg-[#0a1829]/80 border border-cyan-500/30 backdrop-blur-xl shadow-[0_0_15px_rgba(6,182,212,0.1)] hover:border-emerald-400/50 transition-colors duration-200">
-            <div className="w-12 h-12 rounded-xl bg-emerald-500/10 border border-emerald-400/40 flex items-center justify-center shrink-0 text-emerald-400 shadow-[0_0_10px_rgba(16,185,129,0.2)]">
-              <span className="material-symbols-outlined text-2xl">public</span>
-            </div>
-            <div className="flex flex-col">
-              <span className="font-montserrat font-bold text-xl text-emerald-400">Nacional</span>
-              <span className="text-xs text-gray-300 font-medium">Cobertura e Instalación en Colombia</span>
-            </div>
-          </div>
-
+            return (
+              <div
+                key={metric.value}
+                role="button"
+                tabIndex={0}
+                aria-pressed={isHovered}
+                onMouseEnter={() => setHoveredMetric(idx)}
+                onClick={() => setHoveredMetric(isHovered ? null : idx)}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    setHoveredMetric(isHovered ? null : idx);
+                  }
+                }}
+                className={`flex items-center gap-3.5 p-4 rounded-2xl bg-[#0a1829]/80 border backdrop-blur-xl transition-all duration-300 ease-out cursor-pointer select-none ${
+                  isHovered
+                    ? 'scale-105 z-20 border-emerald-400 shadow-[0_0_25px_rgba(16,185,129,0.35)] bg-[#0d223a]'
+                    : isOtherHovered
+                    ? 'blur-[3px] opacity-40 scale-95 border-cyan-500/10'
+                    : 'border-cyan-500/30 hover:border-emerald-400/50 shadow-[0_0_15px_rgba(6,182,212,0.1)]'
+                }`}
+              >
+                <div className={`w-12 h-12 rounded-xl flex items-center justify-center shrink-0 transition-colors ${
+                  isHovered
+                    ? 'bg-emerald-500/20 border border-emerald-400 text-emerald-300 shadow-[0_0_15px_rgba(16,185,129,0.4)]'
+                    : 'bg-emerald-500/10 border border-emerald-400/40 text-emerald-400 shadow-[0_0_10px_rgba(16,185,129,0.2)]'
+                }`}>
+                  <span className="material-symbols-outlined text-2xl">{metric.icon}</span>
+                </div>
+                <div className="flex flex-col">
+                  <span className={`font-montserrat font-bold text-xl transition-colors ${metric.textColor}`}>
+                    {metric.value}
+                  </span>
+                  <span className="text-xs text-gray-300 font-medium">
+                    {metric.label}
+                  </span>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>

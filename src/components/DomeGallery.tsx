@@ -165,6 +165,7 @@ export default function DomeGallery({
   const openingRef = useRef(false);
   const openStartedAtRef = useRef(0);
   const lastDragEndAt = useRef(0);
+  const closeRef = useRef<(() => void) | null>(null);
 
   const scrollLockedRef = useRef(false);
   const lockScroll = useCallback(() => {
@@ -531,6 +532,7 @@ export default function DomeGallery({
       animatingOverlay.ontransitionend = cleanup;
     };
 
+    closeRef.current = close;
     let closeTimer: ReturnType<typeof setTimeout> | null = null;
 
     scrim.addEventListener('click', close);
@@ -540,6 +542,7 @@ export default function DomeGallery({
     window.addEventListener('keydown', onKey);
 
     return () => {
+      closeRef.current = null;
       if (closeTimer) clearTimeout(closeTimer);
       scrim.removeEventListener('click', close);
       window.removeEventListener('keydown', onKey);
@@ -737,15 +740,69 @@ export default function DomeGallery({
 
           overlay.appendChild(divider);
           overlay.appendChild(textDiv);
-          
-          void overlay.offsetWidth;
         }
+
+        // Close 'X' button in the corner (both responsive and desktop)
+        const closeBtn = document.createElement('button');
+        closeBtn.type = 'button';
+        closeBtn.setAttribute('aria-label', 'Cerrar tarjeta');
+        closeBtn.className = 'dome-card-close-btn';
+        closeBtn.style.position = 'absolute';
+        closeBtn.style.top = isMobile ? '12px' : '16px';
+        closeBtn.style.right = isMobile ? '12px' : '16px';
+        closeBtn.style.width = isMobile ? '34px' : '38px';
+        closeBtn.style.height = isMobile ? '34px' : '38px';
+        closeBtn.style.borderRadius = '50%';
+        closeBtn.style.backgroundColor = 'rgba(243, 244, 246, 0.95)';
+        closeBtn.style.border = '1px solid rgba(0, 0, 0, 0.08)';
+        closeBtn.style.color = '#374151';
+        closeBtn.style.display = 'flex';
+        closeBtn.style.alignItems = 'center';
+        closeBtn.style.justifyContent = 'center';
+        closeBtn.style.cursor = 'pointer';
+        closeBtn.style.zIndex = '100';
+        closeBtn.style.boxShadow = '0 2px 10px rgba(0,0,0,0.12)';
+        closeBtn.style.transition = 'transform 0.2s ease, background-color 0.2s ease, color 0.2s ease, opacity 0.3s ease';
+        closeBtn.style.opacity = '0';
+        closeBtn.style.padding = '0';
+        closeBtn.style.margin = '0';
+        closeBtn.style.outline = 'none';
+        closeBtn.innerHTML = `
+          <svg width="${isMobile ? '14' : '16'}" height="${isMobile ? '14' : '16'}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        `;
+
+        closeBtn.onmouseenter = () => {
+          closeBtn.style.transform = 'scale(1.1)';
+          closeBtn.style.backgroundColor = '#e5e7eb';
+          closeBtn.style.color = '#111827';
+        };
+        closeBtn.onmouseleave = () => {
+          closeBtn.style.transform = 'scale(1)';
+          closeBtn.style.backgroundColor = 'rgba(243, 244, 246, 0.95)';
+          closeBtn.style.color = '#374151';
+        };
+
+        const handleCloseClick = (e: Event) => {
+          e.preventDefault();
+          e.stopPropagation();
+          closeRef.current?.();
+        };
+
+        closeBtn.addEventListener('click', handleCloseClick);
+        closeBtn.addEventListener('touchend', handleCloseClick);
+
+        overlay.appendChild(closeBtn);
+        void overlay.offsetWidth;
 
         requestAnimationFrame(() => {
           overlay.style.left = `${centeredLeft}px`;
           overlay.style.top = `${centeredTop}px`;
           overlay.style.width = tempWidth;
           overlay.style.height = tempHeight;
+          closeBtn.style.opacity = '1';
 
           if (rawTitle) {
             const divider = overlay.children[1] as HTMLElement;

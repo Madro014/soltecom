@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Hero from '../components/Hero';
 import ServicesSection from '../components/ServicesSection';
 import ProductCard from '../components/ProductCard';
+import MetricsMagnification from '../components/animations/MetricsMagnification';
 import { PRODUCTS } from '../data/products';
 
 export default function Home() {
@@ -16,13 +17,18 @@ export default function Home() {
       {/* 2. Services Section */}
       <ServicesSection />
 
-      {/* 3. Featured Products Preview */}
-      <section className="w-full bg-surface-low py-16 lg:py-24">
+      {/* 3. Cifras & Métricas Magnification Section */}
+      <section className="w-full bg-surface-low border-y border-gray-100/80">
+        <MetricsMagnification />
+      </section>
+
+      {/* 4. Featured Products Preview */}
+      <section className="w-full bg-white py-16 lg:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-10">
             <div>
               <span className="font-montserrat text-xs font-bold uppercase tracking-wider text-primary">
-                Equipamiento B2B Destacado
+                Equipamiento Destacado
               </span>
               <h2 className="font-montserrat font-bold text-2xl sm:text-3xl text-surface-dark mt-1">
                 Catálogo de Equipos Seleccionados

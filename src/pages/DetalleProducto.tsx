@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useParams, Link, useNavigate, useLocation } from 'react-router-dom';
+import { m as motion, AnimatePresence } from 'framer-motion';
 import { PRODUCTS } from '../data/products';
 import { useCartStore } from '../store/useCartStore';
 
@@ -446,156 +447,155 @@ function TechnicalTabs({
 
       {/* Tab Navigation */}
       <div className="flex items-center gap-2 overflow-x-auto pb-3 mb-6 no-scrollbar">
-        <button
-          type="button"
-          onClick={() => setActiveTab('optica')}
-          className={`px-4 py-2.5 rounded-xl font-montserrat text-xs font-semibold whitespace-nowrap transition-all flex items-center gap-2 ${
-            activeTab === 'optica' ? 'bg-secondary-dark text-white shadow-sm' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-          }`}
-        >
-          <span className="material-symbols-outlined text-base">camera</span>
-          <span>1. Óptica y Sensor</span>
-        </button>
-        <button
-          type="button"
-          onClick={() => setActiveTab('ai')}
-          className={`px-4 py-2.5 rounded-xl font-montserrat text-xs font-semibold whitespace-nowrap transition-all flex items-center gap-2 ${
-            activeTab === 'ai' ? 'bg-secondary-dark text-white shadow-sm' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-          }`}
-        >
-          <span className="material-symbols-outlined text-base">psychology</span>
-          <span>2. Analíticas AI & AcuSense</span>
-        </button>
-        <button
-          type="button"
-          onClick={() => setActiveTab('conectividad')}
-          className={`px-4 py-2.5 rounded-xl font-montserrat text-xs font-semibold whitespace-nowrap transition-all flex items-center gap-2 ${
-            activeTab === 'conectividad' ? 'bg-secondary-dark text-white shadow-sm' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-          }`}
-        >
-          <span className="material-symbols-outlined text-base">settings_ethernet</span>
-          <span>3. Conectividad, Puertos y Red</span>
-        </button>
-        <button
-          type="button"
-          onClick={() => setActiveTab('ambiente')}
-          className={`px-4 py-2.5 rounded-xl font-montserrat text-xs font-semibold whitespace-nowrap transition-all flex items-center gap-2 ${
-            activeTab === 'ambiente' ? 'bg-secondary-dark text-white shadow-sm' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-          }`}
-        >
-          <span className="material-symbols-outlined text-base">hardware</span>
-          <span>4. Chasis y Ambiente</span>
-        </button>
+        {[
+          { id: 'optica', label: '1. Óptica y Sensor', icon: 'camera' },
+          { id: 'ai', label: '2. Analíticas AI & AcuSense', icon: 'psychology' },
+          { id: 'conectividad', label: '3. Conectividad, Puertos y Red', icon: 'settings_ethernet' },
+          { id: 'ambiente', label: '4. Chasis y Ambiente', icon: 'hardware' },
+        ].map((tab) => {
+          const isActive = activeTab === tab.id;
+          return (
+            <button
+              key={tab.id}
+              type="button"
+              onClick={() => setActiveTab(tab.id as any)}
+              className={`relative px-4 py-2.5 rounded-xl font-montserrat text-xs font-semibold whitespace-nowrap transition-colors flex items-center gap-2 z-10 ${
+                isActive ? 'text-white' : 'text-gray-700 hover:text-gray-900 bg-gray-100 hover:bg-gray-200/80'
+              }`}
+            >
+              {isActive && (
+                <motion.div
+                  layoutId="activeTechnicalTab"
+                  className="absolute inset-0 bg-secondary-dark rounded-xl shadow-sm -z-10"
+                  transition={{ type: "spring", stiffness: 380, damping: 30 }}
+                />
+              )}
+              <span className="material-symbols-outlined text-base">{tab.icon}</span>
+              <span>{tab.label}</span>
+            </button>
+          );
+        })}
       </div>
 
-      {/* Tab 1: Optics */}
-      {activeTab === 'optica' && (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div className="space-y-3">
-            <h3 className="font-montserrat font-bold text-sm text-gray-900 flex items-center gap-2">
-              <span className="material-symbols-outlined text-primary text-lg">lens</span>
-              <span>Subsistema Óptico y Sensor</span>
-            </h3>
-            <dl className="space-y-2 text-xs">
-              {Object.entries(specs).map(([key, value]) => (
-                <div key={key} className="p-2.5 rounded-lg bg-surface-low flex justify-between">
-                  <dt className="text-gray-500 font-medium">{key}:</dt>
-                  <dd className="text-gray-900 font-semibold text-right">{value}</dd>
-                </div>
-              ))}
-            </dl>
-          </div>
-
-          <div className="space-y-3">
-            <h3 className="font-montserrat font-bold text-sm text-gray-900 flex items-center gap-2">
-              <span className="material-symbols-outlined text-secondary text-lg">hdr_on</span>
-              <span>Rango Dinámico y Visión Nocturna</span>
-            </h3>
-            <div className="p-4 rounded-xl bg-surface-low space-y-2 text-xs text-gray-700">
-              <p><strong>WDR Real 120 dB:</strong> Captura imágenes nítidas en entornos con contrastes lumínicos extremos.</p>
-              <p><strong>EXIR 2.0 Infrarrojo:</strong> Tecnología de dispersión uniforme que elimina zonas quemadas centrales.</p>
-              <p><strong>Reducción de Ruido 3D DNR:</strong> Mantiene la claridad forense aún en absoluta penumbra (0 Lux).</p>
-            </div>
-          </div>
-        </div>
-      )}
-
-      {/* Tab 2: AI */}
-      {activeTab === 'ai' && (
-        <div className="space-y-4">
-          <h3 className="font-montserrat font-bold text-sm text-gray-900 flex items-center gap-2">
-            <span className="material-symbols-outlined text-primary text-lg">neurology</span>
-            <span>Deep Learning & Detección Proactiva</span>
-          </h3>
-          <p className="text-xs text-gray-600 leading-relaxed">
-            Algoritmos entrenados para filtrar hasta el 98% de falsas alarmas (hojas, lluvia, insectos) y alertar únicamente cuando hay presencia humana o vehicular en áreas restringidas.
-          </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
-            {features.map((feat) => (
-              <div key={feat} className="p-3 bg-surface-low rounded-xl flex items-center gap-2.5 text-xs text-gray-800">
-                <span className="material-symbols-outlined text-primary text-lg">check_circle</span>
-                <span>{feat}</span>
+      {/* Tab Panels with Crossfade */}
+      <AnimatePresence mode="wait">
+        <motion.div
+          key={activeTab}
+          initial={{ opacity: 0, y: 8, filter: 'blur(3px)' }}
+          animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
+          exit={{ opacity: 0, y: -8, filter: 'blur(3px)' }}
+          transition={{ duration: 0.22, ease: [0.22, 1, 0.36, 1] }}
+        >
+          {/* Tab 1: Optics */}
+          {activeTab === 'optica' && (
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="space-y-3">
+                <h3 className="font-montserrat font-bold text-sm text-gray-900 flex items-center gap-2">
+                  <span className="material-symbols-outlined text-primary text-lg">lens</span>
+                  <span>Subsistema Óptico y Sensor</span>
+                </h3>
+                <dl className="space-y-2 text-xs">
+                  {Object.entries(specs).map(([key, value]) => (
+                    <div key={key} className="p-2.5 rounded-lg bg-surface-low flex justify-between">
+                      <dt className="text-gray-500 font-medium">{key}:</dt>
+                      <dd className="text-gray-900 font-semibold text-right">{value}</dd>
+                    </div>
+                  ))}
+                </dl>
               </div>
-            ))}
-          </div>
-        </div>
-      )}
 
-      {/* Tab 3: Connectivity */}
-      {activeTab === 'conectividad' && (
-        <div className="space-y-3">
-          <h3 className="font-montserrat font-bold text-sm text-gray-900 flex items-center gap-2">
-            <span className="material-symbols-outlined text-secondary text-lg">lan</span>
-            <span>Transmisión & Ciberseguridad</span>
-          </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
-            <div className="p-3 bg-surface-low rounded-xl space-y-1">
-              <p className="font-bold text-gray-900">Alimentación Eléctrica</p>
-              <p className="text-gray-600">PoE (802.3af, Clase 3) / 12 VDC ± 25% (Consumo máx 9.5W)</p>
+              <div className="space-y-3">
+                <h3 className="font-montserrat font-bold text-sm text-gray-900 flex items-center gap-2">
+                  <span className="material-symbols-outlined text-secondary text-lg">hdr_on</span>
+                  <span>Rango Dinámico y Visión Nocturna</span>
+                </h3>
+                <div className="p-4 rounded-xl bg-surface-low space-y-2 text-xs text-gray-700">
+                  <p><strong>WDR Real 120 dB:</strong> Captura imágenes nítidas en entornos con contrastes lumínicos extremos.</p>
+                  <p><strong>EXIR 2.0 Infrarrojo:</strong> Tecnología de dispersión uniforme que elimina zonas quemadas centrales.</p>
+                  <p><strong>Reducción de Ruido 3D DNR:</strong> Mantiene la claridad forense aún en absoluta penumbra (0 Lux).</p>
+                </div>
+              </div>
             </div>
-            <div className="p-3 bg-surface-low rounded-xl space-y-1">
-              <p className="font-bold text-gray-900">Compatibilidad VMS</p>
-              <p className="text-gray-600">ONVIF (Profile S, Profile G, Profile T), ISAPI, SDK Hikvision</p>
-            </div>
-            <div className="p-3 bg-surface-low rounded-xl space-y-1">
-              <p className="font-bold text-gray-900">Códecs de Compresión</p>
-              <p className="text-gray-600">H.265+ / H.265 / H.264+ / H.264 con ahorro del 75% de ancho de banda</p>
-            </div>
-            <div className="p-3 bg-surface-low rounded-xl space-y-1">
-              <p className="font-bold text-gray-900">Criptografía</p>
-              <p className="text-gray-600">HTTPS, TLS 1.3, IEEE 802.1X, Autenticación Digest</p>
-            </div>
-          </div>
-        </div>
-      )}
+          )}
 
-      {/* Tab 4: Environment */}
-      {activeTab === 'ambiente' && (
-        <div className="space-y-3">
-          <h3 className="font-montserrat font-bold text-sm text-gray-900 flex items-center gap-2">
-            <span className="material-symbols-outlined text-secondary text-lg">architecture</span>
-            <span>Construcción y Condiciones Ambientales</span>
-          </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
-            <div className="p-3 bg-surface-low rounded-xl space-y-1">
-              <p className="font-bold text-gray-900">Rango de Temperatura</p>
-              <p className="text-gray-600">-30 °C a 60 °C (-22 °F a 140 °F)</p>
+          {/* Tab 2: AI */}
+          {activeTab === 'ai' && (
+            <div className="space-y-4">
+              <h3 className="font-montserrat font-bold text-sm text-gray-900 flex items-center gap-2">
+                <span className="material-symbols-outlined text-primary text-lg">neurology</span>
+                <span>Deep Learning & Detección Proactiva</span>
+              </h3>
+              <p className="text-xs text-gray-600 leading-relaxed">
+                Algoritmos entrenados para filtrar hasta el 98% de falsas alarmas (hojas, lluvia, insectos) y alertar únicamente cuando hay presencia humana o vehicular en áreas restringidas.
+              </p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
+                {features.map((feat) => (
+                  <div key={feat} className="p-3 bg-surface-low rounded-xl flex items-center gap-2.5 text-xs text-gray-800">
+                    <span className="material-symbols-outlined text-primary text-lg">check_circle</span>
+                    <span>{feat}</span>
+                  </div>
+                ))}
+              </div>
             </div>
-            <div className="p-3 bg-surface-low rounded-xl space-y-1">
-              <p className="font-bold text-gray-900">Humedad Tolerada</p>
-              <p className="text-gray-600">Hasta 95% o menor (sin condensación de vapor)</p>
+          )}
+
+          {/* Tab 3: Connectivity */}
+          {activeTab === 'conectividad' && (
+            <div className="space-y-3">
+              <h3 className="font-montserrat font-bold text-sm text-gray-900 flex items-center gap-2">
+                <span className="material-symbols-outlined text-secondary text-lg">lan</span>
+                <span>Transmisión & Ciberseguridad</span>
+              </h3>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+                <div className="p-3 bg-surface-low rounded-xl space-y-1">
+                  <p className="font-bold text-gray-900">Alimentación Eléctrica</p>
+                  <p className="text-gray-600">PoE (802.3af, Clase 3) / 12 VDC ± 25% (Consumo máx 9.5W)</p>
+                </div>
+                <div className="p-3 bg-surface-low rounded-xl space-y-1">
+                  <p className="font-bold text-gray-900">Compatibilidad VMS</p>
+                  <p className="text-gray-600">ONVIF (Profile S, Profile G, Profile T), ISAPI, SDK Hikvision</p>
+                </div>
+                <div className="p-3 bg-surface-low rounded-xl space-y-1">
+                  <p className="font-bold text-gray-900">Códecs de Compresión</p>
+                  <p className="text-gray-600">H.265+ / H.265 / H.264+ / H.264 con ahorro del 75% de ancho de banda</p>
+                </div>
+                <div className="p-3 bg-surface-low rounded-xl space-y-1">
+                  <p className="font-bold text-gray-900">Criptografía</p>
+                  <p className="text-gray-600">HTTPS, TLS 1.3, IEEE 802.1X, Autenticación Digest</p>
+                </div>
+              </div>
             </div>
-            <div className="p-3 bg-surface-low rounded-xl space-y-1">
-              <p className="font-bold text-gray-900">Chasis Metálico</p>
-              <p className="text-gray-600">Aleación de aluminio ADC12 con pintura electrostática anticorrosiva</p>
+          )}
+
+          {/* Tab 4: Environment */}
+          {activeTab === 'ambiente' && (
+            <div className="space-y-3">
+              <h3 className="font-montserrat font-bold text-sm text-gray-900 flex items-center gap-2">
+                <span className="material-symbols-outlined text-secondary text-lg">architecture</span>
+                <span>Construcción y Condiciones Ambientales</span>
+              </h3>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+                <div className="p-3 bg-surface-low rounded-xl space-y-1">
+                  <p className="font-bold text-gray-900">Rango de Temperatura</p>
+                  <p className="text-gray-600">-30 °C a 60 °C (-22 °F a 140 °F)</p>
+                </div>
+                <div className="p-3 bg-surface-low rounded-xl space-y-1">
+                  <p className="font-bold text-gray-900">Humedad Tolerada</p>
+                  <p className="text-gray-600">Hasta 95% o menor (sin condensación de vapor)</p>
+                </div>
+                <div className="p-3 bg-surface-low rounded-xl space-y-1">
+                  <p className="font-bold text-gray-900">Chasis Metálico</p>
+                  <p className="text-gray-600">Aleación de aluminio ADC12 con pintura electrostática anticorrosiva</p>
+                </div>
+                <div className="p-3 bg-surface-low rounded-xl space-y-1">
+                  <p className="font-bold text-gray-900">Supresor de Picos</p>
+                  <p className="text-gray-600">Protección contra transitorios TVS 2000V contra rayos</p>
+                </div>
+              </div>
             </div>
-            <div className="p-3 bg-surface-low rounded-xl space-y-1">
-              <p className="font-bold text-gray-900">Supresor de Picos</p>
-              <p className="text-gray-600">Protección contra transitorios TVS 2000V contra rayos</p>
-            </div>
-          </div>
-        </div>
-      )}
+          )}
+        </motion.div>
+      </AnimatePresence>
     </div>
   );
 }
