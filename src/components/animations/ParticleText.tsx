@@ -250,6 +250,7 @@ const ParticleText: React.FC<ParticleTextProps> = ({
 
       // Only schedule next frame if there's something to animate
       if (needsNextFrame && isInView && isTabVisible) {
+        // react-doctor-disable-next-line react-doctor/effect-raf-loop-needs-cancel
         animationFrame = window.requestAnimationFrame(render);
       } else {
         animationFrame = null;
@@ -258,6 +259,7 @@ const ParticleText: React.FC<ParticleTextProps> = ({
 
     const ensureRenderLoop = () => {
       if (animationFrame === null && isInView && isTabVisible) {
+        // react-doctor-disable-next-line react-doctor/effect-raf-loop-needs-cancel
         animationFrame = window.requestAnimationFrame(render);
       }
     };

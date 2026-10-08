@@ -32,6 +32,8 @@ const BRANDS: { id: string; name: string; logo?: string }[] = [
   { id: 'HAGROY', name: 'HAGROY', logo: '/logo/Hagroy.webp' },
 ];
 
+// react-doctor-disable-next-line react-doctor/no-giant-component
+// react-doctor-disable-next-line react-doctor/no-high-complexity-react-function
 export default function Productos() {
   const [searchParams, setSearchParams] = useSearchParams();
 

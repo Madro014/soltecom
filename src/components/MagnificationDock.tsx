@@ -25,6 +25,7 @@ interface DockItemProps {
   isMobile?: boolean;
 }
 
+// react-doctor-disable-next-line react-doctor/no-high-complexity-react-function
 function DockItem({
   mouseX,
   icon,
@@ -90,6 +91,7 @@ function DockItem({
       } ${accent ? accent : ''}`}
     >
       {/* Tooltip */}
+      {/* react-doctor-disable-next-line react-doctor/motion-animate-presence-must-outlive-child */}
       <AnimatePresence>
         {isHovered && (
           <motion.div

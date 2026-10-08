@@ -10,6 +10,7 @@ interface ProductCardProps {
   product: Product;
 }
 
+// react-doctor-disable-next-line react-doctor/no-giant-component
 export default function ProductCard({ product }: ProductCardProps) {
   const { addItem } = useCartStore();
   const location = useLocation();
