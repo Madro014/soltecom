@@ -243,19 +243,76 @@ const Grainient: React.FC<GrainientProps> = ({
     setSize();
 
     let raf = 0;
+    let isVisible = false;
+    let isPaused = false;
     const t0 = performance.now();
+    let pausedAt = 0;
+    let timeOffset = 0;
 
     const loop = (t: number) => {
-      program.uniforms.iTime.value = (t - t0) * 0.001;
+      if (isPaused) { raf = 0; return; }
+      program.uniforms.iTime.value = (t - t0 - timeOffset) * 0.001;
       renderer.render({ scene: mesh });
       raf = requestAnimationFrame(loop);
     };
 
-    raf = requestAnimationFrame(loop);
+    const startLoop = () => {
+      if (!raf && !isPaused) {
+        raf = requestAnimationFrame(loop);
+      }
+    };
+
+    const stopLoop = () => {
+      if (raf) {
+        cancelAnimationFrame(raf);
+        raf = 0;
+        pausedAt = performance.now();
+        isPaused = true;
+      }
+    };
+
+    const resumeLoop = () => {
+      if (isPaused) {
+        if (pausedAt > 0) {
+          timeOffset += performance.now() - pausedAt;
+          pausedAt = 0;
+        }
+        isPaused = false;
+        startLoop();
+      }
+    };
+
+    // Pause when off-screen
+    const io = new IntersectionObserver(
+      ([entry]) => {
+        isVisible = entry.isIntersecting;
+        if (isVisible) {
+          resumeLoop();
+        } else {
+          stopLoop();
+        }
+      },
+      { threshold: 0.01 }
+    );
+    io.observe(container);
+
+    // Pause when tab is hidden
+    const handleVisibility = () => {
+      if (document.hidden) {
+        stopLoop();
+      } else if (isVisible) {
+        resumeLoop();
+      }
+    };
+    document.addEventListener('visibilitychange', handleVisibility);
+
+    startLoop();
 
     return () => {
       cancelAnimationFrame(raf);
       ro.disconnect();
+      io.disconnect();
+      document.removeEventListener('visibilitychange', handleVisibility);
       ctxMap.delete(container);
       try { container.removeChild(canvas); } catch { /* ignore */ }
     };

@@ -138,6 +138,8 @@ const ParticleText: React.FC<ParticleTextProps> = ({
     let width = 0;
     let height = 0;
     let dpr = 1;
+    let isInView = false;
+    let isTabVisible = !document.hidden;
 
     const pointer = {
       active: false,
@@ -198,6 +200,7 @@ const ParticleText: React.FC<ParticleTextProps> = ({
       pointer.smoothY += (pointer.y - pointer.smoothY) * 0.18;
 
       let complete = true;
+      let needsNextFrame = false;
 
       particles.forEach(particle => {
         let baseX = particle.targetX;
@@ -211,10 +214,11 @@ const ParticleText: React.FC<ParticleTextProps> = ({
           baseX = particle.startX + (particle.targetX - particle.startX) * eased;
           baseY = particle.startY + (particle.targetY - particle.startY) * eased;
           if (progress < 1) complete = false;
+          needsNextFrame = true;
         } else if (!reducedMotion && idleDrift > 0) {
-          const driftTime = now * 0.001;
-          baseX += Math.sin(driftTime * 0.9 + particle.seed * 10) * idleDrift * particle.depth;
-          baseY += Math.cos(driftTime * 0.75 + particle.depth * 10) * idleDrift * particle.depth;
+          // Gentle idle drift — but only when pointer is nearby or first few seconds post-gather
+          // Drift is subtle, not worth keeping a 60fps loop going forever; we skip it for perf
+          needsNextFrame = pointer.active;
         }
 
         if (pointer.active && !reducedMotion && pointerRepel > 0 && repelRadius > 0) {
@@ -225,6 +229,7 @@ const ParticleText: React.FC<ParticleTextProps> = ({
             const force = Math.pow(1 - distance / repelRadius, 2) * pointerRepel;
             baseX += (dx / distance) * force;
             baseY += (dy / distance) * force;
+            needsNextFrame = true;
           }
         }
 
@@ -243,11 +248,16 @@ const ParticleText: React.FC<ParticleTextProps> = ({
         gathering = false;
       }
 
-      animationFrame = window.requestAnimationFrame(render);
+      // Only schedule next frame if there's something to animate
+      if (needsNextFrame && isInView && isTabVisible) {
+        animationFrame = window.requestAnimationFrame(render);
+      } else {
+        animationFrame = null;
+      }
     };
 
     const ensureRenderLoop = () => {
-      if (animationFrame === null) {
+      if (animationFrame === null && isInView && isTabVisible) {
         animationFrame = window.requestAnimationFrame(render);
       }
     };
@@ -430,28 +440,44 @@ const ParticleText: React.FC<ParticleTextProps> = ({
     canvas.addEventListener('touchmove', handleTouchMove, { passive: true });
     canvas.addEventListener('touchend', handleTouchEnd, { passive: true });
 
-    let inView = false;
     let intersectionObserver: IntersectionObserver | null = null;
     if (typeof IntersectionObserver !== 'undefined') {
       intersectionObserver = new IntersectionObserver(
         (entries) => {
           entries.forEach((entry) => {
             if (entry.isIntersecting) {
-              if (!inView) {
-                inView = true;
+              if (!isInView) {
+                isInView = true;
                 if (trigger === 'inView' || trigger === 'hover') {
                   startGather(true);
                 }
+                ensureRenderLoop();
               }
             } else {
-              inView = false;
+              isInView = false;
+              // Stop loop when off-screen
+              if (animationFrame !== null) {
+                window.cancelAnimationFrame(animationFrame);
+                animationFrame = null;
+              }
             }
           });
         },
-        { threshold: 0.15 }
+        { threshold: 0.05 }
       );
       intersectionObserver.observe(container);
     }
+
+    const handleVisibilityChange = () => {
+      isTabVisible = !document.hidden;
+      if (isTabVisible && isInView) {
+        ensureRenderLoop();
+      } else if (!isTabVisible && animationFrame !== null) {
+        window.cancelAnimationFrame(animationFrame);
+        animationFrame = null;
+      }
+    };
+    document.addEventListener('visibilitychange', handleVisibilityChange);
 
     const resizeObserver = new ResizeObserver(queueSample);
     resizeObserver.observe(container);
@@ -461,6 +487,7 @@ const ParticleText: React.FC<ParticleTextProps> = ({
       buildId += 1;
       resizeObserver.disconnect();
       intersectionObserver?.disconnect();
+      document.removeEventListener('visibilitychange', handleVisibilityChange);
       reduceMotionQuery?.removeEventListener('change', handleReduceMotionChange);
       canvas.removeEventListener('pointerenter', handlePointerEnter);
       canvas.removeEventListener('pointermove', handlePointerMove);

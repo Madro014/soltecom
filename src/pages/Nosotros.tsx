@@ -8,7 +8,7 @@ export default function Nosotros() {
   return (
     <div className="w-full bg-white min-h-screen">
       <ScrollExpand
-        src="/banners/BanerNosotros.png"
+        src="/banners/BanerNosotros.webp"
         title={
           <div className="flex items-center justify-center gap-2 sm:gap-2.5 max-w-full px-2 sm:px-4 select-none drop-shadow-[0_2px_12px_rgba(0,0,0,0.85)]">
             <span className="font-montserrat font-black text-xl sm:text-3xl md:text-4xl lg:text-[2.6rem] text-white tracking-tight">
@@ -40,20 +40,20 @@ export default function Nosotros() {
             color1="#008744"
             color2="#ffffff"
             color3="#14325b"
-            timeSpeed={0.8}
+            timeSpeed={0.4}
             colorBalance={0.0}
-            warpStrength={1.0}
-            warpFrequency={5.0}
-            warpSpeed={2.5}
-            warpAmplitude={50.0}
+            warpStrength={0.6}
+            warpFrequency={4.0}
+            warpSpeed={1.2}
+            warpAmplitude={40.0}
             blendAngle={0.0}
             blendSoftness={0.05}
-            rotationAmount={500.0}
+            rotationAmount={300.0}
             noiseScale={2.0}
-            grainAmount={0.08}
+            grainAmount={0.06}
             grainScale={2.0}
-            grainAnimated={true}
-            contrast={1.5}
+            grainAnimated={false}
+            contrast={1.4}
             gamma={1.0}
             saturation={1.0}
             centerX={0.0}
