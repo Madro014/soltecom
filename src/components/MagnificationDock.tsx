@@ -22,6 +22,7 @@ interface DockItemProps {
   isExternal?: boolean;
   accent?: string;
   isActive?: boolean;
+  isMobile?: boolean;
 }
 
 function DockItem({
@@ -34,24 +35,49 @@ function DockItem({
   isExternal,
   accent,
   isActive,
+  isMobile,
 }: DockItemProps) {
   const ref = useRef<HTMLDivElement>(null);
   const [isHovered, setIsHovered] = useState(false);
 
   const distance = useTransform(mouseX, (val: number) => {
+    if (isMobile) return Infinity;
     const bounds = ref.current?.getBoundingClientRect() ?? { x: 0, width: 0 };
     return val - bounds.x - bounds.width / 2;
   });
 
-  // Base size 38px, smoothly magnifies up to 58px when under cursor
+  // Desktop: Base size 38px, smoothly magnifies up to 58px when under cursor
   const sizeSync = useTransform(distance, [-110, 0, 110], [38, 58, 38]);
   const size = useSpring(sizeSync, { mass: 0.1, stiffness: 190, damping: 14 });
 
-  // Icon font size scale
+  // Desktop: Icon font size scale
   const iconScaleSync = useTransform(distance, [-110, 0, 110], [1, 1.35, 1]);
   const iconScale = useSpring(iconScaleSync, { mass: 0.1, stiffness: 190, damping: 14 });
 
-  const content = (
+  const content = isMobile ? (
+    <motion.div
+      whileTap={{ scale: 0.88 }}
+      className={`relative w-[38px] h-[38px] rounded-xl flex items-center justify-center cursor-pointer transition-colors border select-none shrink-0 ${
+        isActive
+          ? 'bg-primary text-white border-primary/50 shadow-md shadow-primary/30'
+          : 'bg-white/10 active:bg-white/20 text-gray-200 active:text-white border-white/15'
+      } ${accent ? accent : ''}`}
+    >
+      <span className="material-symbols-outlined text-[20px]">
+        {icon}
+      </span>
+
+      {badge !== undefined && badge > 0 && (
+        <span className="absolute -top-1 -right-1 min-w-[16px] h-[16px] px-0.5 rounded-full bg-emerald-500 text-white text-[9px] font-extrabold flex items-center justify-center shadow-lg border border-slate-900 animate-pulse">
+          {badge}
+        </span>
+      )}
+
+      {isActive && (
+        <span className="absolute -bottom-1 w-1.5 h-1.5 rounded-full bg-emerald-400 shadow-[0_0_6px_#34d399]" />
+      )}
+    </motion.div>
+  ) : (
     <motion.div
       ref={ref}
       style={{ width: size, height: size }}
@@ -141,12 +167,24 @@ export default function MagnificationDock() {
   const isTechnicalGuideOpen = useUIStore((state) => state.isTechnicalGuideOpen);
   const totalCartItems = getTotalItems();
 
+  const [isMobile, setIsMobile] = useState(false);
   const [isScrolledDown, setIsScrolledDown] = useState(false);
   const [isHoveredBottom, setIsHoveredBottom] = useState(false);
   const [isFooterVisible, setIsFooterVisible] = useState(false);
   const [isIdle, setIsIdle] = useState(false);
   const [isDockHovered, setIsDockHovered] = useState(false);
   const idleTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  useEffect(() => {
+    const checkIsMobile = () => {
+      const isTouch = window.matchMedia('(pointer: coarse)').matches;
+      const isSmall = window.innerWidth < 768;
+      setIsMobile(isSmall || isTouch);
+    };
+    checkIsMobile();
+    window.addEventListener('resize', checkIsMobile);
+    return () => window.removeEventListener('resize', checkIsMobile);
+  }, []);
 
   // Inactivity timer: Disappears if user is still for 3 seconds
   const resetIdleTimer = useCallback(() => {
@@ -211,15 +249,16 @@ export default function MagnificationDock() {
     return () => observer.disconnect();
   }, [location.pathname]);
 
-  // If user moves mouse near bottom screen edge on ANY page (only active when footer is not in view)
+  // If user moves mouse near bottom screen edge on ANY page (only active for desktop with mouse)
   useEffect(() => {
+    if (isMobile) return;
     const handleMouseMove = (e: MouseEvent) => {
       const nearBottom = e.clientY >= window.innerHeight - 75;
       setIsHoveredBottom(nearBottom);
     };
     window.addEventListener('mousemove', handleMouseMove);
     return () => window.removeEventListener('mousemove', handleMouseMove);
-  }, []);
+  }, [isMobile]);
 
   // Visible ONLY if:
   // 1. Scrolled down OR hovered at the bottom
@@ -230,8 +269,8 @@ export default function MagnificationDock() {
 
   return (
     <>
-      {/* Sensor hover zone at the bottom of the screen (disabled when in footer or modal open) */}
-      {!isFooterVisible && !isTechnicalGuideOpen && (
+      {/* Sensor hover zone at the bottom of the screen (disabled when in footer, modal open or on mobile touch) */}
+      {!isFooterVisible && !isTechnicalGuideOpen && !isMobile && (
         <div 
           className="fixed bottom-0 inset-x-0 h-16 z-30 pointer-events-auto"
           onMouseEnter={() => {
@@ -246,7 +285,7 @@ export default function MagnificationDock() {
         />
       )}
 
-      <div className="fixed bottom-3 sm:bottom-5 inset-x-0 flex justify-center z-40 pointer-events-none px-2">
+      <div className="fixed bottom-3 sm:bottom-5 inset-x-0 flex justify-center z-40 pointer-events-none px-2 mb-[env(safe-area-inset-bottom,0px)]">
         <motion.nav
           initial={{ y: 80, opacity: 0 }}
           animate={{
@@ -256,8 +295,10 @@ export default function MagnificationDock() {
           transition={{ type: "spring", stiffness: 260, damping: 25 }}
           style={{ pointerEvents: isVisible ? 'auto' : 'none' }}
           onMouseEnter={() => {
-            setIsDockHovered(true);
-            setIsHoveredBottom(true);
+            if (!isMobile) {
+              setIsDockHovered(true);
+              setIsHoveredBottom(true);
+            }
             setIsIdle(false);
             if (idleTimerRef.current) clearTimeout(idleTimerRef.current);
           }}
@@ -268,11 +309,17 @@ export default function MagnificationDock() {
             resetIdleTimer();
           }}
           onMouseMove={(e) => {
-            mouseX.set(e.pageX);
+            if (!isMobile) {
+              mouseX.set(e.pageX);
+            }
             resetIdleTimer();
           }}
-          aria-label="Menú interactivo con efecto magnificación"
-          className="flex items-end gap-1 sm:gap-2 px-2.5 sm:px-3 py-1.5 sm:py-2 rounded-2xl sm:rounded-full bg-slate-950/85 backdrop-blur-2xl border border-white/20 shadow-[0_10px_35px_rgba(0,0,0,0.5)] max-w-[calc(100vw-16px)] overflow-x-auto no-scrollbar"
+          onTouchStart={() => {
+            mouseX.set(Infinity);
+            resetIdleTimer();
+          }}
+          aria-label="Menú interactivo de navegación"
+          className="flex items-center sm:items-end gap-1.5 sm:gap-2 px-2 sm:px-3 py-1.5 sm:py-2 rounded-2xl sm:rounded-full bg-slate-950/90 backdrop-blur-2xl border border-white/20 shadow-[0_10px_35px_rgba(0,0,0,0.5)] max-w-full"
         >
         {/* 1. Inicio */}
         <DockItem
@@ -281,6 +328,7 @@ export default function MagnificationDock() {
           label="Inicio"
           to="/"
           isActive={location.pathname === '/'}
+          isMobile={isMobile}
         />
 
         {/* 2. Catálogo */}
@@ -290,6 +338,7 @@ export default function MagnificationDock() {
           label="Catálogo B2B"
           to="/productos"
           isActive={location.pathname.startsWith('/productos')}
+          isMobile={isMobile}
         />
 
         {/* 3. Servicios */}
@@ -299,6 +348,7 @@ export default function MagnificationDock() {
           label="Servicios"
           to="/servicios"
           isActive={location.pathname === '/servicios'}
+          isMobile={isMobile}
         />
 
         {/* 4. Nosotros */}
@@ -308,10 +358,11 @@ export default function MagnificationDock() {
           label="Sobre Nosotros"
           to="/nosotros"
           isActive={location.pathname === '/nosotros'}
+          isMobile={isMobile}
         />
 
         {/* Separador sutil */}
-        <div className="w-[1px] h-5 bg-white/15 self-center mx-0.5" />
+        <div className="w-[1px] h-4 sm:h-5 bg-white/20 self-center mx-0.5 shrink-0" />
 
         {/* 5. Cotización / Carrito */}
         <DockItem
@@ -320,6 +371,7 @@ export default function MagnificationDock() {
           label={`Cotización (${totalCartItems})`}
           onClick={openCart}
           badge={totalCartItems}
+          isMobile={isMobile}
         />
 
         {/* 6. Contacto */}
@@ -329,6 +381,7 @@ export default function MagnificationDock() {
           label="Contacto Directo"
           to="/contacto"
           isActive={location.pathname === '/contacto'}
+          isMobile={isMobile}
         />
 
         {/* 7. WhatsApp Asesor */}
@@ -339,6 +392,7 @@ export default function MagnificationDock() {
           to={COMPANY_INFO.whatsappLink}
           isExternal
           accent="hover:border-emerald-500/50 hover:bg-emerald-600/20 text-emerald-400"
+          isMobile={isMobile}
         />
       </motion.nav>
     </div>
