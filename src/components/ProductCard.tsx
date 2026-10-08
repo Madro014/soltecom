@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { m as motion, AnimatePresence } from 'framer-motion';
 import { Product } from '../types';
 import { useCartStore } from '../store/useCartStore';
+import { useUIStore } from '../store/useUIStore';
 import { COMPANY_INFO } from '../data/company';
 
 interface ProductCardProps {
@@ -12,21 +13,32 @@ interface ProductCardProps {
 export default function ProductCard({ product }: ProductCardProps) {
   const { addItem } = useCartStore();
   const location = useLocation();
+  const setTechnicalGuideOpen = useUIStore((state) => state.setTechnicalGuideOpen);
   const [isGuideOpen, setIsGuideOpen] = useState(false);
 
   useEffect(() => {
     if (isGuideOpen) {
+      setTechnicalGuideOpen(true);
       document.body.style.overflow = 'hidden';
       const handleKeyDown = (e: KeyboardEvent) => {
         if (e.key === 'Escape') setIsGuideOpen(false);
       };
       window.addEventListener('keydown', handleKeyDown);
       return () => {
+        setTechnicalGuideOpen(false);
         document.body.style.overflow = '';
         window.removeEventListener('keydown', handleKeyDown);
       };
+    } else {
+      setTechnicalGuideOpen(false);
     }
-  }, [isGuideOpen]);
+  }, [isGuideOpen, setTechnicalGuideOpen]);
+
+  useEffect(() => {
+    return () => {
+      setTechnicalGuideOpen(false);
+    };
+  }, [setTechnicalGuideOpen]);
 
   const handleSaveScroll = () => {
     sessionStorage.setItem('soltecom_catalog_scroll_y', String(window.scrollY));
@@ -151,7 +163,7 @@ export default function ProductCard({ product }: ProductCardProps) {
               className="py-2 px-2 rounded-xl bg-gray-100 hover:bg-gray-200 text-gray-700 text-xs font-semibold text-center transition-colors flex items-center justify-center gap-1"
             >
               <span className="material-symbols-outlined text-sm text-primary">visibility</span>
-              <span>Guía Rápida</span>
+              <span>Guía Técnica</span>
             </button>
             <button
               onClick={() => addItem(product, 1)}
@@ -167,13 +179,13 @@ export default function ProductCard({ product }: ProductCardProps) {
       {/* Shared Element Guide Modal */}
       <AnimatePresence>
         {isGuideOpen && (
-          <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 overflow-y-auto">
+          <div className="fixed inset-0 z-[70] flex items-center justify-center p-3 sm:p-5 overflow-hidden">
             {/* Backdrop */}
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              transition={{ duration: 0.2 }}
+              transition={{ duration: 0.25 }}
               onClick={() => setIsGuideOpen(false)}
               onKeyDown={(e) => {
                 if (e.key === 'Enter' || e.key === ' ') setIsGuideOpen(false);
@@ -181,7 +193,7 @@ export default function ProductCard({ product }: ProductCardProps) {
               tabIndex={0}
               role="button"
               aria-label="Cerrar modal de guía técnica"
-              className="fixed inset-0 bg-slate-950/70 backdrop-blur-md cursor-pointer"
+              className="fixed inset-0 bg-slate-950/80 backdrop-blur-md cursor-pointer"
             />
 
             {/* Modal Dialog with Shared Element Expansion */}
@@ -190,17 +202,17 @@ export default function ProductCard({ product }: ProductCardProps) {
               role="dialog"
               aria-modal="true"
               aria-labelledby={`guide-title-${product.id}`}
-              initial={{ opacity: 0, scale: 0.95 }}
-              animate={{ opacity: 1, scale: 1 }}
-              exit={{ opacity: 0, scale: 0.95 }}
-              transition={{ type: "spring", damping: 25, stiffness: 280 }}
-              className="relative w-full max-w-2xl bg-white rounded-3xl shadow-2xl border border-gray-100 overflow-hidden z-10 my-auto flex flex-col max-h-[88vh] overscroll-contain"
+              initial={{ opacity: 0, scale: 0.95, y: 15 }}
+              animate={{ opacity: 1, scale: 1, y: 0 }}
+              exit={{ opacity: 0, scale: 0.95, y: 15 }}
+              transition={{ type: "spring", damping: 26, stiffness: 290 }}
+              className="relative w-full max-w-xl bg-white rounded-2xl sm:rounded-3xl shadow-2xl border border-gray-100 overflow-hidden z-10 flex flex-col max-h-[82vh] my-auto"
               onClick={(e) => e.stopPropagation()}
             >
               {/* Header Bar */}
-              <div className="flex items-center justify-between p-4 sm:p-5 border-b border-gray-100 bg-surface-low/50">
+              <div className="flex items-center justify-between px-4 py-3 sm:px-5 sm:py-3.5 border-b border-gray-100 bg-surface-low/70 shrink-0">
                 <div className="flex items-center gap-2">
-                  <div className="w-8 h-8 rounded-lg bg-primary/10 text-primary flex items-center justify-center">
+                  <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-primary/10 text-primary flex items-center justify-center">
                     <span className="material-symbols-outlined text-base">verified</span>
                   </div>
                   <div>
@@ -217,18 +229,18 @@ export default function ProductCard({ product }: ProductCardProps) {
                 <button
                   type="button"
                   onClick={() => setIsGuideOpen(false)}
-                  className="w-9 h-9 rounded-full bg-gray-100 hover:bg-gray-200 text-gray-600 flex items-center justify-center transition-colors"
+                  className="w-8 h-8 rounded-full bg-gray-100 hover:bg-gray-200 text-gray-600 flex items-center justify-center transition-colors"
                   aria-label="Cerrar guía"
                 >
-                  <span className="material-symbols-outlined text-lg">close</span>
+                  <span className="material-symbols-outlined text-base">close</span>
                 </button>
               </div>
 
               {/* Body Content */}
-              <div className="p-5 sm:p-6 overflow-y-auto space-y-6">
-                <div className="grid grid-cols-1 sm:grid-cols-12 gap-5 items-center">
+              <div className="p-4 sm:p-5 overflow-y-auto space-y-4 sm:space-y-5">
+                <div className="grid grid-cols-1 sm:grid-cols-12 gap-4 items-center">
                   {/* Shared Element Image */}
-                  <div className="sm:col-span-5 bg-surface-low rounded-2xl p-4 flex items-center justify-center h-48 sm:h-56 border border-gray-100">
+                  <div className="sm:col-span-5 bg-surface-low rounded-xl p-3 flex items-center justify-center h-32 sm:h-40 border border-gray-100">
                     <motion.img
                       layoutId={`product-card-image-${product.id}`}
                       src={product.image}
@@ -238,40 +250,40 @@ export default function ProductCard({ product }: ProductCardProps) {
                   </div>
 
                   {/* Title & Quick Pricing */}
-                  <div className="sm:col-span-7 flex flex-col gap-2">
+                  <div className="sm:col-span-7 flex flex-col gap-1.5">
                     <motion.h3 
                       layoutId={`product-card-title-${product.id}`}
-                      className="font-montserrat font-bold text-base sm:text-lg text-surface-dark"
+                      className="font-montserrat font-bold text-sm sm:text-base text-surface-dark leading-snug"
                     >
                       {product.name}
                     </motion.h3>
-                    <p className="text-xs text-gray-600 leading-relaxed">
+                    <p className="text-[11px] sm:text-xs text-gray-600 leading-relaxed line-clamp-3">
                       {product.shortDesc}
                     </p>
                     
-                    <div className="flex items-baseline gap-2 pt-2">
-                      <span className="text-xs text-gray-400 font-medium">Precio B2B:</span>
-                      <span className="font-montserrat font-bold text-xl text-primary">
+                    <div className="flex items-baseline gap-2 pt-1">
+                      <span className="text-[11px] text-gray-400 font-medium">Precio B2B:</span>
+                      <span className="font-montserrat font-bold text-lg text-primary">
                         {formatCOP(product.price)}
                       </span>
                     </div>
 
-                    <div className="flex items-center gap-2 pt-1 text-xs text-emerald-600 font-medium">
-                      <span className="material-symbols-outlined text-sm">verified_user</span>
+                    <div className="flex items-center gap-1.5 text-[11px] text-emerald-600 font-medium">
+                      <span className="material-symbols-outlined text-xs">verified_user</span>
                       <span>1 Año de Garantía Directa SOLTECOM</span>
                     </div>
                   </div>
                 </div>
 
                 {/* Technical Matrix Table */}
-                <div className="border border-gray-100 rounded-2xl p-4 bg-surface-low/30 space-y-3">
-                  <h4 className="font-montserrat font-bold text-xs uppercase tracking-wider text-gray-700 flex items-center gap-1.5">
-                    <span className="material-symbols-outlined text-primary text-base">tune</span>
+                <div className="border border-gray-100 rounded-xl p-3 bg-surface-low/30 space-y-2">
+                  <h4 className="font-montserrat font-bold text-[11px] uppercase tracking-wider text-gray-700 flex items-center gap-1.5">
+                    <span className="material-symbols-outlined text-primary text-sm">tune</span>
                     <span>Especificaciones Técnicas Certificadas</span>
                   </h4>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-1.5 text-[11px]">
                     {Object.entries(product.specs).map(([key, val]) => (
-                      <div key={key} className="p-2.5 rounded-xl bg-white border border-gray-100 flex justify-between items-center">
+                      <div key={key} className="py-1.5 px-2.5 rounded-lg bg-white border border-gray-100 flex justify-between items-center">
                         <span className="text-gray-500 font-medium">{key}:</span>
                         <span className="text-gray-900 font-semibold text-right">{val}</span>
                       </div>
@@ -280,12 +292,12 @@ export default function ProductCard({ product }: ProductCardProps) {
                 </div>
 
                 {/* Engineering Recommendation Box */}
-                <div className="border border-primary/20 bg-primary/5 rounded-2xl p-4 space-y-2">
-                  <h4 className="font-montserrat font-bold text-xs uppercase tracking-wider text-primary flex items-center gap-1.5">
-                    <span className="material-symbols-outlined text-base">engineering</span>
+                <div className="border border-primary/20 bg-primary/5 rounded-xl p-3 space-y-1.5">
+                  <h4 className="font-montserrat font-bold text-[11px] uppercase tracking-wider text-primary flex items-center gap-1.5">
+                    <span className="material-symbols-outlined text-sm">engineering</span>
                     <span>Guía de Conexión & Montaje SOLTECOM</span>
                   </h4>
-                  <ul className="text-xs text-gray-700 space-y-1.5 list-disc list-inside">
+                  <ul className="text-[11px] text-gray-700 space-y-1 list-disc list-inside">
                     <li>Alimentación recomendada: Switch PoE estándar IEEE 802.3af/at o adaptador 12VDC certificado.</li>
                     <li>Cableado óptimo: Cable UTP Categoría 6 100% Cobre para garantizar ancho de banda e inmunidad al ruido.</li>
                     <li>Soporte de integración con sistemas de grabación NVR y visualización remota en tiempo real.</li>
@@ -294,7 +306,7 @@ export default function ProductCard({ product }: ProductCardProps) {
               </div>
 
               {/* Footer CTA */}
-              <div className="p-4 sm:p-5 border-t border-gray-100 bg-white flex flex-col sm:flex-row items-center justify-between gap-3">
+              <div className="p-3 sm:p-4 border-t border-gray-100 bg-white flex flex-col sm:flex-row items-center justify-between gap-2 shrink-0">
                 <Link
                   to={linkTarget}
                   state={linkState}
@@ -302,7 +314,7 @@ export default function ProductCard({ product }: ProductCardProps) {
                     handleSaveScroll();
                     setIsGuideOpen(false);
                   }}
-                  className="w-full sm:w-auto text-center px-4 py-2.5 rounded-xl border border-gray-200 text-gray-700 hover:text-primary hover:border-primary text-xs font-semibold font-montserrat transition-colors"
+                  className="w-full sm:w-auto text-center px-3.5 py-2 rounded-xl border border-gray-200 text-gray-700 hover:text-primary hover:border-primary text-xs font-semibold font-montserrat transition-colors"
                 >
                   Ver Ficha Completa
                 </Link>
@@ -312,7 +324,7 @@ export default function ProductCard({ product }: ProductCardProps) {
                     href={whatsappInquiryUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex-1 sm:flex-none inline-flex items-center justify-center gap-1.5 px-4 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold font-montserrat transition-colors shadow-sm"
+                    className="flex-1 sm:flex-none inline-flex items-center justify-center gap-1.5 px-3.5 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold font-montserrat transition-colors shadow-sm"
                   >
                     <span className="material-symbols-outlined text-sm">chat</span>
                     <span>Consultar Asesor</span>
@@ -324,7 +336,7 @@ export default function ProductCard({ product }: ProductCardProps) {
                       addItem(product, 1);
                       setIsGuideOpen(false);
                     }}
-                    className="flex-1 sm:flex-none inline-flex items-center justify-center gap-1.5 px-4 py-2.5 rounded-xl bg-primary hover:bg-primary-light text-white text-xs font-bold font-montserrat transition-colors shadow-sm"
+                    className="flex-1 sm:flex-none inline-flex items-center justify-center gap-1.5 px-3.5 py-2 rounded-xl bg-primary hover:bg-primary-light text-white text-xs font-bold font-montserrat transition-colors shadow-sm"
                   >
                     <span className="material-symbols-outlined text-sm">add_shopping_cart</span>
                     <span>Añadir al Carrito</span>

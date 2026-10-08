@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { useCartStore } from '../store/useCartStore';
+import { useUIStore } from '../store/useUIStore';
 import { COMPANY_INFO } from '../data/company';
 
 export default function Navbar() {
   const { getTotalItems, toggleCart } = useCartStore();
+  const isTechnicalGuideOpen = useUIStore((state) => state.isTechnicalGuideOpen);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const totalItems = getTotalItems();
@@ -27,14 +29,17 @@ export default function Navbar() {
 
   return (
     <header
-style={{
-  backgroundColor: scrolled ? 'rgba(11, 27, 54, 0.65)' : 'rgba(11, 27, 54, 0.85)',
-  boxShadow: scrolled ? '0 10px 30px -10px rgba(0, 0, 0, 0.3)' : 'none',
-  backdropFilter: 'blur(12px)',
-  WebkitBackdropFilter: 'blur(12px)', /* Para Safari */
-  transition: 'background-color 0.4s ease, box-shadow 0.4s ease'
-}}
-      className="fixed top-0 left-0 w-full z-50 transition-all duration-300 border-b border-slate-800"
+      style={{
+        backgroundColor: scrolled ? 'rgba(11, 27, 54, 0.65)' : 'rgba(11, 27, 54, 0.85)',
+        boxShadow: scrolled ? '0 10px 30px -10px rgba(0, 0, 0, 0.3)' : 'none',
+        backdropFilter: 'blur(12px)',
+        WebkitBackdropFilter: 'blur(12px)', /* Para Safari */
+        transform: isTechnicalGuideOpen ? 'translateY(-100%)' : 'translateY(0)',
+        opacity: isTechnicalGuideOpen ? 0 : 1,
+        pointerEvents: isTechnicalGuideOpen ? 'none' : 'auto',
+        transition: 'transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.3s ease, background-color 0.4s ease, box-shadow 0.4s ease'
+      }}
+      className="fixed top-0 left-0 w-full z-50 border-b border-slate-800"
     >
       <div className="h-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
         

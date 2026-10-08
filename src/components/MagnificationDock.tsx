@@ -9,6 +9,7 @@ import {
   MotionValue,
 } from 'framer-motion';
 import { useCartStore } from '../store/useCartStore';
+import { useUIStore } from '../store/useUIStore';
 import { COMPANY_INFO } from '../data/company';
 
 interface DockItemProps {
@@ -137,6 +138,7 @@ export default function MagnificationDock() {
   const mouseX = useMotionValue(Infinity);
   const location = useLocation();
   const { openCart, getTotalItems } = useCartStore();
+  const isTechnicalGuideOpen = useUIStore((state) => state.isTechnicalGuideOpen);
   const totalCartItems = getTotalItems();
 
   const [isScrolledDown, setIsScrolledDown] = useState(false);
@@ -223,12 +225,13 @@ export default function MagnificationDock() {
   // 1. Scrolled down OR hovered at the bottom
   // 2. Footer is NOT in view
   // 3. User is NOT idle (has moved within last 3s) OR is directly hovering the dock
-  const isVisible = (isScrolledDown || isHoveredBottom) && !isFooterVisible && (!isIdle || isDockHovered);
+  // 4. Modal de Guía Técnica no está abierto
+  const isVisible = (isScrolledDown || isHoveredBottom) && !isFooterVisible && (!isIdle || isDockHovered) && !isTechnicalGuideOpen;
 
   return (
     <>
-      {/* Sensor hover zone at the bottom of the screen (disabled when in footer) */}
-      {!isFooterVisible && (
+      {/* Sensor hover zone at the bottom of the screen (disabled when in footer or modal open) */}
+      {!isFooterVisible && !isTechnicalGuideOpen && (
         <div 
           className="fixed bottom-0 inset-x-0 h-16 z-30 pointer-events-auto"
           onMouseEnter={() => {
