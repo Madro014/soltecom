@@ -72,7 +72,7 @@ export default function Nosotros() {
               delay={50}
               animateBy="letters"
               direction="bottom"
-              className="font-lora font-bold text-3xl sm:text-4xl md:text-5xl text-white drop-shadow-md text-center"
+              className="font-lora font-bold text-3xl sm:text-4xl md:text-5xl text-white drop-shadow-md text-center [&>span:nth-child(n+14)]:text-[#22c55e]"
             />
           </div>
 
@@ -170,11 +170,19 @@ export default function Nosotros() {
       </section>
 
       {/* Lanyard - Gerente Comercial */}
-      <section className="relative w-full py-16 md:py-24 bg-white overflow-hidden flex flex-col items-center">
-        <h2 className="text-3xl md:text-5xl font-black font-montserrat text-surface-dark mb-6 text-center">
-          Gerente Comercial
+      <section className="relative w-full py-16 md:py-24 bg-[#030914] overflow-hidden flex flex-col items-center">
+        {/* Spotlight background effect */}
+        <div className="absolute inset-0 w-full h-full pointer-events-none">
+          <div className="absolute top-[-10%] left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-emerald-500/20 rounded-full blur-[120px]"></div>
+          <div className="absolute top-[30%] left-1/2 -translate-x-1/2 w-[400px] h-[400px] bg-white/5 rounded-full blur-[100px]"></div>
+        </div>
+
+        <h2 className="relative z-10 text-3xl md:text-5xl font-black font-montserrat mb-6 text-center drop-shadow-lg tracking-tight">
+          <span className="text-white">Gerente </span>
+          <span className="text-[#22c55e]">Comercial</span>
         </h2>
-        <div style={{ width: '100%', height: '600px' }} className="max-w-4xl mx-auto flex justify-center">
+        
+        <div style={{ width: '100%', height: '600px' }} className="relative z-10 max-w-4xl mx-auto flex justify-center">
           <Lanyard 
             frontImage="/icons/GerenteComercial.webp" 
             backImage="/icons/GerenteComercial.webp"
