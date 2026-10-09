@@ -202,7 +202,9 @@ const loadImage = (cache: Map<string, Promise<HTMLImageElement | null>>, url: st
   if (cached) return cached;
   const promise = new Promise<HTMLImageElement | null>(resolve => {
     const image = new Image();
-    image.crossOrigin = 'anonymous';
+    if (url.startsWith('http')) {
+      image.crossOrigin = 'anonymous';
+    }
     image.decoding = 'async';
     image.onload = () => resolve(image);
     image.onerror = () => resolve(null);
