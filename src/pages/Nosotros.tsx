@@ -1,6 +1,6 @@
 import React from 'react';
 import ScrollExpand from '../components/animations/ScrollExpand';
-import ParticleText from '../components/animations/ParticleText';
+import BlurText from '../components/animations/BlurText';
 import ScrollStack, { ScrollStackItem } from '../components/animations/ScrollStack';
 import Grainient from '../components/animations/Grainient';
 
@@ -64,30 +64,18 @@ export default function Nosotros() {
 
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           
-          {/* Particle Text Header */}
-          <div className="w-full h-36 sm:h-44 md:h-52 relative flex items-center justify-center">
-            <ParticleText
+          {/* Blur Text Header */}
+          <div className="w-full flex items-center justify-center my-6 md:my-10">
+            <BlurText
               text="PRESENTACIÓN CORPORATIVA"
-              particleSize={2.4}
-              density={3.2}
-              color="#2563eb"
-              highlightColor="#1d4ed8"
-              scatter={160}
-              gatherDuration={1500}
-              stagger={380}
-              pointerRepel={45}
-              repelRadius={120}
-              idleDrift={0.6}
-              trigger="inView"
-              fontSize="clamp(1.35rem, 4.5vw, 3.4rem)"
-              fontWeight={900}
-              fontFamily="Montserrat, sans-serif"
-              glow={true}
+              delay={50}
+              animateBy="letters"
+              direction="bottom"
+              className="font-lora font-bold text-3xl sm:text-4xl md:text-5xl text-white drop-shadow-md text-center"
             />
           </div>
 
-          {/* Línea divisoria en gradiente verde a azul */}
-          <div className="w-32 h-1.5 bg-gradient-to-r from-primary to-secondary-dark rounded-full mx-auto mb-12 shadow-sm" />
+  
 
           {/* Contenido Corporativo interactivo en tarjetas apilables (ScrollStack) */}
           <ScrollStack
