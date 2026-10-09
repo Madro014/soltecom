@@ -429,6 +429,50 @@ const paintFace = (canvas: HTMLCanvasElement, image: HTMLImageElement | null, co
   if (image) drawFitted(ctx, image, canvas.width, canvas.height, fit);
 };
 
+const paintCustomBack = (
+  canvas: HTMLCanvasElement,
+  color: [number, number, number],
+  logo: HTMLImageElement | null,
+  title?: string,
+  name?: string
+) => {
+  const ctx = canvas.getContext('2d');
+  if (!ctx) return;
+  
+  ctx.fillStyle = toCss(color);
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+  // Background subtle pattern or clean
+  ctx.fillStyle = '#f8fafc';
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+  const centerX = canvas.width / 2;
+  const centerY = canvas.height / 2;
+
+  if (logo) {
+    const logoWidth = 500;
+    const logoScale = logoWidth / logo.width;
+    const logoHeight = logo.height * logoScale;
+    ctx.drawImage(logo, centerX - logoWidth / 2, centerY - logoHeight / 2 - 250, logoWidth, logoHeight);
+  }
+
+  if (name) {
+    ctx.fillStyle = '#0f172a';
+    ctx.font = '900 85px "Montserrat", sans-serif';
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    ctx.fillText(name, centerX, centerY + 180);
+  }
+
+  if (title) {
+    ctx.fillStyle = '#22c55e';
+    ctx.font = '800 55px "Montserrat", sans-serif';
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    ctx.fillText(title, centerX, centerY + 280);
+  }
+};
+
 const paintStrap = (canvas: HTMLCanvasElement, image: HTMLImageElement | null, color: [number, number, number]) => {
   const across = 192;
   const along = image ? Math.max(64, Math.round((image.width / image.height) * across)) : across * 2;
@@ -702,6 +746,9 @@ const stepSimulation = (sim: any, dt: number, physics: any, time: number) => {
 export interface LanyardProps {
   frontImage?: string;
   backImage?: string;
+  backLogo?: string;
+  backTitle?: string;
+  backName?: string;
   imageFit?: 'cover' | 'contain';
   cardColor?: string;
   orientation?: 'portrait' | 'landscape';
@@ -728,6 +775,9 @@ export interface LanyardProps {
 const Lanyard = ({
   frontImage,
   backImage,
+  backLogo,
+  backTitle,
+  backName,
   imageFit = 'cover',
   cardColor = '#ffffff',
   orientation = 'portrait',
@@ -756,6 +806,9 @@ const Lanyard = ({
   settingsRef.current = {
     frontImage,
     backImage,
+    backLogo,
+    backTitle,
+    backName,
     imageFit: imageFit === 'contain' ? 'contain' : 'cover',
     cardColor,
     orientation: orientation === 'landscape' ? 'landscape' : 'portrait',
@@ -811,7 +864,7 @@ const Lanyard = ({
     scene.add(keyLight, fillLight);
 
     const imageCache = new Map<string, Promise<HTMLImageElement | null>>();
-    const images: any = { front: null, back: null, strap: null };
+    const images: any = { front: null, back: null, strap: null, backLogo: null };
     const frontCanvas = document.createElement('canvas');
     const backCanvas = document.createElement('canvas');
     const strapCanvas = document.createElement('canvas');
@@ -920,7 +973,13 @@ const Lanyard = ({
         backTexture.dispose();
       }
       paintFace(frontCanvas, images.front, color, s.imageFit);
-      paintFace(backCanvas, images.back || images.front, color, s.imageFit);
+      
+      if (s.backTitle || s.backName) {
+        paintCustomBack(backCanvas, color, images.backLogo, s.backTitle, s.backName);
+      } else {
+        paintFace(backCanvas, images.back || images.front, color, s.imageFit);
+      }
+      
       frontTexture.needsUpdate = true;
       backTexture.needsUpdate = true;
       start();
@@ -989,23 +1048,25 @@ const Lanyard = ({
         }
       }
 
-      const imageKey = `${s.frontImage}|${s.backImage}|${s.strapImage}`;
+      const imageKey = `${s.frontImage}|${s.backImage}|${s.strapImage}|${s.backLogo}`;
       if (imageKey !== applied.imageKey) {
         const token = ++imageToken;
         Promise.all([
           loadImage(imageCache, s.frontImage),
           loadImage(imageCache, s.backImage),
-          loadImage(imageCache, s.strapImage)
-        ]).then(([front, back, strap]) => {
+          loadImage(imageCache, s.strapImage),
+          loadImage(imageCache, s.backLogo)
+        ]).then(([front, back, strap, backLogo]) => {
           if (!alive || token !== imageToken) return;
           images.front = front;
           images.back = back;
           images.strap = strap;
+          images.backLogo = backLogo;
           paintFaces();
           repaintStrap();
         });
       }
-      const faceKey = `${layoutKey}|${s.cardColor}|${s.imageFit}`;
+      const faceKey = `${layoutKey}|${s.cardColor}|${s.imageFit}|${s.backTitle}|${s.backName}`;
       if (faceKey !== applied.faceKey) paintFaces();
       if (s.strapColor !== applied.strapColor) repaintStrap();
 

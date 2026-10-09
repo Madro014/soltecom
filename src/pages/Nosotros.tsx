@@ -185,7 +185,9 @@ export default function Nosotros() {
         <div style={{ width: '100%', height: '600px' }} className="relative z-10 max-w-4xl mx-auto flex justify-center">
           <Lanyard 
             frontImage="/icons/GerenteComercial.webp" 
-            backImage="/icons/GerenteComercial.webp"
+            backLogo="/logo/logosoteco.webp"
+            backTitle="Gerente Comercial"
+            backName="Leonardo Díaz"
             imageFit="cover"
             cardColor="#ffffff"
             orientation="portrait"
