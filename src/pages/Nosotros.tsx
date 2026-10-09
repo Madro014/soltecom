@@ -3,6 +3,7 @@ import ScrollExpand from '../components/animations/ScrollExpand';
 import BlurText from '../components/animations/BlurText';
 import ScrollStack, { ScrollStackItem } from '../components/animations/ScrollStack';
 import Grainient from '../components/animations/Grainient';
+import Lanyard from '../components/animations/Lanyard';
 
 export default function Nosotros() {
   return (
@@ -165,6 +166,36 @@ export default function Nosotros() {
             </ScrollStackItem>
           </ScrollStack>
 
+        </div>
+      </section>
+
+      {/* Lanyard - Gerente Comercial */}
+      <section className="relative w-full py-16 md:py-24 bg-white overflow-hidden flex flex-col items-center">
+        <h2 className="text-3xl md:text-5xl font-black font-montserrat text-surface-dark mb-6 text-center">
+          Gerente Comercial
+        </h2>
+        <div style={{ width: '100%', height: '600px' }} className="max-w-4xl mx-auto flex justify-center">
+          <Lanyard 
+            frontImage="/icons/GerenteComercial.webp" 
+            backImage="/icons/GerenteComercial.webp"
+            imageFit="cover"
+            cardColor="#ffffff"
+            orientation="portrait"
+            finish="glossy"
+            cornerRadius={0.3}
+            size={0.65}
+            anchor="center"
+            strapLength={0.5}
+            strapColor="#008744"
+            strapWidth={0.65}
+            metal="silver"
+            gravity={1}
+            damping={0.5}
+            elasticity={0.5}
+            breeze={0.5}
+            interactive
+            intro
+          />
         </div>
       </section>
     </div>
