@@ -91,7 +91,7 @@ export default function Navbar() {
 
           <Link
             to="/contacto"
-            className="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-sm font-semibold transition-[background-color,box-shadow] duration-200 shadow-lg hover:shadow-emerald-600/30 group"
+            className="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-white hover:bg-gray-100 text-slate-900 text-sm font-bold transition-[background-color] duration-200 shadow-sm group"
           >
             <span className="material-symbols-outlined text-lg group-hover:scale-110 transition-transform">
               send_and_archive
@@ -137,7 +137,7 @@ export default function Navbar() {
             <Link
               to="/contacto"
               onClick={() => setMobileMenuOpen(false)}
-              className="w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-semibold shadow"
+              className="w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-white hover:bg-gray-100 text-slate-900 font-bold shadow"
             >
               <span className="material-symbols-outlined text-lg">send_and_archive</span>
               <span>Solicitar cotización</span>

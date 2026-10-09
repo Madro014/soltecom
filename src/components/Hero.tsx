@@ -47,7 +47,7 @@ export default function Hero() {
             <div className="flex flex-wrap items-center gap-3.5 pt-1 w-full sm:w-auto">
               <Link 
                 to="/productos"
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-400 hover:to-emerald-500 text-white font-montserrat font-bold text-sm shadow-[0_0_20px_rgba(16,185,129,0.35)] transition-[transform,box-shadow] duration-200 hover:-translate-y-0.5"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-white text-slate-900 hover:bg-gray-100 font-montserrat font-bold text-sm shadow-md transition-[transform,background-color] duration-200 hover:-translate-y-0.5"
               >
                 <span className="material-symbols-outlined text-lg">storefront</span>
                 <span>Ver catálogo de productos</span>
@@ -55,11 +55,11 @@ export default function Hero() {
               </Link>
               <Link 
                 to="/contacto"
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-[#0b1b2d]/80 hover:bg-[#122842] text-white border border-white/10 hover:border-emerald-500/40 font-montserrat font-semibold text-sm backdrop-blur-md transition-colors duration-200"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-white/5 hover:bg-white/10 text-white border border-white/20 hover:border-white/40 font-montserrat font-semibold text-sm backdrop-blur-md transition-colors duration-200"
               >
-                <span className="material-symbols-outlined text-lg text-gray-300">engineering</span>
+                <span className="material-symbols-outlined text-lg">engineering</span>
                 <span>Solicitar asesoría técnica</span>
-                <span className="material-symbols-outlined text-base text-gray-400">arrow_forward</span>
+                <span className="material-symbols-outlined text-base">arrow_forward</span>
               </Link>
             </div>
 
@@ -107,25 +107,21 @@ export default function Hero() {
               icon: 'verified_user',
               value: '100%',
               label: 'Garantía Certificada de Fábrica',
-              textColor: 'text-white',
             },
             {
               icon: 'support_agent',
               value: '24/7',
               label: 'Supervisión & Monitoreo Remoto',
-              textColor: 'text-white',
             },
             {
               icon: 'hub',
               value: '+8 Líneas',
               label: 'Especialidades Integradas en un Proveedor',
-              textColor: 'text-emerald-400',
             },
             {
               icon: 'public',
               value: 'Nacional',
               label: 'Cobertura e Instalación en Colombia',
-              textColor: 'text-emerald-400',
             },
           ].map((metric, idx) => {
             const isHovered = hoveredMetric === idx;
@@ -145,26 +141,26 @@ export default function Hero() {
                     setHoveredMetric(isHovered ? null : idx);
                   }
                 }}
-                className={`flex items-center gap-3.5 p-4 rounded-2xl bg-[#0a1829]/80 border backdrop-blur-xl transition-all duration-300 ease-out cursor-pointer select-none ${
+                className={`flex items-center gap-3.5 p-4 rounded-2xl bg-white/5 border backdrop-blur-md transition-all duration-300 ease-out cursor-pointer select-none ${
                   isHovered
-                    ? 'scale-105 z-20 border-emerald-400 shadow-[0_0_25px_rgba(16,185,129,0.35)] bg-[#0d223a]'
+                    ? 'scale-105 z-20 border-white/40 bg-white/10 shadow-lg'
                     : isOtherHovered
-                    ? 'blur-[3px] opacity-40 scale-95 border-cyan-500/10'
-                    : 'border-cyan-500/30 hover:border-emerald-400/50 shadow-[0_0_15px_rgba(6,182,212,0.1)]'
+                    ? 'blur-[2px] opacity-50 scale-95 border-white/5'
+                    : 'border-white/10 hover:border-white/20'
                 }`}
               >
                 <div className={`w-12 h-12 rounded-xl flex items-center justify-center shrink-0 transition-colors ${
                   isHovered
-                    ? 'bg-emerald-500/20 border border-emerald-400 text-emerald-300 shadow-[0_0_15px_rgba(16,185,129,0.4)]'
-                    : 'bg-emerald-500/10 border border-emerald-400/40 text-emerald-400 shadow-[0_0_10px_rgba(16,185,129,0.2)]'
+                    ? 'bg-white text-slate-900 shadow-md'
+                    : 'bg-white/10 text-white border border-white/20'
                 }`}>
                   <span className="material-symbols-outlined text-2xl">{metric.icon}</span>
                 </div>
                 <div className="flex flex-col">
-                  <span className={`font-montserrat font-bold text-xl transition-colors ${metric.textColor}`}>
+                  <span className="font-montserrat font-bold text-xl text-white">
                     {metric.value}
                   </span>
-                  <span className="text-xs text-gray-300 font-medium">
+                  <span className="text-xs text-gray-300 font-medium leading-tight mt-0.5">
                     {metric.label}
                   </span>
                 </div>
