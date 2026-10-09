@@ -4,6 +4,7 @@ import Hero from '../components/Hero';
 import ServicesSection from '../components/ServicesSection';
 import ProductCard from '../components/ProductCard';
 import MetricsMagnification from '../components/animations/MetricsMagnification';
+import ContinuousProductCarousel from '../components/animations/ContinuousProductCarousel';
 import { PRODUCTS } from '../data/products';
 
 export default function Home() {
@@ -43,11 +44,8 @@ export default function Home() {
             </Link>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {featuredProducts.map((product) => (
-              <ProductCard key={product.id} product={product} />
-            ))}
-          </div>
+{/* react-doctor-disable-next-line react-doctor/no-giant-component */}
+          <ContinuousProductCarousel products={PRODUCTS} speed={PRODUCTS.length * 4.5} />
         </div>
       </section>
 
