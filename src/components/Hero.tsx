@@ -29,13 +29,7 @@ export default function Hero() {
             transition={{ duration: 0.6 }}
             className="lg:col-span-7 flex flex-col items-start gap-5"
           >
-            {/* Pill Badge */}
-            <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#0a1c2e]/80 border border-emerald-500/30 backdrop-blur-md shadow-sm">
-              <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse shadow-[0_0_8px_#34d399]" />
-              <span className="font-montserrat text-[11px] font-semibold text-emerald-400 uppercase tracking-widest">
-                TECNOLOGÍA • SEGURIDAD • CONFIANZA
-              </span>
-            </div>
+  
 
             {/* Main Headline with Emerald Glow Gradient */}
             <h1 className="font-montserrat font-extrabold text-3xl sm:text-4xl lg:text-5xl text-white leading-[1.15] tracking-tight">
@@ -90,75 +84,15 @@ export default function Hero() {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="lg:col-span-5 flex flex-col gap-4"
           >
-            {/* Outer card with neon cyan/emerald border glow */}
-            <div className="relative rounded-2xl bg-[#091524]/90 border border-cyan-500/40 backdrop-blur-2xl p-4 sm:p-5 shadow-[0_0_35px_rgba(6,182,212,0.22)] overflow-hidden">
-              
-              {/* Header */}
-              <div className="flex items-center justify-between pb-3 border-b border-cyan-500/20">
-                <div className="flex items-center gap-2">
-                  <span className="material-symbols-outlined text-emerald-400 text-lg">terminal</span>
-                  <span className="font-montserrat font-bold text-sm text-white tracking-wide">SOLTECOM Live Core™</span>
-                </div>
-                <div className="flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-emerald-500/10 border border-emerald-500/30">
-                  <span className="material-symbols-outlined text-emerald-400 text-xs">wifi_tethering</span>
-                  <span className="text-emerald-400 text-[10px] font-bold tracking-wider uppercase">
-                    TELEMETRÍA ACTIVA
-                  </span>
-                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping ml-0.5" />
-                </div>
-              </div>
-
-              {/* Banner Inside with Neon Frame */}
-              <div className="relative h-56 sm:h-64 rounded-xl overflow-hidden my-3.5 border border-cyan-500/30 shadow-inner group">
-                <img 
-                  src="/banners/banner.webp" 
-                  alt="Soluciones de Seguridad y Tecnología SOLTECOM" 
-                  className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#06101e]/95 via-transparent to-transparent" />
-                
-                {/* Telemetry bottom badge */}
-                <div className="absolute bottom-2.5 left-3 right-3 flex items-center justify-between text-white text-[11px] font-mono">
-                  <div className="flex items-center gap-1.5">
-                    <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse shadow-[0_0_6px_#34d399]" />
-                    <span className="tracking-wider text-gray-200 font-semibold">CCTV 4K TIANDY: 1,480 FPS OK</span>
-                  </div>
-                  <div className="flex items-center gap-1 text-emerald-400 font-bold">
-                    <span className="text-gray-400">|</span>
-                    <span>LATENCIA: 12ms</span>
-                  </div>
-                </div>
-              </div>
-
-              {/* Sub-cards */}
-              <div className="grid grid-cols-2 gap-2.5">
-                <div className="p-3 rounded-xl bg-[#0c1c2e]/90 border border-cyan-500/20 flex flex-col justify-between">
-                  <div className="flex items-center justify-between">
-                    <span className="text-[10px] text-gray-400 uppercase tracking-wider font-semibold">TORNIQUETES BIOMETRÍA</span>
-                  </div>
-                  <div className="flex items-baseline justify-between mt-1">
-                    <span className="font-montserrat font-bold text-lg text-white">99.98%</span>
-                    <span className="material-symbols-outlined text-emerald-400 text-lg">fingerprint</span>
-                  </div>
-                  <div className="flex items-center justify-between mt-0.5">
-                    <span className="text-[11px] text-emerald-400 font-medium">ZKTeco BioAccess</span>
-                    <span className="material-symbols-outlined text-emerald-400 text-sm">trending_up</span>
-                  </div>
-                </div>
-
-                <div className="p-3 rounded-xl bg-[#0c1c2e]/90 border border-cyan-500/20 flex flex-col justify-between">
-                  <div className="flex items-center justify-between">
-                    <span className="text-[10px] text-gray-400 uppercase tracking-wider font-semibold">PORTÓN INVERTER</span>
-                  </div>
-                  <div className="flex items-baseline justify-between mt-1">
-                    <span className="font-montserrat font-bold text-lg text-white">4s JetFlex</span>
-                    <span className="material-symbols-outlined text-emerald-400 text-lg">lock</span>
-                  </div>
-                  <div className="flex items-center justify-between mt-0.5">
-                    <span className="text-[11px] text-emerald-400 font-medium">PPA / Garen Inverter</span>
-                  </div>
-                </div>
-              </div>
+            {/* Minimalist Image Banner */}
+            <div className="relative rounded-[2rem] overflow-hidden shadow-[0_20px_60px_rgba(0,135,68,0.18)] border border-slate-100 group w-full">
+              <img 
+                src="/banners/banner.webp" 
+                alt="Soluciones de Seguridad y Tecnología SOLTECOM" 
+                className="w-full aspect-[4/3] sm:aspect-video lg:aspect-[4/3] object-cover object-center group-hover:scale-[1.03] transition-transform duration-700 ease-out"
+              />
+              {/* Subtle overlay to enhance image depth */}
+              <div className="absolute inset-0 bg-gradient-to-tr from-black/10 via-transparent to-black/5 pointer-events-none" />
             </div>
           </motion.div>
         </div>
