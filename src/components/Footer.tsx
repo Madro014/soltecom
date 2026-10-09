@@ -80,23 +80,8 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Col 2: Soluciones (2 cols) */}
-          <div className="lg:col-span-3 flex flex-col gap-2.5">
-            <h3 className="font-montserrat font-bold text-xs uppercase tracking-wider text-white border-b border-slate-800 pb-2">
-              Soluciones Principales
-            </h3>
-            <ul className="flex flex-col gap-2 text-xs text-slate-300/90 font-inter">
-              <li><Link to="/servicios" className="hover:text-emerald-400 transition-colors">Videovigilancia CCTV IP</Link></li>
-              <li><Link to="/servicios" className="hover:text-emerald-400 transition-colors">Control de Acceso Biométrico</Link></li>
-              <li><Link to="/servicios" className="hover:text-emerald-400 transition-colors">Automatización de Portones</Link></li>
-              <li><Link to="/servicios" className="hover:text-emerald-400 transition-colors">Alarmas Monitoreadas</Link></li>
-              <li><Link to="/servicios" className="hover:text-emerald-400 transition-colors">Video Portería y Citofonía</Link></li>
-              <li><Link to="/servicios" className="hover:text-emerald-400 transition-colors">Redes & Conectividad</Link></li>
-            </ul>
-          </div>
-
           {/* Col 3: Enlaces Rápidos (2 cols) */}
-          <div className="lg:col-span-2 flex flex-col gap-2.5">
+          <div className="lg:col-span-2 lg:col-start-8 flex flex-col gap-2.5">
             <h3 className="font-montserrat font-bold text-xs uppercase tracking-wider text-white border-b border-slate-800 pb-2">
               Navegación
             </h3>
@@ -109,8 +94,8 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Col 4: Contacto Directo (2 cols) */}
-          <div className="lg:col-span-2 flex flex-col gap-2.5">
+          {/* Col 4: Contacto Directo (3 cols) */}
+          <div className="lg:col-span-3 flex flex-col gap-2.5">
             <h3 className="font-montserrat font-bold text-xs uppercase tracking-wider text-white border-b border-slate-800 pb-2">
               Contacto
             </h3>
