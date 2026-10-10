@@ -5,6 +5,7 @@ import ServicesSection from '../components/ServicesSection';
 import ProductCard from '../components/ProductCard';
 import MetricsMagnification from '../components/animations/MetricsMagnification';
 import ContinuousProductCarousel from '../components/animations/ContinuousProductCarousel';
+import BlurText from '../components/animations/BlurText';
 import { PRODUCTS } from '../data/products';
 
 export default function Home() {
@@ -27,13 +28,14 @@ export default function Home() {
       <section className="w-full bg-white py-16 lg:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-10">
-            <div>
-              <span className="font-montserrat text-xs font-bold uppercase tracking-wider text-primary">
-                Equipamiento Destacado
-              </span>
-              <h2 className="font-montserrat font-bold text-2xl sm:text-3xl text-surface-dark mt-1">
-                Catálogo de Equipos Seleccionados
-              </h2>
+            <div className="w-full flex items-center justify-start">
+              <BlurText
+                text="Catálogo de Equipos Seleccionados"
+                delay={30}
+                animateBy="letters"
+                direction="bottom"
+                className="font-lora font-bold text-2xl sm:text-3xl text-surface-dark drop-shadow-sm [&>span:nth-child(n+21)]:text-primary"
+              />
             </div>
             <Link
               to="/productos"
