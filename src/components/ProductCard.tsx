@@ -89,9 +89,7 @@ export default function ProductCard({ product }: ProductCardProps) {
               />
             </Link>
 
-            <span className="absolute top-2 left-2 px-2 py-0.5 rounded-full bg-primary text-white text-[11px] font-semibold shadow pointer-events-none">
-              En Stock
-            </span>
+
             {product.tags?.[0] && (
               <span className="absolute top-2 right-2 px-2 py-0.5 rounded-full bg-surface-high text-surface-dark text-[11px] font-bold shadow pointer-events-none">
                 {product.tags[0]}

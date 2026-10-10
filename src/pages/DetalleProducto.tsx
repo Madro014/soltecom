@@ -285,14 +285,7 @@ function ProductPurchaseCard({
           </p>
         </div>
 
-        {/* Stock info */}
-        <div className="flex items-center gap-2 p-3 rounded-xl bg-surface-low border border-gray-100">
-          <span className="w-2.5 h-2.5 rounded-full bg-primary animate-pulse" />
-          <span className="text-xs font-semibold text-gray-800">
-            En Stock: {product.stock} unidades
-          </span>
-          <span className="text-xs text-gray-500">• Bodega Central (Despacho 24h)</span>
-        </div>
+
 
         {/* Price Tier Scale */}
         <div className="flex flex-col gap-2">
