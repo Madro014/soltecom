@@ -157,25 +157,27 @@ export default function ServicesSection() {
       </div>
 
       {/* Morph Slider Component */}
-      <div className="relative z-10 w-full max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-20 aspect-video min-h-[400px] shadow-2xl rounded-2xl overflow-hidden">
-        <MorphSlider
-          items={SLIDER_ITEMS}
-          transition="melt"
-          intensity={0.55}
-          aberration={0.35}
-          drift={0.4}
-          autoplay={false}
-          overlayColor="#05060a"
-          duration={1.1}
-          ease="power2.inOut"
-          scale={2.4}
-          autoplayDelay={4}
-          loop
-          radius={16}
-          showCaptions
-          showControls
-          showIndicators
-        />
+      <div className="relative z-10 w-full max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-20">
+        <div className="w-full h-full aspect-video min-h-[300px] sm:min-h-[400px] rounded-2xl overflow-hidden shadow-[0_20px_60px_-15px_rgba(0,0,0,0.5)]">
+          <MorphSlider
+            items={SLIDER_ITEMS}
+            transition="melt"
+            intensity={0.55}
+            aberration={0.35}
+            drift={0.4}
+            autoplay={false}
+            overlayColor="#05060a"
+            duration={1.1}
+            ease="power2.inOut"
+            scale={2.4}
+            autoplayDelay={4}
+            loop
+            radius={0}
+            showCaptions
+            showControls
+            showIndicators
+          />
+        </div>
       </div>
 
 
