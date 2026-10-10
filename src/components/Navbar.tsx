@@ -46,7 +46,7 @@ export default function Navbar() {
         {/* Brand Logo - Clear without enclosing box */}
         <Link to="/" className="flex items-center gap-3 group">
           <img 
-            src="/logo/logosoteco.webp" 
+            src="/logo/logosoteco2.webp" 
             alt="SOLTECOM - Soluciones Tecnológicas y Comerciales LD SAS" 
             className="h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
             style={{

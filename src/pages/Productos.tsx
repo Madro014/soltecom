@@ -369,12 +369,6 @@ function ProductHeaderBanner({ totalCount }: { totalCount: number }) {
               Consulte especificaciones oficiales, precios actualizados por volumen y agregue a su orden de cotización directa.
             </p>
           </div>
-          <div className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-xl backdrop-blur-sm self-start md:self-auto border border-white/10">
-            <span className="material-symbols-outlined text-emerald-400 text-xl">inventory</span>
-            <span className="text-xs font-semibold text-white">
-              {totalCount} Referencias Oficiales
-            </span>
-          </div>
         </div>
       </div>
     </section>
