@@ -73,7 +73,7 @@ export default function AboutSection() {
             <h2 className="font-montserrat font-bold text-3xl sm:text-4xl lg:text-5xl text-surface-dark leading-tight flex flex-wrap gap-x-3">
               <SplitText text={COMPANY_INFO.name} delay={0.05} className="text-primary" />
               <span className="text-gray-300">—</span>
-              <SplitText text={COMPANY_INFO.slogan} delay={0.02} />
+              <SplitText text={COMPANY_INFO.subSlogan} delay={0.02} />
             </h2>
             
             <p className="font-inter text-base sm:text-lg text-gray-600 leading-relaxed">

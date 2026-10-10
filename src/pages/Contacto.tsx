@@ -42,7 +42,7 @@ export default function Contacto() {
       <section className="bg-[#030914] pt-28 pb-16 text-white text-center">
         <div className="max-w-4xl mx-auto px-4">
           <span className="text-emerald-400 uppercase tracking-widest text-xs font-bold font-montserrat">
-            {COMPANY_INFO.slogan}
+            Cotice con los Expertos
           </span>
           <h1 className="font-montserrat font-bold text-3xl sm:text-4xl lg:text-5xl mt-2 text-white">
             Contacto & Asesoría Directa
