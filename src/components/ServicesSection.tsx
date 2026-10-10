@@ -1,7 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { m as motion } from 'framer-motion';
-import DomeGallery from './DomeGallery';
+import MorphSlider from './animations/MorphSlider';
 import Grainient from './animations/Grainient';
 
 interface ServiceItem {
@@ -103,44 +102,11 @@ const SERVICES: ServiceItem[] = [
   }
 ];
 
-/* Images from different service categories for the 3D dome */
-const DOME_IMAGES = [
-  { 
-    src: '/icons/icon_1.svg', alt: 'CCTV',
-    title: 'Sistemas de Videovigilancia (CCTV)',
-    desc: 'Implementamos soluciones de monitoreo con cámaras de alta definición, acceso remoto y grabación continua, que permiten supervisar en tiempo real y mantener evidencia segura de cada evento.',
-    color: '#008744'
-  },
-  { 
-    src: '/icons/icon_2.svg', alt: 'Control de Acceso',
-    title: 'Control de Acceso',
-    desc: 'Desarrollamos sistemas inteligentes para la gestión de ingreso de personas y vehículos mediante tecnologías biométricas, tarjetas y lectores electrónicos, asegurando trazabilidad y control total.',
-    color: '#003366'
-  },
-  { 
-    src: '/icons/icon_3.svg', alt: 'Citofonía',
-    title: 'Video Portería y Citofonía',
-    desc: 'Instalamos sistemas de comunicación avanzada que permiten identificar, validar y autorizar accesos de forma segura en residencias, conjuntos y empresas.',
-    color: '#008744'
-  },
-  { 
-    src: '/icons/icon_4.svg', alt: 'Alarmas',
-    title: 'Sistemas de Alarmas',
-    desc: 'Ofrecemos soluciones de detección de intrusión con sensores especializados, alertas inmediatas y opciones de monitoreo, reduciendo riesgos y aumentando la capacidad de respuesta.',
-    color: '#003366'
-  },
-  { 
-    src: '/icons/icon_5.svg', alt: 'Incendio',
-    title: 'Sistemas de Detección y Alarma Contra Incendio',
-    desc: 'Implementamos sistemas que permiten la detección temprana de humo o calor, protegiendo vidas, activos e infraestructura ante situaciones de emergencia.',
-    color: '#008744'
-  },
-  { 
-    src: '/icons/icon_6.svg', alt: 'Automatización',
-    title: 'Automatización de Accesos Vehiculares',
-    desc: 'Suministramos e instalamos motores y sistemas automatizados para portones y accesos vehiculares, optimizando la movilidad, seguridad y control en entradas y salidas.',
-    color: '#003366'
-  },
+const SLIDER_ITEMS = [
+  { image: '/servicios/venta-de-camaras-de-seguridad.jpg', caption: 'Sistemas de Videovigilancia y CCTV' },
+  { image: '/servicios/venta-de-camaras-de-seguridad-en-bogota.jpg', caption: 'Equipos de Control de Acceso' },
+  { image: '/servicios/instalacion-de-camaras-de-seguridad.jpg', caption: 'Sistemas de Alarmas y Citofonía' },
+  { image: '/servicios/instalacion-de-camaras-de-seguridad-bogota.jpg', caption: 'Automatización de Accesos Vehiculares' }
 ];
 
 export default function ServicesSection() {
@@ -190,7 +156,7 @@ export default function ServicesSection() {
               Nuestros Servicios & Soluciones Técnicas
             </h2>
             <p className="font-inter text-sm sm:text-base text-gray-600 mt-1">
-              Explore nuestros servicios, con borbuja interactiva 3D — arrastre y dele clik para navegar.
+              Explore nuestros servicios y deslice para ver nuestros proyectos destacados.
             </p>
           </div>
           <div className="inline-flex items-center gap-2.5 px-6 py-3 rounded-full bg-white shadow-md border border-gray-100 self-start md:self-auto mt-1 md:mt-0">
@@ -200,22 +166,72 @@ export default function ServicesSection() {
         </motion.div>
       </div>
 
-      {/* Dome Gallery Foreground */}
-      <div className="relative z-10 w-full h-[500px] sm:h-[600px] lg:h-[700px]">
-        <DomeGallery
-          images={DOME_IMAGES}
-          fit={0.8}
-          minRadius={600}
-          maxVerticalRotationDeg={0}
-          segments={34}
-          dragDampening={2}
-          grayscale={false}
-          overlayBlurColor="transparent"
-          imageBorderRadius="16px"
-          openedImageBorderRadius="20px"
-          openedImageWidth="800px"
-          openedImageHeight="320px"
+      {/* Morph Slider Component */}
+      <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-20 h-[400px] sm:h-[500px]">
+        <MorphSlider
+          items={SLIDER_ITEMS}
+          transition="melt"
+          intensity={0.55}
+          aberration={0.35}
+          drift={0.4}
+          autoplay={false}
+          overlayColor="#05060a"
+          duration={1.1}
+          ease="power2.inOut"
+          scale={2.4}
+          autoplayDelay={4}
+          loop
+          radius={16}
+          showCaptions
+          showControls
+          showIndicators
         />
+      </div>
+
+      {/* Services Grid */}
+      <div className="relative z-10 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+          {SERVICES.map((service, index) => (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: index * 0.1 }}
+              className={`bg-white rounded-2xl shadow-sm hover:shadow-md border border-gray-100/50 p-6 transition-all duration-300 group ${service.span || ''}`}
+            >
+              <div className="flex items-start justify-between mb-4">
+                <div className="p-3 bg-primary/10 rounded-xl group-hover:bg-primary transition-colors duration-300">
+                  <span className="material-symbols-outlined text-primary group-hover:text-white transition-colors text-3xl">
+                    {service.icon}
+                  </span>
+                </div>
+                <span className="inline-flex items-center rounded-full bg-blue-50 px-2.5 py-0.5 text-xs font-semibold text-blue-700 ring-1 ring-inset ring-blue-700/10">
+                  {service.badge}
+                </span>
+              </div>
+              <h3 className="font-montserrat font-bold text-lg text-gray-900 mb-2">{service.title}</h3>
+              <p className="font-inter text-sm text-gray-600 mb-4 line-clamp-3">{service.desc}</p>
+              
+              <ul className="space-y-2 mt-4">
+                {service.points.map((point, idx) => (
+                  <li key={idx} className="flex items-start gap-2">
+                    <span className="material-symbols-outlined text-primary text-sm shrink-0 mt-0.5">check_circle</span>
+                    <span className="font-inter text-sm text-gray-600">{point}</span>
+                  </li>
+                ))}
+              </ul>
+
+              {service.extraMeta && (
+                <div className="mt-6 pt-4 border-t border-gray-100">
+                  <span className="font-inter text-xs font-semibold text-gray-500 uppercase tracking-wider">
+                    {service.extraMeta}
+                  </span>
+                </div>
+              )}
+            </motion.div>
+          ))}
+        </div>
       </div>
     </section>
   );
