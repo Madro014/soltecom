@@ -8,12 +8,12 @@ import BlurText from './animations/BlurText';
 
 
 const SLIDER_ITEMS = [
-  { image: '/servicios/c1.jpeg', caption: 'Instalación de Cámaras de Alta Definición' },
-  { image: '/servicios/c2.jpeg', caption: 'Cableado Estructurado y Organización' },
-  { image: '/servicios/c3.jpeg', caption: 'Monitoreo Remoto y Control Total' },
-  { image: '/servicios/c4.jpeg', caption: 'Seguridad Industrial y Residencial' },
-  { image: '/servicios/c5.jpeg', caption: 'Implementación de Sistemas de Red' },
-  { image: '/servicios/c6.jpeg', caption: 'Soporte y Mantenimiento Técnico' }
+  { image: '/servicios/c1.webp', caption: 'Instalación de Cámaras de Alta Definición' },
+  { image: '/servicios/c2.webp', caption: 'Cableado Estructurado y Organización' },
+  { image: '/servicios/c3.webp', caption: 'Monitoreo Remoto y Control Total' },
+  { image: '/servicios/c4.webp', caption: 'Seguridad Industrial y Residencial' },
+  { image: '/servicios/c5.webp', caption: 'Implementación de Sistemas de Red' },
+  { image: '/servicios/c6.webp', caption: 'Soporte y Mantenimiento Técnico' }
 ];
 
 /* Images from different service categories for the 3D dome */

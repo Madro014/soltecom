@@ -1,7 +1,6 @@
 export const COMPANY_INFO = {
   name: 'SOLTECOM',
   legalName: 'Soluciones Tecnológicas y Comerciales LD SAS',
-  slogan: 'Tecnología • Seguridad • Confianza',
   subSlogan: 'Innovamos hoy, protegemos tu mañana',
   website: 'www.soltecomld.com',
   whatsapp: '3202949267',
