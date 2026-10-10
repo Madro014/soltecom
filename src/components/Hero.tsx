@@ -89,7 +89,7 @@ export default function Hero() {
               <img 
                 src="/banners/banner.webp" 
                 alt="Soluciones de Seguridad y Tecnología SOLTECOM" 
-                className="w-full aspect-[4/3] sm:aspect-video lg:aspect-[4/3] object-cover object-center group-hover:scale-[1.03] transition-transform duration-700 ease-out"
+                className="w-full h-auto object-contain group-hover:scale-[1.03] transition-transform duration-700 ease-out"
               />
               {/* Subtle overlay to enhance image depth */}
               <div className="absolute inset-0 bg-gradient-to-tr from-black/10 via-transparent to-black/5 pointer-events-none" />
