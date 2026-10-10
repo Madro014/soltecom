@@ -1,6 +1,7 @@
 import React from 'react';
 import { m as motion } from 'framer-motion';
 import MorphSlider from './animations/MorphSlider';
+import DomeGallery from './DomeGallery';
 import Grainient from './animations/Grainient';
 
 interface ServiceItem {
@@ -109,7 +110,48 @@ const SLIDER_ITEMS = [
   { image: '/servicios/instalacion-de-camaras-de-seguridad-bogota.jpg', caption: 'Automatización de Accesos Vehiculares' }
 ];
 
+/* Images from different service categories for the 3D dome */
+const DOME_IMAGES = [
+  { 
+    src: '/icons/icon_1.svg', alt: 'CCTV',
+    title: 'Sistemas de Videovigilancia (CCTV)',
+    desc: 'Implementamos soluciones de monitoreo con cámaras de alta definición, acceso remoto y grabación continua, que permiten supervisar en tiempo real y mantener evidencia segura de cada evento.',
+    color: '#008744'
+  },
+  { 
+    src: '/icons/icon_2.svg', alt: 'Control de Acceso',
+    title: 'Control de Acceso',
+    desc: 'Desarrollamos sistemas inteligentes para la gestión de ingreso de personas y vehículos mediante tecnologías biométricas, tarjetas y lectores electrónicos, asegurando trazabilidad y control total.',
+    color: '#003366'
+  },
+  { 
+    src: '/icons/icon_3.svg', alt: 'Citofonía',
+    title: 'Video Portería y Citofonía',
+    desc: 'Instalamos sistemas de comunicación avanzada que permiten identificar, validar y autorizar accesos de forma segura en residencias, conjuntos y empresas.',
+    color: '#008744'
+  },
+  { 
+    src: '/icons/icon_4.svg', alt: 'Alarmas',
+    title: 'Sistemas de Alarmas',
+    desc: 'Ofrecemos soluciones de detección de intrusión con sensores especializados, alertas inmediatas y opciones de monitoreo, reduciendo riesgos y aumentando la capacidad de respuesta.',
+    color: '#003366'
+  },
+  { 
+    src: '/icons/icon_5.svg', alt: 'Incendio',
+    title: 'Sistemas de Detección y Alarma Contra Incendio',
+    desc: 'Implementamos sistemas que permiten la detección temprana de humo o calor, protegiendo vidas, activos e infraestructura ante situaciones de emergencia.',
+    color: '#008744'
+  },
+  { 
+    src: '/icons/icon_6.svg', alt: 'Automatización',
+    title: 'Automatización de Accesos Vehiculares',
+    desc: 'Suministramos e instalamos motores y sistemas automatizados para portones y accesos vehiculares, optimizando la movilidad, seguridad y control en entradas y salidas.',
+    color: '#003366'
+  },
+];
+
 export default function ServicesSection() {
+
   return (
     <section className="relative w-full bg-white py-16 lg:py-24 overflow-hidden" id="servicios">
       {/* Animated Grainient Background */}
@@ -140,7 +182,7 @@ export default function ServicesSection() {
         />
       </div>
 
-      <div className="relative z-10 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto mb-12">
+      <div className="relative z-10 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto mb-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -156,7 +198,7 @@ export default function ServicesSection() {
               Nuestros Servicios & Soluciones Técnicas
             </h2>
             <p className="font-inter text-sm sm:text-base text-gray-600 mt-1">
-              Explore nuestros servicios y deslice para ver nuestros proyectos destacados.
+              Explore nuestros servicios, deslice para ver nuestros proyectos destacados y use la burbuja interactiva 3D para navegar.
             </p>
           </div>
           <div className="inline-flex items-center gap-2.5 px-6 py-3 rounded-full bg-white shadow-md border border-gray-100 self-start md:self-auto mt-1 md:mt-0">
@@ -164,6 +206,24 @@ export default function ServicesSection() {
             <span className="text-sm font-bold text-gray-800">Marcas Oficiales Homologadas</span>
           </div>
         </motion.div>
+      </div>
+
+      {/* Dome Gallery Foreground */}
+      <div className="relative z-10 w-full h-[500px] sm:h-[600px] lg:h-[700px] mb-8">
+        <DomeGallery
+          images={DOME_IMAGES}
+          fit={0.8}
+          minRadius={600}
+          maxVerticalRotationDeg={0}
+          segments={34}
+          dragDampening={2}
+          grayscale={false}
+          overlayBlurColor="transparent"
+          imageBorderRadius="16px"
+          openedImageBorderRadius="20px"
+          openedImageWidth="800px"
+          openedImageHeight="320px"
+        />
       </div>
 
       {/* Morph Slider Component */}
