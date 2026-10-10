@@ -1,11 +1,9 @@
-import React from 'react';
+import React, { useState, useRef } from 'react';
 import { m as motion } from 'framer-motion';
 import MorphSlider from './animations/MorphSlider';
 import DomeGallery from './DomeGallery';
 import Grainient from './animations/Grainient';
 import BlurText from './animations/BlurText';
-
-
 
 const SLIDER_ITEMS = [
   { image: '/servicios/c1.webp', caption: 'Instalación de Cámaras de Alta Definición' },
@@ -15,6 +13,72 @@ const SLIDER_ITEMS = [
   { image: '/servicios/c5.webp', caption: 'Implementación de Sistemas de Red' },
   { image: '/servicios/c6.webp', caption: 'Soporte y Mantenimiento Técnico' }
 ];
+
+const VideoCard = ({ vid, idx }: { vid: string, idx: number }) => {
+  const [isPlaying, setIsPlaying] = useState(true);
+  const [isMuted, setIsMuted] = useState(true);
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  const togglePlay = () => {
+    if (videoRef.current) {
+      if (isPlaying) {
+        videoRef.current.pause();
+      } else {
+        videoRef.current.play();
+      }
+      setIsPlaying(!isPlaying);
+    }
+  };
+
+  const toggleMute = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    if (videoRef.current) {
+      videoRef.current.muted = !isMuted;
+      setIsMuted(!isMuted);
+    }
+  };
+
+  return (
+    <motion.div
+      initial={{ opacity: 0, scale: 0.95 }}
+      whileInView={{ opacity: 1, scale: 1 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.5, delay: idx * 0.1 }}
+      className="relative rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow aspect-[9/16] bg-gray-900 group cursor-pointer"
+      onClick={togglePlay}
+    >
+      <video
+        ref={videoRef}
+        src={`/servicios/${vid}`}
+        className="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity"
+        autoPlay
+        muted={isMuted}
+        loop
+        playsInline
+      />
+      <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none" />
+      
+      {/* Center Play/Pause Icon */}
+      <div className="absolute inset-0 flex items-center justify-center pointer-events-none transition-all duration-300">
+        <div className={`w-16 h-16 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center border border-white/30 transition-all ${isPlaying ? 'opacity-0 scale-90 group-hover:opacity-100 group-hover:scale-100' : 'opacity-100 scale-100'}`}>
+          <span className="material-symbols-outlined text-white text-4xl drop-shadow-md">
+            {isPlaying ? 'pause' : 'play_arrow'}
+          </span>
+        </div>
+      </div>
+
+      {/* Bottom Mute/Unmute Button */}
+      <button 
+        onClick={toggleMute}
+        className="absolute bottom-4 right-4 w-10 h-10 rounded-full bg-black/40 backdrop-blur-md flex items-center justify-center border border-white/20 hover:bg-black/60 transition-colors z-10"
+      >
+        <span className="material-symbols-outlined text-white text-xl">
+          {isMuted ? 'volume_off' : 'volume_up'}
+        </span>
+      </button>
+    </motion.div>
+  );
+};
 
 /* Images from different service categories for the 3D dome */
 const DOME_IMAGES = [
@@ -208,24 +272,7 @@ export default function ServicesSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           {['1video.mp4', '2video.mp4', '3video.mp4', '4video.mp4'].map((vid, idx) => (
-            <motion.div
-              key={idx}
-              initial={{ opacity: 0, scale: 0.95 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: idx * 0.1 }}
-              className="relative rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow aspect-[9/16] bg-gray-900 group"
-            >
-              <video
-                src={`/servicios/${vid}`}
-                className="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity"
-                autoPlay
-                muted
-                loop
-                playsInline
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent pointer-events-none" />
-            </motion.div>
+            <VideoCard key={idx} vid={vid} idx={idx} />
           ))}
         </div>
       </div>
