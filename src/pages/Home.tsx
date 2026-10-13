@@ -34,7 +34,9 @@ export default function Home() {
                 delay={30}
                 animateBy="letters"
                 direction="bottom"
-                className="font-lora font-bold text-2xl sm:text-3xl text-surface-dark drop-shadow-sm [&>span:nth-child(n+21)]:text-primary"
+                highlightStartIndex={20}
+                highlightClassName="text-primary"
+                className="font-lora font-bold text-2xl sm:text-3xl text-surface-dark drop-shadow-sm"
               />
             </div>
             <Link

@@ -72,7 +72,9 @@ export default function Nosotros() {
               delay={50}
               animateBy="letters"
               direction="bottom"
-              className="font-lora font-bold text-3xl sm:text-4xl md:text-5xl text-white drop-shadow-md text-center [&>span:nth-child(n+14)]:text-[#22c55e]"
+              highlightStartIndex={13}
+              highlightClassName="text-[#22c55e]"
+              className="font-lora font-bold text-3xl sm:text-4xl md:text-5xl text-white drop-shadow-md text-center"
             />
           </div>
 

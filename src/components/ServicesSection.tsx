@@ -16,7 +16,6 @@ const SLIDER_ITEMS = [
 
 const VideoCard = ({ vid, idx }: { vid: string, idx: number }) => {
   const [isPlaying, setIsPlaying] = useState(true);
-  const [isMuted, setIsMuted] = useState(true);
   const videoRef = useRef<HTMLVideoElement>(null);
 
   const togglePlay = () => {
@@ -27,14 +26,6 @@ const VideoCard = ({ vid, idx }: { vid: string, idx: number }) => {
         videoRef.current.play();
       }
       setIsPlaying(!isPlaying);
-    }
-  };
-
-  const toggleMute = (e: React.MouseEvent) => {
-    e.stopPropagation();
-    if (videoRef.current) {
-      videoRef.current.muted = !isMuted;
-      setIsMuted(!isMuted);
     }
   };
 
@@ -52,7 +43,7 @@ const VideoCard = ({ vid, idx }: { vid: string, idx: number }) => {
         src={`/servicios/${vid}`}
         className="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity"
         autoPlay
-        muted={isMuted}
+        muted
         loop
         playsInline
       />
@@ -66,16 +57,6 @@ const VideoCard = ({ vid, idx }: { vid: string, idx: number }) => {
           </span>
         </div>
       </div>
-
-      {/* Bottom Mute/Unmute Button */}
-      <button 
-        onClick={toggleMute}
-        className="absolute bottom-4 right-4 w-10 h-10 rounded-full bg-black/40 backdrop-blur-md flex items-center justify-center border border-white/20 hover:bg-black/60 transition-colors z-10"
-      >
-        <span className="material-symbols-outlined text-white text-xl">
-          {isMuted ? 'volume_off' : 'volume_up'}
-        </span>
-      </button>
     </motion.div>
   );
 };
@@ -160,7 +141,7 @@ export default function ServicesSection() {
           transition={{ duration: 0.5 }}
           className="flex flex-col md:flex-row md:items-center justify-between gap-6"
         >
-          <div className="flex flex-col gap-2 max-w-2xl">
+          <div className="flex flex-col gap-2 max-w-3xl">
 
             <div className="w-full flex items-center justify-start my-2">
               <BlurText
@@ -168,7 +149,9 @@ export default function ServicesSection() {
                 delay={30}
                 animateBy="letters"
                 direction="bottom"
-                className="font-lora font-bold text-3xl sm:text-4xl md:text-5xl text-surface-dark drop-shadow-sm [&>span:nth-child(n+22)]:text-primary"
+                highlightStartIndex={21}
+                highlightClassName="text-primary"
+                className="font-lora font-bold text-3xl sm:text-4xl md:text-5xl text-surface-dark drop-shadow-sm"
               />
             </div>
             <p className="font-inter text-sm sm:text-base text-gray-600 mt-1">
@@ -214,7 +197,9 @@ export default function ServicesSection() {
               delay={30}
               animateBy="letters"
               direction="bottom"
-              className="font-lora font-bold text-3xl sm:text-4xl text-surface-dark drop-shadow-sm [&>span:nth-child(n+12)]:text-primary"
+              highlightStartIndex={11}
+              highlightClassName="text-primary"
+              className="font-lora font-bold text-3xl sm:text-4xl text-surface-dark drop-shadow-sm"
             />
           </div>
         </motion.div>
@@ -262,7 +247,9 @@ export default function ServicesSection() {
               delay={30}
               animateBy="letters"
               direction="bottom"
-              className="font-lora font-bold text-3xl sm:text-4xl text-surface-dark drop-shadow-sm [&>span:nth-child(n+24)]:text-primary"
+              highlightStartIndex={23}
+              highlightClassName="text-primary"
+              className="font-lora font-bold text-3xl sm:text-4xl text-surface-dark drop-shadow-sm"
             />
           </div>
           <p className="font-inter text-sm sm:text-base text-gray-600 mt-4">

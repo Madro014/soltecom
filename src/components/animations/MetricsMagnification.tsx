@@ -67,7 +67,9 @@ export default function MetricsMagnification({
             delay={30}
             animateBy="letters"
             direction="bottom"
-            className="font-lora font-bold text-3xl sm:text-4xl text-surface-dark drop-shadow-sm [&>span:nth-child(n+22)]:text-primary"
+            highlightStartIndex={21}
+            highlightClassName="text-primary"
+            className="font-lora font-bold text-3xl sm:text-4xl text-surface-dark drop-shadow-sm"
           />
         </div>
         {subtitle && (
