@@ -234,6 +234,8 @@ class MorphEngine {
   mesh: any;
   boundContextLost: EventListener;
   resizeObserver: ResizeObserver;
+  intersectionObserver: IntersectionObserver;
+  isVisible: boolean;
   boundLoop: FrameRequestCallback;
   raf: number;
 
@@ -305,6 +307,23 @@ class MorphEngine {
     this.loadTextures();
 
     this.boundLoop = this.loop.bind(this);
+    this.isVisible = true;
+
+    this.intersectionObserver = new IntersectionObserver(([entry]) => {
+      this.isVisible = entry.isIntersecting;
+      if (this.isVisible) {
+        if (!this.raf) {
+          this.raf = requestAnimationFrame(this.boundLoop);
+        }
+      } else {
+        if (this.raf) {
+          cancelAnimationFrame(this.raf);
+          this.raf = 0;
+        }
+      }
+    }, { threshold: 0.05 });
+    this.intersectionObserver.observe(container);
+
     this.raf = requestAnimationFrame(this.boundLoop);
   }
 
@@ -485,8 +504,10 @@ class MorphEngine {
 
   destroy() {
     cancelAnimationFrame(this.raf);
+    this.raf = 0;
     if (this.tween) this.tween.kill();
     this.resizeObserver.disconnect();
+    if (this.intersectionObserver) this.intersectionObserver.disconnect();
     this.canvas.removeEventListener('webglcontextlost', this.boundContextLost);
     this.textures.forEach(tex => {
       if (tex && tex.texture) this.gl.deleteTexture(tex.texture);
@@ -535,7 +556,7 @@ export default function MorphSlider({
       items,
       startIndex,
       reducedMotion,
-      dprCap: 2,
+      dprCap: 1.5,
       getOptions: () => optsRef.current,
       onIndexChange: setIndex
     });

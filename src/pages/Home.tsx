@@ -9,7 +9,7 @@ import BlurText from '../components/animations/BlurText';
 import { PRODUCTS } from '../data/products';
 
 export default function Home() {
-  const featuredProducts = PRODUCTS.slice(0, 4);
+  const featuredProducts = PRODUCTS.slice(0, 16);
 
   return (
     <div className="flex flex-col w-full">
@@ -49,7 +49,7 @@ export default function Home() {
           </div>
 
 {/* react-doctor-disable-next-line react-doctor/no-giant-component */}
-          <ContinuousProductCarousel products={PRODUCTS} speed={PRODUCTS.length * 4.5} />
+          <ContinuousProductCarousel products={featuredProducts} speed={50} />
         </div>
       </section>
 

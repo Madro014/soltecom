@@ -33,8 +33,13 @@ const VideoCard = ({ vid, idx }: { vid: string, idx: number }) => {
     <motion.div
       initial={{ opacity: 0, scale: 0.95 }}
       whileInView={{ opacity: 1, scale: 1 }}
-      viewport={{ once: true }}
+      viewport={{ once: true, margin: "100px" }}
       transition={{ duration: 0.5, delay: idx * 0.1 }}
+      onViewportEnter={() => {
+        if (videoRef.current && isPlaying) {
+          videoRef.current.play().catch(() => {});
+        }
+      }}
       className="relative rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow aspect-[9/16] bg-gray-900 group cursor-pointer"
       onClick={togglePlay}
     >
@@ -42,10 +47,10 @@ const VideoCard = ({ vid, idx }: { vid: string, idx: number }) => {
         ref={videoRef}
         src={`/servicios/${vid}`}
         className="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity"
-        autoPlay
         muted
         loop
         playsInline
+        preload="metadata"
       />
       <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none" />
       

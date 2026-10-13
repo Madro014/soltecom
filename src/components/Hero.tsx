@@ -13,6 +13,9 @@ export default function Hero() {
         <img 
           src="/banners/banner2.webp" 
           alt="Instalaciones SOLTECOM" 
+          fetchPriority="high"
+          loading="eager"
+          decoding="async"
           className="w-full h-full object-cover object-bottom filter brightness-[0.95] contrast-[1.05]"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/30 to-transparent" />
