@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import CartDrawer from './components/CartDrawer';
 import MagnificationDock from './components/MagnificationDock';
+import ScrollToTop from './components/ScrollToTop';
 
 // Lazy loading route components for faster initial page loads and performance
 const Home = lazy(() => import('./pages/Home'));
@@ -31,6 +32,7 @@ export default function App() {
   return (
     <LazyMotion features={domMax}>
       <BrowserRouter>
+        <ScrollToTop />
         <div className="min-h-screen flex flex-col bg-surface">
           <Navbar />
           <main className="flex-grow pt-0">

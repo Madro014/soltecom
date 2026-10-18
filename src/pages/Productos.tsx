@@ -75,6 +75,7 @@ export default function Productos() {
   useEffect(() => {
     const savedScrollY = sessionStorage.getItem('soltecom_catalog_scroll_y');
     if (savedScrollY) {
+      sessionStorage.removeItem('soltecom_catalog_scroll_y');
       const y = parseInt(savedScrollY, 10);
       if (!isNaN(y) && y > 0) {
         const timeout = setTimeout(() => {
