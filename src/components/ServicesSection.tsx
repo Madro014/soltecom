@@ -6,6 +6,10 @@ import Grainient from './animations/Grainient';
 import BlurText from './animations/BlurText';
 
 const SLIDER_ITEMS = [
+  { image: '/servicios/1.webp', caption: 'Instalación y Puntos de Conectividad' },
+  { image: '/servicios/2.webp', caption: 'Sistemas de Seguridad y Cámaras' },
+  { image: '/servicios/3.webp', caption: 'Infraestructura y Redes Técnicas' },
+  { image: '/servicios/4.webp', caption: 'Implementación Profesional en Campo' },
   { image: '/servicios/c1.webp', caption: 'Instalación de Cámaras de Alta Definición' },
   { image: '/servicios/c2.webp', caption: 'Cableado Estructurado y Organización' },
   { image: '/servicios/c3.webp', caption: 'Monitoreo Remoto y Control Total' },
