@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useParams, Link, useNavigate, useLocation } from 'react-router-dom';
-import { m as motion, AnimatePresence } from 'framer-motion';
+import { m as motion } from 'framer-motion';
 import { PRODUCTS } from '../data/products';
 import { useCartStore } from '../store/useCartStore';
 
@@ -80,10 +80,7 @@ export default function DetalleProducto() {
         </div>
 
         {/* Detailed Engineering Specifications Tabs */}
-        <TechnicalTabs specs={product.specs} features={product.features} />
-
-        {/* Technical Downloads Center */}
-        <TechnicalDownloads />
+        <TechnicalDetails product={product} />
       </div>
 
       {/* Full-Screen Zoom Lightbox Modal */}
@@ -174,6 +171,12 @@ function ProductGallery({
             }}
           />
 
+          {product.imageNote && (
+            <span className="absolute bottom-12 left-3 rounded-md bg-white/90 px-2 py-1 text-[11px] text-gray-700 shadow">
+              {product.imageNote}
+            </span>
+          )}
+
           {/* Interactive helper badge */}
           <div className="absolute bottom-3 right-3 px-2.5 py-1 rounded-lg bg-black/60 backdrop-blur-md text-white text-[11px] font-medium flex items-center gap-1.5 pointer-events-none opacity-80 group-hover:opacity-100 transition-opacity">
             <span className="material-symbols-outlined text-sm">search</span>
@@ -185,50 +188,20 @@ function ProductGallery({
         <div className="mt-3 flex items-center justify-between text-xs text-gray-500 px-1">
           <span className="flex items-center gap-1">
             <span className="material-symbols-outlined text-primary text-base">precision_manufacturing</span>
-            <span>Equipo Homologado Oficial</span>
+            <span>{product.brand}</span>
           </span>
           <span className="font-mono font-semibold text-primary">{product.sku}</span>
         </div>
       </div>
 
-      {/* Physical Certifications */}
+      {/* Four facts taken from this product's catalog description. */}
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-2">
-        <div className="p-3 bg-white rounded-xl border border-gray-100 shadow-sm flex items-center gap-3">
-          <div className="w-9 h-9 rounded-lg bg-surface-low text-secondary flex items-center justify-center">
-            <span className="material-symbols-outlined text-xl">shield</span>
+        {getProductHighlights(product).map((fact, index) => (
+          <div key={`${product.id}-${index}`} className="p-3 bg-white rounded-xl border border-gray-100 shadow-sm flex items-start gap-2 min-w-0">
+            <span className="material-symbols-outlined text-primary text-lg shrink-0">check_circle</span>
+            <p className="text-xs text-gray-800 leading-snug break-words">{fact}</p>
           </div>
-          <div>
-            <p className="font-montserrat font-bold text-xs text-gray-800">IK10</p>
-            <p className="text-[10px] text-gray-500">Antivandálico 20J</p>
-          </div>
-        </div>
-        <div className="p-3 bg-white rounded-xl border border-gray-100 shadow-sm flex items-center gap-3">
-          <div className="w-9 h-9 rounded-lg bg-surface-low text-secondary flex items-center justify-center">
-            <span className="material-symbols-outlined text-xl">water_drop</span>
-          </div>
-          <div>
-            <p className="font-montserrat font-bold text-xs text-gray-800">IP67</p>
-            <p className="text-[10px] text-gray-500">Hermético Intemperie</p>
-          </div>
-        </div>
-        <div className="p-3 bg-white rounded-xl border border-gray-100 shadow-sm flex items-center gap-3">
-          <div className="w-9 h-9 rounded-lg bg-surface-low text-primary flex items-center justify-center">
-            <span className="material-symbols-outlined text-xl">volume_up</span>
-          </div>
-          <div>
-            <p className="font-montserrat font-bold text-xs text-gray-800">Audio Bi-Dir</p>
-            <p className="text-[10px] text-gray-500">Sirena + Micrófono</p>
-          </div>
-        </div>
-        <div className="p-3 bg-white rounded-xl border border-gray-100 shadow-sm flex items-center gap-3">
-          <div className="w-9 h-9 rounded-lg bg-surface-low text-primary flex items-center justify-center">
-            <span className="material-symbols-outlined text-xl">flash_on</span>
-          </div>
-          <div>
-            <p className="font-montserrat font-bold text-xs text-gray-800">Estrobo LED</p>
-            <p className="text-[10px] text-gray-500">Alerta Disuasoria</p>
-          </div>
-        </div>
+        ))}
       </div>
     </div>
   );
@@ -275,14 +248,11 @@ function ProductPurchaseCard({
         {/* Product header */}
         <div>
           <span className="text-[11px] font-bold uppercase tracking-wider text-secondary">
-            {product.brand} • SOLTECOM DISTRIBUIDOR OFICIAL
+            {product.brand}
           </span>
           <h1 className="font-montserrat font-bold text-xl sm:text-2xl text-surface-dark mt-1 leading-snug">
             {product.name}
           </h1>
-          <p className="text-xs text-gray-500 mt-2 leading-relaxed">
-            {product.description}
-          </p>
         </div>
 
 
@@ -404,10 +374,10 @@ function ProductPurchaseCard({
 
         {/* Guarantee text */}
         <div className="flex flex-col gap-2 pt-2 border-t border-gray-100 text-xs text-gray-600">
-          <div className="flex items-start gap-2">
+          {product.warranty && <div className="flex items-start gap-2">
             <span className="material-symbols-outlined text-primary text-lg shrink-0">verified</span>
-            <p><strong>Garantía Oficial:</strong> {product.warranty}</p>
-          </div>
+            <p><strong>Garantía indicada en catálogo:</strong> {product.warranty}</p>
+          </div>}
           <div className="flex items-start gap-2">
             <span className="material-symbols-outlined text-secondary text-lg shrink-0">engineering</span>
             <p><strong>Soporte Nivel 2:</strong> Asistencia remota de ingenieros SOLTECOM para comisionamiento.</p>
@@ -418,261 +388,44 @@ function ProductPurchaseCard({
   );
 }
 
-function TechnicalTabs({
-  specs,
-  features,
-}: {
-  specs: Record<string, string>;
-  features: string[];
-}) {
-  const [activeTab, setActiveTab] = useState<'optica' | 'ai' | 'conectividad' | 'ambiente'>('optica');
-
-  return (
-    <div className="mt-12 bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
-      <div className="border-b border-gray-200 pb-4 mb-6">
-        <span className="text-[11px] font-bold uppercase tracking-wider text-primary">
-          Documentación & Matriz de Ingeniería
-        </span>
-        <h2 className="font-montserrat font-bold text-xl sm:text-2xl text-surface-dark mt-1">
-          Especificaciones Técnicas Certificadas
-        </h2>
-      </div>
-
-      {/* Tab Navigation */}
-      <div className="flex items-center gap-2 overflow-x-auto pb-3 mb-6 no-scrollbar">
-        {[
-          { id: 'optica', label: '1. Óptica y Sensor', icon: 'camera' },
-          { id: 'ai', label: '2. Analíticas AI & AcuSense', icon: 'psychology' },
-          { id: 'conectividad', label: '3. Conectividad, Puertos y Red', icon: 'settings_ethernet' },
-          { id: 'ambiente', label: '4. Chasis y Ambiente', icon: 'hardware' },
-        ].map((tab) => {
-          const isActive = activeTab === tab.id;
-          return (
-            <button
-              key={tab.id}
-              type="button"
-              onClick={() => setActiveTab(tab.id as any)}
-              className={`relative px-4 py-2.5 rounded-xl font-montserrat text-xs font-semibold whitespace-nowrap transition-colors flex items-center gap-2 z-10 ${
-                isActive ? 'text-white' : 'text-gray-700 hover:text-gray-900 bg-gray-100 hover:bg-gray-200/80'
-              }`}
-            >
-              {isActive && (
-                <motion.div
-                  layoutId="activeTechnicalTab"
-                  className="absolute inset-0 bg-secondary-dark rounded-xl shadow-sm -z-10"
-                  transition={{ type: "spring", stiffness: 380, damping: 30 }}
-                />
-              )}
-              <span className="material-symbols-outlined text-base">{tab.icon}</span>
-              <span>{tab.label}</span>
-            </button>
-          );
-        })}
-      </div>
-
-      {/* Tab Panels with Crossfade */}
-      <AnimatePresence mode="wait">
-        <motion.div
-          key={activeTab}
-          initial={{ opacity: 0, y: 8, filter: 'blur(3px)' }}
-          animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
-          exit={{ opacity: 0, y: -8, filter: 'blur(3px)' }}
-          transition={{ duration: 0.22, ease: [0.22, 1, 0.36, 1] }}
-        >
-          {/* Tab 1: Optics */}
-          {activeTab === 'optica' && (
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="space-y-3">
-                <h3 className="font-montserrat font-bold text-sm text-gray-900 flex items-center gap-2">
-                  <span className="material-symbols-outlined text-primary text-lg">lens</span>
-                  <span>Subsistema Óptico y Sensor</span>
-                </h3>
-                <dl className="space-y-2 text-xs">
-                  {Object.entries(specs).map(([key, value]) => (
-                    <div key={key} className="p-2.5 rounded-lg bg-surface-low flex justify-between">
-                      <dt className="text-gray-500 font-medium">{key}:</dt>
-                      <dd className="text-gray-900 font-semibold text-right">{value}</dd>
-                    </div>
-                  ))}
-                </dl>
-              </div>
-
-              <div className="space-y-3">
-                <h3 className="font-montserrat font-bold text-sm text-gray-900 flex items-center gap-2">
-                  <span className="material-symbols-outlined text-secondary text-lg">hdr_on</span>
-                  <span>Rango Dinámico y Visión Nocturna</span>
-                </h3>
-                <div className="p-4 rounded-xl bg-surface-low space-y-2 text-xs text-gray-700">
-                  <p><strong>WDR Real 120 dB:</strong> Captura imágenes nítidas en entornos con contrastes lumínicos extremos.</p>
-                  <p><strong>EXIR 2.0 Infrarrojo:</strong> Tecnología de dispersión uniforme que elimina zonas quemadas centrales.</p>
-                  <p><strong>Reducción de Ruido 3D DNR:</strong> Mantiene la claridad forense aún en absoluta penumbra (0 Lux).</p>
-                </div>
-              </div>
-            </div>
-          )}
-
-          {/* Tab 2: AI */}
-          {activeTab === 'ai' && (
-            <div className="space-y-4">
-              <h3 className="font-montserrat font-bold text-sm text-gray-900 flex items-center gap-2">
-                <span className="material-symbols-outlined text-primary text-lg">neurology</span>
-                <span>Deep Learning & Detección Proactiva</span>
-              </h3>
-              <p className="text-xs text-gray-600 leading-relaxed">
-                Algoritmos entrenados para filtrar hasta el 98% de falsas alarmas (hojas, lluvia, insectos) y alertar únicamente cuando hay presencia humana o vehicular en áreas restringidas.
-              </p>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
-                {features.map((feat) => (
-                  <div key={feat} className="p-3 bg-surface-low rounded-xl flex items-center gap-2.5 text-xs text-gray-800">
-                    <span className="material-symbols-outlined text-primary text-lg">check_circle</span>
-                    <span>{feat}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
-
-          {/* Tab 3: Connectivity */}
-          {activeTab === 'conectividad' && (
-            <div className="space-y-3">
-              <h3 className="font-montserrat font-bold text-sm text-gray-900 flex items-center gap-2">
-                <span className="material-symbols-outlined text-secondary text-lg">lan</span>
-                <span>Transmisión & Ciberseguridad</span>
-              </h3>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
-                <div className="p-3 bg-surface-low rounded-xl space-y-1">
-                  <p className="font-bold text-gray-900">Alimentación Eléctrica</p>
-                  <p className="text-gray-600">PoE (802.3af, Clase 3) / 12 VDC ± 25% (Consumo máx 9.5W)</p>
-                </div>
-                <div className="p-3 bg-surface-low rounded-xl space-y-1">
-                  <p className="font-bold text-gray-900">Compatibilidad VMS</p>
-                  <p className="text-gray-600">ONVIF (Profile S, Profile G, Profile T), ISAPI, SDK Hikvision</p>
-                </div>
-                <div className="p-3 bg-surface-low rounded-xl space-y-1">
-                  <p className="font-bold text-gray-900">Códecs de Compresión</p>
-                  <p className="text-gray-600">H.265+ / H.265 / H.264+ / H.264 con ahorro del 75% de ancho de banda</p>
-                </div>
-                <div className="p-3 bg-surface-low rounded-xl space-y-1">
-                  <p className="font-bold text-gray-900">Criptografía</p>
-                  <p className="text-gray-600">HTTPS, TLS 1.3, IEEE 802.1X, Autenticación Digest</p>
-                </div>
-              </div>
-            </div>
-          )}
-
-          {/* Tab 4: Environment */}
-          {activeTab === 'ambiente' && (
-            <div className="space-y-3">
-              <h3 className="font-montserrat font-bold text-sm text-gray-900 flex items-center gap-2">
-                <span className="material-symbols-outlined text-secondary text-lg">architecture</span>
-                <span>Construcción y Condiciones Ambientales</span>
-              </h3>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
-                <div className="p-3 bg-surface-low rounded-xl space-y-1">
-                  <p className="font-bold text-gray-900">Rango de Temperatura</p>
-                  <p className="text-gray-600">-30 °C a 60 °C (-22 °F a 140 °F)</p>
-                </div>
-                <div className="p-3 bg-surface-low rounded-xl space-y-1">
-                  <p className="font-bold text-gray-900">Humedad Tolerada</p>
-                  <p className="text-gray-600">Hasta 95% o menor (sin condensación de vapor)</p>
-                </div>
-                <div className="p-3 bg-surface-low rounded-xl space-y-1">
-                  <p className="font-bold text-gray-900">Chasis Metálico</p>
-                  <p className="text-gray-600">Aleación de aluminio ADC12 con pintura electrostática anticorrosiva</p>
-                </div>
-                <div className="p-3 bg-surface-low rounded-xl space-y-1">
-                  <p className="font-bold text-gray-900">Supresor de Picos</p>
-                  <p className="text-gray-600">Protección contra transitorios TVS 2000V contra rayos</p>
-                </div>
-              </div>
-            </div>
-          )}
-        </motion.div>
-      </AnimatePresence>
-    </div>
-  );
+function getProductHighlights(product: (typeof PRODUCTS)[0]): string[] {
+  const sourceFacts = product.description
+    .replace(/\s+/g, ' ')
+    .split(/(?<=[.!?])\s+|[,;]\s*|\s+\/\s+/)
+    .map((part) => part.trim().replace(/[.\s]+$/, ''))
+    .filter((part) => part.length > 2);
+  const uniqueFacts = [...new Map(sourceFacts.map((fact) => [fact.toLowerCase(), fact])).values()];
+  const fallback = [
+    `Referencia: ${product.sku}`,
+    `Marca: ${product.brand}`,
+    `Producto: ${product.name}`,
+    `Línea: ${product.category.replace(/-/g, ' ')}`,
+  ];
+  return [...uniqueFacts, ...fallback].slice(0, 4);
 }
 
-function TechnicalDownloads() {
+function TechnicalDetails({ product }: { product: (typeof PRODUCTS)[0] }) {
   return (
-    <div className="mt-8 bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-6 border-b border-gray-100 pb-4">
-        <div>
-          <span className="text-[11px] font-bold uppercase tracking-wider text-primary">
-            Archivos Oficiales
-          </span>
-          <h2 className="font-montserrat font-bold text-lg text-surface-dark">
-            Centro de Descargas Técnicas
-          </h2>
-        </div>
-        <span className="text-xs text-gray-500 flex items-center gap-1">
-          <span className="material-symbols-outlined text-primary text-base">verified</span>
-          <span>SHA-256 Verificado</span>
-        </span>
-      </div>
-
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-        <div className="p-4 rounded-xl bg-surface-low border border-gray-100 flex flex-col justify-between">
-          <div className="flex items-start justify-between">
-            <span className="material-symbols-outlined text-red-500 text-3xl">picture_as_pdf</span>
-            <span className="text-[10px] font-bold px-2 py-0.5 rounded bg-gray-200 text-gray-700">2.4 MB</span>
+    <section className="mt-12 bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+      <h2 className="font-montserrat font-bold text-xl sm:text-2xl text-surface-dark">
+        Datos técnicos del catálogo
+      </h2>
+      <p className="text-xs text-gray-500 mt-2">
+        Información de la referencia indicada en el catálogo de productos.
+      </p>
+      <dl className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-6">
+        {Object.entries(product.specs).map(([key, value]) => (
+          <div key={key} className="p-3 rounded-xl bg-surface-low">
+            <dt className="text-xs text-gray-500">{key}</dt>
+            <dd className="text-sm font-semibold text-gray-900 break-words">{value}</dd>
           </div>
-          <div className="mt-3">
-            <h4 className="font-montserrat font-bold text-xs text-gray-900">Data Sheet Oficial</h4>
-            <p className="text-[11px] text-gray-500 mt-0.5">Ficha técnica en español para licitaciones públicas.</p>
-          </div>
-          <a href="#" className="mt-3 inline-flex items-center gap-1 text-primary text-xs font-semibold hover:underline">
-            <span>Descargar PDF</span>
-            <span className="material-symbols-outlined text-sm">download</span>
-          </a>
-        </div>
-
-        <div className="p-4 rounded-xl bg-surface-low border border-gray-100 flex flex-col justify-between">
-          <div className="flex items-start justify-between">
-            <span className="material-symbols-outlined text-red-500 text-3xl">menu_book</span>
-            <span className="text-[10px] font-bold px-2 py-0.5 rounded bg-gray-200 text-gray-700">4.1 MB</span>
-          </div>
-          <div className="mt-3">
-            <h4 className="font-montserrat font-bold text-xs text-gray-900">Manual de Instalación</h4>
-            <p className="text-[11px] text-gray-500 mt-0.5">Guía de conexionado y montaje en intemperie.</p>
-          </div>
-          <a href="#" className="mt-3 inline-flex items-center gap-1 text-primary text-xs font-semibold hover:underline">
-            <span>Descargar PDF</span>
-            <span className="material-symbols-outlined text-sm">download</span>
-          </a>
-        </div>
-
-        <div className="p-4 rounded-xl bg-surface-low border border-gray-100 flex flex-col justify-between">
-          <div className="flex items-start justify-between">
-            <span className="material-symbols-outlined text-secondary text-3xl">architecture</span>
-            <span className="text-[10px] font-bold px-2 py-0.5 rounded bg-gray-200 text-gray-700">1.8 MB</span>
-          </div>
-          <div className="mt-3">
-            <h4 className="font-montserrat font-bold text-xs text-gray-900">Planos CAD / DWG</h4>
-            <p className="text-[11px] text-gray-500 mt-0.5">Bloques para AutoCAD y Revit con cotas exactas.</p>
-          </div>
-          <a href="#" className="mt-3 inline-flex items-center gap-1 text-primary text-xs font-semibold hover:underline">
-            <span>Descargar DWG</span>
-            <span className="material-symbols-outlined text-sm">download</span>
-          </a>
-        </div>
-
-        <div className="p-4 rounded-xl bg-surface-low border border-gray-100 flex flex-col justify-between">
-          <div className="flex items-start justify-between">
-            <span className="material-symbols-outlined text-primary text-3xl">verified_user</span>
-            <span className="text-[10px] font-bold px-2 py-0.5 rounded bg-gray-200 text-gray-700">890 KB</span>
-          </div>
-          <div className="mt-3">
-            <h4 className="font-montserrat font-bold text-xs text-gray-900">Certificación RETIE / CE</h4>
-            <p className="text-[11px] text-gray-500 mt-0.5">Conformidad eléctrica legal para radicación en Colombia.</p>
-          </div>
-          <a href="#" className="mt-3 inline-flex items-center gap-1 text-primary text-xs font-semibold hover:underline">
-            <span>Descargar PDF</span>
-            <span className="material-symbols-outlined text-sm">download</span>
-          </a>
-        </div>
-      </div>
-    </div>
+        ))}
+      </dl>
+      <h3 className="font-montserrat font-bold text-sm text-gray-900 mt-6 mb-2">
+        Descripción del producto
+      </h3>
+      <p className="text-sm text-gray-700 leading-relaxed whitespace-pre-line">{product.description}</p>
+    </section>
   );
 }
 
@@ -701,7 +454,7 @@ function ProductImageModal({
       >
         <div>
           <span className="text-primary-fixed uppercase tracking-wider text-xs font-bold font-montserrat">
-            Visualizador de Alta Definición SOLTECOM
+            Visualizador de producto SOLTECOM
           </span>
           <h3 className="font-montserrat font-bold text-base sm:text-lg text-white truncate max-w-lg">
             {name}

@@ -21,6 +21,7 @@ export interface Product {
   originalPrice?: number;
   stock: number;
   image: string;
+  imageNote?: string;
   tags: string[];
   specs: {
     [key: string]: string;

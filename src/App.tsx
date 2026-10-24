@@ -42,6 +42,7 @@ export default function App() {
                 <Route path="/nosotros" element={<Nosotros />} />
                 <Route path="/servicios" element={<Servicios />} />
                 <Route path="/productos" element={<Productos />} />
+                <Route path="/productos/soltecom" element={<Navigate to="/productos?marca=SOLTECOM" replace />} />
                 <Route path="/productos/:id" element={<DetalleProducto />} />
                 <Route path="/contacto" element={<Contacto />} />
                 <Route path="*" element={<Navigate to="/" replace />} />

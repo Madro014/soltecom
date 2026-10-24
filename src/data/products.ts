@@ -4,808 +4,734 @@ export const PRODUCTS: Product[] = [
   {
     "id": "acc-aut-s6---id",
     "sku": "S6 / ID",
-    "name": "ZKTeco S6 / ID",
-    "brand": "ZKTeco",
+    "name": "SOLTECOM S6 / ID",
+    "brand": "SOLTECOM",
     "category": "accesorios-acceso",
     "shortDesc": "CONTROL  de acceso autónomo, uso exterior, hasta 2000 usuarios . wiegand 26 bits, Tarjeta RFID ( em02) o contraseña ( únicamente de 6 dígito...",
     "description": "CONTROL  de acceso autónomo, uso exterior, hasta 2000 usuarios . wiegand 26 bits, Tarjeta RFID ( em02) o contraseña ( únicamente de 6 dígitos ).  12vdc, conexión para electroimán, lectoras esclavas de tarjeta o Botón de salida, timbre de puerta. Teclado retro iluminado. Dimensiones: 118*57*21mm, Garantía 1 año",
     "price": 165000,
     "wholesalePrice": 151800,
     "stock": 25,
-    "image": "/productos/catalogo/acc-aut-s6---id.webp",
-    "tags": [
-      "Exterior IP66/IP67"
-    ],
+    "image": "/productos/catalogo/soltecom-s6-id.webp",
+    "tags": [],
     "specs": {
       "Referencia": "S6 / ID",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "SOLTECOM"
     },
     "features": [
       "CONTROL  de acceso autónomo",
       "uso exterior",
       "hasta 2000 usuarios"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": "Garantía de 1 año"
   },
   {
     "id": "acc-aut-s7-id-pro",
     "sku": "S7/ID PRO",
-    "name": "ZKTeco S7/ID PRO",
-    "brand": "ZKTeco",
+    "name": "SOLTECOM S7/ID PRO",
+    "brand": "SOLTECOM",
     "category": "accesorios-acceso",
     "shortDesc": "CONTROL de acceso autónomo, IP66. uso interior y exterior, teclado retro iluminado, hasta 5000 usuarios, recibe lectora esclava de tarjeta W...",
     "description": "CONTROL de acceso autónomo, IP66. uso interior y exterior, teclado retro iluminado, hasta 5000 usuarios, recibe lectora esclava de tarjeta Wiegand 26 y 34 bits. autenticación por Tarjeta RFID ( 125 kHz EM ) o contraseña ( únicamente de 6 dígitos ). Distancia: 5-10 cm,12vdc, timbre de puerta. dimensiones: 126,5*54*21mm.  peso: 500g.",
     "price": 267000,
     "wholesalePrice": 245640,
     "stock": 25,
-    "image": "/productos/catalogo/acc-aut-s7-id-pro.webp",
+    "image": "/productos/catalogo/soltecom-s7-id-pro.webp",
     "tags": [
-      "Exterior IP66/IP67"
+      "IP66"
     ],
     "specs": {
       "Referencia": "S7/ID PRO",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "SOLTECOM"
     },
     "features": [
       "CONTROL de acceso autónomo",
       "IP66",
       "uso interior y exterior"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "acc-aut-s7---id",
     "sku": "S7 / ID",
-    "name": "ZKTeco S7 / ID",
-    "brand": "ZKTeco",
+    "name": "SOLTECOM S7 / ID",
+    "brand": "SOLTECOM",
     "category": "accesorios-acceso",
     "shortDesc": "CONTROL de acceso autónomo, IP66. uso interior y exterior, teclado retro iluminado, hasta 4000 usuarios, recibe lectora esclava: Wiegand 26 ...",
     "description": "CONTROL de acceso autónomo, IP66. uso interior y exterior, teclado retro iluminado, hasta 4000 usuarios, recibe lectora esclava: Wiegand 26 y 34 bits. autenticación por Tarjeta RFID ( 125 kHz EM ) o contraseña ( únicamente de 6 dígitos ). Distancia: 5-10 cm,12vdc. conexión para electroimán, lectoras esclavas de tarjeta. botón de salida tipo no touch o tipo pulsador. timbre de puerta. dimensiones: 126,5*54*21mm.  peso: 500g. Garantía 1 año",
     "price": 118000,
     "wholesalePrice": 108560,
     "stock": 25,
-    "image": "/productos/catalogo/acc-aut-s7---id.webp",
+    "image": "/productos/catalogo/soltecom-s7-id.webp",
     "tags": [
-      "Exterior IP66/IP67"
+      "IP66"
     ],
     "specs": {
       "Referencia": "S7 / ID",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "SOLTECOM"
     },
     "features": [
       "CONTROL de acceso autónomo",
       "IP66",
       "uso interior y exterior"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": "Garantía de 1 año"
   },
   {
     "id": "acc-aut-s7---mf",
     "sku": "S7 / MF",
-    "name": "ZKTeco S7 / MF",
-    "brand": "ZKTeco",
+    "name": "SOLTECOM S7 / MF",
+    "brand": "SOLTECOM",
     "category": "accesorios-acceso",
     "shortDesc": "CONTROL de acceso autónomo, IP66. uso interior y exterior, teclado retro iluminado, hasta 4000 usuarios, recibe lectora esclava: Wiegand 26 ...",
     "description": "CONTROL de acceso autónomo, IP66. uso interior y exterior, teclado retro iluminado, hasta 4000 usuarios, recibe lectora esclava: Wiegand 26 y 34 bits. autenticación por Tarjeta MIFARE ( 13,56 MHz MF ) o contraseña ( únicamente de 6 dígitos ). Distancia: 5-10 cm,12vdc. conexión para electroimán, lectoras esclavas kr100m-kr503mf. proid40bm, entre otras. botón de salida vz-80n , /vz-82n/, vz-80h, / vz-k1-1 , / vz- k2-1. timbre de puerta. dimensiones: 126,5*54*21mm.  peso: 500g. Garantía 1 año",
     "price": 195000,
     "wholesalePrice": 179400,
     "stock": 25,
-    "image": "/productos/catalogo/acc-aut-s7---mf.webp",
+    "image": "/productos/catalogo/soltecom-s7-mf.webp",
     "tags": [
-      "Exterior IP66/IP67"
+      "IP66"
     ],
     "specs": {
       "Referencia": "S7 / MF",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "SOLTECOM"
     },
     "features": [
       "CONTROL de acceso autónomo",
       "IP66",
       "uso interior y exterior"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": "Garantía de 1 año"
   },
   {
     "id": "acc-aut-x7-id",
     "sku": "X7/ID",
-    "name": "ZKTeco X7/ID",
-    "brand": "ZKTeco",
+    "name": "SOLTECOM X7/ID",
+    "brand": "SOLTECOM",
     "category": "accesorios-acceso",
     "shortDesc": "CONTROL de acceso biométrico autónomo para una puerta. permite hasta 500 usuarios, método de autenticación: tarjeta RFID ( em02) o huella; t...",
     "description": "CONTROL de acceso biométrico autónomo para una puerta. permite hasta 500 usuarios, método de autenticación: tarjeta RFID ( em02) o huella; tarjeta RFID o contraseña. permite utilizar electroimán o cantonera.  botón de salida vz-80n / vz-k1-1. vz-k2-1. sensor puerta abierta, salida de alarma, timbre de puerta. garantía 1 año",
     "price": 140000,
     "wholesalePrice": 128800,
     "stock": 25,
-    "image": "/productos/catalogo/acc-aut-x7-id.webp",
-    "tags": [
-      "Biométrico"
-    ],
+    "image": "/productos/catalogo/soltecom-x7-id.webp",
+    "tags": [],
     "specs": {
       "Referencia": "X7/ID",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "SOLTECOM"
     },
     "features": [
       "CONTROL de acceso biométrico autónomo para una puerta",
       "permite hasta 500 usuarios",
       "método de autenticación: tarjeta RFID ( em02) o huella"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": "Garantía de 1 año"
   },
   {
     "id": "acc-aut-289-id",
     "sku": "289/ID",
-    "name": "ZKTeco 289/ID",
-    "brand": "ZKTeco",
+    "name": "SOLTECOM 289/ID",
+    "brand": "SOLTECOM",
     "category": "accesorios-acceso",
     "shortDesc": "CONTROL  de acceso autónomo, permite hasta 2000 usuarios. wiegand 26 bits, autenticación por tarjeta RFID ( em02) o contraseña ( únicamente ...",
     "description": "CONTROL  de acceso autónomo, permite hasta 2000 usuarios. wiegand 26 bits, autenticación por tarjeta RFID ( em02) o contraseña ( únicamente de 6 dígitos ), conexión para electroimán, lectoras esclavas kr100e- kr503e, botón de salida vz-80n / vz-k1-1. vz-k2-1. timbre de puerta. Garantía 1 año",
     "price": 70000,
     "wholesalePrice": 64400,
     "stock": 25,
-    "image": "/productos/catalogo/acc-aut-289-id.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "image": "/productos/catalogo/soltecom-289-id.webp",
+    "tags": [],
     "specs": {
       "Referencia": "289/ID",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "SOLTECOM"
     },
     "features": [
       "CONTROL  de acceso autónomo",
       "permite hasta 2000 usuarios",
       "wiegand 26 bits"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": "Garantía de 1 año"
   },
   {
     "id": "acc-aut-290-id",
     "sku": "290/ID",
-    "name": "ZKTeco 290/ID",
-    "brand": "ZKTeco",
+    "name": "SOLTECOM 290/ID",
+    "brand": "SOLTECOM",
     "category": "accesorios-acceso",
     "shortDesc": "CONTROL de acceso autónomo para una puerta. nivel protección ip65. permite  hasta 1000 usuarios identificados con tarjeta de proximidad (em0...",
     "description": "CONTROL de acceso autónomo para una puerta. nivel protección ip65. permite  hasta 1000 usuarios identificados con tarjeta de proximidad (em02).  wiegand 26 bits.  método de autenticación: tarjeta RFID ( em02) y / o contraseña ( únicamente de 6 dígitos ).  permite utilizar electroimán, lectoras esclavas kr501e- kr503e, proid40, proid30,proid10. botón de salida. voltaje: 12v dc. dimensiones: 117  x 75  x 20 mm. Garantía 1 año",
     "price": 106000,
     "wholesalePrice": 97520,
     "stock": 25,
-    "image": "/productos/catalogo/acc-aut-290-id.webp",
+    "image": "/productos/catalogo/soltecom-290-id.webp",
     "tags": [
-      "Profesional"
+      "IP65"
     ],
     "specs": {
       "Referencia": "290/ID",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "SOLTECOM"
     },
     "features": [
       "CONTROL de acceso autónomo para una puerta",
       "nivel protección ip65",
       "permite  hasta 1000 usuarios identificados con tarjeta de proximidad (em02)"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": "Garantía de 1 año"
   },
   {
     "id": "acc-aut-kr1000e",
     "sku": "KR1000E",
-    "name": "ZKTeco KR1000E",
-    "brand": "ZKTeco",
+    "name": "SOLTECOM KR1000E",
+    "brand": "SOLTECOM",
     "category": "accesorios-acceso",
     "shortDesc": "Lector de largo alcance RFID- Rango de Lectura de 80cm a 100 cms, Tiempo de Lectura: menos de 200ms Voltaje:12Vdc /3000mA Color Negro, Mater...",
     "description": "Lector de largo alcance RFID- Rango de Lectura de 80cm a 100 cms, Tiempo de Lectura: menos de 200ms Voltaje:12Vdc /3000mA Color Negro, Material: Plástico ABS Dimensiones: 240mm x 235mm x 35mm Indice de Protección IP65",
     "price": 326000,
     "wholesalePrice": 299920,
     "stock": 25,
-    "image": "/productos/catalogo/acc-aut-kr1000e.webp",
+    "image": "/productos/catalogo/soltecom-kr1000e.webp",
     "tags": [
-      "Profesional"
+      "IP65"
     ],
     "specs": {
       "Referencia": "KR1000E",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "SOLTECOM"
     },
     "features": [
       "Lector de largo alcance RFID- Rango de Lectura de 80cm a 100 cms",
       "Tiempo de Lectura: menos de 200ms Voltaje:12Vdc /3000mA Color Negro",
       "Material: Plástico ABS Dimensiones: 240mm x 235mm x 35mm Indice de Protección IP65"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "acc-aut-em02-vh",
     "sku": "EM02-VH",
-    "name": "ZKTeco EM02-VH",
-    "brand": "ZKTeco",
+    "name": "SOLTECOM EM02-VH",
+    "brand": "SOLTECOM",
     "category": "accesorios-acceso",
     "shortDesc": "TARJETA de proximidad largo alcance  peatonal o vehicular. tipo EM gruesa numerada ( 125 kHz ). compatible con lectora kr1000e. distancia má...",
     "description": "TARJETA de proximidad largo alcance  peatonal o vehicular. tipo EM gruesa numerada ( 125 kHz ). compatible con lectora kr1000e. distancia máxima de lectura hasta 1 metro,  tamaño: 86x54x0.8 mm; color: blanco. PVC.",
     "price": 3000,
     "wholesalePrice": 2760,
     "stock": 25,
-    "image": "/productos/catalogo/acc-aut-em02-vh.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "image": "/productos/catalogo/soltecom-em02-vh.webp",
+    "tags": [],
     "specs": {
       "Referencia": "EM02-VH",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "SOLTECOM"
     },
     "features": [
       "TARJETA de proximidad largo alcance  peatonal o vehicular",
       "tipo EM gruesa numerada ( 125 kHz )",
       "compatible con lectora kr1000e"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "acc-aut-uhf-lector-usb",
     "sku": "UHF LECTOR USB",
-    "name": "ZKTeco UHF LECTOR USB",
-    "brand": "ZKTeco",
+    "name": "SOLTECOM UHF LECTOR USB",
+    "brand": "SOLTECOM",
     "category": "accesorios-acceso",
     "shortDesc": "LECTOR  y enrolador USB para tarjetas y sticker UHF. soporte: Iso18000-6c (epc c1g2) , iso18000-6b.  distancia de lectura: hasta 10 cm. Gara...",
     "description": "LECTOR  y enrolador USB para tarjetas y sticker UHF. soporte: Iso18000-6c (epc c1g2) , iso18000-6b.  distancia de lectura: hasta 10 cm. Garantía de 1 año",
     "price": 406000,
     "wholesalePrice": 373520,
     "stock": 25,
-    "image": "/productos/catalogo/acc-aut-uhf-lector-usb.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "image": "/productos/catalogo/soltecom-uhf-lector-usb.webp",
+    "tags": [],
     "specs": {
       "Referencia": "UHF LECTOR USB",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "SOLTECOM"
     },
     "features": [
       "LECTOR  y enrolador USB para tarjetas y sticker UHF",
       "soporte: Iso18000-6c (epc c1g2)",
       "iso18000-6b"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": "Garantía de 1 año"
   },
   {
     "id": "acc-aut-uhf6m",
     "sku": "UHF6M",
-    "name": "ZKTeco UHF6M",
-    "brand": "ZKTeco",
+    "name": "SOLTECOM UHF6M",
+    "brand": "SOLTECOM",
     "category": "accesorios-acceso",
     "shortDesc": "ANTENA UHF vehicular para uso interior o exterior con protección ip66. de lectura máxima de hasta 6 metros de alcance. frecuencia de trabajo...",
     "description": "ANTENA UHF vehicular para uso interior o exterior con protección ip66. de lectura máxima de hasta 6 metros de alcance. frecuencia de trabajo de 865 - 928 MHz. lectura y escritura de chip uhf configurable. memoria de 16 kb. para tag. 32 kb para antena. conexión rj45 10 / 100 ethernet.. wiegand 26 y 34 bits de salida, relevo com/ NO / NC. incluye soporte y fuente de alimentación   9- 15 VDC / 4amp. dimensiones: 28 x 28 x 7 cm. Garantía de 1 año",
     "price": 1443000,
     "wholesalePrice": 1327560,
     "stock": 25,
-    "image": "/productos/catalogo/acc-aut-uhf6m.webp",
+    "image": "/productos/catalogo/soltecom-uhf6m.webp",
     "tags": [
-      "Exterior IP66/IP67"
+      "IP66"
     ],
     "specs": {
       "Referencia": "UHF6M",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "SOLTECOM"
     },
     "features": [
       "ANTENA UHF vehicular para uso interior o exterior con protección ip66",
       "de lectura máxima de hasta 6 metros de alcance",
       "frecuencia de trabajo de 865 - 928 MHz"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": "Garantía de 1 año"
   },
   {
     "id": "acc-aut-uhf12m",
     "sku": "UHF12M",
-    "name": "ZKTeco UHF12M",
-    "brand": "ZKTeco",
+    "name": "SOLTECOM UHF12M",
+    "brand": "SOLTECOM",
     "category": "accesorios-acceso",
     "shortDesc": "ANTENA UHF vehicular para uso interior o exterior con protección IP66. de lectura máxima de hasta 12 metros de alcance. frecuencia de trabaj...",
     "description": "ANTENA UHF vehicular para uso interior o exterior con protección IP66. de lectura máxima de hasta 12 metros de alcance. frecuencia de trabajo de 865 - 928 MHz. lectura y escritura de chip uhf configurable. memoria de 16 kb. para tag. 32 kb para antena. conexión rj45 10 / 100 ethernet.. wiegand 26 y 34 bits de salida. relevo com/ NO / NC. incluye soporte y fuente de alimentación 9- 15 VDC / 4amp. dimensiones: 45 x 45 x 8 cm. Garantía de 1 año",
     "price": 1665000,
     "wholesalePrice": 1531800,
     "stock": 25,
-    "image": "/productos/catalogo/acc-aut-uhf12m.webp",
+    "image": "/productos/catalogo/soltecom-uhf12m.webp",
     "tags": [
-      "Exterior IP66/IP67"
+      "IP66"
     ],
     "specs": {
       "Referencia": "UHF12M",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "SOLTECOM"
     },
     "features": [
       "ANTENA UHF vehicular para uso interior o exterior con protección IP66",
       "de lectura máxima de hasta 12 metros de alcance",
       "frecuencia de trabajo de 865 - 928 MHz"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": "Garantía de 1 año"
   },
   {
     "id": "acc-aut-uhf-sticker-awp",
     "sku": "UHF STICKER AWP",
-    "name": "ZKTeco UHF STICKER AWP",
-    "brand": "ZKTeco",
+    "name": "SOLTECOM UHF STICKER AWP",
+    "brand": "SOLTECOM",
     "category": "accesorios-acceso",
     "shortDesc": "STICKER UHF a prueba de agua vehicular programable.   ventaja: el numero impreso en el sticker corresponde al numero RFID.  memoria: 96 bits...",
     "description": "STICKER UHF a prueba de agua vehicular programable.   ventaja: el numero impreso en el sticker corresponde al numero RFID.  memoria: 96 bits tid, 96 bits epc number, 512 bits user memory. frecuencia 860 - 960 MHz. rango de lectura de 1 -15 metros. ( según el rango de la antena uhf )dimensiones: 110 x 40 mm. (CARRO)",
     "price": 6000,
     "wholesalePrice": 5520,
     "stock": 25,
-    "image": "/productos/catalogo/acc-aut-uhf-sticker-awp.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "image": "/productos/catalogo/soltecom-uhf-sticker-awp.webp",
+    "tags": [],
     "specs": {
       "Referencia": "UHF STICKER AWP",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "SOLTECOM"
     },
     "features": [
       "STICKER UHF a prueba de agua vehicular programable",
       "ventaja: el numero impreso en el sticker corresponde al numero RFID",
       "memoria: 96 bits tid"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "acc-aut-sticker-uhf-moto",
     "sku": "STICKER UHF/MOTO",
-    "name": "ZKTeco STICKER UHF/MOTO",
-    "brand": "ZKTeco",
+    "name": "SOLTECOM STICKER UHF/MOTO",
+    "brand": "SOLTECOM",
     "category": "accesorios-acceso",
     "shortDesc": "STICKER UHF a prueba de agua vehicular programable.   ventaja: el numero impreso en el sticker corresponde al numero RFID.  memoria: 96 bits...",
     "description": "STICKER UHF a prueba de agua vehicular programable.   ventaja: el numero impreso en el sticker corresponde al numero RFID.  memoria: 96 bits tid, 96 bits epc number, 512 bits user memory. frecuencia 860 - 960 MHz. rango de lectura de 1 -15 metros. ( según el rango de la antena uhf )dimensiones: 110 x 40 mm. (MOTO)",
     "price": 6000,
     "wholesalePrice": 5520,
     "stock": 25,
-    "image": "/productos/catalogo/acc-aut-sticker-uhf-moto.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "image": "/productos/catalogo/soltecom-sticker-uhf-moto.webp",
+    "tags": [],
     "specs": {
       "Referencia": "STICKER UHF/MOTO",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "SOLTECOM"
     },
     "features": [
       "STICKER UHF a prueba de agua vehicular programable",
       "ventaja: el numero impreso en el sticker corresponde al numero RFID",
       "memoria: 96 bits tid"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "acc-aut-cr20m",
     "sku": "CR20M",
-    "name": "ZKTeco CR20M",
-    "brand": "ZKTeco",
+    "name": "SOLTECOM CR20M",
+    "brand": "SOLTECOM",
     "category": "accesorios-acceso",
     "shortDesc": "ENROLADOR de tarjetas MIFARE 13,56 kHz por USB. Dimensiones: 68*18*115mm. garantía  1 año",
     "description": "ENROLADOR de tarjetas MIFARE 13,56 kHz por USB. Dimensiones: 68*18*115mm. garantía  1 año",
     "price": 92000,
     "wholesalePrice": 84640,
     "stock": 25,
-    "image": "/productos/catalogo/acc-aut-cr20m.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "image": "/productos/catalogo/soltecom-cr20m.webp",
+    "tags": [],
     "specs": {
       "Referencia": "CR20M",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "SOLTECOM"
     },
     "features": [
       "ENROLADOR de tarjetas MIFARE 13",
       "56 kHz por USB",
       "Dimensiones: 68*18*115mm"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": "Garantía de 1 año"
   },
   {
     "id": "acc-aut-cr20e",
     "sku": "CR20E",
-    "name": "ZKTeco CR20E",
-    "brand": "ZKTeco",
+    "name": "SOLTECOM CR20E",
+    "brand": "SOLTECOM",
     "category": "accesorios-acceso",
     "shortDesc": "ENROLADOR de tarjetas EM 125 kHz por USB. Dimensiones: 68*18*115mm. garantía  1 año",
     "description": "ENROLADOR de tarjetas EM 125 kHz por USB. Dimensiones: 68*18*115mm. garantía  1 año",
     "price": 59000,
     "wholesalePrice": 54280,
     "stock": 25,
-    "image": "/productos/catalogo/acc-aut-cr20e.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "image": "/productos/catalogo/soltecom-cr20e.webp",
+    "tags": [],
     "specs": {
       "Referencia": "CR20E",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "SOLTECOM"
     },
     "features": [
       "ENROLADOR de tarjetas EM 125 kHz por USB",
       "Dimensiones: 68*18*115mm",
       "garantía  1 año"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": "Garantía de 1 año"
   },
   {
     "id": "acc-aut-em02",
     "sku": "EM02",
-    "name": "ZKTeco EM02",
-    "brand": "ZKTeco",
+    "name": "SOLTECOM EM02",
+    "brand": "SOLTECOM",
     "category": "accesorios-acceso",
     "shortDesc": "TARJETA de proximidad tipo EM delgada numerada ( 125 kHz ) ideal para impresión de carnet de identificación laboral, distancia de lectura de...",
     "description": "TARJETA de proximidad tipo EM delgada numerada ( 125 kHz ) ideal para impresión de carnet de identificación laboral, distancia de lectura de 5 a 15cm tamaño: 86x54x0.8 mm; color: blanco. PVC.",
     "price": 1300,
     "wholesalePrice": 1196,
     "stock": 25,
-    "image": "/productos/catalogo/acc-aut-em02.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "image": "/productos/catalogo/soltecom-em02.webp",
+    "tags": [],
     "specs": {
       "Referencia": "EM02",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "SOLTECOM"
     },
     "features": [
       "TARJETA de proximidad tipo EM delgada numerada ( 125 kHz ) ideal para impresión de carnet de identificación laboral",
       "distancia de lectura de 5 a 15cm tamaño: 86x54x0",
       "8 mm"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "acc-aut-mf1k",
     "sku": "MF1K",
-    "name": "ZKTeco MF1K",
-    "brand": "ZKTeco",
+    "name": "SOLTECOM MF1K",
+    "brand": "SOLTECOM",
     "category": "accesorios-acceso",
     "shortDesc": "TARJETA de proximidad inteligente tipo MIFARE S50: 1kb:   13,56 MHz, distancia de 3 a 5 cm. color blanco. tiempo de lectura de 1 a 2 ms.( mi...",
     "description": "TARJETA de proximidad inteligente tipo MIFARE S50: 1kb:   13,56 MHz, distancia de 3 a 5 cm. color blanco. tiempo de lectura de 1 a 2 ms.( milisegundos ). PVC. dimensiones 54x86x1.1 mm.",
     "price": 1800,
     "wholesalePrice": 1656,
     "stock": 25,
-    "image": "/productos/catalogo/acc-aut-mf1k.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "image": "/productos/catalogo/soltecom-mf1k.webp",
+    "tags": [],
     "specs": {
       "Referencia": "MF1K",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "SOLTECOM"
     },
     "features": [
       "TARJETA de proximidad inteligente tipo MIFARE S50: 1kb:   13",
       "56 MHz",
       "distancia de 3 a 5 cm"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "acc-aut-mf4k-nxps70",
     "sku": "MF4K/NXPS70",
-    "name": "ZKTeco MF4K/NXPS70",
-    "brand": "ZKTeco",
+    "name": "SOLTECOM MF4K/NXPS70",
+    "brand": "SOLTECOM",
     "category": "accesorios-acceso",
     "shortDesc": "TARJETA maestra de proximidad inteligente tipo MIFARE, 13,56 MHz.  nxp s70: 4kb: eeprom ( chip original ) distancia de 3 a 5 cm. color blanc...",
     "description": "TARJETA maestra de proximidad inteligente tipo MIFARE, 13,56 MHz.  nxp s70: 4kb: eeprom ( chip original ) distancia de 3 a 5 cm. color blanco. tiempo de lectura de 1 a 2 ms.( milisegundos ). PVC.",
     "price": 6500,
     "wholesalePrice": 5980,
     "stock": 25,
-    "image": "/productos/catalogo/acc-aut-mf4k-nxps70.webp",
-    "tags": [
-      "4K Ultra HD"
-    ],
+    "image": "/productos/catalogo/soltecom-mf4k-nxps70.webp",
+    "tags": [],
     "specs": {
       "Referencia": "MF4K/NXPS70",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "SOLTECOM"
     },
     "features": [
       "TARJETA maestra de proximidad inteligente tipo MIFARE",
       "56 MHz",
       "nxp s70: 4kb: eeprom ( chip original ) distancia de 3 a 5 cm"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "acc-aut-w-em",
     "sku": "W/EM",
-    "name": "ZKTeco W/EM",
-    "brand": "ZKTeco",
+    "name": "SOLTECOM W/EM",
+    "brand": "SOLTECOM",
     "category": "accesorios-acceso",
     "shortDesc": "BRAZALETE de proximidad tipo RFID:  125Khz  especial para niños, adultos mayores. color azul. distancia de lectura 3 cm.",
     "description": "BRAZALETE de proximidad tipo RFID:  125Khz  especial para niños, adultos mayores. color azul. distancia de lectura 3 cm.",
     "price": 6500,
     "wholesalePrice": 5980,
     "stock": 25,
-    "image": "/productos/catalogo/acc-aut-w-em.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "image": "/productos/catalogo/soltecom-w-em.webp",
+    "tags": [],
     "specs": {
       "Referencia": "W/EM",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "SOLTECOM"
     },
     "features": [
       "BRAZALETE de proximidad tipo RFID:  125Khz  especial para niños",
       "adultos mayores",
       "color azul"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "acc-aut-em03-blue",
     "sku": "EM03/BLUE",
-    "name": "ZKTeco EM03/BLUE",
-    "brand": "ZKTeco",
+    "name": "SOLTECOM EM03/BLUE",
+    "brand": "SOLTECOM",
     "category": "accesorios-acceso",
     "shortDesc": "LLAVERO de proximidad tipo EM con serial numerado ( 125 kHz ) PVC,  color azul, distancia lectura: 3 cm. diámetro 32 mm, grosor 4.3 mm.",
     "description": "LLAVERO de proximidad tipo EM con serial numerado ( 125 kHz ) PVC,  color azul, distancia lectura: 3 cm. diámetro 32 mm, grosor 4.3 mm.",
     "price": 1300,
     "wholesalePrice": 1196,
     "stock": 25,
-    "image": "/productos/catalogo/acc-aut-em03-blue.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "image": "/productos/catalogo/soltecom-em03-blue.webp",
+    "tags": [],
     "specs": {
       "Referencia": "EM03/BLUE",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "SOLTECOM"
     },
     "features": [
       "LLAVERO de proximidad tipo EM con serial numerado ( 125 kHz ) PVC",
       "color azul",
       "distancia lectura: 3 cm"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "acc-aut-mftag-blue",
     "sku": "MFTAG BLUE",
-    "name": "ZKTeco MFTAG BLUE",
-    "brand": "ZKTeco",
+    "name": "SOLTECOM MFTAG BLUE",
+    "brand": "SOLTECOM",
     "category": "accesorios-acceso",
     "shortDesc": "LLAVERO de proximidad tipo MIFARE 1k:  13.56mhz, en plástico ABS. color azul . nivel de protección: ip65. distancia lectura: 3 cm, dimension...",
     "description": "LLAVERO de proximidad tipo MIFARE 1k:  13.56mhz, en plástico ABS. color azul . nivel de protección: ip65. distancia lectura: 3 cm, dimensiones: 37 x 30 x 6  mm.",
     "price": 1900,
     "wholesalePrice": 1748,
     "stock": 25,
-    "image": "/productos/catalogo/acc-aut-mftag-blue.webp",
+    "image": "/productos/catalogo/soltecom-mftag-blue.webp",
     "tags": [
-      "Profesional"
+      "IP65"
     ],
     "specs": {
       "Referencia": "MFTAG BLUE",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "SOLTECOM"
     },
     "features": [
       "LLAVERO de proximidad tipo MIFARE 1k:  13",
       "56mhz",
       "en plástico ABS"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "acc-aut-caja-kit-fuente",
     "sku": "CAJA KIT FUENTE",
-    "name": "ZKTeco CAJA KIT FUENTE",
-    "brand": "ZKTeco",
+    "name": "SOLTECOM CAJA KIT FUENTE",
+    "brand": "SOLTECOM",
     "category": "accesorios-acceso",
     "shortDesc": "CAJA metálica  de 28,5 x 30 cm. con accesorios incluidos ( prensa stopa pg11, chapa, platina y tornillos)",
     "description": "CAJA metálica  de 28,5 x 30 cm. con accesorios incluidos ( prensa stopa pg11, chapa, platina y tornillos)",
     "price": 96500,
     "wholesalePrice": 88780,
     "stock": 25,
-    "image": "/productos/catalogo/acc-aut-caja-kit-fuente.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "image": "/productos/catalogo/soltecom-caja-kit-fuente.webp",
+    "tags": [],
     "specs": {
       "Referencia": "CAJA KIT FUENTE",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "SOLTECOM"
     },
     "features": [
       "CAJA metálica  de 28",
       "5 x 30 cm",
       "con accesorios incluidos ( prensa stopa pg11"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "acc-aut-caja-de-alarma-20x20",
     "sku": "CAJA DE ALARMA 20X20",
-    "name": "ZKTeco CAJA DE ALARMA 20X20",
-    "brand": "ZKTeco",
+    "name": "SOLTECOM CAJA DE ALARMA 20X20",
+    "brand": "SOLTECOM",
     "category": "accesorios-acceso",
     "shortDesc": "CAJA metálica pequeña para  alarma y control de acceso. dimensiones: 20 x 23 x 8 cm",
     "description": "CAJA metálica pequeña para  alarma y control de acceso. dimensiones: 20 x 23 x 8 cm",
     "price": 40000,
     "wholesalePrice": 36800,
     "stock": 25,
-    "image": "/productos/catalogo/acc-aut-caja-de-alarma-20x20.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "image": "/productos/catalogo/soltecom-caja-de-alarma-20x20.webp",
+    "tags": [],
     "specs": {
       "Referencia": "CAJA DE ALARMA 20X20",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "SOLTECOM"
     },
     "features": [
       "CAJA metálica pequeña para  alarma y control de acceso. dimensiones: 20 x 23 x 8"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "acc-aut-sa-grand",
     "sku": "SA-GRAND",
-    "name": "ZKTeco SA-GRAND",
-    "brand": "ZKTeco",
+    "name": "SOLTECOM SA-GRAND",
+    "brand": "SOLTECOM",
     "category": "accesorios-acceso",
     "shortDesc": "CAJA metálica grande para  alarma y control de acceso. dimensiones: 30,5 x 28,5 x 8 cm",
     "description": "CAJA metálica grande para  alarma y control de acceso. dimensiones: 30,5 x 28,5 x 8 cm",
     "price": 52000,
     "wholesalePrice": 47840,
     "stock": 25,
-    "image": "/productos/catalogo/acc-aut-sa-grand.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "image": "/productos/catalogo/soltecom-sa-grand.webp",
+    "tags": [],
     "specs": {
       "Referencia": "SA-GRAND",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "SOLTECOM"
     },
     "features": [
       "CAJA metálica grande para  alarma y control de acceso",
       "dimensiones: 30",
       "5 x 28"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "acc-aut-h-516",
     "sku": "H-516",
-    "name": "ZKTeco H-516",
-    "brand": "ZKTeco",
+    "name": "SOLTECOM H-516",
+    "brand": "SOLTECOM",
     "category": "accesorios-acceso",
     "shortDesc": "FUENTE de poder para control de acceso, con anti remanente de tiempo, alimentación directa a electroimán y conexión con botones NO Touch y B...",
     "description": "FUENTE de poder para control de acceso, con anti remanente de tiempo, alimentación directa a electroimán y conexión con botones NO Touch y Botón tipo pulsador voltaje de entrada: ac110/220v 50/60hz ; voltaje de salida: 12 vdc,5a ,70w . soporta batería de respaldo 12v 7amp. dimensiones 75x40x130 mm. Garantía de 1 año",
     "price": 105000,
     "wholesalePrice": 96600,
     "stock": 25,
-    "image": "/productos/catalogo/acc-aut-h-516.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "image": "/productos/catalogo/soltecom-h-516.webp",
+    "tags": [],
     "specs": {
       "Referencia": "H-516",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "SOLTECOM"
     },
     "features": [
       "FUENTE de poder para control de acceso",
       "con anti remanente de tiempo",
       "alimentación directa a electroimán y conexión con botones NO Touch y Botón tipo pulsador voltaje de entrada: ac110/220v 50/60hz"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": "Garantía de 1 año"
   },
   {
     "id": "acc-aut-6fm7",
     "sku": "6FM7",
-    "name": "ZKTeco 6FM7",
-    "brand": "ZKTeco",
+    "name": "SOLTECOM 6FM7",
+    "brand": "SOLTECOM",
     "category": "accesorios-acceso",
     "shortDesc": "BATERÍA 12 voltios 7 amperios/ 20hr. 100% plomo.",
     "description": "BATERÍA 12 voltios 7 amperios/ 20hr. 100% plomo.",
     "price": 56000,
     "wholesalePrice": 51520,
     "stock": 25,
-    "image": "/productos/catalogo/acc-aut-6fm7.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "image": "/productos/catalogo/soltecom-6fm7.webp",
+    "tags": [],
     "specs": {
       "Referencia": "6FM7",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "SOLTECOM"
     },
     "features": [
       "BATERÍA 12 voltios 7 amperios/ 20hr. 100% plomo."
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "acc-aut-s-58",
     "sku": "S-58",
-    "name": "ZKTeco S-58",
-    "brand": "ZKTeco",
+    "name": "SOLTECOM S-58",
+    "brand": "SOLTECOM",
     "category": "incendio",
     "shortDesc": "Sirena de 12V 30W y 2 tonos ideal para cercas eléctricas, central de incendio y sistemas de alarmas y otras aplicaciones de seguridad electr...",
     "description": "Sirena de 12V 30W y 2 tonos ideal para cercas eléctricas, central de incendio y sistemas de alarmas y otras aplicaciones de seguridad electrónica.Esta sirena de 12V 30W de doble tono es Ideal para conectarla a salidas de alarma PGM y auxiliares. Sumamente potente, emite hasta 122 decibelios Fabricada de Material plástico altamente resistente 122DB Corriente de 12V 30W Color Blanca 3 terminales de conexión 1.1 Amperio Resistente a la lluvia y rayos del sol Diseño cónico",
     "price": 53000,
     "wholesalePrice": 48760,
     "stock": 25,
-    "image": "/productos/catalogo/acc-aut-s-58.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "image": "/productos/catalogo/soltecom-s-58.webp",
+    "tags": [],
     "specs": {
       "Referencia": "S-58",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "SOLTECOM"
     },
     "features": [
       "Sirena de 12V 30W y 2 tonos ideal para cercas eléctricas",
       "central de incendio y sistemas de alarmas y otras aplicaciones de seguridad electrónica",
       "Esta sirena de 12V 30W de doble tono es Ideal para conectarla a salidas de alarma PGM y auxiliares"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "acc-aut-sl-red-g",
     "sku": "SL-RED/G",
-    "name": "ZKTeco SL-RED/G",
-    "brand": "ZKTeco",
+    "name": "SOLTECOM SL-RED/G",
+    "brand": "SOLTECOM",
     "category": "accesorios-acceso",
     "shortDesc": "Luz Estrobo Tipo Licuadora roja. uso interior. plástica. luz intermitente. 12vdc. corriente: 60 m a. 144 pulsaciones por minuto. peso: 100 g...",
     "description": "Luz Estrobo Tipo Licuadora roja. uso interior. plástica. luz intermitente. 12vdc. corriente: 60 m a. 144 pulsaciones por minuto. peso: 100 gramos. dimensiones:47 mm*72mm(alto*ancho). Garantía de 1 año",
     "price": 70500,
     "wholesalePrice": 64860,
     "stock": 25,
-    "image": "/productos/catalogo/acc-aut-sl-red-g.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "image": "/productos/catalogo/soltecom-sl-red-g.webp",
+    "tags": [],
     "specs": {
       "Referencia": "SL-RED/G",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "SOLTECOM"
     },
     "features": [
       "Luz Estrobo Tipo Licuadora roja",
       "uso interior",
       "plástica"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": "Garantía de 1 año"
   },
   {
     "id": "acc-aut-semaforo-in-out",
     "sku": "SEMAFORO IN/OUT",
-    "name": "ZKTeco SEMAFORO IN/OUT",
-    "brand": "ZKTeco",
+    "name": "SOLTECOM SEMAFORO IN/OUT",
+    "brand": "SOLTECOM",
     "category": "accesorios-acceso",
     "shortDesc": "Dispositivo de señalización mediante los cuales se regula la circulación de vehículos, bicicletas y peatones en vías, asignando el derecho d...",
     "description": "Dispositivo de señalización mediante los cuales se regula la circulación de vehículos, bicicletas y peatones en vías, asignando el derecho de paso o prelación de vehículos y peatones secuencialmente, por las indicaciones de luces de color rojo y verde, operadas por sistema electrónico de control autonomo programable o modulo de control.",
     "price": 489000,
     "wholesalePrice": 449880,
     "stock": 25,
-    "image": "/productos/catalogo/acc-aut-semaforo-in-out.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "image": "/productos/catalogo/soltecom-semaforo-in-out.webp",
+    "tags": [],
     "specs": {
       "Referencia": "SEMAFORO IN/OUT",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "SOLTECOM"
     },
     "features": [
       "Dispositivo de señalización mediante los cuales se regula la circulación de vehículos",
       "bicicletas y peatones en vías",
       "asignando el derecho de paso o prelación de vehículos y peatones secuencialmente"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "zk-acc-prorf",
@@ -819,20 +745,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 599840,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-prorf.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "PRORF",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "ZKTeco"
     },
     "features": [
       "CONTROL  de acceso IP",
       "Standalone",
       "lectura de 60"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "zk-acc-mk-v1",
@@ -847,21 +770,19 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-mk-v1.webp",
     "tags": [
-      "Exterior IP66/IP67",
-      "WiFi",
-      "Biométrico"
+      "IP66",
+      "WiFi"
     ],
     "specs": {
       "Referencia": "MK-V1",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "ZKTeco"
     },
     "features": [
       "Control de Acceso Biométrico con Índice de Protección IP66 (Uso Exterior) capacidad para 100 huellas",
       "lectura de 1",
       "000 tarjetas Frecuencia Dual RFID 125KHz y Mifare 13"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "zk-acc-ma300-id",
@@ -876,19 +797,18 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-ma300-id.webp",
     "tags": [
-      "Biométrico"
+      "IP65"
     ],
     "specs": {
       "Referencia": "MA300/ID",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "ZKTeco"
     },
     "features": [
       "CONTROL de acceso para 1 puerta",
       "IP65",
       "Standalone"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "zk-acc-sf-300",
@@ -902,20 +822,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 206080,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-sf-300.webp",
-    "tags": [
-      "Biométrico"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "SF-300",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "ZKTeco"
     },
     "features": [
       "CONTROL de acceso",
       "tiempo y asistencia IP",
       "pantalla táctil"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "zk-acc-speed---face-v4l",
@@ -930,20 +847,18 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-speed---face-v4l.webp",
     "tags": [
-      "WiFi",
-      "Biométrico"
+      "WiFi"
     ],
     "specs": {
       "Referencia": "SPEED   FACE V4L",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "ZKTeco"
     },
     "features": [
       "ZKTECO SpeedFace V4L - Control de Acceso y Asistencia Visible Light con Autenticación Facial (800 Rostros)",
       "Autenticación de palma (800 palmas) Tarjeta ID 125 KHz (1000)",
       "Registro de 150"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "zk-acc-eface-10",
@@ -957,20 +872,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 384284,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-eface-10.webp",
-    "tags": [
-      "Biométrico"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "EFACE-10",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "ZKTeco"
     },
     "features": [
       "TERMINAL de acceso de reconocimiento facial de alta precisión",
       "tecnología Visible Light",
       "Algoritmo anti-spoofing"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "zk-acc-speed-face-v3l-qr",
@@ -985,19 +897,18 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-speed-face-v3l-qr.webp",
     "tags": [
-      "Biométrico"
+      "IP65"
     ],
     "specs": {
       "Referencia": "SPEED FACE V3L/QR",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "ZKTeco"
     },
     "features": [
       "TERMINAL de acceso",
       "tiempo y asistencia",
       "visible light"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "zk-acc-speed-face-v3l",
@@ -1012,19 +923,18 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-speed-face-v3l.webp",
     "tags": [
-      "Biométrico"
+      "IP65"
     ],
     "specs": {
       "Referencia": "SPEED FACE-V3L",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "ZKTeco"
     },
     "features": [
       "TERMINAL de acceso",
       "tiempo y asistencia",
       "visible light"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "zk-acc-speed-face-v3l-rfid",
@@ -1039,19 +949,18 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-speed-face-v3l-rfid.webp",
     "tags": [
-      "Biométrico"
+      "IP65"
     ],
     "specs": {
       "Referencia": "SPEED FACE-V3L-RFID",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "ZKTeco"
     },
     "features": [
       "TERMINAL de acceso",
       "tiempo y asistencia",
       "visible light"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "zk-acc-speed--face-m4wifi",
@@ -1070,15 +979,14 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Referencia": "SPEED  FACE M4WIFI",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "ZKTeco"
     },
     "features": [
       "TERMINAL de acceso",
       "tiempo y asistencia",
       "visible light"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "zk-acc-speedfacev5l-qr",
@@ -1092,20 +1000,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 1364360,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-speedfacev5l-qr.webp",
-    "tags": [
-      "Biométrico"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "SPEEDFACEV5L/QR",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "ZKTeco"
     },
     "features": [
       "TERMINAL de acceso multibiometrico",
       "visible light",
       "Algoritmo anti-spoofing"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "zk-acc-speed-face-v5l-rfid",
@@ -1119,20 +1024,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 1200600,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-speed-face-v5l-rfid.webp",
-    "tags": [
-      "Biométrico"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "SPEED FACE-V5L RFID",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "ZKTeco"
     },
     "features": [
       "TERMINAL de acceso multibiometrico",
       "visible light",
       "Algoritmo anti-spoofing"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "zk-acc-sense-face-7a",
@@ -1146,20 +1048,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 1353320,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-sense-face-7a.webp",
-    "tags": [
-      "Biométrico"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "SENSE FACE 7A",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "ZKTeco"
     },
     "features": [
       "ZKTECO SenseFace 7A - Control de acceso (Conexión con electroiman o cantonera y boton de salida ) y asistencia facial para 10",
       "000 rostros / TCP/IP / 50",
       "000 tarjetas de proximidad de 125kHz / 10"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "zk-acc-sense-face-4a",
@@ -1173,20 +1072,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 1060760,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-sense-face-4a.webp",
-    "tags": [
-      "Biométrico"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "SENSE FACE 4A",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "ZKTeco"
     },
     "features": [
       "ZKTECO SenseFace 4A - Control de acceso (Conexión con electroiman o cantonera y boton de salida ) y asistencia facial para 6",
       "000 rostros / 8",
       "000 huellas / 8"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "zk-acc-sense-face-2a",
@@ -1201,20 +1097,18 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-sense-face-2a.webp",
     "tags": [
-      "WiFi",
-      "Biométrico"
+      "WiFi"
     ],
     "specs": {
       "Referencia": "SENSE FACE 2A",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "ZKTeco"
     },
     "features": [
       "ZKTECO SenseFace2A - Control de Acceso (Conexión con electroiman o cantonera y boton de salida ) y Asistencia Visible Light con Autenticación Facial (1500 Rostros)",
       "Huella Digital BioID (3000)",
       "Tarjeta ID 125 KHz (3000)"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "zk-acc-m2f-pro-lr",
@@ -1229,20 +1123,18 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-m2f-pro-lr.webp",
     "tags": [
-      "WiFi",
-      "Biométrico"
+      "WiFi"
     ],
     "specs": {
       "Referencia": "M2F PRO LR",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "ZKTeco"
     },
     "features": [
       "ZKTECO M2F PRO-LR - Control de Asistencia y Acceso (Conexión con electroiman o cantonera y boton de salida ) con Autenticación Facial (500 Rostros)",
       "Huella Digital BioID+ (1",
       "000)"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "zk-acc-m1",
@@ -1257,19 +1149,18 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-m1.webp",
     "tags": [
-      "Biométrico"
+      "WiFi"
     ],
     "specs": {
       "Referencia": "M1",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "ZKTeco"
     },
     "features": [
       "ZKTECO M1 - Control de Asistencia con Huella Digital BioID+ (500)",
       "Tarjeta de Proximidad 125 kHz (500)",
       "Contraseña (500)"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "zk-acc-c2-260",
@@ -1283,20 +1174,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 256312,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-c2-260.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "C2-260",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "ZKTeco"
     },
     "features": [
       "CONTROLADORA de acceso compacta para 2 puertas escalable a 10  (utilizando 8 expansor DM10 no incluido)",
       "recibe lectores de tarjetas por RS485 y Wiegand (utilizando WR485 no incluido)",
       "capacidad para 30"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "zk-acc-wr-485",
@@ -1310,18 +1198,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 40112,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-wr-485.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "WR-485",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "ZKTeco"
     },
     "features": [
       "CONVERTIDOR de Conexión RS485 a Wiegand para controladora C2-260"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "zk-acc-dm10",
@@ -1335,20 +1220,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 91080,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-dm10.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "DM10",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "ZKTeco"
     },
     "features": [
       "EXPANSOR para 1 puerta",
       "Comunicación RS485",
       "1 AUX de salida"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "zk-acc-c5s120-package-a",
@@ -1362,20 +1244,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 703616,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-c5s120-package-a.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "C5S120 PACKAGE A",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "ZKTeco"
     },
     "features": [
       "KIT CONTROLADORA de acceso para 2 puertas",
       "Incluye gabinete y fuente de alimentación (no soporta batería de respaldo) hasta 4 lectoras wiegand o rs485 y 2 botón de salida",
       "capacidad para 100"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "zk-acc-c5-s120",
@@ -1389,20 +1268,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 460000,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-c5-s120.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "C5-S120",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "ZKTeco"
     },
     "features": [
       "CONTROLADORA de acceso para 2 puertas",
       "hasta 4 lectoras wiegand o rs485 y 2 botón de salida",
       "capacidad para 100"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "zk-acc-c3-200",
@@ -1416,20 +1292,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 508760,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-c3-200.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "C3-200",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "ZKTeco"
     },
     "features": [
       "CONTROLADORA de acceso para 2 puertas",
       "hasta 4 lectoras Wiegand  26-bit",
       "4 botones de salida"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "zk-acc-c3-200-package-b",
@@ -1443,20 +1316,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 736000,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-c3-200-package-b.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "C3-200 PACKAGE B",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "ZKTeco"
     },
     "features": [
       "KIT CONTROLADORA de acceso para 2 puertas",
       "hasta 4 lectoras Wiegand  26-bit",
       "capacidad para 30"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "zk-acc-c3-400",
@@ -1470,20 +1340,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 649520,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-c3-400.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "C3-400",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "ZKTeco"
     },
     "features": [
       "CONTROLADORA de acceso para 4 puertas",
       "hasta 4 lectoras Wiegand  26-bit",
       "4 botones de salida"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "zk-acc-c3-400-package-b",
@@ -1497,20 +1364,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 822664,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-c3-400-package-b.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "C3-400 PACKAGE B",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "ZKTeco"
     },
     "features": [
       "KIT CONTROLADORA de acceso para 4 puertas",
       "hasta 4 lectoras Wiegand  26-bit",
       "capacidad para 30"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "zk-acc-inbio260-pro",
@@ -1524,20 +1388,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 904360,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-inbio260-pro.webp",
-    "tags": [
-      "Biométrico"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "INBIO260 PRO",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "ZKTeco"
     },
     "features": [
       "CONTROLADORA de acceso para 2 puertas",
       "hasta 4 lectoras RS485 (serie FR",
       "huella dactilar) y 4 Wiegand (serie KR"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "zk-acc-inbio260-pro-box",
@@ -1551,20 +1412,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 1185236,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-inbio260-pro-box.webp",
-    "tags": [
-      "Biométrico"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "INBIO260 PRO BOX",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "ZKTeco"
     },
     "features": [
       "KIT CONTROLADORA de acceso para 2 puertas",
       "incluye gabinete y fuente de alimentación",
       "hasta 4 lectoras RS485 (serie FR"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "zk-acc-inbio460-standard",
@@ -1578,20 +1436,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 1298856,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-inbio460-standard.webp",
-    "tags": [
-      "Biométrico"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "INBIO460 STANDARD",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "ZKTeco"
     },
     "features": [
       "Controlador de Acceso / 4 PUERTAS / Conexión con lectores wiegand y serie FR1500S - FR1200 ZKTECO / Hasta 20",
       "000 Huellas / 30",
       "000 Tarjetas Software ZKBioCVAcces"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "zk-acc-inbio-460-package-b",
@@ -1605,20 +1460,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 1508800,
     "stock": 25,
     "image": "/productos/catalogo/zk-acc-inbio-460-package-b.webp",
-    "tags": [
-      "Biométrico"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "INBIO 460 PACKAGE B",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "ZKTeco"
     },
     "features": [
       "Controlador de Acceso / 4 PUERTAS / Conexión con lectores wiegand y serie FR1500S - FR1200 ZKTECO / Hasta 20",
       "000 Huellas / 30",
       "000 Tarjetas / Incluye gabinete y fuente SoftwareZKBioCVAcces"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "zk-lic-zkbcva-ac-p15-5w",
@@ -1632,18 +1484,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 221904,
     "stock": 25,
     "image": "/productos/catalogo/ZKBio CVSecurity.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "ZKBCVA AC-P15-5W",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "ZKTeco"
     },
     "features": [
       "LICENCIA módulo de acceso hasta 15 puertas, 5,000 usuarios"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "zk-lic-zkbcva-acp15-10w",
@@ -1657,18 +1506,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 649520,
     "stock": 25,
     "image": "/productos/catalogo/ZKBio CVSecurity.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "ZKBCVA ACP15-10W",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "ZKTeco"
     },
     "features": [
       "LICENCIA módulo de acceso hasta 15 puertas, 10,000 usuarios"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "zk-lic-zkbcva-acp20",
@@ -1682,18 +1528,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 1214400,
     "stock": 25,
     "image": "/productos/catalogo/ZKBio CVSecurity.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "ZKBCVA ACP20",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "ZKTeco"
     },
     "features": [
       "LICENCIA módulo de acceso hasta 20 puertas, 2,000 usuarios"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "zk-lic-zkbcva-acp25",
@@ -1707,18 +1550,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 1497760,
     "stock": 25,
     "image": "/productos/catalogo/ZKBio CVSecurity.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "ZKBCVA ACP25",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "ZKTeco"
     },
     "features": [
       "LICENCIA módulo de acceso hasta 25 puertas, 5,000 usuarios,"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "zk-lic-zkbcva-tap10",
@@ -1732,18 +1572,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 1659680,
     "stock": 25,
     "image": "/productos/catalogo/ZKBio CVSecurity.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "ZKBCVA TAP10",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "ZKTeco"
     },
     "features": [
       "LICENCIA módulo de tiempo y asistencia hasta 10 puntos, 2,000 usuarios"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "zk-lic-zkbs-acp5",
@@ -1757,18 +1594,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 277104,
     "stock": 25,
     "image": "/productos/catalogo/ZKBio CVSecurity.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "ZKBS ACP5",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "ZKTeco"
     },
     "features": [
       "LICENCIA modulo de acceso para 5 Puertas / Hasta 2000 Usuarios / 200 Departament"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "zk-lic-zkbs-acp10",
@@ -1782,18 +1616,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 804264,
     "stock": 25,
     "image": "/productos/catalogo/ZKBio CVSecurity.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "ZKBS ACP10",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "ZKTeco"
     },
     "features": [
       "LICENCIA modulo de acceso para 10 Puertas / Hasta 10,000 Usuarios / 200 Departam"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "zk-lic-zkbs-acp25",
@@ -1807,18 +1638,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 1735120,
     "stock": 25,
     "image": "/productos/catalogo/ZKBio CVSecurity.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "ZKBS ACP25",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "ZKTeco"
     },
     "features": [
       "LICENCIA modulo de acceso para 25 Puertas / Hasta 15,000 Usuarios / 500 Departam"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "zk-lic-zkbs-acp50",
@@ -1832,18 +1660,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 3259560,
     "stock": 25,
     "image": "/productos/catalogo/ZKBio CVSecurity.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "ZKBS ACP50",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "ZKTeco"
     },
     "features": [
       "LICENCIA modulo de acceso para 50 Puertas / Hasta 20,000 Usuarios / 1000 Departa"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "zk-lic-zkbs-acp75",
@@ -1857,18 +1682,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 5586240,
     "stock": 25,
     "image": "/productos/catalogo/ZKBio CVSecurity.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "ZKBS ACP75",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "ZKTeco"
     },
     "features": [
       "LICENCIA modulo de acceso para 75 Puertas / Hasta 30,000 Usuarios / 1000 Departa"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "zk-lic-zkbs-acp100",
@@ -1882,18 +1704,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 6982800,
     "stock": 25,
     "image": "/productos/catalogo/ZKBio CVSecurity.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "ZKBS ACP100",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "ZKTeco"
     },
     "features": [
       "LICENCIA modulo de acceso para 100 Puertas / Hasta 50,000 Usuarios / 1000 Depart"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "zk-lic-zkbsvis-p1",
@@ -1907,18 +1726,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 1523980,
     "stock": 25,
     "image": "/productos/catalogo/ZKBio CVSecurity.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "ZKBSVIS P1",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "ZKTeco"
     },
     "features": [
       "LICENCIA para gestión de visitantes / 1 Sitio de Registro / 5000 Visitas por Mes"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "zk-lic-zkbsvis-p3-1w",
@@ -1932,18 +1748,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 2792476,
     "stock": 25,
     "image": "/productos/catalogo/ZKBio CVSecurity.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "ZKBSVIS P3-1W",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "ZKTeco"
     },
     "features": [
       "LICENCIA para gestión de visitantes / 3 Sitio de Registro / 10,000 Visitas por M"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "zk-lic-zkbsvis-p3-2w",
@@ -1957,18 +1770,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 3259560,
     "stock": 25,
     "image": "/productos/catalogo/ZKBio CVSecurity.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "ZKBSVIS P3-2W",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "ZKTeco"
     },
     "features": [
       "LICENCIA para gestión de visitantes / 3 Sitio de Registro / 20,000 Visitas por M"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "zk-lic-zkbsvis-p5-1w",
@@ -1982,18 +1792,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 4190600,
     "stock": 25,
     "image": "/productos/catalogo/ZKBio CVSecurity.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "ZKBSVIS P5-1W",
-      "Marca": "ZKTeco",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "ZKTeco"
     },
     "features": [
       "LICENCIA para gestión de visitantes / 5 Sitio de Registro / 10,000 Visitas por M"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "gar-dz-casa-fit-ramp",
@@ -2007,20 +1814,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 607200,
     "stock": 25,
     "image": "/productos/catalogo/gar-dz-casa-fit-ramp.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "DZ CASA FIT RAMP",
-      "Marca": "GAREN",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "GAREN"
     },
     "features": [
       "Motor para puerta corrediza de hasta 400KG de Peso",
       "Velocidad de Apertura 10",
       "5 Segundos"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "gar-dz-max-connect",
@@ -2034,20 +1838,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 943000,
     "stock": 25,
     "image": "/productos/catalogo/gar-dz-max-connect.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "DZ MAX CONNECT",
-      "Marca": "GAREN",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "GAREN"
     },
     "features": [
       "Motor para puerta corrediza de hasta 700KG de Peso",
       "Velocidad de Apertura 10 Segundos",
       "Entrada de voltaje DUAL AC 127VAC - 220VAC"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "gar-dz-max-tsi",
@@ -2061,20 +1862,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 1449920,
     "stock": 25,
     "image": "/productos/catalogo/gar-dz-max-tsi.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "DZ MAX TSI",
-      "Marca": "GAREN",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "GAREN"
     },
     "features": [
       "Motor para puerta corrediza de hasta 700KG de Peso",
       "Velocidad de Apertura 5 Segundos",
       "Entrada de voltaje DUAL AC 127VAC - 220VAC"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "gar-kdz-tsi-pro",
@@ -2088,20 +1886,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 1463720,
     "stock": 25,
     "image": "/productos/catalogo/gar-kdz-tsi-pro.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "KDZ TSI PRO",
-      "Marca": "GAREN",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "GAREN"
     },
     "features": [
       "Motor para puerta corrediza de hasta 900KG de Peso",
       "Velocidad de Apertura 5 Segundos",
       "Entrada de voltaje DUAL AC 127VAC - 220VAC"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "gar-gran-kdz-tsi-1000pro",
@@ -2115,20 +1910,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 1954080,
     "stock": 25,
     "image": "/productos/catalogo/gar-gran-kdz-tsi-1000pro.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "GRAN KDZ TSI 1000PRO",
-      "Marca": "GAREN",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "GAREN"
     },
     "features": [
       "Motor para puerta corrediza de hasta 1000KG de Peso",
       "Velocidad de Apertura 5",
       "5 Segundos"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "gar-durata-industrial-tsi",
@@ -2142,20 +1934,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 2944000,
     "stock": 25,
     "image": "/productos/catalogo/gar-durata-industrial-tsi.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "DURATA INDUSTRIAL TSI",
-      "Marca": "GAREN",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "GAREN"
     },
     "features": [
       "Motor para puerta corrediza de hasta 2000KG de Peso",
       "Velocidad de Apertura 6 Segundos",
       "Entrada de voltaje DUAL AC 127VAC - 220VAC"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "gar-pivo-duo-tsi-simp-pro-estandar-derecha",
@@ -2169,20 +1958,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 1474760,
     "stock": 25,
     "image": "/productos/catalogo/gar-pivo-duo-tsi-simp-pro-estandar-derecha.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "PIVO DUO TSI SIMP PRO ESTANDAR DERECHA",
-      "Marca": "GAREN",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "GAREN"
     },
     "features": [
       "Motor para puerta batiente de hasta 2 metros de ancho y hasta 150KG de Peso",
       "Velocidad de Apertura 4",
       "5 Segundos"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "gar-pivo-duo-tsi-simp-pro-estandar-izquierda",
@@ -2196,20 +1982,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 1474760,
     "stock": 25,
     "image": "/productos/catalogo/gar-pivo-duo-tsi-simp-pro-estandar-izquierda.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "PIVO DUO TSI SIMP PRO ESTANDAR IZQUIERDA",
-      "Marca": "GAREN",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "GAREN"
     },
     "features": [
       "Motor para puerta batiente de hasta 2 metros de ancho y hasta 150KG de Peso",
       "Velocidad de Apertura 4",
       "5 Segundos"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "gar-pivo-duo-black-tsi-pro-super-derecha",
@@ -2223,20 +2006,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 1573200,
     "stock": 25,
     "image": "/productos/catalogo/gar-pivo-duo-black-tsi-pro-super-derecha.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "PIVO DUO BLACK TSI PRO SUPER DERECHA",
-      "Marca": "GAREN",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "GAREN"
     },
     "features": [
       "Motor para puerta batiente de hasta 3",
       "5 metros de ancho y hasta 350KG de Peso",
       "Velocidad de Apertura 6 Segundos"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "gar-pivo-duo-black-tsi-pro-super-izquierda",
@@ -2250,20 +2030,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 1573200,
     "stock": 25,
     "image": "/productos/catalogo/gar-pivo-duo-black-tsi-pro-super-izquierda.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "PIVO DUO BLACK TSI PRO SUPER IZQUIERDA",
-      "Marca": "GAREN",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "GAREN"
     },
     "features": [
       "Motor para puerta batiente de hasta 3",
       "5 metros de ancho y hasta 350KG de Peso",
       "Velocidad de Apertura 6 Segundos"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "gar-grand-pivo-duo-tsi-pro-estandar-derecha",
@@ -2277,20 +2054,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 1927400,
     "stock": 25,
     "image": "/productos/catalogo/gar-grand-pivo-duo-tsi-pro-estandar-derecha.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "GRAND PIVO DUO TSI PRO ESTANDAR DERECHA",
-      "Marca": "GAREN",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "GAREN"
     },
     "features": [
       "Motor para puerta batiente de hasta 2 metros de ancho y hasta 450KG de Peso",
       "Velocidad de Apertura 8 Segundos",
       "Entrada de voltaje DUAL AC 127VAC - 220VAC"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "gar-grand-pivo-duo--estandar-izquierda",
@@ -2304,20 +2078,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 1927400,
     "stock": 25,
     "image": "/productos/catalogo/gar-grand-pivo-duo--estandar-izquierda.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "GRAND PIVO DUO  ESTANDAR IZQUIERDA",
-      "Marca": "GAREN",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "GAREN"
     },
     "features": [
       "Motor para puerta batiente para de hasta 2 metros de ancho y hasta 450KG de Peso",
       "Velocidad de Apertura 8 Segundos",
       "Entrada de voltaje DUAL AC 127VAC - 220VAC"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "gar-grand-pivo-duo-tsi-pro-super-derecha",
@@ -2331,20 +2102,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 2048840,
     "stock": 25,
     "image": "/productos/catalogo/gar-grand-pivo-duo-tsi-pro-super-derecha.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "GRAND PIVO DUO TSI PRO SUPER DERECHA",
-      "Marca": "GAREN",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "GAREN"
     },
     "features": [
       "Motor para puerta batiente de hasta 4 metros de ancho y hasta 450KG de Peso",
       "Velocidad de Apertura 10 Segundos",
       "Entrada de voltaje DUAL AC 127VAC - 220VAC"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "gar-grand-pivo-duo-tsi-pro-super-izquierda",
@@ -2358,20 +2126,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 2048840,
     "stock": 25,
     "image": "/productos/catalogo/gar-grand-pivo-duo-tsi-pro-super-izquierda.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "GRAND PIVO DUO TSI PRO SUPER IZQUIERDA",
-      "Marca": "GAREN",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "GAREN"
     },
     "features": [
       "Motor para puerta batiente de hasta 4 metros de ancho y hasta 450KG de Peso",
       "Velocidad de Apertura 10 Segundos",
       "Entrada de voltaje DUAL AC 127VAC - 220VAC"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "gar-grand-pivo-duo-tsi-pro-mega-pro-derecha",
@@ -2385,20 +2150,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 2223640,
     "stock": 25,
     "image": "/productos/catalogo/gar-grand-pivo-duo-tsi-pro-mega-pro-derecha.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "GRAND PIVO DUO TSI PRO MEGA PRO DERECHA",
-      "Marca": "GAREN",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "GAREN"
     },
     "features": [
       "Motor para puerta batiente de hasta 5 metros de ancho y hasta 450KG de Peso",
       "Velocidad de Apertura 12 Segundos",
       "Entrada de voltaje DUAL AC 127VAC - 220VAC"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "gar-grand-pivo-duo-tsi-pro-super-izquierda-23",
@@ -2412,20 +2174,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 2048840,
     "stock": 25,
     "image": "/productos/catalogo/gar-grand-pivo-duo-tsi-pro-super-izquierda-23.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "GRAND PIVO DUO TSI PRO SUPER IZQUIERDA",
-      "Marca": "GAREN",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "GAREN"
     },
     "features": [
       "Motor para puerta batiente de hasta 5 metros de ancho y hasta 450KG de Peso",
       "Velocidad de Apertura 12 Segundos",
       "Entrada de voltaje DUAL AC 127VAC - 220VAC"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "gar-cj-pvd-black-dup-tsi-pro-estandar",
@@ -2439,20 +2198,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 2254000,
     "stock": 25,
     "image": "/productos/catalogo/gar-cj-pvd-black-dup-tsi-pro-estandar.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "CJ PVD BLACK DUP TSI PRO ESTANDAR",
-      "Marca": "GAREN",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "GAREN"
     },
     "features": [
       "Motores para doble puerta batiente de hasta 2",
       "5 metros de ancho por puerta y hasta 250KG de Peso",
       "Velocidad de Apertura 6"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "gar-cj-pvd-black-dup-tsi-pro-estandar-25",
@@ -2466,20 +2222,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 2254000,
     "stock": 25,
     "image": "/productos/catalogo/gar-cj-pvd-black-dup-tsi-pro-estandar-25.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "CJ PVD BLACK DUP TSI PRO ESTANDAR",
-      "Marca": "GAREN",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "GAREN"
     },
     "features": [
       "Motores para doble puerta batiente de hasta 3 metros de ancho por puerta y hasta 250KG de Peso",
       "Velocidad de Apertura 6",
       "5 Segundos"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "gar-barrera-compacta-f02064",
@@ -2493,20 +2246,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 3343280,
     "stock": 25,
     "image": "/productos/catalogo/gar-barrera-compacta-f02064.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "BARRERA COMPACTA F02064",
-      "Marca": "GAREN",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "GAREN"
     },
     "features": [
       "Barrera Vehicular tipo talanquera para parqueadero",
       "velocidad de apertura 3",
       "6 segundos"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "gar-barrera-intense--f02064",
@@ -2520,20 +2270,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 5673640,
     "stock": 25,
     "image": "/productos/catalogo/gar-barrera-intense--f02064.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "BARRERA INTENSE  F02064",
-      "Marca": "GAREN",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "GAREN"
     },
     "features": [
       "Barrera Vehicular tipo talanquera para parqueadero",
       "velocidad de apertura 4 segundos",
       "Uso contínuo Incluye asta de 3"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "gar-barrera-intense--f01431",
@@ -2547,20 +2294,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 6160320,
     "stock": 25,
     "image": "/productos/catalogo/gar-barrera-intense--f01431.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "BARRERA INTENSE  F01431",
-      "Marca": "GAREN",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "GAREN"
     },
     "features": [
       "Barrera Vehicular tipo talanquera para parqueadero",
       "velocidad de apertura 6 segundos",
       "Uso contínuo Incluye asta de 4"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "gar-tx-max-negro",
@@ -2574,20 +2318,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 40480,
     "stock": 25,
     "image": "/productos/catalogo/gar-tx-max-negro.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "TX MAX NEGRO",
-      "Marca": "GAREN",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "GAREN"
     },
     "features": [
       "Control inalambrico para accionamiento de portones",
       "frecuencia de 433",
       "92 MHZ Voltaje 3V Bateria CR2032"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "gar-tx-max-azul",
@@ -2601,20 +2342,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 40480,
     "stock": 25,
     "image": "/productos/catalogo/gar-tx-max-azul.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "TX MAX AZUL",
-      "Marca": "GAREN",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "GAREN"
     },
     "features": [
       "Control inalambrico para accionamiento de portones",
       "frecuencia de 433",
       "92 MHZ Voltaje 3V Bateria CR2032"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "gar-tx-st-smd",
@@ -2628,20 +2366,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 40480,
     "stock": 25,
     "image": "/productos/catalogo/gar-tx-st-smd.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "TX ST SMD",
-      "Marca": "GAREN",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "GAREN"
     },
     "features": [
       "Control inalambrico para accionamiento de portones",
       "frecuencia de 433",
       "92 MHZ Voltaje 12V Bateria A23"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "gar-tx-play-blanco",
@@ -2655,20 +2390,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 46000,
     "stock": 25,
     "image": "/productos/catalogo/gar-tx-play-blanco.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "TX PLAY BLANCO",
-      "Marca": "GAREN",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "GAREN"
     },
     "features": [
       "Control inalambrico para accionamiento de portones",
       "frecuencia de 433",
       "92 MHZ Voltaje 3V Bateria de Litio"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "gar-tx-play-negro",
@@ -2682,20 +2414,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 46000,
     "stock": 25,
     "image": "/productos/catalogo/gar-tx-play-negro.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "TX PLAY NEGRO",
-      "Marca": "GAREN",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "GAREN"
     },
     "features": [
       "Control inalambrico para accionamiento de portones",
       "frecuencia de 433",
       "92 MHZ Voltaje 3V Bateria de Litio"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "gar-tx-play-azul",
@@ -2709,20 +2438,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 46000,
     "stock": 25,
     "image": "/productos/catalogo/gar-tx-play-azul.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "TX PLAY AZUL",
-      "Marca": "GAREN",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "GAREN"
     },
     "features": [
       "Control inalambrico para accionamiento de portones",
       "frecuencia de 433",
       "92 MHZ Voltaje 3V Bateria de Litio"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "gar-radar-c09940",
@@ -2736,20 +2462,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 445280,
     "stock": 25,
     "image": "/productos/catalogo/gar-radar-c09940.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "RADAR C09940",
-      "Marca": "GAREN",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "GAREN"
     },
     "features": [
       "Radar de movimiento con microondas",
       "ajuste de sensibilidad y detección",
       "unidireccional o bidireccional"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "gar-radar-a01830",
@@ -2763,20 +2486,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 506000,
     "stock": 25,
     "image": "/productos/catalogo/gar-radar-a01830.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "RADAR A01830",
-      "Marca": "GAREN",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "GAREN"
     },
     "features": [
       "Sensor de movimiento por Microondas y presencia por Infrarrojos",
       "altura máxima 2",
       "5 metros 12 - 30V AC/DC ideal para puertas automáticas"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "gar-radar-ga-sc01",
@@ -2791,19 +2511,18 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/gar-radar-ga-sc01.webp",
     "tags": [
-      "Exterior IP66/IP67"
+      "IP67"
     ],
     "specs": {
       "Referencia": "RADAR GA-SC01",
-      "Marca": "GAREN",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "GAREN"
     },
     "features": [
       "Radar de detección a distancia con precisión 0",
       "04m Ancho de rayo horizontal 100° Ancho de rayo vertical 30° Voltaje de funcionamiento de 9 a 24 voltios",
       "corriente de funcionamiento de 30mA Protección IP67"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "ppa-e02243104",
@@ -2817,20 +2536,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 796950,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e02243104.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "E02243104",
-      "Marca": "PPA",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "PPA"
     },
     "features": [
       "Motor para puerta corrediza de hasta 400KG de Peso",
       "Velocidad de Apertura 14 Segundos",
       "Entrada de voltaje AC 127V"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "ppa-e02252400",
@@ -2844,20 +2560,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 1380000,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e02252400.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "E02252400",
-      "Marca": "PPA",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "PPA"
     },
     "features": [
       "Motor para puerta corrediza de hasta 450KG de Peso",
       "Velocidad de Apertura 4 Segundos",
       "Entrada de voltaje DUAL AC 127VAC  220VAC"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "ppa-e02130103",
@@ -2871,20 +2584,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 862500,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e02130103.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "E02130103",
-      "Marca": "PPA",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "PPA"
     },
     "features": [
       "Motor para puerta corrediza de hasta 450KG de Peso",
       "Velocidad de Apertura 13",
       "5 Segundos"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "ppa-e02213101",
@@ -2898,20 +2608,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 920000,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e02213101.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "E02213101",
-      "Marca": "PPA",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "PPA"
     },
     "features": [
       "Motor para puerta corrediza de hasta 500KG de Peso",
       "Velocidad de Apertura 6",
       "5 Segundos"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "ppa-e02244102",
@@ -2925,20 +2632,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 968300,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e02244102.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "E02244102",
-      "Marca": "PPA",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "PPA"
     },
     "features": [
       "Motor para puerta corrediza de hasta 600KG de Peso",
       "Velocidad de Apertura 13",
       "5 Segundos"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "ppa-e02249102",
@@ -2952,20 +2656,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 1060300,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e02249102.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "E02249102",
-      "Marca": "PPA",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "PPA"
     },
     "features": [
       "Motor para puerta corrediza de hasta 500KG de Peso",
       "Velocidad de Apertura 8",
       "5 Segundos"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "ppa-e02253400",
@@ -2979,20 +2680,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 1612300,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e02253400.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "E02253400",
-      "Marca": "PPA",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "PPA"
     },
     "features": [
       "Motor para puerta corrediza de hasta 650KG de Peso",
       "Velocidad de Apertura 5",
       "5 Segundos"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "ppa-e02147104",
@@ -3006,20 +2704,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 1242000,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e02147104.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "E02147104",
-      "Marca": "PPA",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "PPA"
     },
     "features": [
       "Motor para puerta corrediza de hasta 800KG de Peso",
       "Velocidad de Apertura 13",
       "5 Segundos"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "ppa-e02128403",
@@ -3033,20 +2728,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 1909000,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e02128403.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "E02128403",
-      "Marca": "PPA",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "PPA"
     },
     "features": [
       "Motor para puerta corrediza de hasta 850KG de Peso",
       "Velocidad de Apertura 4",
       "5 Segundos"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "ppa-e02271400",
@@ -3060,20 +2752,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 2213750,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e02271400.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "E02271400",
-      "Marca": "PPA",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "PPA"
     },
     "features": [
       "Motor para puerta corrediza de hasta 500KG de Peso",
       "Velocidad de Apertura 5",
       "5 Segundos"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "ppa-e02127403",
@@ -3087,20 +2776,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 1702000,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e02127403.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "E02127403",
-      "Marca": "PPA",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "PPA"
     },
     "features": [
       "Motor para puerta corrediza de hasta 650KG de Peso",
       "Velocidad de Apertura 4 Segundos",
       "Entrada de voltaje DUAL AC 127VAC - 220VAC"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "ppa-e02147103",
@@ -3114,20 +2800,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 1237400,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e02147103.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "E02147103",
-      "Marca": "PPA",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "PPA"
     },
     "features": [
       "Motor para puerta corrediza de hasta 800KG de Peso",
       "Velocidad de Apertura 13",
       "5 Segundos"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "ppa-e02128401",
@@ -3141,20 +2824,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 1943500,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e02128401.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "E02128401",
-      "Marca": "PPA",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "PPA"
     },
     "features": [
       "Motor para puerta corrediza de hasta 850KG de Peso",
       "Velocidad de Apertura 5",
       "5 Segundos"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "ppa-e02481007",
@@ -3168,20 +2848,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 1244300,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e02481007.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "E02481007",
-      "Marca": "PPA",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "PPA"
     },
     "features": [
       "Motor para puerta corrediza de hasta 700KG de Peso",
       "Velocidad de Apertura 13",
       "5 Segundos"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "ppa-e02481005",
@@ -3195,20 +2872,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 1237400,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e02481005.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "E02481005",
-      "Marca": "PPA",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "PPA"
     },
     "features": [
       "Motor para puerta corrediza de hasta 700KG de Peso",
       "Velocidad de Apertura 13",
       "5 Segundos"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "ppa-e02514006",
@@ -3222,20 +2896,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 1903250,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e02514006.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "E02514006",
-      "Marca": "PPA",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "PPA"
     },
     "features": [
       "Motor para puerta corrediza de hasta 800KG de Peso",
       "Velocidad de Apertura 4",
       "5 Segundos"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "ppa-e02111504",
@@ -3249,20 +2920,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 1903250,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e02111504.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "E02111504",
-      "Marca": "PPA",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "PPA"
     },
     "features": [
       "Motor para puerta corrediza de hasta 800KG de Peso",
       "Velocidad de Apertura 5",
       "5 Segundos"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "ppa-e06281002",
@@ -3276,20 +2944,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 1945800,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e06281002.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "E06281002",
-      "Marca": "PPA",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "PPA"
     },
     "features": [
       "Motor para puerta corrediza de hasta 1000KG de Peso",
       "Velocidad de Apertura 18",
       "5 Segundos"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "ppa-e06264002",
@@ -3303,20 +2968,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 3008400,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e06264002.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "E06264002",
-      "Marca": "PPA",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "PPA"
     },
     "features": [
       "Motor para puerta corrediza de hasta 1500KG de Peso",
       "Velocidad de Apertura 5",
       "5 Segundos"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "ppa-e06272002",
@@ -3330,20 +2992,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 2122900,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e06272002.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "E06272002",
-      "Marca": "PPA",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "PPA"
     },
     "features": [
       "Motor para puerta corrediza de hasta 2000KG de Peso",
       "Velocidad de Apertura 18",
       "5 Segundos"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "ppa-e06281000",
@@ -3357,20 +3016,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 1945800,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e06281000.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "E06281000",
-      "Marca": "PPA",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "PPA"
     },
     "features": [
       "Motor para puerta corrediza de hasta 1000KG de Peso",
       "Velocidad de Apertura 13 Segundos",
       "Entrada de voltaje AC 127VAC"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "ppa-e06184003",
@@ -3384,20 +3040,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 2564500,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e06184003.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "E06184003",
-      "Marca": "PPA",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "PPA"
     },
     "features": [
       "Motor para puerta corrediza de hasta 1000KG de Peso",
       "Velocidad de Apertura 5",
       "5 Segundos"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "ppa-e06684000",
@@ -3411,20 +3064,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 2741600,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e06684000.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "E06684000",
-      "Marca": "PPA",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "PPA"
     },
     "features": [
       "Motor para puerta corrediza de hasta 1300KG de Peso",
       "Velocidad de Apertura 4",
       "5 Segundos"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "ppa-e06264001",
@@ -3438,20 +3088,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 3008400,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e06264001.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "E06264001",
-      "Marca": "PPA",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "PPA"
     },
     "features": [
       "Motor para puerta corrediza de hasta 1500KG de Peso",
       "Velocidad de Apertura 4 Segundos",
       "Entrada de voltaje DUAL AC 127VAC - 220VAC"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "ppa-e06272000",
@@ -3465,20 +3112,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 2122900,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e06272000.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "E06272000",
-      "Marca": "PPA",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "PPA"
     },
     "features": [
       "Motor para puerta corrediza de hasta 2000KG de Peso",
       "Velocidad de Apertura 13 Segundos",
       "Entrada de voltaje 220VAC"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "ppa-e06614002",
@@ -3492,20 +3136,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 3095800,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e06614002.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "E06614002",
-      "Marca": "PPA",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "PPA"
     },
     "features": [
       "Motor para puerta corrediza de hasta 2200KG de Peso",
       "Velocidad de Apertura 5 Segundos",
       "Entrada de voltaje DUAL AC 127VAC - 220VAC"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "ppa-e06704002",
@@ -3519,20 +3160,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 5117500,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e06704002.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "E06704002",
-      "Marca": "PPA",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "PPA"
     },
     "features": [
       "Motor para puerta corrediza de hasta 3000KG de Peso",
       "Velocidad de Apertura 7 Segundos",
       "Entrada de voltaje DUAL AC 127VAC -  220VAC"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "ppa-e03481004",
@@ -3546,20 +3184,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 1325950,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e03481004.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "E03481004",
-      "Marca": "PPA",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "PPA"
     },
     "features": [
       "Motor para puerta batiente para puertas de hasta 2 metros de ancho y hasta 125KG de Peso",
       "Velocidad de Apertura 9",
       "5 Segundos"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "ppa-e03481005",
@@ -3573,20 +3208,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 1398400,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e03481005.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "E03481005",
-      "Marca": "PPA",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "PPA"
     },
     "features": [
       "Motor para puerta batiente para puertas de hasta 3 metros de ancho y hasta 125KG de Peso",
       "Velocidad de Apertura 16",
       "5 Segundos"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "ppa-e03414004---a17818",
@@ -3600,20 +3232,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 1912450,
     "stock": 25,
     "image": "/productos/catalogo/ppa-e03414004---a17818.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "E03414004 + A17818",
-      "Marca": "PPA",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "PPA"
     },
     "features": [
       "Motor para puerta batiente para puertas de hasta 2 metros de ancho y hasta 125KG de Peso",
       "Velocidad de Apertura 2",
       "5 Segundos"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "tdy-tc-c321n-spec-i3-e-y-2-8mm",
@@ -3628,20 +3257,18 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-c321n-spec-i3-e-y-2-8mm.webp",
     "tags": [
-      "Full HD 1080p",
       "PoE"
     ],
     "specs": {
       "Referencia": "TC-C321N Spec:I3/E/Y/2.8mm",
-      "Marca": "Tiandy",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Tiandy"
     },
     "features": [
       "Cámara IP bala infrarroja fija Carcasa de metal y plástico Hasta 1920×1080 2MPX a 30 fps S+265/H",
       "265/H",
       "264 Iluminación mínima de color: 0"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "tdy-tc-c320n-1anb-28",
@@ -3660,15 +3287,14 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Referencia": "TC-C320N 1ANB-28",
-      "Marca": "Tiandy",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Tiandy"
     },
     "features": [
       "Cámara IP domo a color Carcasa de plástico Hasta 2 MP",
       "1920 × 1080 a 30 fpsS265/H",
       "265/H"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "tdy-tc-c321n-spec-i3-e-y-2-8mm-v2-0",
@@ -3687,15 +3313,14 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Referencia": "TC-C321N Spec:I3/E/Y/2.8mm/V2.0",
-      "Marca": "Tiandy",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Tiandy"
     },
     "features": [
       "Cámara IP bala infrarroja fija Carcasa de plástico Hasta 1920×1080 a 30 fps S+265/H",
       "265/H",
       "264 Iluminación mínima de color: 0"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "tdy-tc-c320n-spec-i3-e-y-2-8mm-v2-0",
@@ -3710,20 +3335,18 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-c320n-spec-i3-e-y-2-8mm-v2-0.webp",
     "tags": [
-      "Full HD 1080p",
       "PoE"
     ],
     "specs": {
       "Referencia": "TC-C320N Spec:I3/E/Y/2.8mm/V2.0",
-      "Marca": "Tiandy",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Tiandy"
     },
     "features": [
       "Cámara IP domo infrarroja fija Carcasa de plástico+metal Hasta 1920×1080  2MPX a 30 fps S+265/H",
       "265/H",
       "264 Iluminación mínima de color: 0"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "tdy-tc-c321n-spec-ak-i3w-e-y-2-8mm-v2-0",
@@ -3738,20 +3361,19 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-c321n-spec-ak-i3w-e-y-2-8mm-v2-0.webp",
     "tags": [
-      "Exterior IP66/IP67",
+      "IP67",
       "PoE"
     ],
     "specs": {
       "Referencia": "TC-C321N Spec:AK/I3W/E/Y/2.8mm/V2.0",
-      "Marca": "Tiandy",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Tiandy"
     },
     "features": [
       "Mini cámara bala a color Carcasa de plástico hasta 2 MP",
       "1920 × 1080 a 30 fpsS265/H",
       "265/H"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "tdy-tc-c32rn-spec-i5-e-y-qx-2-8mm-v4-2",
@@ -3766,21 +3388,19 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-c32rn-spec-i5-e-y-qx-2-8mm-v4-2.webp",
     "tags": [
-      "Exterior IP66/IP67",
-      "Full HD 1080p",
+      "IP67",
       "PoE"
     ],
     "specs": {
       "Referencia": "TC-C32RN Spec:I5/E/Y/QX/2.8mm/V4.2",
-      "Marca": "Tiandy",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Tiandy"
     },
     "features": [
       "Cámara de domo Lente dual 2MPX",
       "sensor dual",
       "una IP"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "tdy-tc-c34qn-spec-i3-e-y-2-8mm-v5-0",
@@ -3795,20 +3415,19 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-c34qn-spec-i3-e-y-2-8mm-v5-0.webp",
     "tags": [
-      "Exterior IP66/IP67",
+      "IP67",
       "PoE"
     ],
     "specs": {
       "Referencia": "TC-C34QN Spec:I3/E/Y/2.8mm/V5.0",
-      "Marca": "Tiandy",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Tiandy"
     },
     "features": [
       "Camara Bala 4MPX Carcasa de metal y plástico Hasta 4 MP",
       "2560×1440 a 20 fpsS265/H",
       "265/H"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "tdy-tc-c34xn-spec-i3-e-y-2-8mm-v5-0",
@@ -3827,15 +3446,14 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Referencia": "TC-C34XN Spec:I3/E/Y/2.8mm/V5.0",
-      "Marca": "Tiandy",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Tiandy"
     },
     "features": [
       "Cámara domo color dia/noche 4 MPX Carcasa de metal y plástico Hasta 2560x1440 a 20 fps S+265/H",
       "265/H",
       "264 Iluminación mínima en color: 0"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "tdy-tc-h363n-spec-i5w-wifi-am-4mm-v4-0",
@@ -3854,15 +3472,14 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Referencia": "TC-H363N Spec:I5W/WIFI/AM/4mm/V4.0",
-      "Marca": "Tiandy",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Tiandy"
     },
     "features": [
       "Cámara de seguridad IP tipo PT (Pan/Tilt) con tecnología ColorMaker y doble lente (resolución total de 6MP)",
       "conectividad inalámbrica WiFi",
       "lente fijo de 4mm e iluminación infrarroja de hasta 50 metros"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "tdy-tc-r3104-spec-i-b-p4-c-am-l-s-v2-0",
@@ -3877,20 +3494,19 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-r3104-spec-i-b-p4-c-am-l-s-v2-0.webp",
     "tags": [
-      "Full HD 1080p",
-      "PoE"
+      "PoE",
+      "1080p"
     ],
     "specs": {
       "Referencia": "TC-R3104 Spec:I/B/P4/C/Am/L/S/V2.0",
-      "Marca": "Tiandy",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Tiandy"
     },
     "features": [
       "Acceso a cámaras IP de hasta 4 canales Ancho de banda de entrada/salida: 60 Mbps/40 Mbps Formatos de vídeo S+265",
       "S+264",
       "264 Capacidad máxima de decodificación: 6 MP (30 fps) × 1 o 1080P (30 fps) × 4 Reproducción sincronizada de 4 canales Hasta 6 TB de capacidad por disco duro Salidas HDMI y VGA simultáneas Salida HDMI con una resolución de hasta 1080P 1 puerto Ethernet autoadaptativo RJ-45 de 10/100 MbpsInterfaz PoE"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "tdy-tc-r3108-spec-i-b-p8-c-am-l-s-v2-0",
@@ -3905,20 +3521,19 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-r3108-spec-i-b-p8-c-am-l-s-v2-0.webp",
     "tags": [
-      "Full HD 1080p",
-      "PoE"
+      "PoE",
+      "1080p"
     ],
     "specs": {
       "Referencia": "TC-R3108 Spec:I/B/P8/C/Am/L/S/V2.0",
-      "Marca": "Tiandy",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Tiandy"
     },
     "features": [
       "Acceso a cámaras IP de hasta 8 canales Ancho de banda de entrada/salida: 60 Mbps/40 Mbps Formatos de vídeo S+265",
       "S+264",
       "264 Capacidad máxima de decodificación: 6 MP (30 fps) × 1 o 1080P (30 fps) × 4 Reproducción sincronizada de 4 canales Hasta 6 TB de capacidad por disco duro Salidas HDMI y VGA simultáneas Salida HDMI con una resolución de hasta 1080P 1 puerto Ethernet autoadaptativo RJ-45 de 10/100 Mbps Interfaz PoE"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "tdy-tc-c32un-spec-i8-a-e-y-2-8-12mm-v4-2",
@@ -3933,21 +3548,19 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-c32un-spec-i8-a-e-y-2-8-12mm-v4-2.webp",
     "tags": [
-      "Exterior IP66/IP67",
-      "Full HD 1080p",
+      "IP67",
       "PoE"
     ],
     "specs": {
       "Referencia": "TC-C32UN Spec:I8/A/E/Y/2.8-12mm/V4.2",
-      "Marca": "Tiandy",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Tiandy"
     },
     "features": [
       "Camara Bala 2 MPX Motorizada Lente 2",
       "8 -12 MM Carcasa de metal y plástico Hasta2MP",
       "1920 × 1080 a 30 fpsS265/H"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "tdy-tc-c32qn-spec-i5w-e-y-2-8mm-v4-2",
@@ -3962,20 +3575,19 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-c32qn-spec-i5w-e-y-2-8mm-v4-2.webp",
     "tags": [
-      "Exterior IP66/IP67",
+      "IP67",
       "PoE"
     ],
     "specs": {
       "Referencia": "TC-C32QN Spec:I5W/E/Y/2.8mm/V4.2",
-      "Marca": "Tiandy",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Tiandy"
     },
     "features": [
       "Cámara Bala 2 MPX Carcasa de metal y plástico Lente Fijo 2",
       "8mm Resolución máxima:S265/H",
       "265/H"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "tdy-tc-c32xn-spec-i3w-e-y-2-8mm-v4-2",
@@ -3994,15 +3606,14 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Referencia": "TC-C32XN Spec:I3W/E/Y/2.8mm/V4.2",
-      "Marca": "Tiandy",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Tiandy"
     },
     "features": [
       "Cámara domo 2 MPX Lente fijo 2",
       "8 mm Carcasa de metal y plástico Hasta 1920x1080 a 25 fps S+265/H",
       "265/H"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "tdy-tc-c34wp-spec-w-e-y-2-8mm-v4-0",
@@ -4017,20 +3628,18 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-c34wp-spec-w-e-y-2-8mm-v4-0.webp",
     "tags": [
-      "Exterior IP66/IP67",
       "PoE"
     ],
     "specs": {
       "Referencia": "TC-C34WP Spec:W/E/Y/2.8mm/V4.0",
-      "Marca": "Tiandy",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Tiandy"
     },
     "features": [
       "Cámara bala full Color 4MPX Lente fijo de 2",
       "8mm Carcasa de metal y plástico Hasta 4 MP",
       "2592 × 1520 a 25 fps S 265/H"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "tdy-tc-c34uv-spec-w-e-y-m-s-4mm",
@@ -4045,20 +3654,19 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-c34uv-spec-w-e-y-m-s-4mm.webp",
     "tags": [
-      "Exterior IP66/IP67",
+      "IP67",
       "PoE"
     ],
     "specs": {
       "Referencia": "TC-C34UV Spec:W/E/Y/M/S/4mm",
-      "Marca": "Tiandy",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Tiandy"
     },
     "features": [
       "Carcasa de metal Hasta máx",
       "Resolución S+265/H",
       "265/H"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "tdy-tc-c34un-spec-i8-a-e-y-2-8-12mm-v4-2",
@@ -4072,20 +3680,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 341414,
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-c34un-spec-i8-a-e-y-2-8-12mm-v4-2.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "TC-C34UN Spec:I8/A/E/Y/2.8-12mm/V4.2",
-      "Marca": "Tiandy",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Tiandy"
     },
     "features": [
       "Cámara bala 4 MPX Carcasa de metal y plástico Lente motorizada de 2",
       "8-12 mm Hasta 2688 x 1520 a 25 fps S+265/H",
       "265/H"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "tdy-tc-c38ws-spec-i5-e-m-2-8mm",
@@ -4100,20 +3705,19 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-c38ws-spec-i5-e-m-2-8mm.webp",
     "tags": [
-      "Exterior IP66/IP67",
+      "IP67",
       "PoE"
     ],
     "specs": {
       "Referencia": "TC-C38WS Spec:I5/E/M/2.8mm/",
-      "Marca": "Tiandy",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Tiandy"
     },
     "features": [
       "Cámara Bala 8 MPX Lente fijo de 2",
       "8 mm Carcasa metálica Resolución máxima de 3840 x2160 S265/H",
       "265/H"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "tdy-tc-c38ks-spec--i3-e-y-2-8mm-v4-0",
@@ -4128,20 +3732,19 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-c38ks-spec--i3-e-y-2-8mm-v4-0.webp",
     "tags": [
-      "Exterior IP66/IP67",
+      "IP67",
       "PoE"
     ],
     "specs": {
       "Referencia": "TC-C38KS Spec: I3/E/Y/2.8mm/V4.0",
-      "Marca": "Tiandy",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Tiandy"
     },
     "features": [
       "Cámara Domo 8 MPX Lente Fijo 2",
       "8 mm Carcasa de metal y plástico Hasta 3840x2160 a 20 fps S+265/H",
       "265/H"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "tdy-tc-c32kn-spec-i3-e-y-c-2-8mm-v4-3",
@@ -4156,21 +3759,19 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-c32kn-spec-i3-e-y-c-2-8mm-v4-3.webp",
     "tags": [
-      "Exterior IP66/IP67",
-      "Full HD 1080p",
+      "IP66",
       "PoE"
     ],
     "specs": {
       "Referencia": "TC-C32KN SPEC:I3/E/Y/C/2.8MM/V4.3",
-      "Marca": "Tiandy",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Tiandy"
     },
     "features": [
       "Domo lente fijo 2",
       "8 mm Carcasa de plástico Hasta 2MP",
       "1920×1080@30fps S+265/H"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "tdy-tc-c32kn-spec-i3-a-e-y-2-8-12mm-v4-2",
@@ -4185,21 +3786,19 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-c32kn-spec-i3-a-e-y-2-8-12mm-v4-2.webp",
     "tags": [
-      "Exterior IP66/IP67",
-      "Full HD 1080p",
+      "IP66",
       "PoE"
     ],
     "specs": {
       "Referencia": "TC-C32KN Spec:I3/A/E/Y/2.8-12mm/V4.2",
-      "Marca": "Tiandy",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Tiandy"
     },
     "features": [
       "Cámara domo Varifocal 2MPX Lente Motorizado de 2",
       "8 - 12 mm Carcasa de plástico S265/H",
       "265/H"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "tdy-tc-c32ks-spec-i3-e-y-c-sd-2-8mm-v4-2",
@@ -4214,20 +3813,19 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-c32ks-spec-i3-e-y-c-sd-2-8mm-v4-2.webp",
     "tags": [
-      "Exterior IP66/IP67",
+      "IP66",
       "PoE"
     ],
     "specs": {
       "Referencia": "TC-C32KS Spec:I3/E/Y/C/SD/2.8mm/V4.2",
-      "Marca": "Tiandy",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Tiandy"
     },
     "features": [
       "Cámara Domo 2 MPX Lente fijo de 2",
       "8 mm Carcasa de metal y plástico Hasta 1920x1080 a 30 fps S+265/H",
       "265/H"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "tdy-tc-c34kn-spec-i3-e-y-c-2-8mm-v4-3",
@@ -4242,20 +3840,19 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-c34kn-spec-i3-e-y-c-2-8mm-v4-3.webp",
     "tags": [
-      "Exterior IP66/IP67",
+      "IP66",
       "PoE"
     ],
     "specs": {
       "Referencia": "TC-C34KN Spec:I3/E/Y/C/2.8mm/V4.3",
-      "Marca": "Tiandy",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Tiandy"
     },
     "features": [
       "Cámara domo 4MPX Lente fijo de 2",
       "8 mmCarcasa de plástico Hasta 4MP",
       "2688 ×1520 a 25fps S265/H"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "tdy-tc-c35ks-spec-i3-e-y-2-8mm-v4-0",
@@ -4270,20 +3867,19 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-c35ks-spec-i3-e-y-2-8mm-v4-0.webp",
     "tags": [
-      "Exterior IP66/IP67",
+      "IP66",
       "PoE"
     ],
     "specs": {
       "Referencia": "TC-C35KS Spec:I3/E/Y/2.8mm/V4.0",
-      "Marca": "Tiandy",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Tiandy"
     },
     "features": [
       "Domo 5 MPX Lente fijo de 2",
       "8 mm Carcasa de metal y plástico Hasta 2592 x 1944 a 20 fps S 265/H",
       "265/H"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "tdy-tc-c34qn-spec-i5w-e-y-2-8mm-v4-2",
@@ -4298,20 +3894,19 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-c34qn-spec-i5w-e-y-2-8mm-v4-2.webp",
     "tags": [
-      "Exterior IP66/IP67",
+      "IP67",
       "PoE"
     ],
     "specs": {
       "Referencia": "TC-C34QN Spec:I5W/E/Y/2.8mm/V4.2",
-      "Marca": "Tiandy",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Tiandy"
     },
     "features": [
       "Cámara Bala 4MPX Lente fijo de 2",
       "8 mm Carcasa de metal y plástico Resolución máxima: S 265/H",
       "265/H"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "tdy-tc-c32ps-spec-i3-e-y-m-h-2-8mm-v4-2",
@@ -4326,21 +3921,19 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-c32ps-spec-i3-e-y-m-h-2-8mm-v4-2.webp",
     "tags": [
-      "Exterior IP66/IP67",
-      "Biométrico",
+      "IP66",
       "PoE"
     ],
     "specs": {
       "Referencia": "TC-C32PS Spec:I3/E/Y/M/H/2.8mm/V4.2",
-      "Marca": "Tiandy",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Tiandy"
     },
     "features": [
       "Cámara tipo domo 2 MPX Lente fijo 2",
       "8mm Carcasa metálica Hasta 2 MP",
       "1920 × 1080 a 30 fps S 265/H"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "tdy-tc-c382v-spec-w-e-y-s-h-2-8mm",
@@ -4355,20 +3948,19 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-c382v-spec-w-e-y-s-h-2-8mm.webp",
     "tags": [
-      "Exterior IP66/IP67",
+      "IP67",
       "PoE"
     ],
     "specs": {
       "Referencia": "TC-C382V Spec:W/E/Y/S/H/2.8mm",
-      "Marca": "Tiandy",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Tiandy"
     },
     "features": [
       "Cámara tipo bala 8MPX Doble Lente",
       "panorámmica de 180° Carcasa de metal y plástico Resolución máxima: S+265/H",
       "265/H"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "tdy-tc-h324s-spec-23x-i-e-c-v3-0",
@@ -4383,20 +3975,19 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-h324s-spec-23x-i-e-c-v3-0.webp",
     "tags": [
-      "Exterior IP66/IP67",
+      "IP66",
       "PoE"
     ],
     "specs": {
       "Referencia": "TC-H324S Spec:23X/I/E/C/V3.0",
-      "Marca": "Tiandy",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Tiandy"
     },
     "features": [
       "Domp PTZ Hasta 2 MPM 23X",
       "1920 × 1080 a 30 fps Color: 0",
       "001 lux a (F1"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "tdy-tc-h324s-spec--25x-i-e-v3-0",
@@ -4411,20 +4002,18 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-h324s-spec--25x-i-e-v3-0.webp",
     "tags": [
-      "Exterior IP66/IP67",
-      "Full HD 1080p"
+      "IP66"
     ],
     "specs": {
       "Referencia": "TC-H324S Spec: 25X/I/E/V3.0",
-      "Marca": "Tiandy",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Tiandy"
     },
     "features": [
       "Domo PTZ Hasta 2MPX 25 X Hasta 1920x1080 a 30 fps Iluminación mínima en color: 0",
       "001 lux a F1",
       "5 Zoom óptico: 25X"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "tdy-tc-h344s-spec-25x-i-e--a-am-v3-0",
@@ -4439,19 +4028,18 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/tdy-tc-h344s-spec-25x-i-e--a-am-v3-0.webp",
     "tags": [
-      "Exterior IP66/IP67"
+      "IP66"
     ],
     "specs": {
       "Referencia": "TC-H344S Spec:25X/I/E+/A/AM/V3.0",
-      "Marca": "Tiandy",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Tiandy"
     },
     "features": [
       "Domo PTZ Hasta 4MPX 25 X Hasta 2560x1440 a 30 fps Iluminación mínima en color: 0",
       "001 lux a F1",
       "AGC ON"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "imou-vd1-5m0s",
@@ -4466,19 +4054,18 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/imou-vd1-5m0s.webp",
     "tags": [
-      "Profesional"
+      "WiFi"
     ],
     "specs": {
       "Referencia": "VD1-5M0S",
-      "Marca": "IMOU",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "IMOU"
     },
     "features": [
       "MIRILLA INTELIGENTE IP 5MP QHD",
       "PANTALLA COLOR 4",
       "VIDEO SIEMPRE ACTIVO (AOV)"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "imou-asl-cubo1-k-d",
@@ -4493,20 +4080,18 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/imou-asl-cubo1-k-d.webp",
     "tags": [
-      "WiFi",
-      "Biométrico"
+      "WiFi"
     ],
     "specs": {
       "Referencia": "ASL-CUBO1-K(D)",
-      "Marca": "IMOU",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "IMOU"
     },
     "features": [
       "Cerradura Digital Inteligente",
       "Wifi 2",
       "4GHz"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "imou-ipc-k2en-3r1w",
@@ -4525,15 +4110,14 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Referencia": "IPC-K2EN-3R1W",
-      "Marca": "IMOU",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "IMOU"
     },
     "features": [
       "CÁMARA RANGER 2 IP/PT WIFI 3MP (2048x1536)",
       "LENTE 3",
       "IR LED 10M"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "imou-ipc-k2en-5r1w",
@@ -4552,15 +4136,14 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Referencia": "IPC-K2EN-5R1W",
-      "Marca": "IMOU",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "IMOU"
     },
     "features": [
       "CÁMARA RANGER 2 IP/PT WIFI 5MP (2595x1944)",
       "LENTE 3",
       "IR LED 10M"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "imou-ipc-k2mn-3r1w",
@@ -4579,15 +4162,14 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Referencia": "IPC-K2MN-3R1W",
-      "Marca": "IMOU",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "IMOU"
     },
     "features": [
       "CAMARA IP/PT RANGER MINI WIFI 3MP",
       "FULL COLOR",
       "IR LED 10M"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "imou-ipc-k2mn-5r1w",
@@ -4606,15 +4188,14 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Referencia": "IPC-K2MN-5R1W",
-      "Marca": "IMOU",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "IMOU"
     },
     "features": [
       "CAMARA IP/PT RANGER MINI WIFI 5MP",
       "FULL COLOR",
       "IR LED 10M"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "imou-ipc-s2en-3r1s",
@@ -4633,15 +4214,14 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Referencia": "IPC-S2EN-3R1S",
-      "Marca": "IMOU",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "IMOU"
     },
     "features": [
       "Cámara IP  Ranger 2 PRO",
       "CMOS 1/3\"",
       "Dia/Noche Real"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "imou-ipc-s2en-5r1s",
@@ -4660,15 +4240,14 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Referencia": "IPC-S2EN-5R1S",
-      "Marca": "IMOU",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "IMOU"
     },
     "features": [
       "Cámara IP  Ranger 2 PRO",
       "CMOS 1/3\"",
       "Dia/Noche Real"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "imou-ipc-s2en-8x0s",
@@ -4687,15 +4266,14 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Referencia": "IPC-S2EN-8X0S",
-      "Marca": "IMOU",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "IMOU"
     },
     "features": [
       "Cámara IP  Ranger 2 PRO",
       "CMOS 1/3\"",
       "Dia/Noche Real"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "imou-ipc-s20en-6m0s",
@@ -4714,15 +4292,14 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Referencia": "IPC-S20EN-6M0S",
-      "Marca": "IMOU",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "IMOU"
     },
     "features": [
       "Cámara IP tipo Ranger PT",
       "WIFI FULL COLOR",
       "LENTE DUAL (3MP Lente fijo/3MP PT)CMOS 1/2"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "imou-ipc-s20en-10m0s",
@@ -4741,15 +4318,14 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Referencia": "IPC-S20EN-10M0S",
-      "Marca": "IMOU",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "IMOU"
     },
     "features": [
       "Cámara IP tipo Ranger PT",
       "10MP",
       "WIFI FULL COLOR"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "imou-ipc-u7ln-6v0ne",
@@ -4764,21 +4340,20 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/imou-ipc-u7ln-6v0ne.webp",
     "tags": [
-      "Exterior IP66/IP67",
+      "IP66",
       "WiFi",
       "PoE"
     ],
     "specs": {
       "Referencia": "IPC-U7LN-6V0NE",
-      "Marca": "IMOU",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "IMOU"
     },
     "features": [
       "Cámara IP-PT/WIFI TITAN PRO",
       "FULL COLOR 6MP",
       "IR Led 30m"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "imou-ipc-k7fn-3v0w",
@@ -4797,15 +4372,14 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Referencia": "IPC-K7FN-3V0W",
-      "Marca": "IMOU",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "IMOU"
     },
     "features": [
       "CÁMARA CRUISER SC",
       "IP-PT WIFI DE 3MP (2304X1296)",
       "LENTE 3"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "imou-ipc-k7fn-5v0w",
@@ -4824,15 +4398,14 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Referencia": "IPC-K7FN-5V0W",
-      "Marca": "IMOU",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "IMOU"
     },
     "features": [
       "CÁMARA CRUISER SC",
       "IP-PT WIFI DE 5MP (2880X1620)",
       "LENTE 3"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "imou-ipc-k7fn-8v0n",
@@ -4847,21 +4420,20 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/imou-ipc-k7fn-8v0n.webp",
     "tags": [
-      "Exterior IP66/IP67",
+      "IP66",
       "WiFi",
       "PoE"
     ],
     "specs": {
       "Referencia": "IPC-K7FN-8V0N",
-      "Marca": "IMOU",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "IMOU"
     },
     "features": [
       "Cámara IP tipo CRUSIER SC",
       "Wifi FULL COLOR PT 8MP",
       "IR Led 30m"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "imou-ipc-s7xen-8m0wed",
@@ -4876,20 +4448,19 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/imou-ipc-s7xen-8m0wed.webp",
     "tags": [
-      "Exterior IP66/IP67",
+      "IP66",
       "WiFi"
     ],
     "specs": {
       "Referencia": "IPC-S7XEN-8M0WED",
-      "Marca": "IMOU",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "IMOU"
     },
     "features": [
       "Cámara IP tipo CRUSIER DUAL",
       "Wifi FULL COLOR PT 3 MP+ 5MP",
       "IR Led 30m"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "imou-ipc-s7xen-10m0wed",
@@ -4904,20 +4475,19 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/imou-ipc-s7xen-10m0wed.webp",
     "tags": [
-      "Exterior IP66/IP67",
+      "IP66",
       "WiFi"
     ],
     "specs": {
       "Referencia": "IPC-S7XEN-10M0WED",
-      "Marca": "IMOU",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "IMOU"
     },
     "features": [
       "Cámara IP tipo CRUSIER DUAL",
       "Wifi FULL COLOR PT 5MP + 5MP",
       "IR Led 30m"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "imou-ipc-b7ed-5m0tea-am-fsp14",
@@ -4936,15 +4506,14 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Referencia": "IPC-B7ED-5M0TEA-AM/FSP14",
-      "Marca": "IMOU",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "IMOU"
     },
     "features": [
       "CAMARA WIFI AOV Cell PT 4G de 5MP(2880x1620) CON PANEL SOLAR",
       "CONEXION 4G LTE O WIFI",
       "AUDIO DOBLE VIA"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "imou-nvr-n110w-8a0e-n",
@@ -4963,15 +4532,14 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Referencia": "NVR-N110W-8A0E-N",
-      "Marca": "IMOU",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "IMOU"
     },
     "features": [
       "GRABADOR WIFI 6 DOBLE BANDA (2",
       "4/5 GHz) 10CH",
       "4 ANTENAS"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "imou-nvr-n118w-8a0e-n",
@@ -4990,15 +4558,14 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Referencia": "NVR-N118W-8A0E-N",
-      "Marca": "IMOU",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "IMOU"
     },
     "features": [
       "GRABADOR WIFI 6 DOBLE BANDA (2",
       "4/5 GHz) 18CH",
       "4 ANTENAS"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "itb-anm-24-net",
@@ -5012,20 +4579,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 413080,
     "stock": 25,
     "image": "/productos/catalogo/itb-anm-24-net.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "ANM 24 NET",
-      "Marca": "Intelbras",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Intelbras"
     },
     "features": [
       "KIT PANEL de alarma no monitoreado",
       "4 zonas cableadas",
       "20 zonas inalámbricas"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "itb-amt-4010-rf",
@@ -5039,20 +4603,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 271676,
     "stock": 25,
     "image": "/productos/catalogo/itb-amt-4010-rf.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "AMT 4010 RF",
-      "Marca": "Intelbras",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Intelbras"
     },
     "features": [
       "PANEL de alarma monitoreada",
       "Capacidad para conectar hasta 4 teclados",
       "4 receptores"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "itb-xez-4008-smart",
@@ -5066,18 +4627,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 69276,
     "stock": 25,
     "image": "/productos/catalogo/itb-xez-4008-smart.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "XEZ 4008 SMART",
-      "Marca": "Intelbras",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Intelbras"
     },
     "features": [
       "MODULO EXPANSOR de 8 zonas"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "itb-xar-4000-smart",
@@ -5091,20 +4649,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 76912,
     "stock": 25,
     "image": "/productos/catalogo/itb-xar-4000-smart.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "XAR 4000 SMART",
-      "Marca": "Intelbras",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Intelbras"
     },
     "features": [
       "RECEPTOR panel de alarma de las series 2000 y 4000",
       "92 MHz",
       "100 metros de la señal de RF en campo abierto"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "itb-xat-4000-lcd",
@@ -5118,18 +4673,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 147200,
     "stock": 25,
     "image": "/productos/catalogo/itb-xat-4000-lcd.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "XAT 4000 LCD",
-      "Marca": "Intelbras",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Intelbras"
     },
     "features": [
       "TECLADO para centrales XAT 4000,  instalación de hasta 1km* (del teclado hasta l"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "itb-xez-4008-smart-11",
@@ -5143,18 +4695,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 69276,
     "stock": 25,
     "image": "/productos/catalogo/itb-xez-4008-smart-11.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "XEZ 4008 SMART",
-      "Marca": "Intelbras",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Intelbras"
     },
     "features": [
       "MÓDULO de comunicación Ethernet, compatible con el panel AMT 4010"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "itb-xeg-4010-3g-exp",
@@ -5168,20 +4717,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 524745,
     "stock": 25,
     "image": "/productos/catalogo/itb-xeg-4010-3g-exp.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "XEG 4010 3G EXP",
-      "Marca": "Intelbras",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Intelbras"
     },
     "features": [
       "Módulo de comunicación Ethernet y 3G",
       "Compatible con panel AMT-4010",
       "Incluye antena"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "itb-xas-smart",
@@ -5195,20 +4741,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 42320,
     "stock": 25,
     "image": "/productos/catalogo/itb-xas-smart.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "XAS SMART",
-      "Marca": "Intelbras",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Intelbras"
     },
     "features": [
       "Contacto magnético inalámbrico",
       "Compatible con ANM 24 NET",
       "AMT 1000"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "itb-ivp-1000-pet-smart",
@@ -5222,20 +4765,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 75992,
     "stock": 25,
     "image": "/productos/catalogo/itb-ivp-1000-pet-smart.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "IVP 1000 PET SMART",
-      "Marca": "Intelbras",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Intelbras"
     },
     "features": [
       "Sensor de movimiento infrarrojo pasivo inalámbrico anti mascota de hasta 20KG",
       "uso interior",
       "Compatible con ANM 24 NET"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "itb-ivp-1000-pet",
@@ -5249,20 +4789,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 32476,
     "stock": 25,
     "image": "/productos/catalogo/itb-ivp-1000-pet.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "IVP 1000 PET",
-      "Marca": "Intelbras",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Intelbras"
     },
     "features": [
       "Sensor de movimiento infrarrojo pasivo cableado anti mascota de hasta 20KG",
       "uso interior",
       "Compatible con paneles cableados Intelbras y otras marcas"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "itb-ivp-5311-mw-pet",
@@ -5276,20 +4813,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 110400,
     "stock": 25,
     "image": "/productos/catalogo/itb-ivp-5311-mw-pet.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "IVP 5311 MW PET",
-      "Marca": "Intelbras",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Intelbras"
     },
     "features": [
       "SENSOR de movimiento infrarrojo pasivo cableado con triple tecnología",
       "Triple tecnología (piro sensor",
       "microondas y PET IMMUNITY)"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "itb-xas-4010-smart",
@@ -5303,18 +4837,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 22724,
     "stock": 25,
     "image": "/productos/catalogo/itb-xas-4010-smart.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "XAS 4010 SMART",
-      "Marca": "Intelbras",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Intelbras"
     },
     "features": [
       "Sensor magnetico cableado para puerta y ventana XAS 4010 Smart"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "itb-iva-5015-digital",
@@ -5329,19 +4860,18 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/itb-iva-5015-digital.webp",
     "tags": [
-      "Exterior IP66/IP67"
+      "IP65"
     ],
     "specs": {
       "Referencia": "IVA 5015 DIGITAL",
-      "Marca": "Intelbras",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Intelbras"
     },
     "features": [
       "BARRERA fotoeléctrica de 2 haces",
       "30m exterior",
       "grado de protección IP65"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "itb-iva-3070-x",
@@ -5355,20 +4885,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 182804,
     "stock": 25,
     "image": "/productos/catalogo/itb-iva-3070-x.webp",
-    "tags": [
-      "Exterior IP66/IP67"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "IVA 3070 X",
-      "Marca": "Intelbras",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Intelbras"
     },
     "features": [
       "BARRERA fotoeléctrica de 2 haces",
       "70m exterior",
       "190m interior"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "itb-iva-3110x",
@@ -5382,20 +4909,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 188324,
     "stock": 25,
     "image": "/productos/catalogo/itb-iva-3110x.webp",
-    "tags": [
-      "Exterior IP66/IP67"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "IVA 3110X",
-      "Marca": "Intelbras",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Intelbras"
     },
     "features": [
       "BARRERA fotoeléctrica de 2 haces",
       "110m exterior",
       "310m interior"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "itb-iva-7100-quad",
@@ -5410,19 +4934,18 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/itb-iva-7100-quad.webp",
     "tags": [
-      "Exterior IP66/IP67"
+      "IP65"
     ],
     "specs": {
       "Referencia": "IVA 7100 QUAD",
-      "Marca": "Intelbras",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Intelbras"
     },
     "features": [
       "BARRERA fotoeléctrica de 4 haces",
       "100m exterior",
       "grado de protección IP65"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "itb-iva-7100-hexa",
@@ -5437,19 +4960,18 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/itb-iva-7100-hexa.webp",
     "tags": [
-      "Exterior IP66/IP67"
+      "IP65"
     ],
     "specs": {
       "Referencia": "IVA 7100 HEXA",
-      "Marca": "Intelbras",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Intelbras"
     },
     "features": [
       "BARRERA fotoeléctrica de 6 haces",
       "100m exterior",
       "grado de protección IP65"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "itb-iva-7100-octa",
@@ -5463,20 +4985,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 460000,
     "stock": 25,
     "image": "/productos/catalogo/itb-iva-7100-octa.webp",
-    "tags": [
-      "Exterior IP66/IP67"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "IVA 7100 OCTA",
-      "Marca": "Intelbras",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Intelbras"
     },
     "features": [
       "BARRERA fotoeléctrica de 8 haces",
       "100m exterior",
       "grado de protección IP55"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "itb-elc6012",
@@ -5490,20 +5009,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 271952,
     "stock": 25,
     "image": "/productos/catalogo/itb-elc6012.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "ELC6012",
-      "Marca": "Intelbras",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Intelbras"
     },
     "features": [
       "Panel de cerca eléctrica con módulo Wi‑Fi integrado para monitoreo y control remoto vía app",
       "Ideal para protección de perímetros amplios con hasta 7 zonas inalámbricas y una cableada",
       "Características principales: Control remoto por app (Wi‑Fi Connect)Cobertura hasta 7"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "itb-cie1060",
@@ -5522,15 +5038,14 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Referencia": "CIE1060",
-      "Marca": "Intelbras",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Intelbras"
     },
     "features": [
       "Central de alarma de incendio direccionable de 1 lazo",
       "60 dispositivos",
       "Alimentación 120-240VAC"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "itb-cie1125",
@@ -5544,20 +5059,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 1115960,
     "stock": 25,
     "image": "/productos/catalogo/itb-cie1125.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "CIE1125",
-      "Marca": "Intelbras",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Intelbras"
     },
     "features": [
       "Central de Alarma de Incendio direccionable de 1 Lazo",
       "125 dispositivos",
       "Permite la agrupación de sensores hasta 250 zonas y creación de hasta 100 reglas de accionamiento"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "itb-dfe-521",
@@ -5571,20 +5083,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 63480,
     "stock": 25,
     "image": "/productos/catalogo/itb-dfe-521.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "DFE 521",
-      "Marca": "Intelbras",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Intelbras"
     },
     "features": [
       "DETECTOR de humo direccionable",
       "base incluida",
       "led indicador de alarma/supervisión"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "itb-dte-521",
@@ -5598,20 +5107,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 106168,
     "stock": 25,
     "image": "/productos/catalogo/itb-dte-521.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "DTE 521",
-      "Marca": "Intelbras",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Intelbras"
     },
     "features": [
       "DETECTOR de temperatura direccionable",
       "base incluida",
       "led indicador de alarma/supervisión"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "itb-sav-521e",
@@ -5625,18 +5131,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 112976,
     "stock": 25,
     "image": "/productos/catalogo/itb-sav-521e.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "SAV 521E",
-      "Marca": "Intelbras",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Intelbras"
     },
     "features": [
       "Sirena Estroboscópica de pared direccionable"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "itb-ame-521",
@@ -5650,18 +5153,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 63112,
     "stock": 25,
     "image": "/productos/catalogo/itb-ame-521.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "AME 521",
-      "Marca": "Intelbras",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Intelbras"
     },
     "features": [
       "ESTACIÓN Manual Direccionable sin sirena"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "itb-idl-521",
@@ -5675,18 +5175,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 121900,
     "stock": 25,
     "image": "/productos/catalogo/itb-idl-521.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "IDL 521",
-      "Marca": "Intelbras",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Intelbras"
     },
     "features": [
       "Módulo Aislador de Lazo direccionable compatible con las centrales direccionable"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "itb-mdi-521",
@@ -5700,18 +5197,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 85652,
     "stock": 25,
     "image": "/productos/catalogo/itb-mdi-521.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "MDI 521",
-      "Marca": "Intelbras",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Intelbras"
     },
     "features": [
       "Módulo de Entrada Direccionable (entrada de contacto seco)"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "itb-mio-521",
@@ -5725,18 +5219,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 130272,
     "stock": 25,
     "image": "/productos/catalogo/itb-mio-521.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "MIO 521",
-      "Marca": "Intelbras",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Intelbras"
     },
     "features": [
       "MÓDULO Direccionable de Entrada o Salida"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "itb-cic-06l",
@@ -5750,20 +5241,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 402776,
     "stock": 25,
     "image": "/productos/catalogo/itb-cic-06l.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "CIC 06L",
-      "Marca": "Intelbras",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Intelbras"
     },
     "features": [
       "PANEL de alarma contra incendios convencional con batería",
       "6 lazos",
       "hasta 20 dispositivos por lazo"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "itb-dfc-421",
@@ -5777,18 +5265,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 55200,
     "stock": 25,
     "image": "/productos/catalogo/itb-dfc-421.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "DFC 421",
-      "Marca": "Intelbras",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Intelbras"
     },
     "features": [
       "Detector de Humo convencional"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-turbo-ds-2ce76d0t-lpfs-2-8mm",
@@ -5803,19 +5288,18 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce76d0t-lpfs-2-8mm.webp",
     "tags": [
-      "Full HD 1080p"
+      "1080p"
     ],
     "specs": {
       "Referencia": "DS-2CE76D0T-LPFS(2.8mm)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CAMARA TURBO 1080P TURRET AUDIO COAXIAL  0",
       "01 Lux/ F1",
       "6  DNR EXIR 2"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-turbo-ds-2ce76d0t-lmfs-2-8mm",
@@ -5830,19 +5314,18 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce76d0t-lmfs-2-8mm.webp",
     "tags": [
-      "Full HD 1080p"
+      "1080p"
     ],
     "specs": {
       "Referencia": "DS-2CE76D0T-LMFS(2.8mm)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CAMARA TURBO 1080P TURRET AUDIO COAXIAL  0",
       "01 Lux/ F1",
       "6  DNR EXIR 2"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-turbo-ds-2ce16d0t-lpfs-2-8mm--o-std",
@@ -5857,20 +5340,19 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce16d0t-lpfs-2-8mm--o-std.webp",
     "tags": [
-      "Exterior IP66/IP67",
-      "Full HD 1080p"
+      "IP67",
+      "1080p"
     ],
     "specs": {
       "Referencia": "DS-2CE16D0T-LPFS(2.8mm)(O-STD)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CAMARA MINI TURBO 1080P BALA EXIR 0",
       "01LUX 3",
       "6 IR25m IP67 PLASTICO HIKVISION"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-turbo-ds-2ce17d0t-lfs-2-8mm--o-std",
@@ -5885,17 +5367,16 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce17d0t-lfs-2-8mm--o-std.webp",
     "tags": [
-      "Exterior IP66/IP67"
+      "IP67"
     ],
     "specs": {
       "Referencia": "DS-2CE17D0T-LFS(2.8mm)(O-STD)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CAMARA TURBO 1080 BALA FIJA CON AUDIO LIGERO HIBRIDO EXIR 0.01LUX  IR40m IP67 SE"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-turbo-ds-2ce70df0t-lmfs",
@@ -5910,17 +5391,16 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce70df0t-lmfs.webp",
     "tags": [
-      "Exterior IP66/IP67"
+      "IP67"
     ],
     "specs": {
       "Referencia": "DS-2CE70DF0T-LMFS",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "TURRET 2 MP COLORVU SMART HYBRID / LENTE FIJO 2.8 MM / IR‑BLANCO 20 M / MICRÓFON"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-turbo-ds-2ce72df0t-lfs",
@@ -5935,17 +5415,16 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce72df0t-lfs.webp",
     "tags": [
-      "Exterior IP66/IP67"
+      "IP67"
     ],
     "specs": {
       "Referencia": "DS-2CE72DF0T-LFS",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "DOMO 2 MP COLORVU SMART HYBRID / LENTE FIJO 2.8 MM / IR‑BLANCO 40 M / MICRÓFONO "
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-turbo-ds-2ce70df0t-lpfs-2-8mm--o-std",
@@ -5960,20 +5439,19 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce70df0t-lpfs-2-8mm--o-std.webp",
     "tags": [
-      "Exterior IP66/IP67",
-      "Full HD 1080p"
+      "IP67",
+      "1080p"
     ],
     "specs": {
       "Referencia": "DS-2CE70DF0T-LPFS(2.8mm)(O-STD)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CAMARA TURBO 1080P MINIDOMO  0",
       "001LUX F1",
       "0   HIBRIDA B/N - 24/7 COLORVU  20M 3D DNR  DWDR IP67 LUZ BLANCA PLASTICO HIKVISION AUDIO COAXIAL"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-turbo-ds-2ce10df0t-lpfs-2-8mm",
@@ -5988,20 +5466,19 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce10df0t-lpfs-2-8mm.webp",
     "tags": [
-      "Exterior IP66/IP67",
-      "Full HD 1080p"
+      "IP67",
+      "1080p"
     ],
     "specs": {
       "Referencia": "DS-2CE10DF0T-LPFS(2.8mm)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CAMARA TURBO 1080P MINIBALA  0",
       "001LUX F1",
       "0   HIBRIDA B/N - 24/7 COLORVU  20M 3D DNR  DWDR IP67 LUZ BLANCA PLASTICO HIKVISION AUDIO COAXIAL"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-turbo-ds-2ce72df0t-lfs-14",
@@ -6016,20 +5493,19 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce72df0t-lfs-14.webp",
     "tags": [
-      "Exterior IP66/IP67",
-      "Full HD 1080p"
+      "IP67",
+      "1080p"
     ],
     "specs": {
       "Referencia": "DS-2CE72DF0T-LFS",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CAMARA TURBO 1080P MINIBALA  0",
       "001LUX F1",
       "0   HIBRIDA B/N - Color VU 24/7 COLORVU  20M 3D DNR  DWDR IP67 LUZ BLANCA METALICA HIKVISION AUDIO COAXIAL"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-turbo-ds-2ce12df0t-lfs-2-8mm",
@@ -6044,20 +5520,19 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce12df0t-lfs-2-8mm.webp",
     "tags": [
-      "Exterior IP66/IP67",
-      "Full HD 1080p"
+      "IP67",
+      "1080p"
     ],
     "specs": {
       "Referencia": "DS-2CE12DF0T-LFS(2.8mm)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CAMARA TURBO 1080P BALA  0",
       "001LUX F1",
       "0   HIBRIDA B/N - Color VU 24/7 COLORVU  20M 3D DNR  DWDR IP67 LUZ BLANCA METALICA HIKVISION AUDIO COAXIAL"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-turbo-ds-2ce76k0t-lpfs-2-8mm",
@@ -6071,18 +5546,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 117944,
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce76k0t-lpfs-2-8mm.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "DS-2CE76K0T-LPFS(2.8mm)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CAMARA TURBO TURRET 3K HIBRIDA B/N - Color VU 20M 0.01LUX  IR 20M PLASTICO HIKVI"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-turbo-ds-2ce76k0t-lmfs-2-8mm",
@@ -6097,17 +5569,16 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce76k0t-lmfs-2-8mm.webp",
     "tags": [
-      "Exterior IP66/IP67"
+      "IP67"
     ],
     "specs": {
       "Referencia": "DS-2CE76K0T-LMFS(2.8mm)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CAMARA TURBO TURRET 3K HIBRIDA B/N - Color VU 20M 0.01LUX  IP67 METAL HIKVISION "
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-turbo-ds-2ce78k0t-lfs-2-8mm",
@@ -6122,17 +5593,16 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce78k0t-lfs-2-8mm.webp",
     "tags": [
-      "Exterior IP66/IP67"
+      "IP67"
     ],
     "specs": {
       "Referencia": "DS-2CE78K0T-LFS(2.8mm)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CAMARA TURBO TURRET 3K HIBRIDA B/N - Color VU  20M 0.01LUX  IR40M IP67 METALICO "
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-turbo-ds-2ce16k0t-lpfs-2-8mm",
@@ -6147,19 +5617,18 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce16d0t-lpfs-2-8mm--o-std.webp",
     "tags": [
-      "Exterior IP66/IP67"
+      "IP67"
     ],
     "specs": {
       "Referencia": "DS-2CE16K0T-LPFS(2.8mm)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CAMARA MINI BALA CON 2",
       "8 IR 25M  3K HIBRIDA B/N - Color VU 20M IP67 0",
       "01LUX PLASTICO AUDIO COAXIAL"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-turbo-ds-2ce16k0t-lfs-2-8mm",
@@ -6174,19 +5643,18 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce16d0t-lpfs-2-8mm--o-std.webp",
     "tags": [
-      "Exterior IP66/IP67"
+      "IP67"
     ],
     "specs": {
       "Referencia": "DS-2CE16K0T-LFS(2.8mm)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CAMARA MINI BALA CON 2",
       "8 IR 30M  3K HIBRIDA B/N - Color VU 20M IP67 0",
       "01LUX METAL AUDIO COAXIAL"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-turbo-ds-2ce17k0t-lfs-2-8mm",
@@ -6201,17 +5669,16 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce16d0t-lpfs-2-8mm--o-std.webp",
     "tags": [
-      "Exterior IP66/IP67"
+      "IP67"
     ],
     "specs": {
       "Referencia": "DS-2CE17K0T-LFS(2.8mm)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CAMARA TURBO BALA 2,8  3K HIBRIDA B/N - Color VU 40M EXTERIOR IP67 HIKVISION AUD"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-turbo-ds-2ce10kf0t-lfs",
@@ -6226,17 +5693,16 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce10kf0t-lfs.webp",
     "tags": [
-      "Exterior IP66/IP67"
+      "IP67"
     ],
     "specs": {
       "Referencia": "DS-2CE10KF0T-LFS",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CÁMARA BALA 3 K COLORVU SMART HYBRID / LENTE FIJA 2.8/3.6 MM / IR+BLANCO 20 M / "
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-turbo-ds-2ce10kf0t-lpfs",
@@ -6251,17 +5717,16 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce10kf0t-lpfs.webp",
     "tags": [
-      "Exterior IP66/IP67"
+      "IP67"
     ],
     "specs": {
       "Referencia": "DS-2CE10KF0T-LPFS",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CÁMARA BALA 3 K COLORVU SMART HYBRID / LENTE FIJA 2.8/3.6 MM / IR+BLANCO 20 M / "
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-turbo-ds-2ce70kf0t-lpfs",
@@ -6276,17 +5741,16 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce70kf0t-lpfs.webp",
     "tags": [
-      "Exterior IP66/IP67"
+      "IP67"
     ],
     "specs": {
       "Referencia": "DS-2CE70KF0T-LPFS",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CÁMARA TURRET 3 K COLORVU SMART HYBRID / LENTE 2.8/3.6 MM / IR+BLANCO 20 M / MIC"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-turbo-ds-2ce72kf0t-lfs",
@@ -6301,17 +5765,16 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce72kf0t-lfs.webp",
     "tags": [
-      "Exterior IP66/IP67"
+      "IP67"
     ],
     "specs": {
       "Referencia": "DS-2CE72KF0T-LFS",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CÁMARA DOMO 3 K COLORVU SMART HYBRID / LENTE 2.8/3.6 MM / IR+BLANCO 40 M / MICRÓ"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-turbo-ds-2ce56d0t-irpf-2-8mm",
@@ -6326,17 +5789,16 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce56d0t-irpf-2-8mm.webp",
     "tags": [
-      "Full HD 1080p"
+      "1080p"
     ],
     "specs": {
       "Referencia": "DS-2CE56D0T-IRPF(2.8mm)©",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CAMARA TURBO 1080P TURRET 0.01LUX  IR20m INT PLASTICA HIKVISION"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-turbo-ds-2ce76k0t-lmfs-2-8mm-33",
@@ -6351,18 +5813,17 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce76k0t-lmfs-2-8mm-33.webp",
     "tags": [
-      "Exterior IP66/IP67",
-      "Full HD 1080p"
+      "IP66",
+      "1080p"
     ],
     "specs": {
       "Referencia": "DS-2CE76K0T-LMFS(2.8mm)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CAMARA TURBO 1080P TURRET 0.01LUX  IR20m IP66 SEMIMETAL HIKVISION"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-turbo-ds-2ce56d0t-irmf-2-8mm",
@@ -6377,18 +5838,17 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce56d0t-irmf-2-8mm.webp",
     "tags": [
-      "Exterior IP66/IP67",
-      "Full HD 1080p"
+      "IP66",
+      "1080p"
     ],
     "specs": {
       "Referencia": "DS-2CE56D0T-IRMF(2.8mm)©",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CAMARA  TURBO 1080P TURRET 0.01LUX  EXIR IP66 METAL HIKVISION"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-turbo-ds-2ce70df0t-pf-2-8mm",
@@ -6403,20 +5863,19 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce70df0t-pf-2-8mm.webp",
     "tags": [
-      "Exterior IP66/IP67",
-      "Full HD 1080p"
+      "IP67",
+      "1080p"
     ],
     "specs": {
       "Referencia": "DS-2CE70DF0T-PF(2.8mm)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CAMARA TURBO 1080P TURRET   0",
       "001LUX F1",
       "0   24/7 COLORVU LUZ BLANCA 20M 3D DNR  DWDR IP67 PLASTICA HIKVISION"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-turbo-ds-2ce70df0t-pfs-2-8mm",
@@ -6430,20 +5889,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 91632,
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce70df0t-pfs-2-8mm.webp",
-    "tags": [
-      "Full HD 1080p"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "DS-2CE70DF0T-PFS(2.8mm)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CAMARA TUBO 2MP TURRET  0",
       "01LUX F1",
       "0 24/7 COLORVU LUZ BLANCA 20MTS 3D DNR DWDR UP67 PLASTICA HIKVISION AUDIO COAXIAL"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-turbo-ds-2ce76d0t-itmf-2-8mm",
@@ -6458,19 +5914,18 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce76d0t-itmf-2-8mm.webp",
     "tags": [
-      "Exterior IP66/IP67"
+      "IP67"
     ],
     "specs": {
       "Referencia": "DS-2CE76D0T-ITMF(2.8mm)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CÁMARA TIPO TURRET / LENTE 2 MP / VISIÓN NOCTURNA EXIR 30 m / SALIDA DE VIDEO TVI/AHD/CVI/CVBS / IP67 / FUNCIONES: DNR",
       "SMART IR",
       "OSD POR COAXIAL / ALIMENTACIÓN 12 VDC / LENTE FIJA 2"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-turbo-ds-2ce76d0t-itmf-3-6mm",
@@ -6485,20 +5940,19 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce76d0t-itmf-3-6mm.webp",
     "tags": [
-      "Exterior IP66/IP67",
-      "Full HD 1080p"
+      "IP67",
+      "1080p"
     ],
     "specs": {
       "Referencia": "DS-2CE76D0T-ITMF(3.6mm)©",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CAMARA TURBO 1080P TURRET  3",
       "6   0",
       "01 Lux/ F1"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-turbo-ds-2ce56d0t-it1f-2-8mm",
@@ -6513,18 +5967,17 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce56d0t-it1f-2-8mm.webp",
     "tags": [
-      "Exterior IP66/IP67",
-      "Full HD 1080p"
+      "IP66",
+      "1080p"
     ],
     "specs": {
       "Referencia": "DS-2CE56D0T-IT1F(2.8mm)©",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CAMARA TURBO 1080P TURRET EXIR 0.01LUX  IR20m IP66 PLASTICA HIKVISION"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-turbo-ds-2ce56d0t-it1f-3-6mm",
@@ -6539,18 +5992,17 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce56d0t-it1f-3-6mm.webp",
     "tags": [
-      "Exterior IP66/IP67",
-      "Full HD 1080p"
+      "IP66",
+      "1080p"
     ],
     "specs": {
       "Referencia": "DS-2CE56D0T-IT1F(3.6mm)©",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CAMARA TURBO 1080P TURRET EXIR 0.01LUX  IR20m IP66 PLASTICA HIKVISION"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-turbo-ds-2ce70df0t-mf-2-8mm",
@@ -6565,20 +6017,19 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-turbo-ds-2ce70df0t-mf-2-8mm.webp",
     "tags": [
-      "Exterior IP66/IP67",
-      "Full HD 1080p"
+      "IP67",
+      "1080p"
     ],
     "specs": {
       "Referencia": "DS-2CE70DF0T-MF(2.8mm)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CAMARA TURBO 1080P TURRET   0",
       "001LUX F1",
       "0   24/7 COLORVU LUZ BLANCA 20M 3D DNR  DWDR IP67 LUZ BLANCA METALICA HIKVISION"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-ip-ds-2cd1027g3-liu-2-8mm--latam-acusense",
@@ -6593,20 +6044,19 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1027g3-liu-2-8mm--latam-acusense.webp",
     "tags": [
-      "Exterior IP66/IP67",
+      "IP67",
       "PoE"
     ],
     "specs": {
       "Referencia": "DS-2CD1027G3-LIU(2.8mm)(Latam AcuSense)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CÁMARA BULLET IP / COLORVU 3",
       "0 CON LUZ HÍBRIDA / LENTE 2 MP / CLASIFICACIÓN DE PERSONAS Y VEHÍCULOS / RANGO IR O LUZ BLANCA HASTA 30 m / MICRÓFONO INTEGRADO / COMPRESIÓN H",
       "265+ / PROTECCIÓN IP67 / ALIMENTACIÓN 12 VDC y PoE / MONITOREO MÓVIL VÍA HIK-CONNECT"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-ip-ds-2cd1047g3-liu-2-8mm--latam-acusense",
@@ -6621,20 +6071,19 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1047g3-liu-2-8mm--latam-acusense.webp",
     "tags": [
-      "Exterior IP66/IP67",
+      "IP67",
       "PoE"
     ],
     "specs": {
       "Referencia": "DS-2CD1047G3-LIU(2.8mm)(Latam AcuSense)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CÁMARA BULLET IP / COLORVU 3",
       "0 CON LUZ HÍBRIDA / LENTE 4 MP / CLASIFICACIÓN DE PERSONAS Y VEHÍCULOS / RANGO IR O LUZ BLANCA HASTA 30 m /  MICRÓFONO INTEGRADO / COMPRESIÓN H",
       "265+ /  PROTECCIÓN IP67 / ALIMENTACIÓN 12 VDC y PoE /  MONITOREO MÓVIL VÍA HIK-CONNECT"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-ip-ds-2cd1327g3-liu-2-8mm--latam-acusense",
@@ -6649,20 +6098,19 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1327g3-liu-2-8mm--latam-acusense.webp",
     "tags": [
-      "Exterior IP66/IP67",
+      "IP67",
       "PoE"
     ],
     "specs": {
       "Referencia": "DS-2CD1327G3-LIU(2.8mm)(Latam AcuSense)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CÁMARA TURRET IP / COLORVU 3",
       "0 CON LUZ HÍBRIDA /  LENTE 2 MP / CLASIFICACIÓN DE PERSONAS Y VEHÍCULOS / RANGO IR O LUZ BLANCA HASTA 30 m /  MICRÓFONO INTEGRADO / COMPRESIÓN H",
       "265+ /  PROTECCIÓN IP67 / ALIMENTACIÓN 12 VDC y PoE /  MONITOREO MÓVIL VÍA HIK-CONNECT"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-ip-ds-2cd1347g3-liu-2-8mm--latam-acusense",
@@ -6677,20 +6125,19 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1347g3-liu-2-8mm--latam-acusense.webp",
     "tags": [
-      "Exterior IP66/IP67",
+      "IP67",
       "PoE"
     ],
     "specs": {
       "Referencia": "DS-2CD1347G3-LIU(2.8mm)(Latam AcuSense)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CÁMARA TURRET IP / COLORVU 3",
       "0 CON LUZ HÍBRIDA /  LENTE 4 MP / CLASIFICACIÓN DE PERSONAS Y VEHÍCULOS / RANGO IR O LUZ BLANCA HASTA 30 m /  MICRÓFONO INTEGRADO / COMPRESIÓN H",
       "265+ /  PROTECCIÓN IP67 / ALIMENTACIÓN 12 VDC y PoE /  MONITOREO MÓVIL VÍA HIK-CONNECT"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-ip-ds-2cd1027g2h-liu-f",
@@ -6705,18 +6152,17 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1027g2h-liu-f.webp",
     "tags": [
-      "Exterior IP66/IP67",
+      "IP67",
       "PoE"
     ],
     "specs": {
       "Referencia": "DS-2CD1027G2H-LIU(F)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CÁMARA BULLET IP / COLORVU CON LUZ HÍBRIDA / LENTE 2 MP / DETECCIÓN DE PERSONAS "
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-ip-ds-2cd1623g2-liz-s-u",
@@ -6731,20 +6177,19 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1623g2-liz-s-u.webp",
     "tags": [
-      "Exterior IP66/IP67",
+      "IP67",
       "PoE"
     ],
     "specs": {
       "Referencia": "DS-2CD1623G2-LIZ(S)U",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CÁMARA BULLET IP / LENTE VARIFOCAL MOTORIZADO 2",
       "8–12 mm / LENTE 2 MP / DETECCIÓN DE PERSONAS Y VEHÍCULOS / TECNOLOGÍA DUAL LIGHT CON ALCANCE DE 50 m / MICRÓFONO INTEGRADO / COMPRESIÓN H",
       "265+ / RANURA SD HASTA 512 GB / PROTECCIÓN IP67 / ALIMENTACIÓN 12 VDC Y PoE / MONITOREO MÓVIL VÍA HIK-CONNECT"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-ip-ds-2cd1t43g2-i-4mm--o-std",
@@ -6759,20 +6204,19 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1t43g2-i-4mm--o-std.webp",
     "tags": [
-      "Exterior IP66/IP67",
+      "IP67",
       "PoE"
     ],
     "specs": {
       "Referencia": "DS-2CD1T43G2-I(4mm)(O-STD)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CÁMARA BULLET IP / LENTE FIJO 4 mm / LENTE 4 MP / DETECCIÓN DE PERSONAS Y VEHÍCULOS / TECNOLOGÍA EXIR 2",
       "0 CON ALCANCE DE 50 m / MICRÓFONO INTEGRADO (OPCIONAL) / COMPRESIÓN H",
       "265+ / RANURA SD HASTA 256 GB (OPCIONAL) / PROTECCIÓN IP67 / WDR 120 dB / ALIMENTACIÓN 12 VDC Y PoE / MONITOREO MÓVIL VÍA HIK-CONNECT"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-ip-ds-2cd2621g0-izs-2-8-12mm--c--o-std",
@@ -6787,20 +6231,19 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd2621g0-izs-2-8-12mm--c--o-std.webp",
     "tags": [
-      "Exterior IP66/IP67",
+      "IP67",
       "PoE"
     ],
     "specs": {
       "Referencia": "DS-2CD2621G0-IZS(2.8-12mm)(C)(O-STD)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CÁMARA BULLET IP / LENTE VARIFOCAL MOTORIZADO 2",
       "8–12 mm / LENTE 2 MP / WDR REAL 120 dB / INTERFAZ DE AUDIO Y ALARMA / COMPRESIÓN H",
       "265+ / RANURA SD (NO INCLUIDA) / VISIÓN NOCTURNA IR HASTA 30 m / PROTECCIÓN IP67 / ESTRUCTURA METÁLICA / ALIMENTACIÓN 12 VDC Y PoE / MONITOREO VÍA HIK-CONNECT"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-ip-ds-2cd1023g0e-i--2-8mm",
@@ -6815,18 +6258,16 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1023g0e-i--2-8mm.webp",
     "tags": [
-      "Exterior IP66/IP67",
-      "Full HD 1080p"
+      "IP67"
     ],
     "specs": {
       "Referencia": "DS-2CD1023G0E-I (2.8mm)©",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CAMARA IP 2MP BALA  H265+ DWDR D/N F2.8 IR30m IP67  SEMIMETAL HIKVISION"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-ip-ds-2cd1023g2-i-2-8mm",
@@ -6841,20 +6282,18 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1023g2-i-2-8mm.webp",
     "tags": [
-      "Exterior IP66/IP67",
-      "Full HD 1080p"
+      "IP67"
     ],
     "specs": {
       "Referencia": "DS-2CD1023G2-I(2.8mm)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CAMARA IP 2MP BALA H265+ DWDR F2",
       "8 MD 2",
       "0 30M IP67 METAL Y PLASTICO HIKVISION"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-ip-ds-2cd1023g2-liu-2-8mm",
@@ -6869,20 +6308,18 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1023g2-liu-2-8mm.webp",
     "tags": [
-      "Exterior IP66/IP67",
-      "Full HD 1080p"
+      "IP67"
     ],
     "specs": {
       "Referencia": "DS-2CD1023G2-LIU(2.8mm)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CAMARA IP BALA HIBRIDA B/N - Color VU 2MP MICROFONO INCORPORADO 0",
       "005 Lux DETECCION DE PERSONAS Y VEHÍCULOS H",
       "265 +"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-ip-ds-2cd1027g2h-liu-f-17",
@@ -6897,17 +6334,16 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1027g2h-liu-f-17.webp",
     "tags": [
-      "Exterior IP66/IP67"
+      "IP67"
     ],
     "specs": {
       "Referencia": "DS-2CD1027G2H-LIU(F)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CAMARA IP 2 MP COLORVU BALA H265+ IP67  DWDR 2.8mm IR 30m METAL HIKVISION"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-ip-ds-2cd1t23g2-i-4mm",
@@ -6922,18 +6358,16 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1t23g2-i-4mm.webp",
     "tags": [
-      "Exterior IP66/IP67",
-      "Full HD 1080p"
+      "IP67"
     ],
     "specs": {
       "Referencia": "DS-2CD1T23G2-I(4mm)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CAMARA IP 2MP BALA H265+  120DB IR50m IP67 MD 2.0 SEMIMETAL HIKVISION"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-ip-ds-2cd2021g1-i--2-8mm",
@@ -6947,18 +6381,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 293480,
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd2021g1-i--2-8mm.webp",
-    "tags": [
-      "Full HD 1080p"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "DS-2CD2021G1-I (2.8mm)©",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CAMARA EXT BALA 2MP D/N F2.8MM DWDR H265+ IR30m METAL/PLASTICO HIKVISION"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-ip-ds-2cd2021g1-i--4mm",
@@ -6972,18 +6403,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 293480,
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd2021g1-i--4mm.webp",
-    "tags": [
-      "Full HD 1080p"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "DS-2CD2021G1-I (4mm)©",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CAMARA EXT BALA 2MP D/N F4MM DWDR H265+ IR30m SEMIMETAL HIKVISION"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-ip-ds-2cd1047g2h-liu-f",
@@ -6998,17 +6426,16 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1047g2h-liu-f.webp",
     "tags": [
-      "Exterior IP66/IP67"
+      "IP67"
     ],
     "specs": {
       "Referencia": "DS-2CD1047G2H-LIU(F)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CÁMARA BALA 4 MP COLORVU SMART HYBRID LIGHT / H.265+ / DETECCIÓN HUM‑VEH / MICRÓ"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-ip-ds-2cd1043g0-i--2-8mm",
@@ -7023,17 +6450,16 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1043g0-i--2-8mm.webp",
     "tags": [
-      "Exterior IP66/IP67"
+      "IP67"
     ],
     "specs": {
       "Referencia": "DS-2CD1043G0-I (2.8mm)©",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CAMARA IP 4MP BALA H265+ DWDR D/NF2.8mm IR30m IP67 SEMIMETAL HIKVISION"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-ip-ds-2cd2043g0-i-2-8mm",
@@ -7048,17 +6474,16 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd2043g0-i-2-8mm.webp",
     "tags": [
-      "Exterior IP66/IP67"
+      "IP67"
     ],
     "specs": {
       "Referencia": "DS-2CD2043G0-I(2.8mm)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CAMARA EXT MINI BALA 4MP D/N LENTE 4MMIR 30M 120DB METAL H265+ IP67 HIKVISION"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-ip-ds-2cd2043g2-i-2-8mm",
@@ -7073,19 +6498,18 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd2043g2-i-2-8mm.webp",
     "tags": [
-      "Exterior IP66/IP67"
+      "IP67"
     ],
     "specs": {
       "Referencia": "DS-2CD2043G2-I(2.8mm)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CAMARA EXT MINI BALA 4MP 2",
       "8MM 40M120DB MD 2",
       "0  H265+ IP67 HIKVISION AcuSense"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-ip-ds-2cd1643g0-iz--2-8-12mm",
@@ -7100,17 +6524,16 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1643g0-iz--2-8-12mm.webp",
     "tags": [
-      "Exterior IP66/IP67"
+      "IP67"
     ],
     "specs": {
       "Referencia": "DS-2CD1643G0-IZ (2.8-12mm)©",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CAMARA IP 4MP BALA H265+VARIFOCAL MOTOF2.8-12 120DB IR30m IP67 METAL HIKVISION"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-ip-ds-2cd1047g0-l--2-8mm",
@@ -7125,17 +6548,16 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1047g0-l--2-8mm.webp",
     "tags": [
-      "Exterior IP66/IP67"
+      "IP67"
     ],
     "specs": {
       "Referencia": "DS-2CD1047G0-L (2.8mm)©",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CAMARA IP 4 MP COLORVU BALA H265+ IP67  DWDR 2.8mm IR 30m SEMIMETALICA HIKVISION"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-ip-ds-2cd1043g2-liu-2-8mm",
@@ -7150,19 +6572,18 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1043g2-liu-2-8mm.webp",
     "tags": [
-      "Exterior IP66/IP67"
+      "IP67"
     ],
     "specs": {
       "Referencia": "DS-2CD1043G2-LIU(2.8mm)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CAMARA IP BALA HIBRIDA B/N - Color VU 4MP MICROFONO INCORPORADO 0",
       "005 Lux DETECCION DE PERSONAS Y VEHÍCULOS H",
       "265 +"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-ip-ds-2cd1643g2-liz-s-u",
@@ -7177,19 +6598,18 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1643g2-liz-s-u.webp",
     "tags": [
-      "Exterior IP66/IP67"
+      "IP67"
     ],
     "specs": {
       "Referencia": "DS-2CD1643G2-LIZ(S)U",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CÁMARA BALA 4 MP VARIFOCAL 2",
       "8‑12 MM / SMART HYBRID LIGHT / DETECCIÓN HUM‑VEH / H",
       "265+ / MICRÓFONO / SD‑512 GB / IP67"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-ip-ds-2cd2643g2-izs-2-8-12mm",
@@ -7204,17 +6624,16 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd2643g2-izs-2-8-12mm.webp",
     "tags": [
-      "Exterior IP66/IP67"
+      "IP67"
     ],
     "specs": {
       "Referencia": "DS-2CD2643G2-IZS(2.8-12mm)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CAMARA IP4MP MOTORIZADA F1.6 EXIR 60M WDR 120DB H265+ IP67 ENTRADA DE AUDIO Y AL"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-ip-ds-2cd1327g2h-liu-f",
@@ -7229,19 +6648,18 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1327g2h-liu-f.webp",
     "tags": [
-      "Exterior IP66/IP67"
+      "IP67"
     ],
     "specs": {
       "Referencia": "DS-2CD1327G2H-LIU(F)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CÁMARA DOMO 2 MP COLORVU SMART HYBRID LIGHT / LENTE FIJO 2",
       "8/4 MM / IR‑BLANCO 30 M / DETECCIÓN HUM‑VEH / H",
       "265+ / MICRÓFONO / SD 512 GB / IP67"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-ip-ds-2cd1323g2-liu-f---ab",
@@ -7256,19 +6674,18 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1323g2-liu-f---ab.webp",
     "tags": [
-      "Exterior IP66/IP67"
+      "IP67"
     ],
     "specs": {
       "Referencia": "DS-2CD1323G2-LIU(F)(/AB)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CÁMARA DOMO 2 MP SMART HYBRID LIGHT / LENTE FIJO 2",
       "8/4 MM / IR‑BLANCO 30 M / DETECCIÓN HUM‑VEH / H",
       "265+ / MICRÓFONO / SD 512 GB / IP67"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-ip-ds-2cd1323g0e-i--2-8mm",
@@ -7283,18 +6700,16 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1323g0e-i--2-8mm.webp",
     "tags": [
-      "Exterior IP66/IP67",
-      "Full HD 1080p"
+      "IP67"
     ],
     "specs": {
       "Referencia": "DS-2CD1323G0E-I (2.8mm)©",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CAMARA IP 2MP DOMO  H265+ DWDR D/NF 2.8 o IR30m IP67  SEMIMETAL HIKVISION"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-ip-ds-2cd1323g2-i-2-8mm",
@@ -7309,18 +6724,16 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1323g2-i-2-8mm.webp",
     "tags": [
-      "Exterior IP66/IP67",
-      "Full HD 1080p"
+      "IP67"
     ],
     "specs": {
       "Referencia": "DS-2CD1323G2-I(2.8mm)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CAMARA IP 2MP DOMO H265+ WDR MD 2.0 2.8MM 40M IP67  IK10 HIKVISION"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-ip-ds-2cd1123g0e-i--2-8mm",
@@ -7335,18 +6748,16 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1123g0e-i--2-8mm.webp",
     "tags": [
-      "Exterior IP66/IP67",
-      "Full HD 1080p"
+      "IP67"
     ],
     "specs": {
       "Referencia": "DS-2CD1123G0E-I (2.8mm)©",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CAMARA IP 2MP DOMO H265+ DWDR D/NF2.8 IR30m IP67 IK10 SEMIMETAL HIKVISION"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-ip-ds-2cd1123g2-i-2-8mm",
@@ -7361,20 +6772,18 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hik-ip-ds-2cd1123g2-i-2-8mm.webp",
     "tags": [
-      "Exterior IP66/IP67",
-      "Full HD 1080p"
+      "IP67"
     ],
     "specs": {
       "Referencia": "DS-2CD1123G2-I(2.8mm)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "CAMARA IP 2MP DOMO MD 2",
       "0 H265+ WDR 2",
       "8MM 30M IP67 IK10 METAL Y PLASTICO HIKVISION"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-cit-ds-k1t320mfwx-b",
@@ -7388,20 +6797,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 431204,
     "stock": 25,
     "image": "/productos/catalogo/DS-K1T320MFWX-B.webp",
-    "tags": [
-      "Biométrico"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "DS-K1T320MFWX-B",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "TERMINAL DE RECONOCIMIENTO FACIAL / PANTALLA LCD 2",
       "4″ / LENTE 2 MP / AUTENTICACIÓN POR ROSTRO",
       "HUELLA"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-cit-ds-k1t321mfwx-b",
@@ -7415,20 +6821,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 540776,
     "stock": 25,
     "image": "/productos/catalogo/DS-K1T321MFWX-B.webp",
-    "tags": [
-      "Biométrico"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "DS-K1T321MFWX-B",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "IGUAL AL MODELO 320",
       "PERO CON CAPACIDAD AMPLIADA: 500 ROSTROS",
       "3 000 TARJETAS"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-cit-ds-k1t323mbfwx-e1",
@@ -7442,20 +6845,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 519156,
     "stock": 25,
     "image": "/productos/catalogo/DS-K1T323MBFWX-E1.webp",
-    "tags": [
-      "Biométrico"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "DS-K1T323MBFWX-E1",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "TERMINAL DE RECONOCIMIENTO FACIAL / PANTALLA LCD 2",
       "4″ / LENTE 2 MP / AUTENTICACIÓN POR ROSTRO",
       "HUELLA"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-cit-ds-k1t323mbwx-qre1",
@@ -7470,20 +6870,18 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/DS-K1T323MBWX-QRE1.webp",
     "tags": [
-      "Biométrico",
       "PoE"
     ],
     "specs": {
       "Referencia": "DS-K1T323MBWX-QRE1",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "TERMINAL DE RECONOCIMIENTO FACIAL / PANTALLA LCD 2",
       "4″ / LENTE 2 MP / AUTENTICACIÓN POR ROSTRO",
       "TARJETA M1 Y CÓDIGO QR / CAPACIDAD: 1 000 ROSTROS"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-cit-ds-k1t343mfwx-b",
@@ -7497,20 +6895,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 614376,
     "stock": 25,
     "image": "/productos/catalogo/DS-K1T343MFWX-B.webp",
-    "tags": [
-      "Biométrico"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "DS-K1T343MFWX-B",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "TERMINAL VALUE SERIES / PANTALLA TÁCTIL LCD 4",
       "3″ / LENTE 2 MP / CAPACIDAD: 1 500 ROSTROS",
       "3 000 HUELLAS"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-cit-ds-k1t343mfwx-b-o-std",
@@ -7524,20 +6919,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 614376,
     "stock": 25,
     "image": "/productos/catalogo/DS-K1T343MFWX-B_O-STD_.webp",
-    "tags": [
-      "Biométrico"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "DS-K1T343MFWX-B(O-STD)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "TERMINAL VALUE SERIES / PANTALLA TÁCTIL LCD 4",
       "3″ / LENTE 2 MP / CAPACIDAD: 1 500 ROSTROS",
       "3 000 HUELLAS"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-cit-ds-k1t805mbfwx",
@@ -7552,19 +6944,18 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/DS-K1T805MBFWX.webp",
     "tags": [
-      "Biométrico"
+      "IP65"
     ],
     "specs": {
       "Referencia": "DS-K1T805MBFWX",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "TERMINAL VALUE SERIES HUELLA Y TARJETA / PROTECCIÓN IP65 IK08 / CAPACIDAD: 3 000 HUELLAS",
       "10 000 TARJETAS",
       "100 000 EVENTOS / LECTOR TARJETA M1 / BLUETOOTH Y AP MODE / CONFIGURACIÓN VÍA HIK‑CONNECT"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-cit-ds-k1t320mfx",
@@ -7579,20 +6970,18 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/DS-K1T320MFX.webp",
     "tags": [
-      "WiFi",
-      "Biométrico"
+      "WiFi"
     ],
     "specs": {
       "Referencia": "DS-K1T320MFX",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "TERMINAL DE RECONOCIMIENTO FACIAL ULTRA RÁPIDO HASTA A 1",
       "5 MTS",
       "ANTI-SPOOFING"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-cit-ds-k1t321mfwx",
@@ -7606,19 +6995,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 469752,
     "stock": 25,
     "image": "/productos/catalogo/DS-K1T321MFWX.webp",
-    "tags": [
-      "Biométrico",
-      "Full HD 1080p"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "DS-K1T321MFWX",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "TERMINAL DE RECONOCIMIENTO FACIAL CON DETECCION DE TEMPERATURA Y MASCARA PANTALL"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-cit-ds-k1a340wx",
@@ -7633,20 +7018,18 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/DS-K1A340WX.webp",
     "tags": [
-      "WiFi",
-      "Biométrico"
+      "WiFi"
     ],
     "specs": {
       "Referencia": "DS-K1A340WX",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "WIFI",
       "TERMINAL DE RECONOCIMIENTO FACIAL ULTRA RÁPIDO  HASTA 1",
       "5 MTS EN LECTURA SOLO PARA ASISTENCIA WIFI CAPACIDAD 1500 ROSTROS / REPORTES EN EXCEL"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-cit-ds-k1t320mfx-16",
@@ -7661,20 +7044,18 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/DS-K1T320MFX.webp",
     "tags": [
-      "WiFi",
-      "Biométrico"
+      "WiFi"
     ],
     "specs": {
       "Referencia": "DS-K1T320MFX",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "TERMINAL DE RECONOCIMIENTO FACIAL ULTRA RÁPIDO HASTA A 1",
       "5 MTS",
       "ANTI-SPOOFING"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-cit-ds-k1t342mwx",
@@ -7689,20 +7070,18 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/DS-K1T342MWX.webp",
     "tags": [
-      "WiFi",
-      "Biométrico"
+      "WiFi"
     ],
     "specs": {
       "Referencia": "DS-K1T342MWX",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "TERMINAL DE RECONOCIMIENTO FACIAL ULTRA RÁPIDO HASTA A 1",
       "5 MTS",
       "ANTI-SPOOFING"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-cit-ds-k1t342mfwx-e1",
@@ -7717,20 +7096,19 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/DS-K1T342MFWX-E1.webp",
     "tags": [
-      "Biométrico",
+      "IP65",
       "PoE"
     ],
     "specs": {
       "Referencia": "DS-K1T342MFWX-E1",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "TERMINAL DE RECONOCIMIENTO FACIAL / PANTALLA TÁCTIL LCD 4",
       "3″ / LENTE GRAN ANGULAR 2 MP / AUTENTICACIÓN POR ROSTRO",
       "TARJETA M1"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-cit-ds-k1t344mbwx-qre1",
@@ -7745,18 +7123,16 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/DS-K1T344MBWX-QRE1.webp",
     "tags": [
-      "WiFi",
-      "Biométrico"
+      "WiFi"
     ],
     "specs": {
       "Referencia": "DS-K1T344MBWX-QRE1",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "Terminal Facial Min Moe WiFi / Lector de QRs Físico de Alta Velocidad / 3000 Ros"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-cit-ds-k1t342mwx-22",
@@ -7771,19 +7147,17 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/DS-K1T342MWX.webp",
     "tags": [
-      "Exterior IP66/IP67",
-      "WiFi",
-      "Biométrico"
+      "IP65",
+      "WiFi"
     ],
     "specs": {
       "Referencia": "DS-K1T342MWX",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "Terminal Min Moe WiFi de Reconocimiento Facial (Exterior IP65) / Hasta 1.5 mts e"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-cit-ds-kis103-o-std--us",
@@ -7797,18 +7171,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 126132,
     "stock": 25,
     "image": "/productos/catalogo/DS-KIS103_O-STD_-US.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "DS-KIS103(O-STD)/US",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "KIT DE INTERCOMUNICADOR / LLAMADA CON UN SOLO BOTÓN / AJUSTE DE VOLUMEN Y TONO /"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-cit-ds-k1t320mfx-26",
@@ -7822,18 +7193,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 409124,
     "stock": 25,
     "image": "/productos/catalogo/DS-K1T320MFX.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "DS-K1T320MFX",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "KIT INTERFÓNICO HD 4‑WIRE VALUE / CALIDAD DE VIDEO HD TVI / PANTALLA INTERIOR 7″"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-cit-ds-kis213",
@@ -7848,17 +7216,16 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/DS-KIS213.webp",
     "tags": [
-      "Profesional"
+      "IP65"
     ],
     "specs": {
       "Referencia": "DS-KIS213",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "KIT INTERFÓNICO HD 4‑WIRE PRO / PANTALLA INTERIOR 7″ TFT / IP65 IK08 (ESTACIÓN P"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-cit-ds-kis203t",
@@ -7872,18 +7239,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 419428,
     "stock": 25,
     "image": "/productos/catalogo/DS-KIS203T.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "DS-KIS203T",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "KIT ANALOGO A PRUEBA DE AGUA VIDEOPORTERO INCLUYE ESTACION"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-cit-ds-kis302-p",
@@ -7897,18 +7261,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 562856,
     "stock": 25,
     "image": "/productos/catalogo/DS-KIS302-P.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "DS-KIS302-P",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "KIT ANALOGO CON FUNCION DE LLAMADA A APP HIK-CONNECT / EXPANDIBLE A MAS EQUIPOS"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-cit-ds-k1t342mwx-30",
@@ -7923,17 +7284,16 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/DS-K1T342MWX.webp",
     "tags": [
-      "Full HD 1080p"
+      "IP65"
     ],
     "specs": {
       "Referencia": "DS-K1T342MWX",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "KIT DE VIDEOPORTERO HÍBRIDO HD 4 HILOS / MONITOR INTERIOR TÁCTIL 7″ 1024×600 / C"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-cit-ds-kis312-p-o-std",
@@ -7947,18 +7307,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 556048,
     "stock": 25,
     "image": "/productos/catalogo/DS-KIS312-P(O-STD).webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "DS-KIS312-P(O-STD)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "KIT DE VIDEOPORTERO HÍBRIDO HD 4 HILOS / MONITOR INTERIOR TÁCTIL 7″ 1024×600 / C"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-cit-ds-kis606-p",
@@ -7973,20 +7330,19 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/DS-KIS606-P.webp",
     "tags": [
-      "Exterior IP66/IP67",
+      "IP65",
       "PoE"
     ],
     "specs": {
       "Referencia": "DS-KIS606-P",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "KIT DE VIDEOPORTERO IP VILLA / CÁMARA EXTERIOR HD 2 MP + MONITOR INTERIOR TÁCTIL 4",
       "3″ / RECONOCIMIENTO DE VOZ BIDIRECCIONAL / ADMITEN HASTA 16 MONITORES ENLACE / ALARMAS",
       "RS‑485"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-cit-ds-kis605-p",
@@ -8001,17 +7357,17 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/DS-KIS605-P(C).webp",
     "tags": [
+      "IP65",
       "PoE"
     ],
     "specs": {
       "Referencia": "DS-KIS605-P©",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "KIT IP VIDEOPORTERO LITE /FRENTE DE CALLE IP65 SOPORTE POE ESTANDAR"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-cit-ds-kis603-p",
@@ -8025,18 +7381,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 772248,
     "stock": 25,
     "image": "/productos/catalogo/DS-KIS603-P.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "DS-KIS603-P",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "KIT IP VIDEOPORTERO INCLUYE ESTACION"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-cit-ds-kv6113-wpe1",
@@ -8051,18 +7404,18 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/DS-KV6113-WPE1.webp",
     "tags": [
+      "IP65",
       "WiFi",
       "PoE"
     ],
     "specs": {
       "Referencia": "DS-KV6113-WPE1",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "VIDEOPORTERO WIFI IP 2 MP  POE ESTANDAR  IP65 SOPORTA 1 DEPARTAMENTO Y HASTA 6 M"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-cit-ds-kv6113-wpe1-40",
@@ -8077,19 +7430,18 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/DS-KV6113-WPE1(C).webp",
     "tags": [
+      "IP65",
       "WiFi",
-      "Full HD 1080p",
       "PoE"
     ],
     "specs": {
       "Referencia": "DS-KV6113-WPE1©",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "VIDEOPORTERO WIFI 2MP POE ESTANDAR IP65 SOPORTA 1 DEPARTAMENTO Y HASTA 6 MONITOR"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-cit-ds-kd8003-ime1-b",
@@ -8104,20 +7456,19 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/DS-KD8003-IME1(B).webp",
     "tags": [
-      "Full HD 1080p",
+      "IP65",
       "PoE"
     ],
     "specs": {
       "Referencia": "DS-KD8003-IME1(B)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "VIDEOPORTERO 2MP",
       "1 BOTÓN",
       "IR  ETHERNET RS-485"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-cit-ds-kd8003-ime1",
@@ -8132,20 +7483,19 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/DS-KD8003-IME1.webp",
     "tags": [
-      "Full HD 1080p",
+      "IP65",
       "PoE"
     ],
     "specs": {
       "Referencia": "DS-KD8003-IME1",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "VIDEOPORTERO 2MP",
       "1 BOTÓN",
       "IR  ETHERNET RS-485"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-cit-ds-kv8413-wme1",
@@ -8160,20 +7510,19 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/DS-KV8413-WME1(C).webp",
     "tags": [
-      "Full HD 1080p",
+      "IP65",
       "PoE"
     ],
     "specs": {
       "Referencia": "DS-KV8413-WME1©",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "VIDEOPORTERO 2MP",
       "4 BOTONES",
       "IR ETHERNET 10/100 MBPS"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-red-ds-ups1000-x",
@@ -8187,18 +7536,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 194212,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-ups1000-x.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "DS-UPS1000-X",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "UPS DE 1000 VA 600 W  PROTECCIÓN CONTRA SOBRECARGA Y DESCARGA  ENTRADA Y SALIDA "
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-red-ds-ups2000-x",
@@ -8212,18 +7558,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 515200,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-ups2000-x.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "DS-UPS2000-X",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "UPS DE 2000 VA 1200 W PROTECCIÓN CONTRA CORTOCIRCUITOS PROTECCIÓN CONTRA SOBRETE"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-red-ds-ups3000-x",
@@ -8237,18 +7580,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 827632,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-ups3000-x.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "DS-UPS3000-X",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "UPS DE 3000 VA  1800 W PANTALLA LCD  PROTECCIÓN CONTRA SOBRECARGA Y DESCARGA  EN"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-red-ds-ups600-x",
@@ -8262,18 +7602,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 152076,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-ups600-x.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "DS-UPS600-X",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "UPS DE 600 VA 360W PROTECCIÓN CONTRA SOBRECARGA Y DESCARGA / ENTRADA Y SALIDA 12"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-red-ds-d5022f2-1v2",
@@ -8287,18 +7624,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 386676,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-d5022f2-1v2.webp",
-    "tags": [
-      "Full HD 1080p"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "DS-D5022F2-1V2",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "Monitor LED Full HD (1920 X 1080) de 21.5"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-red-ds-d5024f2-ap2-o-std--us",
@@ -8312,18 +7646,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 516948,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-d5024f2-ap2-o-std--us.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "DS-D5024F2-AP2(O-STD)(US)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "MONITOR SOHO / FHD 23.8” / REFRESCO 100Hz / DISEÑO ULTRA-DELGADO / INTERFACES MÚ"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-red-ds-d5043f3-1v0s-o-std--eu",
@@ -8337,18 +7668,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 1784984,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-d5043f3-1v0s-o-std--eu.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "DS-D5043F3-1V0S(O-STD)(EU)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "MONITOR 43” FHD 60Hz VA / ÁNGULO DE VISIÓN 178° / PESO 6.85 KG / SERIE PROFESSIO"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-red-ds-d5027f2-1p2",
@@ -8362,20 +7690,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 716680,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-d5027f2-1p2.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "DS-D5027F2-1P2",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "MONITOR 27″ FHD / IPS / 100 Hz máx",
       "(60 Hz típico) / 300 cd/m² / 1300:1 / 178° / 14 ms (typ)",
       "5 ms OD / HDMI + VGA / E‑LED / Bajo azul / 3D NR / VESA 100×100 / 12 V DC / ≤ 30 W"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-red-ds-d5032f3-1v0s",
@@ -8389,18 +7714,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 932144,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-d5032f3-1v0s.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "DS-D5032F3-1V0S",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "MONITOR 32″ FHD / VA / 75 Hz / 300 cd/m² / 4000:1 / 178° / 8 ms / HDMI + VGA / D"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-red-ds-d5043u3-1v0s",
@@ -8414,20 +7736,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 2298068,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-d5043u3-1v0s.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "DS-D5043U3-1V0S",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "43″ UHD / VA / 60 Hz / 300 cd/m² / 4000:1 / 178° / 6",
       "5 ms / HDMI + USB 2",
       "0 / D‑LED / Altavoz 10 W×2 / Bajo azul / 3D NR / VESA / 7×24 h"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-red-ds-d5050u3-1v0s",
@@ -8441,18 +7760,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 3046488,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-d5050u3-1v0s.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "DS-D5050U3-1V0S",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "MONITOR 50″ UHD / VA / 60 HZ / 300 CD/M² / 4000:1 / 178° / 6.5 MS / HDMI×3 + USB"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-red-ds-d5055u3-1v0s",
@@ -8466,18 +7782,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 3635288,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-d5055u3-1v0s.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "DS-D5055U3-1V0S",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "MONITOR 55″ UHD / VA / 60 HZ / 300 CD/M² / 4000:1 / 178° / 6.5 MS / HDMI×3 + USB"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-red-ds-d5065uc-c",
@@ -8491,18 +7804,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 4823100,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-d5065uc-c.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "DS-D5065UC-C",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "MONITOR  LED de 65\" HDMI/VGA 1920 X 1080"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-red-ds-3e0505p-e-r-o-std",
@@ -8521,13 +7831,12 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Referencia": "DS-3E0505P-E/R(O-STD)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "Repetidor PoE GIGABIT 5 PUERTOS / 1 × PoE IN (af/at/bt) + 4 × PoE OUT (af/at) / "
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-red-ds-3e0105p-e-m-c--o-std",
@@ -8546,13 +7855,12 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Referencia": "DS-3E0105P-E/M(C)(O-STD)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "SWITCH PoE 4 PUERTOS NO ADMINISTRADO / GESTIÓN INTELIGENTE PoE / TRANSMISIÓN DE "
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-red-ds-3e0106hp-e-o-std",
@@ -8571,13 +7879,12 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Referencia": "DS-3E0106HP-E（O-STD）",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "SWITCH PoE 4 PUERTOS NO ADMINISTRADO / GESTIÓN INTELIGENTE PoE / TRANSMISIÓN DE "
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-red-ds-3e0505d-o",
@@ -8591,18 +7898,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 48392,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-3e0505d-o.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "DS-3E0505D-O",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "SWITCH GIGABIT PLÁSTICO NO ADMINISTRABLE / 5 PUERTOS RJ45 10/100/1000 Mbps / SOP"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-red-ds-3e0505-o",
@@ -8616,18 +7920,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 61364,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-3e0505-o.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "DS-3E0505-O",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "SWITCH GIGABIT METÁLICO NO ADMINISTRABLE / 5 PUERTOS RJ45 10/100/1000 Mbps / ACC"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-red-ds-3e0508d-o-o-std",
@@ -8641,18 +7942,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 83720,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-3e0508d-o-o-std.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "DS-3E0508D-O(O-STD)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "SWITCH GIGABIT PLÁSTICO NO ADMINISTRABLE / 8 PUERTOS RJ45 10/100/1000 Mbps / SOP"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-red-ds-3e0508-o",
@@ -8666,18 +7964,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 93104,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-3e0508-o.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "DS-3E0508-O",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "SWITCH GIGABIT METÁLICO NO ADMINISTRABLE / 8 PUERTOS RJ45 10/100/1000 Mbps / ACC"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-red-ds-3e0105p-e-m",
@@ -8696,13 +7991,12 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Referencia": "DS-3E0105P-E/M",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "L2 5 PUERTOS 4/ 100 Mbps POE y 1/100 Mbps Ethernet POE 35W METALICO"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-red-ds-3e0108d-o-o-std",
@@ -8716,18 +8010,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 37720,
     "stock": 25,
     "image": "/productos/catalogo/hik-red-ds-3e0108d-o-o-std.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "DS-3E0108D-O(O-STD)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "SWITCH FAST ETHERNET PLÁSTICO NO ADMINISTRABLE / 8 PUERTOS RJ45 10/100 Mbps / SO"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-red-ds-3e1505p-ei-m",
@@ -8746,13 +8037,12 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Referencia": "DS-3E1505P-EI/M",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "4 PUERTOS 4/ 100 Mbps POE y 2/100 Mbps Ethernet POE 45 W METALICO"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-red-ds-3e1510p-ei-m--b",
@@ -8771,13 +8061,12 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Referencia": "DS-3E1510P-EI/M (B)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "SWITCH SMART MANAGED / 8 PUERTOS GIGABIT PoE + 2 RJ45 / POE 60 W / LONG REACH 30"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-red-ds-3e1510p-si",
@@ -8796,13 +8085,12 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Referencia": "DS-3E1510P-SI",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "SWITCH SMART MANAGED / 8 PUERTOS GIGABIT PoE + 2 SFP / POE 110 W / LONG REACH 30"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-red-ds-3e1518p-ei-o-std-v2",
@@ -8821,15 +8109,14 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Referencia": "DS-3E1518P-EI(O-STD)V2",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "SWITCH GIGABIT INTELIGENTE POE / 16 PUERTOS RJ45 GIGABIT POE + 1 RJ45 GIGABIT + 1 PUERTO ÓPTICO SFP / PRESUPUESTO POE TOTAL: 230 W / GESTIÓN UNIFICADA EN LA NUBE PARA SISTEMAS DE SEGURIDAD / TOPOLOGÍA VISUALIZADA Y RESOLUCIÓN REMOTA DE FALLAS / TRANSMISIÓN POE DE LARGO ALCANCE HASTA 300 m / PROTECCIÓN CONTRA SOBRETENSIÓN DE 6 kV / FUNCIONES L2: VLAN",
       "STP/RSTP",
       "POE WATCHDOG / MONTAJE EN RACK"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-red-ds-3e1518p-ei-m-o-std",
@@ -8848,15 +8135,14 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Referencia": "DS-3E1518P-EI/M(O-STD)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "SWITCH GIGABIT INTELIGENTE POE / 18 PUERTOS RJ45 GIGABIT POE + 2 RJ45 GIGABIT + 2 PUERTOS ÓPTICOS SFP / PRESUPUESTO POE TOTAL: 230 W / GESTIÓN UNIFICADA EN LA NUBE PARA SISTEMAS DE SEGURIDAD / TOPOLOGÍA VISUALIZADA Y RESOLUCIÓN REMOTA DE FALLAS / TRANSMISIÓN POE DE LARGO ALCANCE HASTA 300 m / PROTECCIÓN CONTRA SOBRETENSIÓN DE 6 kV / FUNCIONES L2: VLAN",
       "STP/RSTP",
       "POE WATCHDOG / MONTAJE EN RACK"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-red-ds-3e1526p-ei-m-o-std",
@@ -8875,15 +8161,14 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Referencia": "DS-3E1526P-EI/M(O-STD)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "SWITCH GIGABIT INTELIGENTE POE / 24 PUERTOS RJ45 GIGABIT POE + 1 RJ45 GIGABIT + 1 PUERTO ÓPTICO SFP / PRESUPUESTO POE TOTAL: 230 W / GESTIÓN UNIFICADA EN LA NUBE PARA SISTEMAS DE SEGURIDAD / TOPOLOGÍA VISUALIZADA Y RESOLUCIÓN REMOTA DE FALLAS / TRANSMISIÓN POE DE LARGO ALCANCE HASTA 300 m / PROTECCIÓN CONTRA SOBRETENSIÓN DE 6 kV / FUNCIONES L2: VLAN",
       "STP/RSTP",
       "POE WATCHDOG / MONTAJE EN RACK"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-red-ds-3e0106p-e-m-b",
@@ -8902,13 +8187,12 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Referencia": "DS-3E0106P-E/M(B)",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "4 PUERTOS PoE 10/100 + 2 RJ45 10/100 / PoE 35 W / ALCANCE 300 M EXTENDIDO / CAPA"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hik-red-ds-3e1309p-ei-m-e1",
@@ -8927,13 +8211,12 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Referencia": "DS-3E1309P-EI/M E1",
-      "Marca": "Hikvision",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "Hikvision"
     },
     "features": [
       "8 PUERTOS 8/ 100 Mbps POE y 1/100 Mbps Ethernet   POE 60W METALICO"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hagroy-hg-yanex1600",
@@ -8947,18 +8230,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 210680,
     "stock": 25,
     "image": "/productos/catalogo/hagroy-hg-yanex1600.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "HG YANEX1600",
-      "Marca": "HAGROY",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "HAGROY"
     },
     "features": [
       "ELECTRIFICADOR YANEX 1600M Electrificación de hasta 1600m. Armado inalámbrico Id"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hagroy-hg-zoe-wifi",
@@ -8977,15 +8257,14 @@ export const PRODUCTS: Product[] = [
     ],
     "specs": {
       "Referencia": "HG ZOE-WIFI",
-      "Marca": "HAGROY",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "HAGROY"
     },
     "features": [
       "ELECTRIFICADOR ZOE WIFI Alcance 3500m Potencia: 1",
       "0 Joule",
       "Salida 12V"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hagroy-hg-xpoweri8-220",
@@ -8999,20 +8278,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 263120,
     "stock": 25,
     "image": "/productos/catalogo/hagroy-hg-xpoweri8-220.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "HG-XPOWERI8-220",
-      "Marca": "HAGROY",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "HAGROY"
     },
     "features": [
       "ELECTRIFICADOR X-POWER i8 Electrificación de hasta 1500m",
       "Combina cerco y alarma",
       "Armado inalámbrico y por contraseña"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hagroy-hg-xpoweri12-110",
@@ -9026,20 +8302,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 499560,
     "stock": 25,
     "image": "/productos/catalogo/hagroy-hg-xpoweri12-110.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "HG-XPOWERI12-110",
-      "Marca": "HAGROY",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "HAGROY"
     },
     "features": [
       "ELECTRIFICADOR XPOWERi12 01 zona - Alcance 3500m Supervisión de retorno a tierra Potencia: 1",
       "0 Joule",
       "Salida 12V"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hagroy-hg-hr-8000plus110",
@@ -9053,20 +8326,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 920000,
     "stock": 25,
     "image": "/productos/catalogo/hagroy-hg-hr-8000plus110.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "HG-HR-8000PLUS110",
-      "Marca": "HAGROY",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "HAGROY"
     },
     "features": [
       "ECTRIFICADOR inteligente HR8000 PLUS (Anti-planta y Antilluvia) 02 zonas de alarma Alcance 10 000m Salida Aux",
       "(DC) Supervisión de retorno a tierra Potencia: 1",
       "2 joule Capacidad: 96 pulsadores /\nsensores inalámbricos Salida PGM"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hagroy-hg-hr8000plus110-v2",
@@ -9080,20 +8350,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 526240,
     "stock": 25,
     "image": "/productos/catalogo/hagroy-hg-hr8000plus110-v2.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "HG-HR8000PLUS110-V2",
-      "Marca": "HAGROY",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "HAGROY"
     },
     "features": [
       "ELECTRIFICADOR inteligente HR 15",
       "000  (Anti-planta y Antilluvia)01 zona de alarma Alcance 10000m Salida Aux",
       "(DC) Supervisión de alambre Salida PGM"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hagroy-hg-ac-almx4g",
@@ -9107,18 +8374,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 1314680,
     "stock": 25,
     "image": "/productos/catalogo/hagroy-hg-ac-almx4g.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "HG-AC-ALMX4G",
-      "Marca": "HAGROY",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "HAGROY"
     },
     "features": [
       "ALCOM MAX LTE Capacidad de 2000 usuarios 03 zonas cableadas para sensores de mov"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hagroy-hg-ac-almvz4g",
@@ -9132,18 +8396,15 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 1117800,
     "stock": 25,
     "image": "/productos/catalogo/hagroy-hg-ac-almvz4g.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "HG-AC-ALMVZ4G",
-      "Marca": "HAGROY",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "HAGROY"
     },
     "features": [
       "ALCOM VOZ 4G LTE Capacidad de 500 usuarios y 500 pulsadores 01 Zona cableada 01 "
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hagroy-hg-mpr3",
@@ -9157,20 +8418,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 211600,
     "stock": 25,
     "image": "/productos/catalogo/hagroy-hg-mpr3.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "HG-MPR3",
-      "Marca": "HAGROY",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "HAGROY"
     },
     "features": [
       "ALARMA COMUNITARIA MPR3 Cantidad de Usuario 100 usuarios Tipos de usuario Estándar\nCantidad de equipos una Red 16 equipos Salidas de Sirena 12V 7Amp Capacidad de Batería\nBat",
       "4AH y Bat",
       "7AH Frecuencia de trasmisión 433Mhz Frecuencia de recepción 433Mhz"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hagroy-hg-p4-ward",
@@ -9184,20 +8442,17 @@ export const PRODUCTS: Product[] = [
     "wholesalePrice": 329360,
     "stock": 25,
     "image": "/productos/catalogo/hagroy-hg-p4-ward.webp",
-    "tags": [
-      "Profesional"
-    ],
+    "tags": [],
     "specs": {
       "Referencia": "HG-P4-WARD",
-      "Marca": "HAGROY",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "HAGROY"
     },
     "features": [
       "Wi‐Fi integrado para acceso remoto",
       "Configuración por Bluetooth 5",
       "Monitoreo profesional compatible con SIA IP"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hagroy-hg-ward",
@@ -9212,19 +8467,18 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hagroy-hg-ward.webp",
     "tags": [
-      "Profesional"
+      "WiFi"
     ],
     "specs": {
       "Referencia": "HG-WARD",
-      "Marca": "HAGROY",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "HAGROY"
     },
     "features": [
       "Wi-Fi 2",
       "4 GHz y Bluetooth 5",
       "16 zonas (8 cableadas + 8 inalámbricas)"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
   },
   {
     "id": "hagroy-hg-ward-pro",
@@ -9239,18 +8493,9676 @@ export const PRODUCTS: Product[] = [
     "stock": 25,
     "image": "/productos/catalogo/hagroy-hg-ward-pro.webp",
     "tags": [
-      "Profesional"
+      "WiFi"
     ],
     "specs": {
       "Referencia": "HG-WARD-PRO",
-      "Marca": "HAGROY",
-      "Garantía": "1 a 2 Años Oficial"
+      "Marca": "HAGROY"
     },
     "features": [
       "Wi-Fi",
       "Bluetooth y RF 433 MHz",
       "GSM 4G LTE multibanda integrado"
     ],
-    "warranty": "1 a 2 Años de Garantía Oficial"
+    "warranty": ""
+  },
+  {
+    "id": "acc-aut-31l",
+    "sku": "31L",
+    "name": "SOLTECOM 31L",
+    "brand": "SOLTECOM",
+    "category": "redes",
+    "shortDesc": "CONTACTO magnético liviano NC, cable  22 awg l- 450mm, color blanco,",
+    "description": "CONTACTO magnético liviano NC, cable  22 awg l- 450mm, color blanco,",
+    "price": 5300,
+    "wholesalePrice": 4876,
+    "stock": 25,
+    "image": "/productos/catalogo/soltecom-31l.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "31L",
+      "Marca": "SOLTECOM"
+    },
+    "features": [
+      "CONTACTO magnético liviano NC",
+      "cable  22 awg l- 450mm",
+      "color blanco"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "acc-aut-60l",
+    "sku": "60L",
+    "name": "SOLTECOM 60L",
+    "brand": "SOLTECOM",
+    "category": "redes",
+    "shortDesc": "CONTACTO magnético semi pesado. nivel de protección: P68. uso puerta metálica, tipo de salida NC, con el cable de acero inoxidable de 380 mm...",
+    "description": "CONTACTO magnético semi pesado. nivel de protección: P68. uso puerta metálica, tipo de salida NC, con el cable de acero inoxidable de 380 mm. dimensiones: 106 x 38 x 10m m ( Switch ).106 x 16 x 16mm ( imán ).  50 x 50m m ( tipo de l )",
+    "price": 38900,
+    "wholesalePrice": 35788,
+    "stock": 25,
+    "image": "/productos/catalogo/soltecom-60l.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "60L",
+      "Marca": "SOLTECOM"
+    },
+    "features": [
+      "CONTACTO magnético semi pesado",
+      "nivel de protección: P68",
+      "uso puerta metálica"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "acc-aut-be01",
+    "sku": "BE01",
+    "name": "SOLTECOM BE01",
+    "brand": "SOLTECOM",
+    "category": "accesorios-acceso",
+    "shortDesc": "BOTÓN de emergencia de enclavamiento, para uso exclusivo en caso de emergencia.  conexiones: bornes de conexión (1 x 2,5 mm²), NC - COM, NO ...",
+    "description": "BOTÓN de emergencia de enclavamiento, para uso exclusivo en caso de emergencia.  conexiones: bornes de conexión (1 x 2,5 mm²), NC - COM, NO - COM durabilidad mecánica: 100,000.000 ciclos. designación del código de contacto a600 ac-15:  ue = 240 v, ie = 3 a conforme a iec 947-5-1 apéndice a. corriente térmica: 10a. tensión de aislamiento nominal: 600v. estándar: csa c22-2 no 14 en/iec 60204-32 en/iec 60947-5-1 ul 508. temperatura: '-25°c - 70°c . dimensiones: 115x71x30 mm. garantía de 1 año",
+    "price": 53000,
+    "wholesalePrice": 48760,
+    "stock": 25,
+    "image": "/productos/catalogo/soltecom-be01.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "BE01",
+      "Marca": "SOLTECOM"
+    },
+    "features": [
+      "BOTÓN de emergencia de enclavamiento",
+      "para uso exclusivo en caso de emergencia",
+      "conexiones: bornes de conexión (1 x 2"
+    ],
+    "warranty": "Garantía de 1 año"
+  },
+  {
+    "id": "acc-aut-b4-1",
+    "sku": "B4-1",
+    "name": "SOLTECOM B4-1",
+    "brand": "SOLTECOM",
+    "category": "accesorios-acceso",
+    "shortDesc": "RECEPTOR y control remoto inalámbrico, salida de 1 relevo. y capacidad de agregar hasta 30 controles remoto. distancia hasta 50 metros. cont...",
+    "description": "RECEPTOR y control remoto inalámbrico, salida de 1 relevo. y capacidad de agregar hasta 30 controles remoto. distancia hasta 50 metros. contacto de salida: NO / NC / COM,  ajustable a 2 estados de apertura ( cierre automático, cierre y apertura manual ) Garantía de 1 año",
+    "price": 100000,
+    "wholesalePrice": 92000,
+    "stock": 25,
+    "image": "/productos/catalogo/soltecom-b4-1.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "B4-1",
+      "Marca": "SOLTECOM"
+    },
+    "features": [
+      "RECEPTOR y control remoto inalámbrico",
+      "salida de 1 relevo",
+      "y capacidad de agregar hasta 30 controles remoto"
+    ],
+    "warranty": "Garantía de 1 año"
+  },
+  {
+    "id": "acc-aut-b4-2",
+    "sku": "B4-2",
+    "name": "SOLTECOM B4-2",
+    "brand": "SOLTECOM",
+    "category": "accesorios-acceso",
+    "shortDesc": "RECEPTOR  y control remoto inalámbrico, salida  de 2 relevos especial para parking. distancia hasta 50 metros. contacto de salida: NO / NC /...",
+    "description": "RECEPTOR  y control remoto inalámbrico, salida  de 2 relevos especial para parking. distancia hasta 50 metros. contacto de salida: NO / NC / COM,  capacidad de agregar hasta 30 controles remoto. ajustable a 3 estados de apertura ( cierre automático, cierre y apertura manual ( conexión de 2 electroimanes o cantonera independiente ) y enclavado ( apertura y cierre de 1 puerta a la vez ) Garantía de 1 año",
+    "price": 112000,
+    "wholesalePrice": 103040,
+    "stock": 25,
+    "image": "/productos/catalogo/soltecom-b4-2.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "B4-2",
+      "Marca": "SOLTECOM"
+    },
+    "features": [
+      "RECEPTOR  y control remoto inalámbrico",
+      "salida  de 2 relevos especial para parking",
+      "distancia hasta 50 metros"
+    ],
+    "warranty": "Garantía de 1 año"
+  },
+  {
+    "id": "acc-aut-rc-4a",
+    "sku": "RC-4A",
+    "name": "SOLTECOM RC-4A",
+    "brand": "SOLTECOM",
+    "category": "accesorios-acceso",
+    "shortDesc": "CONTROL remoto inalámbrico frecuencia 433,92 MHz. compatible con receptor VZ-B4 y VZ-B4/2R",
+    "description": "CONTROL remoto inalámbrico frecuencia 433,92 MHz. compatible con receptor VZ-B4 y VZ-B4/2R",
+    "price": 31500,
+    "wholesalePrice": 28980,
+    "stock": 25,
+    "image": "/productos/catalogo/soltecom-rc-4a.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "RC-4A",
+      "Marca": "SOLTECOM"
+    },
+    "features": [
+      "CONTROL remoto inalámbrico frecuencia 433",
+      "92 MHz",
+      "compatible con receptor VZ-B4 y VZ-B4/2R"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "acc-aut-k2-1",
+    "sku": "K2-1",
+    "name": "SOLTECOM K2-1",
+    "brand": "SOLTECOM",
+    "category": "accesorios-acceso",
+    "shortDesc": "BOTON de salida no touch temporizado, en acero inoxidable con led indicador ( rojo:  encendido - inactivo. ; verde: encendido - activo ) pro...",
+    "description": "BOTON de salida no touch temporizado, en acero inoxidable con led indicador ( rojo:  encendido - inactivo. ; verde: encendido - activo ) programación ajustable de tiempo  ( 5 - 25 seg. ) y distancia ( 4 - 10 cm ). contacto de salida NO / NC / COM voltaje de entrada 12v.  protección IP55, dimensiones: 114l* 70w * 25,7h (mm).  Garantía de 1 año",
+    "price": 73800,
+    "wholesalePrice": 67896,
+    "stock": 25,
+    "image": "/productos/catalogo/soltecom-k2-1.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "K2-1",
+      "Marca": "SOLTECOM"
+    },
+    "features": [
+      "BOTON de salida no touch temporizado",
+      "en acero inoxidable con led indicador ( rojo:  encendido - inactivo",
+      "verde: encendido - activo ) programación ajustable de tiempo  ( 5 - 25 seg"
+    ],
+    "warranty": "Garantía de 1 año"
+  },
+  {
+    "id": "acc-aut-k1-1",
+    "sku": "K1-1",
+    "name": "SOLTECOM K1-1",
+    "brand": "SOLTECOM",
+    "category": "accesorios-acceso",
+    "shortDesc": "BOTON de salida NO TOUCH en acero inoxidable con led indicador ( rojo:  encendido - inactivo. ; verde: encendido - activo ) contacto de sali...",
+    "description": "BOTON de salida NO TOUCH en acero inoxidable con led indicador ( rojo:  encendido - inactivo. ; verde: encendido - activo ) contacto de salida NO / NC / COM, voltaje de entrada 12v.  protección  ip - 55. moderno diseño. dimensiones: 114l* 70w * 25,7h (mm). Garantía de 1 año",
+    "price": 48300,
+    "wholesalePrice": 44436,
+    "stock": 25,
+    "image": "/productos/catalogo/soltecom-k1-1.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "K1-1",
+      "Marca": "SOLTECOM"
+    },
+    "features": [
+      "BOTON de salida NO TOUCH en acero inoxidable con led indicador ( rojo:  encendido - inactivo",
+      "verde: encendido - activo ) contacto de salida NO / NC / COM",
+      "voltaje de entrada 12v"
+    ],
+    "warranty": "Garantía de 1 año"
+  },
+  {
+    "id": "acc-aut-80-n",
+    "sku": "80-N",
+    "name": "SOLTECOM 80-N",
+    "brand": "SOLTECOM",
+    "category": "accesorios-acceso",
+    "shortDesc": "BOTON de salida touch en aluminio, dimensiones: 114l* 70w * 25,7h (mm).  contacto de salida NO / NC / COM, corriente máxima: 3a a 36 VDC. Ga...",
+    "description": "BOTON de salida touch en aluminio, dimensiones: 114l* 70w * 25,7h (mm).  contacto de salida NO / NC / COM, corriente máxima: 3a a 36 VDC. Garantía de 1 año.   1 año",
+    "price": 46000,
+    "wholesalePrice": 42320,
+    "stock": 25,
+    "image": "/productos/catalogo/soltecom-80-n.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "80-N",
+      "Marca": "SOLTECOM"
+    },
+    "features": [
+      "BOTON de salida touch en aluminio",
+      "dimensiones: 114l* 70w * 25",
+      "7h (mm)"
+    ],
+    "warranty": "Garantía de 1 año"
+  },
+  {
+    "id": "acc-aut-82-n",
+    "sku": "82-N",
+    "name": "SOLTECOM 82-N",
+    "brand": "SOLTECOM",
+    "category": "accesorios-acceso",
+    "shortDesc": "BOTON de salida touch en aluminio delgado dimensiones: 90l* 35w * 29h (mm).  contacto de salida NO / NC / COM, corriente máxima: 3a a 36 VDC...",
+    "description": "BOTON de salida touch en aluminio delgado dimensiones: 90l* 35w * 29h (mm).  contacto de salida NO / NC / COM, corriente máxima: 3a a 36 VDC, Garantía de 1 año.",
+    "price": 41200,
+    "wholesalePrice": 37904,
+    "stock": 25,
+    "image": "/productos/catalogo/soltecom-82-n.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "82-N",
+      "Marca": "SOLTECOM"
+    },
+    "features": [
+      "BOTON de salida touch en aluminio delgado dimensiones: 90l* 35w * 29h (mm)",
+      "contacto de salida NO / NC / COM",
+      "corriente máxima: 3a a 36 VDC"
+    ],
+    "warranty": "Garantía de 1 año"
+  },
+  {
+    "id": "acc-aut-k4l-1",
+    "sku": "K4L-1",
+    "name": "SOLTECOM K4L-1",
+    "brand": "SOLTECOM",
+    "category": "accesorios-acceso",
+    "shortDesc": "Botón de interruptor de salida de acero inoxidable con llaves para control de acceso de puerta, placa frontal de acero inoxidable contactos ...",
+    "description": "Botón de interruptor de salida de acero inoxidable con llaves para control de acceso de puerta, placa frontal de acero inoxidable contactos de salida NO/NC/COM Led Indicador",
+    "price": 71000,
+    "wholesalePrice": 65320,
+    "stock": 25,
+    "image": "/productos/catalogo/soltecom-k4l-1.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "K4L-1",
+      "Marca": "SOLTECOM"
+    },
+    "features": [
+      "Botón de interruptor de salida de acero inoxidable con llaves para control de acceso de puerta",
+      "placa frontal de acero inoxidable contactos de salida NO/NC/COM Led Indicador"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "acc-aut-tm-lock",
+    "sku": "TM-LOCK",
+    "name": "SOLTECOM TM-LOCK",
+    "brand": "SOLTECOM",
+    "category": "accesorios-acceso",
+    "shortDesc": "ANTI REMANENTE electrónico de tiempo, programado a 5 segundos,  12v dc, conexión de relevo NO / COM / NC, buzzer y led de identificación de ...",
+    "description": "ANTI REMANENTE electrónico de tiempo, programado a 5 segundos,  12v dc, conexión de relevo NO / COM / NC, buzzer y led de identificación de apertura. No cuenta con garantía.",
+    "price": 70600,
+    "wholesalePrice": 64952,
+    "stock": 25,
+    "image": "/productos/catalogo/soltecom-tm-lock.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "TM-LOCK",
+      "Marca": "SOLTECOM"
+    },
+    "features": [
+      "ANTI REMANENTE electrónico de tiempo",
+      "programado a 5 segundos",
+      "12v dc"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "acc-aut-elp5-w",
+    "sku": "ELP5-W",
+    "name": "SOLTECOM ELP5-W",
+    "brand": "SOLTECOM",
+    "category": "accesorios-acceso",
+    "shortDesc": "ELECTROPERNO temporizado configurable ( 0,3,6 segundos ).  uso interior. sensor de puerta com/nc/no. voltaje: 12v. consumo en reposo:0,2 a. ...",
+    "description": "ELECTROPERNO temporizado configurable ( 0,3,6 segundos ).  uso interior. sensor de puerta com/nc/no. voltaje: 12v. consumo en reposo:0,2 a. consumo en operación:0,8 a.  temperatura ambiente trabajo:0-50 ℃dimensiones platina200mm*33mm*3mm(largo*ancho*espesor).dimensioneSmecanismo:125mm*36mm*39mm(largo*alto*ancho). garantia de 1 año",
+    "price": 165000,
+    "wholesalePrice": 151800,
+    "stock": 25,
+    "image": "/productos/catalogo/soltecom-elp5-w.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ELP5-W",
+      "Marca": "SOLTECOM"
+    },
+    "features": [
+      "ELECTROPERNO temporizado configurable ( 0",
+      "6 segundos )",
+      "uso interior"
+    ],
+    "warranty": "Garantía de 1 año",
+    "imageNote": "Imagen ilustrativa del tipo de electroperno; modelo exacto pendiente de fotografía."
+  },
+  {
+    "id": "acc-aut-el-150gf",
+    "sku": "EL-150GF",
+    "name": "SOLTECOM EL-150GF",
+    "brand": "SOLTECOM",
+    "category": "redes",
+    "shortDesc": "ELECTROIMÁN de 350 libras de fuerza de sujeción,  para uso interior y exterior IP68. puerta sencilla con sensor magnético, aluminio,  trae 4...",
+    "description": "ELECTROIMÁN de 350 libras de fuerza de sujeción,  para uso interior y exterior IP68. puerta sencilla con sensor magnético, aluminio,  trae 4 cables: 2 de corriente +/-. y  2 cables de conexión  para  sensor de puerta abierta NC .voltaje de alimentación continua 12 VDC. consumo de 350 Ma. Dimensiones 171x33x23 mm. Garantía de 1 año",
+    "price": 95000,
+    "wholesalePrice": 87400,
+    "stock": 25,
+    "image": "/productos/catalogo/soltecom-el-150gf.webp",
+    "tags": [
+      "IP68"
+    ],
+    "specs": {
+      "Referencia": "EL-150GF",
+      "Marca": "SOLTECOM"
+    },
+    "features": [
+      "ELECTROIMÁN de 350 libras de fuerza de sujeción",
+      "para uso interior y exterior IP68",
+      "puerta sencilla con sensor magnético"
+    ],
+    "warranty": "Garantía de 1 año"
+  },
+  {
+    "id": "acc-aut-u-150",
+    "sku": "U-150",
+    "name": "SOLTECOM U-150",
+    "brand": "SOLTECOM",
+    "category": "accesorios-acceso",
+    "shortDesc": "SOPORTE en U para para electroimán de 180 kg. (350 lbs), puerta de vidrio (incluye goma de aislamiento + lamina de aluminio para presión + t...",
+    "description": "SOPORTE en U para para electroimán de 180 kg. (350 lbs), puerta de vidrio (incluye goma de aislamiento + lamina de aluminio para presión + tornillos ) dimensiones 171 x 33 x 23 mm",
+    "price": 23000,
+    "wholesalePrice": 21160,
+    "stock": 25,
+    "image": "/productos/catalogo/soltecom-u-150.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "U-150",
+      "Marca": "SOLTECOM"
+    },
+    "features": [
+      "SOPORTE en U para para electroimán de 180 kg",
+      "(350 lbs)",
+      "puerta de vidrio (incluye goma de aislamiento + lamina de aluminio para presión + tornillos ) dimensiones 171 x 33 x 23 mm"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "acc-aut-zl-150",
+    "sku": "ZL-150",
+    "name": "SOLTECOM ZL-150",
+    "brand": "SOLTECOM",
+    "category": "accesorios-acceso",
+    "shortDesc": "SOPORTE en ZL  para electroiman 180 kg, (350 lbs) en aluminio, 3 piezas: 1L para electroimán + 2 L pequeñas perforadas instalación platina +...",
+    "description": "SOPORTE en ZL  para electroiman 180 kg, (350 lbs) en aluminio, 3 piezas: 1L para electroimán + 2 L pequeñas perforadas instalación platina + tornillos ) dimensiones 171 x 55 x 30.2 mm",
+    "price": 48300,
+    "wholesalePrice": 44436,
+    "stock": 25,
+    "image": "/productos/catalogo/soltecom-zl-150.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZL-150",
+      "Marca": "SOLTECOM"
+    },
+    "features": [
+      "SOPORTE en ZL  para electroiman 180 kg",
+      "(350 lbs) en aluminio",
+      "3 piezas: 1L para electroimán + 2 L pequeñas perforadas instalación platina + tornillos ) dimensiones 171 x 55 x 30"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "acc-aut-el-230gf",
+    "sku": "EL-230GF",
+    "name": "SOLTECOM EL-230GF",
+    "brand": "SOLTECOM",
+    "category": "redes",
+    "shortDesc": "ELECTROIMAN de 600 libras (280Kg) fuerza de sujeción, uso interior IP65, Anti remanente y sensor magnético, relevo para buzzer, indicador le...",
+    "description": "ELECTROIMAN de 600 libras (280Kg) fuerza de sujeción, uso interior IP65, Anti remanente y sensor magnético, relevo para buzzer, indicador led de salida / entrada, 2 cables de corriente +/ -  voltaje de alimentación continua 12 VDC. consumo de 450 Ma, dimensiones 250x48x26 mm, Garantía de 1 año.",
+    "price": 112000,
+    "wholesalePrice": 103040,
+    "stock": 25,
+    "image": "/productos/catalogo/soltecom-el-230gf.webp",
+    "tags": [
+      "IP65"
+    ],
+    "specs": {
+      "Referencia": "EL-230GF",
+      "Marca": "SOLTECOM"
+    },
+    "features": [
+      "ELECTROIMAN de 600 libras (280Kg) fuerza de sujeción",
+      "uso interior IP65",
+      "Anti remanente y sensor magnético"
+    ],
+    "warranty": "Garantía de 1 año"
+  },
+  {
+    "id": "acc-aut-u-230",
+    "sku": "U-230",
+    "name": "SOLTECOM U-230",
+    "brand": "SOLTECOM",
+    "category": "accesorios-acceso",
+    "shortDesc": "SOPORTE en U para electroimán de 280 Kg, (600 lbs) para puertas de vidrio ( incluye goma de aislamiento + lamina de aluminio para presión + ...",
+    "description": "SOPORTE en U para electroimán de 280 Kg, (600 lbs) para puertas de vidrio ( incluye goma de aislamiento + lamina de aluminio para presión + tornillos ) se evita el uso de pegantes o foto curado, dimensiones 180 x 42.9 x 28 mm",
+    "price": 26000,
+    "wholesalePrice": 23920,
+    "stock": 25,
+    "image": "/productos/catalogo/soltecom-u-230.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "U-230",
+      "Marca": "SOLTECOM"
+    },
+    "features": [
+      "SOPORTE en U para electroimán de 280 Kg",
+      "(600 lbs) para puertas de vidrio ( incluye goma de aislamiento + lamina de aluminio para presión + tornillos ) se evita el uso de pegantes o foto curado",
+      "dimensiones 180 x 42"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "acc-aut-zl-230",
+    "sku": "ZL-230",
+    "name": "SOLTECOM ZL-230",
+    "brand": "SOLTECOM",
+    "category": "accesorios-acceso",
+    "shortDesc": "SOPORTE en ZL para  para electroiman 600 lbs (280 Kg)  (se conforma de tres piezas: 1l para electroimán + 2 l pequeñas ranuradas instalación...",
+    "description": "SOPORTE en ZL para  para electroiman 600 lbs (280 Kg)  (se conforma de tres piezas: 1l para electroimán + 2 l pequeñas ranuradas instalación platina + tornillos )  dimensiones 250 x 55.1 x 30.3 mm //   180 x 52.3 x 42.2 mm",
+    "price": 60000,
+    "wholesalePrice": 55200,
+    "stock": 25,
+    "image": "/productos/catalogo/soltecom-zl-230.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZL-230",
+      "Marca": "SOLTECOM"
+    },
+    "features": [
+      "SOPORTE en ZL para  para electroiman 600 lbs (280 Kg)  (se conforma de tres piezas: 1l para electroimán + 2 l pequeñas ranuradas instalación platina + tornillos )  dimensiones 250 x 55",
+      "1 x 30",
+      "3 mm //   180 x 52"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "acc-aut-el-230gfw",
+    "sku": "EL-230GFW",
+    "name": "SOLTECOM EL-230GFW",
+    "brand": "SOLTECOM",
+    "category": "redes",
+    "shortDesc": "ELECTROIMAN para uso interior y exterior ip68.  con antirremanente y sensor magnetico. relevo para buzzer . con indicador led de salida/entr...",
+    "description": "ELECTROIMAN para uso interior y exterior ip68.  con antirremanente y sensor magnetico. relevo para buzzer . con indicador led de salida/entrada. trae 5 cables: 2 de corriente +/ - . y 3 cables con conexion no/nc/com para verificacion del estado de la puerta ( abierta o cerrada ).  fuerza de sujecion 280kg, ( 600 lbs ). estructura sellada para uso en puertas exteriores.  voltaje de alimentacion continua 12vdc. consumo de 450 ma. 250x48x26 mm . garantia de 1 año.",
+    "price": 132000,
+    "wholesalePrice": 121440,
+    "stock": 25,
+    "image": "/productos/catalogo/soltecom-el-230gfw.webp",
+    "tags": [
+      "IP68"
+    ],
+    "specs": {
+      "Referencia": "EL-230GFW",
+      "Marca": "SOLTECOM"
+    },
+    "features": [
+      "ELECTROIMAN para uso interior y exterior ip68",
+      "con antirremanente y sensor magnetico",
+      "relevo para buzzer"
+    ],
+    "warranty": "Garantía de 1 año"
+  },
+  {
+    "id": "acc-aut-el-500gfw",
+    "sku": "EL-500GFW",
+    "name": "SOLTECOM EL-500GFW",
+    "brand": "SOLTECOM",
+    "category": "accesorios-acceso",
+    "shortDesc": "ELECTROIMAN de 1200 libras (500 Kg) con anti remanente magnético y de tiempo, led indicador de apertura, a prueba de agua IP68, salidas sens...",
+    "description": "ELECTROIMAN de 1200 libras (500 Kg) con anti remanente magnético y de tiempo, led indicador de apertura, a prueba de agua IP68, salidas sensor de retención:  NO / NC / COM  voltaje: 12 dc ±10%. flujo de corriente: 570 ma @ 12 v. peso: 4 kg, dimensiones 26.7 x 7.8 x 4 cm.Garantia de 1 año.",
+    "price": 335300,
+    "wholesalePrice": 308476,
+    "stock": 25,
+    "image": "/productos/catalogo/soltecom-el-500gfw.webp",
+    "tags": [
+      "IP68"
+    ],
+    "specs": {
+      "Referencia": "EL-500GFW",
+      "Marca": "SOLTECOM"
+    },
+    "features": [
+      "ELECTROIMAN de 1200 libras (500 Kg) con anti remanente magnético y de tiempo",
+      "led indicador de apertura",
+      "a prueba de agua IP68"
+    ],
+    "warranty": "Garantía de 1 año"
+  },
+  {
+    "id": "acc-aut-el-500gf",
+    "sku": "EL-500GF",
+    "name": "SOLTECOM EL-500GF",
+    "brand": "SOLTECOM",
+    "category": "accesorios-acceso",
+    "shortDesc": "ELECTROIMAN de 1200 libras (500 Kg) Uso interior, con anti remanente magnético y de tiempo, led indicador de apertura, a prueba de agua IP68...",
+    "description": "ELECTROIMAN de 1200 libras (500 Kg) Uso interior, con anti remanente magnético y de tiempo, led indicador de apertura, a prueba de agua IP68, salidas sensor de retención:  NO / NC / COM  voltaje: 12 dc ±10%. flujo de corriente: 570 ma @ 12 v. peso: 4 kg, dimensiones 26.7 x 7.8 x 4 cm.Garantia de 1 año.",
+    "price": 223600,
+    "wholesalePrice": 205712,
+    "stock": 25,
+    "image": "/productos/catalogo/soltecom-el-500gf.webp",
+    "tags": [
+      "IP68"
+    ],
+    "specs": {
+      "Referencia": "EL-500GF",
+      "Marca": "SOLTECOM"
+    },
+    "features": [
+      "ELECTROIMAN de 1200 libras (500 Kg) Uso interior",
+      "con anti remanente magnético y de tiempo",
+      "led indicador de apertura"
+    ],
+    "warranty": "Garantía de 1 año"
+  },
+  {
+    "id": "acc-aut-zl-500",
+    "sku": "ZL-500",
+    "name": "SOLTECOM ZL-500",
+    "brand": "SOLTECOM",
+    "category": "accesorios-acceso",
+    "shortDesc": "SOPORTE en ZL para electroimán 1200 lbs (500 kg) ( se conforma de tres piezas: 1L para electroimán + 2 L pequeñas ranuradas instalación plat...",
+    "description": "SOPORTE en ZL para electroimán 1200 lbs (500 kg) ( se conforma de tres piezas: 1L para electroimán + 2 L pequeñas ranuradas instalación platina + tornillos, dimensiones 250 x 55.1 x 30.3 mm // 180 x 52.3 x 42.2 mm",
+    "price": 123600,
+    "wholesalePrice": 113712,
+    "stock": 25,
+    "image": "/productos/catalogo/soltecom-zl-500.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZL-500",
+      "Marca": "SOLTECOM"
+    },
+    "features": [
+      "SOPORTE en ZL para electroimán 1200 lbs (500 kg) ( se conforma de tres piezas: 1L para electroimán + 2 L pequeñas ranuradas instalación platina + tornillos",
+      "dimensiones 250 x 55",
+      "1 x 30"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "acc-aut-ct-12-no",
+    "sku": "CT-12-NO",
+    "name": "SOLTECOM CT-12-NO",
+    "brand": "SOLTECOM",
+    "category": "accesorios-acceso",
+    "shortDesc": "CANTONERA eléctrica. acero inoxidable. fuerza de retención 500kg.  voltaje  dc12v . 200ma. Contacto NO, dimensión: 160lx25wx31h mm.",
+    "description": "CANTONERA eléctrica. acero inoxidable. fuerza de retención 500kg.  voltaje  dc12v . 200ma. Contacto NO, dimensión: 160lx25wx31h mm.",
+    "price": 82400,
+    "wholesalePrice": 75808,
+    "stock": 25,
+    "image": "/productos/catalogo/soltecom-ct-12-no.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "CT-12-NO",
+      "Marca": "SOLTECOM"
+    },
+    "features": [
+      "CANTONERA eléctrica",
+      "acero inoxidable",
+      "fuerza de retención 500kg"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "acc-aut-br12",
+    "sku": "BR12",
+    "name": "SOLTECOM BR12",
+    "brand": "SOLTECOM",
+    "category": "accesorios-acceso",
+    "shortDesc": "BRAZO para cierra puerta hidráulico, resistencia 40-65 Kg. dimensiones: l180xw40xh63 mm.",
+    "description": "BRAZO para cierra puerta hidráulico, resistencia 40-65 Kg. dimensiones: l180xw40xh63 mm.",
+    "price": 107000,
+    "wholesalePrice": 98440,
+    "stock": 25,
+    "image": "/productos/catalogo/soltecom-br12.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "BR12",
+      "Marca": "SOLTECOM"
+    },
+    "features": [
+      "BRAZO para cierra puerta hidráulico",
+      "resistencia 40-65 Kg",
+      "dimensiones: l180xw40xh63 mm"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "acc-aut-br13",
+    "sku": "BR13",
+    "name": "SOLTECOM BR13",
+    "brand": "SOLTECOM",
+    "category": "accesorios-acceso",
+    "shortDesc": "BRAZO para cierra puerta hidráulico, resistencia 65-85 Kg. dimensiones: 280x90x80 mm.",
+    "description": "BRAZO para cierra puerta hidráulico, resistencia 65-85 Kg. dimensiones: 280x90x80 mm.",
+    "price": 126000,
+    "wholesalePrice": 115920,
+    "stock": 25,
+    "image": "/productos/catalogo/soltecom-br13.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "BR13",
+      "Marca": "SOLTECOM"
+    },
+    "features": [
+      "BRAZO para cierra puerta hidráulico",
+      "resistencia 65-85 Kg",
+      "dimensiones: 280x90x80 mm"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "acc-aut-br14",
+    "sku": "BR14",
+    "name": "SOLTECOM BR14",
+    "brand": "SOLTECOM",
+    "category": "accesorios-acceso",
+    "shortDesc": "BRAZO para cierra puerta hidráulico. resistencia 80-120 Kg. dimensiones: 280x90x80 mm.",
+    "description": "BRAZO para cierra puerta hidráulico. resistencia 80-120 Kg. dimensiones: 280x90x80 mm.",
+    "price": 156000,
+    "wholesalePrice": 143520,
+    "stock": 25,
+    "image": "/productos/catalogo/soltecom-br14.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "BR14",
+      "Marca": "SOLTECOM"
+    },
+    "features": [
+      "BRAZO para cierra puerta hidráulico",
+      "resistencia 80-120 Kg",
+      "dimensiones: 280x90x80 mm"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-acc-inbio-460-pro",
+    "sku": "INBIO 460 PRO",
+    "name": "ZKTeco INBIO 460 PRO",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "CONTROLADORA de acceso para 4 puertas, hasta 8 lectoras RS485 (serie FR, huella dactilar) y 4 Wiegand (serie KR, proID) capacidad para 3,000...",
+    "description": "CONTROLADORA de acceso para 4 puertas, hasta 8 lectoras RS485 (serie FR, huella dactilar) y 4 Wiegand (serie KR, proID) capacidad para 3,000 huellas, 30,000 tarjeta de proximidad, almacena 100,000 registros, comunicación TCP/IP. Software ZKBio CVSecurity",
+    "price": 1200000,
+    "wholesalePrice": 1104000,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-inbio-460-pro.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "INBIO 460 PRO",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "CONTROLADORA de acceso para 4 puertas",
+      "hasta 8 lectoras RS485 (serie FR",
+      "huella dactilar) y 4 Wiegand (serie KR"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-acc-inbio460-pro-box",
+    "sku": "INBIO460 PRO BOX",
+    "name": "ZKTeco INBIO460 PRO BOX",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "KIT CONTROLADORA de acceso para 4 puertas, incluye gabinete y fuente de alimentación, hasta 8 lectoras RS485 (serie FR, huella dactilar) y/o...",
+    "description": "KIT CONTROLADORA de acceso para 4 puertas, incluye gabinete y fuente de alimentación, hasta 8 lectoras RS485 (serie FR, huella dactilar) y/o 4 Wiegand (serie KR, proID) capacidad para 3,000 huellas, 30,000 tarjeta de proximidad, almacena 100,000 registros, comunicación TCP/IP. Software ZKBio CVSecurity",
+    "price": 1832000,
+    "wholesalePrice": 1685440,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-inbio460-pro-box.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "INBIO460 PRO BOX",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "KIT CONTROLADORA de acceso para 4 puertas",
+      "incluye gabinete y fuente de alimentación",
+      "hasta 8 lectoras RS485 (serie FR"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-acc-inbio260-standard",
+    "sku": "INBIO260 STANDARD",
+    "name": "ZKTeco INBIO260 STANDARD",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "Controlador de Acceso / 2 PUERTAS / Conexión con lectores wiegand y serie FR1500S - FR1200 ZKTECO / Hasta 20,000 Huellas / 30,000 Tarjetas S...",
+    "description": "Controlador de Acceso / 2 PUERTAS / Conexión con lectores wiegand y serie FR1500S - FR1200 ZKTECO / Hasta 20,000 Huellas / 30,000 Tarjetas Software ZKBioCVAcces",
+    "price": 929500,
+    "wholesalePrice": 855140,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-inbio260-standard.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "INBIO260 STANDARD",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "Controlador de Acceso / 2 PUERTAS / Conexión con lectores wiegand y serie FR1500S - FR1200 ZKTECO / Hasta 20",
+      "000 Huellas / 30",
+      "000 Tarjetas Software ZKBioCVAcces"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-acc-inbio-260-package-b",
+    "sku": "INBIO 260 PACKAGE B",
+    "name": "ZKTeco INBIO 260 PACKAGE B",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "Controlador de Acceso / 2 PUERTAS / Conexión con lectores wiegand y serie FR1500S - FR1200 ZKTECO / Hasta 20,000 Huellas / 30,000 Tarjetas /...",
+    "description": "Controlador de Acceso / 2 PUERTAS / Conexión con lectores wiegand y serie FR1500S - FR1200 ZKTECO / Hasta 20,000 Huellas / 30,000 Tarjetas / Incluye gabinete y fuente Software ZKBioCVAcces",
+    "price": 1283000,
+    "wholesalePrice": 1180360,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-inbio-260-package-b.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "INBIO 260 PACKAGE B",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "Controlador de Acceso / 2 PUERTAS / Conexión con lectores wiegand y serie FR1500S - FR1200 ZKTECO / Hasta 20",
+      "000 Huellas / 30",
+      "000 Tarjetas / Incluye gabinete y fuente Software ZKBioCVAcces"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-acc-ec10",
+    "sku": "EC10",
+    "name": "ZKTeco EC10",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "ZKTECO EC10 - Panel para Control de Elevadores / 10 Pisos / 3,000 Huellas / 30,000 Tarjetas / No incluye Fuente / Compatible solo con Softwa...",
+    "description": "ZKTECO EC10 - Panel para Control de Elevadores / 10 Pisos / 3,000 Huellas / 30,000 Tarjetas / No incluye Fuente / Compatible solo con Software BioCVSecurity /",
+    "price": 1247000,
+    "wholesalePrice": 1147240,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-ec10.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "EC10",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "ZKTECO EC10 - Panel para Control de Elevadores / 10 Pisos / 3",
+      "000 Huellas / 30",
+      "000 Tarjetas / No incluye Fuente / Compatible solo con Software BioCVSecurity /"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-acc-ex16",
+    "sku": "EX16",
+    "name": "ZKTeco EX16",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "ZKTECO EX16 - Expansor para Panel de Control de Elevadores / 16 Pisos Adicionales / Compatible con panel EC10 ZKTECO / Conexion RS485 / No i...",
+    "description": "ZKTECO EX16 - Expansor para Panel de Control de Elevadores / 16 Pisos Adicionales / Compatible con panel EC10 ZKTECO / Conexion RS485 / No incluye fuente",
+    "price": 376500,
+    "wholesalePrice": 346380,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-ex16.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "EX16",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "ZKTECO EX16 - Expansor para Panel de Control de Elevadores / 16 Pisos Adicionales / Compatible con panel EC10 ZKTECO / Conexion RS485 / No incluye fuente"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-acc-bl-852q38a-lp-lpr",
+    "sku": "BL-852Q38A-LP LPR",
+    "name": "ZKTeco BL-852Q38A-LP LPR",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "Cámara IP Bullet para reconocimiento de placas / Software LPR integrado / Lente Motorizado / Resolución 2MP / POE / IP67 / Audio / Alarma / ...",
+    "description": "Cámara IP Bullet para reconocimiento de placas / Software LPR integrado / Lente Motorizado / Resolución 2MP / POE / IP67 / Audio / Alarma / RS485 / Ranura para tarjeta SD",
+    "price": 2824000,
+    "wholesalePrice": 2598080,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-bl-852q38a-lp-lpr.webp",
+    "tags": [
+      "IP67",
+      "PoE"
+    ],
+    "specs": {
+      "Referencia": "BL-852Q38A-LP LPR",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "Cámara IP Bullet para reconocimiento de placas / Software LPR integrado / Lente Motorizado / Resolución 2MP / POE / IP67 / Audio / Alarma / RS485 / Ranura para tarjeta SD"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-acc-fr1500s-id",
+    "sku": "FR1500S/ID",
+    "name": "ZKTeco FR1500S/ID",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LECTOR de huella y tarjeta de proximidad esclavo, Ip65, comunicación RS-485, tecnología SilkID",
+    "description": "LECTOR de huella y tarjeta de proximidad esclavo, Ip65, comunicación RS-485, tecnología SilkID",
+    "price": 428300,
+    "wholesalePrice": 394036,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-fr1500s-id.webp",
+    "tags": [
+      "IP65"
+    ],
+    "specs": {
+      "Referencia": "FR1500S/ID",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LECTOR de huella y tarjeta de proximidad esclavo",
+      "Ip65",
+      "comunicación RS-485"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-acc-slk20r",
+    "sku": "SLK20R",
+    "name": "ZKTeco SLK20R",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LECTOR de huella (enrolador) comunicación USB 2,0, resolución de imágenes 500dpi",
+    "description": "LECTOR de huella (enrolador) comunicación USB 2,0, resolución de imágenes 500dpi",
+    "price": 341200,
+    "wholesalePrice": 313904,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-slk20r.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "SLK20R",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LECTOR de huella (enrolador) comunicación USB 2",
+      "resolución de imágenes 500dpi"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-acc-zk8500r",
+    "sku": "ZK8500R",
+    "name": "ZKTeco ZK8500R",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LECTOR de huella, tarjeta Rfid 125Khz, comunicación USB 2,0, resolución de imágenes 500dpi, sistema operativo  Windows xp / vista / 7 / 8 / ...",
+    "description": "LECTOR de huella, tarjeta Rfid 125Khz, comunicación USB 2,0, resolución de imágenes 500dpi, sistema operativo  Windows xp / vista / 7 / 8 / 10 (32/64 bit",
+    "price": 266000,
+    "wholesalePrice": 244720,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zk8500r.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZK8500R",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LECTOR de huella",
+      "tarjeta Rfid 125Khz",
+      "comunicación USB 2"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-acc-zk9500",
+    "sku": "ZK9500",
+    "name": "ZKTeco ZK9500",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LECTOR de huella y tarjeta de proximidad esclavo, Ip65, comunicación RS-485, tecnología SilkID",
+    "description": "LECTOR de huella y tarjeta de proximidad esclavo, Ip65, comunicación RS-485, tecnología SilkID",
+    "price": 245000,
+    "wholesalePrice": 225400,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zk9500.webp",
+    "tags": [
+      "IP65"
+    ],
+    "specs": {
+      "Referencia": "ZK9500",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LECTOR de huella y tarjeta de proximidad esclavo",
+      "Ip65",
+      "comunicación RS-485"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-acc-proid10be",
+    "sku": "PROID10BE",
+    "name": "ZKTeco PROID10BE",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LECTOR Esclavo de Tarjetas ID, Ip65, Frecuencia 125 KHz, serie Green Label, Conexión Wiegand 26 o 34 Ajustable.",
+    "description": "LECTOR Esclavo de Tarjetas ID, Ip65, Frecuencia 125 KHz, serie Green Label, Conexión Wiegand 26 o 34 Ajustable.",
+    "price": 61200,
+    "wholesalePrice": 56304,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-proid10be.webp",
+    "tags": [
+      "IP65"
+    ],
+    "specs": {
+      "Referencia": "PROID10BE",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LECTOR Esclavo de Tarjetas ID",
+      "Ip65",
+      "Frecuencia 125 KHz"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-acc-proid20be",
+    "sku": "PROID20BE",
+    "name": "ZKTeco PROID20BE",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LECTOR Esclavo de Tarjetas ID, Ip65, Frecuencia 125 KHz, serie Green Label, Conexión Wiegand 26 o 34 Ajustable, dimensiones 90 x 90 x 16mm.",
+    "description": "LECTOR Esclavo de Tarjetas ID, Ip65, Frecuencia 125 KHz, serie Green Label, Conexión Wiegand 26 o 34 Ajustable, dimensiones 90 x 90 x 16mm.",
+    "price": 68300,
+    "wholesalePrice": 62836,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-proid20be.webp",
+    "tags": [
+      "IP65"
+    ],
+    "specs": {
+      "Referencia": "PROID20BE",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LECTOR Esclavo de Tarjetas ID",
+      "Ip65",
+      "Frecuencia 125 KHz"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-acc-proid20be-rs",
+    "sku": "PROID20BE RS",
+    "name": "ZKTeco PROID20BE RS",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LECTOR Esclavo de Tarjetas ID, Ip65, Frecuencia 125 KHz, serie Green Label, Conexión RS485, dimensiones 90 x 90 x 16mm.",
+    "description": "LECTOR Esclavo de Tarjetas ID, Ip65, Frecuencia 125 KHz, serie Green Label, Conexión RS485, dimensiones 90 x 90 x 16mm.",
+    "price": 94200,
+    "wholesalePrice": 86664,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-proid20be-rs.webp",
+    "tags": [
+      "IP65"
+    ],
+    "specs": {
+      "Referencia": "PROID20BE RS",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LECTOR Esclavo de Tarjetas ID",
+      "Ip65",
+      "Frecuencia 125 KHz"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-acc-proid30be",
+    "sku": "PROID30BE",
+    "name": "ZKTeco PROID30BE",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LECTOR Esclavo de Tarjetas ID, teclado touch,  Ip65, Frecuencia 125 KHz, serie Green Label, Conexión Wiegand 26 o 34 Ajustable, dimensiones ...",
+    "description": "LECTOR Esclavo de Tarjetas ID, teclado touch,  Ip65, Frecuencia 125 KHz, serie Green Label, Conexión Wiegand 26 o 34 Ajustable, dimensiones 90 x 90 x 16mm.",
+    "price": 68300,
+    "wholesalePrice": 62836,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-proid30be.webp",
+    "tags": [
+      "IP65"
+    ],
+    "specs": {
+      "Referencia": "PROID30BE",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LECTOR Esclavo de Tarjetas ID",
+      "teclado touch",
+      "Ip65"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-acc-proid30be-rs",
+    "sku": "PROID30BE RS",
+    "name": "ZKTeco PROID30BE RS",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LECTOR Esclavo de Tarjetas ID, Teclado touch, Ip65, Frecuencia 125 KHz, serie Green Label, Conexión RS485, dimensiones 90 x 90 x 16mm.",
+    "description": "LECTOR Esclavo de Tarjetas ID, Teclado touch, Ip65, Frecuencia 125 KHz, serie Green Label, Conexión RS485, dimensiones 90 x 90 x 16mm.",
+    "price": 106000,
+    "wholesalePrice": 97520,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-proid30be-rs.webp",
+    "tags": [
+      "IP65"
+    ],
+    "specs": {
+      "Referencia": "PROID30BE RS",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LECTOR Esclavo de Tarjetas ID",
+      "Teclado touch",
+      "Ip65"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-acc-proid40be",
+    "sku": "PROID40BE",
+    "name": "ZKTeco PROID40BE",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LECTOR Esclavo de Tarjetas ID, Ip65, Frecuencia 125 KHz, serie Green Label, Conexión Wiegand 26 o 34 Ajustable.",
+    "description": "LECTOR Esclavo de Tarjetas ID, Ip65, Frecuencia 125 KHz, serie Green Label, Conexión Wiegand 26 o 34 Ajustable.",
+    "price": 89500,
+    "wholesalePrice": 82340,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-proid40be.webp",
+    "tags": [
+      "IP65"
+    ],
+    "specs": {
+      "Referencia": "PROID40BE",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LECTOR Esclavo de Tarjetas ID",
+      "Ip65",
+      "Frecuencia 125 KHz"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-acc-kr100e",
+    "sku": "KR100E",
+    "name": "ZKTeco KR100E",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LECTOR Esclavo de Tarjetas tipo EM, Conexión Wiegand, Ip65, uso exterior o interior.",
+    "description": "LECTOR Esclavo de Tarjetas tipo EM, Conexión Wiegand, Ip65, uso exterior o interior.",
+    "price": 47000,
+    "wholesalePrice": 43240,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-kr100e.webp",
+    "tags": [
+      "IP65"
+    ],
+    "specs": {
+      "Referencia": "KR100E",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LECTOR Esclavo de Tarjetas tipo EM",
+      "Conexión Wiegand",
+      "Ip65"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-acc-kr503e-rs",
+    "sku": "KR503E-RS",
+    "name": "ZKTeco KR503E-RS",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LECTOR Esclavo de Tarjetas tipo EM, Conexión RS485, Ip65, uso exterior o interior.",
+    "description": "LECTOR Esclavo de Tarjetas tipo EM, Conexión RS485, Ip65, uso exterior o interior.",
+    "price": 96500,
+    "wholesalePrice": 88780,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-kr503e-rs.webp",
+    "tags": [
+      "IP65"
+    ],
+    "specs": {
+      "Referencia": "KR503E-RS",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LECTOR Esclavo de Tarjetas tipo EM",
+      "Conexión RS485",
+      "Ip65"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-acc-qr500-be",
+    "sku": "QR500-BE",
+    "name": "ZKTeco QR500-BE",
+    "brand": "ZKTeco",
+    "category": "redes",
+    "shortDesc": "ZKTECO QR500B - Lector Esclavo de Código QR, NFC y Tarjeta RFID Frecuencia 125KHz / DC 12V o 5V por USB / Cable USB Incluido / Conexión Wieg...",
+    "description": "ZKTECO QR500B - Lector Esclavo de Código QR, NFC y Tarjeta RFID Frecuencia 125KHz / DC 12V o 5V por USB / Cable USB Incluido / Conexión Wiegand / Compatible con Paneles InBio y Serie C3",
+    "price": 447000,
+    "wholesalePrice": 411240,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-qr500-be.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "QR500-BE",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "ZKTECO QR500B - Lector Esclavo de Código QR",
+      "NFC y Tarjeta RFID Frecuencia 125KHz / DC 12V o 5V por USB / Cable USB Incluido / Conexión Wiegand / Compatible con Paneles InBio y Serie C3"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-acc-qr600-h-e",
+    "sku": "QR600-H-E",
+    "name": "ZKTeco QR600-H-E",
+    "brand": "ZKTeco",
+    "category": "redes",
+    "shortDesc": "ZKTECO QR600H-E - Lector Esclavo de Código QR, NFC y Tarjeta RFID Frecuencia 125KHz / DC 12V o 5V por USB / Cable USB Incluido / Conexión Wi...",
+    "description": "ZKTECO QR600H-E - Lector Esclavo de Código QR, NFC y Tarjeta RFID Frecuencia 125KHz / DC 12V o 5V por USB / Cable USB Incluido / Conexión Wiegand / Compatible con Paneles InBio y Serie C3",
+    "price": 404000,
+    "wholesalePrice": 371680,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-qr600-h-e.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "QR600-H-E",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "ZKTECO QR600H-E - Lector Esclavo de Código QR",
+      "NFC y Tarjeta RFID Frecuencia 125KHz / DC 12V o 5V por USB / Cable USB Incluido / Conexión Wiegand / Compatible con Paneles InBio y Serie C3"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-acc-qr600-h-m",
+    "sku": "QR600-H-M",
+    "name": "ZKTeco QR600-H-M",
+    "brand": "ZKTeco",
+    "category": "redes",
+    "shortDesc": "ZKTECO QR600H-M - Lector Esclavo de Código QR, NFC y Tarjeta Mifare Frecuencia 13.56MHz / DC 12V o 5V por USB / Cable USB Incluido / Conexió...",
+    "description": "ZKTECO QR600H-M - Lector Esclavo de Código QR, NFC y Tarjeta Mifare Frecuencia 13.56MHz / DC 12V o 5V por USB / Cable USB Incluido / Conexión Wiegand / Compatible con Paneles InBio y Serie C3",
+    "price": 470600,
+    "wholesalePrice": 432952,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-qr600-h-m.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "QR600-H-M",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "ZKTECO QR600H-M - Lector Esclavo de Código QR",
+      "NFC y Tarjeta Mifare Frecuencia 13",
+      "56MHz / DC 12V o 5V por USB / Cable USB Incluido / Conexión Wiegand / Compatible con Paneles InBio y Serie C3"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-acc-kf1100-pro",
+    "sku": "KF1100 PRO",
+    "name": "ZKTeco KF1100 PRO",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "ZKTECO KF1100 Pro - Lector de autenticacion facial SIN CONTACTO / 1500 Rostros / 100,000 Registros / TCP/IP / Wiegand / RS485 / Requiere pan...",
+    "description": "ZKTECO KF1100 Pro - Lector de autenticacion facial SIN CONTACTO / 1500 Rostros / 100,000 Registros / TCP/IP / Wiegand / RS485 / Requiere panel de control de Acceso ZK o DM10",
+    "price": 692500,
+    "wholesalePrice": 637100,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-kf1100-pro.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "KF1100 PRO",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "ZKTECO KF1100 Pro - Lector de autenticacion facial SIN CONTACTO / 1500 Rostros / 100",
+      "000 Registros / TCP/IP / Wiegand / RS485 / Requiere panel de control de Acceso ZK o DM10"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-acc-uhf-5f-pro",
+    "sku": "UHF 5F PRO",
+    "name": "ZKTeco UHF 5F PRO",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "ZKTECO UHF5FPRO - Admite dos modos de trabajo: Activado para leer y leer siempre (predeterminado) Admite diferentes salidas de datos wiegand...",
+    "description": "ZKTECO UHF5FPRO - Admite dos modos de trabajo: Activado para leer y leer siempre (predeterminado) Admite diferentes salidas de datos wiegand (Wiegand 26 por defecto) LED en la parte inferior de los lectores que indica el estado de lectura (7 indicadores de colores: rojo, verde, azul, amarillo, cian, violeta, blanco) Múltiples modos de comunicación, compatible con Wiegand y RS485 Nivel de protección de IP66 Lector de TAGS (Tarjetas UHF) / Hasta 5 Mts / LED de estatus",
+    "price": 1188300,
+    "wholesalePrice": 1093236,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-uhf-5f-pro.webp",
+    "tags": [
+      "IP66"
+    ],
+    "specs": {
+      "Referencia": "UHF 5F PRO",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "ZKTECO UHF5FPRO - Admite dos modos de trabajo: Activado para leer y leer siempre (predeterminado) Admite diferentes salidas de datos wiegand (Wiegand 26 por defecto) LED en la parte inferior de los lectores que indica el estado de lectura (7 indicadores de colores: rojo",
+      "verde",
+      "azul"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-acc-uhf-10f-pro",
+    "sku": "UHF 10F PRO",
+    "name": "ZKTeco UHF 10F PRO",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "ZKTECO UHF10FPRO - Admite dos modos de trabajo: Activado para leer y leer siempre (predeterminado) Admite diferentes salidas de datos wiegan...",
+    "description": "ZKTECO UHF10FPRO - Admite dos modos de trabajo: Activado para leer y leer siempre (predeterminado) Admite diferentes salidas de datos wiegand (Wiegand 26 por defecto) LED en la parte inferior de los lectores que indica el estado de lectura (7 indicadores de colores: rojo, verde, azul, amarillo, cian, violeta, blanco) Múltiples modos de comunicación, compatible con Wiegand y RS485 Nivel de protección de IP66 Lector de TAGS (Tarjetas UHF) / Hasta 10 Mts / LED de estatus",
+    "price": 1329500,
+    "wholesalePrice": 1223140,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-uhf-10f-pro.webp",
+    "tags": [
+      "IP66"
+    ],
+    "specs": {
+      "Referencia": "UHF 10F PRO",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "ZKTECO UHF10FPRO - Admite dos modos de trabajo: Activado para leer y leer siempre (predeterminado) Admite diferentes salidas de datos wiegand (Wiegand 26 por defecto) LED en la parte inferior de los lectores que indica el estado de lectura (7 indicadores de colores: rojo",
+      "verde",
+      "azul"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-acc-uhf1-tag9",
+    "sku": "UHF1 TAG9",
+    "name": "ZKTeco UHF1 TAG9",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "ZKTECO UHF1TAG9 - Tarjeta de PVC UHF Numerada / Frecuencia 915 Mhz / Grosor de 0.88 mm / Compatible con Lectoras Modelos UHF5F, UHF10F.",
+    "description": "ZKTECO UHF1TAG9 - Tarjeta de PVC UHF Numerada / Frecuencia 915 Mhz / Grosor de 0.88 mm / Compatible con Lectoras Modelos UHF5F, UHF10F.",
+    "price": 2500,
+    "wholesalePrice": 2300,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-uhf1-tag9.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "UHF1 TAG9",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "ZKTECO UHF1TAG9 - Tarjeta de PVC UHF Numerada / Frecuencia 915 Mhz / Grosor de 0",
+      "88 mm / Compatible con Lectoras Modelos UHF5F",
+      "UHF10F"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-acc-uhf-parking-tag",
+    "sku": "UHF PARKING TAG",
+    "name": "ZKTeco UHF PARKING TAG",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "ZKTECO UHF PARKING TAG Adherible para Vehiculos Tecnología UHF / Rango de Frecuencia 902 A 928 Mhz / Compatible con Lectoras U1000F, UHF5F P...",
+    "description": "ZKTECO UHF PARKING TAG Adherible para Vehiculos Tecnología UHF / Rango de Frecuencia 902 A 928 Mhz / Compatible con Lectoras U1000F, UHF5F PROy UHF10F PRO",
+    "price": 4300,
+    "wholesalePrice": 3956,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-uhf-parking-tag.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "UHF PARKING TAG",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "ZKTECO UHF PARKING TAG Adherible para Vehiculos Tecnología UHF / Rango de Frecuencia 902 A 928 Mhz / Compatible con Lectoras U1000F",
+      "UHF5F PROy UHF10F PRO"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-acc-bgm1145l",
+    "sku": "BGM1145L",
+    "name": "ZKTeco BGM1145L",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "Barrera articulada 90 grados izquierda integra apertura por medio de app bgm1145l-90 zkteco alimentacion a 110vca brazo dividido en 2 seccio...",
+    "description": "Barrera articulada 90 grados izquierda integra apertura por medio de app bgm1145l-90 zkteco alimentacion a 110vca brazo dividido en 2 secciones tiempo del ciclo completo 3s iluminacion en el cuerpo compatible con zk barrier app",
+    "price": 3435300,
+    "wholesalePrice": 3160476,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-bgm1145l.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "BGM1145L",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "Barrera articulada 90 grados izquierda integra apertura por medio de app bgm1145l-90 zkteco alimentacion a 110vca brazo dividido en 2 secciones tiempo del ciclo completo 3s iluminacion en el cuerpo compatible con zk barrier app"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-acc-bgm1145r",
+    "sku": "BGM1145R",
+    "name": "ZKTeco BGM1145R",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "Barrera articulada 90 grados derecha integra apertura por medio de app bgm1145l-90 zkteco alimentacion a 110vca brazo dividido en 2 seccione...",
+    "description": "Barrera articulada 90 grados derecha integra apertura por medio de app bgm1145l-90 zkteco alimentacion a 110vca brazo dividido en 2 secciones tiempo del ciclo completo 3s iluminacion en el cuerpo compatible con zk barrier app",
+    "price": 3435300,
+    "wholesalePrice": 3160476,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-bgm1145r.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "BGM1145R",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "Barrera articulada 90 grados derecha integra apertura por medio de app bgm1145l-90 zkteco alimentacion a 110vca brazo dividido en 2 secciones tiempo del ciclo completo 3s iluminacion en el cuerpo compatible con zk barrier app"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-acc-cmp200r",
+    "sku": "CMP200R",
+    "name": "ZKTeco CMP200R",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "ZKTECO CMP200R - Barrera Vehicular Derecha / Brazo Telescópico de 3,5 hasta 4.5 metros / 3 Seg. / Dirección Ajustable (a Izquierda) / Gabine...",
+    "description": "ZKTECO CMP200R - Barrera Vehicular Derecha / Brazo Telescópico de 3,5 hasta 4.5 metros / 3 Seg. / Dirección Ajustable (a Izquierda) / Gabinete con Luz Led Indicador de estado / Sistema Inteligente anti-impacto/ Incluye 2 controles remotos",
+    "price": 2129500,
+    "wholesalePrice": 1959140,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-cmp200r.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "CMP200R",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "ZKTECO CMP200R - Barrera Vehicular Derecha / Brazo Telescópico de 3",
+      "5 hasta 4",
+      "5 metros / 3 Seg"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-acc-cmp200l",
+    "sku": "CMP200L",
+    "name": "ZKTeco CMP200L",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "ZKTECO CMP200R - Barrera Vehicular Izquierda / Brazo Telescópico de 3,5 hasta 4.5 metros / 3 Seg. / Dirección Ajustable (a Derecha) / Gabine...",
+    "description": "ZKTECO CMP200R - Barrera Vehicular Izquierda / Brazo Telescópico de 3,5 hasta 4.5 metros / 3 Seg. / Dirección Ajustable (a Derecha) / Gabinete con Luz Led Indicador de estado / Sistema Inteligente anti-impacto/ Incluye 2 controles remotos",
+    "price": 2129500,
+    "wholesalePrice": 1959140,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-cmp200l.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "CMP200L",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "ZKTECO CMP200R - Barrera Vehicular Izquierda / Brazo Telescópico de 3",
+      "5 hasta 4",
+      "5 metros / 3 Seg"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-acc-sbt2000s-ab",
+    "sku": "SBT2000S-AB",
+    "name": "ZKTeco SBT2000S-AB",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "ZKTECO SBT2000S-AB - Puerta de Cortesía Bidireccional de Alto Flujo/ Carril de 90 cm/ 110V/ Acero Inoxidable/ Aleta de Tubo en acero inxodib...",
+    "description": "ZKTECO SBT2000S-AB - Puerta de Cortesía Bidireccional de Alto Flujo/ Carril de 90 cm/ 110V/ Acero Inoxidable/ Aleta de Tubo en acero inxodibale/ Fácil Integración con Controles de Acceso Facial, Palma, QR, Proximidad y botones/ No incluye lectores ni panel",
+    "price": 4447000,
+    "wholesalePrice": 4091240,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-sbt2000s-ab.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "SBT2000S-AB",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "ZKTECO SBT2000S-AB - Puerta de Cortesía Bidireccional de Alto Flujo/ Carril de 90 cm/ 110V/ Acero Inoxidable/ Aleta de Tubo en acero inxodibale/ Fácil Integración con Controles de Acceso Facial",
+      "Palma",
+      "Proximidad y botones/ No incluye lectores ni panel"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-acc-ts2000pro",
+    "sku": "TS2000PRO",
+    "name": "ZKTeco TS2000PRO",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "TORNIQUETE Bidireccional con Brazo Abatible, acero inoxidable SUS304, Pictogramas LED, velocidad de paso Máximo 30/minuto, dimensiones L=111...",
+    "description": "TORNIQUETE Bidireccional con Brazo Abatible, acero inoxidable SUS304, Pictogramas LED, velocidad de paso Máximo 30/minuto, dimensiones L=1110, W=280, H=987",
+    "price": 3459000,
+    "wholesalePrice": 3182280,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-ts2000pro.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "TS2000PRO",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "TORNIQUETE Bidireccional con Brazo Abatible",
+      "acero inoxidable SUS304",
+      "Pictogramas LED"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-acc-ts2022pro",
+    "sku": "TS2022PRO",
+    "name": "ZKTeco TS2022PRO",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "Torniquete sencillo bidireccional, brazo abatible, material en acero inoxidable. Incluye controladora InBIO260 PRO y 2 lectoras FR1500ID(Hue...",
+    "description": "Torniquete sencillo bidireccional, brazo abatible, material en acero inoxidable. Incluye controladora InBIO260 PRO y 2 lectoras FR1500ID(Huellay tarjeta ID: 125 KHz) Uso interior nivel de proteccion IP54. Alimentación: AC 220V/110V, 50/60Hz, Dimensiones: 111 x 98 x 26 cmcm + Largo de Brazo 50 cm. Indicadores de autorizacion.",
+    "price": 4529500,
+    "wholesalePrice": 4167140,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-ts2022pro.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "TS2022PRO",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "Torniquete sencillo bidireccional",
+      "brazo abatible",
+      "material en acero inoxidable"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-acc-ts2222pro",
+    "sku": "TS2222PRO",
+    "name": "ZKTeco TS2222PRO",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "Torniquete doble carril bidireccional, brazo abatible, material en acero inoxidable. Incluye controladora INBIO460 PRO y 4 lectoras FR1500ID...",
+    "description": "Torniquete doble carril bidireccional, brazo abatible, material en acero inoxidable. Incluye controladora INBIO460 PRO y 4 lectoras FR1500ID(Huellay tarjeta ID: 125 KHz) instalados. Uso interior nivel de proteccion IP54. Alimentación: AC 220V/110V, 50/60Hz, Dimensiones: 111 x 98 x 26 cmcm + Largo de Brazo 50 cm. Indicadores de autorizacion",
+    "price": 12353000,
+    "wholesalePrice": 11364760,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-ts2222pro.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "TS2222PRO",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "Torniquete doble carril bidireccional",
+      "brazo abatible",
+      "material en acero inoxidable"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-acc-ts1000-pro",
+    "sku": "TS1000 PRO",
+    "name": "ZKTeco TS1000 PRO",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "Torniquete sencillo bidireccional, brazo abatible, material en acero inoxidable. Uso interior nivel de proteccion IP54. Alimentación: AC 220...",
+    "description": "Torniquete sencillo bidireccional, brazo abatible, material en acero inoxidable. Uso interior nivel de proteccion IP54. Alimentación: AC 220V/110V, 50/60Hz, Dimensiones: 52 x 98 x 28 cm + Largo de Brazo 50 cm. Indicadores de autorizacion. No incluye lectores ni controladora.",
+    "price": 2683000,
+    "wholesalePrice": 2468360,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-ts1000-pro.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "TS1000 PRO",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "Torniquete sencillo bidireccional",
+      "brazo abatible",
+      "material en acero inoxidable"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-acc-soporte-zk-rots-02",
+    "sku": "SOPORTE ZK ROTS-02",
+    "name": "ZKTeco SOPORTE ZK ROTS-02",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "ROTS-02 es un soporte de montaje diseñado por ZKTeco para instalar de forma segura y eficiente su gama de terminales de reconocimiento facia...",
+    "description": "ROTS-02 es un soporte de montaje diseñado por ZKTeco para instalar de forma segura y eficiente su gama de terminales de reconocimiento facial, incluidas las series ProFaceX y SpeedFace.Este soporte versátil proporciona una plataforma estable y ajustable para estos dispositivos, mejorando su rendimiento y la experiencia del usuario.",
+    "price": 171800,
+    "wholesalePrice": 158056,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-soporte-zk-rots-02.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "SOPORTE ZK ROTS-02",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "ROTS-02 es un soporte de montaje diseñado por ZKTeco para instalar de forma segura y eficiente su gama de terminales de reconocimiento facial",
+      "incluidas las series ProFaceX y SpeedFace",
+      "Este soporte versátil proporciona una plataforma estable y ajustable para estos dispositivos"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-acc-saturn-------s-1000",
+    "sku": "SATURN       S-1000",
+    "name": "ZKTeco SATURN       S-1000",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "ZKTECO SATURNS1000 - Barrera Peatonal Tipo Swing Bidireccional / Equipada con un motor DC brushless / Hasta 3 millones de ciclos / Acero SPC...",
+    "description": "ZKTECO SATURNS1000 - Barrera Peatonal Tipo Swing Bidireccional / Equipada con un motor DC brushless / Hasta 3 millones de ciclos / Acero SPCC laminado en frío / Vidrio templado 2.5D",
+    "price": 4941200,
+    "wholesalePrice": 4545904,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-saturn-s-1000.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "SATURN       S-1000",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "ZKTECO SATURNS1000 - Barrera Peatonal Tipo Swing Bidireccional / Equipada con un motor DC brushless / Hasta 3 millones de ciclos / Acero SPCC laminado en frío / Vidrio templado 2"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-acc-saturn-------s-1200",
+    "sku": "SATURN       S-1200",
+    "name": "ZKTeco SATURN       S-1200",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "ZKTECO SATURNS1200 - Barrera Peatonal Central Abatible / Acero SPCC laminado en frío / Hasta 3 millones de ciclos / Vidrio templado 2.5D / R...",
+    "description": "ZKTECO SATURNS1200 - Barrera Peatonal Central Abatible / Acero SPCC laminado en frío / Hasta 3 millones de ciclos / Vidrio templado 2.5D / Requiere barrera Saturn-S1000",
+    "price": 3765000,
+    "wholesalePrice": 3463800,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-saturn-s-1200.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "SATURN       S-1200",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "ZKTECO SATURNS1200 - Barrera Peatonal Central Abatible / Acero SPCC laminado en frío / Hasta 3 millones de ciclos / Vidrio templado 2",
+      "5D / Requiere barrera Saturn-S1000"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbsvis-p5-2w",
+    "sku": "ZKBSVIS P5-2W",
+    "name": "ZKTeco ZKBSVIS P5-2W",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LICENCIA para gestión de visitantes / 5 Sitio de Registro / 20,000 Visitas por Mes",
+    "description": "LICENCIA para gestión de visitantes / 5 Sitio de Registro / 20,000 Visitas por Mes",
+    "price": 5060000,
+    "wholesalePrice": 4655200,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbsvis-p5-2w.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBSVIS P5-2W",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LICENCIA para gestión de visitantes / 5 Sitio de Registro / 20",
+      "000 Visitas por Mes"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbs-vis-p10-2w",
+    "sku": "ZKBS VIS P10-2W",
+    "name": "ZKTeco ZKBS VIS P10-2W",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LICENCIA para gestión de visitantes / 10 Sitio de Registro / 20,000 Visitas por Mes",
+    "description": "LICENCIA para gestión de visitantes / 10 Sitio de Registro / 20,000 Visitas por Mes",
+    "price": 5566000,
+    "wholesalePrice": 5120720,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbs-vis-p10-2w.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBS VIS P10-2W",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LICENCIA para gestión de visitantes / 10 Sitio de Registro / 20",
+      "000 Visitas por Mes"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbs-ta-p5",
+    "sku": "ZKBS TA-P5",
+    "name": "ZKTeco ZKBS TA-P5",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LICENCIA modulo de tiempo y asistencia Hasta 5 dispositivos / 2,000 usuarios / 3 áreas",
+    "description": "LICENCIA modulo de tiempo y asistencia Hasta 5 dispositivos / 2,000 usuarios / 3 áreas",
+    "price": 1647000,
+    "wholesalePrice": 1515240,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbs-ta-p5.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBS TA-P5",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LICENCIA modulo de tiempo y asistencia Hasta 5 dispositivos / 2",
+      "000 usuarios / 3 áreas"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbs-ta-p10",
+    "sku": "ZKBS TA-P10",
+    "name": "ZKTeco ZKBS TA-P10",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LICENCIA modulo de tiempo y asistencia Hasta 10 dispositivos / 2,000 usuarios / 200 departamentos, 200 áreas",
+    "description": "LICENCIA modulo de tiempo y asistencia Hasta 10 dispositivos / 2,000 usuarios / 200 departamentos, 200 áreas",
+    "price": 2753000,
+    "wholesalePrice": 2532760,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbs-ta-p10.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBS TA-P10",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LICENCIA modulo de tiempo y asistencia Hasta 10 dispositivos / 2",
+      "000 usuarios / 200 departamentos",
+      "200 áreas"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbs-ta-p25",
+    "sku": "ZKBS TA-P25",
+    "name": "ZKTeco ZKBS TA-P25",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LICENCIA modulo de tiempo y asistencia Hasta 25 dispositivos / 3,000 usuarios / 300 departamentos, 300 áreas",
+    "description": "LICENCIA modulo de tiempo y asistencia Hasta 25 dispositivos / 3,000 usuarios / 300 departamentos, 300 áreas",
+    "price": 4591000,
+    "wholesalePrice": 4223720,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbs-ta-p25.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBS TA-P25",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LICENCIA modulo de tiempo y asistencia Hasta 25 dispositivos / 3",
+      "000 usuarios / 300 departamentos",
+      "300 áreas"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbs-ta-p50",
+    "sku": "ZKBS TA-P50",
+    "name": "ZKTeco ZKBS TA-P50",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LICENCIA modulo de tiempo y asistencia Hasta 50 dispositivos / 10,000 usuarios / 500 departamentos, 500 áreas",
+    "description": "LICENCIA modulo de tiempo y asistencia Hasta 50 dispositivos / 10,000 usuarios / 500 departamentos, 500 áreas",
+    "price": 6431000,
+    "wholesalePrice": 5916520,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbs-ta-p50.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBS TA-P50",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LICENCIA modulo de tiempo y asistencia Hasta 50 dispositivos / 10",
+      "000 usuarios / 500 departamentos",
+      "500 áreas"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbs-ta-p75",
+    "sku": "ZKBS TA-P75",
+    "name": "ZKTeco ZKBS TA-P75",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LICENCIA modulo de tiempo y asistencia Hasta 75 dispositivos / 10,000 usuarios / 500 departamentos, 500 áreas",
+    "description": "LICENCIA modulo de tiempo y asistencia Hasta 75 dispositivos / 10,000 usuarios / 500 departamentos, 500 áreas",
+    "price": 7810600,
+    "wholesalePrice": 7185752,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbs-ta-p75.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBS TA-P75",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LICENCIA modulo de tiempo y asistencia Hasta 75 dispositivos / 10",
+      "000 usuarios / 500 departamentos",
+      "500 áreas"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbs-ta-p-100",
+    "sku": "ZKBS TA-P 100",
+    "name": "ZKTeco ZKBS TA-P 100",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LICENCIA modulo de tiempo y asistencia Hasta 100 dispositivos / 20,000 usuarios / 1,000 departamentos, 1,000 áreas",
+    "description": "LICENCIA modulo de tiempo y asistencia Hasta 100 dispositivos / 20,000 usuarios / 1,000 departamentos, 1,000 áreas",
+    "price": 9191000,
+    "wholesalePrice": 8455720,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbs-ta-p-100.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBS TA-P 100",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LICENCIA modulo de tiempo y asistencia Hasta 100 dispositivos / 20",
+      "000 usuarios / 1",
+      "000 departamentos"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbs-eleonline-s1",
+    "sku": "ZKBS ELEONLINE S1",
+    "name": "ZKTeco ZKBS ELEONLINE S1",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LICENCIA modulo de elevadores para 1 panel EC10 / 30,000 usuarios / administrar hasta 10 pisos",
+    "description": "LICENCIA modulo de elevadores para 1 panel EC10 / 30,000 usuarios / administrar hasta 10 pisos",
+    "price": 448000,
+    "wholesalePrice": 412160,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbs-eleonline-s1.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBS ELEONLINE S1",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LICENCIA modulo de elevadores para 1 panel EC10 / 30",
+      "000 usuarios / administrar hasta 10 pisos"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbs-parkp2",
+    "sku": "ZKBS-PARKP2",
+    "name": "ZKTeco ZKBS-PARKP2",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LICENCIA de modulo de parking / 5,000 usuarios / 10 áreas / 10 departamentos / máximo de cámaras LPR soportadas: 2",
+    "description": "LICENCIA de modulo de parking / 5,000 usuarios / 10 áreas / 10 departamentos / máximo de cámaras LPR soportadas: 2",
+    "price": 1380000,
+    "wholesalePrice": 1269600,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbs-parkp2.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBS-PARKP2",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LICENCIA de modulo de parking / 5",
+      "000 usuarios / 10 áreas / 10 departamentos / máximo de cámaras LPR soportadas: 2"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbs-parkp4",
+    "sku": "ZKBS-PARKP4",
+    "name": "ZKTeco ZKBS-PARKP4",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LICENCIA de modulo de parking / 10,000 usuarios / 1,000 áreas / 1,000 departamentos / máximo de cámaras LPR soportadas: 4",
+    "description": "LICENCIA de modulo de parking / 10,000 usuarios / 1,000 áreas / 1,000 departamentos / máximo de cámaras LPR soportadas: 4",
+    "price": 4029500,
+    "wholesalePrice": 3707140,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbs-parkp4.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBS-PARKP4",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LICENCIA de modulo de parking / 10",
+      "000 usuarios / 1",
+      "000 áreas / 1"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbs-parkp6",
+    "sku": "ZKBS-PARKP6",
+    "name": "ZKTeco ZKBS-PARKP6",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LICENCIA de modulo de parking / 20,000 usuarios / 1,000 áreas / 1,000 departamentos / máximo de cámaras LPR soportadas: 6",
+    "description": "LICENCIA de modulo de parking / 20,000 usuarios / 1,000 áreas / 1,000 departamentos / máximo de cámaras LPR soportadas: 6",
+    "price": 7083600,
+    "wholesalePrice": 6516912,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbs-parkp6.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBS-PARKP6",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LICENCIA de modulo de parking / 20",
+      "000 usuarios / 1",
+      "000 áreas / 1"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbs-parkp8",
+    "sku": "ZKBS-PARKP8",
+    "name": "ZKTeco ZKBS-PARKP8",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LICENCIA de modulo de parking / 20,000 usuarios / 1,000 áreas / 1,000 departamentos / máximo de cámaras LPR soportadas: 8",
+    "description": "LICENCIA de modulo de parking / 20,000 usuarios / 1,000 áreas / 1,000 departamentos / máximo de cámaras LPR soportadas: 8",
+    "price": 10030000,
+    "wholesalePrice": 9227600,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbs-parkp8.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBS-PARKP8",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LICENCIA de modulo de parking / 20",
+      "000 usuarios / 1",
+      "000 áreas / 1"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbcvs--app--adminp1",
+    "sku": "ZKBCVS  APP  AdminP1",
+    "name": "ZKTeco ZKBCVS  APP  AdminP1",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LICENCIA para APP ZKBio Zexus Admin Móvil / iOS (ZKBioCVSecurity) / Android / 1 Celular",
+    "description": "LICENCIA para APP ZKBio Zexus Admin Móvil / iOS (ZKBioCVSecurity) / Android / 1 Celular",
+    "price": 241000,
+    "wholesalePrice": 221720,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbcvs-app-adminp1.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBCVS  APP  AdminP1",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LICENCIA para APP ZKBio Zexus Admin Móvil / iOS (ZKBioCVSecurity) / Android / 1 Celular"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbcvs--app--adminp5",
+    "sku": "ZKBCVS  APP  AdminP5",
+    "name": "ZKTeco ZKBCVS  APP  AdminP5",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LICENCIA para APP ZKBio Zexus Admin Móvil / iOS (ZKBioCVSecurity) / Android / 5 Celulares",
+    "description": "LICENCIA para APP ZKBio Zexus Admin Móvil / iOS (ZKBioCVSecurity) / Android / 5 Celulares",
+    "price": 946000,
+    "wholesalePrice": 870320,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbcvs-app-adminp5.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBCVS  APP  AdminP5",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LICENCIA para APP ZKBio Zexus Admin Móvil / iOS (ZKBioCVSecurity) / Android / 5 Celulares"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbcvs--app--adminp10",
+    "sku": "ZKBCVS  APP  AdminP10",
+    "name": "ZKTeco ZKBCVS  APP  AdminP10",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LICENCIA para APP ZKBio Zexus Admin Móvil / iOS (ZKBioCVSecurity) / Android / 10 Celulares",
+    "description": "LICENCIA para APP ZKBio Zexus Admin Móvil / iOS (ZKBioCVSecurity) / Android / 10 Celulares",
+    "price": 1419000,
+    "wholesalePrice": 1305480,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbcvs-app-adminp10.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBCVS  APP  AdminP10",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LICENCIA para APP ZKBio Zexus Admin Móvil / iOS (ZKBioCVSecurity) / Android / 10 Celulares"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbcvs--app--adminp50",
+    "sku": "ZKBCVS  APP  AdminP50",
+    "name": "ZKTeco ZKBCVS  APP  AdminP50",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LICENCIA para APP ZKBio Zexus Admin Móvil / iOS (ZKBioCVSecurity) / Android / 50 Celulares",
+    "description": "LICENCIA para APP ZKBio Zexus Admin Móvil / iOS (ZKBioCVSecurity) / Android / 50 Celulares",
+    "price": 2649000,
+    "wholesalePrice": 2437080,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbcvs-app-adminp50.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBCVS  APP  AdminP50",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LICENCIA para APP ZKBio Zexus Admin Móvil / iOS (ZKBioCVSecurity) / Android / 50 Celulares"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbcvs--app-emp50",
+    "sku": "ZKBCVS  APP Emp50",
+    "name": "ZKTeco ZKBCVS  APP Emp50",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LICENCIA para APP Empleados Móvil ZKBio Zexus / iOS (ZKBioCVSecurity) / Android / 50 Celulares",
+    "description": "LICENCIA para APP Empleados Móvil ZKBio Zexus / iOS (ZKBioCVSecurity) / Android / 50 Celulares",
+    "price": 256500,
+    "wholesalePrice": 235980,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbcvs-app-emp50.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBCVS  APP Emp50",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LICENCIA para APP Empleados Móvil ZKBio Zexus / iOS (ZKBioCVSecurity) / Android / 50 Celulares"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbcvs--app-empp100",
+    "sku": "ZKBCVS  APP EmpP100",
+    "name": "ZKTeco ZKBCVS  APP EmpP100",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LICENCIA para APP Empleados Móvil ZKBio Zexus / iOS (ZKBioCVSecurity) / Android / 100 Celulares",
+    "description": "LICENCIA para APP Empleados Móvil ZKBio Zexus / iOS (ZKBioCVSecurity) / Android / 100 Celulares",
+    "price": 1032000,
+    "wholesalePrice": 949440,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbcvs-app-empp100.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBCVS  APP EmpP100",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LICENCIA para APP Empleados Móvil ZKBio Zexus / iOS (ZKBioCVSecurity) / Android / 100 Celulares"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbcvs--app-empp200",
+    "sku": "ZKBCVS  APP EmpP200",
+    "name": "ZKTeco ZKBCVS  APP EmpP200",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LICENCIA para APP Empleados Móvil ZKBio Zexus / iOS (ZKBioCVSecurity) / Android / 200 Celulares",
+    "description": "LICENCIA para APP Empleados Móvil ZKBio Zexus / iOS (ZKBioCVSecurity) / Android / 200 Celulares",
+    "price": 2752000,
+    "wholesalePrice": 2531840,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbcvs-app-empp200.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBCVS  APP EmpP200",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LICENCIA para APP Empleados Móvil ZKBio Zexus / iOS (ZKBioCVSecurity) / Android / 200 Celulares"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbcvs-app-empaddon-p1",
+    "sku": "ZKBCVS APP EmpADDON-P1",
+    "name": "ZKTeco ZKBCVS APP EmpADDON-P1",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "Adición Empleado App Empleados Movil ZKBio Zexus / iOS (ZKBioCVSecurity) / Android",
+    "description": "Adición Empleado App Empleados Movil ZKBio Zexus / iOS (ZKBioCVSecurity) / Android",
+    "price": 30200,
+    "wholesalePrice": 27784,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbcvs-app-empaddon-p1.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBCVS APP EmpADDON-P1",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "Adición Empleado App Empleados Movil ZKBio Zexus / iOS (ZKBioCVSecurity) / Android"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbt-dev-p2-e25-1y",
+    "sku": "ZKBT-Dev-P2-E25-1Y",
+    "name": "ZKTeco ZKBT-Dev-P2-E25-1Y",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LICENCIA para 2 Dispositivos, 25 Empleados y 5APP",
+    "description": "LICENCIA para 2 Dispositivos, 25 Empleados y 5APP",
+    "price": 112000,
+    "wholesalePrice": 103040,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbt-dev-p2-e25-1y.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBT-Dev-P2-E25-1Y",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LICENCIA para 2 Dispositivos",
+      "25 Empleados y 5APP"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbt-dev-p2-e50-1y",
+    "sku": "ZKBT-Dev-P2-E50-1Y",
+    "name": "ZKTeco ZKBT-Dev-P2-E50-1Y",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LICENCIA para 2 Dispositivos, 50 Empleados y 5APP",
+    "description": "LICENCIA para 2 Dispositivos, 50 Empleados y 5APP",
+    "price": 224000,
+    "wholesalePrice": 206080,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbt-dev-p2-e50-1y.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBT-Dev-P2-E50-1Y",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LICENCIA para 2 Dispositivos",
+      "50 Empleados y 5APP"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbt-dev-p2-e100-1y",
+    "sku": "ZKBT-Dev-P2-E100-1Y",
+    "name": "ZKTeco ZKBT-Dev-P2-E100-1Y",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LICENCIA para 2 Dispositivos, 100 Empleados y 5APP",
+    "description": "LICENCIA para 2 Dispositivos, 100 Empleados y 5APP",
+    "price": 296200,
+    "wholesalePrice": 272504,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbt-dev-p2-e100-1y.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBT-Dev-P2-E100-1Y",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LICENCIA para 2 Dispositivos",
+      "100 Empleados y 5APP"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbt-dev-p2-e200-1y",
+    "sku": "ZKBT-Dev-P2-E200-1Y",
+    "name": "ZKTeco ZKBT-Dev-P2-E200-1Y",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LICENCIA para 2 Dispositivos, 200 Empleados y 5APP",
+    "description": "LICENCIA para 2 Dispositivos, 200 Empleados y 5APP",
+    "price": 385000,
+    "wholesalePrice": 354200,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbt-dev-p2-e200-1y.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBT-Dev-P2-E200-1Y",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LICENCIA para 2 Dispositivos",
+      "200 Empleados y 5APP"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbt-dev-p3-e50-1y",
+    "sku": "ZKBT-Dev-P3-E50-1Y",
+    "name": "ZKTeco ZKBT-Dev-P3-E50-1Y",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LICENCIA para 3 Dispositivos, 50 Empleados y 5APP",
+    "description": "LICENCIA para 3 Dispositivos, 50 Empleados y 5APP",
+    "price": 448000,
+    "wholesalePrice": 412160,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbt-dev-p3-e50-1y.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBT-Dev-P3-E50-1Y",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LICENCIA para 3 Dispositivos",
+      "50 Empleados y 5APP"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbt-dev-p3-e100-1y",
+    "sku": "ZKBT-Dev-P3-E100-1Y",
+    "name": "ZKTeco ZKBT-Dev-P3-E100-1Y",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LICENCIA para 3 Dispositivos, 100 Empleados y 5APP",
+    "description": "LICENCIA para 3 Dispositivos, 100 Empleados y 5APP",
+    "price": 504000,
+    "wholesalePrice": 463680,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbt-dev-p3-e100-1y.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBT-Dev-P3-E100-1Y",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LICENCIA para 3 Dispositivos",
+      "100 Empleados y 5APP"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbt-dev-p3-e200-1y",
+    "sku": "ZKBT-Dev-P3-E200-1Y",
+    "name": "ZKTeco ZKBT-Dev-P3-E200-1Y",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LICENCIA para 3 Dispositivos, 200 Empleados y 5APP",
+    "description": "LICENCIA para 3 Dispositivos, 200 Empleados y 5APP",
+    "price": 552000,
+    "wholesalePrice": 507840,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbt-dev-p3-e200-1y.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBT-Dev-P3-E200-1Y",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LICENCIA para 3 Dispositivos",
+      "200 Empleados y 5APP"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbt-dev-p3-e400-1y",
+    "sku": "ZKBT-Dev-P3-E400-1Y",
+    "name": "ZKTeco ZKBT-Dev-P3-E400-1Y",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LICENCIA para 3 Dispositivos, 400 Empleados y 5APP",
+    "description": "LICENCIA para 3 Dispositivos, 400 Empleados y 5APP",
+    "price": 576000,
+    "wholesalePrice": 529920,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbt-dev-p3-e400-1y.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBT-Dev-P3-E400-1Y",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LICENCIA para 3 Dispositivos",
+      "400 Empleados y 5APP"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbt-dev-p5-e300-1y",
+    "sku": "ZKBT-Dev-P5-E300-1Y",
+    "name": "ZKTeco ZKBT-Dev-P5-E300-1Y",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LICENCIA para 5 Dispositivos , 300 Empleados y 10APP",
+    "description": "LICENCIA para 5 Dispositivos , 300 Empleados y 10APP",
+    "price": 680000,
+    "wholesalePrice": 625600,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbt-dev-p5-e300-1y.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBT-Dev-P5-E300-1Y",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LICENCIA para 5 Dispositivos",
+      "300 Empleados y 10APP"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbt-dev-p5-e400-1y",
+    "sku": "ZKBT-Dev-P5-E400-1Y",
+    "name": "ZKTeco ZKBT-Dev-P5-E400-1Y",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LICENCIA para 5 Dispositivos , 400 Empleados y 10APP",
+    "description": "LICENCIA para 5 Dispositivos , 400 Empleados y 10APP",
+    "price": 744000,
+    "wholesalePrice": 684480,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbt-dev-p5-e400-1y.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBT-Dev-P5-E400-1Y",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LICENCIA para 5 Dispositivos",
+      "400 Empleados y 10APP"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbt-dev-p5-e500-1y",
+    "sku": "ZKBT-Dev-P5-E500-1Y",
+    "name": "ZKTeco ZKBT-Dev-P5-E500-1Y",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LICENCIA para 5 Dispositivos, 500 Empleados y 10APP",
+    "description": "LICENCIA para 5 Dispositivos, 500 Empleados y 10APP",
+    "price": 912000,
+    "wholesalePrice": 839040,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbt-dev-p5-e500-1y.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBT-Dev-P5-E500-1Y",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LICENCIA para 5 Dispositivos",
+      "500 Empleados y 10APP"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbt-dev-p5-e600-1y",
+    "sku": "ZKBT-Dev-P5-E600-1Y",
+    "name": "ZKTeco ZKBT-Dev-P5-E600-1Y",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LICENCIA para 5 Dispositivos, 600 Empleados y 10APP",
+    "description": "LICENCIA para 5 Dispositivos, 600 Empleados y 10APP",
+    "price": 1200000,
+    "wholesalePrice": 1104000,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbt-dev-p5-e600-1y.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBT-Dev-P5-E600-1Y",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LICENCIA para 5 Dispositivos",
+      "600 Empleados y 10APP"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbt-dev-p8-1y",
+    "sku": "ZKBT-Dev-P8-1Y",
+    "name": "ZKTeco ZKBT-Dev-P8-1Y",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LICENCIA para 8 Dispositivos , 600 Empleados y 15 app",
+    "description": "LICENCIA para 8 Dispositivos , 600 Empleados y 15 app",
+    "price": 1512000,
+    "wholesalePrice": 1391040,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbt-dev-p8-1y.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBT-Dev-P8-1Y",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LICENCIA para 8 Dispositivos",
+      "600 Empleados y 15 app"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbt-dev-10-1y",
+    "sku": "ZKBT-Dev-10-1Y",
+    "name": "ZKTeco ZKBT-Dev-10-1Y",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LICENCIA para 10 Dispositivos ,1000 Empleados y 25 APP",
+    "description": "LICENCIA para 10 Dispositivos ,1000 Empleados y 25 APP",
+    "price": 2296000,
+    "wholesalePrice": 2112320,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbt-dev-10-1y.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBT-Dev-10-1Y",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LICENCIA para 10 Dispositivos",
+      "1000 Empleados y 25 APP"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbt-dev-p5-3y",
+    "sku": "ZKBT-Dev-P5-3Y",
+    "name": "ZKTeco ZKBT-Dev-P5-3Y",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LICENCIA para 5 Dispositivos, 300 Empleados y 5APP, valida por 3 años",
+    "description": "LICENCIA para 5 Dispositivos, 300 Empleados y 5APP, valida por 3 años",
+    "price": 1920000,
+    "wholesalePrice": 1766400,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbt-dev-p5-3y.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBT-Dev-P5-3Y",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LICENCIA para 5 Dispositivos",
+      "300 Empleados y 5APP",
+      "valida por 3 años"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbt-dev-10-3y",
+    "sku": "ZKBT-Dev-10-3Y",
+    "name": "ZKTeco ZKBT-Dev-10-3Y",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LICENCIA para 10 Dispositivos, 500 Empleados y 5APP, valida por 3 años",
+    "description": "LICENCIA para 10 Dispositivos, 500 Empleados y 5APP, valida por 3 años",
+    "price": 2560000,
+    "wholesalePrice": 2355200,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbt-dev-10-3y.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBT-Dev-10-3Y",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LICENCIA para 10 Dispositivos",
+      "500 Empleados y 5APP",
+      "valida por 3 años"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbt-dev-20-3y",
+    "sku": "ZKBT-Dev-20-3Y",
+    "name": "ZKTeco ZKBT-Dev-20-3Y",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LICENCIA para 20 Dispositivos,1000 Empleados y 5APP, valida por 3 años",
+    "description": "LICENCIA para 20 Dispositivos,1000 Empleados y 5APP, valida por 3 años",
+    "price": 5056000,
+    "wholesalePrice": 4651520,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbt-dev-20-3y.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBT-Dev-20-3Y",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LICENCIA para 20 Dispositivos",
+      "1000 Empleados y 5APP",
+      "valida por 3 años"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbt-dev-50-3y",
+    "sku": "ZKBT-Dev-50-3Y",
+    "name": "ZKTeco ZKBT-Dev-50-3Y",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LICENCIA para 50 Dispositivos,3000 Empleados y 5APP, valida por 3 años",
+    "description": "LICENCIA para 50 Dispositivos,3000 Empleados y 5APP, valida por 3 años",
+    "price": 10128000,
+    "wholesalePrice": 9317760,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbt-dev-50-3y.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBT-Dev-50-3Y",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LICENCIA para 50 Dispositivos",
+      "3000 Empleados y 5APP",
+      "valida por 3 años"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbt-add-on-dev01-1y",
+    "sku": "ZKBT-Add-on-Dev01-1Y",
+    "name": "ZKTeco ZKBT-Add-on-Dev01-1Y",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LICENCIA para Adicionar 1 dispositivo",
+    "description": "LICENCIA para Adicionar 1 dispositivo",
+    "price": 188300,
+    "wholesalePrice": 173236,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbt-add-on-dev01-1y.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBT-Add-on-Dev01-1Y",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LICENCIA para Adicionar 1 dispositivo"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbt-add-on-e10-1y",
+    "sku": "ZKBT-Add-on-E10-1Y",
+    "name": "ZKTeco ZKBT-Add-on-E10-1Y",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LICENCIA para Agregar 10 empleados",
+    "description": "LICENCIA para Agregar 10 empleados",
+    "price": 12000,
+    "wholesalePrice": 11040,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbt-add-on-e10-1y.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBT-Add-on-E10-1Y",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LICENCIA para Agregar 10 empleados"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbt-app-5",
+    "sku": "ZKBT-APP-5",
+    "name": "ZKTeco ZKBT-APP-5",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LICENCIA ZKTECO BIOTIME APP-P5 PARA ACTIVAR APP BIOTIME SOFTWARE DE ASISTENCIA EN 5 SMARTPHONES",
+    "description": "LICENCIA ZKTECO BIOTIME APP-P5 PARA ACTIVAR APP BIOTIME SOFTWARE DE ASISTENCIA EN 5 SMARTPHONES",
+    "price": 312000,
+    "wholesalePrice": 287040,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbt-app-5.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBT-APP-5",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LICENCIA ZKTECO BIOTIME APP-P5 PARA ACTIVAR APP BIOTIME SOFTWARE DE ASISTENCIA EN 5 SMARTPHONES"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbt-app-20",
+    "sku": "ZKBT-APP-20",
+    "name": "ZKTeco ZKBT-APP-20",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LICENCIA ZKTECO BIOTIME APP-P20 PARA ACTIVAR APP BIOTIME SOFTWARE DE ASISTENCIA EN 20 SMARTPHONES",
+    "description": "LICENCIA ZKTECO BIOTIME APP-P20 PARA ACTIVAR APP BIOTIME SOFTWARE DE ASISTENCIA EN 20 SMARTPHONES",
+    "price": 624000,
+    "wholesalePrice": 574080,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbt-app-20.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBT-APP-20",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LICENCIA ZKTECO BIOTIME APP-P20 PARA ACTIVAR APP BIOTIME SOFTWARE DE ASISTENCIA EN 20 SMARTPHONES"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbt-app-50",
+    "sku": "ZKBT-APP-50",
+    "name": "ZKTeco ZKBT-APP-50",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LICENCIA ZKTECO BIOTIME APP-P50 PARA ACTIVAR APP BIOTIME SOFTWARE DE ASISTENCIA EN 50 SMARTPHONES",
+    "description": "LICENCIA ZKTECO BIOTIME APP-P50 PARA ACTIVAR APP BIOTIME SOFTWARE DE ASISTENCIA EN 50 SMARTPHONES",
+    "price": 864000,
+    "wholesalePrice": 794880,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbt-app-50.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBT-APP-50",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LICENCIA ZKTECO BIOTIME APP-P50 PARA ACTIVAR APP BIOTIME SOFTWARE DE ASISTENCIA EN 50 SMARTPHONES"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbt-app-100",
+    "sku": "ZKBT-APP-100",
+    "name": "ZKTeco ZKBT-APP-100",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LICENCIA ZKTECO BIOTIME APP-P100 PARA ACTIVAR APP BIOTIME SOFTWARE DE ASISTENCIA EN 100 SMARTPHONES",
+    "description": "LICENCIA ZKTECO BIOTIME APP-P100 PARA ACTIVAR APP BIOTIME SOFTWARE DE ASISTENCIA EN 100 SMARTPHONES",
+    "price": 1200000,
+    "wholesalePrice": 1104000,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbt-app-100.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBT-APP-100",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LICENCIA ZKTECO BIOTIME APP-P100 PARA ACTIVAR APP BIOTIME SOFTWARE DE ASISTENCIA EN 100 SMARTPHONES"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "zk-lic-zkbt-app-500",
+    "sku": "ZKBT-APP-500",
+    "name": "ZKTeco ZKBT-APP-500",
+    "brand": "ZKTeco",
+    "category": "acceso",
+    "shortDesc": "LICENCIA ZKTECO BIOTIME APP-P500 PARA ACTIVAR APP BIOTIME SOFTWARE DE ASISTENCIA EN 500 SMARTPHONES",
+    "description": "LICENCIA ZKTECO BIOTIME APP-P500 PARA ACTIVAR APP BIOTIME SOFTWARE DE ASISTENCIA EN 500 SMARTPHONES",
+    "price": 1936000,
+    "wholesalePrice": 1781120,
+    "stock": 25,
+    "image": "/productos/catalogo/zkteco-zkbt-app-500.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "ZKBT-APP-500",
+      "Marca": "ZKTeco"
+    },
+    "features": [
+      "LICENCIA ZKTECO BIOTIME APP-P500 PARA ACTIVAR APP BIOTIME SOFTWARE DE ASISTENCIA EN 500 SMARTPHONES"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "gar-f00727",
+    "sku": "F00727",
+    "name": "GAREN F00727",
+    "brand": "GAREN",
+    "category": "apertura-garen",
+    "shortDesc": "Cerradura electrica con rectificador Voltaje de 127 VAC",
+    "description": "Cerradura electrica con rectificador Voltaje de 127 VAC",
+    "price": 190000,
+    "wholesalePrice": 174800,
+    "stock": 25,
+    "image": "/productos/catalogo/garen-f00727.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "F00727",
+      "Marca": "GAREN"
+    },
+    "features": [
+      "Cerradura electrica con rectificador Voltaje de 127 VAC"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "gar-f01674",
+    "sku": "F01674",
+    "name": "GAREN F01674",
+    "brand": "GAREN",
+    "category": "apertura-garen",
+    "shortDesc": "Cerradura electrica Voltaje de 24 VDC",
+    "description": "Cerradura electrica Voltaje de 24 VDC",
+    "price": 187000,
+    "wholesalePrice": 172040,
+    "stock": 25,
+    "image": "/productos/catalogo/garen-f01674.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "F01674",
+      "Marca": "GAREN"
+    },
+    "features": [
+      "Cerradura electrica Voltaje de 24 VDC"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "gar-f00804",
+    "sku": "F00804",
+    "name": "GAREN F00804",
+    "brand": "GAREN",
+    "category": "apertura-garen",
+    "shortDesc": "Voltaje de Operación: 12V DC (Estándar para seguridad electrónica). Alcance Operativo: Hasta 7 metros de distancia, ideal para carriles vehi...",
+    "description": "Voltaje de Operación: 12V DC (Estándar para seguridad electrónica). Alcance Operativo: Hasta 7 metros de distancia, ideal para carriles vehiculares estándar y muelles de carga. Salida de Relevo: Contacto seco NA/NC (Normalmente Abierto / Normalmente Cerrado), permitiendo una compatibilidad universal con motores de garaje, barreras y sistemas de alarma.",
+    "price": 124000,
+    "wholesalePrice": 114080,
+    "stock": 25,
+    "image": "/productos/catalogo/garen-f00804.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "F00804",
+      "Marca": "GAREN"
+    },
+    "features": [
+      "Voltaje de Operación: 12V DC (Estándar para seguridad electrónica)",
+      "Alcance Operativo: Hasta 7 metros de distancia",
+      "ideal para carriles vehiculares estándar y muelles de carga"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "gar-ga-sf50r",
+    "sku": "GA-SF50R",
+    "name": "GAREN GA-SF50R",
+    "brand": "GAREN",
+    "category": "apertura-garen",
+    "shortDesc": "Fotocélula reflectiva Alcance de hasta 8 m Salida NA/ NC / Pulsada. Puede ser usada en ambientes exteriores. Led indicativo de alineación e ...",
+    "description": "Fotocélula reflectiva Alcance de hasta 8 m Salida NA/ NC / Pulsada. Puede ser usada en ambientes exteriores. Led indicativo de alineación e intensidad de la señal. Consumo máximo de corriente: 80 mA. Accionamiento inmediato.\nRelé en modo pasivo o activo (configurable). Control de potencia de emisión en 2 niveles. Plantilla de ayuda a la instalación.",
+    "price": 278000,
+    "wholesalePrice": 255760,
+    "stock": 25,
+    "image": "/productos/catalogo/garen-ga-sf50r.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "GA-SF50R",
+      "Marca": "GAREN"
+    },
+    "features": [
+      "Fotocélula reflectiva Alcance de hasta 8 m Salida NA/ NC / Pulsada",
+      "Puede ser usada en ambientes exteriores",
+      "Led indicativo de alineación e intensidad de la señal"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "gar-a01886",
+    "sku": "A01886",
+    "name": "GAREN A01886",
+    "brand": "GAREN",
+    "category": "apertura-garen",
+    "shortDesc": "Semaforo Audio VisualTensión de entrada autovoltaje (127 V/220 V). Señalización visual en los colores rojo y amarillo. Señalización sonora (...",
+    "description": "Semaforo Audio VisualTensión de entrada autovoltaje (127 V/220 V). Señalización visual en los colores rojo y amarillo. Señalización sonora (Buzzer) con frecuencia y volumen ajustables. Sensor de identificación día/noche.",
+    "price": 161000,
+    "wholesalePrice": 148120,
+    "stock": 25,
+    "image": "/productos/catalogo/garen-a01886.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "A01886",
+      "Marca": "GAREN"
+    },
+    "features": [
+      "Semaforo Audio VisualTensión de entrada autovoltaje (127 V/220 V)",
+      "Señalización visual en los colores rojo y amarillo",
+      "Señalización sonora (Buzzer) con frecuencia y volumen ajustables"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "gar-a01644",
+    "sku": "A01644",
+    "name": "GAREN A01644",
+    "brand": "GAREN",
+    "category": "redes",
+    "shortDesc": "Con el Config Garen Usted realiza ajustes a los parámetros de Centrales Garen Con rapidez y ahorro de tiempo. Gracias a ello, es posible con...",
+    "description": "Con el Config Garen Usted realiza ajustes a los parámetros de Centrales Garen Con rapidez y ahorro de tiempo. Gracias a ello, es posible configurar los parámetros del panel de control directamente desde el dispositivo, sin apenas esfuerzo y con mucha mayor flexibilidad. Programación rápida y sencilla de Centrales Garen; Mayor precisión en la configuración; Interfaz sencilla e intuitiva; Reconocimiento automático de la unidad de control conectada; Programa como Centrales que sean compatibles con el módulo SETUP GAREN.\nUn cable de 2 metros permite al instalador colocar la unidad de control lejos de la luz solar directa y otros factores externos, evitando además problemas ergonómicos (esfuerzo físico, mala postura).\nCompatible con CentralesOla  Connect,Fit Connect Industrial PRO,TSi PRO,TSi Fit, Dupla Nuevo, Esclavo y DZ Intenso. Una solución Garen ¡Para facilitar el día a día del instalador!",
+    "price": 314000,
+    "wholesalePrice": 288880,
+    "stock": 25,
+    "image": "/productos/catalogo/garen-a01644.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "A01644",
+      "Marca": "GAREN"
+    },
+    "features": [
+      "Con el Config Garen Usted realiza ajustes a los parámetros de Centrales Garen Con rapidez y ahorro de tiempo",
+      "Gracias a ello",
+      "es posible configurar los parámetros del panel de control directamente desde el dispositivo"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "gar-a02015",
+    "sku": "A02015",
+    "name": "GAREN A02015",
+    "brand": "GAREN",
+    "category": "apertura-garen",
+    "shortDesc": "EL Garen Setup Es un dispositivo de programación Wi-Fi/Bluetooth desarrollado para facilitar y acelerar el trabajo del instalador, evitando ...",
+    "description": "EL Garen Setup Es un dispositivo de programación Wi-Fi/Bluetooth desarrollado para facilitar y acelerar el trabajo del instalador, evitando problemas ergonómicos y la exposición prolongada al sol. Usando el dispositivo, puede configurar el Centrales Garen Ya compatible* de forma rápida y sencilla directamente desde tu smartphone a través de la aplicación G•Smart 4.0. Con el Garen SetupEl instalador tiene acceso a todas las configuraciones de Centrales Garen El dispositivo identifica automáticamente el modelo de la unidad de control conectada y desbloquea sus funciones programables. El acceso a través de la aplicación G•Smart 4.0 reduce el tiempo de instalación y mantenimiento, optimizando el trabajo del instalador, ya que una vez que el dispositivo está conectado a la unidad de control, la configuración se puede realizar directamente desde el teléfono inteligente, eliminando la necesidad de abrir el motor para acceder a la unidad de control y configurarla manualmente. EL Garen Setup El instalador también puede ofrecer al usuario final, con el dispositivo en modo cliente, la posibilidad de transformar el motor en un dispositivo Wi-Fi y utilizar funciones básicas como abrir y cerrar la puerta, recibir notificaciones y comprobar si está abierta o cerrada a través de la aplicación G•Smart 4.0. Tipos de conexión: Wi-Fi y Bluetooth;\nDisponible para Android e iOS;",
+    "price": 83000,
+    "wholesalePrice": 76360,
+    "stock": 25,
+    "image": "/productos/catalogo/garen-a02015.webp",
+    "tags": [
+      "WiFi"
+    ],
+    "specs": {
+      "Referencia": "A02015",
+      "Marca": "GAREN"
+    },
+    "features": [
+      "EL Garen Setup Es un dispositivo de programación Wi-Fi/Bluetooth desarrollado para facilitar y acelerar el trabajo del instalador",
+      "evitando problemas ergonómicos y la exposición prolongada al sol",
+      "Usando el dispositivo"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-e03414004---a17819",
+    "sku": "E03414004 + A17819",
+    "name": "PPA E03414004 + A17819",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Motor para puerta batiente para puertas de hasta 3 metros de ancho y hasta 125KG de Peso, Velocidad de Apertura 4,5 Segundos, Entrada de vol...",
+    "description": "Motor para puerta batiente para puertas de hasta 3 metros de ancho y hasta 125KG de Peso, Velocidad de Apertura 4,5 Segundos, Entrada de voltaje DUAL 127VAC - 220VAC, 40 Ciclos por hora Tecnologia JETFLEX Tamaño Super",
+    "price": 2213800,
+    "wholesalePrice": 2036696,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-e03414004-a17819.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "E03414004 + A17819",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Motor para puerta batiente para puertas de hasta 3 metros de ancho y hasta 125KG de Peso",
+      "Velocidad de Apertura 4",
+      "5 Segundos"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-e03481000",
+    "sku": "E03481000",
+    "name": "PPA E03481000",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Kit Motores para dos puertas batientes de hasta 2 metros de ancho y hasta 125KG de Peso (Cada Hoja), Velocidad de Apertura 9,5 Segundos, Ent...",
+    "description": "Kit Motores para dos puertas batientes de hasta 2 metros de ancho y hasta 125KG de Peso (Cada Hoja), Velocidad de Apertura 9,5 Segundos, Entrada de voltaje 127VAC , 20 Ciclos por hora Tecnologia MONO Tamaño Estandar",
+    "price": 2095000,
+    "wholesalePrice": 1927400,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-e03481000.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "E03481000",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Kit Motores para dos puertas batientes de hasta 2 metros de ancho y hasta 125KG de Peso (Cada Hoja)",
+      "Velocidad de Apertura 9",
+      "5 Segundos"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-e03481001",
+    "sku": "E03481001",
+    "name": "PPA E03481001",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Kit Motores para dos puertas batientes de hasta 3 metros de ancho y hasta 125KG de Peso (Cada Hoja), Velocidad de Apertura 16,5 Segundos, En...",
+    "description": "Kit Motores para dos puertas batientes de hasta 3 metros de ancho y hasta 125KG de Peso (Cada Hoja), Velocidad de Apertura 16,5 Segundos, Entrada de voltaje 127VAC , 20 Ciclos por hora Tecnologia MONO Tamaño Superer",
+    "price": 2250000,
+    "wholesalePrice": 2070000,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-e03481001.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "E03481001",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Kit Motores para dos puertas batientes de hasta 3 metros de ancho y hasta 125KG de Peso (Cada Hoja)",
+      "Velocidad de Apertura 16",
+      "5 Segundos"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-e03414001---a17818",
+    "sku": "E03414001 + A17818",
+    "name": "PPA E03414001 + A17818",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Kit Motores para dos puertas batientes de hasta 2 metros de ancho y hasta 125KG de Peso (Cada Hoja), Velocidad de Apertura 2,5 Segundos, Ent...",
+    "description": "Kit Motores para dos puertas batientes de hasta 2 metros de ancho y hasta 125KG de Peso (Cada Hoja), Velocidad de Apertura 2,5 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC , 40 Ciclos por hora Tecnologia JETFLEX Tamaño Estandar",
+    "price": 3118800,
+    "wholesalePrice": 2869296,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-e03414001-a17818.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "E03414001 + A17818",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Kit Motores para dos puertas batientes de hasta 2 metros de ancho y hasta 125KG de Peso (Cada Hoja)",
+      "Velocidad de Apertura 2",
+      "5 Segundos"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-e03414001---a17819",
+    "sku": "E03414001 + A17819",
+    "name": "PPA E03414001 + A17819",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Kit Motores para dos puertas batientes de hasta 3 metros de ancho y hasta 125KG de Peso (Cada Hoja), Velocidad de Apertura 4,5 Segundos, Ent...",
+    "description": "Kit Motores para dos puertas batientes de hasta 3 metros de ancho y hasta 125KG de Peso (Cada Hoja), Velocidad de Apertura 4,5 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC , 40 Ciclos por hora Tecnologia JETFLEX Tamaño Super",
+    "price": 3338800,
+    "wholesalePrice": 3071696,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-e03414001-a17819.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "E03414001 + A17819",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Kit Motores para dos puertas batientes de hasta 3 metros de ancho y hasta 125KG de Peso (Cada Hoja)",
+      "Velocidad de Apertura 4",
+      "5 Segundos"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-e07154004",
+    "sku": "E07154004",
+    "name": "PPA E07154004",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Motor para puerta batiente para puertas de hasta 2 metros de ancho y hasta 300KG de Peso, Velocidad de Apertura 6 Segundos, Entrada de volta...",
+    "description": "Motor para puerta batiente para puertas de hasta 2 metros de ancho y hasta 300KG de Peso, Velocidad de Apertura 6 Segundos, Entrada de voltaje DUAL 127VAC - 220VAC, 60 Ciclos por hora Tecnologia JETFLEX Tamaño Estándar",
+    "price": 2077500,
+    "wholesalePrice": 1911300,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-e07154004.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "E07154004",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Motor para puerta batiente para puertas de hasta 2 metros de ancho y hasta 300KG de Peso",
+      "Velocidad de Apertura 6 Segundos",
+      "Entrada de voltaje DUAL 127VAC - 220VAC"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-e07124014",
+    "sku": "E07124014",
+    "name": "PPA E07124014",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Motor para puerta batiente para puertas de hasta 3,5 metros de ancho y hasta 300KG de Peso, Velocidad de Apertura 12 Segundos, Entrada de vo...",
+    "description": "Motor para puerta batiente para puertas de hasta 3,5 metros de ancho y hasta 300KG de Peso, Velocidad de Apertura 12 Segundos, Entrada de voltaje DUAL 127VAC - 220VAC, 60 Ciclos por hora Tecnologia JETFLEX Tamaño Super",
+    "price": 2250000,
+    "wholesalePrice": 2070000,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-e07124014.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "E07124014",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Motor para puerta batiente para puertas de hasta 3",
+      "5 metros de ancho y hasta 300KG de Peso",
+      "Velocidad de Apertura 12 Segundos"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-e07194005",
+    "sku": "E07194005",
+    "name": "PPA E07194005",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Motor para puerta batiente para puertas de hasta 4,5 metros de ancho y hasta 300KG de Peso, Velocidad de Apertura 16 Segundos, Entrada de vo...",
+    "description": "Motor para puerta batiente para puertas de hasta 4,5 metros de ancho y hasta 300KG de Peso, Velocidad de Apertura 16 Segundos, Entrada de voltaje DUAL 127VAC - 220VAC, 60 Ciclos por hora Tecnologia JETFLEX Tamaño Mega",
+    "price": 2560000,
+    "wholesalePrice": 2355200,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-e07194005.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "E07194005",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Motor para puerta batiente para puertas de hasta 4",
+      "5 metros de ancho y hasta 300KG de Peso",
+      "Velocidad de Apertura 16 Segundos"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-e07154003",
+    "sku": "E07154003",
+    "name": "PPA E07154003",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Kit Motores para dos puertas batientes de hasta 2 metros de ancho y hasta 300KG de Peso (Cada Hoja), Velocidad de Apertura 6 Segundos, Entra...",
+    "description": "Kit Motores para dos puertas batientes de hasta 2 metros de ancho y hasta 300KG de Peso (Cada Hoja), Velocidad de Apertura 6 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC , 60 Ciclos por hora Tecnologia JETFLEX Tamaño Estandar",
+    "price": 3827500,
+    "wholesalePrice": 3521300,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-e07154003.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "E07154003",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Kit Motores para dos puertas batientes de hasta 2 metros de ancho y hasta 300KG de Peso (Cada Hoja)",
+      "Velocidad de Apertura 6 Segundos",
+      "Entrada de voltaje DUAL AC 127VAC - 220VAC"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-e07124011",
+    "sku": "E07124011",
+    "name": "PPA E07124011",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Kit Motores para dos puertas batientes de hasta 3,5 metros de ancho y hasta 300KG de Peso (Cada Hoja), Velocidad de Apertura 12 Segundos, En...",
+    "description": "Kit Motores para dos puertas batientes de hasta 3,5 metros de ancho y hasta 300KG de Peso (Cada Hoja), Velocidad de Apertura 12 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC , 60 Ciclos por hora Tecnologia JETFLEX Tamaño Super",
+    "price": 4228800,
+    "wholesalePrice": 3890496,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-e07124011.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "E07124011",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Kit Motores para dos puertas batientes de hasta 3",
+      "5 metros de ancho y hasta 300KG de Peso (Cada Hoja)",
+      "Velocidad de Apertura 12 Segundos"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-e07194003",
+    "sku": "E07194003",
+    "name": "PPA E07194003",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Kit Motores para dos puertas batientes de hasta 4,5 metros de ancho y hasta 300KG de Peso (Cada Hoja), Velocidad de Apertura 16 Segundos, En...",
+    "description": "Kit Motores para dos puertas batientes de hasta 4,5 metros de ancho y hasta 300KG de Peso (Cada Hoja), Velocidad de Apertura 16 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC , 60 Ciclos por hora Tecnologia JETFLEX Tamaño Mega",
+    "price": 4587500,
+    "wholesalePrice": 4220500,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-e07194003.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "E07194003",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Kit Motores para dos puertas batientes de hasta 4",
+      "5 metros de ancho y hasta 300KG de Peso (Cada Hoja)",
+      "Velocidad de Apertura 16 Segundos"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-der-e07161001-a16510-izq-e07161002-a16510",
+    "sku": "Der:E07161001+A16510 Izq:E07161002+A16510",
+    "name": "PPA Der:E07161001+A16510 Izq:E07161002+A16510",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Motor para puerta batiente para puertas de hasta 2,5 metros de ancho y hasta 300KG de Peso, Velocidad de Apertura 8,5 Segundos, Entrada de v...",
+    "description": "Motor para puerta batiente para puertas de hasta 2,5 metros de ancho y hasta 300KG de Peso, Velocidad de Apertura 8,5 Segundos, Entrada de voltaje 127VAC, 60 Ciclos por hora Tecnologia MONO Tamaño Estándar",
+    "price": 2085000,
+    "wholesalePrice": 1918200,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-der-e07161001-a16510-izq-e07161002-a16510.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "Der:E07161001+A16510 Izq:E07161002+A16510",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Motor para puerta batiente para puertas de hasta 2",
+      "5 metros de ancho y hasta 300KG de Peso",
+      "Velocidad de Apertura 8"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-der-e07161001-a16511-izq-e07161002-a16511",
+    "sku": "Der:E07161001+A16511 Izq:E07161002+A16511",
+    "name": "PPA Der:E07161001+A16511 Izq:E07161002+A16511",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Motor para puerta batiente para puertas de hasta 3,5 metros de ancho y hasta 300KG de Peso, Velocidad de Apertura 16 Segundos, Entrada de vo...",
+    "description": "Motor para puerta batiente para puertas de hasta 3,5 metros de ancho y hasta 300KG de Peso, Velocidad de Apertura 16 Segundos, Entrada de voltaje 127VAC, 60 Ciclos por hora Tecnologia MONO Tamaño Super",
+    "price": 2257500,
+    "wholesalePrice": 2076900,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-der-e07161001-a16511-izq-e07161002-a16511.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "Der:E07161001+A16511 Izq:E07161002+A16511",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Motor para puerta batiente para puertas de hasta 3",
+      "5 metros de ancho y hasta 300KG de Peso",
+      "Velocidad de Apertura 16 Segundos"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-der-e07161001-a16512-izq-e07161002-a16512",
+    "sku": "Der:E07161001+A16512 Izq:E07161002+A16512",
+    "name": "PPA Der:E07161001+A16512 Izq:E07161002+A16512",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Motor para puerta batiente para puertas de hasta 4,5 metros de ancho y hasta 300KG de Peso, Velocidad de Apertura 21,5 Segundos, Entrada de ...",
+    "description": "Motor para puerta batiente para puertas de hasta 4,5 metros de ancho y hasta 300KG de Peso, Velocidad de Apertura 21,5 Segundos, Entrada de voltaje 127VAC, 60 Ciclos por hora Tecnologia MONO Tamaño Mega",
+    "price": 2507500,
+    "wholesalePrice": 2306900,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-der-e07161001-a16512-izq-e07161002-a16512.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "Der:E07161001+A16512 Izq:E07161002+A16512",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Motor para puerta batiente para puertas de hasta 4",
+      "5 metros de ancho y hasta 300KG de Peso",
+      "Velocidad de Apertura 21"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-der-e07194001-a16510-izq-e07194002-a16510",
+    "sku": "Der:E07194001+A16510 Izq:E07194002+A16510",
+    "name": "PPA Der:E07194001+A16510 Izq:E07194002+A16510",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Motor para puerta batiente para puertas de hasta 2,5 metros de ancho y hasta 350KG de Peso, Velocidad de Apertura 2,5 Segundos, Entrada de v...",
+    "description": "Motor para puerta batiente para puertas de hasta 2,5 metros de ancho y hasta 350KG de Peso, Velocidad de Apertura 2,5 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, Uso intensivo Tecnologia JETFLEX Tamaño Estándar",
+    "price": 2750000,
+    "wholesalePrice": 2530000,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-der-e07194001-a16510-izq-e07194002-a16510.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "Der:E07194001+A16510 Izq:E07194002+A16510",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Motor para puerta batiente para puertas de hasta 2",
+      "5 metros de ancho y hasta 350KG de Peso",
+      "Velocidad de Apertura 2"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-der--e07194001-a16511-izq-e07194002-a16511",
+    "sku": "Der: E07194001+A16511 Izq:E07194002+A16511",
+    "name": "PPA Der: E07194001+A16511 Izq:E07194002+A16511",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Motor para puerta batiente para puertas de hasta 3,5 metros de ancho y hasta 350KG de Peso, Velocidad de Apertura 5 Segundos, Entrada de vol...",
+    "description": "Motor para puerta batiente para puertas de hasta 3,5 metros de ancho y hasta 350KG de Peso, Velocidad de Apertura 5 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, Uso intensivo Tecnologia JETFLEX Tamaño Super",
+    "price": 2922500,
+    "wholesalePrice": 2688700,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-der-e07194001-a16511-izq-e07194002-a16511.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "Der: E07194001+A16511 Izq:E07194002+A16511",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Motor para puerta batiente para puertas de hasta 3",
+      "5 metros de ancho y hasta 350KG de Peso",
+      "Velocidad de Apertura 5 Segundos"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-der-e07194001-a16512-izq-e07194002-a16512",
+    "sku": "Der:E07194001+A16512 Izq:E07194002+A16512",
+    "name": "PPA Der:E07194001+A16512 Izq:E07194002+A16512",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Motor para puerta batiente para puertas de hasta 4,5 metros de ancho y hasta 350KG de Peso, Velocidad de Apertura 6,5 Segundos, Entrada de v...",
+    "description": "Motor para puerta batiente para puertas de hasta 4,5 metros de ancho y hasta 350KG de Peso, Velocidad de Apertura 6,5 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, Uso Intensivo Tecnologia JETFLEX Tamaño Mega",
+    "price": 3172500,
+    "wholesalePrice": 2918700,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-der-e07194001-a16512-izq-e07194002-a16512.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "Der:E07194001+A16512 Izq:E07194002+A16512",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Motor para puerta batiente para puertas de hasta 4",
+      "5 metros de ancho y hasta 350KG de Peso",
+      "Velocidad de Apertura 6"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-e07161000---a16510-x-2",
+    "sku": "E07161000 + A16510 X 2",
+    "name": "PPA E07161000 + A16510 X 2",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Kit Motores para dos puertas batientes de hasta 2,5 metros de ancho y hasta 300KG de Peso (Cada Hoja), Velocidad de Apertura 8,5 Segundos, E...",
+    "description": "Kit Motores para dos puertas batientes de hasta 2,5 metros de ancho y hasta 300KG de Peso (Cada Hoja), Velocidad de Apertura 8,5 Segundos, Entrada de voltaje AC 127VAC, 60 Ciclos por hora Tecnologia MONO Tamaño Estándar",
+    "price": 3557500,
+    "wholesalePrice": 3272900,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-e07161000-a16510-x-2.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "E07161000 + A16510 X 2",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Kit Motores para dos puertas batientes de hasta 2",
+      "5 metros de ancho y hasta 300KG de Peso (Cada Hoja)",
+      "Velocidad de Apertura 8"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-e07161000---a16511-x-2",
+    "sku": "E07161000 + A16511 X 2",
+    "name": "PPA E07161000 + A16511 X 2",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Motor para puerta batiente para puertas de hasta 3,5 metros de ancho y hasta 300KG de Peso, Velocidad de Apertura 16 Segundos, Entrada de vo...",
+    "description": "Motor para puerta batiente para puertas de hasta 3,5 metros de ancho y hasta 300KG de Peso, Velocidad de Apertura 16 Segundos, Entrada de voltaje127VAC, 60 Ciclos por hora Tecnologia MONO Tamaño Super",
+    "price": 3902500,
+    "wholesalePrice": 3590300,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-e07161000-a16511-x-2.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "E07161000 + A16511 X 2",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Motor para puerta batiente para puertas de hasta 3",
+      "5 metros de ancho y hasta 300KG de Peso",
+      "Velocidad de Apertura 16 Segundos"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-e07161000---a16512-x-2",
+    "sku": "E07161000 + A16512 X 2",
+    "name": "PPA E07161000 + A16512 X 2",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Motor para puerta batiente para puertas de hasta 4,5 metros de ancho y hasta 300KG de Peso, Velocidad de Apertura 21,5 Segundos, Entrada de ...",
+    "description": "Motor para puerta batiente para puertas de hasta 4,5 metros de ancho y hasta 300KG de Peso, Velocidad de Apertura 21,5 Segundos, Entrada de voltaje127VAC, 60 Ciclos por hora Tecnologia MONO Tamaño Mega",
+    "price": 4402500,
+    "wholesalePrice": 4050300,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-e07161000-a16512-x-2.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "E07161000 + A16512 X 2",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Motor para puerta batiente para puertas de hasta 4",
+      "5 metros de ancho y hasta 300KG de Peso",
+      "Velocidad de Apertura 21"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-e07194000---a16510-x-2",
+    "sku": "E07194000 + A16510 X 2",
+    "name": "PPA E07194000 + A16510 X 2",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Kit Motores para dos puertas batientes de hasta 2,5 metros de ancho y hasta 350KG de Peso (Cada Hoja), Velocidad de Apertura 2,5 Segundos, E...",
+    "description": "Kit Motores para dos puertas batientes de hasta 2,5 metros de ancho y hasta 350KG de Peso (Cada Hoja), Velocidad de Apertura 2,5 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, Uso intensivo Tecnologia JETFLEX Tamaño Estándar",
+    "price": 4325000,
+    "wholesalePrice": 3979000,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-e07194000-a16510-x-2.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "E07194000 + A16510 X 2",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Kit Motores para dos puertas batientes de hasta 2",
+      "5 metros de ancho y hasta 350KG de Peso (Cada Hoja)",
+      "Velocidad de Apertura 2"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-e07194000---a16511-x-2",
+    "sku": "E07194000 + A16511 X 2",
+    "name": "PPA E07194000 + A16511 X 2",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Kit Motores para dos puertas batientes de hasta 3,5 metros de ancho y hasta 350KG de Peso (Cada Hoja), Velocidad de Apertura 5 Segundos, Ent...",
+    "description": "Kit Motores para dos puertas batientes de hasta 3,5 metros de ancho y hasta 350KG de Peso (Cada Hoja), Velocidad de Apertura 5 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, Uso intensivo Tecnologia JETFLEX Tamaño Super",
+    "price": 4670000,
+    "wholesalePrice": 4296400,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-e07194000-a16511-x-2.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "E07194000 + A16511 X 2",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Kit Motores para dos puertas batientes de hasta 3",
+      "5 metros de ancho y hasta 350KG de Peso (Cada Hoja)",
+      "Velocidad de Apertura 5 Segundos"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-e07194000---a16512-x-2",
+    "sku": "E07194000 + A16512 X 2",
+    "name": "PPA E07194000 + A16512 X 2",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Kit Motores para dos puertas batientes de hasta 4,5 metros de ancho y hasta 350KG de Peso (Cada Hoja), Velocidad de Apertura 4,5 Segundos, E...",
+    "description": "Kit Motores para dos puertas batientes de hasta 4,5 metros de ancho y hasta 350KG de Peso (Cada Hoja), Velocidad de Apertura 4,5 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, Uso intensivo Tecnologia JETFLEX Tamaño Mega",
+    "price": 5170000,
+    "wholesalePrice": 4756400,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-e07194000-a16512-x-2.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "E07194000 + A16512 X 2",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Kit Motores para dos puertas batientes de hasta 4",
+      "5 metros de ancho y hasta 350KG de Peso (Cada Hoja)",
+      "Velocidad de Apertura 4"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-e01100100---a16968",
+    "sku": "E01100100 + A16968",
+    "name": "PPA E01100100 + A16968",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Motor para puerta tipo basculante de hasta 2,8 metros de alto y hasta 300KG de Peso, Velocidad de Apertura 16,5 Segundos, Entrada de voltaje...",
+    "description": "Motor para puerta tipo basculante de hasta 2,8 metros de alto y hasta 300KG de Peso, Velocidad de Apertura 16,5 Segundos, Entrada de voltaje AC 127VAC, 30 Ciclos por hora Tecnologia MONO",
+    "price": 1492500,
+    "wholesalePrice": 1373100,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-e01100100-a16968.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "E01100100 + A16968",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Motor para puerta tipo basculante de hasta 2",
+      "8 metros de alto y hasta 300KG de Peso",
+      "Velocidad de Apertura 16"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-e01100100---a16970",
+    "sku": "E01100100 + A16970",
+    "name": "PPA E01100100 + A16970",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Motor para puerta tipo basculante de hasta 4 metros de alto y hasta 300KG de Peso, Velocidad de Apertura 18,5 Segundos, Entrada de voltaje A...",
+    "description": "Motor para puerta tipo basculante de hasta 4 metros de alto y hasta 300KG de Peso, Velocidad de Apertura 18,5 Segundos, Entrada de voltaje AC 127VAC, 30 Ciclos por hora Tecnologia MONO",
+    "price": 1872500,
+    "wholesalePrice": 1722700,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-e01100100-a16970.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "E01100100 + A16970",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Motor para puerta tipo basculante de hasta 4 metros de alto y hasta 300KG de Peso",
+      "Velocidad de Apertura 18",
+      "5 Segundos"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-e01101401---a16968",
+    "sku": "E01101401 + A16968",
+    "name": "PPA E01101401 + A16968",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Motor para puerta tipo basculante de hasta 2,85 metros de alto y hasta 350KG de Peso, Velocidad de Apertura 3,5 Segundos, Entrada de voltaje...",
+    "description": "Motor para puerta tipo basculante de hasta 2,85 metros de alto y hasta 350KG de Peso, Velocidad de Apertura 3,5 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, 40 Ciclos por hora Tecnologia JETFLEX",
+    "price": 2405000,
+    "wholesalePrice": 2212600,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-e01101401-a16968.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "E01101401 + A16968",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Motor para puerta tipo basculante de hasta 2",
+      "85 metros de alto y hasta 350KG de Peso",
+      "Velocidad de Apertura 3"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-e01101401---a16968-88",
+    "sku": "E01101401 + A16968",
+    "name": "PPA E01101401 + A16968",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Motor para puerta tipo basculante de hasta 4 metros de alto y hasta 350KG de Peso, Velocidad de Apertura 4,5 Segundos, Entrada de voltaje DU...",
+    "description": "Motor para puerta tipo basculante de hasta 4 metros de alto y hasta 350KG de Peso, Velocidad de Apertura 4,5 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, 40 Ciclos por hora Tecnologia JETFLEX",
+    "price": 2785000,
+    "wholesalePrice": 2562200,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-e01101401-a16968-fila-88.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "E01101401 + A16968",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Motor para puerta tipo basculante de hasta 4 metros de alto y hasta 350KG de Peso",
+      "Velocidad de Apertura 4",
+      "5 Segundos"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-e01104429---a17025",
+    "sku": "E01104429 + A17025",
+    "name": "PPA E01104429 + A17025",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Motor para puerta tipo basculante de hasta 3 metros de alto y hasta 450KG de Peso, Velocidad de Apertura 3 Segundos, Entrada de voltaje DUAL...",
+    "description": "Motor para puerta tipo basculante de hasta 3 metros de alto y hasta 450KG de Peso, Velocidad de Apertura 3 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, 80 Ciclos por hora Tecnologia JETFLEX",
+    "price": 2982500,
+    "wholesalePrice": 2743900,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-e01104429-a17025.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "E01104429 + A17025",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Motor para puerta tipo basculante de hasta 3 metros de alto y hasta 450KG de Peso",
+      "Velocidad de Apertura 3 Segundos",
+      "Entrada de voltaje DUAL AC 127VAC - 220VAC"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-e01104429---a17058",
+    "sku": "E01104429 + A17058",
+    "name": "PPA E01104429 + A17058",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Motor para puerta tipo basculante de hasta 6 metros de alto y hasta 450KG de Peso, Velocidad de Apertura 5,5 Segundos, Entrada de voltaje DU...",
+    "description": "Motor para puerta tipo basculante de hasta 6 metros de alto y hasta 450KG de Peso, Velocidad de Apertura 5,5 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, 80 Ciclos por hora Tecnologia JETFLEX",
+    "price": 3482500,
+    "wholesalePrice": 3203900,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-e01104429-a17058.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "E01104429 + A17058",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Motor para puerta tipo basculante de hasta 6 metros de alto y hasta 450KG de Peso",
+      "Velocidad de Apertura 5",
+      "5 Segundos"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-e05122000",
+    "sku": "E05122000",
+    "name": "PPA E05122000",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Motor para puerta tipo basculante de hasta 4 metros de alto y hasta 400KG de Peso, Velocidad de Apertura 12 Segundos, Entrada de voltaje 220...",
+    "description": "Motor para puerta tipo basculante de hasta 4 metros de alto y hasta 400KG de Peso, Velocidad de Apertura 12 Segundos, Entrada de voltaje 220VAC, 60 Ciclos por hora Tecnologia MONO",
+    "price": 2692500,
+    "wholesalePrice": 2477100,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-e05122000.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "E05122000",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Motor para puerta tipo basculante de hasta 4 metros de alto y hasta 400KG de Peso",
+      "Velocidad de Apertura 12 Segundos",
+      "Entrada de voltaje 220VAC"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-e01101401---a16968-94",
+    "sku": "E01101401 + A16968",
+    "name": "PPA E01101401 + A16968",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Motor para puerta tipo basculante de hasta 4 metros de alto y hasta 350KG de Peso, Velocidad de Apertura 4,5 Segundos, Entrada de voltaje DU...",
+    "description": "Motor para puerta tipo basculante de hasta 4 metros de alto y hasta 350KG de Peso, Velocidad de Apertura 4,5 Segundos, Entrada de voltaje DUAL AC 127VAC - 220VAC, 40 Ciclos por hora Tecnologia JETFLEX",
+    "price": 4037500,
+    "wholesalePrice": 3714500,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-e01101401-a16968-fila-94.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "E01101401 + A16968",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Motor para puerta tipo basculante de hasta 4 metros de alto y hasta 350KG de Peso",
+      "Velocidad de Apertura 4",
+      "5 Segundos"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-e04661000",
+    "sku": "E04661000",
+    "name": "PPA E04661000",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Motor para puerta seccional de hasta 3 metros de alto y hasta 200KG de Peso, Velocidad de Apertura 20 Segundos, Entrada de voltaje  127VAC, ...",
+    "description": "Motor para puerta seccional de hasta 3 metros de alto y hasta 200KG de Peso, Velocidad de Apertura 20 Segundos, Entrada de voltaje  127VAC, 25 Ciclos por hora Tecnologia MONO",
+    "price": 1287500,
+    "wholesalePrice": 1184500,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-e04661000.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "E04661000",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Motor para puerta seccional de hasta 3 metros de alto y hasta 200KG de Peso",
+      "Velocidad de Apertura 20 Segundos",
+      "Entrada de voltaje  127VAC"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-e04661000-98",
+    "sku": "E04661000",
+    "name": "PPA E04661000",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Motor para puerta seccional de hasta 2,7 metros de alto y hasta 350KG de Peso, Velocidad de Apertura 8 Segundos, Entrada de voltaje DUAL AC ...",
+    "description": "Motor para puerta seccional de hasta 2,7 metros de alto y hasta 350KG de Peso, Velocidad de Apertura 8 Segundos, Entrada de voltaje DUAL AC  127VAC - 220VAC, 40 Ciclos por hora Tecnologia JETFLEX",
+    "price": 1787500,
+    "wholesalePrice": 1644500,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-e04661000-fila-98.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "E04661000",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Motor para puerta seccional de hasta 2",
+      "7 metros de alto y hasta 350KG de Peso",
+      "Velocidad de Apertura 8 Segundos"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-e08163000",
+    "sku": "E08163000",
+    "name": "PPA E08163000",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Talanquera Vehicular con brazo de 3 metros color natural, Velocidad de apertura 4 Segundos , 120 Ciclos por Hora - Entrada de Voltage 220VAC...",
+    "description": "Talanquera Vehicular con brazo de 3 metros color natural, Velocidad de apertura 4 Segundos , 120 Ciclos por Hora - Entrada de Voltage 220VAC Tecnología LEGERO",
+    "price": 3327500,
+    "wholesalePrice": 3061300,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-e08163000.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "E08163000",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Talanquera Vehicular con brazo de 3 metros color natural",
+      "Velocidad de apertura 4 Segundos",
+      "120 Ciclos por Hora - Entrada de Voltage 220VAC Tecnología LEGERO"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-e08163000-102",
+    "sku": "E08163000",
+    "name": "PPA E08163000",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Talanquera Vehicular con brazo de 3 metros color blanco, Velocidad de apertura 4 Segundos , 120 Ciclos por Hora - Entrada de Voltage 220VAC ...",
+    "description": "Talanquera Vehicular con brazo de 3 metros color blanco, Velocidad de apertura 4 Segundos , 120 Ciclos por Hora - Entrada de Voltage 220VAC Tecnología LEGERO",
+    "price": 3422500,
+    "wholesalePrice": 3148700,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-e08163000-fila-102.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "E08163000",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Talanquera Vehicular con brazo de 3 metros color blanco",
+      "Velocidad de apertura 4 Segundos",
+      "120 Ciclos por Hora - Entrada de Voltage 220VAC Tecnología LEGERO"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-e05122000-103",
+    "sku": "E05122000",
+    "name": "PPA E05122000",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Motor para puerta tipo basculante de hasta 4 metros de alto y hasta 400KG de Peso, Velocidad de Apertura 12 Segundos, Entrada de voltaje 220...",
+    "description": "Motor para puerta tipo basculante de hasta 4 metros de alto y hasta 400KG de Peso, Velocidad de Apertura 12 Segundos, Entrada de voltaje 220VAC, 60 Ciclos por hora Tecnologia MONO",
+    "price": 4125000,
+    "wholesalePrice": 3795000,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-e05122000-fila-103.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "E05122000",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Motor para puerta tipo basculante de hasta 4 metros de alto y hasta 400KG de Peso",
+      "Velocidad de Apertura 12 Segundos",
+      "Entrada de voltaje 220VAC"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-f08184001---a19906",
+    "sku": "F08184001 + A19906",
+    "name": "PPA F08184001 + A19906",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Talanquera Vehicular con Asta Slim Rectangular de 3 metros color natural, Velocidad de apertura 1,5 Segundos , 80 - 120 Ciclos por Hora - En...",
+    "description": "Talanquera Vehicular con Asta Slim Rectangular de 3 metros color natural, Velocidad de apertura 1,5 Segundos , 80 - 120 Ciclos por Hora - Entrada de Voltage DUAL 127VAC - 220VAC Tecnología JETFLEX",
+    "price": 4673800,
+    "wholesalePrice": 4299896,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-f08184001-a19906.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "F08184001 + A19906",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Talanquera Vehicular con Asta Slim Rectangular de 3 metros color natural",
+      "Velocidad de apertura 1",
+      "5 Segundos"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-f08184001---a19601",
+    "sku": "F08184001 + A19601",
+    "name": "PPA F08184001 + A19601",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Talanquera Vehicular con Asta Slim Rectangular de 3 metros color blanco, Velocidad de apertura 1,5 Segundos , 80 - 120 Ciclos por Hora - Ent...",
+    "description": "Talanquera Vehicular con Asta Slim Rectangular de 3 metros color blanco, Velocidad de apertura 1,5 Segundos , 80 - 120 Ciclos por Hora - Entrada de Voltage DUAL 127VAC - 220VAC Tecnología JETFLEX",
+    "price": 4768800,
+    "wholesalePrice": 4387296,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-f08184001-a19601.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "F08184001 + A19601",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Talanquera Vehicular con Asta Slim Rectangular de 3 metros color blanco",
+      "Velocidad de apertura 1",
+      "5 Segundos"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-f08184001---a19417",
+    "sku": "F08184001 + A19417",
+    "name": "PPA F08184001 + A19417",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Talanquera Vehicular con Asta Slim Rectangular de 3 metros con iluminación led, Velocidad de apertura 1,5 Segundos , 80 - 120 Ciclos por Hor...",
+    "description": "Talanquera Vehicular con Asta Slim Rectangular de 3 metros con iluminación led, Velocidad de apertura 1,5 Segundos , 80 - 120 Ciclos por Hora - Entrada de Voltage DUAL 127VAC - 220VAC Tecnología JETFLEX",
+    "price": 5471200,
+    "wholesalePrice": 5033504,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-f08184001-a19417.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "F08184001 + A19417",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Talanquera Vehicular con Asta Slim Rectangular de 3 metros con iluminación led",
+      "Velocidad de apertura 1",
+      "5 Segundos"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-f08184001---a19604",
+    "sku": "F08184001 + A19604",
+    "name": "PPA F08184001 + A19604",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Talanquera Vehicular con Asta Slim Rectangular de 4 metros color blanco, Velocidad de apertura 1,5 Segundos , 80 - 120 Ciclos por Hora - Ent...",
+    "description": "Talanquera Vehicular con Asta Slim Rectangular de 4 metros color blanco, Velocidad de apertura 1,5 Segundos , 80 - 120 Ciclos por Hora - Entrada de Voltage DUAL 127VAC - 220VAC Tecnología JETFLEX",
+    "price": 5058800,
+    "wholesalePrice": 4654096,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-f08184001-a19604.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "F08184001 + A19604",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Talanquera Vehicular con Asta Slim Rectangular de 4 metros color blanco",
+      "Velocidad de apertura 1",
+      "5 Segundos"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-f08184001---a19420",
+    "sku": "F08184001 + A19420",
+    "name": "PPA F08184001 + A19420",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Talanquera Vehicular con Asta Slim Rectangular de 4 metros con iluminación led, Velocidad de apertura 1,5 Segundos , 80 - 120 Ciclos por Hor...",
+    "description": "Talanquera Vehicular con Asta Slim Rectangular de 4 metros con iluminación led, Velocidad de apertura 1,5 Segundos , 80 - 120 Ciclos por Hora - Entrada de Voltage DUAL 127VAC - 220VAC Tecnología JETFLEX",
+    "price": 5790000,
+    "wholesalePrice": 5326800,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-f08184001-a19420.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "F08184001 + A19420",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Talanquera Vehicular con Asta Slim Rectangular de 4 metros con iluminación led",
+      "Velocidad de apertura 1",
+      "5 Segundos"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-f08104073---a17068",
+    "sku": "F08104073 + A17068",
+    "name": "PPA F08104073 + A17068",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Talanquera Vehicular con brazo de 3 metros, Velocidad de apertura 1,5 Segundos , 600 Ciclos por Hora - Entrada de Voltage DUAL AC 127VAC -  ...",
+    "description": "Talanquera Vehicular con brazo de 3 metros, Velocidad de apertura 1,5 Segundos , 600 Ciclos por Hora - Entrada de Voltage DUAL AC 127VAC -  220VAC Tecnología JETFLEX BRUSHLESS",
+    "price": 6211200,
+    "wholesalePrice": 5714304,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-f08104073-a17068.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "F08104073 + A17068",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Talanquera Vehicular con brazo de 3 metros",
+      "Velocidad de apertura 1",
+      "5 Segundos"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-f08104073---f60010002",
+    "sku": "F08104073 + F60010002",
+    "name": "PPA F08104073 + F60010002",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Talanquera Vehicular con brazo de 3 metros con iluminación led, Velocidad de apertura 1,5 Segundos , 600 Ciclos por Hora - Entrada de Voltag...",
+    "description": "Talanquera Vehicular con brazo de 3 metros con iluminación led, Velocidad de apertura 1,5 Segundos , 600 Ciclos por Hora - Entrada de Voltage 220VAC Tecnología JETFLEX BRUSHLESS",
+    "price": 7037500,
+    "wholesalePrice": 6474500,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-f08104073-f60010002.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "F08104073 + F60010002",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Talanquera Vehicular con brazo de 3 metros con iluminación led",
+      "Velocidad de apertura 1",
+      "5 Segundos"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-f08104073---a170744m",
+    "sku": "F08104073 + A170744M",
+    "name": "PPA F08104073 + A170744M",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Talanquera Vehicular con brazo de 4 metros sin unión, Velocidad de apertura 3 Segundos , 300 Ciclos por Hora - Entrada de Voltage 220VAC Tec...",
+    "description": "Talanquera Vehicular con brazo de 4 metros sin unión, Velocidad de apertura 3 Segundos , 300 Ciclos por Hora - Entrada de Voltage 220VAC Tecnología JETFLEX BRUSHLESS",
+    "price": 6595000,
+    "wholesalePrice": 6067400,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-f08104073-a170744m.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "F08104073 + A170744M",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Talanquera Vehicular con brazo de 4 metros sin unión",
+      "Velocidad de apertura 3 Segundos",
+      "300 Ciclos por Hora - Entrada de Voltage 220VAC Tecnología JETFLEX BRUSHLESS"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-f08104073---a170745m",
+    "sku": "F08104073 + A170745M",
+    "name": "PPA F08104073 + A170745M",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Talanquera Vehicular con brazo de 5 metros sin unión, Velocidad de apertura 3 Segundos , 300 Ciclos por Hora - Entrada de Voltage 220VAC Tec...",
+    "description": "Talanquera Vehicular con brazo de 5 metros sin unión, Velocidad de apertura 3 Segundos , 300 Ciclos por Hora - Entrada de Voltage 220VAC Tecnología JETFLEX BRUSHLESS",
+    "price": 6615000,
+    "wholesalePrice": 6085800,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-f08104073-a170745m.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "F08104073 + A170745M",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Talanquera Vehicular con brazo de 5 metros sin unión",
+      "Velocidad de apertura 3 Segundos",
+      "300 Ciclos por Hora - Entrada de Voltage 220VAC Tecnología JETFLEX BRUSHLESS"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-f08104073---a17074",
+    "sku": "F08104073 + A17074",
+    "name": "PPA F08104073 + A17074",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Talanquera Vehicular con brazo de 6 metros, Velocidad de apertura 8 Segundos , 100 Ciclos por Hora - Entrada de Voltage 220VAC Tecnología JE...",
+    "description": "Talanquera Vehicular con brazo de 6 metros, Velocidad de apertura 8 Segundos , 100 Ciclos por Hora - Entrada de Voltage 220VAC Tecnología JETFLEX BRUSHLESS",
+    "price": 6730000,
+    "wholesalePrice": 6191600,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-f08104073-a17074.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "F08104073 + A17074",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Talanquera Vehicular con brazo de 6 metros",
+      "Velocidad de apertura 8 Segundos",
+      "100 Ciclos por Hora - Entrada de Voltage 220VAC Tecnología JETFLEX BRUSHLESS"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-f08104073---f60010008",
+    "sku": "F08104073 + F60010008",
+    "name": "PPA F08104073 + F60010008",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Talanquera Vehicular con brazo de 6 metros con iluminación led, Velocidad de apertura 8 Segundos , 100 Ciclos por Hora - Entrada de Voltage ...",
+    "description": "Talanquera Vehicular con brazo de 6 metros con iluminación led, Velocidad de apertura 8 Segundos , 100 Ciclos por Hora - Entrada de Voltage 220VAC Tecnología JETFLEX BRUSHLESS",
+    "price": 7730000,
+    "wholesalePrice": 7111600,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-f08104073-f60010008.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "F08104073 + F60010008",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Talanquera Vehicular con brazo de 6 metros con iluminación led",
+      "Velocidad de apertura 8 Segundos",
+      "100 Ciclos por Hora - Entrada de Voltage 220VAC Tecnología JETFLEX BRUSHLESS"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-f09194008",
+    "sku": "F09194008",
+    "name": "PPA F09194008",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Motor para puerta peatonal batiente para puertas de hasta 1,20 metros de ancho, con peso máximo de hasta 120KG con velocidad de apertura de ...",
+    "description": "Motor para puerta peatonal batiente para puertas de hasta 1,20 metros de ancho, con peso máximo de hasta 120KG con velocidad de apertura de 2 segundos Entrada de Voltage DUAL AC 127VAC - 220 VAC uso intensivo tecnología JETFLEX",
+    "price": 3270000,
+    "wholesalePrice": 3008400,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-f09194008.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "F09194008",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Motor para puerta peatonal batiente para puertas de hasta 1",
+      "20 metros de ancho",
+      "con peso máximo de hasta 120KG con velocidad de apertura de 2 segundos Entrada de Voltage DUAL AC 127VAC - 220 VAC uso intensivo tecnología JETFLEX"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-f09194008-122",
+    "sku": "F09194008",
+    "name": "PPA F09194008",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Motor para puerta peatonal batiente para puertas de hasta 1,20 metros de ancho, con peso máximo de hasta 120KG con velocidad de apertura de ...",
+    "description": "Motor para puerta peatonal batiente para puertas de hasta 1,20 metros de ancho, con peso máximo de hasta 120KG con velocidad de apertura de 2 segundos Entrada de Voltage DUAL AC 127VAC - 220 VAC Uso intensivo con bateria 100% en carga tecnología 24V",
+    "price": 3845000,
+    "wholesalePrice": 3537400,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-f09194008-fila-122.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "F09194008",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Motor para puerta peatonal batiente para puertas de hasta 1",
+      "20 metros de ancho",
+      "con peso máximo de hasta 120KG con velocidad de apertura de 2 segundos Entrada de Voltage DUAL AC 127VAC - 220 VAC Uso intensivo con bateria 100% en carga tecnología 24V"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-e09264000",
+    "sku": "E09264000",
+    "name": "PPA E09264000",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Motor para puerta peatonal batiente para puertas de hasta 1,20 metros de ancho, con peso máximo de hasta 120KG con velocidad de apertura de ...",
+    "description": "Motor para puerta peatonal batiente para puertas de hasta 1,20 metros de ancho, con peso máximo de hasta 120KG con velocidad de apertura de 2 segundos Entrada de Voltage DUAL AC 127VAC - 220 VAC uso intensivo tecnología JETFLEX",
+    "price": 2692500,
+    "wholesalePrice": 2477100,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-e09264000.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "E09264000",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Motor para puerta peatonal batiente para puertas de hasta 1",
+      "20 metros de ancho",
+      "con peso máximo de hasta 120KG con velocidad de apertura de 2 segundos Entrada de Voltage DUAL AC 127VAC - 220 VAC uso intensivo tecnología JETFLEX"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-e09225000",
+    "sku": "E09225000",
+    "name": "PPA E09225000",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Motor para puerta peatonal batiente para puertas de hasta 1,20 metros de ancho, con peso máximo de hasta 80KG con velocidad de apertura de 5...",
+    "description": "Motor para puerta peatonal batiente para puertas de hasta 1,20 metros de ancho, con peso máximo de hasta 80KG con velocidad de apertura de 50CM por segundo Entrada de Voltage DUAL AC 127VAC - 220 VAC 60 ciclos por hora, tecnología 24V",
+    "price": 3221200,
+    "wholesalePrice": 2963504,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-e09225000.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "E09225000",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Motor para puerta peatonal batiente para puertas de hasta 1",
+      "20 metros de ancho",
+      "con peso máximo de hasta 80KG con velocidad de apertura de 50CM por segundo Entrada de Voltage DUAL AC 127VAC - 220 VAC 60 ciclos por hora"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-a418208",
+    "sku": "A418208",
+    "name": "PPA A418208",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Sensor de movimiento por Microondas y presencia por Infrarrojos, altura máxima 2,5 metros 12 - 30V AC/DC ideal para puertas automáticas",
+    "description": "Sensor de movimiento por Microondas y presencia por Infrarrojos, altura máxima 2,5 metros 12 - 30V AC/DC ideal para puertas automáticas",
+    "price": 721200,
+    "wholesalePrice": 663504,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-a418208.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "A418208",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Sensor de movimiento por Microondas y presencia por Infrarrojos",
+      "altura máxima 2",
+      "5 metros 12 - 30V AC/DC ideal para puertas automáticas"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-a22185",
+    "sku": "A22185",
+    "name": "PPA A22185",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Radar de movimiento con microondas, ajuste de sensibilidad y detección, unidireccional o bidireccional",
+    "description": "Radar de movimiento con microondas, ajuste de sensibilidad y detección, unidireccional o bidireccional",
+    "price": 635000,
+    "wholesalePrice": 584200,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-a22185.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "A22185",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Radar de movimiento con microondas",
+      "ajuste de sensibilidad y detección",
+      "unidireccional o bidireccional"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-a40507e",
+    "sku": "A40507E",
+    "name": "PPA A40507E",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Sensor de movimiento y presencia (infrarrojo-infrarrojo), altura máxima 3,5 metros, 12-30V AC/DC, ideal para puertas automáticas",
+    "description": "Sensor de movimiento y presencia (infrarrojo-infrarrojo), altura máxima 3,5 metros, 12-30V AC/DC, ideal para puertas automáticas",
+    "price": 1058800,
+    "wholesalePrice": 974096,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-a40507e.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "A40507E",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Sensor de movimiento y presencia (infrarrojo-infrarrojo)",
+      "altura máxima 3",
+      "5 metros"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-a40810p",
+    "sku": "A40810P",
+    "name": "PPA A40810P",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Sensor con cámra de reconocmiento facial, capacidad para 500 usuarios, altura máxima de instalación 3,5 metros  12 - 30V AC/DC y velocidad d...",
+    "description": "Sensor con cámra de reconocmiento facial, capacidad para 500 usuarios, altura máxima de instalación 3,5 metros  12 - 30V AC/DC y velocidad de reconocimiento de 500 milisegundos",
+    "price": 1441200,
+    "wholesalePrice": 1325904,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-a40810p.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "A40810P",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Sensor con cámra de reconocmiento facial",
+      "capacidad para 500 usuarios",
+      "altura máxima de instalación 3"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-a22161",
+    "sku": "A22161",
+    "name": "PPA A22161",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Sensor infrarrojo de haz único compatible con todas las centrales del mercado Alcance máximo: 32 m Tensión de alimentación: de 12 a 24 Vdc C...",
+    "description": "Sensor infrarrojo de haz único compatible con todas las centrales del mercado Alcance máximo: 32 m Tensión de alimentación: de 12 a 24 Vdc Consumo máximo de corriente: 55 mA. Salida NA, NC y pulsada (configurable)Accionamiento inmediato Tecnología digital y microcontrolada Inmune a ruidos. LED indicativo de sintonía Relé en modo pasivo o activo (configurable) Control de potencia de emisión en 3 niveles Resistente a la intemperie",
+    "price": 162500,
+    "wholesalePrice": 149500,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-a22161.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "A22161",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Sensor infrarrojo de haz único compatible con todas las centrales del mercado Alcance máximo: 32 m Tensión de alimentación: de 12 a 24 Vdc Consumo máximo de corriente: 55 mA",
+      "Salida NA",
+      "NC y pulsada (configurable)Accionamiento inmediato Tecnología digital y microcontrolada Inmune a ruidos"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-a22186",
+    "sku": "A22186",
+    "name": "PPA A22186",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Compatible con todas las centrales del mercado. Alcance máximo: 32 m. Tensión de alimentación: de 12 a 24 Vdc. Consumo máximo de corriente: ...",
+    "description": "Compatible con todas las centrales del mercado. Alcance máximo: 32 m. Tensión de alimentación: de 12 a 24 Vdc. Consumo máximo de corriente: 70 mA. Salida NA, NC y pulsada (configurable).Accionamiento inmediato Tecnología digital y microcontrolada. Inmune a ruidos. Led indicativo de sintonía. Relé en modo pasivo o activo (configurable) Control de potencia de emisión en 3 niveles Base articulada para ayudar en la alineación Conexiones vía borne Resistente a la intemperie",
+    "price": 212500,
+    "wholesalePrice": 195500,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-a22186.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "A22186",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Compatible con todas las centrales del mercado",
+      "Alcance máximo: 32 m",
+      "Tensión de alimentación: de 12 a 24 Vdc"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-a36395",
+    "sku": "A36395",
+    "name": "PPA A36395",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Fotocélula reflectiva Alcance de hasta 8 m Salida NA/ NC / Pulsada. Puede ser usada en ambientes exteriores. Led indicativo de alineación e ...",
+    "description": "Fotocélula reflectiva Alcance de hasta 8 m Salida NA/ NC / Pulsada. Puede ser usada en ambientes exteriores. Led indicativo de alineación e intensidad de la señal. Consumo máximo de corriente: 80 mA. Accionamiento inmediato.\nRelé en modo pasivo o activo (configurable). Control de potencia de emisión en 2 niveles. Plantilla de ayuda a la instalación.",
+    "price": 365000,
+    "wholesalePrice": 335800,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-a36395.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "A36395",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Fotocélula reflectiva Alcance de hasta 8 m Salida NA/ NC / Pulsada",
+      "Puede ser usada en ambientes exteriores",
+      "Led indicativo de alineación e intensidad de la señal"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-a36395-138",
+    "sku": "A36395",
+    "name": "PPA A36395",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Semaforo Audio VisualTensión de entrada autovoltaje (127 V/220 V). Señalización visual en los colores rojo y amarillo. Señalización sonora (...",
+    "description": "Semaforo Audio VisualTensión de entrada autovoltaje (127 V/220 V). Señalización visual en los colores rojo y amarillo. Señalización sonora (Buzzer) con frecuencia y volumen ajustables.\nSensor de identificación día/noche.\nRequiere módulo rele (A02034)",
+    "price": 211200,
+    "wholesalePrice": 194304,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-a36395-fila-138.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "A36395",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Semaforo Audio VisualTensión de entrada autovoltaje (127 V/220 V)",
+      "Señalización visual en los colores rojo y amarillo",
+      "Señalización sonora (Buzzer) con frecuencia y volumen ajustables"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-f2002001---trava-uno-reversible",
+    "sku": "F2002001 - TRAVA UNO REVERSIBLE",
+    "name": "PPA F2002001 - TRAVA UNO REVERSIBLE",
+    "brand": "PPA",
+    "category": "citofonia",
+    "shortDesc": "La eletrocerradura PPA reversible es compacta y versatil. Acabado diferenciado disponible en los colores negro, blanco y gris. Fácil de inst...",
+    "description": "La eletrocerradura PPA reversible es compacta y versatil. Acabado diferenciado disponible en los colores negro, blanco y gris. Fácil de instalar para diversos tipos de puertas y portones. Más resistencia y durabilidad.\nAccionamiento compatible con porteros electrónicos, pulsadores y controles de acceso. Menos ruido en la apertura. Cierre silencioso, elimina la necesidad de golpear para cerrar. Voltage 12VDC",
+    "price": 245000,
+    "wholesalePrice": 225400,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-f2002001-trava-uno-reversible.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "F2002001 - TRAVA UNO REVERSIBLE",
+      "Marca": "PPA"
+    },
+    "features": [
+      "La eletrocerradura PPA reversible es compacta y versatil",
+      "Acabado diferenciado disponible en los colores negro",
+      "blanco y gris"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "ppa-f15210004---trava-dog-steel",
+    "sku": "F15210004 - TRAVA DOG STEEL",
+    "name": "PPA F15210004 - TRAVA DOG STEEL",
+    "brand": "PPA",
+    "category": "apertura-ppa",
+    "shortDesc": "Cerradura electromagnética para cancelas Disponible en voltajes eléctricos de 127V - 220V;\n Fabricado en chapa de acero al carbono con pintu...",
+    "description": "Cerradura electromagnética para cancelas Disponible en voltajes eléctricos de 127V - 220V;\n Fabricado en chapa de acero al carbono con pintura electrostática; Pasador de acero al carbono macizo Base en chapa de acero Rampa de acero anti-manipulación Compatible con cancelas basculantes, correderas y pivotantes",
+    "price": 250000,
+    "wholesalePrice": 230000,
+    "stock": 25,
+    "image": "/productos/catalogo/ppa-f15210004-trava-dog-steel.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "F15210004 - TRAVA DOG STEEL",
+      "Marca": "PPA"
+    },
+    "features": [
+      "Cerradura electromagnética para cancelas Disponible en voltajes eléctricos de 127V - 220V",
+      "Fabricado en chapa de acero al carbono con pintura electrostática",
+      "Pasador de acero al carbono macizo Base en chapa de acero Rampa de acero anti-manipulación Compatible con cancelas basculantes"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "tdy-tc-h348m-spec-63x-il-e---a-am",
+    "sku": "TC-H348M Spec:63X/IL/E++/A/AM",
+    "name": "Tiandy TC-H348M Spec:63X/IL/E++/A/AM",
+    "brand": "Tiandy",
+    "category": "cctv",
+    "shortDesc": "Domo PTZ Hasta 4 MP 2560x1440 a 30 fps Zoom óptico: 63×, zoom digital: 16×Infrarrojos inteligentes, alcance IR: 300 m Distancia del láser: 5...",
+    "description": "Domo PTZ Hasta 4 MP 2560x1440 a 30 fps Zoom óptico: 63×, zoom digital: 16×Infrarrojos inteligentes, alcance IR: 300 m Distancia del láser: 500 m Altavoz integrado Limpiaparabrisas integrado Brújula electrónica integrada Formatos de imagen: S+265/H.265/H.264/M-JPEG Modos de monitorización/monitorización inteligente/captura facial Alerta temprana de seguimiento automático (AEW) Compatible con puntero láser Alarma: 8 entradas y 2 salidas; audio: 1 entrada y 1 salida Sin necesidad de conexión a la red eléctrica Protección IP66",
+    "price": 9052400,
+    "wholesalePrice": 8328208,
+    "stock": 25,
+    "image": "/productos/catalogo/tiandy-tc-h348m-spec-63x-il-e-a-am.webp",
+    "tags": [
+      "IP66"
+    ],
+    "specs": {
+      "Referencia": "TC-H348M Spec:63X/IL/E++/A/AM",
+      "Marca": "Tiandy"
+    },
+    "features": [
+      "Domo PTZ Hasta 4 MP 2560x1440 a 30 fps Zoom óptico: 63×",
+      "zoom digital: 16×Infrarrojos inteligentes",
+      "alcance IR: 300 m Distancia del láser: 500 m Altavoz integrado Limpiaparabrisas integrado Brújula electrónica integrada Formatos de imagen: S+265/H"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "tdy-tc-h356q-spec-30x-iw-e---a-v3-0",
+    "sku": "TC-H356Q Spec:30X/IW/E++/A/V3.0",
+    "name": "Tiandy TC-H356Q Spec:30X/IW/E++/A/V3.0",
+    "brand": "Tiandy",
+    "category": "cctv",
+    "shortDesc": "Domo PTZ hasta 5 MPX 30 X Hasta 2880×1620 a 25 fps Color: 0,001 lux a (F1.6, AGC activado), B/N: 0 lux con IR S+265/H.265/H.264/M-JPEG Zoom ...",
+    "description": "Domo PTZ hasta 5 MPX 30 X Hasta 2880×1620 a 25 fps Color: 0,001 lux a (F1.6, AGC activado), B/N: 0 lux con IR S+265/H.265/H.264/M-JPEG Zoom óptico de 30x Alcance IR: hasta 200 m Ranura para tarjeta Micro SD integrada, hasta 512 GB Compatible con vigilancia inteligente y captura de imágenes faciales Compatible con clasificación de personas/vehículos 24 V CA ± 25 % | 24 V CC ± 10 %, IEEE 802.3BT IP66",
+    "price": 7820500,
+    "wholesalePrice": 7194860,
+    "stock": 25,
+    "image": "/productos/catalogo/tiandy-tc-h356q-spec-30x-iw-e-a-v3-0.webp",
+    "tags": [
+      "IP66"
+    ],
+    "specs": {
+      "Referencia": "TC-H356Q Spec:30X/IW/E++/A/V3.0",
+      "Marca": "Tiandy"
+    },
+    "features": [
+      "Domo PTZ hasta 5 MPX 30 X Hasta 2880×1620 a 25 fps Color: 0",
+      "001 lux a (F1",
+      "AGC activado)"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "tdy-tc-r3110-4ha",
+    "sku": "TC-R3110 4HA",
+    "name": "Tiandy TC-R3110 4HA",
+    "brand": "Tiandy",
+    "category": "cctv",
+    "shortDesc": "Grabador de video en red de 10 canales con inteligencia artificial. Soporta hasta 1 disco duro SATA de 10 TB, compresión de video S+265/H.26...",
+    "description": "Grabador de video en red de 10 canales con inteligencia artificial. Soporta hasta 1 disco duro SATA de 10 TB, compresión de video S+265/H.265, un ancho de banda de entrada de 100 Mbps y salidas simultáneas HDMI (hasta 4K) y VGA. Funciones de analítica e IA incorporadas para detección y gestión inteligente de eventos.",
+    "price": 450700,
+    "wholesalePrice": 414644,
+    "stock": 25,
+    "image": "/productos/catalogo/tiandy-tc-r3110-4ha.webp",
+    "tags": [
+      "4K"
+    ],
+    "specs": {
+      "Referencia": "TC-R3110 4HA",
+      "Marca": "Tiandy"
+    },
+    "features": [
+      "Grabador de video en red de 10 canales con inteligencia artificial",
+      "Soporta hasta 1 disco duro SATA de 10 TB",
+      "compresión de video S+265/H"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "tdy-tc-r3120-4ha",
+    "sku": "TC-R3120 4HA",
+    "name": "Tiandy TC-R3120 4HA",
+    "brand": "Tiandy",
+    "category": "cctv",
+    "shortDesc": "Grabador de video en red (NVR) inteligente de 20 canales para cámaras IP. Soporta análisis de video con inteligencia artificial, compresión ...",
+    "description": "Grabador de video en red (NVR) inteligente de 20 canales para cámaras IP. Soporta análisis de video con inteligencia artificial, compresión de video S+265/H.265, una resolución de salida HDMI de hasta 4K y almacenamiento en un disco duro SATA de hasta 10 TB. Analítica de video avanzada por IA (como cruce de línea y detección perimetral).Funciones de búsqueda inteligente y soporte para actualización en la nube.",
+    "price": 532100,
+    "wholesalePrice": 489532,
+    "stock": 25,
+    "image": "/productos/catalogo/tiandy-tc-r3120-4ha.webp",
+    "tags": [
+      "4K"
+    ],
+    "specs": {
+      "Referencia": "TC-R3120 4HA",
+      "Marca": "Tiandy"
+    },
+    "features": [
+      "Grabador de video en red (NVR) inteligente de 20 canales para cámaras IP",
+      "Soporta análisis de video con inteligencia artificial",
+      "compresión de video S+265/H"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "tdy-tc-r3232-4ha",
+    "sku": "TC-R3232 4HA",
+    "name": "Tiandy TC-R3232 4HA",
+    "brand": "Tiandy",
+    "category": "cctv",
+    "shortDesc": "Grabador de video en red (NVR) de 32 canales con funciones de inteligencia artificial (IA) de la serie Lite de Tiandy Technologies. Soporta ...",
+    "description": "Grabador de video en red (NVR) de 32 canales con funciones de inteligencia artificial (IA) de la serie Lite de Tiandy Technologies. Soporta hasta 32 cámaras IP, compresión S+265/H.265 y espacio para 2 discos duros de hasta 10 TB cada uno.Analítica por IA: Reconocimiento facial, detección de rostros, cruce de línea (perímetro) y clasificación de humanos y vehículos.Compatibilidad: Estándar ONVIF (Perfiles S/T/G) para conectar cámaras de terceros.",
+    "price": 779600,
+    "wholesalePrice": 717232,
+    "stock": 25,
+    "image": "/productos/catalogo/tiandy-tc-r3232-4ha.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "TC-R3232 4HA",
+      "Marca": "Tiandy"
+    },
+    "features": [
+      "Grabador de video en red (NVR) de 32 canales con funciones de inteligencia artificial (IA) de la serie Lite de Tiandy Technologies",
+      "Soporta hasta 32 cámaras IP",
+      "compresión S+265/H"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "tdy-tc-r3240-4ha",
+    "sku": "TC-R3240 4HA",
+    "name": "Tiandy TC-R3240 4HA",
+    "brand": "Tiandy",
+    "category": "cctv",
+    "shortDesc": "Grabador de vídeo en red (NVR) profesional de 40 canales que admite grabación con resolución de hasta 16 MP, compresión S+265/H.265, ancho d...",
+    "description": "Grabador de vídeo en red (NVR) profesional de 40 canales que admite grabación con resolución de hasta 16 MP, compresión S+265/H.265, ancho de banda de entrada/salida de 400 Mbps y espacio para 2 discos duros de hasta 10 TB cada uno. Cuenta con salidas HDMI (hasta 4K) y VGA independientes.",
+    "price": 1235600,
+    "wholesalePrice": 1136752,
+    "stock": 25,
+    "image": "/productos/catalogo/tiandy-tc-r3240-4ha.webp",
+    "tags": [
+      "4K"
+    ],
+    "specs": {
+      "Referencia": "TC-R3240 4HA",
+      "Marca": "Tiandy"
+    },
+    "features": [
+      "Grabador de vídeo en red (NVR) profesional de 40 canales que admite grabación con resolución de hasta 16 MP",
+      "compresión S+265/H",
+      "ancho de banda de entrada/salida de 400 Mbps y espacio para 2 discos duros de hasta 10 TB cada uno"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "tdy-tc-p3s010-spec-f-0820-at-90",
+    "sku": "TC-P3S010 Spec:F/0820/AT/90",
+    "name": "Tiandy TC-P3S010 Spec:F/0820/AT/90",
+    "brand": "Tiandy",
+    "category": "redes",
+    "shortDesc": "Switch 8 puertos PoE de 10/100 Mbps + 2 puertos de enlace ascendente RJ45 de 100/1000 Mbps Cumple con los estándares IEEE 802.3, IEEE 802.3u...",
+    "description": "Switch 8 puertos PoE de 10/100 Mbps + 2 puertos de enlace ascendente RJ45 de 100/1000 Mbps Cumple con los estándares IEEE 802.3, IEEE 802.3u, IEEE 802.3ab e IEEE 802.3x El puerto Ethernet admite velocidad adaptativa de 10/100/1000 Mbps Admite prioridad PoE (QoS): 1>2>3>4>5>6>7>8 (el puerto frontal tiene mayor prioridad) Modo de control de flujo: dúplex completo según el estándar IEEE 802.3x, semidúplex con control de flujo Admite conmutación automática de puertos (Auto MDI/MDIX) Mecanismo de conmutación de almacenamiento y reenvío Indicadores en el panel para monitorizar el estado y facilitar el análisis de fallos Interruptor DIP inteligente de tres niveles y un botón, compatible con VLAN, Predeterminado y Extensión Protección contra sobretensiones por rayos en los puertos: modo común de 4 kV (nivel C); ESD electrostática: aire 8KV, contacto 6KV (nivel C)",
+    "price": 228900,
+    "wholesalePrice": 210588,
+    "stock": 25,
+    "image": "/productos/catalogo/tiandy-tc-p3s010-spec-f-0820-at-90.webp",
+    "tags": [
+      "PoE"
+    ],
+    "specs": {
+      "Referencia": "TC-P3S010 Spec:F/0820/AT/90",
+      "Marca": "Tiandy"
+    },
+    "features": [
+      "Switch 8 puertos PoE de 10/100 Mbps + 2 puertos de enlace ascendente RJ45 de 100/1000 Mbps Cumple con los estándares IEEE 802",
+      "IEEE 802",
+      "IEEE 802"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "tdy-tc-p3s019-spec-h-1621-at-180",
+    "sku": "TC-P3S019 Spec:H/1621/AT/180",
+    "name": "Tiandy TC-P3S019 Spec:H/1621/AT/180",
+    "brand": "Tiandy",
+    "category": "redes",
+    "shortDesc": "Switch 16 puertos POE de 10/100M + 2 puertos de enlace ascendente Ethernet de 1000M + 1 puerto SFP de 1000M;Cumple con los estándares IEEE 8...",
+    "description": "Switch 16 puertos POE de 10/100M + 2 puertos de enlace ascendente Ethernet de 1000M + 1 puerto SFP de 1000M;Cumple con los estándares IEEE 802.3, IEEE 802.3u, IEEE 802.3ab e IEEE 802.3z; Puerto Ethernet con velocidad de 10/100M autoadaptativa; el puerto PoE n está en modo extendido y los puertos 1-16 fuerzan a 10M a activar automáticamente el modo AI; Admite prioridad POE, en orden del 1 al 16 puertos, habilitada por defecto; Método de control de flujo: se utiliza el estándar IEEE 802.3x para dúplex completo y el estándar de contrapresión para semidúplex; Función de configuración cero, suministrada automáticamente a los dispositivos adaptativos; Supervisar el estado de funcionamiento del indicador luminoso del panel y colaborar en el análisis de fallos; Está equipado con un interruptor DIP inteligente de tres posiciones y una tecla, que admite los modos VLAN, Predeterminado y Extendido; Protección contra sobretensiones por rayos en el puerto: modo común 4KV, modo diferencial 2KV; ESD electrostática: aire 8KV, contacto 6KV. (nivel)",
+    "price": 549700,
+    "wholesalePrice": 505724,
+    "stock": 25,
+    "image": "/productos/catalogo/tiandy-tc-p3s019-spec-h-1621-at-180.webp",
+    "tags": [
+      "PoE"
+    ],
+    "specs": {
+      "Referencia": "TC-P3S019 Spec:H/1621/AT/180",
+      "Marca": "Tiandy"
+    },
+    "features": [
+      "Switch 16 puertos POE de 10/100M + 2 puertos de enlace ascendente Ethernet de 1000M + 1 puerto SFP de 1000M",
+      "Cumple con los estándares IEEE 802",
+      "IEEE 802"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "tdy-tc-p3s028-spec-g-2422-at-280",
+    "sku": "TC-P3S028 Spec:G/2422/AT/280",
+    "name": "Tiandy TC-P3S028 Spec:G/2422/AT/280",
+    "brand": "Tiandy",
+    "category": "redes",
+    "shortDesc": "Switch 24 puertos PoE de 10/100/1000M + 2 puertos Gigabit Uplink + 2 puertos Gigabit SFP;  Cumple con los estándares IEEE802.3, IEEE802.3u e...",
+    "description": "Switch 24 puertos PoE de 10/100/1000M + 2 puertos Gigabit Uplink + 2 puertos Gigabit SFP;  Cumple con los estándares IEEE802.3, IEEE802.3u e IEEE802.3ab; Los puertos Ethernet admiten 10/100/1000M autoadaptativos; ·El modo AI se habilita automáticamente a una velocidad de 10M para los puertos 17~24 en modo extendido; Se admite la prioridad POE, desde el puerto 1 hasta el puerto 16, que está habilitada por defecto; Modo de control de flujo: estándar IEEE 802.3X para dúplex completo y estándar de contrapresión para semidúplex; ·Función de configuración cero, suministrada automáticamente al equipo adaptativo; Monitoreo del estado de los indicadores del panel y análisis de fallas de ayuda;  Con interruptor DIP, admite modos extendidos; Protección contra sobretensiones por rayos en el puerto: modo común 4KV (nivel B); protección electrostática ESD: aire 8KV, contacto 6KV (nivel C).",
+    "price": 1019500,
+    "wholesalePrice": 937940,
+    "stock": 25,
+    "image": "/productos/catalogo/tiandy-tc-p3s028-spec-g-2422-at-280.webp",
+    "tags": [
+      "PoE"
+    ],
+    "specs": {
+      "Referencia": "TC-P3S028 Spec:G/2422/AT/280",
+      "Marca": "Tiandy"
+    },
+    "features": [
+      "Switch 24 puertos PoE de 10/100/1000M + 2 puertos Gigabit Uplink + 2 puertos Gigabit SFP",
+      "Cumple con los estándares IEEE802",
+      "IEEE802"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "itb-amc-421",
+    "sku": "AMC 421",
+    "name": "Intelbras AMC 421",
+    "brand": "Intelbras",
+    "category": "alarmas",
+    "shortDesc": "ESTACIÓN manual convencional sin sirena",
+    "description": "ESTACIÓN manual convencional sin sirena",
+    "price": 54800,
+    "wholesalePrice": 50416,
+    "stock": 25,
+    "image": "/productos/catalogo/intelbras-amc-421.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "AMC 421",
+      "Marca": "Intelbras"
+    },
+    "features": [
+      "ESTACIÓN manual convencional sin sirena"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "itb-sav-420c",
+    "sku": "SAV 420C",
+    "name": "Intelbras SAV 420C",
+    "brand": "Intelbras",
+    "category": "alarmas",
+    "shortDesc": "SEÑALIZADOR Audio Visual Convencional",
+    "description": "SEÑALIZADOR Audio Visual Convencional",
+    "price": 57600,
+    "wholesalePrice": 52992,
+    "stock": 25,
+    "image": "/productos/catalogo/intelbras-sav-420c.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "SAV 420C",
+      "Marca": "Intelbras"
+    },
+    "features": [
+      "SEÑALIZADOR Audio Visual Convencional"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "itb-comunic-16",
+    "sku": "COMUNIC 16",
+    "name": "Intelbras COMUNIC 16",
+    "brand": "Intelbras",
+    "category": "citofonia",
+    "shortDesc": "Central de citofonía. Hasta 16 terminales, alimentación a 110VAC.",
+    "description": "Central de citofonía. Hasta 16 terminales, alimentación a 110VAC.",
+    "price": 391300,
+    "wholesalePrice": 359996,
+    "stock": 25,
+    "image": "/productos/catalogo/intelbras-comunic-16.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "COMUNIC 16",
+      "Marca": "Intelbras"
+    },
+    "features": [
+      "Central de citofonía",
+      "Hasta 16 terminales",
+      "alimentación a 110VAC"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "itb-comunic-48",
+    "sku": "COMUNIC 48",
+    "name": "Intelbras COMUNIC 48",
+    "brand": "Intelbras",
+    "category": "citofonia",
+    "shortDesc": "Central de citofonía. Hasta 48 terminales, alimentación a 110VAC.",
+    "description": "Central de citofonía. Hasta 48 terminales, alimentación a 110VAC.",
+    "price": 594800,
+    "wholesalePrice": 547216,
+    "stock": 25,
+    "image": "/productos/catalogo/intelbras-comunic-48.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "COMUNIC 48",
+      "Marca": "Intelbras"
+    },
+    "features": [
+      "Central de citofonía",
+      "Hasta 48 terminales",
+      "alimentación a 110VAC"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "itb-tarjeta",
+    "sku": "TARJETA",
+    "name": "Intelbras TARJETA",
+    "brand": "Intelbras",
+    "category": "alarmas",
+    "shortDesc": "Tarjeta desbalanceada de 8 extensiones compatible únicamente para COMUNIC 16 y 48. Usar cuando la distancia entre la central telefónica y te...",
+    "description": "Tarjeta desbalanceada de 8 extensiones compatible únicamente para COMUNIC 16 y 48. Usar cuando la distancia entre la central telefónica y terminales es menor a 250 metros.",
+    "price": 113700,
+    "wholesalePrice": 104604,
+    "stock": 25,
+    "image": "/productos/catalogo/intelbras-tarjeta.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "TARJETA",
+      "Marca": "Intelbras"
+    },
+    "features": [
+      "Tarjeta desbalanceada de 8 extensiones compatible únicamente para COMUNIC 16 y 48",
+      "Usar cuando la distancia entre la central telefónica y terminales es menor a 250 metros"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "itb-tarjeta-53",
+    "sku": "TARJETA",
+    "name": "Intelbras TARJETA",
+    "brand": "Intelbras",
+    "category": "alarmas",
+    "shortDesc": "Tarjeta balanceada de 8 extensiones compatible únicamente para COMUNIC 16 y 48. Usar cuando la distancia entre la central telefónica y termi...",
+    "description": "Tarjeta balanceada de 8 extensiones compatible únicamente para COMUNIC 16 y 48. Usar cuando la distancia entre la central telefónica y terminales es menor a 2500 metros.",
+    "price": 198500,
+    "wholesalePrice": 182620,
+    "stock": 25,
+    "image": "/productos/catalogo/intelbras-tarjeta-fila-53.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "TARJETA",
+      "Marca": "Intelbras"
+    },
+    "features": [
+      "Tarjeta balanceada de 8 extensiones compatible únicamente para COMUNIC 16 y 48",
+      "Usar cuando la distancia entre la central telefónica y terminales es menor a 2500 metros"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "itb-cp-112",
+    "sku": "CP 112",
+    "name": "Intelbras CP 112",
+    "brand": "Intelbras",
+    "category": "citofonia",
+    "shortDesc": "Central de citofonía. Hasta 112 terminales, alimentación a 110VAC.",
+    "description": "Central de citofonía. Hasta 112 terminales, alimentación a 110VAC.",
+    "price": 1160000,
+    "wholesalePrice": 1067200,
+    "stock": 25,
+    "image": "/productos/catalogo/intelbras-cp-112.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "CP 112",
+      "Marca": "Intelbras"
+    },
+    "features": [
+      "Central de citofonía",
+      "Hasta 112 terminales",
+      "alimentación a 110VAC"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "itb-tarjeta-55",
+    "sku": "TARJETA",
+    "name": "Intelbras TARJETA",
+    "brand": "Intelbras",
+    "category": "alarmas",
+    "shortDesc": "Tarjeta desbalanceada de 16 extensiones compatible únicamente para CP 112. Usar cuando la distancia entre la central telefónica y terminales...",
+    "description": "Tarjeta desbalanceada de 16 extensiones compatible únicamente para CP 112. Usar cuando la distancia entre la central telefónica y terminales es menor a 250 metros.",
+    "price": 341000,
+    "wholesalePrice": 313720,
+    "stock": 25,
+    "image": "/productos/catalogo/intelbras-tarjeta-fila-55.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "TARJETA",
+      "Marca": "Intelbras"
+    },
+    "features": [
+      "Tarjeta desbalanceada de 16 extensiones compatible únicamente para CP 112",
+      "Usar cuando la distancia entre la central telefónica y terminales es menor a 250 metros"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "itb-tarjeta-58",
+    "sku": "TARJETA",
+    "name": "Intelbras TARJETA",
+    "brand": "Intelbras",
+    "category": "alarmas",
+    "shortDesc": "Tarjeta balanceada de 16 extensiones compatible únicamente para CP 112., Usar cuando la distancia entre la central telefónica y terminales e...",
+    "description": "Tarjeta balanceada de 16 extensiones compatible únicamente para CP 112., Usar cuando la distancia entre la central telefónica y terminales es menor a 2500 metros.",
+    "price": 565000,
+    "wholesalePrice": 519800,
+    "stock": 25,
+    "image": "/productos/catalogo/intelbras-tarjeta-fila-58.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "TARJETA",
+      "Marca": "Intelbras"
+    },
+    "features": [
+      "Tarjeta balanceada de 16 extensiones compatible únicamente para CP 112",
+      "Usar cuando la distancia entre la central telefónica y terminales es menor a 2500 metros"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "itb-cp-192",
+    "sku": "CP 192",
+    "name": "Intelbras CP 192",
+    "brand": "Intelbras",
+    "category": "citofonia",
+    "shortDesc": "Central de citofonía. Hasta 192 terminales, alimentación a 110VAC",
+    "description": "Central de citofonía. Hasta 192 terminales, alimentación a 110VAC",
+    "price": 2097500,
+    "wholesalePrice": 1929700,
+    "stock": 25,
+    "image": "/productos/catalogo/intelbras-cp-192.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "CP 192",
+      "Marca": "Intelbras"
+    },
+    "features": [
+      "Central de citofonía",
+      "Hasta 192 terminales",
+      "alimentación a 110VAC"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "itb-cp-352",
+    "sku": "CP 352",
+    "name": "Intelbras CP 352",
+    "brand": "Intelbras",
+    "category": "alarmas",
+    "shortDesc": "CENTRAL de comunicaciones para 352 extensiones, 2 líneas troncales, 24 extensiones",
+    "description": "CENTRAL de comunicaciones para 352 extensiones, 2 líneas troncales, 24 extensiones",
+    "price": 2500000,
+    "wholesalePrice": 2300000,
+    "stock": 25,
+    "image": "/productos/catalogo/intelbras-cp-352.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "CP 352",
+      "Marca": "Intelbras"
+    },
+    "features": [
+      "CENTRAL de comunicaciones para 352 extensiones",
+      "2 líneas troncales",
+      "24 extensiones"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "itb-tarjeta-61",
+    "sku": "TARJETA",
+    "name": "Intelbras TARJETA",
+    "brand": "Intelbras",
+    "category": "alarmas",
+    "shortDesc": "Tarjeta Balanceada de 32 extensiones compatible únicamente para CP 192/352. Usar cuando la distancia entre la central telefónica y terminale...",
+    "description": "Tarjeta Balanceada de 32 extensiones compatible únicamente para CP 192/352. Usar cuando la distancia entre la central telefónica y terminales es menor a 2500 metros.",
+    "price": 891300,
+    "wholesalePrice": 819996,
+    "stock": 25,
+    "image": "/productos/catalogo/intelbras-tarjeta-fila-61.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "TARJETA",
+      "Marca": "Intelbras"
+    },
+    "features": [
+      "Tarjeta Balanceada de 32 extensiones compatible únicamente para CP 192/352",
+      "Usar cuando la distancia entre la central telefónica y terminales es menor a 2500 metros"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "itb-tarjeta-62",
+    "sku": "TARJETA",
+    "name": "Intelbras TARJETA",
+    "brand": "Intelbras",
+    "category": "alarmas",
+    "shortDesc": "Tarjeta Desbalanceada de 32 extensiones compatible únicamente para CP 192/352. Usar cuando la distancia entre la central telefónica y termin...",
+    "description": "Tarjeta Desbalanceada de 32 extensiones compatible únicamente para CP 192/352. Usar cuando la distancia entre la central telefónica y terminales es menor a 2500 metros.",
+    "price": 743000,
+    "wholesalePrice": 683560,
+    "stock": 25,
+    "image": "/productos/catalogo/intelbras-tarjeta-fila-62.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "TARJETA",
+      "Marca": "Intelbras"
+    },
+    "features": [
+      "Tarjeta Desbalanceada de 32 extensiones compatible únicamente para CP 192/352",
+      "Usar cuando la distancia entre la central telefónica y terminales es menor a 2500 metros"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "itb-collective-4i",
+    "sku": "COLLECTIVE 4i",
+    "name": "Intelbras COLLECTIVE 4i",
+    "brand": "Intelbras",
+    "category": "citofonia",
+    "shortDesc": "CENTRAL DE CITOFONÍA COLECTIVA, 4 BOTONES PARA COMUNICACIÓN DIRECTA CON LOS MÓDULOS INTERNOS (EXTENSIONES), LECTOR DE PROXIMIDAD RFID (MIFAR...",
+    "description": "CENTRAL DE CITOFONÍA COLECTIVA, 4 BOTONES PARA COMUNICACIÓN DIRECTA CON LOS MÓDULOS INTERNOS (EXTENSIONES), LECTOR DE PROXIMIDAD RFID (MIFARE) PARA APERTURA DE CERRADURA, INSTALACIÓN DIRECTA A LA RED AC (100 – 240 V AUTOMÁTICO), ALTAVOZ HALF DÚPLEX, LLAMADAS ENTRE EXTENSIONES. COMPATIBLE CON TERMINAL TDMI 300  Y TP 2000",
+    "price": 483200,
+    "wholesalePrice": 444544,
+    "stock": 25,
+    "image": "/productos/catalogo/intelbras-collective-4i.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "COLLECTIVE 4i",
+      "Marca": "Intelbras"
+    },
+    "features": [
+      "CENTRAL DE CITOFONÍA COLECTIVA",
+      "4 BOTONES PARA COMUNICACIÓN DIRECTA CON LOS MÓDULOS INTERNOS (EXTENSIONES)",
+      "LECTOR DE PROXIMIDAD RFID (MIFARE) PARA APERTURA DE CERRADURA"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "itb-collective-8i",
+    "sku": "COLLECTIVE 8i",
+    "name": "Intelbras COLLECTIVE 8i",
+    "brand": "Intelbras",
+    "category": "citofonia",
+    "shortDesc": "Central de citofonía colectiva, 8 botones para comunicación directa con los módulos internos (extensiones), lector de proximidad RFID (Mifar...",
+    "description": "Central de citofonía colectiva, 8 botones para comunicación directa con los módulos internos (extensiones), lector de proximidad RFID (Mifare) para apertura de cerradura, Instalación directa a la red AC (100 – 240 V automático), Altavoz Half dúplex, llamadas entre extensiones. Compatible con terminal TDMI 300  y TP 2000",
+    "price": 544500,
+    "wholesalePrice": 500940,
+    "stock": 25,
+    "image": "/productos/catalogo/intelbras-collective-8i.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "COLLECTIVE 8i",
+      "Marca": "Intelbras"
+    },
+    "features": [
+      "Central de citofonía colectiva",
+      "8 botones para comunicación directa con los módulos internos (extensiones)",
+      "lector de proximidad RFID (Mifare) para apertura de cerradura"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "itb-collective-12",
+    "sku": "COLLECTIVE 12",
+    "name": "Intelbras COLLECTIVE 12",
+    "brand": "Intelbras",
+    "category": "citofonia",
+    "shortDesc": "Central de citofonía colectiva, 12 botones para comunicación directa con los módulos internos (extensiones), lector de proximidad RFID (Mifa...",
+    "description": "Central de citofonía colectiva, 12 botones para comunicación directa con los módulos internos (extensiones), lector de proximidad RFID (Mifare) para apertura de cerradura, Instalación directa a la red AC (100 – 240 V automático), Altavoz Half dúplex, llamadas entre extensiones. Compatible con terminal TDMI 300  y TP 2000",
+    "price": 587000,
+    "wholesalePrice": 540040,
+    "stock": 25,
+    "image": "/productos/catalogo/intelbras-collective-12.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "COLLECTIVE 12",
+      "Marca": "Intelbras"
+    },
+    "features": [
+      "Central de citofonía colectiva",
+      "12 botones para comunicación directa con los módulos internos (extensiones)",
+      "lector de proximidad RFID (Mifare) para apertura de cerradura"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "itb-collective-16-i",
+    "sku": "COLLECTIVE 16 i",
+    "name": "Intelbras COLLECTIVE 16 i",
+    "brand": "Intelbras",
+    "category": "citofonia",
+    "shortDesc": "Central de citofonía colectiva, 16 botones para comunicación directa con los módulos internos (extensiones), lector de proximidad RFID (Mifa...",
+    "description": "Central de citofonía colectiva, 16 botones para comunicación directa con los módulos internos (extensiones), lector de proximidad RFID (Mifare) para apertura de cerradura, Instalación directa a la red AC (100 – 240 V automático), Altavoz Half dúplex, llamadas entre extensiones. Compatible con terminal TDMI 300  y TP 2000",
+    "price": 659600,
+    "wholesalePrice": 606832,
+    "stock": 25,
+    "image": "/productos/catalogo/intelbras-collective-16-i.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "COLLECTIVE 16 i",
+      "Marca": "Intelbras"
+    },
+    "features": [
+      "Central de citofonía colectiva",
+      "16 botones para comunicación directa con los módulos internos (extensiones)",
+      "lector de proximidad RFID (Mifare) para apertura de cerradura"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "itb-collective-20-i",
+    "sku": "COLLECTIVE 20 i",
+    "name": "Intelbras COLLECTIVE 20 i",
+    "brand": "Intelbras",
+    "category": "citofonia",
+    "shortDesc": "Central de citofonía colectiva, 20 botones para comunicación directa con los módulos internos (extensiones), lector de proximidad RFID (Mifa...",
+    "description": "Central de citofonía colectiva, 20 botones para comunicación directa con los módulos internos (extensiones), lector de proximidad RFID (Mifare) para apertura de cerradura, Instalación directa a la red AC (100 – 240 V automático), Altavoz Half dúplex, llamadas entre extensiones. Compatible con terminal TDMI 300  y TP 2000",
+    "price": 752000,
+    "wholesalePrice": 691840,
+    "stock": 25,
+    "image": "/productos/catalogo/intelbras-collective-20-i.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "COLLECTIVE 20 i",
+      "Marca": "Intelbras"
+    },
+    "features": [
+      "Central de citofonía colectiva",
+      "20 botones para comunicación directa con los módulos internos (extensiones)",
+      "lector de proximidad RFID (Mifare) para apertura de cerradura"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "itb-collective-24-i",
+    "sku": "COLLECTIVE 24 i",
+    "name": "Intelbras COLLECTIVE 24 i",
+    "brand": "Intelbras",
+    "category": "citofonia",
+    "shortDesc": "Central de citofonía colectiva, 24 botones para comunicación directa con los módulos internos (extensiones), lector de proximidad RFID (Mifa...",
+    "description": "Central de citofonía colectiva, 24 botones para comunicación directa con los módulos internos (extensiones), lector de proximidad RFID (Mifare) para apertura de cerradura, Instalación directa a la red AC (100 – 240 V automático), Altavoz Half dúplex, llamadas entre extensiones. Compatible con terminal TDMI 300  y TP 2000",
+    "price": 817200,
+    "wholesalePrice": 751824,
+    "stock": 25,
+    "image": "/productos/catalogo/intelbras-collective-24-i.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "COLLECTIVE 24 i",
+      "Marca": "Intelbras"
+    },
+    "features": [
+      "Central de citofonía colectiva",
+      "24 botones para comunicación directa con los módulos internos (extensiones)",
+      "lector de proximidad RFID (Mifare) para apertura de cerradura"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "itb-xpe-1001-plus-id",
+    "sku": "XPE 1001 PLUS ID",
+    "name": "Intelbras XPE 1001 PLUS ID",
+    "brand": "Intelbras",
+    "category": "citofonia",
+    "shortDesc": "PORTERO electrónico alta voz, Acceso vía RFID (Mifare) salidas para accionamientos de cerradura electromecánica y contacto seco, bus Serial ...",
+    "description": "PORTERO electrónico alta voz, Acceso vía RFID (Mifare) salidas para accionamientos de cerradura electromecánica y contacto seco, bus Serial RS485",
+    "price": 366400,
+    "wholesalePrice": 337088,
+    "stock": 25,
+    "image": "/productos/catalogo/intelbras-xpe-1001-plus-id.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "XPE 1001 PLUS ID",
+      "Marca": "Intelbras"
+    },
+    "features": [
+      "PORTERO electrónico alta voz",
+      "Acceso vía RFID (Mifare) salidas para accionamientos de cerradura electromecánica y contacto seco",
+      "bus Serial RS485"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "itb-xpe-1013-plus-id",
+    "sku": "XPE 1013 PLUS ID",
+    "name": "Intelbras XPE 1013 PLUS ID",
+    "brand": "Intelbras",
+    "category": "citofonia",
+    "shortDesc": "PORTERO electrónico alta voz, Acceso vía RFID (Mifare) salidas para accionamientos de cerradura electromecánica y contacto seco, bus Serial ...",
+    "description": "PORTERO electrónico alta voz, Acceso vía RFID (Mifare) salidas para accionamientos de cerradura electromecánica y contacto seco, bus Serial RS485",
+    "price": 394000,
+    "wholesalePrice": 362480,
+    "stock": 25,
+    "image": "/productos/catalogo/intelbras-xpe-1013-plus-id.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "XPE 1013 PLUS ID",
+      "Marca": "Intelbras"
+    },
+    "features": [
+      "PORTERO electrónico alta voz",
+      "Acceso vía RFID (Mifare) salidas para accionamientos de cerradura electromecánica y contacto seco",
+      "bus Serial RS485"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "itb-xpe-1013-bio",
+    "sku": "XPE 1013 BIO",
+    "name": "Intelbras XPE 1013 BIO",
+    "brand": "Intelbras",
+    "category": "alarmas",
+    "shortDesc": "XPE 1013 BIO. TERMINAL DE PUERTA DEDICADO CON BIOMETRIA DIGITAL DE TRECE TECLAS",
+    "description": "XPE 1013 BIO. TERMINAL DE PUERTA DEDICADO CON BIOMETRIA DIGITAL DE TRECE TECLAS",
+    "price": 796600,
+    "wholesalePrice": 732872,
+    "stock": 25,
+    "image": "/productos/catalogo/intelbras-xpe-1013-bio.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "XPE 1013 BIO",
+      "Marca": "Intelbras"
+    },
+    "features": [
+      "XPE 1013 BIO",
+      "TERMINAL DE PUERTA DEDICADO CON BIOMETRIA DIGITAL DE TRECE TECLAS"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "itb-xar3060",
+    "sku": "XAR3060",
+    "name": "Intelbras XAR3060",
+    "brand": "Intelbras",
+    "category": "alarmas",
+    "shortDesc": "Recepción eficiente, dos salidas independientes, dos modos de operación y capacidad, almacena hasta 60 dispositivos inalámbricos. El XAR 306...",
+    "description": "Recepción eficiente, dos salidas independientes, dos modos de operación y capacidad, almacena hasta 60 dispositivos inalámbricos. El XAR 3060 UN tiene el protocolo Wiegand, lo que lo hace compatible con todos los controladores de acceso con entrada Wiegand de Intelbras.Tecnología de punta que permite repartir zonas con precisión, agregando versatilidad en las aplicaciones por un costo-beneficio atractivo. Integrando la línea de accesorios Intelbras, el XAR 3060 UN es versátil y utiliza tecnologías que permiten atender las necesidades de cada ambiente.",
+    "price": 97900,
+    "wholesalePrice": 90068,
+    "stock": 25,
+    "image": "/productos/catalogo/intelbras-xar3060.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "XAR3060",
+      "Marca": "Intelbras"
+    },
+    "features": [
+      "Recepción eficiente",
+      "dos salidas independientes",
+      "dos modos de operación y capacidad"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "itb-fx1500",
+    "sku": "FX1500",
+    "name": "Intelbras FX1500",
+    "brand": "Intelbras",
+    "category": "alarmas",
+    "shortDesc": "El FX 1500 se superpone con un cilindro fijo de 40 mm de largo , y se puede aplicar a puertas y portones de metal o madera, que se abren hac...",
+    "description": "El FX 1500 se superpone con un cilindro fijo de 40 mm de largo , y se puede aplicar a puertas y portones de metal o madera, que se abren hacia adentro o hacia afuera, tanto a la derecha como a la izquierda. Estructura de acero con acabado gris Cilindro fijo de 40 mm de largo Fuente de alimentación de 12 V\nCompatible con controladores de acceso Especificaciones técnicas: Cerradura eléctrica modelo FX 1500 Aplicación Puertas metálicas o de madera que se abren a la habitación Color gris Dimensiones (ancho × alto ×profundidad) 155 × 105 × 100 mm Peso 1,2 kg Consumo 12 W Corriente 1A Fuente de alimentación 12 V AC/DC",
+    "price": 144500,
+    "wholesalePrice": 132940,
+    "stock": 25,
+    "image": "/productos/catalogo/intelbras-fx1500.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "FX1500",
+      "Marca": "Intelbras"
+    },
+    "features": [
+      "El FX 1500 se superpone con un cilindro fijo de 40 mm de largo",
+      "y se puede aplicar a puertas y portones de metal o madera",
+      "que se abren hacia adentro o hacia afuera"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "itb-tdmi-300",
+    "sku": "TDMI 300",
+    "name": "Intelbras TDMI 300",
+    "brand": "Intelbras",
+    "category": "alarmas",
+    "shortDesc": "TERMINAL dedicado para central, alimentación 22VDC – 60VDC, teclas de Entrada y cerradura. Volumen del timbre ajustable. Color Blanco",
+    "description": "TERMINAL dedicado para central, alimentación 22VDC – 60VDC, teclas de Entrada y cerradura. Volumen del timbre ajustable. Color Blanco",
+    "price": 61400,
+    "wholesalePrice": 56488,
+    "stock": 25,
+    "image": "/productos/catalogo/intelbras-tdmi-300.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "TDMI 300",
+      "Marca": "Intelbras"
+    },
+    "features": [
+      "TERMINAL dedicado para central",
+      "alimentación 22VDC – 60VDC",
+      "teclas de Entrada y cerradura"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "itb-tc60id",
+    "sku": "TC60ID",
+    "name": "Intelbras TC60ID",
+    "brand": "Intelbras",
+    "category": "alarmas",
+    "shortDesc": "TERMINAL alámbrico, identificación de llamadas DTMF/FSK (automático), Altavoz, función Manos libres, memorias de discado rápido, 4 niveles d...",
+    "description": "TERMINAL alámbrico, identificación de llamadas DTMF/FSK (automático), Altavoz, función Manos libres, memorias de discado rápido, 4 niveles de volumen de timbre, Función Flash (ajustable: 100, 300, 600 o 1000 ms)",
+    "price": 143600,
+    "wholesalePrice": 132112,
+    "stock": 25,
+    "image": "/productos/catalogo/intelbras-tc60id.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "TC60ID",
+      "Marca": "Intelbras"
+    },
+    "features": [
+      "TERMINAL alámbrico",
+      "identificación de llamadas DTMF/FSK (automático)",
+      "Altavoz"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "itb-ipr-8010",
+    "sku": "IPR 8010",
+    "name": "Intelbras IPR 8010",
+    "brand": "Intelbras",
+    "category": "redes",
+    "shortDesc": "Citófono residencial, Citófono (externo) + Teléfono (interno), abre hasta 2 cerraduras eléctricas (12 V) y relé (NA o NC), instalación con s...",
+    "description": "Citófono residencial, Citófono (externo) + Teléfono (interno), abre hasta 2 cerraduras eléctricas (12 V) y relé (NA o NC), instalación con sólo 2 cables entre módulo externo y módulo interno. Soporta un total de 3 teléfonos internos IPR 8000 IN.",
+    "price": 199400,
+    "wholesalePrice": 183448,
+    "stock": 25,
+    "image": "/productos/catalogo/intelbras-ipr-8010.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "IPR 8010",
+      "Marca": "Intelbras"
+    },
+    "features": [
+      "Citófono residencial",
+      "Citófono (externo) + Teléfono (interno)",
+      "abre hasta 2 cerraduras eléctricas (12 V) y relé (NA o NC)"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce70df0t-mfs-2-8mm",
+    "sku": "DS-2CE70DF0T-MFS(2.8mm)",
+    "name": "Hikvision DS-2CE70DF0T-MFS(2.8mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 1080P TURRET   0.001LUX F1.0   24/7 COLORVU LUZ BLANCA 20M 3D DNR  DWDR IP67 LUZ BLANCA METALICA HIKVISION AUDIO COAXIAL",
+    "description": "CAMARA TURBO 1080P TURRET   0.001LUX F1.0   24/7 COLORVU LUZ BLANCA 20M 3D DNR  DWDR IP67 LUZ BLANCA METALICA HIKVISION AUDIO COAXIAL",
+    "price": 120800,
+    "wholesalePrice": 111136,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce70df0t-mfs-2-8mm.webp",
+    "tags": [
+      "IP67",
+      "1080p"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE70DF0T-MFS(2.8mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 1080P TURRET   0",
+      "001LUX F1",
+      "0   24/7 COLORVU LUZ BLANCA 20M 3D DNR  DWDR IP67 LUZ BLANCA METALICA HIKVISION AUDIO COAXIAL"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce56d0t-it3f-2-8mm",
+    "sku": "DS-2CE56D0T-IT3F(2.8mm)©",
+    "name": "Hikvision DS-2CE56D0T-IT3F(2.8mm)©",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 1080P TURRET EXIR 0.01LUX  IR40m IP66 PLASTICA HIKVISION",
+    "description": "CAMARA TURBO 1080P TURRET EXIR 0.01LUX  IR40m IP66 PLASTICA HIKVISION",
+    "price": 118900,
+    "wholesalePrice": 109388,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce56d0t-it3f-2-8mm.webp",
+    "tags": [
+      "IP66",
+      "1080p"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE56D0T-IT3F(2.8mm)©",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 1080P TURRET EXIR 0",
+      "01LUX  IR40m IP66 PLASTICA HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce76d0t-itmfs-2-8mm",
+    "sku": "DS-2CE76D0T-ITMFS(2.8mm)",
+    "name": "Hikvision DS-2CE76D0T-ITMFS(2.8mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 1080P TURRET  MICROFONO INCORPORADO  AUDIO COAXIAL  0.01 Lux/ F1.2  DNR EXIR 2.0  Smart IR 30m IR METALICA HIKVISION",
+    "description": "CAMARA TURBO 1080P TURRET  MICROFONO INCORPORADO  AUDIO COAXIAL  0.01 Lux/ F1.2  DNR EXIR 2.0  Smart IR 30m IR METALICA HIKVISION",
+    "price": 103000,
+    "wholesalePrice": 94760,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce76d0t-itmfs-2-8mm.webp",
+    "tags": [
+      "1080p"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE76D0T-ITMFS(2.8mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 1080P TURRET  MICROFONO INCORPORADO  AUDIO COAXIAL  0",
+      "01 Lux/ F1",
+      "2  DNR EXIR 2"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce72df0t-f-2-8mm",
+    "sku": "DS-2CE72DF0T-F(2.8mm)",
+    "name": "Hikvision DS-2CE72DF0T-F(2.8mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 1080P TURRET   0.001LUX F1.0   24/7 COLORVU  LUZ BLANCA 40M 3D DNR  DWDR IP67 LUZ BLANCA SEMIMETALICA HIKVISION",
+    "description": "CAMARA TURBO 1080P TURRET   0.001LUX F1.0   24/7 COLORVU  LUZ BLANCA 40M 3D DNR  DWDR IP67 LUZ BLANCA SEMIMETALICA HIKVISION",
+    "price": 126000,
+    "wholesalePrice": 115920,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce72df0t-f-2-8mm.webp",
+    "tags": [
+      "IP67",
+      "1080p"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE72DF0T-F(2.8mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 1080P TURRET   0",
+      "001LUX F1",
+      "0   24/7 COLORVU  LUZ BLANCA 40M 3D DNR  DWDR IP67 LUZ BLANCA SEMIMETALICA HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce72df0t-fs-2-8mm",
+    "sku": "DS-2CE72DF0T-FS(2.8mm)",
+    "name": "Hikvision DS-2CE72DF0T-FS(2.8mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 1080P TURRET   0.001LUX F1.0   24/7 COLORVU  LUZ BLANCA 40M 3D DNR  DWDR IP67 LUZ BLANCA SEMIMETALICA HIKVISION AUDIO COAXIAL",
+    "description": "CAMARA TURBO 1080P TURRET   0.001LUX F1.0   24/7 COLORVU  LUZ BLANCA 40M 3D DNR  DWDR IP67 LUZ BLANCA SEMIMETALICA HIKVISION AUDIO COAXIAL",
+    "price": 135000,
+    "wholesalePrice": 124200,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce72df0t-fs-2-8mm.webp",
+    "tags": [
+      "IP67",
+      "1080p"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE72DF0T-FS(2.8mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 1080P TURRET   0",
+      "001LUX F1",
+      "0   24/7 COLORVU  LUZ BLANCA 40M 3D DNR  DWDR IP67 LUZ BLANCA SEMIMETALICA HIKVISION AUDIO COAXIAL"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce70df3t-pf-2-8mm",
+    "sku": "DS-2CE70DF3T-PF(2.8mm)",
+    "name": "Hikvision DS-2CE70DF3T-PF(2.8mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 1080P TURRET   0.0005LUX F1.0 24/7 COLORVU  LUZ BLANCA 20M 3D DNR 130dB WDR IP67 PLASTICA HIKVISION",
+    "description": "CAMARA TURBO 1080P TURRET   0.0005LUX F1.0 24/7 COLORVU  LUZ BLANCA 20M 3D DNR 130dB WDR IP67 PLASTICA HIKVISION",
+    "price": 129000,
+    "wholesalePrice": 118680,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce70df3t-pf-2-8mm.webp",
+    "tags": [
+      "IP67",
+      "1080p"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE70DF3T-PF(2.8mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 1080P TURRET   0",
+      "0005LUX F1",
+      "0 24/7 COLORVU  LUZ BLANCA 20M 3D DNR 130dB WDR IP67 PLASTICA HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce72df3t-f-2-8mm",
+    "sku": "DS-2CE72DF3T-F(2.8mm)",
+    "name": "Hikvision DS-2CE72DF3T-F(2.8mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 1080P TURRET   0.0005LUX F1.0 24/7 COLORVU  LUZ BLANCA 40M 3D DNR 130dB WDR IP67 SEMI METALICA HIKVISION",
+    "description": "CAMARA TURBO 1080P TURRET   0.0005LUX F1.0 24/7 COLORVU  LUZ BLANCA 40M 3D DNR 130dB WDR IP67 SEMI METALICA HIKVISION",
+    "price": 146900,
+    "wholesalePrice": 135148,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce72df3t-f-2-8mm.webp",
+    "tags": [
+      "IP67",
+      "1080p"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE72DF3T-F(2.8mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 1080P TURRET   0",
+      "0005LUX F1",
+      "0 24/7 COLORVU  LUZ BLANCA 40M 3D DNR 130dB WDR IP67 SEMI METALICA HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce79d0t-vfit3f-2-7-13-5mm",
+    "sku": "DS-2CE79D0T-VFIT3F(2.7-13.5mm)©",
+    "name": "Hikvision DS-2CE79D0T-VFIT3F(2.7-13.5mm)©",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 1080P TURRET VARIFOCAL 0.01LUX DISTANCIA IR40m IP67 FRONTAL METALICA CUERPO PLASTICO",
+    "description": "CAMARA TURBO 1080P TURRET VARIFOCAL 0.01LUX DISTANCIA IR40m IP67 FRONTAL METALICA CUERPO PLASTICO",
+    "price": 192700,
+    "wholesalePrice": 177284,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce79d0t-vfit3f-2-7-13-5mm.webp",
+    "tags": [
+      "IP67",
+      "1080p"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE79D0T-VFIT3F(2.7-13.5mm)©",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 1080P TURRET VARIFOCAL 0",
+      "01LUX DISTANCIA IR40m IP67 FRONTAL METALICA CUERPO PLASTICO"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce16d0t-irpf-2-8mm",
+    "sku": "DS-2CE16D0T-IRPF(2.8mm)©",
+    "name": "Hikvision DS-2CE16D0T-IRPF(2.8mm)©",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 1080P BALA 0.01LUX  IR20m INT PLASTICA HIKVISION",
+    "description": "CAMARA TURBO 1080P BALA 0.01LUX  IR20m INT PLASTICA HIKVISION",
+    "price": 81900,
+    "wholesalePrice": 75348,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce16d0t-irpf-2-8mm.webp",
+    "tags": [
+      "1080p"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE16D0T-IRPF(2.8mm)©",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 1080P BALA 0",
+      "01LUX  IR20m INT PLASTICA HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce16d0t-itpfs-2-8mm",
+    "sku": "DS-2CE16D0T-ITPFS(2.8mm)",
+    "name": "Hikvision DS-2CE16D0T-ITPFS(2.8mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 1080P BALA MICROFONO INCORPORADO  AUDIO COAXIAL  0.01 Lux/ F1.2  DNR  Smart IR 25m IR PLASTICA HIKVISION",
+    "description": "CAMARA TURBO 1080P BALA MICROFONO INCORPORADO  AUDIO COAXIAL  0.01 Lux/ F1.2  DNR  Smart IR 25m IR PLASTICA HIKVISION",
+    "price": 88300,
+    "wholesalePrice": 81236,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce16d0t-itpfs-2-8mm.webp",
+    "tags": [
+      "1080p"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE16D0T-ITPFS(2.8mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 1080P BALA MICROFONO INCORPORADO  AUDIO COAXIAL  0",
+      "01 Lux/ F1",
+      "2  DNR  Smart IR 25m IR PLASTICA HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce16d0t-irf-2-8mm",
+    "sku": "DS-2CE16D0T-IRF(2.8mm)©",
+    "name": "Hikvision DS-2CE16D0T-IRF(2.8mm)©",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 1080P BALA 0.01LUX  IR20m IP66 METAL HIKVISION",
+    "description": "CAMARA TURBO 1080P BALA 0.01LUX  IR20m IP66 METAL HIKVISION",
+    "price": 101600,
+    "wholesalePrice": 93472,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce16d0t-irf-2-8mm.webp",
+    "tags": [
+      "IP66",
+      "1080p"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE16D0T-IRF(2.8mm)©",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 1080P BALA 0",
+      "01LUX  IR20m IP66 METAL HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce16d0t-itfs-2-8mm",
+    "sku": "DS-2CE16D0T-ITFS(2.8mm)",
+    "name": "Hikvision DS-2CE16D0T-ITFS(2.8mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA MINI TURBO AUDIO 1080P BALA EXIR 0.01LUX 2.8 IR30m IP67 METALICA HIKVISION AUDIO COAXIAL",
+    "description": "CAMARA MINI TURBO AUDIO 1080P BALA EXIR 0.01LUX 2.8 IR30m IP67 METALICA HIKVISION AUDIO COAXIAL",
+    "price": 122500,
+    "wholesalePrice": 112700,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce16d0t-itfs-2-8mm.webp",
+    "tags": [
+      "IP67",
+      "1080p"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE16D0T-ITFS(2.8mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA MINI TURBO AUDIO 1080P BALA EXIR 0",
+      "01LUX 2",
+      "8 IR30m IP67 METALICA HIKVISION AUDIO COAXIAL"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce16d0t-itpf-2-8mm",
+    "sku": "DS-2CE16D0T-ITPF(2.8mm)©",
+    "name": "Hikvision DS-2CE16D0T-ITPF(2.8mm)©",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 1080P BALA EXIR 0.01LUX Smart IR20m IP66 PLASTICA HIKVISION",
+    "description": "CAMARA TURBO 1080P BALA EXIR 0.01LUX Smart IR20m IP66 PLASTICA HIKVISION",
+    "price": 105600,
+    "wholesalePrice": 97152,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce16d0t-itpf-2-8mm.webp",
+    "tags": [
+      "IP66",
+      "1080p"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE16D0T-ITPF(2.8mm)©",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 1080P BALA EXIR 0",
+      "01LUX Smart IR20m IP66 PLASTICA HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce16d0t-itpf-3-6mm",
+    "sku": "DS-2CE16D0T-ITPF(3.6mm)©",
+    "name": "Hikvision DS-2CE16D0T-ITPF(3.6mm)©",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 1080P BALA EXIR 0.01LUX Smart IR20m IP66 PLASTICA HIKVISION",
+    "description": "CAMARA TURBO 1080P BALA EXIR 0.01LUX Smart IR20m IP66 PLASTICA HIKVISION",
+    "price": 105600,
+    "wholesalePrice": 97152,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce16d0t-itpf-3-6mm.webp",
+    "tags": [
+      "IP66",
+      "1080p"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE16D0T-ITPF(3.6mm)©",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 1080P BALA EXIR 0",
+      "01LUX Smart IR20m IP66 PLASTICA HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce10df0t-pf-2-8mm",
+    "sku": "DS-2CE10DF0T-PF(2.8mm)",
+    "name": "Hikvision DS-2CE10DF0T-PF(2.8mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 1080P BALA   0.001LUX F1.0   24/7 COLORVU  LUZ BLANCA 20M 3D DNR  DWDR IP67 PLASTICA HIKVISION",
+    "description": "CAMARA TURBO 1080P BALA   0.001LUX F1.0   24/7 COLORVU  LUZ BLANCA 20M 3D DNR  DWDR IP67 PLASTICA HIKVISION",
+    "price": 109000,
+    "wholesalePrice": 100280,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce10df0t-pf-2-8mm.webp",
+    "tags": [
+      "IP67",
+      "1080p"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE10DF0T-PF(2.8mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 1080P BALA   0",
+      "001LUX F1",
+      "0   24/7 COLORVU  LUZ BLANCA 20M 3D DNR  DWDR IP67 PLASTICA HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce16d0t-itf-3-6mm",
+    "sku": "DS-2CE16D0T-ITF(3.6mm)©",
+    "name": "Hikvision DS-2CE16D0T-ITF(3.6mm)©",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA MINI TURBO 1080P BALA EXIR 0.01LUX 3.6 IR30m IP67 METALICA HIKVISION",
+    "description": "CAMARA MINI TURBO 1080P BALA EXIR 0.01LUX 3.6 IR30m IP67 METALICA HIKVISION",
+    "price": 114000,
+    "wholesalePrice": 104880,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce16d0t-itf-3-6mm.webp",
+    "tags": [
+      "IP67",
+      "1080p"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE16D0T-ITF(3.6mm)©",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA MINI TURBO 1080P BALA EXIR 0",
+      "01LUX 3",
+      "6 IR30m IP67 METALICA HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce17d0t-it1f-2-8mm",
+    "sku": "DS-2CE17D0T-IT1F(2.8mm)©",
+    "name": "Hikvision DS-2CE17D0T-IT1F(2.8mm)©",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 1080P BALA EXIR 0.01LUX  IR30m IP67 SEMIMETAL HIKVISION",
+    "description": "CAMARA TURBO 1080P BALA EXIR 0.01LUX  IR30m IP67 SEMIMETAL HIKVISION",
+    "price": 100500,
+    "wholesalePrice": 92460,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce17d0t-it1f-2-8mm.webp",
+    "tags": [
+      "IP67",
+      "1080p"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE17D0T-IT1F(2.8mm)©",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 1080P BALA EXIR 0",
+      "01LUX  IR30m IP67 SEMIMETAL HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce17d0t-it3f-2-8mm",
+    "sku": "DS-2CE17D0T-IT3F(2.8mm)©",
+    "name": "Hikvision DS-2CE17D0T-IT3F(2.8mm)©",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 1080P BALA EXIR 0.01LUX  IR40m IP67 SEMIMETAL HIKVISION",
+    "description": "CAMARA TURBO 1080P BALA EXIR 0.01LUX  IR40m IP67 SEMIMETAL HIKVISION",
+    "price": 117800,
+    "wholesalePrice": 108376,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce17d0t-it3f-2-8mm.webp",
+    "tags": [
+      "IP67",
+      "1080p"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE17D0T-IT3F(2.8mm)©",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 1080P BALA EXIR 0",
+      "01LUX  IR40m IP67 SEMIMETAL HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce12df0t-f-2-8mm",
+    "sku": "DS-2CE12DF0T-F(2.8mm)",
+    "name": "Hikvision DS-2CE12DF0T-F(2.8mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 1080P BALA 0.001LUX F1.0   24/7 COLORVU  40M 3D DNR  DWDR IP67 LUZ BLANCA SEMIMETALICA HIKVISION",
+    "description": "CAMARA TURBO 1080P BALA 0.001LUX F1.0   24/7 COLORVU  40M 3D DNR  DWDR IP67 LUZ BLANCA SEMIMETALICA HIKVISION",
+    "price": 131000,
+    "wholesalePrice": 120520,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce12df0t-f-2-8mm.webp",
+    "tags": [
+      "IP67",
+      "1080p"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE12DF0T-F(2.8mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 1080P BALA 0",
+      "001LUX F1",
+      "0   24/7 COLORVU  40M 3D DNR  DWDR IP67 LUZ BLANCA SEMIMETALICA HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce10df0t-f-2-8mm",
+    "sku": "DS-2CE10DF0T-F(2.8mm)",
+    "name": "Hikvision DS-2CE10DF0T-F(2.8mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 1080P BALA 0.001LUX F1.0   24/7 COLORVU  20M 3D DNR  DWDR IP67 LUZ BLANCA METALICA HIKVISION",
+    "description": "CAMARA TURBO 1080P BALA 0.001LUX F1.0   24/7 COLORVU  20M 3D DNR  DWDR IP67 LUZ BLANCA METALICA HIKVISION",
+    "price": 127900,
+    "wholesalePrice": 117668,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce10df0t-f-2-8mm.webp",
+    "tags": [
+      "IP67",
+      "1080p"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE10DF0T-F(2.8mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 1080P BALA 0",
+      "001LUX F1",
+      "0   24/7 COLORVU  20M 3D DNR  DWDR IP67 LUZ BLANCA METALICA HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce10df0t-fs-2-8mm",
+    "sku": "DS-2CE10DF0T-FS(2.8mm)",
+    "name": "Hikvision DS-2CE10DF0T-FS(2.8mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 1080P BALA  0.001LUX F1.0   24/7 COLORVU  20M 3D DNR  DWDR IP67 LUZ BLANCA METALICA HIKVISION AUDIO COAXIAL",
+    "description": "CAMARA TURBO 1080P BALA  0.001LUX F1.0   24/7 COLORVU  20M 3D DNR  DWDR IP67 LUZ BLANCA METALICA HIKVISION AUDIO COAXIAL",
+    "price": 136500,
+    "wholesalePrice": 125580,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce10df0t-fs-2-8mm.webp",
+    "tags": [
+      "IP67",
+      "1080p"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE10DF0T-FS(2.8mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 1080P BALA  0",
+      "001LUX F1",
+      "0   24/7 COLORVU  20M 3D DNR  DWDR IP67 LUZ BLANCA METALICA HIKVISION AUDIO COAXIAL"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce10df3t-pf-2-8mm",
+    "sku": "DS-2CE10DF3T-PF(2.8mm)",
+    "name": "Hikvision DS-2CE10DF3T-PF(2.8mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 1080P BALA 0.0005 LUX F1.0 24/7 COLORVU  20M 3D DNR  130dB  WDR IP67 LUZ BLANCA PLASTICA HIKVISION",
+    "description": "CAMARA TURBO 1080P BALA 0.0005 LUX F1.0 24/7 COLORVU  20M 3D DNR  130dB  WDR IP67 LUZ BLANCA PLASTICA HIKVISION",
+    "price": 129000,
+    "wholesalePrice": 118680,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce10df3t-pf-2-8mm.webp",
+    "tags": [
+      "IP67",
+      "1080p"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE10DF3T-PF(2.8mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 1080P BALA 0",
+      "0005 LUX F1",
+      "0 24/7 COLORVU  20M 3D DNR  130dB  WDR IP67 LUZ BLANCA PLASTICA HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce17d0t-it5f-3-6mm--c",
+    "sku": "DS-2CE17D0T-IT5F(3.6mm)(C)",
+    "name": "Hikvision DS-2CE17D0T-IT5F(3.6mm)(C)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 1080P BALA EXIR 0.01LUX  IR80m IP66 SEMIMETAL HIKVISION",
+    "description": "CAMARA TURBO 1080P BALA EXIR 0.01LUX  IR80m IP66 SEMIMETAL HIKVISION",
+    "price": 117600,
+    "wholesalePrice": 108192,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce17d0t-it5f-3-6mm-c.webp",
+    "tags": [
+      "IP66",
+      "1080p"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE17D0T-IT5F(3.6mm)(C)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 1080P BALA EXIR 0",
+      "01LUX  IR80m IP66 SEMIMETAL HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce10df3t-f-2-8mm",
+    "sku": "DS-2CE10DF3T-F(2.8mm)",
+    "name": "Hikvision DS-2CE10DF3T-F(2.8mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 1080P BALA   0.0005 LUX  F.1.0  24/7 COLORVU  20M 3D DNR  130dB  WDR IP67 LUZ BLANCA METALICA HIKVISION",
+    "description": "CAMARA TURBO 1080P BALA   0.0005 LUX  F.1.0  24/7 COLORVU  20M 3D DNR  130dB  WDR IP67 LUZ BLANCA METALICA HIKVISION",
+    "price": 139000,
+    "wholesalePrice": 127880,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce10df3t-f-2-8mm.webp",
+    "tags": [
+      "IP67",
+      "1080p"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE10DF3T-F(2.8mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 1080P BALA   0",
+      "0005 LUX  F",
+      "0  24/7 COLORVU  20M 3D DNR  130dB  WDR IP67 LUZ BLANCA METALICA HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce12df3t-f-2-8mm",
+    "sku": "DS-2CE12DF3T-F(2.8mm)",
+    "name": "Hikvision DS-2CE12DF3T-F(2.8mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 1080P BALA  0.0005 LUX F1.0 24/7 COLORVU 3D DNR WDR 130 dB   IP67 40M LUZ BLANCA METALICA HIKVISION",
+    "description": "CAMARA TURBO 1080P BALA  0.0005 LUX F1.0 24/7 COLORVU 3D DNR WDR 130 dB   IP67 40M LUZ BLANCA METALICA HIKVISION",
+    "price": 162200,
+    "wholesalePrice": 149224,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce12df3t-f-2-8mm.webp",
+    "tags": [
+      "IP67",
+      "1080p"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE12DF3T-F(2.8mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 1080P BALA  0",
+      "0005 LUX F1",
+      "0 24/7 COLORVU 3D DNR WDR 130 dB   IP67 40M LUZ BLANCA METALICA HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce12df3t-pirxos-2-8mm",
+    "sku": "DS-2CE12DF3T-PIRXOS(2.8mm)",
+    "name": "Hikvision DS-2CE12DF3T-PIRXOS(2.8mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 1080P BALA 24/7 COLORVU 3D DNR WDR 130DB IP67 40M LUZ BLANCA METALICA HIKVISION",
+    "description": "CAMARA TURBO 1080P BALA 24/7 COLORVU 3D DNR WDR 130DB IP67 40M LUZ BLANCA METALICA HIKVISION",
+    "price": 251900,
+    "wholesalePrice": 231748,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce12df3t-pirxos-2-8mm.webp",
+    "tags": [
+      "IP67",
+      "1080p"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE12DF3T-PIRXOS(2.8mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 1080P BALA 24/7 COLORVU 3D DNR WDR 130DB IP67 40M LUZ BLANCA METALICA HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce76h0t-itpf-3-6mm",
+    "sku": "DS-2CE76H0T-ITPF(3.6mm)©",
+    "name": "Hikvision DS-2CE76H0T-ITPF(3.6mm)©",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 5MP TURRET EXIR 0.01LUX 3.6 IR20m IP67 PLASTICA HIKVISION",
+    "description": "CAMARA TURBO 5MP TURRET EXIR 0.01LUX 3.6 IR20m IP67 PLASTICA HIKVISION",
+    "price": 116700,
+    "wholesalePrice": 107364,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce76h0t-itpf-3-6mm.webp",
+    "tags": [
+      "IP67"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE76H0T-ITPF(3.6mm)©",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 5MP TURRET EXIR 0",
+      "01LUX 3",
+      "6 IR20m IP67 PLASTICA HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce56h0t-irmmf-3-6mm",
+    "sku": "DS-2CE56H0T-IRMMF(3.6mm)©",
+    "name": "Hikvision DS-2CE56H0T-IRMMF(3.6mm)©",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 5MP DOMO EXIR 0.01LUX 3.6 IR20m IP67 DIGITAL WDR PLASTICA HIKVISION",
+    "description": "CAMARA TURBO 5MP DOMO EXIR 0.01LUX 3.6 IR20m IP67 DIGITAL WDR PLASTICA HIKVISION",
+    "price": 116700,
+    "wholesalePrice": 107364,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce56h0t-irmmf-3-6mm.webp",
+    "tags": [
+      "IP67"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE56H0T-IRMMF(3.6mm)©",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 5MP DOMO EXIR 0",
+      "01LUX 3",
+      "6 IR20m IP67 DIGITAL WDR PLASTICA HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce56h0t-irmmf-2-8mm",
+    "sku": "DS-2CE56H0T-IRMMF(2.8mm)©",
+    "name": "Hikvision DS-2CE56H0T-IRMMF(2.8mm)©",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 5MP DOMO EXIR 0.01LUX 2.8 IR20m IP67 DIGITAL WDR PLASTICA HIKVISION",
+    "description": "CAMARA TURBO 5MP DOMO EXIR 0.01LUX 2.8 IR20m IP67 DIGITAL WDR PLASTICA HIKVISION",
+    "price": 120700,
+    "wholesalePrice": 111044,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce56h0t-irmmf-2-8mm.webp",
+    "tags": [
+      "IP67"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE56H0T-IRMMF(2.8mm)©",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 5MP DOMO EXIR 0",
+      "01LUX 2",
+      "8 IR20m IP67 DIGITAL WDR PLASTICA HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce76h0t-itpfs-2-8mm",
+    "sku": "DS-2CE76H0T-ITPFS(2.8mm)",
+    "name": "Hikvision DS-2CE76H0T-ITPFS(2.8mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 5MP TURRET  MICROFONO INCORPORADO  AUDIO COAXIAL 2.8  0.01 Lux/ F1.2  DNR EXIR 2.0  Smart IR 20m IR PLASTICA HIKVISION",
+    "description": "CAMARA TURBO 5MP TURRET  MICROFONO INCORPORADO  AUDIO COAXIAL 2.8  0.01 Lux/ F1.2  DNR EXIR 2.0  Smart IR 20m IR PLASTICA HIKVISION",
+    "price": 124500,
+    "wholesalePrice": 114540,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce76h0t-itpfs-2-8mm.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "DS-2CE76H0T-ITPFS(2.8mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 5MP TURRET  MICROFONO INCORPORADO  AUDIO COAXIAL 2",
+      "8  0",
+      "01 Lux/ F1"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce76h0t-itmf-2-8mm",
+    "sku": "DS-2CE76H0T-ITMF(2.8mm)©",
+    "name": "Hikvision DS-2CE76H0T-ITMF(2.8mm)©",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 5MP TURRET EXIR 2.0  0.01LUX IR30m  IP67 METALICA HIKVISION",
+    "description": "CAMARA TURBO 5MP TURRET EXIR 2.0  0.01LUX IR30m  IP67 METALICA HIKVISION",
+    "price": 132800,
+    "wholesalePrice": 122176,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce76h0t-itmf-2-8mm.webp",
+    "tags": [
+      "IP67"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE76H0T-ITMF(2.8mm)©",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 5MP TURRET EXIR 2",
+      "0  0",
+      "01LUX IR30m  IP67 METALICA HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce76h0t-itmf-3-6mm",
+    "sku": "DS-2CE76H0T-ITMF(3.6mm)©",
+    "name": "Hikvision DS-2CE76H0T-ITMF(3.6mm)©",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 5MP TURRET EXIR 2.0  0.01LUX IR30m  IP67 METALICA HIKVISION",
+    "description": "CAMARA TURBO 5MP TURRET EXIR 2.0  0.01LUX IR30m  IP67 METALICA HIKVISION",
+    "price": 132800,
+    "wholesalePrice": 122176,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce76h0t-itmf-3-6mm.webp",
+    "tags": [
+      "IP67"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE76H0T-ITMF(3.6mm)©",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 5MP TURRET EXIR 2",
+      "0  0",
+      "01LUX IR30m  IP67 METALICA HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce78h0t-it1f-3-6mm",
+    "sku": "DS-2CE78H0T-IT1F(3.6mm)©",
+    "name": "Hikvision DS-2CE78H0T-IT1F(3.6mm)©",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 5MP TURRET EXIR 0.01LUX 3.6 IR30m IP67 DIGITAL WDR SEMIMETALICA HIKVISION",
+    "description": "CAMARA TURBO 5MP TURRET EXIR 0.01LUX 3.6 IR30m IP67 DIGITAL WDR SEMIMETALICA HIKVISION",
+    "price": 136800,
+    "wholesalePrice": 125856,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce78h0t-it1f-3-6mm.webp",
+    "tags": [
+      "IP67"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE78H0T-IT1F(3.6mm)©",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 5MP TURRET EXIR 0",
+      "01LUX 3",
+      "6 IR30m IP67 DIGITAL WDR SEMIMETALICA HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce78h0t-it3f-2-8mm",
+    "sku": "DS-2CE78H0T-IT3F(2.8mm)©",
+    "name": "Hikvision DS-2CE78H0T-IT3F(2.8mm)©",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 5MP TURRET EXIR 0.01LUX 2.8 IR40m IP67 DIGITAL WDR SEMIMETALICA HIKVISION",
+    "description": "CAMARA TURBO 5MP TURRET EXIR 0.01LUX 2.8 IR40m IP67 DIGITAL WDR SEMIMETALICA HIKVISION",
+    "price": 149200,
+    "wholesalePrice": 137264,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce78h0t-it3f-2-8mm.webp",
+    "tags": [
+      "IP67"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE78H0T-IT3F(2.8mm)©",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 5MP TURRET EXIR 0",
+      "01LUX 2",
+      "8 IR40m IP67 DIGITAL WDR SEMIMETALICA HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce78h0t-it3fs-2-8mm",
+    "sku": "DS-2CE78H0T-IT3FS(2.8mm)",
+    "name": "Hikvision DS-2CE78H0T-IT3FS(2.8mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 5MP TURRET  MICROFONO INCORPORADO  AUDIO COAXIAL 2.8  0.01 Lux/ F1.2  DNR EXIR 2.0  Smart IR 40m IR SEMI METALICA HIKVISION",
+    "description": "CAMARA TURBO 5MP TURRET  MICROFONO INCORPORADO  AUDIO COAXIAL 2.8  0.01 Lux/ F1.2  DNR EXIR 2.0  Smart IR 40m IR SEMI METALICA HIKVISION",
+    "price": 150600,
+    "wholesalePrice": 138552,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce78h0t-it3fs-2-8mm.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "DS-2CE78H0T-IT3FS(2.8mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 5MP TURRET  MICROFONO INCORPORADO  AUDIO COAXIAL 2",
+      "8  0",
+      "01 Lux/ F1"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce16h0t-itf-2-8mm",
+    "sku": "DS-2CE16H0T-ITF(2.8mm)©",
+    "name": "Hikvision DS-2CE16H0T-ITF(2.8mm)©",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 5MP BALA  EXTERIOR IR67 30MTS SMART DWDR",
+    "description": "CAMARA TURBO 5MP BALA  EXTERIOR IR67 30MTS SMART DWDR",
+    "price": 140700,
+    "wholesalePrice": 129444,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce16h0t-itf-2-8mm.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "DS-2CE16H0T-ITF(2.8mm)©",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 5MP BALA  EXTERIOR IR67 30MTS SMART DWDR"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce16h0t-itfs-2-8mm",
+    "sku": "DS-2CE16H0T-ITFS(2.8mm)",
+    "name": "Hikvision DS-2CE16H0T-ITFS(2.8mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 5MP BALA  MICROFONO INCORPORADO  AUDIO COAXIAL  0.01 Lux/ F1.2  DNR EXIR 2.0  Smart IR 30m IR METALICA HIKVISION",
+    "description": "CAMARA TURBO 5MP BALA  MICROFONO INCORPORADO  AUDIO COAXIAL  0.01 Lux/ F1.2  DNR EXIR 2.0  Smart IR 30m IR METALICA HIKVISION",
+    "price": 142000,
+    "wholesalePrice": 130640,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce16h0t-itfs-2-8mm.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "DS-2CE16H0T-ITFS(2.8mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 5MP BALA  MICROFONO INCORPORADO  AUDIO COAXIAL  0",
+      "01 Lux/ F1",
+      "2  DNR EXIR 2"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce17h0t-it1f-2-8mm",
+    "sku": "DS-2CE17H0T-IT1F(2.8mm)©",
+    "name": "Hikvision DS-2CE17H0T-IT1F(2.8mm)©",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 5MP BALA IR30M IP67 METAL Y PLASTICO HIKVISION",
+    "description": "CAMARA TURBO 5MP BALA IR30M IP67 METAL Y PLASTICO HIKVISION",
+    "price": 152800,
+    "wholesalePrice": 140576,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce17h0t-it1f-2-8mm.webp",
+    "tags": [
+      "IP67"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE17H0T-IT1F(2.8mm)©",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 5MP BALA IR30M IP67 METAL Y PLASTICO HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce17h0t-it3f-3-6mm",
+    "sku": "DS-2CE17H0T-IT3F(3.6mm)©",
+    "name": "Hikvision DS-2CE17H0T-IT3F(3.6mm)©",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 5MP BALA EXIR 0.01LUX 40m IR   IP67 SEMI METALICA HIKVISION",
+    "description": "CAMARA TURBO 5MP BALA EXIR 0.01LUX 40m IR   IP67 SEMI METALICA HIKVISION",
+    "price": 164000,
+    "wholesalePrice": 150880,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce17h0t-it3f-3-6mm.webp",
+    "tags": [
+      "IP67"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE17H0T-IT3F(3.6mm)©",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 5MP BALA EXIR 0",
+      "01LUX 40m IR   IP67 SEMI METALICA HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce17h0t-it3fs-2-8mm",
+    "sku": "DS-2CE17H0T-IT3FS(2.8mm)",
+    "name": "Hikvision DS-2CE17H0T-IT3FS(2.8mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA BULLET 5MP BALA EXIR 0.01 LUX 40m IR  3.6 6 IP67 SEMI METALICA HIKVISION AUDIO COAXIAL",
+    "description": "CAMARA BULLET 5MP BALA EXIR 0.01 LUX 40m IR  3.6 6 IP67 SEMI METALICA HIKVISION AUDIO COAXIAL",
+    "price": 151200,
+    "wholesalePrice": 139104,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce17h0t-it3fs-2-8mm.webp",
+    "tags": [
+      "IP67"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE17H0T-IT3FS(2.8mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA BULLET 5MP BALA EXIR 0",
+      "01 LUX 40m IR  3",
+      "6 6 IP67 SEMI METALICA HIKVISION AUDIO COAXIAL"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce17h0t-it5f-3-6mm",
+    "sku": "DS-2CE17H0T-IT5F(3.6mm)©",
+    "name": "Hikvision DS-2CE17H0T-IT5F(3.6mm)©",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 5MP BALA EXIR 0.01 LUX 80m IR   IP67 SEMI METALICA HIKVISION",
+    "description": "CAMARA TURBO 5MP BALA EXIR 0.01 LUX 80m IR   IP67 SEMI METALICA HIKVISION",
+    "price": 180500,
+    "wholesalePrice": 166060,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce17h0t-it5f-3-6mm.webp",
+    "tags": [
+      "IP67"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE17H0T-IT5F(3.6mm)©",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 5MP BALA EXIR 0",
+      "01 LUX 80m IR   IP67 SEMI METALICA HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce19h0t-ait3zf-2-7-13-5mm",
+    "sku": "DS-2CE19H0T-AIT3ZF(2.7-13.5mm)©",
+    "name": "Hikvision DS-2CE19H0T-AIT3ZF(2.7-13.5mm)©",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 5MP BALA MOTORIZADA VARIFOCAL (2.7 -13.5 )  0.01LUX EXIR 2.0  IR40m  IP67  METAL HIKVISION",
+    "description": "CAMARA TURBO 5MP BALA MOTORIZADA VARIFOCAL (2.7 -13.5 )  0.01LUX EXIR 2.0  IR40m  IP67  METAL HIKVISION",
+    "price": 358300,
+    "wholesalePrice": 329636,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce19h0t-ait3zf-2-7-13-5mm.webp",
+    "tags": [
+      "IP67"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE19H0T-AIT3ZF(2.7-13.5mm)©",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 5MP BALA MOTORIZADA VARIFOCAL (2",
+      "7 -13",
+      "5 )  0"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce76u1t-itpf-2-8mm",
+    "sku": "DS-2CE76U1T-ITPF(2.8mm)",
+    "name": "Hikvision DS-2CE76U1T-ITPF(2.8mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 8MP TURRET EXIR 0.01LUX EXIR IR30m IP67 PLASTICA HIKVISION",
+    "description": "CAMARA TURBO 8MP TURRET EXIR 0.01LUX EXIR IR30m IP67 PLASTICA HIKVISION",
+    "price": 217500,
+    "wholesalePrice": 200100,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce76u1t-itpf-2-8mm.webp",
+    "tags": [
+      "IP67"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE76U1T-ITPF(2.8mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 8MP TURRET EXIR 0",
+      "01LUX EXIR IR30m IP67 PLASTICA HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce76u1t-itmf-2-8mm",
+    "sku": "DS-2CE76U1T-ITMF(2.8mm)",
+    "name": "Hikvision DS-2CE76U1T-ITMF(2.8mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 8MP TURRET EXIR 0.01LUX  IR30M IP67 METAL HIKVISION",
+    "description": "CAMARA TURBO 8MP TURRET EXIR 0.01LUX  IR30M IP67 METAL HIKVISION",
+    "price": 242600,
+    "wholesalePrice": 223192,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce76u1t-itmf-2-8mm.webp",
+    "tags": [
+      "IP67"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE76U1T-ITMF(2.8mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 8MP TURRET EXIR 0",
+      "01LUX  IR30M IP67 METAL HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce78u1t-it1f-2-8mm",
+    "sku": "DS-2CE78U1T-IT1F(2.8mm)",
+    "name": "Hikvision DS-2CE78U1T-IT1F(2.8mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 8MP TURRET  0.01LUX EXIR IR30m IP67 METAL HIKVISION",
+    "description": "CAMARA TURBO 8MP TURRET  0.01LUX EXIR IR30m IP67 METAL HIKVISION",
+    "price": 237800,
+    "wholesalePrice": 218776,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce78u1t-it1f-2-8mm.webp",
+    "tags": [
+      "IP67"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE78U1T-IT1F(2.8mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 8MP TURRET  0",
+      "01LUX EXIR IR30m IP67 METAL HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce57u1t-vpitf-3-6mm",
+    "sku": "DS-2CE57U1T-VPITF(3.6mm)",
+    "name": "Hikvision DS-2CE57U1T-VPITF(3.6mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 8MP DOMO 0.01LUX EXIR IR30m IK10   METAL HIKVISION",
+    "description": "CAMARA TURBO 8MP DOMO 0.01LUX EXIR IR30m IK10   METAL HIKVISION",
+    "price": 287000,
+    "wholesalePrice": 264040,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce57u1t-vpitf-3-6mm.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "DS-2CE57U1T-VPITF(3.6mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 8MP DOMO 0",
+      "01LUX EXIR IR30m IK10   METAL HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce79u1t-it3zf-2-7-13-5mm",
+    "sku": "DS-2CE79U1T-IT3ZF(2.7-13.5mm)",
+    "name": "Hikvision DS-2CE79U1T-IT3ZF(2.7-13.5mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 8MP TURRET  0.01LUX EXIR IR 60m IP67 MOTORIZADA  LENTE VARIFOCAL  METAL HIKVISION",
+    "description": "CAMARA TURBO 8MP TURRET  0.01LUX EXIR IR 60m IP67 MOTORIZADA  LENTE VARIFOCAL  METAL HIKVISION",
+    "price": 493400,
+    "wholesalePrice": 453928,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce79u1t-it3zf-2-7-13-5mm.webp",
+    "tags": [
+      "IP67"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE79U1T-IT3ZF(2.7-13.5mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 8MP TURRET  0",
+      "01LUX EXIR IR 60m IP67 MOTORIZADA  LENTE VARIFOCAL  METAL HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce72uf3t-e-2-8mm",
+    "sku": "DS-2CE72UF3T-E(2.8mm)",
+    "name": "Hikvision DS-2CE72UF3T-E(2.8mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 4K TURRET   0.0005LUX F1.0 24/7 COLORVU  LUZ BLANCA 40M 3D DNR 130dB WDR IP67 SEMI METALICA HIKVISION",
+    "description": "CAMARA TURBO 4K TURRET   0.0005LUX F1.0 24/7 COLORVU  LUZ BLANCA 40M 3D DNR 130dB WDR IP67 SEMI METALICA HIKVISION",
+    "price": 462400,
+    "wholesalePrice": 425408,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce72uf3t-e-2-8mm.webp",
+    "tags": [
+      "IP67",
+      "4K"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE72UF3T-E(2.8mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 4K TURRET   0",
+      "0005LUX F1",
+      "0 24/7 COLORVU  LUZ BLANCA 40M 3D DNR 130dB WDR IP67 SEMI METALICA HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce16u1t-itpf-3-6mm",
+    "sku": "DS-2CE16U1T-ITPF(3.6mm)",
+    "name": "Hikvision DS-2CE16U1T-ITPF(3.6mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 8MP BALA  0.01LUX EXIR IR30m IP67 PLASTICA HIKVISION",
+    "description": "CAMARA TURBO 8MP BALA  0.01LUX EXIR IR30m IP67 PLASTICA HIKVISION",
+    "price": 221400,
+    "wholesalePrice": 203688,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce16u1t-itpf-3-6mm.webp",
+    "tags": [
+      "IP67"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE16U1T-ITPF(3.6mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 8MP BALA  0",
+      "01LUX EXIR IR30m IP67 PLASTICA HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce16u1t-itpf-2-8mm",
+    "sku": "DS-2CE16U1T-ITPF(2.8mm)",
+    "name": "Hikvision DS-2CE16U1T-ITPF(2.8mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 8MP BALA  0.01LUX EXIR IR30m IP67 PLASTICA HIKVISION",
+    "description": "CAMARA TURBO 8MP BALA  0.01LUX EXIR IR30m IP67 PLASTICA HIKVISION",
+    "price": 236300,
+    "wholesalePrice": 217396,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce16u1t-itpf-2-8mm.webp",
+    "tags": [
+      "IP67"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE16U1T-ITPF(2.8mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 8MP BALA  0",
+      "01LUX EXIR IR30m IP67 PLASTICA HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce16u1t-itf-2-8mm",
+    "sku": "DS-2CE16U1T-ITF(2.8mm)",
+    "name": "Hikvision DS-2CE16U1T-ITF(2.8mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 8MP BALA  0.01LUX EXIR IR30m IP67 METAL HIKVISION",
+    "description": "CAMARA TURBO 8MP BALA  0.01LUX EXIR IR30m IP67 METAL HIKVISION",
+    "price": 242600,
+    "wholesalePrice": 223192,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce16u1t-itf-2-8mm.webp",
+    "tags": [
+      "IP67"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE16U1T-ITF(2.8mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 8MP BALA  0",
+      "01LUX EXIR IR30m IP67 METAL HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce16u1t-it1f-2-8mm",
+    "sku": "DS-2CE16U1T-IT1F(2.8mm)",
+    "name": "Hikvision DS-2CE16U1T-IT1F(2.8mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 8MP BALA EXIR 0.01LUX IR30m IP67 SEMIMETAL HIKVISION",
+    "description": "CAMARA TURBO 8MP BALA EXIR 0.01LUX IR30m IP67 SEMIMETAL HIKVISION",
+    "price": 157400,
+    "wholesalePrice": 144808,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce16u1t-it1f-2-8mm.webp",
+    "tags": [
+      "IP67"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE16U1T-IT1F(2.8mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 8MP BALA EXIR 0",
+      "01LUX IR30m IP67 SEMIMETAL HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce16u1t-it3f-2-8mm",
+    "sku": "DS-2CE16U1T-IT3F(2.8mm)",
+    "name": "Hikvision DS-2CE16U1T-IT3F(2.8mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 8MP BALA  0.01LUX EXIR  IR60m IP67 SEMIMETAL HIKVISION",
+    "description": "CAMARA TURBO 8MP BALA  0.01LUX EXIR  IR60m IP67 SEMIMETAL HIKVISION",
+    "price": 292800,
+    "wholesalePrice": 269376,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce16u1t-it3f-2-8mm.webp",
+    "tags": [
+      "IP67"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE16U1T-IT3F(2.8mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 8MP BALA  0",
+      "01LUX EXIR  IR60m IP67 SEMIMETAL HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce16u1t-it3f-3-6mm",
+    "sku": "DS-2CE16U1T-IT3F(3.6mm)",
+    "name": "Hikvision DS-2CE16U1T-IT3F(3.6mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 8MP BALA  0.01LUX EXIR  IR60m IP67 SEMIMETAL HIKVISION",
+    "description": "CAMARA TURBO 8MP BALA  0.01LUX EXIR  IR60m IP67 SEMIMETAL HIKVISION",
+    "price": 287000,
+    "wholesalePrice": 264040,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce16u1t-it3f-3-6mm.webp",
+    "tags": [
+      "IP67"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE16U1T-IT3F(3.6mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 8MP BALA  0",
+      "01LUX EXIR  IR60m IP67 SEMIMETAL HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce10uf3t-e-2-8mm",
+    "sku": "DS-2CE10UF3T-E(2.8mm)",
+    "name": "Hikvision DS-2CE10UF3T-E(2.8mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA BALA TURBO 4K COLORVU TURRET EXIR LUZ BLANCA 20m 0.0005LUX  IP67 METAL HIKVISION",
+    "description": "CAMARA BALA TURBO 4K COLORVU TURRET EXIR LUZ BLANCA 20m 0.0005LUX  IP67 METAL HIKVISION",
+    "price": 436600,
+    "wholesalePrice": 401672,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce10uf3t-e-2-8mm.webp",
+    "tags": [
+      "IP67",
+      "4K"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE10UF3T-E(2.8mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA BALA TURBO 4K COLORVU TURRET EXIR LUZ BLANCA 20m 0",
+      "0005LUX  IP67 METAL HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce12uf3t-e-2-8mm",
+    "sku": "DS-2CE12UF3T-E(2.8mm)",
+    "name": "Hikvision DS-2CE12UF3T-E(2.8mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA BALA TURBO 4K COLORVU TURRET EXIR LUZ BLANCA 40m 0.0005LUX  IP67 METAL HIKVISION",
+    "description": "CAMARA BALA TURBO 4K COLORVU TURRET EXIR LUZ BLANCA 40m 0.0005LUX  IP67 METAL HIKVISION",
+    "price": 480900,
+    "wholesalePrice": 442428,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce12uf3t-e-2-8mm.webp",
+    "tags": [
+      "IP67",
+      "4K"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE12UF3T-E(2.8mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA BALA TURBO 4K COLORVU TURRET EXIR LUZ BLANCA 40m 0",
+      "0005LUX  IP67 METAL HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ce19u1t-it3zf-2-7-13-5mm",
+    "sku": "DS-2CE19U1T-IT3ZF(2.7-13.5mm)",
+    "name": "Hikvision DS-2CE19U1T-IT3ZF(2.7-13.5mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 8MP BALA  0.01LUX EXIR  IR80m  IP67 MOTORIZADA METAL HIKVISION",
+    "description": "CAMARA TURBO 8MP BALA  0.01LUX EXIR  IR80m  IP67 MOTORIZADA METAL HIKVISION",
+    "price": 493400,
+    "wholesalePrice": 453928,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ce19u1t-it3zf-2-7-13-5mm.webp",
+    "tags": [
+      "IP67"
+    ],
+    "specs": {
+      "Referencia": "DS-2CE19U1T-IT3ZF(2.7-13.5mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 8MP BALA  0",
+      "01LUX EXIR  IR80m  IP67 MOTORIZADA METAL HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ae4215ti-d",
+    "sku": "DS-2AE4215TI-D€",
+    "name": "Hikvision DS-2AE4215TI-D€",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CACAMARA PTZ TURBO HD 15X  2MP 100m IR 1080P DWDR Color: 0.005lux/F1.6, B/W:0.001lux/F1.6 HIKVISION",
+    "description": "CACAMARA PTZ TURBO HD 15X  2MP 100m IR 1080P DWDR Color: 0.005lux/F1.6, B/W:0.001lux/F1.6 HIKVISION",
+    "price": 1089000,
+    "wholesalePrice": 1001880,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ae4215ti-d.webp",
+    "tags": [
+      "1080p"
+    ],
+    "specs": {
+      "Referencia": "DS-2AE4215TI-D€",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CACAMARA PTZ TURBO HD 15X  2MP 100m IR 1080P DWDR Color: 0",
+      "005lux/F1",
+      "B/W:0"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ae4225ti-d",
+    "sku": "DS-2AE4225TI-D€",
+    "name": "Hikvision DS-2AE4225TI-D€",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA TURBO 1080P PTZ 25XZOOM 0.005LUX DWDR IR100m IP66 HIKVISION",
+    "description": "CAMARA TURBO 1080P PTZ 25XZOOM 0.005LUX DWDR IR100m IP66 HIKVISION",
+    "price": 1173000,
+    "wholesalePrice": 1079160,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ae4225ti-d.webp",
+    "tags": [
+      "IP66",
+      "1080p"
+    ],
+    "specs": {
+      "Referencia": "DS-2AE4225TI-D€",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA TURBO 1080P PTZ 25XZOOM 0",
+      "005LUX DWDR IR100m IP66 HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-2ae5225ti-a",
+    "sku": "DS-2AE5225TI-A€",
+    "name": "Hikvision DS-2AE5225TI-A€",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA PTZ TURBO HD 25X  2MP  DWDR   COLOR: 0.005 lux / F1.6 / AGC On ; WB: 0.001 lux /F1.6 / AGC On  3D DNR HIKVISION",
+    "description": "CAMARA PTZ TURBO HD 25X  2MP  DWDR   COLOR: 0.005 lux / F1.6 / AGC On ; WB: 0.001 lux /F1.6 / AGC On  3D DNR HIKVISION",
+    "price": 1527400,
+    "wholesalePrice": 1405208,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2ae5225ti-a.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "DS-2AE5225TI-A€",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA PTZ TURBO HD 25X  2MP  DWDR   COLOR: 0",
+      "005 lux / F1",
+      "6 / AGC On"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-7104hghi-m1",
+    "sku": "DS-7104HGHI-M1©",
+    "name": "Hikvision DS-7104HGHI-M1©",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "DVR 4CH TURBO 1080p LITE 4TB H.265+H.265 2MP MAX120m HDMI/VGA AcuSense",
+    "description": "DVR 4CH TURBO 1080p LITE 4TB H.265+H.265 2MP MAX120m HDMI/VGA AcuSense",
+    "price": 186000,
+    "wholesalePrice": 171120,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-7104hghi-m1.webp",
+    "tags": [
+      "1080p"
+    ],
+    "specs": {
+      "Referencia": "DS-7104HGHI-M1©",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "DVR 4CH TURBO 1080p LITE 4TB H",
+      "265+H",
+      "265 2MP MAX120m HDMI/VGA AcuSense"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-7108hghi-m1",
+    "sku": "DS-7108HGHI-M1©",
+    "name": "Hikvision DS-7108HGHI-M1©",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "DVR 8CH TURBO 1080p LITE 1BAHIA/4TB H.265+/H.265 HDMI/VGA AcuSense",
+    "description": "DVR 8CH TURBO 1080p LITE 1BAHIA/4TB H.265+/H.265 HDMI/VGA AcuSense",
+    "price": 239000,
+    "wholesalePrice": 219880,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-7108hghi-m1.webp",
+    "tags": [
+      "1080p"
+    ],
+    "specs": {
+      "Referencia": "DS-7108HGHI-M1©",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "DVR 8CH TURBO 1080p LITE 1BAHIA/4TB H",
+      "265+/H",
+      "265 HDMI/VGA AcuSense"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-7116hghi-m1",
+    "sku": "DS-7116HGHI-M1€",
+    "name": "Hikvision DS-7116HGHI-M1€",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "DVR 16CH TURBO MINI 720P 10TB H265+ 15FPS HDMI/VGA HIKVISION AcuSense",
+    "description": "DVR 16CH TURBO MINI 720P 10TB H265+ 15FPS HDMI/VGA HIKVISION AcuSense",
+    "price": 454900,
+    "wholesalePrice": 418508,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-7116hghi-m1.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "DS-7116HGHI-M1€",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "DVR 16CH TURBO MINI 720P 10TB H265+ 15FPS HDMI/VGA HIKVISION AcuSense"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-7204hghi-m1",
+    "sku": "DS-7204HGHI-M1©",
+    "name": "Hikvision DS-7204HGHI-M1©",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "DVR 4CH TURBO 4TB H265+ 30FPS HDMI/VGA HIKVISION AcuSense",
+    "description": "DVR 4CH TURBO 4TB H265+ 30FPS HDMI/VGA HIKVISION AcuSense",
+    "price": 201200,
+    "wholesalePrice": 185104,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-7204hghi-m1.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "DS-7204HGHI-M1©",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "DVR 4CH TURBO 4TB H265+ 30FPS HDMI/VGA HIKVISION AcuSense"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-7208hghi-m1",
+    "sku": "DS-7208HGHI-M1©",
+    "name": "Hikvision DS-7208HGHI-M1©",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "DVR 8CH TURBO 1080P LITE 4TB H265+ HD 720P LITE WD1/4CIF/VGA 15FPS HDMI/VGA HIKVISION AcuSense",
+    "description": "DVR 8CH TURBO 1080P LITE 4TB H265+ HD 720P LITE WD1/4CIF/VGA 15FPS HDMI/VGA HIKVISION AcuSense",
+    "price": 258600,
+    "wholesalePrice": 237912,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-7208hghi-m1.webp",
+    "tags": [
+      "1080p"
+    ],
+    "specs": {
+      "Referencia": "DS-7208HGHI-M1©",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "DVR 8CH TURBO 1080P LITE 4TB H265+ HD 720P LITE WD1/4CIF/VGA 15FPS HDMI/VGA HIKVISION AcuSense"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-7216hghi-m1",
+    "sku": "DS-7216HGHI-M1€",
+    "name": "Hikvision DS-7216HGHI-M1€",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "DVR 16 CH TURBO 1080P LITE 10TB SATA H165+ 15FPS HDMI/VGA HIKVISION AcuSense",
+    "description": "DVR 16 CH TURBO 1080P LITE 10TB SATA H165+ 15FPS HDMI/VGA HIKVISION AcuSense",
+    "price": 487300,
+    "wholesalePrice": 448316,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-7216hghi-m1.webp",
+    "tags": [
+      "1080p"
+    ],
+    "specs": {
+      "Referencia": "DS-7216HGHI-M1€",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "DVR 16 CH TURBO 1080P LITE 10TB SATA H165+ 15FPS HDMI/VGA HIKVISION AcuSense"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-7232hghi-m2",
+    "sku": "DS-7232HGHI-M2",
+    "name": "Hikvision DS-7232HGHI-M2",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "DVR 32CH TURBO 1080P LITE 10TB SATA H265+ 15FPS  HDMI/VGA HIKVISION AcuSense",
+    "description": "DVR 32CH TURBO 1080P LITE 10TB SATA H265+ 15FPS  HDMI/VGA HIKVISION AcuSense",
+    "price": 1067000,
+    "wholesalePrice": 981640,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-7232hghi-m2.webp",
+    "tags": [
+      "1080p"
+    ],
+    "specs": {
+      "Referencia": "DS-7232HGHI-M2",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "DVR 32CH TURBO 1080P LITE 10TB SATA H265+ 15FPS  HDMI/VGA HIKVISION AcuSense"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ids-7104hqhi-m1-s",
+    "sku": "iDS-7104HQHI-M1/S",
+    "name": "Hikvision iDS-7104HQHI-M1/S",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "DVR 4 CANALES 1080p ACUSENSE / H.265 Pro+ / 1–6 CAMARAS IP HASTA 6MP / RECONOCIMIENTO ROSTROS 2 CH / PERÍMETRO 4 CH",
+    "description": "DVR 4 CANALES 1080p ACUSENSE / H.265 Pro+ / 1–6 CAMARAS IP HASTA 6MP / RECONOCIMIENTO ROSTROS 2 CH / PERÍMETRO 4 CH",
+    "price": 271700,
+    "wholesalePrice": 249964,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ids-7104hqhi-m1-s.webp",
+    "tags": [
+      "1080p"
+    ],
+    "specs": {
+      "Referencia": "iDS-7104HQHI-M1/S",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "DVR 4 CANALES 1080p ACUSENSE / H",
+      "265 Pro+ / 1–6 CAMARAS IP HASTA 6MP / RECONOCIMIENTO ROSTROS 2 CH / PERÍMETRO 4 CH"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ids-7116hqhi-m1-s",
+    "sku": "iDS-7116HQHI-M1/S",
+    "name": "Hikvision iDS-7116HQHI-M1/S",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "DVR 16 CANALES 1080p ACUSENSE / H.265 Pro+ / 2–24 CAMARAS IP HASTA 6MP / RECONOCIMIENTO ROSTROS 4 CH / PERÍMETRO 8 CH",
+    "description": "DVR 16 CANALES 1080p ACUSENSE / H.265 Pro+ / 2–24 CAMARAS IP HASTA 6MP / RECONOCIMIENTO ROSTROS 4 CH / PERÍMETRO 8 CH",
+    "price": 653900,
+    "wholesalePrice": 601588,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ids-7116hqhi-m1-s.webp",
+    "tags": [
+      "1080p"
+    ],
+    "specs": {
+      "Referencia": "iDS-7116HQHI-M1/S",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "DVR 16 CANALES 1080p ACUSENSE / H",
+      "265 Pro+ / 2–24 CAMARAS IP HASTA 6MP / RECONOCIMIENTO ROSTROS 4 CH / PERÍMETRO 8 CH"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ids-7104hqhi-m1-s-143",
+    "sku": "iDS-7104HQHI-M1/S©",
+    "name": "Hikvision iDS-7104HQHI-M1/S©",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "DVR 4CH MINI TURBO 4MP LITE 10TB H265+ DETECCION DE MOVIMIENTO 2.0 AcuSense",
+    "description": "DVR 4CH MINI TURBO 4MP LITE 10TB H265+ DETECCION DE MOVIMIENTO 2.0 AcuSense",
+    "price": 271700,
+    "wholesalePrice": 249964,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ids-7104hqhi-m1-s-fila-143.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "iDS-7104HQHI-M1/S©",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "DVR 4CH MINI TURBO 4MP LITE 10TB H265+ DETECCION DE MOVIMIENTO 2",
+      "0 AcuSense"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ids-7108hqhi-m1-s",
+    "sku": "iDS-7108HQHI-M1/S€",
+    "name": "Hikvision iDS-7108HQHI-M1/S€",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "DVR 8CH TURBO 4MP LITE 10TB H265+  ANALITICAS 15FPS HDMI/VGA AcuSense HIKVISION",
+    "description": "DVR 8CH TURBO 4MP LITE 10TB H265+  ANALITICAS 15FPS HDMI/VGA AcuSense HIKVISION",
+    "price": 413500,
+    "wholesalePrice": 380420,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ids-7108hqhi-m1-s.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "iDS-7108HQHI-M1/S€",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "DVR 8CH TURBO 4MP LITE 10TB H265+  ANALITICAS 15FPS HDMI/VGA AcuSense HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ids-7208hqhi-m1-fa",
+    "sku": "iDS-7208HQHI-M1/FA",
+    "name": "Hikvision iDS-7208HQHI-M1/FA",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "DVR 8CH TURBO 4MP lite 1BAHIA/10TB H.265+  RECONOCIMIENTO FACIAL ANALITICAS 30FPS HDMI/VGA METAL  2nd Gen AcuSense HIKVISION",
+    "description": "DVR 8CH TURBO 4MP lite 1BAHIA/10TB H.265+  RECONOCIMIENTO FACIAL ANALITICAS 30FPS HDMI/VGA METAL  2nd Gen AcuSense HIKVISION",
+    "price": 456700,
+    "wholesalePrice": 420164,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ids-7208hqhi-m1-fa.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "iDS-7208HQHI-M1/FA",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "DVR 8CH TURBO 4MP lite 1BAHIA/10TB H",
+      "265+  RECONOCIMIENTO FACIAL ANALITICAS 30FPS HDMI/VGA METAL  2nd Gen AcuSense HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ids-7332hqhi-m4-s",
+    "sku": "iDS-7332HQHI-M4/S",
+    "name": "Hikvision iDS-7332HQHI-M4/S",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "DVR 32 CANALES ANALÓGICOS 1080p ACUSENSE / H.265 Pro+ / IP HASTA 48C / PERÍMETRO 4 CH / RUEDA 32 CH",
+    "description": "DVR 32 CANALES ANALÓGICOS 1080p ACUSENSE / H.265 Pro+ / IP HASTA 48C / PERÍMETRO 4 CH / RUEDA 32 CH",
+    "price": 2635000,
+    "wholesalePrice": 2424200,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ids-7332hqhi-m4-s.webp",
+    "tags": [
+      "1080p"
+    ],
+    "specs": {
+      "Referencia": "iDS-7332HQHI-M4/S",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "DVR 32 CANALES ANALÓGICOS 1080p ACUSENSE / H",
+      "265 Pro+ / IP HASTA 48C / PERÍMETRO 4 CH / RUEDA 32 CH"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ds-7332hqhi-k4",
+    "sku": "DS-7332HQHI-K4",
+    "name": "Hikvision DS-7332HQHI-K4",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "DVR 32CH TURBO 4MP lite 4BAHIA/10TB H.265+ 30FPS HDMI 4K/VGA METAL HIKVISION",
+    "description": "DVR 32CH TURBO 4MP lite 4BAHIA/10TB H.265+ 30FPS HDMI 4K/VGA METAL HIKVISION",
+    "price": 2583400,
+    "wholesalePrice": 2376728,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-7332hqhi-k4.webp",
+    "tags": [
+      "4K"
+    ],
+    "specs": {
+      "Referencia": "DS-7332HQHI-K4",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "DVR 32CH TURBO 4MP lite 4BAHIA/10TB H",
+      "265+ 30FPS HDMI 4K/VGA METAL HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ids-8116hqhi-m8-s-std--s",
+    "sku": "iDS-8116HQHI-M8/S(STD)(S)",
+    "name": "Hikvision iDS-8116HQHI-M8/S(STD)(S)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "DVR 16 CANALES 1080p ACUSENSE / COMPRESIÓN H.265 Pro+ / HASTA 20 CÁMARAS IP / PERÍMETRO 8 CH / ROSTROS 16 CH",
+    "description": "DVR 16 CANALES 1080p ACUSENSE / COMPRESIÓN H.265 Pro+ / HASTA 20 CÁMARAS IP / PERÍMETRO 8 CH / ROSTROS 16 CH",
+    "price": 2510000,
+    "wholesalePrice": 2309200,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ids-8116hqhi-m8-s-std-s.webp",
+    "tags": [
+      "1080p"
+    ],
+    "specs": {
+      "Referencia": "iDS-8116HQHI-M8/S(STD)(S)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "DVR 16 CANALES 1080p ACUSENSE / COMPRESIÓN H",
+      "265 Pro+ / HASTA 20 CÁMARAS IP / PERÍMETRO 8 CH / ROSTROS 16 CH"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ids-7332hqhi-m4-s-std--s",
+    "sku": "iDS-7332HQHI-M4/S(STD)(S)",
+    "name": "Hikvision iDS-7332HQHI-M4/S(STD)(S)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "DVR 32 CANALES 1080p ACUSENSE / COMPRESIÓN H.265 Pro+ / HASTA 48 CÁMARAS IP / PERÍMETRO 4 CH / ROSTROS 32 CH",
+    "description": "DVR 32 CANALES 1080p ACUSENSE / COMPRESIÓN H.265 Pro+ / HASTA 48 CÁMARAS IP / PERÍMETRO 4 CH / ROSTROS 32 CH",
+    "price": 2687800,
+    "wholesalePrice": 2472776,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ids-7332hqhi-m4-s-std-s.webp",
+    "tags": [
+      "1080p"
+    ],
+    "specs": {
+      "Referencia": "iDS-7332HQHI-M4/S(STD)(S)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "DVR 32 CANALES 1080p ACUSENSE / COMPRESIÓN H",
+      "265 Pro+ / HASTA 48 CÁMARAS IP / PERÍMETRO 4 CH / ROSTROS 32 CH"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ids-7204huhi-m1-fa-c--4a-4-1alm",
+    "sku": "iDS-7204HUHI-M1/FA(C)/4A+4/1ALM",
+    "name": "Hikvision iDS-7204HUHI-M1/FA(C)/4A+4/1ALM",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "DVR 4CH TURBO 5MP 10TB H265+ DETECCION FACIAL ANALITICA 7,5FPS-12FPS HDMI/VGA AcuSense HIKVISION ENTRADA Y SALIDA DE ALARMA",
+    "description": "DVR 4CH TURBO 5MP 10TB H265+ DETECCION FACIAL ANALITICA 7,5FPS-12FPS HDMI/VGA AcuSense HIKVISION ENTRADA Y SALIDA DE ALARMA",
+    "price": 498800,
+    "wholesalePrice": 458896,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ids-7204huhi-m1-fa-c-4a-4-1alm.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "iDS-7204HUHI-M1/FA(C)/4A+4/1ALM",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "DVR 4CH TURBO 5MP 10TB H265+ DETECCION FACIAL ANALITICA 7",
+      "5FPS-12FPS HDMI/VGA AcuSense HIKVISION ENTRADA Y SALIDA DE ALARMA"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ids-7208huhi-m1-s-c--4a-8-4alm",
+    "sku": "iDS-7208HUHI-M1/S(C)/4A+8/4ALM",
+    "name": "Hikvision iDS-7208HUHI-M1/S(C)/4A+8/4ALM",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "DVR 8CH TURBO 8MP 1BAHIA/10TB H.265+  ANALITICAS 30FPS HDMI/VGA METAL  2nd Gen AcuSense HIKVISION ENTRADA Y SALIDA DE ALARMA",
+    "description": "DVR 8CH TURBO 8MP 1BAHIA/10TB H.265+  ANALITICAS 30FPS HDMI/VGA METAL  2nd Gen AcuSense HIKVISION ENTRADA Y SALIDA DE ALARMA",
+    "price": 718000,
+    "wholesalePrice": 660560,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ids-7208huhi-m1-s-c-4a-8-4alm.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "iDS-7208HUHI-M1/S(C)/4A+8/4ALM",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "DVR 8CH TURBO 8MP 1BAHIA/10TB H",
+      "265+  ANALITICAS 30FPS HDMI/VGA METAL  2nd Gen AcuSense HIKVISION ENTRADA Y SALIDA DE ALARMA"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ids-7332huhi-m4-s",
+    "sku": "iDS-7332HUHI-M4/S",
+    "name": "Hikvision iDS-7332HUHI-M4/S",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "DVR 32CH TURBO 5MP 12TB H265+ ANALITICAS 8FPS A 12FPS HIKVISION AcuSense",
+    "description": "DVR 32CH TURBO 5MP 12TB H265+ ANALITICAS 8FPS A 12FPS HIKVISION AcuSense",
+    "price": 3835000,
+    "wholesalePrice": 3528200,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ids-7332huhi-m4-s.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "iDS-7332HUHI-M4/S",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "DVR 32CH TURBO 5MP 12TB H265+ ANALITICAS 8FPS A 12FPS HIKVISION AcuSense"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ids-7208huhi-m2-s",
+    "sku": "iDS-7208HUHI-M2/S©",
+    "name": "Hikvision iDS-7208HUHI-M2/S©",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "DVR 8CH TURBO 8MP 2BAHIA/10TB H.265+  ANALITICAS 30FPS HDMI/VGA METAL  2nd Gen AcuSense HIKVISION",
+    "description": "DVR 8CH TURBO 8MP 2BAHIA/10TB H.265+  ANALITICAS 30FPS HDMI/VGA METAL  2nd Gen AcuSense HIKVISION",
+    "price": 911000,
+    "wholesalePrice": 838120,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ids-7208huhi-m2-s.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "iDS-7208HUHI-M2/S©",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "DVR 8CH TURBO 8MP 2BAHIA/10TB H",
+      "265+  ANALITICAS 30FPS HDMI/VGA METAL  2nd Gen AcuSense HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-turbo-ids-7208hthi-m2-s-c--4a-8-4alm",
+    "sku": "iDS-7208HTHI-M2/S(C)/4A+8/4ALM",
+    "name": "Hikvision iDS-7208HTHI-M2/S(C)/4A+8/4ALM",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "DVR 8CH TURBO 8MP H265+ 15FPS HDMI/VGA HIKVISION AcuSense",
+    "description": "DVR 8CH TURBO 8MP H265+ 15FPS HDMI/VGA HIKVISION AcuSense",
+    "price": 1515000,
+    "wholesalePrice": 1393800,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ids-7208hthi-m2-s-c-4a-8-4alm.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "iDS-7208HTHI-M2/S(C)/4A+8/4ALM",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "DVR 8CH TURBO 8MP H265+ 15FPS HDMI/VGA HIKVISION AcuSense"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-2cd1123g2-liu-2-8mm",
+    "sku": "DS-2CD1123G2-LIU(2.8mm)",
+    "name": "Hikvision DS-2CD1123G2-LIU(2.8mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA IP DOMO HIBRIDA B/N - Color VU 2MP MICROFONO INCORPORADO 0,005 Lux DETECCION DE PERSONAS Y VEHÍCULOS H.265 +, 120dB WDR IR: 30 m, Luz...",
+    "description": "CAMARA IP DOMO HIBRIDA B/N - Color VU 2MP MICROFONO INCORPORADO 0,005 Lux DETECCION DE PERSONAS Y VEHÍCULOS H.265 +, 120dB WDR IR: 30 m, Luz blanca: 20 m IP67",
+    "price": 230200,
+    "wholesalePrice": 211784,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2cd1123g2-liu-2-8mm.webp",
+    "tags": [
+      "IP67"
+    ],
+    "specs": {
+      "Referencia": "DS-2CD1123G2-LIU(2.8mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA IP DOMO HIBRIDA B/N - Color VU 2MP MICROFONO INCORPORADO 0",
+      "005 Lux DETECCION DE PERSONAS Y VEHÍCULOS H",
+      "265 +"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-2cd1327g2-l-2-8mm",
+    "sku": "DS-2CD1327G2-L(2.8mm)",
+    "name": "Hikvision DS-2CD1327G2-L(2.8mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA IP 2MP COLORVU MD 2.0 TURRET H2.65+ IP67 WDR 2.8MM LUZ BLANCA 30M METAL Y PLASTICO HIKVISION",
+    "description": "CAMARA IP 2MP COLORVU MD 2.0 TURRET H2.65+ IP67 WDR 2.8MM LUZ BLANCA 30M METAL Y PLASTICO HIKVISION",
+    "price": 225700,
+    "wholesalePrice": 207644,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2cd1327g2-l-2-8mm.webp",
+    "tags": [
+      "IP67"
+    ],
+    "specs": {
+      "Referencia": "DS-2CD1327G2-L(2.8mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA IP 2MP COLORVU MD 2",
+      "0 TURRET H2",
+      "65+ IP67 WDR 2"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-2cd2121g0-i--2-8mm",
+    "sku": "DS-2CD2121G0-I (2.8mm)©",
+    "name": "Hikvision DS-2CD2121G0-I (2.8mm)©",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA EXT MINI DOMO 2MP D/N F2.8MMDWDR H265+ IR30m METAL/PLASTICO HIKVISION",
+    "description": "CAMARA EXT MINI DOMO 2MP D/N F2.8MMDWDR H265+ IR30m METAL/PLASTICO HIKVISION",
+    "price": 329000,
+    "wholesalePrice": 302680,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2cd2121g0-i-2-8mm.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "DS-2CD2121G0-I (2.8mm)©",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA EXT MINI DOMO 2MP D/N F2",
+      "8MMDWDR H265+ IR30m METAL/PLASTICO HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-2cd2123g0-i--2-8mm",
+    "sku": "DS-2CD2123G0-I (2.8mm)",
+    "name": "Hikvision DS-2CD2123G0-I (2.8mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA EXT MINI DOMO 2MP D/N LENTE F2.8M IR30M120DB SEMIMETALICA H.265+ IP67 IK10 HIKVISION",
+    "description": "CAMARA EXT MINI DOMO 2MP D/N LENTE F2.8M IR30M120DB SEMIMETALICA H.265+ IP67 IK10 HIKVISION",
+    "price": 420600,
+    "wholesalePrice": 386952,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2cd2123g0-i-2-8mm.webp",
+    "tags": [
+      "IP67"
+    ],
+    "specs": {
+      "Referencia": "DS-2CD2123G0-I (2.8mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA EXT MINI DOMO 2MP D/N LENTE F2",
+      "8M IR30M120DB SEMIMETALICA H",
+      "265+ IP67 IK10 HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-2cd1723g0-iz--2-8-12mm",
+    "sku": "DS-2CD1723G0-IZ (2.8-12mm)©",
+    "name": "Hikvision DS-2CD1723G0-IZ (2.8-12mm)©",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA IP 2MP DOMO H265+VARIFOCAL MOTO120DB IR30m IP67 IK10 METAL HIKVISION",
+    "description": "CAMARA IP 2MP DOMO H265+VARIFOCAL MOTO120DB IR30m IP67 IK10 METAL HIKVISION",
+    "price": 401300,
+    "wholesalePrice": 369196,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2cd1723g0-iz-2-8-12mm.webp",
+    "tags": [
+      "IP67"
+    ],
+    "specs": {
+      "Referencia": "DS-2CD1723G0-IZ (2.8-12mm)©",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA IP 2MP DOMO H265+VARIFOCAL MOTO120DB IR30m IP67 IK10 METAL HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-2cd1723g2-iz-2-8-12mm",
+    "sku": "DS-2CD1723G2-IZ(2.8-12mm)",
+    "name": "Hikvision DS-2CD1723G2-IZ(2.8-12mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA IP 2MP DOMO MD 2.0 H265+ DWDR VF MOTORIZADA IP67 IK10 METAL HIKVISION",
+    "description": "CAMARA IP 2MP DOMO MD 2.0 H265+ DWDR VF MOTORIZADA IP67 IK10 METAL HIKVISION",
+    "price": 401300,
+    "wholesalePrice": 369196,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2cd1723g2-iz-2-8-12mm.webp",
+    "tags": [
+      "IP67"
+    ],
+    "specs": {
+      "Referencia": "DS-2CD1723G2-IZ(2.8-12mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA IP 2MP DOMO MD 2",
+      "0 H265+ DWDR VF MOTORIZADA IP67 IK10 METAL HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-2cd1347g2h-liu-f",
+    "sku": "DS-2CD1347G2H-LIU(F)",
+    "name": "Hikvision DS-2CD1347G2H-LIU(F)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CÁMARA DOMO 4 MP COLORVU SMART HYBRID LIGHT / DETECCIÓN HUM‑VEH / LENTE FIJO 2.8/4 MM / H.265+ / MICRÓFONO / SD‑512 GB / IP67",
+    "description": "CÁMARA DOMO 4 MP COLORVU SMART HYBRID LIGHT / DETECCIÓN HUM‑VEH / LENTE FIJO 2.8/4 MM / H.265+ / MICRÓFONO / SD‑512 GB / IP67",
+    "price": 351400,
+    "wholesalePrice": 323288,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2cd1347g2h-liu-f.webp",
+    "tags": [
+      "IP67"
+    ],
+    "specs": {
+      "Referencia": "DS-2CD1347G2H-LIU(F)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CÁMARA DOMO 4 MP COLORVU SMART HYBRID LIGHT / DETECCIÓN HUM‑VEH / LENTE FIJO 2",
+      "8/4 MM / H",
+      "265+ / MICRÓFONO / SD‑512 GB / IP67"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-2cd1347g2h-liu-f-55",
+    "sku": "DS-2CD1347G2H-LIU(F)",
+    "name": "Hikvision DS-2CD1347G2H-LIU(F)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CÁMARA DOMO 4 MP COLORVU SMART HYBRID LIGHT / DETECCIÓN HUM‑VEH / LENTE FIJO 2.8/4 MM / H.265+ / MICRÓFONO / SD‑512 GB / IP67",
+    "description": "CÁMARA DOMO 4 MP COLORVU SMART HYBRID LIGHT / DETECCIÓN HUM‑VEH / LENTE FIJO 2.8/4 MM / H.265+ / MICRÓFONO / SD‑512 GB / IP67",
+    "price": 377500,
+    "wholesalePrice": 347300,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2cd1347g2h-liu-f-fila-55.webp",
+    "tags": [
+      "IP67"
+    ],
+    "specs": {
+      "Referencia": "DS-2CD1347G2H-LIU(F)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CÁMARA DOMO 4 MP COLORVU SMART HYBRID LIGHT / DETECCIÓN HUM‑VEH / LENTE FIJO 2",
+      "8/4 MM / H",
+      "265+ / MICRÓFONO / SD‑512 GB / IP67"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-2cd1343g2-liu-f---ab",
+    "sku": "DS-2CD1343G2-LIU(F)(/AB)",
+    "name": "Hikvision DS-2CD1343G2-LIU(F)(/AB)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CÁMARA DOMO 4 MP SMART HYBRID LIGHT / DETECCIÓN HUM‑VEH / LENTE FIJO 2.8/4 MM / H.265+ / MICRÓFONO / SD‑512 GB / IP67",
+    "description": "CÁMARA DOMO 4 MP SMART HYBRID LIGHT / DETECCIÓN HUM‑VEH / LENTE FIJO 2.8/4 MM / H.265+ / MICRÓFONO / SD‑512 GB / IP67",
+    "price": 304800,
+    "wholesalePrice": 280416,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2cd1343g2-liu-f-ab.webp",
+    "tags": [
+      "IP67"
+    ],
+    "specs": {
+      "Referencia": "DS-2CD1343G2-LIU(F)(/AB)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CÁMARA DOMO 4 MP SMART HYBRID LIGHT / DETECCIÓN HUM‑VEH / LENTE FIJO 2",
+      "8/4 MM / H",
+      "265+ / MICRÓFONO / SD‑512 GB / IP67"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-2se2c400mwg-e-14",
+    "sku": "DS-2SE2C400MWG-E/14",
+    "name": "Hikvision DS-2SE2C400MWG-E/14",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "TANDÉMVU PT 4 MP+4 MP / SMART HYBRID LIGHT / DETECCIÓN HUM‑VEH / POE/DC12 V / MIC+ALTAVOZ / SD‑512 GB / IP66",
+    "description": "TANDÉMVU PT 4 MP+4 MP / SMART HYBRID LIGHT / DETECCIÓN HUM‑VEH / POE/DC12 V / MIC+ALTAVOZ / SD‑512 GB / IP66",
+    "price": 424000,
+    "wholesalePrice": 390080,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2se2c400mwg-e-14.webp",
+    "tags": [
+      "IP66",
+      "PoE"
+    ],
+    "specs": {
+      "Referencia": "DS-2SE2C400MWG-E/14",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "TANDÉMVU PT 4 MP+4 MP / SMART HYBRID LIGHT / DETECCIÓN HUM‑VEH / POE/DC12 V / MIC+ALTAVOZ / SD‑512 GB / IP66"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-2de2c400mwg-e",
+    "sku": "DS-2DE2C400MWG-E",
+    "name": "Hikvision DS-2DE2C400MWG-E",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "PT MINI 4 MP / SMART HYBRID LIGHT / DETECCIÓN HUM‑VEH / POE/DC12 V / MIC+ALTAVOZ / SD‑512 GB / IP66",
+    "description": "PT MINI 4 MP / SMART HYBRID LIGHT / DETECCIÓN HUM‑VEH / POE/DC12 V / MIC+ALTAVOZ / SD‑512 GB / IP66",
+    "price": 272200,
+    "wholesalePrice": 250424,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2de2c400mwg-e.webp",
+    "tags": [
+      "IP66",
+      "PoE"
+    ],
+    "specs": {
+      "Referencia": "DS-2DE2C400MWG-E",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "PT MINI 4 MP / SMART HYBRID LIGHT / DETECCIÓN HUM‑VEH / POE/DC12 V / MIC+ALTAVOZ / SD‑512 GB / IP66"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-2cd1143g0-i--2-8mm",
+    "sku": "DS-2CD1143G0-I (2.8mm)",
+    "name": "Hikvision DS-2CD1143G0-I (2.8mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA IP 4MP DOMO H265+ DWDR D/NF2.8 IR30m IP67 IK10 SEMIMETAL HIKVISION",
+    "description": "CAMARA IP 4MP DOMO H265+ DWDR D/NF2.8 IR30m IP67 IK10 SEMIMETAL HIKVISION",
+    "price": 307000,
+    "wholesalePrice": 282440,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2cd1143g0-i-2-8mm.webp",
+    "tags": [
+      "IP67"
+    ],
+    "specs": {
+      "Referencia": "DS-2CD1143G0-I (2.8mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA IP 4MP DOMO H265+ DWDR D/NF2",
+      "8 IR30m IP67 IK10 SEMIMETAL HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-2cd1147g2h-liu-2-8mm--o-std",
+    "sku": "DS-2CD1147G2H-LIU(2.8mm)(O-STD)",
+    "name": "Hikvision DS-2CD1147G2H-LIU(2.8mm)(O-STD)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CÁMARA IP 4 MP COLORVU DOMO FIJO H265+ IP67 IK08 DWDR 2.8mm LUZ HÍBRIDA INTELIGENTE 30m MICRÓFONO INTEGRADO\nHIKVISION",
+    "description": "CÁMARA IP 4 MP COLORVU DOMO FIJO H265+ IP67 IK08 DWDR 2.8mm LUZ HÍBRIDA INTELIGENTE 30m MICRÓFONO INTEGRADO\nHIKVISION",
+    "price": 372500,
+    "wholesalePrice": 342700,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2cd1147g2h-liu-2-8mm-o-std.webp",
+    "tags": [
+      "IP67"
+    ],
+    "specs": {
+      "Referencia": "DS-2CD1147G2H-LIU(2.8mm)(O-STD)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CÁMARA IP 4 MP COLORVU DOMO FIJO H265+ IP67 IK08 DWDR 2",
+      "8mm LUZ HÍBRIDA INTELIGENTE 30m MICRÓFONO INTEGRADO\nHIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-2cd1347g0-l--2-8mm",
+    "sku": "DS-2CD1347G0-L (2.8mm)©",
+    "name": "Hikvision DS-2CD1347G0-L (2.8mm)©",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA IP 4 MP COLORVU TURRET H265+ IP67  DWDR 2.8mm LUZ BLANCA 30m SEMIMETALICA HIKVISION",
+    "description": "CAMARA IP 4 MP COLORVU TURRET H265+ IP67  DWDR 2.8mm LUZ BLANCA 30m SEMIMETALICA HIKVISION",
+    "price": 337700,
+    "wholesalePrice": 310684,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2cd1347g0-l-2-8mm.webp",
+    "tags": [
+      "IP67"
+    ],
+    "specs": {
+      "Referencia": "DS-2CD1347G0-L (2.8mm)©",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA IP 4 MP COLORVU TURRET H265+ IP67  DWDR 2",
+      "8mm LUZ BLANCA 30m SEMIMETALICA HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-2cd1347g2-l-2-8mm",
+    "sku": "DS-2CD1347G2-L(2.8mm)",
+    "name": "Hikvision DS-2CD1347G2-L(2.8mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA IP 4MP COLORVU MD 2.0 TURRET H2.65+ IP67 WDR 2.8MM LUZ BLANCA 30M METAL Y PLASTICO HIKVISION",
+    "description": "CAMARA IP 4MP COLORVU MD 2.0 TURRET H2.65+ IP67 WDR 2.8MM LUZ BLANCA 30M METAL Y PLASTICO HIKVISION",
+    "price": 337700,
+    "wholesalePrice": 310684,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2cd1347g2-l-2-8mm.webp",
+    "tags": [
+      "IP67"
+    ],
+    "specs": {
+      "Referencia": "DS-2CD1347G2-L(2.8mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA IP 4MP COLORVU MD 2",
+      "0 TURRET H2",
+      "65+ IP67 WDR 2"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-2cd2143g0-i--2-8mm",
+    "sku": "DS-2CD2143G0-I (2.8mm)",
+    "name": "Hikvision DS-2CD2143G0-I (2.8mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA EXT MINI DOMO 4MP D/N F 2.8MM IK10 IR 30M 120DB H265+ IP67 HIKVISION",
+    "description": "CAMARA EXT MINI DOMO 4MP D/N F 2.8MM IK10 IR 30M 120DB H265+ IP67 HIKVISION",
+    "price": 454400,
+    "wholesalePrice": 418048,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2cd2143g0-i-2-8mm.webp",
+    "tags": [
+      "IP67"
+    ],
+    "specs": {
+      "Referencia": "DS-2CD2143G0-I (2.8mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA EXT MINI DOMO 4MP D/N F 2",
+      "8MM IK10 IR 30M 120DB H265+ IP67 HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-2cd2143g2-i-2-8mm",
+    "sku": "DS-2CD2143G2-I(2.8mm)",
+    "name": "Hikvision DS-2CD2143G2-I(2.8mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "DOMO IP 4MP / LENTE 2.8MM / 30MTS IR EXIR / EXTERIOR IP67 / IK10 / WDR 120DB / VIDEOANALITICOS",
+    "description": "DOMO IP 4MP / LENTE 2.8MM / 30MTS IR EXIR / EXTERIOR IP67 / IK10 / WDR 120DB / VIDEOANALITICOS",
+    "price": 477100,
+    "wholesalePrice": 438932,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2cd2143g2-i-2-8mm.webp",
+    "tags": [
+      "IP67"
+    ],
+    "specs": {
+      "Referencia": "DS-2CD2143G2-I(2.8mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "DOMO IP 4MP / LENTE 2",
+      "8MM / 30MTS IR EXIR / EXTERIOR IP67 / IK10 / WDR 120DB / VIDEOANALITICOS"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-2cd2143g2-is-2-8mm",
+    "sku": "DS-2CD2143G2-IS(2.8mm)",
+    "name": "Hikvision DS-2CD2143G2-IS(2.8mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA EXT MINI DOMO 4MP 2.8MM IK10 IR 30M 120DB H265+ 67 AcuSense HIKVISION",
+    "description": "CAMARA EXT MINI DOMO 4MP 2.8MM IK10 IR 30M 120DB H265+ 67 AcuSense HIKVISION",
+    "price": 500900,
+    "wholesalePrice": 460828,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2cd2143g2-is-2-8mm.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "DS-2CD2143G2-IS(2.8mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA EXT MINI DOMO 4MP 2",
+      "8MM IK10 IR 30M 120DB H265+ 67 AcuSense HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-2cd1743g0-iz--2-8-12mm",
+    "sku": "DS-2CD1743G0-IZ (2.8-12mm)©",
+    "name": "Hikvision DS-2CD1743G0-IZ (2.8-12mm)©",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA IP 4MP DOMO H265+VARIFOCAL MOTO120DB IR30m IP67 IK10 METAL HIKVISION",
+    "description": "CAMARA IP 4MP DOMO H265+VARIFOCAL MOTO120DB IR30m IP67 IK10 METAL HIKVISION",
+    "price": 504600,
+    "wholesalePrice": 464232,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2cd1743g0-iz-2-8-12mm.webp",
+    "tags": [
+      "IP67"
+    ],
+    "specs": {
+      "Referencia": "DS-2CD1743G0-IZ (2.8-12mm)©",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA IP 4MP DOMO H265+VARIFOCAL MOTO120DB IR30m IP67 IK10 METAL HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-2cd2743g1-izs-2-8-12mm",
+    "sku": "DS-2CD2743G1-IZS(2.8-12mm)",
+    "name": "Hikvision DS-2CD2743G1-IZS(2.8-12mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA IP 4MP DOMO MOTORIZADA F1.6 EXIR 30m IR WDR 120 dB H265+  IK10 IP67  CON ENTRADA DE  AUDIO Y ALARMA HIKVISION",
+    "description": "CAMARA IP 4MP DOMO MOTORIZADA F1.6 EXIR 30m IR WDR 120 dB H265+  IK10 IP67  CON ENTRADA DE  AUDIO Y ALARMA HIKVISION",
+    "price": 894200,
+    "wholesalePrice": 822664,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2cd2743g1-izs-2-8-12mm.webp",
+    "tags": [
+      "IP67"
+    ],
+    "specs": {
+      "Referencia": "DS-2CD2743G1-IZS(2.8-12mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA IP 4MP DOMO MOTORIZADA F1",
+      "6 EXIR 30m IR WDR 120 dB H265+  IK10 IP67  CON ENTRADA DE  AUDIO Y ALARMA HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-2cd1143g2-liu-2-8mm",
+    "sku": "DS-2CD1143G2-LIU(2.8mm)",
+    "name": "Hikvision DS-2CD1143G2-LIU(2.8mm)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA IP DOMO HIBRIDA B/N - Color VU 4MP MICROFONO INCORPORADO 0,005 Lux DETECCION DE PERSONAS Y VEHÍCULOS H.265 +, 120dB WDR IR: 30 m, Luz...",
+    "description": "CAMARA IP DOMO HIBRIDA B/N - Color VU 4MP MICROFONO INCORPORADO 0,005 Lux DETECCION DE PERSONAS Y VEHÍCULOS H.265 +, 120dB WDR IR: 30 m, Luz blanca: 20 m IP67",
+    "price": 319500,
+    "wholesalePrice": 293940,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2cd1143g2-liu-2-8mm.webp",
+    "tags": [
+      "IP67"
+    ],
+    "specs": {
+      "Referencia": "DS-2CD1143G2-LIU(2.8mm)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA IP DOMO HIBRIDA B/N - Color VU 4MP MICROFONO INCORPORADO 0",
+      "005 Lux DETECCION DE PERSONAS Y VEHÍCULOS H",
+      "265 +"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-2cfs04-4g-2-8mm--o-std--la",
+    "sku": "DS-2CFS04/4G(2.8mm)(O-STD)/LA",
+    "name": "Hikvision DS-2CFS04/4G(2.8mm)(O-STD)/LA",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CÁMARA SOLAR 4G 4 MP / GRABACIÓN 24/7 AOV / PANEL SOLAR 8 W + BATERÍA 9000 mAh / TRANSMISIÓN LTE / LUZ HÍBRIDA INTELIGENTE (30 m BLANCA + IR...",
+    "description": "CÁMARA SOLAR 4G 4 MP / GRABACIÓN 24/7 AOV / PANEL SOLAR 8 W + BATERÍA 9000 mAh / TRANSMISIÓN LTE / LUZ HÍBRIDA INTELIGENTE (30 m BLANCA + IR) / DETECCIÓN HUMANO-VEHÍCULO / AUDIO BIDIRECCIONAL / IP66 RESISTENTE AL AGUA Y POLVO",
+    "price": 406800,
+    "wholesalePrice": 374256,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2cfs04-4g-2-8mm-o-std-la.webp",
+    "tags": [
+      "IP66"
+    ],
+    "specs": {
+      "Referencia": "DS-2CFS04/4G(2.8mm)(O-STD)/LA",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CÁMARA SOLAR 4G 4 MP / GRABACIÓN 24/7 AOV / PANEL SOLAR 8 W + BATERÍA 9000 mAh / TRANSMISIÓN LTE / LUZ HÍBRIDA INTELIGENTE (30 m BLANCA + IR) / DETECCIÓN HUMANO-VEHÍCULO / AUDIO BIDIRECCIONAL / IP66 RESISTENTE AL AGUA Y POLVO"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-2cfsp4-4g-2-8mm--o-std--la",
+    "sku": "DS-2CFSP4/4G(2.8mm)(O-STD)/LA",
+    "name": "Hikvision DS-2CFSP4/4G(2.8mm)(O-STD)/LA",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CÁMARA SOLAR 4G PT 4 MP / GRABACIÓN 24/7 AOV / PANEL SOLAR 8 W + BATERÍA 9000 mAh / TRANSMISIÓN LTE / LUZ HÍBRIDA INTELIGENTE (30 m BLANCA +...",
+    "description": "CÁMARA SOLAR 4G PT 4 MP / GRABACIÓN 24/7 AOV / PANEL SOLAR 8 W + BATERÍA 9000 mAh / TRANSMISIÓN LTE / LUZ HÍBRIDA INTELIGENTE (30 m BLANCA + IR) / DETECCIÓN HUMANO-VEHÍCULO / AUDIO BIDIRECCIONAL / IP66 RESISTENTE AL AGUA Y POLVO / SMART TRACKING CON PT MOTORIZADO",
+    "price": 580200,
+    "wholesalePrice": 533784,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2cfsp4-4g-2-8mm-o-std-la.webp",
+    "tags": [
+      "IP66"
+    ],
+    "specs": {
+      "Referencia": "DS-2CFSP4/4G(2.8mm)(O-STD)/LA",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CÁMARA SOLAR 4G PT 4 MP / GRABACIÓN 24/7 AOV / PANEL SOLAR 8 W + BATERÍA 9000 mAh / TRANSMISIÓN LTE / LUZ HÍBRIDA INTELIGENTE (30 m BLANCA + IR) / DETECCIÓN HUMANO-VEHÍCULO / AUDIO BIDIRECCIONAL / IP66 RESISTENTE AL AGUA Y POLVO / SMART TRACKING CON PT MOTORIZADO"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-2se3c404mwg-e-14",
+    "sku": "DS-2SE3C404MWG-E/14",
+    "name": "Hikvision DS-2SE3C404MWG-E/14",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "ANDEMVU PTZ 4 MP+4 MP / ZOOM 4× ÓPTICO‑16× DIGITAL / HYBRID LIGHT / DETECCIÓN HUM‑VEH / POE+/12 VDC / IP66",
+    "description": "ANDEMVU PTZ 4 MP+4 MP / ZOOM 4× ÓPTICO‑16× DIGITAL / HYBRID LIGHT / DETECCIÓN HUM‑VEH / POE+/12 VDC / IP66",
+    "price": 878200,
+    "wholesalePrice": 807944,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2se3c404mwg-e-14.webp",
+    "tags": [
+      "IP66",
+      "PoE"
+    ],
+    "specs": {
+      "Referencia": "DS-2SE3C404MWG-E/14",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "ANDEMVU PTZ 4 MP+4 MP / ZOOM 4× ÓPTICO‑16× DIGITAL / HYBRID LIGHT / DETECCIÓN HUM‑VEH / POE+/12 VDC / IP66"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-2de2a204iw-de3-c0--s6",
+    "sku": "DS-2DE2A204IW-DE3(C0)(S6)©",
+    "name": "Hikvision DS-2DE2A204IW-DE3(C0)(S6)©",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA MINI PTZ 2MP DARKF 4XZOOM H265+ 120DB IR20M IP66 IK10 HIKVISION",
+    "description": "CAMARA MINI PTZ 2MP DARKF 4XZOOM H265+ 120DB IR20M IP66 IK10 HIKVISION",
+    "price": 753000,
+    "wholesalePrice": 692760,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2de2a204iw-de3-c0-s6.webp",
+    "tags": [
+      "IP66"
+    ],
+    "specs": {
+      "Referencia": "DS-2DE2A204IW-DE3(C0)(S6)©",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA MINI PTZ 2MP DARKF 4XZOOM H265+ 120DB IR20M IP66 IK10 HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-2de2a404iw-de3--c0--s6",
+    "sku": "DS-2DE2A404IW-DE3 (C0)(S6)©",
+    "name": "Hikvision DS-2DE2A404IW-DE3 (C0)(S6)©",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA MINI PTZ 4MP DARKF 4XZOOM H265+ 120DB IR20m EXIR POE IP66 IK10 HIKVISION",
+    "description": "CAMARA MINI PTZ 4MP DARKF 4XZOOM H265+ 120DB IR20m EXIR POE IP66 IK10 HIKVISION",
+    "price": 834800,
+    "wholesalePrice": 768016,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2de2a404iw-de3-c0-s6.webp",
+    "tags": [
+      "IP66",
+      "PoE"
+    ],
+    "specs": {
+      "Referencia": "DS-2DE2A404IW-DE3 (C0)(S6)©",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA MINI PTZ 4MP DARKF 4XZOOM H265+ 120DB IR20m EXIR POE IP66 IK10 HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-2de4225iw-de--t5",
+    "sku": "DS-2DE4225IW-DE (T5)",
+    "name": "Hikvision DS-2DE4225IW-DE (T5)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA DOMO PTZ 2MP 25XZOOM H.265+ IR100m IP66 \nADC12 AcuSense",
+    "description": "CAMARA DOMO PTZ 2MP 25XZOOM H.265+ IR100m IP66 \nADC12 AcuSense",
+    "price": 2094900,
+    "wholesalePrice": 1927308,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2de4225iw-de-t5.webp",
+    "tags": [
+      "IP66"
+    ],
+    "specs": {
+      "Referencia": "DS-2DE4225IW-DE (T5)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA DOMO PTZ 2MP 25XZOOM H",
+      "265+ IR100m IP66 \nADC12 AcuSense"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-2de4425iw-de--t5",
+    "sku": "DS-2DE4425IW-DE (T5)",
+    "name": "Hikvision DS-2DE4425IW-DE (T5)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA DOMO PTZ 4MP DARKF 25XZOOM H265+ HASTA 5 ROSTROS IR100m EXIR POE IP66 ADC12 AcuSense",
+    "description": "CAMARA DOMO PTZ 4MP DARKF 25XZOOM H265+ HASTA 5 ROSTROS IR100m EXIR POE IP66 ADC12 AcuSense",
+    "price": 2351900,
+    "wholesalePrice": 2163748,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2de4425iw-de-t5.webp",
+    "tags": [
+      "IP66",
+      "PoE"
+    ],
+    "specs": {
+      "Referencia": "DS-2DE4425IW-DE (T5)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA DOMO PTZ 4MP DARKF 25XZOOM H265+ HASTA 5 ROSTROS IR100m EXIR POE IP66 ADC12 AcuSense"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-2de5425iw-ae--t5",
+    "sku": "DS-2DE5425IW-AE (T5)",
+    "name": "Hikvision DS-2DE5425IW-AE (T5)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "CAMARA DOMO PTZ 4MP DARKF 25XZOOM H265+ IR150m IP66 AcuSense",
+    "description": "CAMARA DOMO PTZ 4MP DARKF 25XZOOM H265+ IR150m IP66 AcuSense",
+    "price": 2556900,
+    "wholesalePrice": 2352348,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-2de5425iw-ae-t5.webp",
+    "tags": [
+      "IP66"
+    ],
+    "specs": {
+      "Referencia": "DS-2DE5425IW-AE (T5)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CAMARA DOMO PTZ 4MP DARKF 25XZOOM H265+ IR150m IP66 AcuSense"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-7608ni-q1-8p",
+    "sku": "DS-7608NI-Q1/8P",
+    "name": "Hikvision DS-7608NI-Q1/8P",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "NVR 8 CANALES POE / H.265+ / SALIDAS HDMI 4K+VGA / ANCHO 80 Mbps / 1 SATA 8 TB / AUDIO BIDIRECCIONAL",
+    "description": "NVR 8 CANALES POE / H.265+ / SALIDAS HDMI 4K+VGA / ANCHO 80 Mbps / 1 SATA 8 TB / AUDIO BIDIRECCIONAL",
+    "price": 774700,
+    "wholesalePrice": 712724,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-7608ni-q1-8p.webp",
+    "tags": [
+      "PoE",
+      "4K"
+    ],
+    "specs": {
+      "Referencia": "DS-7608NI-Q1/8P",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "NVR 8 CANALES POE / H",
+      "265+ / SALIDAS HDMI 4K+VGA / ANCHO 80 Mbps / 1 SATA 8 TB / AUDIO BIDIRECCIONAL"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-7608nxi-k2-d",
+    "sku": "DS-7608NXI-K2(D)",
+    "name": "Hikvision DS-7608NXI-K2(D)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "NVR 8 CANALES ACUSENSE 4K / H.265+ / SALIDAS HDMI 4K+VGA / ANCHO 80 Mbps / 2 SATA 20 TB / ANALÍTICA HUM‑VEH",
+    "description": "NVR 8 CANALES ACUSENSE 4K / H.265+ / SALIDAS HDMI 4K+VGA / ANCHO 80 Mbps / 2 SATA 20 TB / ANALÍTICA HUM‑VEH",
+    "price": 647900,
+    "wholesalePrice": 596068,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-7608nxi-k2-d.webp",
+    "tags": [
+      "4K"
+    ],
+    "specs": {
+      "Referencia": "DS-7608NXI-K2(D)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "NVR 8 CANALES ACUSENSE 4K / H",
+      "265+ / SALIDAS HDMI 4K+VGA / ANCHO 80 Mbps / 2 SATA 20 TB / ANALÍTICA HUM‑VEH"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-7608nxi-k2-8p-d",
+    "sku": "DS-7608NXI-K2/8P(D)",
+    "name": "Hikvision DS-7608NXI-K2/8P(D)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "NVR 8 CANALES ACUSENSE 4K POE / H.265+ / SALIDAS HDMI 4K+VGA / ANCHO 80 Mbps / 2 SATA 20 TB / AUDIO BIDIRECCIONAL / ANALÍTICA HUM‑VEH",
+    "description": "NVR 8 CANALES ACUSENSE 4K POE / H.265+ / SALIDAS HDMI 4K+VGA / ANCHO 80 Mbps / 2 SATA 20 TB / AUDIO BIDIRECCIONAL / ANALÍTICA HUM‑VEH",
+    "price": 1073100,
+    "wholesalePrice": 987252,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-7608nxi-k2-8p-d.webp",
+    "tags": [
+      "PoE",
+      "4K"
+    ],
+    "specs": {
+      "Referencia": "DS-7608NXI-K2/8P(D)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "NVR 8 CANALES ACUSENSE 4K POE / H",
+      "265+ / SALIDAS HDMI 4K+VGA / ANCHO 80 Mbps / 2 SATA 20 TB / AUDIO BIDIRECCIONAL / ANALÍTICA HUM‑VEH"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-7616nxi-k2-d",
+    "sku": "DS-7616NXI-K2(D)",
+    "name": "Hikvision DS-7616NXI-K2(D)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "NVR 16 CANALES ACUSENSE 4K / H.265+ / SALIDAS HDMI 4K+VGA / ANCHO … / 2 SATA HASTA 20 TB / ANALÍTICA HUM‑VEH",
+    "description": "NVR 16 CANALES ACUSENSE 4K / H.265+ / SALIDAS HDMI 4K+VGA / ANCHO … / 2 SATA HASTA 20 TB / ANALÍTICA HUM‑VEH",
+    "price": 738800,
+    "wholesalePrice": 679696,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-7616nxi-k2-d.webp",
+    "tags": [
+      "4K"
+    ],
+    "specs": {
+      "Referencia": "DS-7616NXI-K2(D)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "NVR 16 CANALES ACUSENSE 4K / H",
+      "265+ / SALIDAS HDMI 4K+VGA / ANCHO … / 2 SATA HASTA 20 TB / ANALÍTICA HUM‑VEH"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-7616nxi-k2-16p-d",
+    "sku": "DS-7616NXI-K2/16P(D)",
+    "name": "Hikvision DS-7616NXI-K2/16P(D)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "NVR 16 CANALES ACUSENSE 4K POE / H.265+ / SALIDAS HDMI 4K+VGA / 2 SATA 20 TB / ANALÍTICA HUM‑VEH",
+    "description": "NVR 16 CANALES ACUSENSE 4K POE / H.265+ / SALIDAS HDMI 4K+VGA / 2 SATA 20 TB / ANALÍTICA HUM‑VEH",
+    "price": 1467700,
+    "wholesalePrice": 1350284,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-7616nxi-k2-16p-d.webp",
+    "tags": [
+      "PoE",
+      "4K"
+    ],
+    "specs": {
+      "Referencia": "DS-7616NXI-K2/16P(D)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "NVR 16 CANALES ACUSENSE 4K POE / H",
+      "265+ / SALIDAS HDMI 4K+VGA / 2 SATA 20 TB / ANALÍTICA HUM‑VEH"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-7732nxi-k4-d",
+    "sku": "DS-7732NXI-K4(D)",
+    "name": "Hikvision DS-7732NXI-K4(D)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "NVR 32 CANALES ACUSENSE 4K / H.265+ / SALIDAS HDMI 4K+VGA / 4 SATA HASTA 20 TB/UD / ANALÍTICA HUM‑VEH",
+    "description": "NVR 32 CANALES ACUSENSE 4K / H.265+ / SALIDAS HDMI 4K+VGA / 4 SATA HASTA 20 TB/UD / ANALÍTICA HUM‑VEH",
+    "price": 1698300,
+    "wholesalePrice": 1562436,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-7732nxi-k4-d.webp",
+    "tags": [
+      "4K"
+    ],
+    "specs": {
+      "Referencia": "DS-7732NXI-K4(D)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "NVR 32 CANALES ACUSENSE 4K / H",
+      "265+ / SALIDAS HDMI 4K+VGA / 4 SATA HASTA 20 TB/UD / ANALÍTICA HUM‑VEH"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-7732nxi-k4-16p-d",
+    "sku": "DS-7732NXI-K4/16P(D)",
+    "name": "Hikvision DS-7732NXI-K4/16P(D)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "NVR 32 CANALES ACUSENSE 4K POE / H.265+ / SALIDAS HDMI 4K+VGA / 4 SATA / 16 PUERTOS PoE / ANALÍTICA HUM‑VEH",
+    "description": "NVR 32 CANALES ACUSENSE 4K POE / H.265+ / SALIDAS HDMI 4K+VGA / 4 SATA / 16 PUERTOS PoE / ANALÍTICA HUM‑VEH",
+    "price": 2545000,
+    "wholesalePrice": 2341400,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-7732nxi-k4-16p-d.webp",
+    "tags": [
+      "PoE",
+      "4K"
+    ],
+    "specs": {
+      "Referencia": "DS-7732NXI-K4/16P(D)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "NVR 32 CANALES ACUSENSE 4K POE / H",
+      "265+ / SALIDAS HDMI 4K+VGA / 4 SATA / 16 PUERTOS PoE / ANALÍTICA HUM‑VEH"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-7716nxi-k4-d--std",
+    "sku": "DS-7716NXI-K4(D)(STD)",
+    "name": "Hikvision DS-7716NXI-K4(D)(STD)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "NVR 12 Megapixel16 canales IP  AcuSense  Reconocimiento Facial  4 Bahías de Disco Duro",
+    "description": "NVR 12 Megapixel16 canales IP  AcuSense  Reconocimiento Facial  4 Bahías de Disco Duro",
+    "price": 1420800,
+    "wholesalePrice": 1307136,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-7716nxi-k4-d-std.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "DS-7716NXI-K4(D)(STD)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "NVR 12 Megapixel16 canales IP  AcuSense  Reconocimiento Facial  4 Bahías de Disco Duro"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-7104ni-q1--d",
+    "sku": "DS-7104NI-Q1 (D)",
+    "name": "Hikvision DS-7104NI-Q1 (D)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "NVR 4CH IP 4MP 1BAHIA/6TB 60MPS H265+ 30FPS HDMI PLASTICO HIKVISION",
+    "description": "NVR 4CH IP 4MP 1BAHIA/6TB 60MPS H265+ 30FPS HDMI PLASTICO HIKVISION",
+    "price": 229500,
+    "wholesalePrice": 211140,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-7104ni-q1-d.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "DS-7104NI-Q1 (D)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "NVR 4CH IP 4MP 1BAHIA/6TB 60MPS H265+ 30FPS HDMI PLASTICO HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-7104ni-q1-4p--d",
+    "sku": "DS-7104NI-Q1/4P (D)",
+    "name": "Hikvision DS-7104NI-Q1/4P (D)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "NVR 4CH POE IP 2MP 1BAHIA/6TB 40MPSH265+ 30FPS HDMI PLASTICO HIKVISION",
+    "description": "NVR 4CH POE IP 2MP 1BAHIA/6TB 40MPSH265+ 30FPS HDMI PLASTICO HIKVISION",
+    "price": 400700,
+    "wholesalePrice": 368644,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-7104ni-q1-4p-d.webp",
+    "tags": [
+      "PoE"
+    ],
+    "specs": {
+      "Referencia": "DS-7104NI-Q1/4P (D)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "NVR 4CH POE IP 2MP 1BAHIA/6TB 40MPSH265+ 30FPS HDMI PLASTICO HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-7108ni-q1-std--d",
+    "sku": "DS-7108NI-Q1(STD)(D)",
+    "name": "Hikvision DS-7108NI-Q1(STD)(D)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "GRABADOR NVR 8 CANALES / COMPRESIÓN H.265+/H.265/H.26 +/H.264 / ENTRADA MÁXIMA 60 Mbps / SALIDA MÁXIMA 60 Mbps / DECODIFICACIÓN HASTA 4 CANA...",
+    "description": "GRABADOR NVR 8 CANALES / COMPRESIÓN H.265+/H.265/H.26 +/H.264 / ENTRADA MÁXIMA 60 Mbps / SALIDA MÁXIMA 60 Mbps / DECODIFICACIÓN HASTA 4 CANALES 1080p / SALIDA HDMI Y VGA SIMULTÁNEA / 1 INTERFAZ SATA / CHASIS MINI 1U PLÁSTICO / PESO NETO 425 g",
+    "price": 270100,
+    "wholesalePrice": 248492,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-7108ni-q1-std-d.webp",
+    "tags": [
+      "1080p"
+    ],
+    "specs": {
+      "Referencia": "DS-7108NI-Q1(STD)(D)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "GRABADOR NVR 8 CANALES / COMPRESIÓN H",
+      "265+/H",
+      "265/H"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-7108ni-q1-8p--d",
+    "sku": "DS-7108NI-Q1/8P (D)",
+    "name": "Hikvision DS-7108NI-Q1/8P (D)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "NVR 8CH POE IP 2MP 1BAHIA/6TB 60MPSH265+ 30FPS HDMI PLASTICO HIKVISION",
+    "description": "NVR 8CH POE IP 2MP 1BAHIA/6TB 60MPSH265+ 30FPS HDMI PLASTICO HIKVISION",
+    "price": 530800,
+    "wholesalePrice": 488336,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-7108ni-q1-8p-d.webp",
+    "tags": [
+      "PoE"
+    ],
+    "specs": {
+      "Referencia": "DS-7108NI-Q1/8P (D)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "NVR 8CH POE IP 2MP 1BAHIA/6TB 60MPSH265+ 30FPS HDMI PLASTICO HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-7604ni-q1-4p-std--d",
+    "sku": "DS-7604NI-Q1/4P(STD)(D)",
+    "name": "Hikvision DS-7604NI-Q1/4P(STD)(D)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "GRABADOR NVR 4 CANALES / COMPRESIÓN H.265+/H.265/H.264+/H.264 / DECODIFICACIÓN HASTA 1 CANAL 8 MP, 3 CANALES 4 MP O 6 CANALES 1080p / ENTRAD...",
+    "description": "GRABADOR NVR 4 CANALES / COMPRESIÓN H.265+/H.265/H.264+/H.264 / DECODIFICACIÓN HASTA 1 CANAL 8 MP, 3 CANALES 4 MP O 6 CANALES 1080p / ENTRADA MÁXIMA 40 Mbps / 4 PUERTOS PoE INDEPENDIENTES / 1 INTERFAZ SATA / CHASIS 1U / SALIDA 4K /PESO NETO 1170 g",
+    "price": 578400,
+    "wholesalePrice": 532128,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-7604ni-q1-4p-std-d.webp",
+    "tags": [
+      "PoE",
+      "4K",
+      "1080p"
+    ],
+    "specs": {
+      "Referencia": "DS-7604NI-Q1/4P(STD)(D)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "GRABADOR NVR 4 CANALES / COMPRESIÓN H",
+      "265+/H",
+      "265/H"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-7608ni-k2",
+    "sku": "DS-7608NI-K2",
+    "name": "Hikvision DS-7608NI-K2",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "NVR 8 CANALES HD 80MBPS 2BAHIAS/6TB120-220VAC H.265+ HIKVISION",
+    "description": "NVR 8 CANALES HD 80MBPS 2BAHIAS/6TB120-220VAC H.265+ HIKVISION",
+    "price": 577500,
+    "wholesalePrice": 531300,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-7608ni-k2.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "DS-7608NI-K2",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "NVR 8 CANALES HD 80MBPS 2BAHIAS/6TB120-220VAC H",
+      "265+ HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-7608ni-q1-8p-105",
+    "sku": "DS-7608NI-Q1/8P",
+    "name": "Hikvision DS-7608NI-Q1/8P",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "NVR 8CH POE IP 8MP 1BAHIA/6TB 80MPSH265+ HDMI 4K METAL HIKVISION",
+    "description": "NVR 8CH POE IP 8MP 1BAHIA/6TB 80MPSH265+ HDMI 4K METAL HIKVISION",
+    "price": 759500,
+    "wholesalePrice": 698740,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-7608ni-q1-8p-fila-105.webp",
+    "tags": [
+      "PoE",
+      "4K"
+    ],
+    "specs": {
+      "Referencia": "DS-7608NI-Q1/8P",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "NVR 8CH POE IP 8MP 1BAHIA/6TB 80MPSH265+ HDMI 4K METAL HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-7608ni-q2-std--d",
+    "sku": "DS-7608NI-Q2(STD)(D)",
+    "name": "Hikvision DS-7608NI-Q2(STD)(D)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "GRABADOR NVR 8 CANALES / COMPRESIÓN H.265+/H.265/H.264+/H.264 / DECODIFICACIÓN HASTA 1 CANAL 8 MP, 3 CANALES 4 MP O 6 CANALES 1080p / ENTRAD...",
+    "description": "GRABADOR NVR 8 CANALES / COMPRESIÓN H.265+/H.265/H.264+/H.264 / DECODIFICACIÓN HASTA 1 CANAL 8 MP, 3 CANALES 4 MP O 6 CANALES 1080p / ENTRADA MÁXIMA 80 Mbps / 2 INTERFACES SATA / CHASIS 1U / SALIDA 4K /  PESO NETO 1590 g",
+    "price": 519600,
+    "wholesalePrice": 478032,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-7608ni-q2-std-d.webp",
+    "tags": [
+      "4K",
+      "1080p"
+    ],
+    "specs": {
+      "Referencia": "DS-7608NI-Q2(STD)(D)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "GRABADOR NVR 8 CANALES / COMPRESIÓN H",
+      "265+/H",
+      "265/H"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-7608ni-q2-8p",
+    "sku": "DS-7608NI-Q2/8P",
+    "name": "Hikvision DS-7608NI-Q2/8P",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "NVR 8CH POE IP 8MP 2BAHIA/6TB 80MPSH265+ HDMI 4K METAL HIKVISION",
+    "description": "NVR 8CH POE IP 8MP 2BAHIA/6TB 80MPSH265+ HDMI 4K METAL HIKVISION",
+    "price": 862800,
+    "wholesalePrice": 793776,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-7608ni-q2-8p.webp",
+    "tags": [
+      "PoE",
+      "4K"
+    ],
+    "specs": {
+      "Referencia": "DS-7608NI-Q2/8P",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "NVR 8CH POE IP 8MP 2BAHIA/6TB 80MPSH265+ HDMI 4K METAL HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-7608ni-k2-8p",
+    "sku": "DS-7608NI-K2/8P",
+    "name": "Hikvision DS-7608NI-K2/8P",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "NVR 8CH POE IP 8MP 2BAHIAS/6TB 80MPSH265+ 30FPS HDMI 4K METAL HIKVISION",
+    "description": "NVR 8CH POE IP 8MP 2BAHIAS/6TB 80MPSH265+ 30FPS HDMI 4K METAL HIKVISION",
+    "price": 956400,
+    "wholesalePrice": 879888,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-7608ni-k2-8p.webp",
+    "tags": [
+      "PoE",
+      "4K"
+    ],
+    "specs": {
+      "Referencia": "DS-7608NI-K2/8P",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "NVR 8CH POE IP 8MP 2BAHIAS/6TB 80MPSH265+ 30FPS HDMI 4K METAL HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-7608nxi-k2-8p",
+    "sku": "DS-7608NXI-K2/8P",
+    "name": "Hikvision DS-7608NXI-K2/8P",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "NVR 8CH POE IP 12MP/8MP/4MP H265+ 30FPS HDMI 4K HIKVISION AcuSense",
+    "description": "NVR 8CH POE IP 12MP/8MP/4MP H265+ 30FPS HDMI 4K HIKVISION AcuSense",
+    "price": 1073100,
+    "wholesalePrice": 987252,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-7608nxi-k2-8p.webp",
+    "tags": [
+      "PoE",
+      "4K"
+    ],
+    "specs": {
+      "Referencia": "DS-7608NXI-K2/8P",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "NVR 8CH POE IP 12MP/8MP/4MP H265+ 30FPS HDMI 4K HIKVISION AcuSense"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-7716ni-q4",
+    "sku": "DS-7716NI-Q4",
+    "name": "Hikvision DS-7716NI-Q4",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "NVR  16CH  8MP 4BAHIA/6TBH H265+ 30FPS HDMI/VGA  METAL PRO HIKVISION",
+    "description": "NVR  16CH  8MP 4BAHIA/6TBH H265+ 30FPS HDMI/VGA  METAL PRO HIKVISION",
+    "price": 1084100,
+    "wholesalePrice": 997372,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-7716ni-q4.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "DS-7716NI-Q4",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "NVR  16CH  8MP 4BAHIA/6TBH H265+ 30FPS HDMI/VGA  METAL PRO HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-7616ni-k2-16p",
+    "sku": "DS-7616NI-K2/16P",
+    "name": "Hikvision DS-7616NI-K2/16P",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "NVR 16 CANALES POE 160MBPS 2BAHIAS/6TB120VAC H.265+ 4K VIDEO HIKVISION",
+    "description": "NVR 16 CANALES POE 160MBPS 2BAHIAS/6TB120VAC H.265+ 4K VIDEO HIKVISION",
+    "price": 1308200,
+    "wholesalePrice": 1203544,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-7616ni-k2-16p.webp",
+    "tags": [
+      "PoE",
+      "4K"
+    ],
+    "specs": {
+      "Referencia": "DS-7616NI-K2/16P",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "NVR 16 CANALES POE 160MBPS 2BAHIAS/6TB120VAC H",
+      "265+ 4K VIDEO HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-7616ni-q2-std--d",
+    "sku": "DS-7616NI-Q2(STD)(D)",
+    "name": "Hikvision DS-7616NI-Q2(STD)(D)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "GRABADOR NVR 16 CANALES / COMPRESIÓN H.265+/H.265/H.264+/H.264 / DECODIFICACIÓN HASTA 1 CANAL 8 MP, 3 CANALES 4 MP O 6 CANALES 1080p / ENTRA...",
+    "description": "GRABADOR NVR 16 CANALES / COMPRESIÓN H.265+/H.265/H.264+/H.264 / DECODIFICACIÓN HASTA 1 CANAL 8 MP, 3 CANALES 4 MP O 6 CANALES 1080p / ENTRADA MÁXIMA 160 Mbps / 2 INTERFACES SATA / CHASIS 1U / SALIDA 4K /  PESO NETO 1570 g",
+    "price": 587700,
+    "wholesalePrice": 540684,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-7616ni-q2-std-d.webp",
+    "tags": [
+      "4K",
+      "1080p"
+    ],
+    "specs": {
+      "Referencia": "DS-7616NI-Q2(STD)(D)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "GRABADOR NVR 16 CANALES / COMPRESIÓN H",
+      "265+/H",
+      "265/H"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-7616ni-q2-16p-std--d",
+    "sku": "DS-7616NI-Q2/16P(STD)(D)",
+    "name": "Hikvision DS-7616NI-Q2/16P(STD)(D)",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "GRABADOR NVR 16 CANALES / 16 PUERTOS PoE INDEPENDIENTES / COMPRESIÓN H.265+/H.265/H.264+/H.264 / DECODIFICACIÓN HASTA 1 CANAL 8 MP O 5 CANAL...",
+    "description": "GRABADOR NVR 16 CANALES / 16 PUERTOS PoE INDEPENDIENTES / COMPRESIÓN H.265+/H.265/H.264+/H.264 / DECODIFICACIÓN HASTA 1 CANAL 8 MP O 5 CANALES 1080p / ENTRADA MÁXIMA 160 Mbps / 2 INTERFACES SATA / CHASIS 1U / SALIDA 4K /PESO NETO 2 425 g AcuSense",
+    "price": 1175400,
+    "wholesalePrice": 1081368,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-7616ni-q2-16p-std-d.webp",
+    "tags": [
+      "PoE",
+      "4K",
+      "1080p"
+    ],
+    "specs": {
+      "Referencia": "DS-7616NI-Q2/16P(STD)(D)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "GRABADOR NVR 16 CANALES / 16 PUERTOS PoE INDEPENDIENTES / COMPRESIÓN H",
+      "265+/H",
+      "265/H"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-7732ni-k4",
+    "sku": "DS-7732NI-K4",
+    "name": "Hikvision DS-7732NI-K4",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "NVR  32CH   8MP 4BAHIA/6TB  H265+ 30FPS HDMI/VGA  256MBPS METAL PRO HIKVISION",
+    "description": "NVR  32CH   8MP 4BAHIA/6TB  H265+ 30FPS HDMI/VGA  256MBPS METAL PRO HIKVISION",
+    "price": 1513700,
+    "wholesalePrice": 1392604,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-7732ni-k4.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "DS-7732NI-K4",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "NVR  32CH   8MP 4BAHIA/6TB  H265+ 30FPS HDMI/VGA  256MBPS METAL PRO HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-7732nxi-k4",
+    "sku": "DS-7732NXI-K4",
+    "name": "Hikvision DS-7732NXI-K4",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "NVR ACUSENSE 4K DE LA SERIE 1.5UK DE 32 CANALES / H265+ / HASTA 2 CANALES 12MP / HASTA 256MBPS AcuSense",
+    "description": "NVR ACUSENSE 4K DE LA SERIE 1.5UK DE 32 CANALES / H265+ / HASTA 2 CANALES 12MP / HASTA 256MBPS AcuSense",
+    "price": 1665000,
+    "wholesalePrice": 1531800,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-7732nxi-k4.webp",
+    "tags": [
+      "4K"
+    ],
+    "specs": {
+      "Referencia": "DS-7732NXI-K4",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "NVR ACUSENSE 4K DE LA SERIE 1",
+      "5UK DE 32 CANALES / H265+ / HASTA 2 CANALES 12MP / HASTA 256MBPS AcuSense"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-7716ni-q4-16p",
+    "sku": "DS-7716NI-Q4/16P",
+    "name": "Hikvision DS-7716NI-Q4/16P",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "NVR  16CH POE  8MP 4BAHIA/6TB H265+ 30FPS HDMI/VGA  METAL PRO HIKVISION",
+    "description": "NVR  16CH POE  8MP 4BAHIA/6TB H265+ 30FPS HDMI/VGA  METAL PRO HIKVISION",
+    "price": 1718000,
+    "wholesalePrice": 1580560,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-7716ni-q4-16p.webp",
+    "tags": [
+      "PoE"
+    ],
+    "specs": {
+      "Referencia": "DS-7716NI-Q4/16P",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "NVR  16CH POE  8MP 4BAHIA/6TB H265+ 30FPS HDMI/VGA  METAL PRO HIKVISION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-7732ni-k4-16p",
+    "sku": "DS-7732NI-K4/16P",
+    "name": "Hikvision DS-7732NI-K4/16P",
+    "brand": "Hikvision",
+    "category": "redes",
+    "shortDesc": "NVR 8 MP  32 CH  16 CANALES POE+  4BAHIA/6TB Switch PoE 300 mts  HDMI/VGA  H265+ 30FPS",
+    "description": "NVR 8 MP  32 CH  16 CANALES POE+  4BAHIA/6TB Switch PoE 300 mts  HDMI/VGA  H265+ 30FPS",
+    "price": 2268400,
+    "wholesalePrice": 2086928,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-7732ni-k4-16p.webp",
+    "tags": [
+      "PoE"
+    ],
+    "specs": {
+      "Referencia": "DS-7732NI-K4/16P",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "NVR 8 MP  32 CH  16 CANALES POE+  4BAHIA/6TB Switch PoE 300 mts  HDMI/VGA  H265+ 30FPS"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-ip-ds-7732nxi-k4-16p",
+    "sku": "DS-7732NXI-K4/16P",
+    "name": "Hikvision DS-7732NXI-K4/16P",
+    "brand": "Hikvision",
+    "category": "cctv",
+    "shortDesc": "NVR 12MP / 32 CANALES IP / ACUSENSE / RECONOCIMIENTO FACIAL / HDMI EN 4K / ENTRADA Y SALIDA DE ALARMAS AcuSense",
+    "description": "NVR 12MP / 32 CANALES IP / ACUSENSE / RECONOCIMIENTO FACIAL / HDMI EN 4K / ENTRADA Y SALIDA DE ALARMAS AcuSense",
+    "price": 2545000,
+    "wholesalePrice": 2341400,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-7732nxi-k4-16p.webp",
+    "tags": [
+      "4K"
+    ],
+    "specs": {
+      "Referencia": "DS-7732NXI-K4/16P",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "NVR 12MP / 32 CANALES IP / ACUSENSE / RECONOCIMIENTO FACIAL / HDMI EN 4K / ENTRADA Y SALIDA DE ALARMAS AcuSense"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-cit-ds-kv8113-wme1",
+    "sku": "DS-KV8113-WME1",
+    "name": "Hikvision DS-KV8113-WME1",
+    "brand": "Hikvision",
+    "category": "citofonia",
+    "shortDesc": "VIDEOPORTERO IP WIFI IP65 + IK08  SOPORTA 1 DEPARTAMENTO Y HASTA 6 MONITORES POE ESTANDAR  INTERFAZ WEB PARA CONFIGURACIÓN",
+    "description": "VIDEOPORTERO IP WIFI IP65 + IK08  SOPORTA 1 DEPARTAMENTO Y HASTA 6 MONITORES POE ESTANDAR  INTERFAZ WEB PARA CONFIGURACIÓN",
+    "price": 603000,
+    "wholesalePrice": 554760,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-kv8113-wme1.webp",
+    "tags": [
+      "IP65",
+      "WiFi",
+      "PoE"
+    ],
+    "specs": {
+      "Referencia": "DS-KV8113-WME1",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "VIDEOPORTERO IP WIFI IP65 + IK08  SOPORTA 1 DEPARTAMENTO Y HASTA 6 MONITORES POE ESTANDAR  INTERFAZ WEB PARA CONFIGURACIÓN"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-cit-ds-kv9503-wbe1",
+    "sku": "DS-KV9503-WBE1",
+    "name": "Hikvision DS-KV9503-WBE1",
+    "brand": "Hikvision",
+    "category": "citofonia",
+    "shortDesc": "ESTACION DE PUERTA DE VILLA IP FACIAL A PRUEBA DE VANDALISMO DE METAL - VIDEOPORTERIA INALAMBRICA",
+    "description": "ESTACION DE PUERTA DE VILLA IP FACIAL A PRUEBA DE VANDALISMO DE METAL - VIDEOPORTERIA INALAMBRICA",
+    "price": 2722500,
+    "wholesalePrice": 2504700,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-kv9503-wbe1.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "DS-KV9503-WBE1",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "ESTACION DE PUERTA DE VILLA IP FACIAL A PRUEBA DE VANDALISMO DE METAL - VIDEOPORTERIA INALAMBRICA"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-cit-ds-kd3003-e6",
+    "sku": "DS-KD3003-E6",
+    "name": "Hikvision DS-KD3003-E6",
+    "brand": "Hikvision",
+    "category": "citofonia",
+    "shortDesc": "ESTACION DE PUERTA IP DE 3.5 PULGADAS /PANTALLA LCD RESOLUCION 480x320 /CAPACIDAD DE TARJETAS 10000 /TARJETA MIFARE",
+    "description": "ESTACION DE PUERTA IP DE 3.5 PULGADAS /PANTALLA LCD RESOLUCION 480x320 /CAPACIDAD DE TARJETAS 10000 /TARJETA MIFARE",
+    "price": 1058500,
+    "wholesalePrice": 973820,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-kd3003-e6.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "DS-KD3003-E6",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "ESTACION DE PUERTA IP DE 3",
+      "5 PULGADAS /PANTALLA LCD RESOLUCION 480x320 /CAPACIDAD DE TARJETAS 10000 /TARJETA MIFARE"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-cit-ds-kd9203-fe6",
+    "sku": "DS-KD9203-FE6",
+    "name": "Hikvision DS-KD9203-FE6",
+    "brand": "Hikvision",
+    "category": "citofonia",
+    "shortDesc": "VIDEOPORTERO IP 2MP MULTIAPARTAMENTO CON RECONOCIMIENTO FACIAL /HUELLAS DACTILARES LLAMADA A APP HIKCONNECT / PROTECCIÓN IP65 / APERTURA POR...",
+    "description": "VIDEOPORTERO IP 2MP MULTIAPARTAMENTO CON RECONOCIMIENTO FACIAL /HUELLAS DACTILARES LLAMADA A APP HIKCONNECT / PROTECCIÓN IP65 / APERTURA POR ROSTRO, TARJETA O HUELLA",
+    "price": 1473800,
+    "wholesalePrice": 1355896,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-kd9203-fe6.webp",
+    "tags": [
+      "IP65"
+    ],
+    "specs": {
+      "Referencia": "DS-KD9203-FE6",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "VIDEOPORTERO IP 2MP MULTIAPARTAMENTO CON RECONOCIMIENTO FACIAL /HUELLAS DACTILARES LLAMADA A APP HIKCONNECT / PROTECCIÓN IP65 / APERTURA POR ROSTRO",
+      "TARJETA O HUELLA"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-cit-ds-kh6000-e1",
+    "sku": "DS-KH6000-E1",
+    "name": "Hikvision DS-KH6000-E1",
+    "brand": "Hikvision",
+    "category": "citofonia",
+    "shortDesc": "ESTACIÓN IP SIN PANTALLA / POE O 12 VDC / HASTA 16 MONITORES / CONSUMO ≤ 4 W",
+    "description": "ESTACIÓN IP SIN PANTALLA / POE O 12 VDC / HASTA 16 MONITORES / CONSUMO ≤ 4 W",
+    "price": 198900,
+    "wholesalePrice": 182988,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-kh6000-e1.webp",
+    "tags": [
+      "PoE"
+    ],
+    "specs": {
+      "Referencia": "DS-KH6000-E1",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "ESTACIÓN IP SIN PANTALLA / POE O 12 VDC / HASTA 16 MONITORES / CONSUMO ≤ 4 W"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-cit-ds-kh6110-we1",
+    "sku": "DS-KH6110-WE1",
+    "name": "Hikvision DS-KH6110-WE1",
+    "brand": "Hikvision",
+    "category": "citofonia",
+    "shortDesc": "MONITOR 4.3″ TÁCTIL / POE O 12 VDC / 4 BOTONES / COMPATIBLE HIK‑CONNECT",
+    "description": "MONITOR 4.3″ TÁCTIL / POE O 12 VDC / 4 BOTONES / COMPATIBLE HIK‑CONNECT",
+    "price": 370400,
+    "wholesalePrice": 340768,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-kh6110-we1.webp",
+    "tags": [
+      "PoE"
+    ],
+    "specs": {
+      "Referencia": "DS-KH6110-WE1",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "MONITOR 4",
+      "3″ TÁCTIL / POE O 12 VDC / 4 BOTONES / COMPATIBLE HIK‑CONNECT"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-cit-ds-kh9510-wte1-b",
+    "sku": "DS-KH9510-WTE1(B)",
+    "name": "Hikvision DS-KH9510-WTE1(B)",
+    "brand": "Hikvision",
+    "category": "citofonia",
+    "shortDesc": "ESTACIÓN INTERIOR IP SIN PANTALLA / POE O 12 VDC / HASTA 16 MONITORES ENLACE / CONSUMO MÁXIMO ≤ 4 W",
+    "description": "ESTACIÓN INTERIOR IP SIN PANTALLA / POE O 12 VDC / HASTA 16 MONITORES ENLACE / CONSUMO MÁXIMO ≤ 4 W",
+    "price": 1375000,
+    "wholesalePrice": 1265000,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-kh9510-wte1-b.webp",
+    "tags": [
+      "PoE"
+    ],
+    "specs": {
+      "Referencia": "DS-KH9510-WTE1(B)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "ESTACIÓN INTERIOR IP SIN PANTALLA / POE O 12 VDC / HASTA 16 MONITORES ENLACE / CONSUMO MÁXIMO ≤ 4 W"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-cit-ds-kh6320-le1",
+    "sku": "DS-KH6320-LE1",
+    "name": "Hikvision DS-KH6320-LE1",
+    "brand": "Hikvision",
+    "category": "citofonia",
+    "shortDesc": "PANTALLA PARA VIDEO PORTERO INTERIOR 7IN  TACTIL ESTÁNDAR PoE / NO SOPORTA HIKCONNECT",
+    "description": "PANTALLA PARA VIDEO PORTERO INTERIOR 7IN  TACTIL ESTÁNDAR PoE / NO SOPORTA HIKCONNECT",
+    "price": 360800,
+    "wholesalePrice": 331936,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-kh6320-le1.webp",
+    "tags": [
+      "PoE"
+    ],
+    "specs": {
+      "Referencia": "DS-KH6320-LE1",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "PANTALLA PARA VIDEO PORTERO INTERIOR 7IN  TACTIL ESTÁNDAR PoE / NO SOPORTA HIKCONNECT"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-cit-ds-kh6320-le1-b",
+    "sku": "DS-KH6320-LE1(B)",
+    "name": "Hikvision DS-KH6320-LE1(B)",
+    "brand": "Hikvision",
+    "category": "citofonia",
+    "shortDesc": "PANTALLA PARA VIDEO PORTERO IP TOUCH 7\" POE ESTANDAR APERTURA REMOTA LLAMADA ENTRE MONITORES AUDIO DE DOS VÍAS",
+    "description": "PANTALLA PARA VIDEO PORTERO IP TOUCH 7\" POE ESTANDAR APERTURA REMOTA LLAMADA ENTRE MONITORES AUDIO DE DOS VÍAS",
+    "price": 371300,
+    "wholesalePrice": 341596,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-kh6320-le1-b.webp",
+    "tags": [
+      "PoE"
+    ],
+    "specs": {
+      "Referencia": "DS-KH6320-LE1(B)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "PANTALLA PARA VIDEO PORTERO IP TOUCH 7\" POE ESTANDAR APERTURA REMOTA LLAMADA ENTRE MONITORES AUDIO DE DOS VÍAS"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-cit-ds-kh6320-wte1",
+    "sku": "DS-KH6320-WTE1",
+    "name": "Hikvision DS-KH6320-WTE1",
+    "brand": "Hikvision",
+    "category": "citofonia",
+    "shortDesc": "PANTALLA  7IN TACTIL INTERIOR ETHERNET WIFI",
+    "description": "PANTALLA  7IN TACTIL INTERIOR ETHERNET WIFI",
+    "price": 488600,
+    "wholesalePrice": 449512,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-kh6320-wte1.webp",
+    "tags": [
+      "WiFi"
+    ],
+    "specs": {
+      "Referencia": "DS-KH6320-WTE1",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "PANTALLA  7IN TACTIL INTERIOR ETHERNET WIFI"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-cit-ds-kabv8113-rs-surface",
+    "sku": "DS-KABV8113-RS/Surface",
+    "name": "Hikvision DS-KABV8113-RS/Surface",
+    "brand": "Hikvision",
+    "category": "citofonia",
+    "shortDesc": "ESTACION DE PUERTA VILLA ESCUDO CONTRA LA LLUVIA / DE LA SERIE KV8113/8213/8413 EN SUPERFICIE",
+    "description": "ESTACION DE PUERTA VILLA ESCUDO CONTRA LA LLUVIA / DE LA SERIE KV8113/8213/8413 EN SUPERFICIE",
+    "price": 40700,
+    "wholesalePrice": 37444,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-kabv8113-rs-surface.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "DS-KABV8113-RS/Surface",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "ESTACION DE PUERTA VILLA ESCUDO CONTRA LA LLUVIA / DE LA SERIE KV8113/8213/8413 EN SUPERFICIE"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-cit-ds-kd-acf1-plastic",
+    "sku": "DS-KD-ACF1/Plastic",
+    "name": "Hikvision DS-KD-ACF1/Plastic",
+    "brand": "Hikvision",
+    "category": "citofonia",
+    "shortDesc": "ACCESORIO MARCO PARA 1 MODULO PARA MONTAJE EMPOTRADO PLASTICO",
+    "description": "ACCESORIO MARCO PARA 1 MODULO PARA MONTAJE EMPOTRADO PLASTICO",
+    "price": 82400,
+    "wholesalePrice": 75808,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-kd-acf1-plastic.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "DS-KD-ACF1/Plastic",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "ACCESORIO MARCO PARA 1 MODULO PARA MONTAJE EMPOTRADO PLASTICO"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-cit-ds-kd-acf2-plastic",
+    "sku": "DS-KD-ACF2/Plastic",
+    "name": "Hikvision DS-KD-ACF2/Plastic",
+    "brand": "Hikvision",
+    "category": "citofonia",
+    "shortDesc": "ACCESORIO MARCO PARA 2 MODULO PARA MONTAJE EMPOTRADO PLASTICO",
+    "description": "ACCESORIO MARCO PARA 2 MODULO PARA MONTAJE EMPOTRADO PLASTICO",
+    "price": 110000,
+    "wholesalePrice": 101200,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-kd-acf2-plastic.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "DS-KD-ACF2/Plastic",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "ACCESORIO MARCO PARA 2 MODULO PARA MONTAJE EMPOTRADO PLASTICO"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-cit-ds-kd-acw1",
+    "sku": "DS-KD-ACW1",
+    "name": "Hikvision DS-KD-ACW1",
+    "brand": "Hikvision",
+    "category": "citofonia",
+    "shortDesc": "ACCESORIO MARCO PARA 1 MODULO PARA MONTAJE EN SUPERFICIE",
+    "description": "ACCESORIO MARCO PARA 1 MODULO PARA MONTAJE EN SUPERFICIE",
+    "price": 123900,
+    "wholesalePrice": 113988,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-kd-acw1.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "DS-KD-ACW1",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "ACCESORIO MARCO PARA 1 MODULO PARA MONTAJE EN SUPERFICIE"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-cit-ds-kd-kk",
+    "sku": "DS-KD-KK",
+    "name": "Hikvision DS-KD-KK",
+    "brand": "Hikvision",
+    "category": "citofonia",
+    "shortDesc": "UNIDAD DE ETIQUETA CON NOMBRE, 6 BOTONES DE LLAMADAS  RS 485 IP 65",
+    "description": "UNIDAD DE ETIQUETA CON NOMBRE, 6 BOTONES DE LLAMADAS  RS 485 IP 65",
+    "price": 148700,
+    "wholesalePrice": 136804,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-kd-kk.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "DS-KD-KK",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "UNIDAD DE ETIQUETA CON NOMBRE",
+      "6 BOTONES DE LLAMADAS  RS 485 IP 65"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-cit-ds-kd-acf3-plastic",
+    "sku": "DS-KD-ACF3/Plastic",
+    "name": "Hikvision DS-KD-ACF3/Plastic",
+    "brand": "Hikvision",
+    "category": "citofonia",
+    "shortDesc": "ACCESORIO MARCO PARA 3 MODULO PARA MONTAJE EMPOTRADO PLASTICO",
+    "description": "ACCESORIO MARCO PARA 3 MODULO PARA MONTAJE EMPOTRADO PLASTICO",
+    "price": 137600,
+    "wholesalePrice": 126592,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-kd-acf3-plastic.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "DS-KD-ACF3/Plastic",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "ACCESORIO MARCO PARA 3 MODULO PARA MONTAJE EMPOTRADO PLASTICO"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-cit-ds-kd-acw2",
+    "sku": "DS-KD-ACW2",
+    "name": "Hikvision DS-KD-ACW2",
+    "brand": "Hikvision",
+    "category": "citofonia",
+    "shortDesc": "ACCESORIO MARCO PARA 2 MODULOS PARA MONTAJE EN SUPERFICIE",
+    "description": "ACCESORIO MARCO PARA 2 MODULOS PARA MONTAJE EN SUPERFICIE",
+    "price": 172000,
+    "wholesalePrice": 158240,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-kd-acw2.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "DS-KD-ACW2",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "ACCESORIO MARCO PARA 2 MODULOS PARA MONTAJE EN SUPERFICIE"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-cit-ds-kab13-d",
+    "sku": "DS-KAB13-D",
+    "name": "Hikvision DS-KAB13-D",
+    "brand": "Hikvision",
+    "category": "citofonia",
+    "shortDesc": "SOPORTE PARA MONTAJE DE DS-KD3002-VM EN SUPERFICIE",
+    "description": "SOPORTE PARA MONTAJE DE DS-KD3002-VM EN SUPERFICIE",
+    "price": 283900,
+    "wholesalePrice": 261188,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-kab13-d.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "DS-KAB13-D",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "SOPORTE PARA MONTAJE DE DS-KD3002-VM EN SUPERFICIE"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-cit-ds-kab10-d",
+    "sku": "DS-KAB10-D",
+    "name": "Hikvision DS-KAB10-D",
+    "brand": "Hikvision",
+    "category": "citofonia",
+    "shortDesc": "ACCESORIO PARA MONTAJE DE ESTACION",
+    "description": "ACCESORIO PARA MONTAJE DE ESTACION",
+    "price": 292000,
+    "wholesalePrice": 268640,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-kab10-d.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "DS-KAB10-D",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "ACCESORIO PARA MONTAJE DE ESTACION"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-cit-ds-kab11-d",
+    "sku": "DS-KAB11-D",
+    "name": "Hikvision DS-KAB11-D",
+    "brand": "Hikvision",
+    "category": "citofonia",
+    "shortDesc": "MARCO PARA MONTAJE VIDEO PORTERO KD8002-VM",
+    "description": "MARCO PARA MONTAJE VIDEO PORTERO KD8002-VM",
+    "price": 308300,
+    "wholesalePrice": 283636,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-kab11-d.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "DS-KAB11-D",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "MARCO PARA MONTAJE VIDEO PORTERO KD8002-VM"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-cit-ds-kab6-zu1",
+    "sku": "DS-KAB6-ZU1",
+    "name": "Hikvision DS-KAB6-ZU1",
+    "brand": "Hikvision",
+    "category": "citofonia",
+    "shortDesc": "MONTAJE PARA INSTALAR TERMINALES DE RECONOCIMIENTO FACIAL HIKVISION EN TORNIQUETES",
+    "description": "MONTAJE PARA INSTALAR TERMINALES DE RECONOCIMIENTO FACIAL HIKVISION EN TORNIQUETES",
+    "price": 240700,
+    "wholesalePrice": 221444,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-kab6-zu1.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "DS-KAB6-ZU1",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "MONTAJE PARA INSTALAR TERMINALES DE RECONOCIMIENTO FACIAL HIKVISION EN TORNIQUETES"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-cit-ds-kab673-s1",
+    "sku": "DS-KAB673-S1",
+    "name": "Hikvision DS-KAB673-S1",
+    "brand": "Hikvision",
+    "category": "citofonia",
+    "shortDesc": "PROTECTOR DE SOBREMESA PARA TERMINAL K1T673 / DIMENSIONES 135×80×250 MM / PLÁSTICO PC",
+    "description": "PROTECTOR DE SOBREMESA PARA TERMINAL K1T673 / DIMENSIONES 135×80×250 MM / PLÁSTICO PC",
+    "price": 68900,
+    "wholesalePrice": 63388,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-kab673-s1.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "DS-KAB673-S1",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "PROTECTOR DE SOBREMESA PARA TERMINAL K1T673 / DIMENSIONES 135×80×250 MM / PLÁSTICO PC"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-red-ds-3e1318p-ei-m-o-std",
+    "sku": "DS-3E1318P-EI/M(O-STD)",
+    "name": "Hikvision DS-3E1318P-EI/M(O-STD)",
+    "brand": "Hikvision",
+    "category": "redes",
+    "shortDesc": "SWITCH FAST ETHERNET INTELIGENTE POE / 16 PUERTOS RJ45 10/100M POE + 1 PUERTO RJ45 GIGABIT + 1 PUERTO COMBO GIGABIT / PRESUPUESTO POE TOTAL:...",
+    "description": "SWITCH FAST ETHERNET INTELIGENTE POE / 16 PUERTOS RJ45 10/100M POE + 1 PUERTO RJ45 GIGABIT + 1 PUERTO COMBO GIGABIT / PRESUPUESTO POE TOTAL: 130 W / SOPORTE IEEE 802.3af/at / GESTIÓN UNIFICADA EN LA NUBE (Hik-Central, iVMS 4200, Hik-Partner Pro) / SOPORTE VLAN 802.1Q / POE WATCHDOG PARA REINICIO AUTOMÁTICO DE CÁMARAS / PREVENCIÓN DE BUCLES STP/RSTP / DETECCIÓN DE FALLAS EN CABLEADO / TRANSMISIÓN POE EXTENDIDA HASTA 300 m / PROTECCIÓN CONTRA SOBRETENSIÓN DE 6 kV / MONTAJE EN RACK",
+    "price": 680500,
+    "wholesalePrice": 626060,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-3e1318p-ei-m-o-std.webp",
+    "tags": [
+      "PoE"
+    ],
+    "specs": {
+      "Referencia": "DS-3E1318P-EI/M(O-STD)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "SWITCH FAST ETHERNET INTELIGENTE POE / 16 PUERTOS RJ45 10/100M POE + 1 PUERTO RJ45 GIGABIT + 1 PUERTO COMBO GIGABIT / PRESUPUESTO POE TOTAL: 130 W / SOPORTE IEEE 802",
+      "3af/at / GESTIÓN UNIFICADA EN LA NUBE (Hik-Central",
+      "iVMS 4200"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-red-ds-3e1326p-ei-m-o-std",
+    "sku": "DS-3E1326P-EI/M(O-STD)",
+    "name": "Hikvision DS-3E1326P-EI/M(O-STD)",
+    "brand": "Hikvision",
+    "category": "redes",
+    "shortDesc": "SWITCH FAST ETHERNET INTELIGENTE POE / 24 PUERTOS RJ45 10/100M POE + 1 PUERTO COMBO GIGABIT + 1 PUERTO RJ45 GIGABIT / PRESUPUESTO POE TOTAL:...",
+    "description": "SWITCH FAST ETHERNET INTELIGENTE POE / 24 PUERTOS RJ45 10/100M POE + 1 PUERTO COMBO GIGABIT + 1 PUERTO RJ45 GIGABIT / PRESUPUESTO POE TOTAL: 230 W / SOPORTE IEEE 802.3af/at / GESTIÓN UNIFICADA EN LA NUBE (Hik-Central, iVMS 4200, Hik-Partner Pro) / SOPORTE VLAN 802.1Q / POE WATCHDOG PARA REINICIO AUTOMÁTICO DE CÁMARAS / PREVENCIÓN DE BUCLES STP/RSTP / DETECCIÓN DE FALLAS EN CABLEADO / TRANSMISIÓN POE EXTENDIDA HASTA 300 m / PROTECCIÓN CONTRA SOBRETENSIÓN DE 6 kV / MONTAJE EN RACK",
+    "price": 914200,
+    "wholesalePrice": 841064,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-3e1326p-ei-m-o-std.webp",
+    "tags": [
+      "PoE"
+    ],
+    "specs": {
+      "Referencia": "DS-3E1326P-EI/M(O-STD)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "SWITCH FAST ETHERNET INTELIGENTE POE / 24 PUERTOS RJ45 10/100M POE + 1 PUERTO COMBO GIGABIT + 1 PUERTO RJ45 GIGABIT / PRESUPUESTO POE TOTAL: 230 W / SOPORTE IEEE 802",
+      "3af/at / GESTIÓN UNIFICADA EN LA NUBE (Hik-Central",
+      "iVMS 4200"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-red-ds-3e0510p-e-m-b",
+    "sku": "DS-3E0510P-E/M(B)",
+    "name": "Hikvision DS-3E0510P-E/M(B)",
+    "brand": "Hikvision",
+    "category": "redes",
+    "shortDesc": "8 PUERTOS GIGABIT PoE + 1 RJ45 + 1 SFP / PoE 58–60 W / CAPACIDAD 20 Gbps / PROTECCIÓN 6 kV / METAL",
+    "description": "8 PUERTOS GIGABIT PoE + 1 RJ45 + 1 SFP / PoE 58–60 W / CAPACIDAD 20 Gbps / PROTECCIÓN 6 kV / METAL",
+    "price": 307200,
+    "wholesalePrice": 282624,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-3e0510p-e-m-b.webp",
+    "tags": [
+      "PoE"
+    ],
+    "specs": {
+      "Referencia": "DS-3E0510P-E/M(B)",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "8 PUERTOS GIGABIT PoE + 1 RJ45 + 1 SFP / PoE 58–60 W / CAPACIDAD 20 Gbps / PROTECCIÓN 6 kV / METAL"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-red-ds-3e0528hp-e",
+    "sku": "DS-3E0528HP-E",
+    "name": "Hikvision DS-3E0528HP-E",
+    "brand": "Hikvision",
+    "category": "redes",
+    "shortDesc": "20 PUERTOS PoE + 4 Hi‑PoE + 2 RJ45 + 2 FIBRA / PoE BUDGET 370 W / CAPACIDAD 56 Gbps / PROTECCIÓN 6 kV / METAL RACK",
+    "description": "20 PUERTOS PoE + 4 Hi‑PoE + 2 RJ45 + 2 FIBRA / PoE BUDGET 370 W / CAPACIDAD 56 Gbps / PROTECCIÓN 6 kV / METAL RACK",
+    "price": 2000000,
+    "wholesalePrice": 1840000,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-3e0528hp-e.webp",
+    "tags": [
+      "PoE"
+    ],
+    "specs": {
+      "Referencia": "DS-3E0528HP-E",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "20 PUERTOS PoE + 4 Hi‑PoE + 2 RJ45 + 2 FIBRA / PoE BUDGET 370 W / CAPACIDAD 56 Gbps / PROTECCIÓN 6 kV / METAL RACK"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-red-ds-3wf0fa-5ac-o",
+    "sku": "DS-3WF0FA-5AC/O",
+    "name": "Hikvision DS-3WF0FA-5AC/O",
+    "brand": "Hikvision",
+    "category": "redes",
+    "shortDesc": "ENLACE INALÁMBRICO EXTERIOR / 5 GHz / 867 Mbps / 1 km / 2×ANTENAS MIMO 8 dBi / TOPOLOGÍA VISUAL / PUSH DE ALERTAS / POE 802.3af / 360° COBER...",
+    "description": "ENLACE INALÁMBRICO EXTERIOR / 5 GHz / 867 Mbps / 1 km / 2×ANTENAS MIMO 8 dBi / TOPOLOGÍA VISUAL / PUSH DE ALERTAS / POE 802.3af / 360° COBERTURA / –30 °C‑65 °C / 215×130×35 mm",
+    "price": 848200,
+    "wholesalePrice": 780344,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-3wf0fa-5ac-o.webp",
+    "tags": [
+      "PoE"
+    ],
+    "specs": {
+      "Referencia": "DS-3WF0FA-5AC/O",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "ENLACE INALÁMBRICO EXTERIOR / 5 GHz / 867 Mbps / 1 km / 2×ANTENAS MIMO 8 dBi / TOPOLOGÍA VISUAL / PUSH DE ALERTAS / POE 802",
+      "3af / 360° COBERTURA / –30 °C‑65 °C / 215×130×35 mm"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-red-ds-3wf02-5ac-d",
+    "sku": "DS-3WF02-5AC/D",
+    "name": "Hikvision DS-3WF02-5AC/D",
+    "brand": "Hikvision",
+    "category": "redes",
+    "shortDesc": "ENLACE INALÁMBRICO EXTERIOR / 5 GHz / 867 Mbps / 5 km / 2×ANTENAS MIMO 12 dBi / TOPOLOGÍA VISUAL / POE ESTÁNDAR / PLUG & PLAY / –30 °C‑65 °C...",
+    "description": "ENLACE INALÁMBRICO EXTERIOR / 5 GHz / 867 Mbps / 5 km / 2×ANTENAS MIMO 12 dBi / TOPOLOGÍA VISUAL / POE ESTÁNDAR / PLUG & PLAY / –30 °C‑65 °C / 215×130×35 mm",
+    "price": 555400,
+    "wholesalePrice": 510968,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-3wf02-5ac-d.webp",
+    "tags": [
+      "PoE"
+    ],
+    "specs": {
+      "Referencia": "DS-3WF02-5AC/D",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "ENLACE INALÁMBRICO EXTERIOR / 5 GHz / 867 Mbps / 5 km / 2×ANTENAS MIMO 12 dBi / TOPOLOGÍA VISUAL / POE ESTÁNDAR / PLUG & PLAY / –30 °C‑65 °C / 215×130×35 mm"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-red-ds-3wf02c-5ac-o",
+    "sku": "DS-3WF02C-5AC/O",
+    "name": "Hikvision DS-3WF02C-5AC/O",
+    "brand": "Hikvision",
+    "category": "redes",
+    "shortDesc": "ENLACE INALÁMBRICO EXTERIOR / 5 GHz / 867 Mbps / 5 km / 2×ANTENAS MIMO 12 dBi / TOPOLOGÍA VISUAL / DIP SWITCH / POE ESTÁNDAR / TDMA / –30 °C...",
+    "description": "ENLACE INALÁMBRICO EXTERIOR / 5 GHz / 867 Mbps / 5 km / 2×ANTENAS MIMO 12 dBi / TOPOLOGÍA VISUAL / DIP SWITCH / POE ESTÁNDAR / TDMA / –30 °C‑65 °C / 215×130×35 mm",
+    "price": 295000,
+    "wholesalePrice": 271400,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-3wf02c-5ac-o.webp",
+    "tags": [
+      "PoE"
+    ],
+    "specs": {
+      "Referencia": "DS-3WF02C-5AC/O",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "ENLACE INALÁMBRICO EXTERIOR / 5 GHz / 867 Mbps / 5 km / 2×ANTENAS MIMO 12 dBi / TOPOLOGÍA VISUAL / DIP SWITCH / POE ESTÁNDAR / TDMA / –30 °C‑65 °C / 215×130×35 mm"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-red-ds-3wf1000-ei-2n",
+    "sku": "DS-3WF1000-EI-2N",
+    "name": "Hikvision DS-3WF1000-EI-2N",
+    "brand": "Hikvision",
+    "category": "redes",
+    "shortDesc": "ENLACE INALÁMBRICO EXTERIOR / 2.4 GHz / 300 Mbps / 1 km / 2×ANTENAS MIMO 7 dBi / TOPOLOGÍA VISUAL / PUSH DE ALERTAS / POE ESTÁNDAR / –30 °C‑...",
+    "description": "ENLACE INALÁMBRICO EXTERIOR / 2.4 GHz / 300 Mbps / 1 km / 2×ANTENAS MIMO 7 dBi / TOPOLOGÍA VISUAL / PUSH DE ALERTAS / POE ESTÁNDAR / –30 °C‑65 °C / 215×130×35 mm",
+    "price": 277700,
+    "wholesalePrice": 255484,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-3wf1000-ei-2n.webp",
+    "tags": [
+      "PoE"
+    ],
+    "specs": {
+      "Referencia": "DS-3WF1000-EI-2N",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "ENLACE INALÁMBRICO EXTERIOR / 2",
+      "4 GHz / 300 Mbps / 1 km / 2×ANTENAS MIMO 7 dBi / TOPOLOGÍA VISUAL / PUSH DE ALERTAS / POE ESTÁNDAR / –30 °C‑65 °C / 215×130×35 mm"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-red-ds-3wf1000s-ei-2n",
+    "sku": "DS-3WF1000S-EI-2N",
+    "name": "Hikvision DS-3WF1000S-EI-2N",
+    "brand": "Hikvision",
+    "category": "redes",
+    "shortDesc": "ENLACE INALÁMBRICO EXTERIOR / 2.4 GHz / 300 Mbps / 1 km / 2×ANTENAS MIMO 7 dBi / TOPOLOGÍA VISUAL / POE ESTÁNDAR / PLUG & PLAY / –30 °C‑65 °...",
+    "description": "ENLACE INALÁMBRICO EXTERIOR / 2.4 GHz / 300 Mbps / 1 km / 2×ANTENAS MIMO 7 dBi / TOPOLOGÍA VISUAL / POE ESTÁNDAR / PLUG & PLAY / –30 °C‑65 °C / 215×130×35 mm",
+    "price": 152800,
+    "wholesalePrice": 140576,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-3wf1000s-ei-2n.webp",
+    "tags": [
+      "PoE"
+    ],
+    "specs": {
+      "Referencia": "DS-3WF1000S-EI-2N",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "ENLACE INALÁMBRICO EXTERIOR / 2",
+      "4 GHz / 300 Mbps / 1 km / 2×ANTENAS MIMO 7 dBi / TOPOLOGÍA VISUAL / POE ESTÁNDAR / PLUG & PLAY / –30 °C‑65 °C / 215×130×35 mm"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-red-ds-3wf3000-ei-5ac-p",
+    "sku": "DS-3WF3000-EI-5AC/P",
+    "name": "Hikvision DS-3WF3000-EI-5AC/P",
+    "brand": "Hikvision",
+    "category": "redes",
+    "shortDesc": "ENLACE INALÁMBRICO EXTERIOR / 5 GHz / 867 Mbps / 3 km / 2×ANTENAS MIMO 8 dBi / TOPOLOGÍA VISUAL / POE ESTÁNDAR IN/OUT / PLUG & PLAY / –30 °C...",
+    "description": "ENLACE INALÁMBRICO EXTERIOR / 5 GHz / 867 Mbps / 3 km / 2×ANTENAS MIMO 8 dBi / TOPOLOGÍA VISUAL / POE ESTÁNDAR IN/OUT / PLUG & PLAY / –30 °C‑65 °C / 215×130×35 mm",
+    "price": 458200,
+    "wholesalePrice": 421544,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-3wf3000-ei-5ac-p.webp",
+    "tags": [
+      "PoE"
+    ],
+    "specs": {
+      "Referencia": "DS-3WF3000-EI-5AC/P",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "ENLACE INALÁMBRICO EXTERIOR / 5 GHz / 867 Mbps / 3 km / 2×ANTENAS MIMO 8 dBi / TOPOLOGÍA VISUAL / POE ESTÁNDAR IN/OUT / PLUG & PLAY / –30 °C‑65 °C / 215×130×35 mm"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-red-ds-3wf3000s-ei-5ac-p",
+    "sku": "DS-3WF3000S-EI-5AC/P",
+    "name": "Hikvision DS-3WF3000S-EI-5AC/P",
+    "brand": "Hikvision",
+    "category": "redes",
+    "shortDesc": "ENLACE INALÁMBRICO EXTERIOR / 5 GHz / 867 Mbps / 3 km / 2×ANTENAS MIMO 8 dBi / TOPOLOGÍA VISUAL / POE ESTÁNDAR / PLUG & PLAY / –30 °C‑65 °C ...",
+    "description": "ENLACE INALÁMBRICO EXTERIOR / 5 GHz / 867 Mbps / 3 km / 2×ANTENAS MIMO 8 dBi / TOPOLOGÍA VISUAL / POE ESTÁNDAR / PLUG & PLAY / –30 °C‑65 °C / 215×130×35 mm",
+    "price": 243000,
+    "wholesalePrice": 223560,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-3wf3000s-ei-5ac-p.webp",
+    "tags": [
+      "PoE"
+    ],
+    "specs": {
+      "Referencia": "DS-3WF3000S-EI-5AC/P",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "ENLACE INALÁMBRICO EXTERIOR / 5 GHz / 867 Mbps / 3 km / 2×ANTENAS MIMO 8 dBi / TOPOLOGÍA VISUAL / POE ESTÁNDAR / PLUG & PLAY / –30 °C‑65 °C / 215×130×35 mm"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-red-ds-1ln5e-e-e-plug",
+    "sku": "DS-1LN5E-E/E-Plug",
+    "name": "Hikvision DS-1LN5E-E/E-Plug",
+    "brand": "Hikvision",
+    "category": "redes",
+    "shortDesc": "CABLE UTP CAT 5E / 305 METROS / COBRE SÓLIDO 24 AWG / DIÁMETRO 4.7 MM / FUNDA PVC CMX GRIS / IMPEDANCIA 100 Ω / INCLUYE PLUG EN EXTREMO",
+    "description": "CABLE UTP CAT 5E / 305 METROS / COBRE SÓLIDO 24 AWG / DIÁMETRO 4.7 MM / FUNDA PVC CMX GRIS / IMPEDANCIA 100 Ω / INCLUYE PLUG EN EXTREMO",
+    "price": 471500,
+    "wholesalePrice": 433780,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-1ln5e-e-e-plug.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "DS-1LN5E-E/E-Plug",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CABLE UTP CAT 5E / 305 METROS / COBRE SÓLIDO 24 AWG / DIÁMETRO 4",
+      "7 MM / FUNDA PVC CMX GRIS / IMPEDANCIA 100 Ω / INCLUYE PLUG EN EXTREMO"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-red-ds-1ln5eo-uu-e-plug",
+    "sku": "DS-1LN5EO-UU/E-Plug",
+    "name": "Hikvision DS-1LN5EO-UU/E-Plug",
+    "brand": "Hikvision",
+    "category": "redes",
+    "shortDesc": "CABLE UTP CAT 5E PARA EXTERIOR / 305 METROS / COBRE SÓLIDO 24 AWG / DIÁMETRO 4.7 MM / FUNDA PVC CMX GRIS / IMPEDANCIA 100 Ω / INCLUYE PLUF E...",
+    "description": "CABLE UTP CAT 5E PARA EXTERIOR / 305 METROS / COBRE SÓLIDO 24 AWG / DIÁMETRO 4.7 MM / FUNDA PVC CMX GRIS / IMPEDANCIA 100 Ω / INCLUYE PLUF EN EXTERIOR",
+    "price": 550800,
+    "wholesalePrice": 506736,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-1ln5eo-uu-e-plug.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "DS-1LN5EO-UU/E-Plug",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CABLE UTP CAT 5E PARA EXTERIOR / 305 METROS / COBRE SÓLIDO 24 AWG / DIÁMETRO 4",
+      "7 MM / FUNDA PVC CMX GRIS / IMPEDANCIA 100 Ω / INCLUYE PLUF EN EXTERIOR"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-red-ds-1ln5eusl5",
+    "sku": "DS-1LN5EUSL5",
+    "name": "Hikvision DS-1LN5EUSL5",
+    "brand": "Hikvision",
+    "category": "redes",
+    "shortDesc": "CABLE UTP CAT 5E / 305 METROS / COBRE SÓLIDO 0.5 MM (24 AWG) / IMPEDANCIA 100 Ω / DIÁMETRO EXTERNO 5 ± 0.4 MM / FUNDA PVC CM GRIS / TEMPERAT...",
+    "description": "CABLE UTP CAT 5E / 305 METROS / COBRE SÓLIDO 0.5 MM (24 AWG) / IMPEDANCIA 100 Ω / DIÁMETRO EXTERNO 5 ± 0.4 MM / FUNDA PVC CM GRIS / TEMPERATURA –20 °C A 70 °C",
+    "price": 650600,
+    "wholesalePrice": 598552,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-1ln5eusl5.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "DS-1LN5EUSL5",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CABLE UTP CAT 5E / 305 METROS / COBRE SÓLIDO 0",
+      "5 MM (24 AWG) / IMPEDANCIA 100 Ω / DIÁMETRO EXTERNO 5 ± 0",
+      "4 MM / FUNDA PVC CM GRIS / TEMPERATURA –20 °C A 70 °C"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-red-ds-1ln6u-g",
+    "sku": "DS-1LN6U-G",
+    "name": "Hikvision DS-1LN6U-G",
+    "brand": "Hikvision",
+    "category": "redes",
+    "shortDesc": "CABLE UTP CAT 6  GRIS USO REDES Y CCTVCM 23AWG UL HIKVISION X 305 MTS  100% COBRE",
+    "description": "CABLE UTP CAT 6  GRIS USO REDES Y CCTVCM 23AWG UL HIKVISION X 305 MTS  100% COBRE",
+    "price": 749500,
+    "wholesalePrice": 689540,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-1ln6u-g.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "DS-1LN6U-G",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CABLE UTP CAT 6  GRIS USO REDES Y CCTVCM 23AWG UL HIKVISION X 305 MTS  100% COBRE"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-red-ds-1ln6ouspe",
+    "sku": "DS-1LN6OUSPE",
+    "name": "Hikvision DS-1LN6OUSPE",
+    "brand": "Hikvision",
+    "category": "redes",
+    "shortDesc": "CABLE UTP CAT 6 EXTERIOR NEGRO USO REDES Y CCTVCM 23AWG  0.55mm UL HIKVISION X 305 MTS  100% COBRE",
+    "description": "CABLE UTP CAT 6 EXTERIOR NEGRO USO REDES Y CCTVCM 23AWG  0.55mm UL HIKVISION X 305 MTS  100% COBRE",
+    "price": 811400,
+    "wholesalePrice": 746488,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-1ln6ouspe.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "DS-1LN6OUSPE",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CABLE UTP CAT 6 EXTERIOR NEGRO USO REDES Y CCTVCM 23AWG  0",
+      "55mm UL HIKVISION X 305 MTS  100% COBRE"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-red-ds-1ln6uel5",
+    "sku": "DS-1LN6UEL5",
+    "name": "Hikvision DS-1LN6UEL5",
+    "brand": "Hikvision",
+    "category": "redes",
+    "shortDesc": "CABLE UTP CAT 6 INTERIOR / BOBINA 305 ± 1.5 M / COBRE SÓLIDO 24 AWG (0.530 MM) / IMPEDANCIA 100 Ω / FUNDA LSZH BLANCA / RIP‑CORD Y SEPARADOR...",
+    "description": "CABLE UTP CAT 6 INTERIOR / BOBINA 305 ± 1.5 M / COBRE SÓLIDO 24 AWG (0.530 MM) / IMPEDANCIA 100 Ω / FUNDA LSZH BLANCA / RIP‑CORD Y SEPARADOR / RANGO –20 °C A 75 °C",
+    "price": 771000,
+    "wholesalePrice": 709320,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-1ln6uel5.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "DS-1LN6UEL5",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CABLE UTP CAT 6 INTERIOR / BOBINA 305 ± 1",
+      "5 M / COBRE SÓLIDO 24 AWG (0",
+      "530 MM) / IMPEDANCIA 100 Ω / FUNDA LSZH BLANCA / RIP‑CORD Y SEPARADOR / RANGO –20 °C A 75 °C"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-red-ds-1ln6-ue-w-plug",
+    "sku": "DS-1LN6-UE-W-Plug",
+    "name": "Hikvision DS-1LN6-UE-W-Plug",
+    "brand": "Hikvision",
+    "category": "redes",
+    "shortDesc": "CABLE UTP CAT 6 INTERIOR / BOBINA 305 ± 1.5 M / COBRE SÓLIDO 24 AWG (0.530 MM) / IMPEDANCIA 100 Ω / FUNDA PVC CM BLANCA / RIP‑CORD / POE MAN...",
+    "description": "CABLE UTP CAT 6 INTERIOR / BOBINA 305 ± 1.5 M / COBRE SÓLIDO 24 AWG (0.530 MM) / IMPEDANCIA 100 Ω / FUNDA PVC CM BLANCA / RIP‑CORD / POE MANTENIDO / INCLUYE PLUG",
+    "price": 683800,
+    "wholesalePrice": 629096,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-1ln6-ue-w-plug.webp",
+    "tags": [
+      "PoE"
+    ],
+    "specs": {
+      "Referencia": "DS-1LN6-UE-W-Plug",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CABLE UTP CAT 6 INTERIOR / BOBINA 305 ± 1",
+      "5 M / COBRE SÓLIDO 24 AWG (0",
+      "530 MM) / IMPEDANCIA 100 Ω / FUNDA PVC CM BLANCA / RIP‑CORD / POE MANTENIDO / INCLUYE PLUG"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-red-ds-fogx-b6a1-l0-o-std--1c-1km",
+    "sku": "DS-FOGX-B6A1-L0(O-STD) 1C 1km",
+    "name": "Hikvision DS-FOGX-B6A1-L0(O-STD) 1C 1km",
+    "brand": "Hikvision",
+    "category": "citofonia",
+    "shortDesc": "CABLE DE FIBRA ÓPTICA MONOMODO / 1 km / G.657A1 / BAJA CURVATURA / 1×NUCLEO / 2×FRP / MENSAJERO DE ACERO / CUBIERTA LSZH / ROHS 2.0 / INTERI...",
+    "description": "CABLE DE FIBRA ÓPTICA MONOMODO / 1 km / G.657A1 / BAJA CURVATURA / 1×NUCLEO / 2×FRP / MENSAJERO DE ACERO / CUBIERTA LSZH / ROHS 2.0 / INTERIOR-EXTERIOR / LATENCIA ULTRABAJA / COMPATIBLE CON SWITCHES, CÁMARAS IP Y INTERCOMS",
+    "price": 224900,
+    "wholesalePrice": 206908,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-fogx-b6a1-l0-o-std-1c-1km.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "DS-FOGX-B6A1-L0(O-STD) 1C 1km",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CABLE DE FIBRA ÓPTICA MONOMODO / 1 km / G",
+      "657A1 / BAJA CURVATURA / 1×NUCLEO / 2×FRP / MENSAJERO DE ACERO / CUBIERTA LSZH / ROHS 2",
+      "0 / INTERIOR-EXTERIOR / LATENCIA ULTRABAJA / COMPATIBLE CON SWITCHES"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-red-ds-fogx-b6a1-l0-o-std--1c-2km",
+    "sku": "DS-FOGX-B6A1-L0(O-STD) 1C 2km",
+    "name": "Hikvision DS-FOGX-B6A1-L0(O-STD) 1C 2km",
+    "brand": "Hikvision",
+    "category": "redes",
+    "shortDesc": "CABLE DE FIBRA ÓPTICA MONOMODO / 2 km / G.657A1 / BAJA CURVATURA / 1×NUCLEO / 2×FRP / MENSAJERO DE ACERO / CUBIERTA LSZH / ROHS 2.0 / INTERI...",
+    "description": "CABLE DE FIBRA ÓPTICA MONOMODO / 2 km / G.657A1 / BAJA CURVATURA / 1×NUCLEO / 2×FRP / MENSAJERO DE ACERO / CUBIERTA LSZH / ROHS 2.0 / INTERIOR-EXTERIOR / LATENCIA ULTRABAJA / INTEGRACIÓN CON SWITCHES, CÁMARAS IP Y SISTEMAS DE SEGURIDAD",
+    "price": 445500,
+    "wholesalePrice": 409860,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-fogx-b6a1-l0-o-std-1c-2km.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "DS-FOGX-B6A1-L0(O-STD) 1C 2km",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CABLE DE FIBRA ÓPTICA MONOMODO / 2 km / G",
+      "657A1 / BAJA CURVATURA / 1×NUCLEO / 2×FRP / MENSAJERO DE ACERO / CUBIERTA LSZH / ROHS 2",
+      "0 / INTERIOR-EXTERIOR / LATENCIA ULTRABAJA / INTEGRACIÓN CON SWITCHES"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-red-ds-fogx-b6a1-l0-o-std--2c-1km",
+    "sku": "DS-FOGX-B6A1-L0(O-STD) 2C 1km",
+    "name": "Hikvision DS-FOGX-B6A1-L0(O-STD) 2C 1km",
+    "brand": "Hikvision",
+    "category": "redes",
+    "shortDesc": "CABLE DE FIBRA ÓPTICA MONOMODO / 2×NUCLEOS / 1 km / G.657A1 / BAJA CURVATURA / 2×FRP / MENSAJERO DE ACERO / CUBIERTA LSZH / ROHS 2.0 / INTER...",
+    "description": "CABLE DE FIBRA ÓPTICA MONOMODO / 2×NUCLEOS / 1 km / G.657A1 / BAJA CURVATURA / 2×FRP / MENSAJERO DE ACERO / CUBIERTA LSZH / ROHS 2.0 / INTERIOR-EXTERIOR / LATENCIA ULTRABAJA / COMPATIBLE CON SWITCHES, CÁMARAS IP Y CONVERTIDORES FTTH",
+    "price": 254600,
+    "wholesalePrice": 234232,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-fogx-b6a1-l0-o-std-2c-1km.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "DS-FOGX-B6A1-L0(O-STD) 2C 1km",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CABLE DE FIBRA ÓPTICA MONOMODO / 2×NUCLEOS / 1 km / G",
+      "657A1 / BAJA CURVATURA / 2×FRP / MENSAJERO DE ACERO / CUBIERTA LSZH / ROHS 2",
+      "0 / INTERIOR-EXTERIOR / LATENCIA ULTRABAJA / COMPATIBLE CON SWITCHES"
+    ],
+    "warranty": ""
+  },
+  {
+    "id": "hik-red-ds-fogx-b6a1-l0-o-std--2c-2km",
+    "sku": "DS-FOGX-B6A1-L0(O-STD) 2C 2km",
+    "name": "Hikvision DS-FOGX-B6A1-L0(O-STD) 2C 2km",
+    "brand": "Hikvision",
+    "category": "redes",
+    "shortDesc": "CABLE DE FIBRA ÓPTICA MONOMODO / 2×NUCLEOS / 2 km / G.657A1 / BAJA CURVATURA / 2×FRP / MENSAJERO DE ACERO / CUBIERTA LSZH / ROHS 2.0 / INTER...",
+    "description": "CABLE DE FIBRA ÓPTICA MONOMODO / 2×NUCLEOS / 2 km / G.657A1 / BAJA CURVATURA / 2×FRP / MENSAJERO DE ACERO / CUBIERTA LSZH / ROHS 2.0 / INTERIOR-EXTERIOR / LATENCIA ULTRABAJA / COMPATIBLE CON SWITCHES, CÁMARAS IP Y CONVERTIDORES FTTH",
+    "price": 505000,
+    "wholesalePrice": 464600,
+    "stock": 25,
+    "image": "/productos/catalogo/hikvision-ds-fogx-b6a1-l0-o-std-2c-2km.webp",
+    "tags": [],
+    "specs": {
+      "Referencia": "DS-FOGX-B6A1-L0(O-STD) 2C 2km",
+      "Marca": "Hikvision"
+    },
+    "features": [
+      "CABLE DE FIBRA ÓPTICA MONOMODO / 2×NUCLEOS / 2 km / G",
+      "657A1 / BAJA CURVATURA / 2×FRP / MENSAJERO DE ACERO / CUBIERTA LSZH / ROHS 2",
+      "0 / INTERIOR-EXTERIOR / LATENCIA ULTRABAJA / COMPATIBLE CON SWITCHES"
+    ],
+    "warranty": ""
   }
 ];

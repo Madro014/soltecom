@@ -24,6 +24,7 @@ const BRANDS: { id: string; name: string; logo?: string }[] = [
   { id: 'all', name: 'Todas las Marcas' },
   { id: 'Hikvision', name: 'Hikvision', logo: '/logo/hikvision-logo.webp' },
   { id: 'ZKTeco', name: 'ZKTeco', logo: '/logo/ZKTeco.webp' },
+  { id: 'SOLTECOM', name: 'SOLTECOM', logo: '/logo/logosoteco.webp' },
   { id: 'Tiandy', name: 'Tiandy', logo: '/logo/Tiandy.webp' },
   { id: 'IMOU', name: 'IMOU', logo: '/logo/Imou.webp' },
   { id: 'Intelbras', name: 'Intelbras', logo: '/logo/intelbras.webp' },
@@ -223,6 +224,15 @@ export default function Productos() {
         </div>
 
         <div id="products-grid-anchor" className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+          {selectedBrand === 'SOLTECOM' && (
+            <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5 mb-6 flex items-center gap-5">
+              <img src="/logo/logosoteco.webp" alt="SOLTECOM" className="w-28 h-16 object-contain" />
+              <div>
+                <h2 className="font-montserrat font-bold text-lg text-surface-dark">Accesorios SOLTECOM</h2>
+                <p className="text-sm text-gray-600">Control de acceso autónomo, electroimanes, soportes, botones y accesorios de la primera hoja del catálogo.</p>
+              </div>
+            </div>
+          )}
           {/* Controls Bar: Search & Sort */}
           <div className="bg-white rounded-2xl p-4 shadow-sm border border-gray-100 flex flex-col md:flex-row items-center justify-between gap-4 mb-6">
             
@@ -367,7 +377,7 @@ function ProductHeaderBanner({ totalCount }: { totalCount: number }) {
               Catálogo Oficial de Seguridad & Conectividad
             </h1>
             <p className="text-sm text-gray-300 mt-1 max-w-xl">
-              Consulte especificaciones oficiales, precios actualizados por volumen y agregue a su orden de cotización directa.
+              Consulte las descripciones de cada referencia y agregue productos a su solicitud de cotización.
             </p>
           </div>
         </div>
@@ -391,13 +401,33 @@ function ProductFilterControls({
     <>
       {/* Filter 1: Brand Selection Pills */}
       <div className="mb-4">
-        <div className="flex items-center gap-1.5 mb-2 px-1">
-          <span className="material-symbols-outlined text-base text-primary">verified</span>
-          <span className="text-xs font-bold text-gray-600 uppercase tracking-wider font-montserrat">
-            Filtrar por Marca:
-          </span>
+        <div className="flex items-center justify-between mb-2 px-1">
+          <div className="flex items-center gap-1.5">
+            <span className="material-symbols-outlined text-base text-primary">verified</span>
+            <span className="text-xs font-bold text-gray-600 uppercase tracking-wider font-montserrat">
+              Filtrar por Marca:
+            </span>
+          </div>
+          <div className="hidden sm:flex items-center gap-1">
+            <button
+              type="button"
+              onClick={() => document.getElementById('brands-scroll-container')?.scrollBy({ left: -260, behavior: 'smooth' })}
+              className="w-7 h-7 rounded-full bg-white border border-gray-200 text-gray-600 hover:text-primary hover:border-primary shadow-sm flex items-center justify-center transition-colors"
+              aria-label="Desplazar marcas a la izquierda"
+            >
+              <span className="material-symbols-outlined text-base">chevron_left</span>
+            </button>
+            <button
+              type="button"
+              onClick={() => document.getElementById('brands-scroll-container')?.scrollBy({ left: 260, behavior: 'smooth' })}
+              className="w-7 h-7 rounded-full bg-white border border-gray-200 text-gray-600 hover:text-primary hover:border-primary shadow-sm flex items-center justify-center transition-colors"
+              aria-label="Desplazar marcas a la derecha"
+            >
+              <span className="material-symbols-outlined text-base">chevron_right</span>
+            </button>
+          </div>
         </div>
-        <div className="flex items-center gap-2 overflow-x-auto pb-2 scroll-smooth custom-category-scrollbar">
+        <div id="brands-scroll-container" className="flex items-center gap-2 overflow-x-auto pb-2 scroll-smooth custom-category-scrollbar">
           {BRANDS.map((b) => {
             const isSelected = selectedBrand.toLowerCase() === b.id.toLowerCase();
             const count = b.id === 'all'

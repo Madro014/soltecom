@@ -96,6 +96,12 @@ export default function ProductCard({ product }: ProductCardProps) {
               </span>
             )}
 
+            {product.imageNote && (
+              <span className="absolute bottom-2 left-2 max-w-[65%] px-2 py-1 rounded-md bg-white/90 text-gray-700 text-[10px] font-medium shadow pointer-events-none">
+                Imagen ilustrativa
+              </span>
+            )}
+
             {/* Shared Element Guide Trigger Pill */}
             <button
               type="button"

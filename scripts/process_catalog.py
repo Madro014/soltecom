@@ -121,7 +121,7 @@ for i, name in enumerate(wb.sheetnames, 1):
                 sheet_to_drawing[name] = clean
 
 SHEET_CONFIG = {
-    'Ctrl Acceso Autónomo-Accesorios': {'brand': 'ZKTeco', 'category': 'accesorios-acceso', 'limit': 30, 'prefix': 'acc-aut'},
+    'Ctrl Acceso Autónomo-Accesorios': {'brand': 'SOLTECOM', 'category': 'accesorios-acceso', 'limit': 30, 'prefix': 'acc-aut'},
     'Control de Acceso ZKTECO': {'brand': 'ZKTeco', 'category': 'acceso', 'limit': 30, 'prefix': 'zk-acc'},
     'Licencias ZKTECO': {'brand': 'ZKTeco', 'category': 'acceso', 'limit': 15, 'prefix': 'zk-lic'},
     'Motores Automatización GAREN': {'brand': 'GAREN', 'category': 'apertura-garen', 'limit': 30, 'prefix': 'gar'},
@@ -264,10 +264,8 @@ for s_name in wb.sheetnames:
             raw_bytes = z.read(media_file)
             images_queue.append((raw_bytes, img_disk_path))
             last_known_img = img_web_path
-        elif last_known_img:
-            img_web_path = last_known_img
         else:
-            img_web_path = "/logo/logosoteco.webp"
+            raise ValueError(f"Falta imagen del producto {item['ref']} en la fila {item['row']}")
             
         brand = cfg['brand']
         category = cfg['category']
