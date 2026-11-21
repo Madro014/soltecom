@@ -106,7 +106,7 @@ export default function MetricsMagnification({
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: idx * 0.08 }}
-              className={`relative rounded-3xl p-6 bg-white border cursor-pointer select-none transition-all duration-300 ease-out flex flex-col justify-between overflow-hidden ${
+              className={`relative rounded-3xl p-6 bg-white border cursor-pointer select-none transition-[transform,opacity,border-color,box-shadow] duration-200 ease-[cubic-bezier(0.23,1,0.32,1)] active:scale-[0.98] flex flex-col justify-between overflow-hidden ${
                 isFocused
                   ? 'scale-110 z-20 shadow-2xl border-primary ring-4 ring-primary/15 bg-white'
                   : isDefocused
@@ -161,8 +161,8 @@ export default function MetricsMagnification({
               {/* Bottom decorative bar */}
               <div className="mt-4 pt-3 border-t border-gray-100">
                 <div
-                  className={`h-1 rounded-full transition-all duration-300 ${
-                    isFocused ? 'bg-primary w-full' : 'bg-gray-200 w-8'
+                  className={`h-1 w-full rounded-full origin-left transition-[transform,background-color] duration-200 ease-[cubic-bezier(0.23,1,0.32,1)] ${
+                    isFocused ? 'bg-primary scale-x-100' : 'bg-gray-200 scale-x-[0.2]'
                   }`}
                 />
               </div>

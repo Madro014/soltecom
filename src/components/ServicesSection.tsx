@@ -59,8 +59,8 @@ const VideoCard = ({ vid, idx }: { vid: string, idx: number }) => {
       <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none" />
       
       {/* Center Play/Pause Icon */}
-      <div className="absolute inset-0 flex items-center justify-center pointer-events-none transition-all duration-300">
-        <div className={`w-16 h-16 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center border border-white/30 transition-all ${isPlaying ? 'opacity-0 scale-90 group-hover:opacity-100 group-hover:scale-100' : 'opacity-100 scale-100'}`}>
+      <div className="absolute inset-0 flex items-center justify-center pointer-events-none transition-opacity duration-200">
+        <div className={`w-16 h-16 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center border border-white/30 transition-[transform,opacity] duration-200 ease-[cubic-bezier(0.23,1,0.32,1)] ${isPlaying ? 'opacity-0 scale-90 group-hover:opacity-100 group-hover:scale-100' : 'opacity-100 scale-100'}`}>
           <span className="material-symbols-outlined text-white text-4xl drop-shadow-md">
             {isPlaying ? 'pause' : 'play_arrow'}
           </span>

@@ -1,11 +1,10 @@
 import React from 'react';
+import { AnimatePresence, m as motion } from 'framer-motion';
 import { useCartStore } from '../store/useCartStore';
 import { COMPANY_INFO } from '../data/company';
 
 export default function CartDrawer() {
   const { items, isOpen, closeCart, updateQuantity, removeItem, getSubtotal, getTax, getTotal } = useCartStore();
-
-  if (!isOpen) return null;
 
   const formatCOP = (num: number) => {
     return '$' + num.toLocaleString('es-CO') + ' COP';
@@ -24,15 +23,27 @@ export default function CartDrawer() {
   };
 
   return (
-    <div className="fixed inset-0 z-50 overflow-hidden">
-      <button 
-        type="button"
-        aria-label="Cerrar panel de cotización"
-        className="absolute inset-0 w-full h-full bg-black/50 backdrop-blur-sm transition-opacity border-none cursor-default"
-        onClick={closeCart}
-      />
-      <div className="fixed inset-y-0 right-0 max-w-full flex">
-        <div className="w-screen max-w-md bg-white shadow-2xl flex flex-col">
+    <AnimatePresence>
+      {isOpen && (
+        <div className="fixed inset-0 z-50 overflow-hidden">
+          <motion.button
+            type="button"
+            aria-label="Cerrar panel de cotización"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.2, ease: [0.23, 1, 0.32, 1] }}
+            className="absolute inset-0 w-full h-full bg-black/50 backdrop-blur-sm border-none cursor-default"
+            onClick={closeCart}
+          />
+          <div className="fixed inset-y-0 right-0 max-w-full flex pointer-events-none">
+            <motion.div
+              initial={{ x: '100%' }}
+              animate={{ x: 0 }}
+              exit={{ x: '100%' }}
+              transition={{ duration: 0.32, ease: [0.32, 0.72, 0, 1] }}
+              className="w-screen max-w-md bg-white shadow-2xl flex flex-col pointer-events-auto"
+            >
           {/* Header */}
           <div className="p-4 bg-secondary-darker text-white flex items-center justify-between">
             <div className="flex items-center gap-2">
@@ -122,7 +133,7 @@ export default function CartDrawer() {
               </div>
               <button 
                 onClick={handleWhatsAppCheckout}
-                className="w-full mt-2 py-3 px-4 rounded-xl bg-primary hover:bg-primary-dark text-white font-montserrat font-semibold flex items-center justify-center gap-2 shadow-md transition-colors duration-200"
+                className="w-full mt-2 py-3 px-4 rounded-xl bg-primary hover:bg-primary-dark text-white font-montserrat font-semibold flex items-center justify-center gap-2 shadow-md transition-[background-color,transform] duration-150 ease-[cubic-bezier(0.23,1,0.32,1)] active:scale-[0.97]"
               >
                 <span className="material-symbols-outlined text-xl">chat</span>
                 <span>Enviar cotización a WhatsApp ({COMPANY_INFO.whatsapp})</span>
@@ -130,8 +141,10 @@ export default function CartDrawer() {
               <p className="text-center text-xs text-gray-400">Atención inmediata: {COMPANY_INFO.address}, {COMPANY_INFO.city}</p>
             </div>
           )}
+            </motion.div>
+          </div>
         </div>
-      </div>
-    </div>
+      )}
+    </AnimatePresence>
   );
 }

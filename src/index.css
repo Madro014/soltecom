@@ -37,10 +37,31 @@
 }
 
 @layer base {
+  :root {
+    --ease-out-ui: cubic-bezier(0.23, 1, 0.32, 1);
+    --ease-in-out-ui: cubic-bezier(0.77, 0, 0.175, 1);
+    --ease-drawer: cubic-bezier(0.32, 0.72, 0, 1);
+  }
+
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+
   html, body {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    overflow-x: clip;
+  }
+
+  button, a, [role="button"] {
+    touch-action: manipulation;
+  }
+
+  @media (pointer: coarse) {
+    input, textarea, select {
+      font-size: 16px;
+    }
   }
 }
 

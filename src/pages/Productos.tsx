@@ -439,7 +439,7 @@ function ProductFilterControls({
                 <button
                   key={b.id}
                   onClick={() => setSelectedBrand(b.id)}
-                  className={`inline-flex items-center gap-1.5 h-10 px-3.5 py-1.5 rounded-xl font-montserrat text-xs font-semibold whitespace-nowrap transition-all shrink-0 cursor-pointer ${
+                  className={`inline-flex items-center gap-1.5 h-10 px-3.5 py-1.5 rounded-xl font-montserrat text-xs font-semibold whitespace-nowrap transition-[transform,background-color,color,border-color,box-shadow] duration-150 ease-[cubic-bezier(0.23,1,0.32,1)] active:scale-[0.97] shrink-0 cursor-pointer ${
                     isSelected
                       ? 'bg-secondary text-white shadow-md shadow-secondary/20 scale-[1.02] border border-secondary'
                       : 'bg-white text-gray-700 hover:bg-gray-50 hover:text-secondary border border-gray-200/80 shadow-sm'
@@ -464,7 +464,7 @@ function ProductFilterControls({
                 onClick={() => setSelectedBrand(b.id)}
                 title={b.name}
                 aria-label={`Filtrar por marca ${b.name}`}
-                className={`group inline-flex items-center gap-2 h-10 px-3 py-1 rounded-xl font-montserrat text-xs font-semibold whitespace-nowrap transition-all shrink-0 cursor-pointer bg-white ${
+                className={`group inline-flex items-center gap-2 h-10 px-3 py-1 rounded-xl font-montserrat text-xs font-semibold whitespace-nowrap transition-[transform,border-color,box-shadow] duration-150 ease-[cubic-bezier(0.23,1,0.32,1)] active:scale-[0.97] shrink-0 cursor-pointer bg-white ${
                   isSelected
                     ? 'border-2 border-secondary shadow-md ring-2 ring-secondary/15 scale-[1.03]'
                     : 'border border-gray-200/80 shadow-sm hover:border-gray-300 hover:shadow'
@@ -541,7 +541,7 @@ function ProductFilterControls({
                   setSelectedCategory(cat.id);
                   e.currentTarget.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
                 }}
-                className={`inline-flex items-center gap-2 px-3.5 py-2 rounded-xl font-montserrat text-xs font-semibold whitespace-nowrap transition-all shrink-0 cursor-pointer ${
+                className={`inline-flex items-center gap-2 px-3.5 py-2 rounded-xl font-montserrat text-xs font-semibold whitespace-nowrap transition-[transform,background-color,color,border-color,box-shadow] duration-150 ease-[cubic-bezier(0.23,1,0.32,1)] active:scale-[0.97] shrink-0 cursor-pointer ${
                   isSelected
                     ? 'bg-primary text-white shadow-md shadow-primary/20 scale-[1.02]'
                     : 'bg-white text-gray-700 hover:bg-gray-50 hover:text-primary border border-gray-200/80 shadow-sm'
@@ -611,7 +611,7 @@ function ProductPagination({
                   <button
                     type="button"
                     onClick={() => onPageChange(p)}
-                    className={`w-8 h-8 rounded-xl text-xs font-bold transition-all ${
+                    className={`w-8 h-8 rounded-xl text-xs font-bold transition-[transform,background-color,color,border-color] duration-150 ease-[cubic-bezier(0.23,1,0.32,1)] active:scale-[0.95] ${
                       currentPage === p
                         ? 'bg-primary text-white shadow-sm shadow-primary/30 scale-105'
                         : 'bg-white border border-gray-200 text-gray-700 hover:bg-gray-50 hover:text-primary'

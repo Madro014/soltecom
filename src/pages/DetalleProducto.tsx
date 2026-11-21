@@ -266,7 +266,7 @@ function ProductPurchaseCard({
             <button 
               type="button"
               onClick={() => setQuantity(1)}
-              className={`p-2 rounded-xl border transition-all cursor-pointer ${
+              className={`p-2 rounded-xl border transition-[border-color,background-color,color,transform] duration-150 ease-[cubic-bezier(0.23,1,0.32,1)] active:scale-[0.97] cursor-pointer ${
                 quantity < 3 ? 'border-primary bg-primary/5 text-primary' : 'border-gray-200 bg-gray-50'
               }`}
             >
@@ -280,7 +280,7 @@ function ProductPurchaseCard({
             <button 
               type="button"
               onClick={() => setQuantity(3)}
-              className={`p-2 rounded-xl border transition-all cursor-pointer ${
+              className={`p-2 rounded-xl border transition-[border-color,background-color,color,transform] duration-150 ease-[cubic-bezier(0.23,1,0.32,1)] active:scale-[0.97] cursor-pointer ${
                 quantity >= 3 && quantity < 10 ? 'border-primary bg-primary/5 text-primary' : 'border-gray-200 bg-gray-50'
               }`}
             >
@@ -294,7 +294,7 @@ function ProductPurchaseCard({
             <button 
               type="button"
               onClick={() => setQuantity(10)}
-              className={`p-2 rounded-xl border transition-all cursor-pointer ${
+              className={`p-2 rounded-xl border transition-[border-color,background-color,color,transform] duration-150 ease-[cubic-bezier(0.23,1,0.32,1)] active:scale-[0.97] cursor-pointer ${
                 quantity >= 10 ? 'border-primary bg-primary/5 text-primary' : 'border-gray-200 bg-gray-50'
               }`}
             >

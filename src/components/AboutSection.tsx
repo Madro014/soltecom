@@ -44,9 +44,9 @@ export default function AboutSection() {
 
             {/* Overlapping Badge */}
             <motion.div 
-              initial={{ scale: 0, rotate: -10 }}
-              whileInView={{ scale: 1, rotate: 0 }}
-              transition={{ delay: 0.5, type: "spring", stiffness: 200, damping: 15 }}
+              initial={{ opacity: 0, scale: 0.92, rotate: -4 }}
+              whileInView={{ opacity: 1, scale: 1, rotate: 0 }}
+              transition={{ delay: 0.25, type: "spring", duration: 0.5, bounce: 0.2 }}
               className="hidden sm:flex absolute -top-6 -right-6 px-5 py-4 rounded-2xl bg-secondary-darker text-white shadow-2xl items-center gap-3 border border-white/10"
             >
               <div className="bg-primary/20 p-2 rounded-lg text-primary-fixed">

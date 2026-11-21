@@ -196,7 +196,7 @@ export default function Contacto() {
                       type="text"
                       placeholder="Ej: Carlos Ramírez"
                       {...register('name', { required: 'El nombre es obligatorio' })}
-                      className="w-full px-4 py-3 rounded-xl bg-black/20 border border-white/10 text-sm text-white placeholder-gray-500 focus:outline-none focus:ring-1 focus:ring-emerald-400 focus:border-emerald-400 transition-all duration-300"
+                      className="w-full px-4 py-3 rounded-xl bg-black/20 border border-white/10 text-sm text-white placeholder-gray-500 focus:outline-none focus:ring-1 focus:ring-emerald-400 focus:border-emerald-400 transition-[border-color,box-shadow] duration-150"
                     />
                     {errors.name && (
                       <span className="text-[11px] text-red-400 mt-1 ml-1 block">{errors.name.message}</span>
@@ -212,7 +212,7 @@ export default function Contacto() {
                       type="text"
                       placeholder="Ej: Constructora Andes SAS"
                       {...register('company', { required: 'La empresa es obligatoria' })}
-                      className="w-full px-4 py-3 rounded-xl bg-black/20 border border-white/10 text-sm text-white placeholder-gray-500 focus:outline-none focus:ring-1 focus:ring-emerald-400 focus:border-emerald-400 transition-all duration-300"
+                      className="w-full px-4 py-3 rounded-xl bg-black/20 border border-white/10 text-sm text-white placeholder-gray-500 focus:outline-none focus:ring-1 focus:ring-emerald-400 focus:border-emerald-400 transition-[border-color,box-shadow] duration-150"
                     />
                     {errors.company && (
                       <span className="text-[11px] text-red-400 mt-1 ml-1 block">{errors.company.message}</span>
@@ -230,7 +230,7 @@ export default function Contacto() {
                       type="tel"
                       placeholder="Ej: 320 123 4567"
                       {...register('phone', { required: 'El teléfono es obligatorio' })}
-                      className="w-full px-4 py-3 rounded-xl bg-black/20 border border-white/10 text-sm text-white placeholder-gray-500 focus:outline-none focus:ring-1 focus:ring-emerald-400 focus:border-emerald-400 transition-all duration-300"
+                      className="w-full px-4 py-3 rounded-xl bg-black/20 border border-white/10 text-sm text-white placeholder-gray-500 focus:outline-none focus:ring-1 focus:ring-emerald-400 focus:border-emerald-400 transition-[border-color,box-shadow] duration-150"
                     />
                     {errors.phone && (
                       <span className="text-[11px] text-red-400 mt-1 ml-1 block">{errors.phone.message}</span>
@@ -246,7 +246,7 @@ export default function Contacto() {
                       type="email"
                       placeholder="Ej: compras@empresa.com"
                       {...register('email', { required: 'El correo es obligatorio' })}
-                      className="w-full px-4 py-3 rounded-xl bg-black/20 border border-white/10 text-sm text-white placeholder-gray-500 focus:outline-none focus:ring-1 focus:ring-emerald-400 focus:border-emerald-400 transition-all duration-300"
+                      className="w-full px-4 py-3 rounded-xl bg-black/20 border border-white/10 text-sm text-white placeholder-gray-500 focus:outline-none focus:ring-1 focus:ring-emerald-400 focus:border-emerald-400 transition-[border-color,box-shadow] duration-150"
                     />
                     {errors.email && (
                       <span className="text-[11px] text-red-400 mt-1 ml-1 block">{errors.email.message}</span>
@@ -261,7 +261,7 @@ export default function Contacto() {
                   <select
                     id="contact-solution"
                     {...register('solution', { required: 'Seleccione una solución' })}
-                    className="w-full px-4 py-3 rounded-xl bg-[#071324] border border-white/10 text-sm text-white focus:outline-none focus:ring-1 focus:ring-emerald-400 focus:border-emerald-400 transition-all duration-300 appearance-none cursor-pointer"
+                    className="w-full px-4 py-3 rounded-xl bg-[#071324] border border-white/10 text-sm text-white focus:outline-none focus:ring-1 focus:ring-emerald-400 focus:border-emerald-400 transition-[border-color,box-shadow] duration-150 appearance-none cursor-pointer"
                     defaultValue=""
                   >
                     <option value="" disabled className="text-gray-500">Seleccione el tipo de proyecto...</option>
@@ -288,13 +288,13 @@ export default function Contacto() {
                     rows={3}
                     placeholder="Describa la cantidad de puntos, sector (bodega, conjunto, oficinas) o requerimientos especiales..."
                     {...register('notes')}
-                    className="w-full px-4 py-3 rounded-xl bg-black/20 border border-white/10 text-sm text-white placeholder-gray-500 focus:outline-none focus:ring-1 focus:ring-emerald-400 focus:border-emerald-400 transition-all duration-300"
+                    className="w-full px-4 py-3 rounded-xl bg-black/20 border border-white/10 text-sm text-white placeholder-gray-500 focus:outline-none focus:ring-1 focus:ring-emerald-400 focus:border-emerald-400 transition-[border-color,box-shadow] duration-150"
                   />
                 </div>
 
                 <button
                   type="submit"
-                  className="w-full py-3.5 px-6 mt-2 rounded-xl bg-white text-slate-900 hover:bg-gray-200 font-montserrat font-bold text-sm flex items-center justify-center gap-2 shadow-[0_0_20px_rgba(255,255,255,0.1)] transition-all duration-300 hover:scale-[1.02]"
+                  className="w-full py-3.5 px-6 mt-2 rounded-xl bg-white text-slate-900 hover:bg-gray-200 font-montserrat font-bold text-sm flex items-center justify-center gap-2 shadow-[0_0_20px_rgba(255,255,255,0.1)] transition-[background-color,transform] duration-150 ease-[cubic-bezier(0.23,1,0.32,1)] active:scale-[0.98]"
                 >
                   <span className="material-symbols-outlined text-xl">send</span>
                   <span>Enviar Solicitud a Ingeniero Asignado</span>
